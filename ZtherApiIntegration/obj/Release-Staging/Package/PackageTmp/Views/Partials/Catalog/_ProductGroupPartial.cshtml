@@ -1,0 +1,36 @@
+﻿@using ZtherApiIntegration.Models.Catalog
+@using ZtherApiIntegration.Common
+@model CatalogModel
+
+<div class="mobile_row">
+    @for (int i = 0; i < 4 && i < Model.ProductList.Products.Count; i++)
+    {
+        var aProd = Model.ProductList.Products[i];
+        <div class="product">
+            <div class="view_details_cta"><div class="box">View Details</div></div>
+            <a href="@UrlBuilder.BuildProductDetailUrl( Model.Selections.Breadcrumb, aProd.Code, aProd.Name)">
+                <div class="img_container">
+                    <img class="product_img" srcset="@aProd.Image" alt="@aProd.Name" />
+                    @if (aProd.IsNew)
+                    {
+                    <div class="new_tag"></div>
+                    }
+                    else if (aProd.HasNewColors)
+                    {
+                        <div class="new_tag new_colors"></div>
+                    }
+                </div>
+                <div class="footer">
+                    <div class="text">@aProd.Name</div>
+                    <div class="number">@aProd.Code</div>
+                </div>
+            </a>
+        </div>
+
+        if (i == 1 && Model.ProductList.Products.Count > 2)
+        {
+            @:</div>
+            @:<div class="mobile_row">
+        }
+    }
+</div>

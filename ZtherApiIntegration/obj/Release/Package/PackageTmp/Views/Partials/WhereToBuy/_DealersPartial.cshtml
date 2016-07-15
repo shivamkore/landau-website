@@ -1,0 +1,74 @@
+﻿@using ZtherApiIntegration.Models.WhereToBuy
+@model WhereToBuyModel
+
+<script type="text/javascript">
+    var retail_locations = [];
+
+    @foreach (var r in Model.RetailList.Retailers)
+    {
+        @:retail_locations.push(['@r.StoreName', '@r.Latitude', '@r.Longitude']);
+    }
+
+</script>
+
+<div class="title visible-lg">
+    <h2 class="text">Retailers</h2>
+    <div class="sub_text">@Model.SearchByDesc
+    <span class="highlight space_left">@Model.SearchByValue</span>
+    <span class="divider">|</span>Displaying
+    <span class="highlight space_both">@Model.RetailList.Retailers.Count</span>Stores
+</div>
+</div>
+
+@*Iterate rows*@
+@for (int i = 0; i <= 4; i++)
+{
+    <div class="location_row">
+
+        @for (int j = (i * 3); j < Model.RetailList.Retailers.Count && j < ((i + 1) * 3); j++)
+        {
+            var retail = Model.RetailList.Retailers[j];
+            <div class="location">
+                <img class="marker" srcset="public/images/where_to_buy/location_icon_small.svg" alt="" />
+                <div class="right">
+                    <h2 class="name">@retail.StoreName</h2>
+                    <div class="block mobile_padding">
+                        <div class="text">@retail.Address</div>
+                        <div class="text">@string.Format("{0}, {1} {2}", retail.City, retail.State, retail.ZipCode)</div>
+                    </div>
+                    <div class="block top_padding">
+                        @if (!string.IsNullOrEmpty(retail.Phone))
+                        {
+                            <div class="text phone">Phone: @retail.Phone</div>
+                        }
+                        @if (!string.IsNullOrEmpty(retail.Fax))
+                        {
+                            <div class="text">Fax: @retail.Fax</div>
+                        }
+                        <div class="text">Distance: @retail.Distance miles</div>
+                    </div>
+                    <div class="block mobile_padding">
+                        @if (!string.IsNullOrEmpty(retail.WebSite))
+                        {
+                            <div class="text website"><a href="//@retail.WebSite">@retail.WebSite</a></div>
+                        }
+                        @*@if (!string.IsNullOrEmpty(retail.Email))
+                        {
+                            <div class="text email"><a href="mailto:@retail.Email">@retail.Email</a></div>
+                        }*@
+                    </div>
+                    <a class="info_toggle">
+                        <span class="more">More Details</span>
+                        <span class="less">Less Details</span>
+                    </a>
+                </div>
+            </div>
+        }
+
+    </div>
+}
+
+@*Pagination*@
+<div id="bottomPagination">
+    @Html.Partial("~/Views/Partials/WhereToBuy/_PaginationPartial.cshtml", Model.RetailList.Pagination)
+</div>

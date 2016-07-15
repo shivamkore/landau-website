@@ -1,0 +1,73 @@
+﻿@using ZtherApiIntegration.Models.Catalog
+@using ZtherApiIntegration.Common
+
+@model CatalogSelectionModel
+
+<li class="dropdown nav-left">
+    <a class="dropdown-toggle">
+        Womens <span>&#xe800;</span>
+    </a>
+    <ul class="dropdown-menu">
+        <li>
+            <ul class="ul-category">
+                <li class="dropdown-header">Products</li>
+                @foreach (var dropDownItem in Model.WomenCategories)
+                {
+                    <li><a href="@UrlBuilder.BuildCatalogUrl(new BreadcrumbModel() {Gender=Model.Breadcrumb.Gender, Category=dropDownItem })">@dropDownItem.Value</a></li>
+                }
+            </ul>
+        </li>
+        <li>
+            <ul class="ul-category">
+                <li class="dropdown-header">Collections</li>
+                @foreach (var dropDownItem in Model.WomenCollections)
+                {                    
+                    <li><a href="@UrlBuilder.BuildCatalogUrl(new BreadcrumbModel() {Gender=Model.Breadcrumb.Gender, Collection=dropDownItem })">@dropDownItem.Value</a></li>
+                }
+            </ul>
+        </li>
+        <li>
+            <a href="@UrlBuilder.BuildFullUrl(UrlEnum.COLLECTIONS)">
+                <div class="banner-container">
+                    <img src="public/images/header/banner1.jpg">
+                    <!--<div class="banner-header">Spring Collection</div>
+            <div class="banner-text">View More</div>-->
+                </div>
+            </a>
+        </li>
+    </ul>
+</li>
+<li class="dropdown nav-left">
+    <a class="dropdown-toggle">
+        Mens <span>&#xe800;</span>
+    </a>
+    <ul class="dropdown-menu">
+        <li>
+            <ul class="ul-category">
+                <li class="dropdown-header">Products</li>
+                @foreach (var dropDownItem in Model.MenCategories)
+                {
+                    <li><a href="@UrlBuilder.BuildCatalogUrl(new BreadcrumbModel() {Gender=Model.Breadcrumb.Gender, Category=dropDownItem })">@dropDownItem.Value</a></li>
+                }
+            </ul>
+        </li>
+        <li>
+            <ul class="ul-category">
+                <li class="dropdown-header">Collections</li>
+                @foreach (var dropDownItem in Model.MenCollections)
+                {
+                    <li><a href="@UrlBuilder.BuildCatalogUrl(new BreadcrumbModel() {Gender=Model.Breadcrumb.Gender, Collection=dropDownItem })">@dropDownItem.Value</a></li>
+                }
+            </ul>
+        </li>
+        <li>
+            <a href="@UrlBuilder.BuildFullUrl(UrlEnum.COLLECTIONS)">
+                <div class="banner-container">
+                    <img src="public/images/header/banner1.jpg">
+                    <!--<div class="banner-header">Spring Collection</div>
+            <div class="banner-text">View More</div>-->
+                </div>
+            </a>
+        </li>
+    </ul>
+</li>

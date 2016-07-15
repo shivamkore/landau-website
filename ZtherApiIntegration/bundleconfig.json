@@ -1,0 +1,14 @@
+[
+  {
+    "outputFileName": "public/css/custom.css",
+    "inputFiles": [
+      "public/css/custom.css"
+    ]
+  },
+  {
+    "outputFileName": "public/css/style.css",
+    "inputFiles": [
+      "public/css/style.css"
+    ]
+  }
+]

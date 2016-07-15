@@ -1,0 +1,269 @@
+﻿@using ZtherApiIntegration.Models.Catalog
+@using ZtherApiIntegration.Common
+@model CatalogSelectionModel
+
+<header id="main_header">
+    <div id="utility">
+        <div class="container">
+            <div class="logo col-sm-4">
+                <ul>
+                    @if (Request.Url.Host.Equals("landau-staging.azurewebsites.net", StringComparison.OrdinalIgnoreCase))
+                    {
+                        <li class="active">
+                            <a href="http://landau-staging.azurewebsites.net">
+                                <img class="landau" srcset="public/images/header/landau_logo.svg" alt="Landau" />
+                            </a>
+                        </li>
+                        <li>
+                            <a href="http://urbanescrubs-staging.azurewebsites.net">
+                                <img class="urbane" srcset="public/images/header/urbane_logo.svg" alt="Urbane" />
+                            </a>
+                        </li>
+                        <li>
+                            <a href="http://smittenscrubs-staging.azurewebsites.net">
+                                <img class="smitten" srcset="public/images/header/smitten_logo.svg" alt="Smitten" />
+                            </a>
+                        </li>
+                    }
+                    else
+                    {
+                        <li class="active">
+                            <a href="http://www.landau.com">
+                                <img class="landau" srcset="public/images/header/landau_logo.svg" alt="Landau" />
+                            </a>
+                        </li>
+                        <li>
+                            <a href="http://www.urbanescrubs.com">
+                                <img class="urbane" srcset="public/images/header/urbane_logo.svg" alt="Urbane" />
+                            </a>
+                        </li>
+                        <li>
+                            <a href="http://www.smittenscrubs.com">
+                                <img class="smitten" srcset="public/images/header/smitten_logo.svg" alt="Smitten" />
+                            </a>
+                        </li>
+                    }
+                </ul>
+            </div>
+            <div class="nav_search col-sm-8">
+                <div class="nav">
+                    <ul>
+                        <li>
+                            <a href="http://landau.azureedge.net/landau/index.html" target="_blank" id="desktop-pdf-link">
+                                <span class="nav-text">Catalog</span>
+                            </a>
+                            <a href="public/catalog.pdf" target="_blank" id="mobile-pdf-link">
+                                <span class="nav-text">Catalog</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="@UrlBuilder.BuildFullUrl(UrlEnum.NEWS)">
+                                <span class="nav-text">News</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="@UrlBuilder.BuildFullUrl(UrlEnum.WHERE_TO_BUY)">
+                                <span class="nav-text">Where to buy</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="@UrlBuilder.BuildFullUrl(UrlEnum.FIT_GUIDE)">
+                                <span class="nav-text">Fit Guide</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="@UrlBuilder.BuildFullUrl(UrlEnum.FAVS)" class="num">
+                                <span class="nav-text">My Favorites</span>
+                                <span class="num-circle"><span class="num">0</span></span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="search" itemscope itemtype="http://schema.org/WebSite">
+                    <meta itemprop="url" content="http://www.landau.com/" />
+
+                    @using (Html.BeginForm("Index", "Search", FormMethod.Get, new {itemprop="potentialAction", itemscope="itemscope", itemtype="http://schema.org/SearchAction" }))
+                    {
+                        <meta itemprop="target" content="@(UrlBuilder.BuildHomeUrl() + "q={search_term_string}")" />
+
+                        @Html.TextBox("search_term_string", "", new { placeholder = "Enter product name", @class = "search", type = "text", required = "required", itemprop = "query-input", name = "search_term_string" })
+
+                        <input type="submit" class="submit">
+                    }
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="main_nav">
+        <ul>
+            <li class="mobile-only navbar-toggle-wrapper">
+                <button id="side_nav_button" type="button" class="navbar-toggle" data-target="#main_nav_side">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <img class="x-icon" src="public/images/header/x-icon.svg">
+                </button>
+            </li>
+            <li class="dropdown nav-left">
+                <a class="dropdown-toggle">
+                    Women <span>&#xe800;</span>
+                </a>
+                <ul class="dropdown-menu">
+                    <li>
+                        <ul class="ul-category">
+                            <li class="dropdown-header">Products</li>
+                            @foreach (var dropDownItem in Model.WomenCategories)
+                            {
+                                <li><a href="@UrlBuilder.BuildCatalogUrl(new BreadcrumbModel(){Gender="women", Category=dropDownItem})">@dropDownItem.Value</a></li>
+                            }
+                        </ul>
+                    </li>
+                    <li>
+                        <ul class="ul-category">
+                            <li class="dropdown-header">Collections</li>
+                            @foreach (var dropDownItem in Model.WomenCollections)
+                            {
+                                <li><a href="@UrlBuilder.BuildCatalogUrl(new BreadcrumbModel() { Gender = "women", Collection = dropDownItem })">@dropDownItem.Value</a></li>
+                            }
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="@UrlBuilder.BuildCategoryUrl("women", UrlBuilder.CATALOG_NEW_ARRIVALS)">
+                            <div class="banner-container">
+                                <img src="public/images/header/banner1.jpg">
+                            </div>
+                        </a>
+                    </li>
+                </ul>
+            </li>
+            <li class="dropdown nav-left">
+                <a class="dropdown-toggle">
+                    Men <span>&#xe800;</span>
+                </a>
+                <ul class="dropdown-menu">
+                    <li>
+                        <ul class="ul-category">
+                            <li class="dropdown-header">Products</li>
+                            @foreach (var dropDownItem in Model.MenCategories)
+                            {
+                                <li><a href="@UrlBuilder.BuildCatalogUrl(new BreadcrumbModel() { Gender = "men", Category = dropDownItem })">@dropDownItem.Value</a></li>
+                            }
+                        </ul>
+                    </li>
+                    <li>
+                        <ul class="ul-category">
+                            <li class="dropdown-header">Collections</li>
+                            @foreach (var dropDownItem in Model.MenCollections)
+                            {
+                                <li><a href="@UrlBuilder.BuildCatalogUrl(new BreadcrumbModel() { Gender = "men", Collection = dropDownItem })">@dropDownItem.Value</a></li>
+                            }
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="@UrlBuilder.BuildCategoryUrl("women", UrlBuilder.CATALOG_NEW_ARRIVALS)">
+                            <div class="banner-container">
+                                <img src="public/images/header/banner1.jpg">
+                            </div>
+                        </a>
+                    </li>
+                </ul>
+            </li>
+            <li class="nav-left">
+                <a href="@UrlBuilder.BuildFullUrl(UrlEnum.SOLIDS)">Solids</a>
+            </li>
+            <li class="logo" itemscope itemtype="http://schema.org/Organization">
+                <a href="/">
+                    <img srcset="public/images/header/landau_logo.svg" alt="Landau" itemprop="logo" />
+                </a>
+                <meta itemprop="name" value="Landau" />
+            </li>
+            <li class="nav-right"><a href="@UrlBuilder.BuildFullUrl(UrlEnum.PRINTS)">Prints</a></li>
+            <li class="nav-right"><a href="@UrlBuilder.BuildFullUrl(UrlEnum.GROUPS)">Groups</a></li>
+            <li class="nav-right"><a href="@UrlBuilder.BuildFullUrl(UrlEnum.COLLECTIONS)">Collections</a></li>
+            <li class="mobile-only navbar-search-wrapper">
+                <button id="search-button" type="button" class="navbar-toggle" data-target="#navbar-search">
+                    <span class="sr-only">Toggle navigation</span>
+                    <img class="mag-icon" src="public/images/header/mag_mobile.svg">
+                    <img class="x-icon" src="public/images/header/x-icon.svg">
+                </button>
+            </li>
+        </ul>
+    </div>
+    <div id="navbar-search" class="search mobile-only">
+        @using (Html.BeginForm("Index", "Search", FormMethod.Get))
+        {
+            @Html.TextBox("search_term_string", "", new { placeholder = "search", @class = "search", type = "text", required = "required", name = "search_term_string" })
+
+            <input type="submit" class="submit">
+        }
+    </div>
+    <div id="main_nav_side" class="mobile-only">
+        <ul>
+            <li class="dropdown">
+                <a class="dropdown-toggle" role="button" aria-haspopup="true" aria-expanded="true">
+                    Women <span>&#xe800;</span>
+                </a>
+                <ul class="dropdown-menu">
+                    <li>
+                        <ul class="ul-category">
+                            @foreach (var dropDownItem in Model.WomenCategories)
+                            {
+                                <li><a href="@UrlBuilder.BuildCatalogUrl(new BreadcrumbModel() { Gender = "women", Category = dropDownItem })">@dropDownItem.Value</a></li>
+                            }
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+            <li class="dropdown">
+                <a class="dropdown-toggle" role="button" aria-haspopup="true" aria-expanded="true">
+                    Men <span>&#xe800;</span>
+                </a>
+                <ul class="dropdown-menu">
+                    <li>
+                        <ul class="ul-category">
+                            @foreach (var dropDownItem in Model.MenCategories)
+                            {
+                                <li><a href="@UrlBuilder.BuildCatalogUrl(new BreadcrumbModel() { Gender = "men", Category = dropDownItem })">@dropDownItem.Value</a></li>
+                            }
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+            <li><a href="@UrlBuilder.BuildFullUrl(UrlEnum.SOLIDS)">Solids</a></li>
+            <li><a href="@UrlBuilder.BuildFullUrl(UrlEnum.PRINTS)">Prints</a></li>
+            <li><a href="@UrlBuilder.BuildFullUrl(UrlEnum.GROUPS)">Groups</a></li>
+            <li><a href="@UrlBuilder.BuildFullUrl(UrlEnum.COLLECTIONS)">Collections</a></li>
+            <li>
+                <div class="hor-divider"></div>
+            </li>
+            <li>
+                <a href="public/catalog.pdf">
+                    <span class="nav-text">Catalog</span>
+                </a>
+            </li>
+            <li>
+                <a href="@UrlBuilder.BuildFullUrl(UrlEnum.NEWS)">
+                    <span class="nav-text">News</span>
+                </a>
+            </li>
+            <li>
+                <a href="@UrlBuilder.BuildFullUrl(UrlEnum.WHERE_TO_BUY)">
+                    <span class="nav-text">Where to buy</span>
+                </a>
+            </li>
+            <li>
+                <a href="@UrlBuilder.BuildFullUrl(UrlEnum.FIT_GUIDE)">
+                    <span class="nav-text">Fit Guide</span>
+                </a>
+            </li>
+            <li>
+                <a href="@UrlBuilder.BuildFullUrl(UrlEnum.FAVS)" class="num">
+                    <span class="nav-text">My Favorites</span>
+                    <span class="num-circle"><span class="num">0</span></span>
+                </a>
+            </li>
+        </ul>
+    </div>
+</header>
+<script src="public/js/logic/header.js"></script>

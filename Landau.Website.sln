@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Landau", "ZtherApiIntegration\Landau.csproj", "{7BC27821-7C2A-4098-BC51-96A2BF8F136D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{33C3755C-38F4-4B52-920F-17F9C2745D1F}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\NuGet.Config = .nuget\NuGet.Config
+		.nuget\NuGet.exe = .nuget\NuGet.exe
+		.nuget\NuGet.targets = .nuget\NuGet.targets
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+		Release-Staging|Any CPU = Release-Staging|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7BC27821-7C2A-4098-BC51-96A2BF8F136D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7BC27821-7C2A-4098-BC51-96A2BF8F136D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7BC27821-7C2A-4098-BC51-96A2BF8F136D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7BC27821-7C2A-4098-BC51-96A2BF8F136D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7BC27821-7C2A-4098-BC51-96A2BF8F136D}.Release-Staging|Any CPU.ActiveCfg = Release-Staging|Any CPU
+		{7BC27821-7C2A-4098-BC51-96A2BF8F136D}.Release-Staging|Any CPU.Build.0 = Release-Staging|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

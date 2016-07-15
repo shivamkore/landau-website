@@ -1,0 +1,58 @@
+﻿@using ZtherApiIntegration.Models.Swatch
+@using ZtherApiIntegration.Common
+@model List<SwatchProductModel>
+
+@if (Model.Count > 4)
+{ 
+<div class="products_slider">
+    <div class="flexslider">
+        <div class="content">
+            <ul class="slides">
+
+                @for (var i = 0; (i < Model.Count && i < (int)Math.Ceiling((decimal)Model.Count / 4)); i++)
+                {
+                    <li>
+                        @for (int j = (i * 4); j < Model.Count && j < ((i + 1) * 4); j++)
+                        {
+                            var product = Model[j];
+
+                            <div class="mobile-row">
+                                <a href="@UrlBuilder.BuildCanonicalProductDetailUrlWithColor(product.ProductCode,product.ProductName, product.ColorCode)">
+                                    <div class="product">
+                                        <div class="image" style="background-image: url('@product.ImageUri');"></div>
+                                        <div class="text">
+                                            <div class="id">@product.ProductCode</div>
+                                            <h4>@product.ProductName</h4>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        }
+                    </li>
+                }
+
+            </ul>
+            <!--.slides-->
+        </div>
+        <!--.content-->
+    </div>
+    <!--.flexslider-->
+</div>
+<!--.products_slider-->
+}
+
+else
+{
+    foreach (var p in Model)
+    {
+        <a href="@UrlBuilder.BuildCanonicalProductDetailUrlWithColor(p.ProductCode,p.ProductName, p.ColorCode)">
+            <div class="product">
+                <div class="image" style="background-image: url('@p.ImageUri');"></div>
+                <div class="text">
+                    <div class="id">@p.ProductCode</div>
+                    <h4>@p.ProductName</h4>
+                </div>
+            </div>
+        </a>
+    }
+}

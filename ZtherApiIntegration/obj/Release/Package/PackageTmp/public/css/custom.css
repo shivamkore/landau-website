@@ -1,0 +1,89 @@
+﻿#widget-container iframe {
+    width:100%;
+    height:300px
+}
+
+#myModal .modal-header h4 {
+    font-family:Proxima N W01 Bold;
+    color:#002049;
+    font-size:1.8em
+}
+
+@media screen and (max-width:561px) {
+    #widget-container iframe {
+        height:400px;
+    }
+}
+
+@media screen and (max-width:401px) {
+    #widget-container iframe {
+        height:600px;
+    }
+}
+
+.buy_now_button, .buy_now_text, .buy_now_image {
+    display: inline-block;
+    padding-bottom: 10px;
+}
+
+.buy_now_text {
+    font-family: Proxima N W01 Reg;
+    font-weight: bold;
+    text-align: justify;
+    padding: 0 6%;
+}
+
+.buy_now_image {
+    padding: 0 6%;
+}
+
+
+#homepage .home_slider .flexslider ul.slides li.home-slider-scholarship .content {
+    display: block;
+    position: absolute;
+    top: 0;
+    left:  0;
+}
+
+#homepage .home_slider .flexslider ul.slides li.home-slider-scholarship .content img,
+#news img {
+    width: 100%;
+    height: 100%;
+    min-height: 510px;
+}
+
+@media (min-width: 1400px) {
+    #homepage .home_slider .flexslider ul.slides li.home-slider-scholarship .content img,
+    #news img {
+        width: 100%;
+        height: 100%;
+        min-height: 586px;
+    }
+}
+
+/* Medium */
+@media (min-width: 1200px) and (max-width: 1399px) {
+
+}
+
+/* Medium */
+@media (min-width: 992px) and (max-width: 1199px) {
+    /*#homepage .home_slider .flexslider ul.slides li.home-slider-scholarship .content img,
+    #news img {
+        min-height: 510px;
+    }*/
+}
+
+/* Small */
+@media (max-width: 767px) {
+    
+}
+
+.captcha {
+    margin: 20px 0;
+}
+
+.validation-summary-errors ul li {
+    font-weight: bold;
+    color: #ee2a31;
+}

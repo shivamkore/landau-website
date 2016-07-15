@@ -1,0 +1,32 @@
+﻿@using ZtherApiIntegration.Models.Detail
+@using ZtherApiIntegration.Common
+@model List<ProductImageModel>
+
+@{
+    var isIE = Utility.IsIE(Request);
+    var firstImage = Model.Count > 0 ? Model[0].DetailImageUri : Constants.IMAGE_NOT_FOUND;
+}
+<div class="preview_wrapper">
+    <img class="preview active @(Model.Count > 0 ? "" : "disabled")" preview="1" srcset="@firstImage" @(isIE ? " src=" + firstImage + " " : "") alt="" />
+    @for (int i = 1; i < Model.Count; i++)
+    {        
+        var aImage = string.IsNullOrEmpty(Model[i].DetailImageUri) ? Constants.IMAGE_NOT_FOUND : Model[i].DetailImageUri;
+        <img class="preview" preview="@(i+1)" srcset="@aImage" @(isIE ? " src=" + aImage + " " : "") alt=""/>
+    }
+</div>
+
+<div class="thumbnail_container">
+    
+    @for (int i = 0; i < Model.Count; i++)
+    {
+        var aImage = string.IsNullOrEmpty(Model[i].ThumbnailImageUri) ? Constants.IMAGE_NOT_FOUND : Model[i].ThumbnailImageUri;
+            <img class="thumbnail_img @(i==0 ? "active" : "")" thumbnail="@(i+1) " srcset="@aImage" @(isIE ? " src=" + aImage + " " : "") alt="" />
+    }
+  
+</div>
+
+<div class="zoom_hint_container">
+    <img class="zoom" srcset="public/images/detail/icons/zoom.png" alt="" />
+    <div class="text">Zoom In</div>
+</div>
+

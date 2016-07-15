@@ -1,0 +1,21 @@
+﻿@using ZtherApiIntegration.Models
+@model PaginationModel
+
+@if (Model.PageCount > Model.PageSize)
+{
+    var totalPage = Math.Ceiling((decimal)@Model.PageCount / Model.PageSize);
+    <div class="pagination_wrapper">
+        <div class="pagination_container">
+            <a href="@(Model.CurrentPage > 1 ? "javascript:previousPage();" : "#")" class="prev page_button">
+                <div class="arrow">&#xe800;</div>
+            </a>
+            <div class="pages">
+                <a href="#">@Model.CurrentPage</a> -
+                <a href="#">@totalPage</a>
+           </div>
+            <a href="@(Model.CurrentPage < totalPage ? "javascript:nextPage();" : "#")" class="next page_button">
+                <div class="arrow">&#xe800;</div>
+            </a>
+        </div>
+    </div>
+}

@@ -1,0 +1,45 @@
+﻿@using ZtherApiIntegration.Models
+@model RetailListModel
+
+<ul class="slides clearfix">
+@for (int i = 0; i <= Model.Retailers.Count && i < (int)Math.Ceiling((decimal)Model.Retailers.Count/3); i++)
+{
+    <li>
+    @for (int j = (i * 3); j < Model.Retailers.Count && j < ((i + 1) * 3); j++)
+    {
+        var retail = Model.Retailers[j];
+
+        <div class="location">
+            <img class="marker" srcset="public/images/where_to_buy/location_icon_big.svg" alt="" />
+            <div class="right">
+                <div class="name">@retail.StoreName</div>
+                <div class="block mobile_padding">
+                    <div class="text">@retail.Address</div>
+                    <div class="text">@*Kay Nurse & School Uniforms*@</div>
+                    <div class="text">@string.Format("{0}, {1} {2}", retail.City, retail.State, retail.ZipCode)</div>
+                </div>
+                <div class="block top_padding">
+                    <div class="text phone">Phone: @retail.Phone</div>
+                    <div class="text">Fax: @retail.Fax</div>
+                    <div class="text">Distance: @retail.Distance miles</div>
+                </div>
+                <div class="block mobile_padding">
+                    @if (!string.IsNullOrEmpty(retail.WebSite))
+                    {
+                        <div class="text website"><a href="//@retail.WebSite">@retail.WebSite</a></div>
+                    }
+                    @*@if (!string.IsNullOrEmpty(retail.Email))
+                    {
+                        <div class="text email"><a href="mailto:@retail.Email">@retail.Email</a></div>
+                    }*@
+                </div>
+                <a class="info_toggle">
+                    <span class="more">More Details</span>
+                    <span class="less">Less Details</span>
+                </a>
+            </div>
+        </div>
+    }
+    </li>
+}
+</ul>

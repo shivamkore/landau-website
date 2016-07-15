@@ -3,3 +3,10 @@
 ################################################################################
 
 /ZtherApiIntegration/Properties/PublishProfiles/landau-staging - Web Deploy.pubxml.user
+/ZtherApiIntegration/Properties/PublishProfiles/landau-staging - Web Deploy.pubxml
+/ZtherApiIntegration/Properties/PublishProfiles/landau-staging - FTP.pubxml.user
+/ZtherApiIntegration/Properties/PublishProfiles/landau-staging - FTP.pubxml
+/ZtherApiIntegration/Properties/PublishProfiles/landau - Web Deploy.pubxml.user
+/ZtherApiIntegration/Properties/PublishProfiles/landau - Web Deploy.pubxml
+/ZtherApiIntegration/Properties/PublishProfiles/landau - FTP.pubxml.user
+/ZtherApiIntegration/Properties/PublishProfiles/landau - FTP.pubxml

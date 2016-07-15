@@ -1,0 +1,1098 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{7BC27821-7C2A-4098-BC51-96A2BF8F136D}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>ZtherApiIntegration</RootNamespace>
+    <AssemblyName>ZtherApiIntegration</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <MvcBuildViews>false</MvcBuildViews>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <SolutionDir Condition="$(SolutionDir) == '' Or $(SolutionDir) == '*Undefined*'">..\</SolutionDir>
+    <RestorePackages>true</RestorePackages>
+    <UseGlobalApplicationHostFile />
+    <SccProjectName>
+    </SccProjectName>
+    <SccLocalPath>
+    </SccLocalPath>
+    <SccAuxPath>
+    </SccAuxPath>
+    <SccProvider>
+    </SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.AI.Agent.Intercept, Version=1.2.1.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ApplicationInsights.Agent.Intercept.1.2.1\lib\net45\Microsoft.AI.Agent.Intercept.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.AI.DependencyCollector, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ApplicationInsights.DependencyCollector.2.0.0\lib\net45\Microsoft.AI.DependencyCollector.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.AI.PerfCounterCollector, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ApplicationInsights.PerfCounterCollector.2.0.0\lib\net45\Microsoft.AI.PerfCounterCollector.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.AI.ServerTelemetryChannel, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ApplicationInsights.WindowsServer.TelemetryChannel.2.0.0\lib\net45\Microsoft.AI.ServerTelemetryChannel.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.AI.Web, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ApplicationInsights.Web.2.0.0\lib\net45\Microsoft.AI.Web.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.AI.WindowsServer, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ApplicationInsights.WindowsServer.2.0.0\lib\net45\Microsoft.AI.WindowsServer.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.ApplicationInsights, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ApplicationInsights.2.0.0\lib\net45\Microsoft.ApplicationInsights.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.Azure.AppService">
+      <HintPath>..\packages\Microsoft.Azure.AppService.0.2.2-alpha\lib\portable-win+net45+wp8+wpa81+monotouch+monoandroid\Microsoft.Azure.AppService.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="Microsoft.Rest.ClientRuntime">
+      <HintPath>..\packages\Microsoft.Rest.ClientRuntime.0.9.6\lib\net45\Microsoft.Rest.ClientRuntime.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.WindowsAzure.Mobile">
+      <HintPath>..\packages\WindowsAzure.MobileServices.2.0.0-beta\lib\net45\Microsoft.WindowsAzure.Mobile.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.WindowsAzure.Mobile.Ext">
+      <HintPath>..\packages\WindowsAzure.MobileServices.2.0.0-beta\lib\net45\Microsoft.WindowsAzure.Mobile.Ext.dll</HintPath>
+    </Reference>
+    <Reference Include="Recaptcha.Web, Version=2.1.0.0, Culture=neutral, PublicKeyToken=171a6ec5fa4b1644, processorArchitecture=MSIL">
+      <HintPath>..\packages\RecaptchaNet.2.1.0\lib\net45\Recaptcha.Web.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http.Extensions">
+      <HintPath>..\packages\Microsoft.Net.Http.2.2.28\lib\net45\System.Net.Http.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Http.Formatting, Version=5.2.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\Microsoft.AspNet.WebApi.Client.5.2.0\lib\net45\System.Net.Http.Formatting.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Http.Primitives">
+      <HintPath>..\packages\Microsoft.Net.Http.2.2.28\lib\net45\System.Net.Http.Primitives.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Helpers, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.3.2.3\lib\net45\System.Web.Helpers.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Web.Mvc, Version=5.2.3.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.Mvc.5.2.3\lib\net45\System.Web.Mvc.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Web.Optimization, Version=1.1.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.Web.Optimization.1.1.3\lib\net40\System.Web.Optimization.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Razor, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.Razor.3.2.3\lib\net45\System.Web.Razor.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Web.WebPages, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.3.2.3\lib\net45\System.Web.WebPages.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Web.WebPages.Deployment, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.3.2.3\lib\net45\System.Web.WebPages.Deployment.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Web.WebPages.Razor, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.3.2.3\lib\net45\System.Web.WebPages.Razor.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Web.Abstractions" />
+    <Reference Include="System.Web.Routing" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="Microsoft.Web.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.Web.Infrastructure.1.0.0.0\lib\net40\Microsoft.Web.Infrastructure.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Http">
+    </Reference>
+    <Reference Include="System.Net.Http.WebRequest">
+    </Reference>
+    <Reference Include="WebGrease">
+      <Private>True</Private>
+      <HintPath>..\packages\WebGrease.1.5.2\lib\WebGrease.dll</HintPath>
+    </Reference>
+    <Reference Include="Antlr3.Runtime">
+      <Private>True</Private>
+      <HintPath>..\packages\Antlr.3.4.1.9004\lib\Antlr3.Runtime.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>..\packages\Newtonsoft.Json.6.0.4\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="API\ILandauPortalWebAPI.cs" />
+    <Compile Include="API\LandauPortalWebAPI.cs" />
+    <Compile Include="API\LandauPortalWebAPIAppServiceExtensions.cs" />
+    <Compile Include="API\LandauPortalWebAPIExtensions.cs" />
+    <Compile Include="API\Managers\Collections\CollectionsManager.cs" />
+    <Compile Include="API\Managers\Contact\ContactManager.cs" />
+    <Compile Include="API\Managers\Seo\SeoManager.cs" />
+    <Compile Include="API\Managers\State\StateManager.cs" />
+    <Compile Include="API\Managers\Detail\DetailManager.cs" />
+    <Compile Include="API\Managers\Catalog\FiltersManager.cs" />
+    <Compile Include="API\Managers\Catalog\ProductsManager.cs" />
+    <Compile Include="API\Managers\Catalog\SelectionsManager.cs" />
+    <Compile Include="API\Managers\Faq\FaqManager.cs" />
+    <Compile Include="API\Managers\Favorites\FavoritesManager.cs" />
+    <Compile Include="API\Managers\Groups\GroupManager.cs" />
+    <Compile Include="API\Managers\SignUps\SignUpManager.cs" />
+    <Compile Include="API\Managers\Swatch\SwatchManager.cs" />
+    <Compile Include="API\Managers\Review\ReviewManager.cs" />
+    <Compile Include="API\Managers\WhereToBuy\CountryManager.cs" />
+    <Compile Include="API\Managers\WhereToBuy\OnlineRetailerManager.cs" />
+    <Compile Include="API\Managers\WhereToBuy\RetailManager.cs" />
+    <Compile Include="API\Methods\Banners.cs" />
+    <Compile Include="API\Methods\BannersExtensions.cs" />
+    <Compile Include="API\Methods\Cache.cs" />
+    <Compile Include="API\Methods\CacheExtensions.cs" />
+    <Compile Include="API\Methods\Colors.cs" />
+    <Compile Include="API\Methods\ColorsExtensions.cs" />
+    <Compile Include="API\Methods\EmailFavorites.cs" />
+    <Compile Include="API\Methods\EmailFavoritesExtensions.cs" />
+    <Compile Include="API\Methods\GroupOrders.cs" />
+    <Compile Include="API\Methods\GroupOrdersExtensions.cs" />
+    <Compile Include="API\Methods\IBanners.cs" />
+    <Compile Include="API\Methods\ICache.cs" />
+    <Compile Include="API\Methods\IColors.cs" />
+    <Compile Include="API\Methods\IEmailFavorites.cs" />
+    <Compile Include="API\Methods\IGroupOrders.cs" />
+    <Compile Include="API\Methods\IProductImages.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="API\Methods\IProductReviews.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="API\Methods\ISeoOperations.cs" />
+    <Compile Include="API\Methods\ProductImages.cs" />
+    <Compile Include="API\Methods\ProductImagesExtensions.cs" />
+    <Compile Include="API\Methods\ProductReviews.cs" />
+    <Compile Include="API\Methods\ProductReviewsExtensions.cs" />
+    <Compile Include="API\Methods\SeoOperations.cs" />
+    <Compile Include="API\Methods\SeoOperationsExtensions.cs" />
+    <Compile Include="API\Models\Address.cs" />
+    <Compile Include="API\Models\BaseModelProduct.cs" />
+    <Compile Include="API\Models\BaseModelRetailer.cs" />
+    <Compile Include="API\Models\BaseModelRetailerLink.cs" />
+    <Compile Include="API\Models\Breadcrumb.cs" />
+    <Compile Include="API\Models\Category.cs" />
+    <Compile Include="API\Models\ColorUpdate.cs" />
+    <Compile Include="API\Models\EmailFavorite.cs" />
+    <Compile Include="API\Models\EmailFavoriteList.cs" />
+    <Compile Include="API\Models\GroupOrder.cs" />
+    <Compile Include="API\Models\GroupOrderList.cs" />
+    <Compile Include="API\Models\Industry.cs" />
+    <Compile Include="API\Models\IndustryList.cs" />
+    <Compile Include="API\Models\KeyValuePair.cs" />
+    <Compile Include="API\Models\OutfittedList.cs" />
+    <Compile Include="API\Models\ProductImage.cs" />
+    <Compile Include="API\Models\ProductImageUpdate.cs" />
+    <Compile Include="API\Models\ProductLineArt.cs" />
+    <Compile Include="API\Models\ProductLineArtList.cs" />
+    <Compile Include="API\Models\ProductReviewCreate.cs" />
+    <Compile Include="API\Models\ProductReviewUpdate.cs" />
+    <Compile Include="API\Models\ProductUpdate.cs" />
+    <Compile Include="API\Models\RetailerLink.cs" />
+    <Compile Include="API\Models\Seasonal.cs" />
+    <Compile Include="API\Models\SeasonalItem.cs" />
+    <Compile Include="API\Models\SeasonalList.cs" />
+    <Compile Include="API\Models\Seo.cs" />
+    <Compile Include="API\Models\Slider.cs" />
+    <Compile Include="API\Models\SliderList.cs" />
+    <Compile Include="API\Models\TextSlider.cs" />
+    <Compile Include="API\Models\TextSliderDescription.cs" />
+    <Compile Include="API\Models\Tile.cs" />
+    <Compile Include="API\Models\TileList.cs" />
+    <Compile Include="App_Start\BundleConfig.cs" />
+    <Compile Include="App_Start\FilterConfig.cs" />
+    <Compile Include="App_Start\ProductDetailSeoRoute.cs" />
+    <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="Common\Constants.cs" />
+    <Compile Include="Common\UrlBuilder.cs" />
+    <Compile Include="Common\Utility.cs" />
+    <Compile Include="Controllers\AboutController.cs" />
+    <Compile Include="Controllers\BaseController.cs" />
+    <Compile Include="Controllers\CatalogController.cs" />
+    <Compile Include="Controllers\CollectionsController.cs" />
+    <Compile Include="Controllers\ContactController.cs" />
+    <Compile Include="Controllers\DetailController.cs" />
+    <Compile Include="Controllers\ErrorController.cs" />
+    <Compile Include="Controllers\FaqController.cs" />
+    <Compile Include="Controllers\FavoritesController.cs" />
+    <Compile Include="Controllers\FitGuideController.cs" />
+    <Compile Include="Controllers\FitGuidePantsController.cs" />
+    <Compile Include="Controllers\FitGuideTopsController.cs" />
+    <Compile Include="Controllers\FooterController.cs" />
+    <Compile Include="Controllers\GroupsController.cs" />
+    <Compile Include="Controllers\HeaderController.cs" />
+    <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\MadeBetterController.cs" />
+    <Compile Include="Controllers\PrivacyPolicyController.cs" />
+    <Compile Include="Controllers\PromotionsController.cs" />
+    <Compile Include="Controllers\RetailPartnersController.cs" />
+    <Compile Include="Controllers\SearchController.cs" />
+    <Compile Include="Controllers\SolidsController.cs" />
+    <Compile Include="Controllers\PrintsController.cs" />
+    <Compile Include="Controllers\ReviewController.cs" />
+    <Compile Include="Controllers\WhereToBuyController.cs" />
+    <Compile Include="Filters\AjaxOnlyAttribute.cs" />
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="API\Methods\Brands.cs" />
+    <Compile Include="API\Methods\BrandsExtensions.cs" />
+    <Compile Include="API\Methods\Catalogs.cs" />
+    <Compile Include="API\Methods\CatalogsExtensions.cs" />
+    <Compile Include="API\Methods\ContactUsOperations.cs" />
+    <Compile Include="API\Methods\ContactUsOperationsExtensions.cs" />
+    <Compile Include="API\Methods\Countries.cs" />
+    <Compile Include="API\Methods\CountriesExtensions.cs" />
+    <Compile Include="API\Methods\IBrands.cs" />
+    <Compile Include="API\Methods\ICatalogs.cs" />
+    <Compile Include="API\Methods\IContactUsOperations.cs" />
+    <Compile Include="API\Methods\ICountries.cs" />
+    <Compile Include="API\Methods\IImages.cs" />
+    <Compile Include="API\Methods\Images.cs" />
+    <Compile Include="API\Methods\ImagesExtensions.cs" />
+    <Compile Include="API\Methods\IProducts.cs" />
+    <Compile Include="API\Methods\IQuestions.cs" />
+    <Compile Include="API\Methods\IRetailers.cs" />
+    <Compile Include="API\Methods\ISignUps.cs" />
+    <Compile Include="API\Methods\IStates.cs" />
+    <Compile Include="API\Methods\ISwatches.cs" />
+    <Compile Include="API\Models\Brand.cs" />
+    <Compile Include="API\Models\BrandList.cs" />
+    <Compile Include="API\Models\CategoryList.cs" />
+    <Compile Include="API\Models\CollectionList.cs" />
+    <Compile Include="API\Models\Color.cs" />
+    <Compile Include="API\Models\ColorItemList.cs" />
+    <Compile Include="API\Models\ColorList.cs" />
+    <Compile Include="API\Models\ContactUs.cs" />
+    <Compile Include="API\Models\ContactUsList.cs" />
+    <Compile Include="API\Models\Coordinate.cs" />
+    <Compile Include="API\Models\CoordinateList.cs" />
+    <Compile Include="API\Models\Country.cs" />
+    <Compile Include="API\Models\CountryList.cs" />
+    <Compile Include="API\Models\FitTypeList.cs" />
+    <Compile Include="API\Models\GenderList.cs" />
+    <Compile Include="API\Models\Image.cs" />
+    <Compile Include="API\Models\ImageList.cs" />
+    <Compile Include="API\Models\Pagination.cs" />
+    <Compile Include="API\Models\Product.cs" />
+    <Compile Include="API\Models\ProductCatalog.cs" />
+    <Compile Include="API\Models\ProductCatalogList.cs" />
+    <Compile Include="API\Models\ProductList.cs" />
+    <Compile Include="API\Models\ProductReview.cs" />
+    <Compile Include="API\Models\ProductReviewList.cs" />
+    <Compile Include="API\Models\Question.cs" />
+    <Compile Include="API\Models\QuestionList.cs" />
+    <Compile Include="API\Models\Retailer.cs" />
+    <Compile Include="API\Models\RetailerList.cs" />
+    <Compile Include="API\Models\SearchResult.cs" />
+    <Compile Include="API\Models\SearchResultList.cs" />
+    <Compile Include="API\Models\SignUp.cs" />
+    <Compile Include="API\Models\SignUpList.cs" />
+    <Compile Include="API\Models\Size.cs" />
+    <Compile Include="API\Models\SizeItemList.cs" />
+    <Compile Include="API\Models\SizeList.cs" />
+    <Compile Include="API\Models\SortByList.cs" />
+    <Compile Include="API\Models\State.cs" />
+    <Compile Include="API\Models\StateList.cs" />
+    <Compile Include="API\Models\Swatch.cs" />
+    <Compile Include="API\Models\SwatchList.cs" />
+    <Compile Include="API\Models\Video.cs" />
+    <Compile Include="API\Models\VideoList.cs" />
+    <Compile Include="API\Methods\Products.cs" />
+    <Compile Include="API\Methods\ProductsExtensions.cs" />
+    <Compile Include="API\Methods\Questions.cs" />
+    <Compile Include="API\Methods\QuestionsExtensions.cs" />
+    <Compile Include="API\Methods\Retailers.cs" />
+    <Compile Include="API\Methods\RetailersExtensions.cs" />
+    <Compile Include="API\Methods\SignUps.cs" />
+    <Compile Include="API\Methods\SignUpsExtensions.cs" />
+    <Compile Include="API\Methods\States.cs" />
+    <Compile Include="API\Methods\StatesExtensions.cs" />
+    <Compile Include="API\Methods\Swatches.cs" />
+    <Compile Include="API\Methods\SwatchesExtensions.cs" />
+    <Compile Include="Models\Catalog\BreadcrumbModel.cs" />
+    <Compile Include="Models\Catalog\CatalogModel.cs" />
+    <Compile Include="Models\Catalog\CatalogSelectionModel.cs" />
+    <Compile Include="Models\Catalog\FilterDisplayModel.cs" />
+    <Compile Include="Models\Collections\CollectionModel.cs" />
+    <Compile Include="Models\Contact\ContactModel.cs" />
+    <Compile Include="Models\Catalog\SliderTextModel.cs" />
+    <Compile Include="Models\Detail\ProductVideoModel.cs" />
+    <Compile Include="Models\Favorites\FavoritesEmailModel.cs" />
+    <Compile Include="Models\SeoModel.cs" />
+    <Compile Include="Models\StateModel.cs" />
+    <Compile Include="Models\Detail\ColorsAndSizesModel.cs" />
+    <Compile Include="Models\Detail\DetailModel.cs" />
+    <Compile Include="Models\Detail\ProductColorModel.cs" />
+    <Compile Include="Models\Detail\ProductCoordinateModel.cs" />
+    <Compile Include="Models\Detail\ProductDetailModel.cs" />
+    <Compile Include="Models\Detail\ProductImageModel.cs" />
+    <Compile Include="Models\Detail\ProductReviewModel.cs" />
+    <Compile Include="Models\Detail\ProductReviewModelList.cs" />
+    <Compile Include="Models\Detail\ProductSizeModel.cs" />
+    <Compile Include="Models\DropDownModel.cs" />
+    <Compile Include="Models\Catalog\FilterModel.cs" />
+    <Compile Include="Models\Faq\FaqModel.cs" />
+    <Compile Include="Models\Favorites\FavoriteProduct.cs" />
+    <Compile Include="Models\Favorites\FavoritesModel.cs" />
+    <Compile Include="Models\Groups\AddressModel.cs" />
+    <Compile Include="Models\Groups\GroupModel.cs" />
+    <Compile Include="Models\Groups\IndustryModel.cs" />
+    <Compile Include="Models\Groups\InquiryModel.cs" />
+    <Compile Include="Models\Groups\NecessityModel.cs" />
+    <Compile Include="Models\Groups\OutfittedModel.cs" />
+    <Compile Include="Models\Groups\PurchaseModel.cs" />
+    <Compile Include="Models\PaginationModel.cs" />
+    <Compile Include="Models\SignupModel.cs" />
+    <Compile Include="Models\Swatch\SwatchItemModel.cs" />
+    <Compile Include="Models\Swatch\SwatchListModel.cs" />
+    <Compile Include="Models\ProductListModel.cs" />
+    <Compile Include="Models\ProductModel.cs" />
+    <Compile Include="Models\RetailListModel.cs" />
+    <Compile Include="Models\Review\ReviewItemModel.cs" />
+    <Compile Include="Models\Swatch\SwatchProductModel.cs" />
+    <Compile Include="Models\WhereToBuy\CountryModel.cs" />
+    <Compile Include="Models\WhereToBuy\OnlineRetailModel.cs" />
+    <Compile Include="Models\WhereToBuy\RetailModel.cs" />
+    <Compile Include="Models\WhereToBuy\WhereToBuyIntlModel.cs" />
+    <Compile Include="Models\WhereToBuy\WhereToBuyModel.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="favicon.ico" />
+    <Content Include="Global.asax" />
+    <Content Include="public\css\banner.css" />
+    <Content Include="public\css\bootstrap.min.css" />
+    <Content Include="public\css\custom.css" />
+    <Content Include="public\css\custom.min.css">
+      <DependentUpon>custom.css</DependentUpon>
+    </Content>
+    <Content Include="public\css\perfect-scrollbar.min.css" />
+    <Content Include="public\css\fonts.css" />
+    <Content Include="public\css\style.css" />
+    <Content Include="public\css\style.min.css">
+      <DependentUpon>style.css</DependentUpon>
+    </Content>
+    <Content Include="public\fonts\fontello.eot" />
+    <Content Include="public\fonts\fontello.svg" />
+    <Content Include="public\fonts\fontello.ttf" />
+    <Content Include="public\fonts\fontello.woff" />
+    <Content Include="public\images\about\desktop\hero.jpg" />
+    <Content Include="public\images\about\desktop\hero_title.png" />
+    <Content Include="public\images\about\desktop\mission_statement.png" />
+    <Content Include="public\images\about\family.jpg" />
+    <Content Include="public\images\about\mobile\hero.jpg" />
+    <Content Include="public\images\about\mobile\hero_title.png" />
+    <Content Include="public\images\about\mobile\mission_statement.png" />
+    <Content Include="public\images\catalog\banners\footwear.jpg" />
+    <Content Include="public\images\catalog\banners\groups.jpg" />
+    <Content Include="public\images\catalog\banners\jackets.jpg" />
+    <Content Include="public\images\catalog\banners\lab_coats.jpg" />
+    <Content Include="public\images\catalog\banners\lynx.jpg" />
+    <Content Include="public\images\catalog\banners\mdf_instruments.jpg" />
+    <Content Include="public\images\catalog\banners\mens.jpg" />
+    <Content Include="public\images\catalog\banners\other.jpg" />
+    <Content Include="public\images\catalog\banners\pants.jpg" />
+    <Content Include="public\images\catalog\banners\scrubzone.jpg" />
+    <Content Include="public\images\catalog\banners\tops.jpg" />
+    <Content Include="public\images\catalog\banners\workflow.jpg" />
+    <Content Include="public\images\catalog\filter_close.png" />
+    <Content Include="public\images\catalog\filter_hover.png" />
+    <Content Include="public\images\catalog\filter_selected.png" />
+    <Content Include="public\images\catalog\filter.png" />
+    <Content Include="public\images\catalog\landau_preloader.gif" />
+    <Content Include="public\images\catalog\left_arrow.svg" />
+    <Content Include="public\images\catalog\new_colors_icon.svg" />
+    <Content Include="public\images\catalog\new_icon.svg" />
+    <Content Include="public\images\catalog\not_found.jpg" />
+    <Content Include="public\images\catalog\products\blocked_vneck_top.jpg" />
+    <Content Include="public\images\catalog\products\bolero_notch_top.jpg" />
+    <Content Include="public\images\catalog\products\bound_surplice_top.jpg" />
+    <Content Include="public\images\catalog\products\branded_u_top.jpg" />
+    <Content Include="public\images\catalog\products\crossover_top.jpg" />
+    <Content Include="public\images\catalog\products\faux_wrap_tunic.jpg" />
+    <Content Include="public\images\catalog\products\favorite_top_fit_banner.jpg" />
+    <Content Include="public\images\catalog\products\favorite_top_fit_text.png" />
+    <Content Include="public\images\catalog\products\notched_surplice_top.jpg" />
+    <Content Include="public\images\catalog\products\pintuck_crossover_vneck_top.jpg" />
+    <Content Include="public\images\catalog\products\rounded_vneck_tunic.jpg" />
+    <Content Include="public\images\catalog\products\scoop_neck_tunic.jpg" />
+    <Content Include="public\images\catalog\products\sleeve_tunic_jacket.jpg" />
+    <Content Include="public\images\catalog\products\snap_front_tunic.jpg" />
+    <Content Include="public\images\catalog\products\student_tunic.jpg" />
+    <Content Include="public\images\catalog\products\sweetheart_crossover_top.jpg" />
+    <Content Include="public\images\catalog\products\vneck_tunic.jpg" />
+    <Content Include="public\images\catalog\products\womens_vneck_tunic.jpg" />
+    <Content Include="public\images\catalog\right_arrow.svg" />
+    <Content Include="public\images\catalog\x-icon.png" />
+    <Content Include="public\images\collections\collections\introducing_lynx.jpg" />
+    <Content Include="public\images\collections\collections\introducing_lynx_640.jpg" />
+    <Content Include="public\images\collections\collections\introducing_lynx_768.jpg" />
+    <Content Include="public\images\collections\collections\introducing_lynx_990.jpg" />
+    <Content Include="public\images\collections\collections\landau_for_men.jpg" />
+    <Content Include="public\images\collections\collections\landau_for_men_640.jpg" />
+    <Content Include="public\images\collections\collections\landau_for_men_768.jpg" />
+    <Content Include="public\images\collections\collections\landau_for_men_990.jpg" />
+    <Content Include="public\images\collections\collections\landau_groups.jpg" />
+    <Content Include="public\images\collections\collections\landau_groups_640.jpg" />
+    <Content Include="public\images\collections\collections\landau_groups_768.jpg" />
+    <Content Include="public\images\collections\collections\landau_groups_990.jpg" />
+    <Content Include="public\images\collections\collections\scrubzone.jpg" />
+    <Content Include="public\images\collections\collections\scrubzone_640.jpg" />
+    <Content Include="public\images\collections\collections\scrubzone_768.jpg" />
+    <Content Include="public\images\collections\collections\scrubzone_990.jpg" />
+    <Content Include="public\images\collections\collections\scrubzone_logo.png" />
+    <Content Include="public\images\collections\collections\scrubzone_logo_640.png" />
+    <Content Include="public\images\collections\collections\scrubzone_logo_768.png" />
+    <Content Include="public\images\collections\collections\scrubzone_logo_990.png" />
+    <Content Include="public\images\collections\left_arrow.svg" />
+    <Content Include="public\images\collections\right_arrow.svg" />
+    <Content Include="public\images\collections\seasonal\aqua_fresh\product_1.jpg" />
+    <Content Include="public\images\collections\seasonal\aqua_fresh\product_2.jpg" />
+    <Content Include="public\images\collections\seasonal\aqua_fresh\product_3.jpg" />
+    <Content Include="public\images\collections\seasonal\aqua_fresh\product_4.jpg" />
+    <Content Include="public\images\collections\seasonal\aqua_fresh\product_main.jpg" />
+    <Content Include="public\images\collections\seasonal\aqua_fresh\product_main_640.jpg" />
+    <Content Include="public\images\collections\seasonal\aqua_fresh\product_main_768.jpg" />
+    <Content Include="public\images\collections\seasonal\aqua_fresh\product_main_990.jpg" />
+    <Content Include="public\images\collections\seasonal\aqua_fresh\product_main_text%402x.png" />
+    <Content Include="public\images\collections\seasonal\aqua_fresh\product_main_text.png" />
+    <Content Include="public\images\collections\seasonal\pretty_in_pink\product_1.jpg" />
+    <Content Include="public\images\collections\seasonal\pretty_in_pink\product_2.jpg" />
+    <Content Include="public\images\collections\seasonal\pretty_in_pink\product_3.jpg" />
+    <Content Include="public\images\collections\seasonal\pretty_in_pink\product_4.jpg" />
+    <Content Include="public\images\collections\seasonal\pretty_in_pink\product_main.jpg" />
+    <Content Include="public\images\collections\seasonal\pretty_in_pink\product_main_640.jpg" />
+    <Content Include="public\images\collections\seasonal\pretty_in_pink\product_main_768.jpg" />
+    <Content Include="public\images\collections\seasonal\pretty_in_pink\product_main_990.jpg" />
+    <Content Include="public\images\collections\seasonal\pretty_in_pink\product_main_text%402x.png" />
+    <Content Include="public\images\collections\seasonal\pretty_in_pink\product_main_text.png" />
+    <Content Include="public\images\collections\seasonal\promo1\product_1.jpg" />
+    <Content Include="public\images\collections\seasonal\promo1\product_2.jpg" />
+    <Content Include="public\images\collections\seasonal\promo1\product_3.jpg" />
+    <Content Include="public\images\collections\seasonal\promo1\product_4.jpg" />
+    <Content Include="public\images\collections\seasonal\promo1\product_main.jpg" />
+    <Content Include="public\images\collections\seasonal\promo1\product_main_2.jpg" />
+    <Content Include="public\images\collections\seasonal\promo1\product_main_640.jpg" />
+    <Content Include="public\images\collections\seasonal\promo1\product_main_768.jpg" />
+    <Content Include="public\images\collections\seasonal\promo1\product_main_768_2.jpg" />
+    <Content Include="public\images\collections\seasonal\promo1\product_main_990.jpg" />
+    <Content Include="public\images\collections\seasonal\promo1\product_main_990_2.jpg" />
+    <Content Include="public\images\collections\seasonal\promo1\product_main_text%402x.png" />
+    <Content Include="public\images\collections\seasonal\promo1\product_main_text.png" />
+    <Content Include="public\images\collections\seasonal\promo2\product_1.jpg" />
+    <Content Include="public\images\collections\seasonal\promo2\product_2.jpg" />
+    <Content Include="public\images\collections\seasonal\promo2\product_3.jpg" />
+    <Content Include="public\images\collections\seasonal\promo2\product_4.jpg" />
+    <Content Include="public\images\collections\seasonal\promo2\product_main.jpg" />
+    <Content Include="public\images\collections\seasonal\promo2\product_main_2.jpg" />
+    <Content Include="public\images\collections\seasonal\promo2\product_main_640.jpg" />
+    <Content Include="public\images\collections\seasonal\promo2\product_main_768.jpg" />
+    <Content Include="public\images\collections\seasonal\promo2\product_main_768_2.jpg" />
+    <Content Include="public\images\collections\seasonal\promo2\product_main_990.jpg" />
+    <Content Include="public\images\collections\seasonal\promo2\product_main_990_2.jpg" />
+    <Content Include="public\images\collections\seasonal\promo2\product_main_text%402x.png" />
+    <Content Include="public\images\collections\seasonal\promo2\product_main_text.png" />
+    <Content Include="public\images\collections\seasonal\promo3\product_1.jpg" />
+    <Content Include="public\images\collections\seasonal\promo3\product_2.jpg" />
+    <Content Include="public\images\collections\seasonal\promo3\product_3.jpg" />
+    <Content Include="public\images\collections\seasonal\promo3\product_4.jpg" />
+    <Content Include="public\images\collections\seasonal\promo3\product_main.jpg" />
+    <Content Include="public\images\collections\seasonal\promo3\product_main_2.jpg" />
+    <Content Include="public\images\collections\seasonal\promo3\product_main_640.jpg" />
+    <Content Include="public\images\collections\seasonal\promo3\product_main_768.jpg" />
+    <Content Include="public\images\collections\seasonal\promo3\product_main_768_2.jpg" />
+    <Content Include="public\images\collections\seasonal\promo3\product_main_990.jpg" />
+    <Content Include="public\images\collections\seasonal\promo3\product_main_990_2.jpg" />
+    <Content Include="public\images\collections\seasonal\promo3\product_main_text%402x.png" />
+    <Content Include="public\images\collections\seasonal\promo3\product_main_text.png" />
+    <Content Include="public\images\collections\seasonal\tropical_breeze\product_1.jpg" />
+    <Content Include="public\images\collections\seasonal\tropical_breeze\product_2.jpg" />
+    <Content Include="public\images\collections\seasonal\tropical_breeze\product_3.jpg" />
+    <Content Include="public\images\collections\seasonal\tropical_breeze\product_4.jpg" />
+    <Content Include="public\images\collections\seasonal\tropical_breeze\product_main.jpg" />
+    <Content Include="public\images\collections\seasonal\tropical_breeze\product_main_640.jpg" />
+    <Content Include="public\images\collections\seasonal\tropical_breeze\product_main_768.jpg" />
+    <Content Include="public\images\collections\seasonal\tropical_breeze\product_main_990.jpg" />
+    <Content Include="public\images\collections\seasonal\tropical_breeze\product_main_text%402x.png" />
+    <Content Include="public\images\collections\seasonal\tropical_breeze\product_main_text.png" />
+    <Content Include="public\images\detail\icons\heart.png" />
+    <Content Include="public\images\detail\icons\heart.svg" />
+    <Content Include="public\images\detail\icons\heart_saved.png" />
+    <Content Include="public\images\detail\icons\heart_saved.svg" />
+    <Content Include="public\images\detail\icons\play.png" />
+    <Content Include="public\images\detail\icons\profile_blue.png" />
+    <Content Include="public\images\detail\icons\profile_gray.png" />
+    <Content Include="public\images\detail\icons\star_empty.png" />
+    <Content Include="public\images\detail\icons\star_filled.png" />
+    <Content Include="public\images\detail\icons\x_close.png" />
+    <Content Include="public\images\detail\icons\x_close_white.png" />
+    <Content Include="public\images\detail\icons\zoom.png" />
+    <Content Include="public\images\detail\product\preview_1.jpg" />
+    <Content Include="public\images\detail\product\preview_2.jpg" />
+    <Content Include="public\images\detail\product\preview_3.jpg" />
+    <Content Include="public\images\detail\product\thumbnail_1.jpg" />
+    <Content Include="public\images\detail\product\thumbnail_2.jpg" />
+    <Content Include="public\images\detail\product\thumbnail_3.jpg" />
+    <Content Include="public\images\detail\related\coordinates_1.jpg" />
+    <Content Include="public\images\detail\related\coordinates_2.jpg" />
+    <Content Include="public\images\detail\related\coordinates_3.jpg" />
+    <Content Include="public\images\detail\swatches\print.jpeg" />
+    <Content Include="public\images\detail\vendors\allheart.png" />
+    <Content Include="public\images\detail\vendors\scrubadoo.png" />
+    <Content Include="public\images\detail\vendors\scrubs_beyond.png" />
+    <Content Include="public\images\detail\vendors\soscrubs.png" />
+    <Content Include="public\images\detail\vendors\uniform_city.png" />
+    <Content Include="public\images\detail\zoom\exiticon.svg" />
+    <Content Include="public\images\detail\zoom\zoomin_icon.svg" />
+    <Content Include="public\images\detail\zoom\zoom_1.jpg" />
+    <Content Include="public\images\detail\zoom\zoom_minus.png" />
+    <Content Include="public\images\detail\zoom\zoom_plus.png" />
+    <Content Include="public\images\faq\dropdown_icon.png" />
+    <Content Include="public\images\faq\dropdown_icon_mobile.png" />
+    <Content Include="public\images\faq\dropdown_icon_mobile_rot.png" />
+    <Content Include="public\images\faq\dropdown_icon_rot.png" />
+    <Content Include="public\images\favorites\jungle_palm.jpg" />
+    <Content Include="public\images\favorites\pintucked.jpg" />
+    <Content Include="public\images\favorites\static.jpg" />
+    <Content Include="public\images\favorites\stethoscope.jpg" />
+    <Content Include="public\images\favorites\sweetheart.jpg" />
+    <Content Include="public\images\fitguide\detail\1680\nurse1.jpg" />
+    <Content Include="public\images\fitguide\detail\1680\nurse2.jpg" />
+    <Content Include="public\images\fitguide\detail\1680\nurse3.jpg" />
+    <Content Include="public\images\fitguide\detail\1680\pants1.jpg" />
+    <Content Include="public\images\fitguide\detail\1680\pants2.jpg" />
+    <Content Include="public\images\fitguide\detail\1680\pants3.jpg" />
+    <Content Include="public\images\fitguide\detail\767\nurse1.jpg" />
+    <Content Include="public\images\fitguide\detail\767\nurse2.jpg" />
+    <Content Include="public\images\fitguide\detail\767\nurse3.jpg" />
+    <Content Include="public\images\fitguide\detail\767\pants1.jpg" />
+    <Content Include="public\images\fitguide\detail\767\pants2.jpg" />
+    <Content Include="public\images\fitguide\detail\767\pants3.jpg" />
+    <Content Include="public\images\fitguide\detail\close_x.svg" />
+    <Content Include="public\images\fitguide\detail\fgw_pants_bg.jpg" />
+    <Content Include="public\images\fitguide\detail\fgw_tops_bg.jpg" />
+    <Content Include="public\images\fitguide\detail\play_btn.png" />
+    <Content Include="public\images\fitguide\detail\play_btn.svg" />
+    <Content Include="public\images\fitguide\detail\play_btn_hover.svg" />
+    <Content Include="public\images\fitguide\detail\womans_sp_text%402x.png" />
+    <Content Include="public\images\fitguide\detail\womans_sp_text.png" />
+    <Content Include="public\images\fitguide\detail\womans_st_text%402x.png" />
+    <Content Include="public\images\fitguide\detail\womans_st_text.png" />
+    <Content Include="public\images\fitguide\diagrams\icon_flare.png" />
+    <Content Include="public\images\fitguide\diagrams\icon_modern.png" />
+    <Content Include="public\images\fitguide\diagrams\icon_natural.png" />
+    <Content Include="public\images\fitguide\diagrams\icon_relaxed.png" />
+    <Content Include="public\images\fitguide\diagrams\icon_slim.png" />
+    <Content Include="public\images\fitguide\diagrams\icon_straight.png" />
+    <Content Include="public\images\fitguide\diagrams\icon_tapered.png" />
+    <Content Include="public\images\fitguide\diagrams\icon_traditional.png" />
+    <Content Include="public\images\fitguide\landing\pants_fitguide_bg.jpg" />
+    <Content Include="public\images\fitguide\landing\pants_fitguide_text%402x.png" />
+    <Content Include="public\images\fitguide\landing\pants_fitguide_text.png" />
+    <Content Include="public\images\fitguide\landing\tops_fitguide_bg.jpg" />
+    <Content Include="public\images\fitguide\landing\tops_fitguide_text%402x.png" />
+    <Content Include="public\images\fitguide\landing\tops_fitguide_text.png" />
+    <Content Include="public\images\header\banner1.jpg" />
+    <Content Include="public\images\header\banner2.jpg" />
+    <Content Include="public\images\header\landau_logo.svg" />
+    <Content Include="public\images\header\landau_logo_blue.png" />
+    <Content Include="public\images\header\landau_logo_darkblue.png" />
+    <Content Include="public\images\header\mag_glass_hover.svg" />
+    <Content Include="public\images\header\mag_glass_icon.svg" />
+    <Content Include="public\images\header\mag_mobile.svg" />
+    <Content Include="public\images\header\red_triangle.png" />
+    <Content Include="public\images\header\red_triangle.svg" />
+    <Content Include="public\images\header\smitten logo.svg" />
+    <Content Include="public\images\header\smitten_logo.png" />
+    <Content Include="public\images\header\smitten_logo.svg" />
+    <Content Include="public\images\header\urbane_logo.png" />
+    <Content Include="public\images\header\urbane_logo.svg" />
+    <Content Include="public\images\header\x-icon.svg" />
+    <Content Include="public\images\home\category\favfit%402x.png" />
+    <Content Include="public\images\home\category\favfit.png" />
+    <Content Include="public\images\home\category\favfit_bg.jpg" />
+    <Content Include="public\images\home\category\favfit_bg_mobile.jpg" />
+    <Content Include="public\images\home\category\favfit_bg_mobile_lg.jpg" />
+    <Content Include="public\images\home\category\favfit_bg_tablet.jpg" />
+    <Content Include="public\images\home\category\favfit_mobile%402x.png" />
+    <Content Include="public\images\home\category\favfit_mobile.png" />
+    <Content Include="public\images\home\category\footwear_bg.jpg" />
+    <Content Include="public\images\home\category\footwear_bg_mobile.jpg" />
+    <Content Include="public\images\home\category\footwear_bg_mobile_lg.jpg" />
+    <Content Include="public\images\home\category\footwear_bg_tablet.jpg" />
+    <Content Include="public\images\home\category\jackets_bg.jpg" />
+    <Content Include="public\images\home\category\jackets_bg_mobile.jpg" />
+    <Content Include="public\images\home\category\jackets_bg_mobile_lg.jpg" />
+    <Content Include="public\images\home\category\jackets_bg_tablet.jpg" />
+    <Content Include="public\images\home\category\labcoats_bg.jpg" />
+    <Content Include="public\images\home\category\labcoats_bg_mobile.jpg" />
+    <Content Include="public\images\home\category\labcoats_bg_mobile_lg.jpg" />
+    <Content Include="public\images\home\category\labcoats_bg_tablet.jpg" />
+    <Content Include="public\images\home\category\lynx2_1680.jpg" />
+    <Content Include="public\images\home\category\lynx2_640.png" />
+    <Content Include="public\images\home\category\lynx2_768.jpg" />
+    <Content Include="public\images\home\category\lynx2_990.jpg" />
+    <Content Include="public\images\home\category\lynx_1680.jpg" />
+    <Content Include="public\images\home\category\lynx_640.jpg" />
+    <Content Include="public\images\home\category\lynx_768.jpg" />
+    <Content Include="public\images\home\category\lynx_990.jpg" />
+    <Content Include="public\images\home\category\lynx_logo.png" />
+    <Content Include="public\images\home\category\mdf_bg.jpg" />
+    <Content Include="public\images\home\category\mdf_bg_mobile.jpg" />
+    <Content Include="public\images\home\category\mdf_bg_mobile_lg.jpg" />
+    <Content Include="public\images\home\category\mdf_bg_tablet.jpg" />
+    <Content Include="public\images\home\category\newarrivals_bg.jpg" />
+    <Content Include="public\images\home\category\newarrivals_bg_mobile.jpg" />
+    <Content Include="public\images\home\category\newarrivals_bg_mobile_lg.jpg" />
+    <Content Include="public\images\home\category\newarrivals_bg_tablet.jpg" />
+    <Content Include="public\images\home\category\new_arrivals%402x.png" />
+    <Content Include="public\images\home\category\new_arrivals.png" />
+    <Content Include="public\images\home\category\pants_bg.jpg" />
+    <Content Include="public\images\home\category\pants_bg_mobile.jpg" />
+    <Content Include="public\images\home\category\pants_bg_mobile_lg.jpg" />
+    <Content Include="public\images\home\category\pants_bg_tablet.jpg" />
+    <Content Include="public\images\home\category\play_btn.png" />
+    <Content Include="public\images\home\category\play_btn.svg" />
+    <Content Include="public\images\home\category\play_btn_hover.svg" />
+    <Content Include="public\images\home\category\play_btn_white.svg" />
+    <Content Include="public\images\home\category\tops_bg.jpg" />
+    <Content Include="public\images\home\category\tops_bg_mobile.jpg" />
+    <Content Include="public\images\home\category\tops_bg_mobile_lg.jpg" />
+    <Content Include="public\images\home\category\tops_bg_tablet.jpg" />
+    <Content Include="public\images\home\location_catalog\catalog_bg.jpg" />
+    <Content Include="public\images\home\location_catalog\catalog_bg_mobile%402x.jpg" />
+    <Content Include="public\images\home\location_catalog\catalog_bg_mobile.jpg" />
+    <Content Include="public\images\home\location_catalog\catalog_bg_tablet.jpg" />
+    <Content Include="public\images\home\location_catalog\icon_mapmarker.svg" />
+    <Content Include="public\images\home\location_catalog\landau_catalog.jpg" />
+    <Content Include="public\images\home\location_catalog\landau_cover.jpg" />
+    <Content Include="public\images\home\slider\desktop\blue_leaf.png" />
+    <Content Include="public\images\home\slider\desktop\lynx-new-colors-desktop.jpg" />
+    <Content Include="public\images\home\slider\desktop\painterly-nights-desktop.jpg" />
+    <Content Include="public\images\home\slider\desktop\slider1.jpg" />
+    <Content Include="public\images\home\slider\desktop\slider1_background.jpg" />
+    <Content Include="public\images\home\slider\desktop\slider1_text.png" />
+    <Content Include="public\images\home\slider\desktop\slider2.jpg" />
+    <Content Include="public\images\home\slider\desktop\slider3.jpg" />
+    <Content Include="public\images\home\slider\desktop\slider3_1270x510.jpg" />
+    <Content Include="public\images\home\slider\desktop\slider4-1270x510.jpg" />
+    <Content Include="public\images\home\slider\desktop\slider4-1920x589.jpg" />
+    <Content Include="public\images\home\slider\desktop\slider4.jpg" />
+    <Content Include="public\images\home\slider\desktop\slider5.jpg" />
+    <Content Include="public\images\home\slider\desktop\slider5_background.jpg" />
+    <Content Include="public\images\home\slider\desktop\slider6.jpg" />
+    <Content Include="public\images\home\slider\desktop\slider6_background.jpg" />
+    <Content Include="public\images\home\slider\falling-water-desktop.jpg" />
+    <Content Include="public\images\home\slider\falling-water-mobile.jpg" />
+    <Content Include="public\images\home\slider\falling-water-model-left-desktop.png" />
+    <Content Include="public\images\home\slider\falling-water-model-left-mobile.png" />
+    <Content Include="public\images\home\slider\falling-water-model-right-desktop.png" />
+    <Content Include="public\images\home\slider\falling-water-model-right-mobile.png" />
+    <Content Include="public\images\home\slider\left_arrow.svg" />
+    <Content Include="public\images\home\slider\lynx-logo.png" />
+    <Content Include="public\images\home\slider\lynx-new-colors-desktop.jpg" />
+    <Content Include="public\images\home\slider\lynx-new-colors-mobile.jpg" />
+    <Content Include="public\images\home\slider\mobile\blue_leaf.png" />
+    <Content Include="public\images\home\slider\mobile\slider1-m.jpg" />
+    <Content Include="public\images\home\slider\mobile\slider1.jpg" />
+    <Content Include="public\images\home\slider\mobile\slider1_768.jpg" />
+    <Content Include="public\images\home\slider\mobile\slider2.jpg" />
+    <Content Include="public\images\home\slider\mobile\slider3.jpg" />
+    <Content Include="public\images\home\slider\mobile\slider3_640x760.jpg" />
+    <Content Include="public\images\home\slider\mobile\slider3_990x486.jpg" />
+    <Content Include="public\images\home\slider\mobile\slider4-640x760.jpg" />
+    <Content Include="public\images\home\slider\mobile\slider4-990x486.jpg" />
+    <Content Include="public\images\home\slider\mobile\slider4.jpg" />
+    <Content Include="public\images\home\slider\mobile\slider5-m.jpg" />
+    <Content Include="public\images\home\slider\mobile\slider5.jpg" />
+    <Content Include="public\images\home\slider\mobile\slider5_768.jpg" />
+    <Content Include="public\images\home\slider\mobile\slider5_768_1.jpg" />
+    <Content Include="public\images\home\slider\mobile\slider6.jpg" />
+    <Content Include="public\images\home\slider\mobile\slider6_background.jpg" />
+    <Content Include="public\images\home\slider\painterly-nights-desktop.jpg" />
+    <Content Include="public\images\home\slider\painterly-nights-mobile.jpg" />
+    <Content Include="public\images\home\slider\painterly-nights-model-left-desktop.png" />
+    <Content Include="public\images\home\slider\painterly-nights-model-left-mobile.png" />
+    <Content Include="public\images\home\slider\painterly-nights-model-right-desktop.png" />
+    <Content Include="public\images\home\slider\painterly-nights-model-right-mobile.png" />
+    <Content Include="public\images\home\slider\poplin-desktop.jpg" />
+    <Content Include="public\images\home\slider\poplin-mobile.jpg" />
+    <Content Include="public\images\home\slider\right_arrow.svg" />
+    <Content Include="public\images\home\slider\slider-4-text-2.png" />
+    <Content Include="public\images\home\slider\slider1_text.png" />
+    <Content Include="public\images\home\slider\slider2_text.png" />
+    <Content Include="public\images\home\slider\slider3_text.png" />
+    <Content Include="public\images\home\slider\slider4_text.png" />
+    <Content Include="public\images\home\slider\slider5_text.png" />
+    <Content Include="public\images\home\slider\slider6_text.png" />
+    <Content Include="public\images\home\slider\tablet\640_slider1.jpg" />
+    <Content Include="public\images\home\slider\tablet\640_slider2.jpg" />
+    <Content Include="public\images\home\slider\tablet\640_slider3.jpg" />
+    <Content Include="public\images\home\slider\tablet\640_slider4.jpg" />
+    <Content Include="public\images\home\slider\tablet\640_slider5.jpg" />
+    <Content Include="public\images\home\slider\tablet\640_slider6.jpg" />
+    <Content Include="public\images\home\slider\tablet\slider1.jpg" />
+    <Content Include="public\images\home\slider\tablet\slider1_768.jpg" />
+    <Content Include="public\images\home\slider\tablet\slider1_990.jpg" />
+    <Content Include="public\images\home\slider\tablet\slider2_768.jpg" />
+    <Content Include="public\images\home\slider\tablet\slider2_990.jpg" />
+    <Content Include="public\images\home\slider\tablet\slider3_768.jpg" />
+    <Content Include="public\images\home\slider\tablet\slider3_990.jpg" />
+    <Content Include="public\images\home\slider\tablet\slider4_768.jpg" />
+    <Content Include="public\images\home\slider\tablet\slider4_990.jpg" />
+    <Content Include="public\images\home\slider\tablet\slider5_768.jpg" />
+    <Content Include="public\images\home\slider\tablet\slider5_990.jpg" />
+    <Content Include="public\images\home\slider\tablet\slider6_768.jpg" />
+    <Content Include="public\images\home\slider\tablet\slider6_990.jpg" />
+    <Content Include="public\images\home\slider\tropical_breeze%402x.png" />
+    <Content Include="public\images\home\slider\tropical_breeze.png" />
+    <Content Include="public\images\home\slider\wine-country-desktop.jpg" />
+    <Content Include="public\images\home\slider\wine-country-mobile.jpg" />
+    <Content Include="public\images\home\slider\wine-country-model-left-desktop.png" />
+    <Content Include="public\images\home\slider\wine-country-model-left-mobile.png" />
+    <Content Include="public\images\home\slider\wine-country-model-right-desktop.png" />
+    <Content Include="public\images\home\slider\wine-country-model-right-mobile.png" />
+    <Content Include="public\images\home\social\sc_1.jpg" />
+    <Content Include="public\images\home\social\sc_2.jpg" />
+    <Content Include="public\images\home\social\sc_3.jpg" />
+    <Content Include="public\images\home\social\sc_4.jpg" />
+    <Content Include="public\images\login\desktop\landau.jpg" />
+    <Content Include="public\images\login\desktop\mdf_instruments.jpg" />
+    <Content Include="public\images\login\desktop\model.jpg" />
+    <Content Include="public\images\login\desktop\scrubzone.jpg" />
+    <Content Include="public\images\login\desktop\urbane_essentials.png" />
+    <Content Include="public\images\login\desktop\urbane_performance.png" />
+    <Content Include="public\images\login\desktop\urbane_ultimate.png" />
+    <Content Include="public\images\login\mobile\landau.png" />
+    <Content Include="public\images\login\mobile\mdf_instruments.jpg" />
+    <Content Include="public\images\login\mobile\scrubzone.jpg" />
+    <Content Include="public\images\login\mobile\urbane_essentials.png" />
+    <Content Include="public\images\login\mobile\urbane_performance.png" />
+    <Content Include="public\images\login\mobile\urbane_ultimate.png" />
+    <Content Include="public\images\made_better\desktop\better_design.jpg" />
+    <Content Include="public\images\made_better\desktop\better_fabric.jpg" />
+    <Content Include="public\images\made_better\desktop\better_quality_control.jpg" />
+    <Content Include="public\images\made_better\desktop\made_better_banner.jpg" />
+    <Content Include="public\images\made_better\desktop\made_better_text.png" />
+    <Content Include="public\images\made_better\desktop\wrap_logo.png" />
+    <Content Include="public\images\made_better\mobile\better_design.jpg" />
+    <Content Include="public\images\made_better\mobile\better_fabric.jpg" />
+    <Content Include="public\images\made_better\mobile\better_quality_control.jpg" />
+    <Content Include="public\images\made_better\mobile\made_better_banner.jpg" />
+    <Content Include="public\images\made_better\mobile\made_better_text.png" />
+    <Content Include="public\images\made_better\mobile\wrap_logo.png" />
+    <Content Include="public\images\prints\close_x_white.png" />
+    <Content Include="public\images\prints\left_arrow.svg" />
+    <Content Include="public\images\prints\left_arrow_white.svg" />
+    <Content Include="public\images\prints\prints_banners\1920_bottom.jpg" />
+    <Content Include="public\images\prints\prints_banners\1920_top.jpg" />
+    <Content Include="public\images\prints\prints_banners\320_bottom.jpg" />
+    <Content Include="public\images\prints\prints_banners\320_top.jpg" />
+    <Content Include="public\images\prints\prints_banners\bottom_text.png" />
+    <Content Include="public\images\prints\prints_banners\top_text.png" />
+    <Content Include="public\images\prints\product.png" />
+    <Content Include="public\images\prints\product2.png" />
+    <Content Include="public\images\prints\product3.png" />
+    <Content Include="public\images\prints\product4.png" />
+    <Content Include="public\images\prints\right_arrow.svg" />
+    <Content Include="public\images\prints\right_arrow_white.svg" />
+    <Content Include="public\images\prints\solids_banners\banner_text.png" />
+    <Content Include="public\images\prints\solids_banners\banner_text2.png" />
+    <Content Include="public\images\prints\solids_banners\model.jpg" />
+    <Content Include="public\images\prints\solids_banners\model2.jpg" />
+    <Content Include="public\images\prints\solids_banners\model2_320.jpg" />
+    <Content Include="public\images\prints\solids_banners\model_320.jpg" />
+    <Content Include="public\images\prints\swatches\air_reflection.jpg" />
+    <Content Include="public\images\prints\swatches\animalistic.jpg" />
+    <Content Include="public\images\prints\swatches\blooming_shadows.jpg" />
+    <Content Include="public\images\prints\swatches\blushing_palm.jpg" />
+    <Content Include="public\images\prints\swatches\brilliant_scales.jpg" />
+    <Content Include="public\images\prints\swatches\brittle_blooms.jpg" />
+    <Content Include="public\images\prints\swatches\butterfly_garden.jpg" />
+    <Content Include="public\images\prints\swatches\croc_rock.jpg" />
+    <Content Include="public\images\prints\swatches\dandelion_dusk.jpg" />
+    <Content Include="public\images\prints\swatches\dark_beauty.jpg" />
+    <Content Include="public\images\prints\swatches\dragonfly_fantasy.jpg" />
+    <Content Include="public\images\prints\swatches\edens_trellis.jpg" />
+    <Content Include="public\images\prints\swatches\evening_cascade.jpg" />
+    <Content Include="public\images\prints\swatches\evening_flight.jpg" />
+    <Content Include="public\images\prints\swatches\festive_flakes_red.jpg" />
+    <Content Include="public\images\prints\swatches\flights_of_fancy-blck&amp;wht.jpg" />
+    <Content Include="public\images\prints\swatches\floral_haze.jpg" />
+    <Content Include="public\images\prints\swatches\freeze_frame.jpg" />
+    <Content Include="public\images\prints\swatches\getaway.jpg" />
+    <Content Include="public\images\prints\swatches\jungle_palm.jpg" />
+    <Content Include="public\images\prints\swatches\luster.jpg" />
+    <Content Include="public\images\prints\swatches\pom_pom.jpg" />
+    <Content Include="public\images\prints\swatches\pretty_poppy.jpg" />
+    <Content Include="public\images\prints\swatches\quartz.jpg" />
+    <Content Include="public\images\prints\swatches\static.jpg" />
+    <Content Include="public\images\prints\swatches\sunset_mystique.jpg" />
+    <Content Include="public\images\promotions\promo1_desktop.jpg" />
+    <Content Include="public\images\promotions\promo1_mobile.jpg" />
+    <Content Include="public\images\promotions\promo1_text.png" />
+    <Content Include="public\images\review\product.jpg" />
+    <Content Include="public\images\review\star_empty.png" />
+    <Content Include="public\images\review\star_filled.png" />
+    <Content Include="public\images\where_to_buy\checkmark_icon.png" />
+    <Content Include="public\images\where_to_buy\diamond_dealers.png" />
+    <Content Include="public\images\where_to_buy\location_icon_big.png" />
+    <Content Include="public\images\where_to_buy\location_icon_big.svg" />
+    <Content Include="public\images\where_to_buy\location_icon_small.png" />
+    <Content Include="public\images\where_to_buy\location_icon_small.svg" />
+    <Content Include="public\images\where_to_buy\slider_arrow_blue_left.png" />
+    <Content Include="public\images\where_to_buy\slider_arrow_blue_right.png" />
+    <Content Include="public\images\where_to_buy\slider_arrow_down.png" />
+    <Content Include="public\images\where_to_buy\slider_arrow_up.png" />
+    <Content Include="public\js\bottom_scripts.js" />
+    <Content Include="public\js\infobubble.js" />
+    <Content Include="public\js\jquery-picture-min.js" />
+    <Content Include="public\js\jquery-picture.js" />
+    <Content Include="public\js\jquery.min.js" />
+    <Content Include="public\js\logic\catalog.js" />
+    <Content Include="public\js\logic\contact.js" />
+    <Content Include="public\js\logic\detail.js" />
+    <Content Include="public\js\logic\favorites.js" />
+    <Content Include="public\js\logic\groups.js" />
+    <Content Include="public\js\logic\header.js" />
+    <Content Include="public\js\logic\prints.js" />
+    <Content Include="public\js\logic\prints_solids.js" />
+    <Content Include="public\js\logic\review.js" />
+    <Content Include="public\js\logic\search.js" />
+    <Content Include="public\js\logic\where_to_buy.js" />
+    <Content Include="public\js\logic\where_to_buy_Intl.js" />
+    <Content Include="public\js\modernizr.js" />
+    <Content Include="public\js\pages\catalog.js" />
+    <Content Include="public\js\pages\collections.js" />
+    <Content Include="public\js\pages\detail.js" />
+    <Content Include="public\js\pages\faq.js" />
+    <Content Include="public\js\pages\fitguide.js" />
+    <Content Include="public\js\pages\form.js" />
+    <Content Include="public\js\pages\homepage.js" />
+    <Content Include="public\js\pages\prints_solids.js" />
+    <Content Include="public\js\pages\promotions.js" />
+    <Content Include="public\js\pages\review.js" />
+    <Content Include="public\js\pages\where_to_buy.js" />
+    <Content Include="public\js\top_scripts.js" />
+    <Content Include="RecaptchaNet.Readme.txt" />
+    <Content Include="scripts\ai.0.22.9-build00167.js" />
+    <Content Include="scripts\ai.0.22.9-build00167.min.js" />
+    <Content Include="Views\Partials\Detail\_ZoomedImagePartial.cshtml" />
+    <Content Include="Views\Partials\Detail\_ImagesPartial.cshtml" />
+    <Content Include="Views\Partials\Swatch\_SwatchProductsPartial.cshtml" />
+    <Content Include="Views\ContactThankYou.cshtml" />
+    <Content Include="Views\Error404.cshtml" />
+    <Content Include="Views\PrivacyPolicy.cshtml" />
+    <Content Include="Views\FaqThankYou.cshtml" />
+    <Content Include="Views\Partials\_BasePaginationPartial.cshtml" />
+    <Content Include="Views\Partials\Search\_SearchPartial.cshtml" />
+    <Content Include="Views\Partials\Detail\_SocialSharePartial.cshtml" />
+    <Content Include="Views\FavoritesEmail.cshtml" />
+    <Content Include="Views\Partials\Detail\_SizesPartial.cshtml" />
+    <Content Include="ApplicationInsights.config">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <None Include="bundleconfig.json" />
+    <None Include="Properties\PublishProfiles\landau - FTP.pubxml" />
+    <None Include="Properties\PublishProfiles\landau - Web Deploy.pubxml" />
+    <None Include="Properties\PublishProfiles\landau-staging - FTP.pubxml" />
+    <None Include="Properties\PublishProfiles\landau-staging - Web Deploy.pubxml" />
+    <Content Include="public\catalog.pdf" />
+    <Content Include="public\Landau-Fall-16-Catalog.pdf" />
+    <None Include="Views\RetailPartners.cshtml" />
+    <Content Include="Views\Partials\WhereToBuy\_DealersLogoPartial.cshtml" />
+    <Content Include="Views\Promotions.cshtml" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="Views\Web.config" />
+    <Content Include="Views\ReviewConfirmation.cshtml" />
+    <Content Include="Views\GroupsThankYou.cshtml" />
+    <Content Include="Views\SignupThankYou.cshtml" />
+    <Content Include="Views\Groups.cshtml" />
+    <Content Include="Views\SizeCharts.cshtml" />
+    <Content Include="Views\Search.cshtml" />
+    <None Include="Web.Release-Staging.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="App_Code\" />
+    <Folder Include="App_Data\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="packages.config">
+      <SubType>Designer</SubType>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Views\About.cshtml" />
+    <Content Include="Views\Catalog.cshtml" />
+    <Content Include="Views\Collections.cshtml" />
+    <Content Include="Views\Contact.cshtml" />
+    <Content Include="Views\Detail.cshtml" />
+    <Content Include="Views\Faq.cshtml" />
+    <Content Include="Views\Favorites.cshtml" />
+    <Content Include="Views\FitGuide.cshtml" />
+    <Content Include="Views\FitGuidePants.cshtml" />
+    <Content Include="Views\FitGuideTops.cshtml" />
+    <Content Include="Views\Index.cshtml" />
+    <Content Include="Views\MadeBetter.cshtml" />
+    <Content Include="Views\Partials\Catalog\_FiltersDesktopPartial.cshtml" />
+    <Content Include="Views\Partials\Catalog\_FiltersMobilePartial.cshtml" />
+    <Content Include="Views\Partials\Catalog\_NavLeftMainPartial.cshtml" />
+    <Content Include="Views\Partials\Catalog\_NavLeftMobile1Partial.cshtml" />
+    <Content Include="Views\Partials\Catalog\_NavLeftMobile2Partial.cshtml" />
+    <Content Include="Views\Partials\Catalog\_PaginationPartial.cshtml" />
+    <Content Include="Views\Partials\Catalog\_ProductGroupPartial.cshtml" />
+    <Content Include="Views\Partials\Catalog\_ProductRowsPartial.cshtml" />
+    <Content Include="Views\Partials\Collections\_CollectionPartial.cshtml" />
+    <Content Include="Views\Partials\Detail\_BuyNowPartial.cshtml" />
+    <Content Include="Views\Partials\Detail\_CategoryOptionsPartial.cshtml" />
+    <Content Include="Views\Partials\Detail\_CoordinatesWithPartial.cshtml" />
+    <Content Include="Views\Partials\Detail\_CustomerReviewsPartial.cshtml" />
+    <Content Include="Views\Partials\Detail\_DetailLeftPartial.cshtml" />
+    <Content Include="Views\Partials\Detail\_DetailRightPartial.cshtml" />
+    <Content Include="Views\Partials\Detail\_RatingStarsPartial.cshtml" />
+    <Content Include="Views\Partials\Detail\_ReviewsPaginationPartial.cshtml" />
+    <Content Include="Views\Partials\Detail\_SizeChartPartial.cshtml" />
+    <Content Include="Views\Partials\Favorites\_FavoriteItemPartial.cshtml" />
+    <Content Include="Views\Partials\Swatch\_SwatchItemPartial.cshtml" />
+    <Content Include="Views\Partials\WhereToBuy\_DealersIntlPartial.cshtml" />
+    <Content Include="Views\Partials\WhereToBuy\_DealersPartial.cshtml" />
+    <Content Include="Views\Partials\WhereToBuy\_DiamondDealersPartial.cshtml" />
+    <Content Include="Views\Partials\WhereToBuy\_PaginationPartial.cshtml" />
+    <Content Include="Views\Partials\WhereToBuy\_SearchBarPartial.cshtml" />
+    <Content Include="Views\Partials\WhereToBuy\_SliderDesktop.cshtml" />
+    <Content Include="Views\Partials\WhereToBuy\_SliderMobile.cshtml" />
+    <Content Include="Views\Partials\_FooterPartial.cshtml" />
+    <Content Include="Views\Partials\_HeaderPartial.cshtml" />
+    <Content Include="Views\Prints.cshtml" />
+    <Content Include="Views\Review.cshtml" />
+    <Content Include="Views\Shared\_Layout.cshtml" />
+    <Content Include="Views\Solids.cshtml" />
+    <Content Include="Views\_ViewStart.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Views\WhereToBuy.cshtml" />
+    <Content Include="Views\WhereToBuyIntl.cshtml" />
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release-Staging|AnyCPU'">
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <Target Name="MvcBuildViews" AfterTargets="AfterBuild" Condition="'$(MvcBuildViews)'=='true'">
+    <AspNetCompiler VirtualPath="temp" PhysicalPath="$(WebProjectOutputDir)" />
+  </Target>
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>54590</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:1212/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <Import Project="..\packages\Microsoft.Bcl.Build.1.0.14\tools\Microsoft.Bcl.Build.targets" Condition="Exists('..\packages\Microsoft.Bcl.Build.1.0.14\tools\Microsoft.Bcl.Build.targets')" />
+  <Target Name="EnsureBclBuildImported" BeforeTargets="BeforeBuild" Condition="'$(BclBuildImported)' == ''">
+    <Error Condition="!Exists('..\packages\Microsoft.Bcl.Build.1.0.14\tools\Microsoft.Bcl.Build.targets')" Text="This project references NuGet package(s) that are missing on this computer. Enable NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=317567." HelpKeyword="BCLBUILD2001" />
+    <Error Condition="Exists('..\packages\Microsoft.Bcl.Build.1.0.14\tools\Microsoft.Bcl.Build.targets')" Text="The build restored NuGet packages. Build the project again to include these packages in the build. For more information, see http://go.microsoft.com/fwlink/?LinkID=317568." HelpKeyword="BCLBUILD2002" />
+  </Target>
+  <Import Project="$(SolutionDir)\.nuget\NuGet.targets" Condition="Exists('$(SolutionDir)\.nuget\NuGet.targets')" />
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Enable NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('$(SolutionDir)\.nuget\NuGet.targets')" Text="$([System.String]::Format('$(ErrorText)', '$(SolutionDir)\.nuget\NuGet.targets'))" />
+  </Target>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target> -->
+</Project>

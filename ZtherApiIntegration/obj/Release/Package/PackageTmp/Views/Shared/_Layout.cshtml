@@ -1,0 +1,138 @@
+﻿
+<!doctype html>
+<html lang="en">
+<head>
+    <title>@(ViewBag.Title != null ? ViewBag.Title : "")</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=0">
+    <meta name="description" content="@(ViewBag.Description != null ? ViewBag.Description : "")">
+    <meta name="author" content="SitePoint">
+
+    @if (ViewBag.HasNoFollow != null && ViewBag.HasNoFollow)
+    {
+        <META NAME="ROBOTS" CONTENT="NOINDEX, NOFOLLOW">
+    }
+
+    @if (!string.IsNullOrEmpty(ViewBag.CanonicalUrl))
+    {
+    <link rel="canonical" href="@ViewBag.CanonicalUrl" />
+    }
+
+    <link rel="stylesheet" type="text/css" href="~/public/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="~/public/css/fonts.css">
+    <link rel="stylesheet" type="text/css" href="~/public/css/style.css">
+    <link rel="stylesheet" type="text/css" href="~/public/css/banner.css">
+    <link rel="stylesheet" type="text/css" href="~/public/css/custom.min.css">
+    <link rel="stylesheet" type="text/css" href="http://fast.fonts.net/cssapi/9754a6c0-349a-429f-81ae-308c31371fbd.css" />
+
+    <script type="text/javascript">
+        var appInsights = window.appInsights || function (config) {
+            function r(config) { t[config] = function () { var i = arguments; t.queue.push(function () { t[config].apply(t, i) }) } } var t = { config: config }, u = document, e = window, o = "script", s = u.createElement(o), i, f; for (s.src = config.url || "//az416426.vo.msecnd.net/scripts/a/ai.0.js", u.getElementsByTagName(o)[0].parentNode.appendChild(s), t.cookie = u.cookie, t.queue = [], i = ["Event", "Exception", "Metric", "PageView", "Trace"]; i.length;) r("track" + i.pop()); return r("setAuthenticatedUserContext"), r("clearAuthenticatedUserContext"), config.disableExceptionTracking || (i = "onerror", r("_" + i), f = e[i], e[i] = function (config, r, u, e, o) { var s = f && f(config, r, u, e, o); return s !== !0 && t["_" + i](config, r, u, e, o), s }), t
+        }({
+            instrumentationKey: "c95e4208-1ba8-42b6-9164-4486987d77c7"
+        });
+
+        window.appInsights = appInsights;
+        appInsights.trackPageView();
+    </script>
+
+    <script>
+        // document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')
+    </script>
+
+    <script src="public/js/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <script>
+        // Picture element HTML5 shiv
+        document.createElement("picture");
+    </script>
+    <!--[if lt IE 9]>
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <style> #main_header #utility .nav_search .nav ul li a.num .num-circle{ line-height: 19px !important; }</style>
+    <![endif]-->
+    <script src="public/js/top_scripts.js"></script>
+
+    @if (ViewBag.HasGoogleMaps != null && ViewBag.HasGoogleMaps)
+    {
+        <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=true"></script>
+        <script src="https://cdn.rawgit.com/googlemaps/v3-utility-library/master/infobubble/src/infobubble.js"></script>
+    }
+
+    @if (ViewBag.IsContactOrGroup != null && ViewBag.IsContactOrGroup)
+    {
+        <link rel="stylesheet" href="public/css/perfect-scrollbar.min.css">
+    }
+</head>
+<body>
+
+    <!-- Google Tag Manager -->
+    <noscript>
+        <iframe src="//www.googletagmanager.com/ns.html?id=GTM-MQJK52"
+                height="0" width="0" style="display:none;visibility:hidden"></iframe>
+    </noscript>
+    <script>
+        (function (w, d, s, l, i) {
+            w[l] = w[l] || []; w[l].push({
+                'gtm.start':
+                new Date().getTime(), event: 'gtm.js'
+            }); var f = d.getElementsByTagName(s)[0],
+            j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+            '//www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-MQJK52');
+    </script>
+    <!-- End Google Tag Manager -->
+
+    @if (ViewBag.IsProductDetail != null && ViewBag.IsProductDetail)
+    {
+        <script>
+        window.fbAsyncInit = function () {
+
+            FB.init({
+                appId: '920816514633086',
+                xfbml: true,
+                version: 'v2.5'
+            });
+        };
+
+
+        (function (d, s, id) {
+            var js, fjs = d.getElementsByTagName(s)[0];
+
+            if (d.getElementById(id)) { return; }
+
+            js = d.createElement(s); js.id = id;
+            js.src = "//connect.facebook.net/en_US/sdk.js";
+            fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));
+
+
+    </script>
+    }
+
+    <div id="slideout_overlay"></div>
+    @{
+        Html.RenderAction("RenderHeader", "Header");
+    }
+
+    <div id="divMainBody">
+        @RenderBody()
+    </div>
+
+    @Html.Partial("~/Views/Partials/_FooterPartial.cshtml")
+
+    @if (@ViewBag.Scripts != null)
+    {
+        foreach (var aScript in @ViewBag.Scripts)
+        {
+            if (aScript.StartsWith("../"))
+            {
+                <script src='public/js/@aScript.Replace("../","")'></script>
+            }
+            else
+            {
+                <script src="public/js/pages/@aScript"></script>
+            }
+        }
+    }
+</body>
+</html>

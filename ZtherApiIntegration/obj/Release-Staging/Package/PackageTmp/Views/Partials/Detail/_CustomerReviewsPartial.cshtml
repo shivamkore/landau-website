@@ -1,0 +1,26 @@
+﻿@using ZtherApiIntegration.Models.Detail
+@model DetailModel
+
+<div class="mobile_dropdown">
+    <div class="title">
+        <span class="text">Customer Reviews</span>
+        <span class="arrow">&#xe800;</span>
+    </div>
+</div>
+
+<div class="comments"> 
+    <div class="top" itemprop="aggregateRating" itemscope itemtype="http://schema.org/AggregateRating">
+        <div class="title">Customer Reviews</div>
+        <div class="summary">
+            The
+            <span itemprop="itemReviewed">@Model.ProductDetail.Code</span> has an average rating of
+            <span itemprop="ratingValue">@Model.ProductReviews.Average</span> stars based on
+            <span itemprop="reviewCount">@Model.ProductReviews.Pagination.TotalCount</span> customer reviews.
+        </div>
+    </div>
+
+    <div id="reviewsPagination">
+        @Html.Partial("~/Views/Partials/Detail/_ReviewsPaginationPartial.cshtml", Model)
+    </div>
+
+</div>

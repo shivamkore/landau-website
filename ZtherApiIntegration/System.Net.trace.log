@@ -1,0 +1,1371 @@
+System.Net Information: 0 : [3376] Current OS installation type is 'Client'.
+System.Net Information: 0 : [1432] Current OS installation type is 'Client'.
+System.Net Information: 0 : [1924] RAS supported: True
+System.Net Information: 0 : [1924] Associating HttpWebRequest#11429296 with ServicePoint#31364015
+System.Net Information: 0 : [1924] Associating Connection#28379535 with HttpWebRequest#11429296
+System.Net Information: 0 : [2332] Connection#28379535 - Created connection from 10.0.2.15:52302 to 104.44.128.13:80.
+System.Net Information: 0 : [2332] Associating HttpWebRequest#11429296 with ConnectStream#45653674
+System.Net Information: 0 : [2332] HttpWebRequest#11429296 - Request: GET /catalogs/LN?gender=female&category=tops&page=1&pagesize=16 HTTP/1.1
+
+System.Net Information: 0 : [2332] ConnectStream#45653674 - Sending headers
+{
+User-Agent: ZtherApiIntegration.API.LandauWebAPI/1.0.0.0
+Host: microsoft-apiapp5dcb282abbf74b72ad1667c2-staging.azurewebsites.net
+Connection: Keep-Alive
+}.
+System.Net Information: 0 : [3148] Connection#28379535 - Received status line: Version=1.1, StatusCode=200, StatusDescription=OK.
+System.Net Information: 0 : [3148] Connection#28379535 - Received headers
+{
+Pragma: no-cache
+Content-Length: 4040
+Cache-Control: no-cache
+Content-Type: application/json; charset=utf-8
+Date: Fri, 16 Oct 2015 14:44:43 GMT
+Expires: -1
+Set-Cookie: ARRAffinity=9c521909a57d4c66cddfd2415c004c882d4e36f50d603dadb2e697cdbab7a829;Path=/;Domain=microsoft-apiapp5dcb282abbf74b72ad1667c2-staging.azurewebsites.net
+Server: Microsoft-IIS/8.0
+X-AspNet-Version: 4.0.30319
+X-Powered-By: ASP.NET
+}.
+System.Net Information: 0 : [3148] ConnectStream#62476613::ConnectStream(Buffered 4040 bytes.)
+System.Net Information: 0 : [3148] Associating HttpWebRequest#11429296 with ConnectStream#62476613
+System.Net Information: 0 : [3148] Associating HttpWebRequest#11429296 with HttpWebResponse#11404313
+System.Net Information: 0 : [3148] ContentLength=4040
+System.Net Error: 0 : [1724] Exception in HttpWebRequest#11429296:: - The request was aborted: The request was canceled..
+System.Net Information: 0 : [1924] Associating HttpWebRequest#21943666 with ServicePoint#31364015
+System.Net Information: 0 : [1924] Associating Connection#53052340 with HttpWebRequest#21943666
+System.Net Information: 0 : [3148] Connection#53052340 - Created connection from 10.0.2.15:52303 to 104.44.128.13:80.
+System.Net Information: 0 : [3148] Associating HttpWebRequest#21943666 with ConnectStream#6964596
+System.Net Information: 0 : [3148] HttpWebRequest#21943666 - Request: GET /catalogs/LN/sizes HTTP/1.1
+
+System.Net Information: 0 : [3148] ConnectStream#6964596 - Sending headers
+{
+User-Agent: ZtherApiIntegration.API.LandauWebAPI/1.0.0.0
+Host: microsoft-apiapp5dcb282abbf74b72ad1667c2-staging.azurewebsites.net
+}.
+System.Net Information: 0 : [3148] Connection#53052340 - Received status line: Version=1.1, StatusCode=200, StatusDescription=OK.
+System.Net Information: 0 : [3148] Connection#53052340 - Received headers
+{
+Pragma: no-cache
+Content-Length: 159
+Cache-Control: no-cache
+Content-Type: application/json; charset=utf-8
+Date: Fri, 16 Oct 2015 14:44:49 GMT
+Expires: -1
+Set-Cookie: ARRAffinity=9c521909a57d4c66cddfd2415c004c882d4e36f50d603dadb2e697cdbab7a829;Path=/;Domain=microsoft-apiapp5dcb282abbf74b72ad1667c2-staging.azurewebsites.net
+Server: Microsoft-IIS/8.0
+X-AspNet-Version: 4.0.30319
+X-Powered-By: ASP.NET
+}.
+System.Net Information: 0 : [3148] ConnectStream#17113003::ConnectStream(Buffered 159 bytes.)
+System.Net Information: 0 : [3148] Associating HttpWebRequest#21943666 with ConnectStream#17113003
+System.Net Information: 0 : [3148] Associating HttpWebRequest#21943666 with HttpWebResponse#30544512
+System.Net Information: 0 : [3148] ContentLength=159
+System.Net Information: 0 : [1924] Associating HttpWebRequest#46228029 with ServicePoint#31364015
+System.Net Information: 0 : [1924] Associating Connection#53052340 with HttpWebRequest#46228029
+System.Net Information: 0 : [1924] Associating HttpWebRequest#46228029 with ConnectStream#49129953
+System.Net Information: 0 : [1924] HttpWebRequest#46228029 - Request: GET /catalogs/LN/pantfittypes HTTP/1.1
+
+System.Net Information: 0 : [1924] ConnectStream#49129953 - Sending headers
+{
+User-Agent: ZtherApiIntegration.API.LandauWebAPI/1.0.0.0
+Host: microsoft-apiapp5dcb282abbf74b72ad1667c2-staging.azurewebsites.net
+Cookie: ARRAffinity=9c521909a57d4c66cddfd2415c004c882d4e36f50d603dadb2e697cdbab7a829
+}.
+System.Net Information: 0 : [3148] Connection#53052340 - Received status line: Version=1.1, StatusCode=200, StatusDescription=OK.
+System.Net Information: 0 : [3148] Connection#53052340 - Received headers
+{
+Pragma: no-cache
+Content-Length: 141
+Cache-Control: no-cache
+Content-Type: application/json; charset=utf-8
+Date: Fri, 16 Oct 2015 14:44:49 GMT
+Expires: -1
+Server: Microsoft-IIS/8.0
+X-AspNet-Version: 4.0.30319
+X-Powered-By: ASP.NET
+}.
+System.Net Information: 0 : [3148] ConnectStream#30689639::ConnectStream(Buffered 141 bytes.)
+System.Net Information: 0 : [3148] Associating HttpWebRequest#46228029 with ConnectStream#30689639
+System.Net Information: 0 : [3148] Associating HttpWebRequest#46228029 with HttpWebResponse#50315679
+System.Net Information: 0 : [3148] ContentLength=141
+System.Net Information: 0 : [1924] Associating HttpWebRequest#16023056 with ServicePoint#31364015
+System.Net Information: 0 : [1924] Associating Connection#53052340 with HttpWebRequest#16023056
+System.Net Information: 0 : [1924] Associating HttpWebRequest#16023056 with ConnectStream#58998806
+System.Net Information: 0 : [1924] HttpWebRequest#16023056 - Request: GET /catalogs/LN/colors HTTP/1.1
+
+System.Net Information: 0 : [1924] ConnectStream#58998806 - Sending headers
+{
+User-Agent: ZtherApiIntegration.API.LandauWebAPI/1.0.0.0
+Host: microsoft-apiapp5dcb282abbf74b72ad1667c2-staging.azurewebsites.net
+Cookie: ARRAffinity=9c521909a57d4c66cddfd2415c004c882d4e36f50d603dadb2e697cdbab7a829
+}.
+System.Net Information: 0 : [3148] Connection#53052340 - Received status line: Version=1.1, StatusCode=200, StatusDescription=OK.
+System.Net Information: 0 : [3148] Connection#53052340 - Received headers
+{
+Pragma: no-cache
+Content-Length: 406
+Cache-Control: no-cache
+Content-Type: application/json; charset=utf-8
+Date: Fri, 16 Oct 2015 14:44:50 GMT
+Expires: -1
+Server: Microsoft-IIS/8.0
+X-AspNet-Version: 4.0.30319
+X-Powered-By: ASP.NET
+}.
+System.Net Information: 0 : [3148] ConnectStream#24854661::ConnectStream(Buffered 406 bytes.)
+System.Net Information: 0 : [3148] Associating HttpWebRequest#16023056 with ConnectStream#24854661
+System.Net Information: 0 : [3148] Associating HttpWebRequest#16023056 with HttpWebResponse#12408161
+System.Net Information: 0 : [3148] ContentLength=406
+System.Net Information: 0 : [1924] Associating HttpWebRequest#2649323 with ServicePoint#31364015
+System.Net Information: 0 : [1924] Associating Connection#53052340 with HttpWebRequest#2649323
+System.Net Information: 0 : [1924] Associating HttpWebRequest#2649323 with ConnectStream#20318803
+System.Net Information: 0 : [1924] HttpWebRequest#2649323 - Request: GET /catalogs/LN/sortby HTTP/1.1
+
+System.Net Information: 0 : [1924] ConnectStream#20318803 - Sending headers
+{
+User-Agent: ZtherApiIntegration.API.LandauWebAPI/1.0.0.0
+Host: microsoft-apiapp5dcb282abbf74b72ad1667c2-staging.azurewebsites.net
+Cookie: ARRAffinity=9c521909a57d4c66cddfd2415c004c882d4e36f50d603dadb2e697cdbab7a829
+}.
+System.Net Information: 0 : [3148] Connection#53052340 - Received status line: Version=1.1, StatusCode=200, StatusDescription=OK.
+System.Net Information: 0 : [3148] Connection#53052340 - Received headers
+{
+Pragma: no-cache
+Content-Length: 168
+Cache-Control: no-cache
+Content-Type: application/json; charset=utf-8
+Date: Fri, 16 Oct 2015 14:44:50 GMT
+Expires: -1
+Server: Microsoft-IIS/8.0
+X-AspNet-Version: 4.0.30319
+X-Powered-By: ASP.NET
+}.
+System.Net Information: 0 : [3148] ConnectStream#63610713::ConnectStream(Buffered 168 bytes.)
+System.Net Information: 0 : [3148] Associating HttpWebRequest#2649323 with ConnectStream#63610713
+System.Net Information: 0 : [3148] Associating HttpWebRequest#2649323 with HttpWebResponse#57902434
+System.Net Information: 0 : [3148] ContentLength=168
+System.Net Error: 0 : [1724] Exception in HttpWebRequest#2649323:: - The request was aborted: The request was canceled..
+System.Net Information: 0 : [1924] Associating HttpWebRequest#52392654 with ServicePoint#31364015
+System.Net Information: 0 : [1924] Associating Connection#51235992 with HttpWebRequest#52392654
+System.Net Information: 0 : [3148] Connection#51235992 - Created connection from 10.0.2.15:52304 to 104.44.128.13:80.
+System.Net Information: 0 : [3148] Associating HttpWebRequest#52392654 with ConnectStream#52786977
+System.Net Information: 0 : [3148] HttpWebRequest#52392654 - Request: GET /catalogs/LN/categories?gender=female HTTP/1.1
+
+System.Net Information: 0 : [3148] ConnectStream#52786977 - Sending headers
+{
+User-Agent: ZtherApiIntegration.API.LandauWebAPI/1.0.0.0
+Host: microsoft-apiapp5dcb282abbf74b72ad1667c2-staging.azurewebsites.net
+}.
+System.Net Information: 0 : [3148] Connection#51235992 - Received status line: Version=1.1, StatusCode=200, StatusDescription=OK.
+System.Net Information: 0 : [3148] Connection#51235992 - Received headers
+{
+Pragma: no-cache
+Content-Length: 298
+Cache-Control: no-cache
+Content-Type: application/json; charset=utf-8
+Date: Fri, 16 Oct 2015 14:44:49 GMT
+Expires: -1
+Set-Cookie: ARRAffinity=9c521909a57d4c66cddfd2415c004c882d4e36f50d603dadb2e697cdbab7a829;Path=/;Domain=microsoft-apiapp5dcb282abbf74b72ad1667c2-staging.azurewebsites.net
+Server: Microsoft-IIS/8.0
+X-AspNet-Version: 4.0.30319
+X-Powered-By: ASP.NET
+}.
+System.Net Information: 0 : [3148] ConnectStream#16782441::ConnectStream(Buffered 298 bytes.)
+System.Net Information: 0 : [3148] Associating HttpWebRequest#52392654 with ConnectStream#16782441
+System.Net Information: 0 : [3148] Associating HttpWebRequest#52392654 with HttpWebResponse#16991442
+System.Net Information: 0 : [3148] ContentLength=298
+System.Net Information: 0 : [1924] Associating HttpWebRequest#1954745 with ServicePoint#31364015
+System.Net Information: 0 : [1924] Associating Connection#51235992 with HttpWebRequest#1954745
+System.Net Information: 0 : [1924] Associating HttpWebRequest#1954745 with ConnectStream#64506597
+System.Net Information: 0 : [1924] HttpWebRequest#1954745 - Request: GET /catalogs/LN/collections?gender=female HTTP/1.1
+
+System.Net Information: 0 : [1924] ConnectStream#64506597 - Sending headers
+{
+User-Agent: ZtherApiIntegration.API.LandauWebAPI/1.0.0.0
+Host: microsoft-apiapp5dcb282abbf74b72ad1667c2-staging.azurewebsites.net
+Cookie: ARRAffinity=9c521909a57d4c66cddfd2415c004c882d4e36f50d603dadb2e697cdbab7a829
+}.
+System.Net Information: 0 : [3148] Connection#51235992 - Received status line: Version=1.1, StatusCode=200, StatusDescription=OK.
+System.Net Information: 0 : [3148] Connection#51235992 - Received headers
+{
+Pragma: no-cache
+Content-Length: 172
+Cache-Control: no-cache
+Content-Type: application/json; charset=utf-8
+Date: Fri, 16 Oct 2015 14:44:49 GMT
+Expires: -1
+Server: Microsoft-IIS/8.0
+X-AspNet-Version: 4.0.30319
+X-Powered-By: ASP.NET
+}.
+System.Net Information: 0 : [3148] ConnectStream#48950176::ConnectStream(Buffered 172 bytes.)
+System.Net Information: 0 : [3148] Associating HttpWebRequest#1954745 with ConnectStream#48950176
+System.Net Information: 0 : [3148] Associating HttpWebRequest#1954745 with HttpWebResponse#60800190
+System.Net Information: 0 : [3148] ContentLength=172
+System.Net Information: 0 : [1924] Associating HttpWebRequest#32101292 with ServicePoint#31364015
+System.Net Information: 0 : [1924] Associating Connection#51235992 with HttpWebRequest#32101292
+System.Net Information: 0 : [1924] Associating HttpWebRequest#32101292 with ConnectStream#52709690
+System.Net Information: 0 : [1924] HttpWebRequest#32101292 - Request: GET /catalogs/LN/categories?gender=male HTTP/1.1
+
+System.Net Information: 0 : [1924] ConnectStream#52709690 - Sending headers
+{
+User-Agent: ZtherApiIntegration.API.LandauWebAPI/1.0.0.0
+Host: microsoft-apiapp5dcb282abbf74b72ad1667c2-staging.azurewebsites.net
+Cookie: ARRAffinity=9c521909a57d4c66cddfd2415c004c882d4e36f50d603dadb2e697cdbab7a829
+}.
+System.Net Information: 0 : [3148] Connection#51235992 - Received status line: Version=1.1, StatusCode=200, StatusDescription=OK.
+System.Net Information: 0 : [3148] Connection#51235992 - Received headers
+{
+Pragma: no-cache
+Content-Length: 249
+Cache-Control: no-cache
+Content-Type: application/json; charset=utf-8
+Date: Fri, 16 Oct 2015 14:44:49 GMT
+Expires: -1
+Server: Microsoft-IIS/8.0
+X-AspNet-Version: 4.0.30319
+X-Powered-By: ASP.NET
+}.
+System.Net Information: 0 : [3148] ConnectStream#62955487::ConnectStream(Buffered 249 bytes.)
+System.Net Information: 0 : [3148] Associating HttpWebRequest#32101292 with ConnectStream#62955487
+System.Net Information: 0 : [3148] Associating HttpWebRequest#32101292 with HttpWebResponse#31038138
+System.Net Information: 0 : [3148] ContentLength=249
+System.Net Information: 0 : [1924] Associating HttpWebRequest#13350567 with ServicePoint#31364015
+System.Net Information: 0 : [1924] Associating Connection#51235992 with HttpWebRequest#13350567
+System.Net Information: 0 : [1924] Associating HttpWebRequest#13350567 with ConnectStream#37915543
+System.Net Information: 0 : [1924] HttpWebRequest#13350567 - Request: GET /catalogs/LN/collections?gender=male HTTP/1.1
+
+System.Net Information: 0 : [1924] ConnectStream#37915543 - Sending headers
+{
+User-Agent: ZtherApiIntegration.API.LandauWebAPI/1.0.0.0
+Host: microsoft-apiapp5dcb282abbf74b72ad1667c2-staging.azurewebsites.net
+Cookie: ARRAffinity=9c521909a57d4c66cddfd2415c004c882d4e36f50d603dadb2e697cdbab7a829
+}.
+System.Net Information: 0 : [3148] Connection#51235992 - Received status line: Version=1.1, StatusCode=200, StatusDescription=OK.
+System.Net Information: 0 : [3148] Connection#51235992 - Received headers
+{
+Pragma: no-cache
+Content-Length: 142
+Cache-Control: no-cache
+Content-Type: application/json; charset=utf-8
+Date: Fri, 16 Oct 2015 14:44:49 GMT
+Expires: -1
+Server: Microsoft-IIS/8.0
+X-AspNet-Version: 4.0.30319
+X-Powered-By: ASP.NET
+}.
+System.Net Information: 0 : [3148] ConnectStream#41300193::ConnectStream(Buffered 142 bytes.)
+System.Net Information: 0 : [3148] Associating HttpWebRequest#13350567 with ConnectStream#41300193
+System.Net Information: 0 : [3148] Associating HttpWebRequest#13350567 with HttpWebResponse#15586314
+System.Net Information: 0 : [3148] ContentLength=142
+System.Net Error: 0 : [1724] Exception in HttpWebRequest#13350567:: - The request was aborted: The request was canceled..
+System.Net Information: 0 : [1924] Associating HttpWebRequest#59621546 with ServicePoint#31364015
+System.Net Information: 0 : [1924] Associating Connection#21353980 with HttpWebRequest#59621546
+System.Net Information: 0 : [3148] Connection#21353980 - Created connection from 10.0.2.15:52305 to 104.44.128.13:80.
+System.Net Information: 0 : [3148] Associating HttpWebRequest#59621546 with ConnectStream#54284939
+System.Net Information: 0 : [3148] HttpWebRequest#59621546 - Request: GET /catalogs/LN/categories?gender=female HTTP/1.1
+
+System.Net Information: 0 : [3148] ConnectStream#54284939 - Sending headers
+{
+User-Agent: ZtherApiIntegration.API.LandauWebAPI/1.0.0.0
+Host: microsoft-apiapp5dcb282abbf74b72ad1667c2-staging.azurewebsites.net
+}.
+System.Net Information: 0 : [3148] Connection#21353980 - Received status line: Version=1.1, StatusCode=200, StatusDescription=OK.
+System.Net Information: 0 : [3148] Connection#21353980 - Received headers
+{
+Pragma: no-cache
+Content-Length: 298
+Cache-Control: no-cache
+Content-Type: application/json; charset=utf-8
+Date: Fri, 16 Oct 2015 14:44:53 GMT
+Expires: -1
+Set-Cookie: ARRAffinity=9c521909a57d4c66cddfd2415c004c882d4e36f50d603dadb2e697cdbab7a829;Path=/;Domain=microsoft-apiapp5dcb282abbf74b72ad1667c2-staging.azurewebsites.net
+Server: Microsoft-IIS/8.0
+X-AspNet-Version: 4.0.30319
+X-Powered-By: ASP.NET
+}.
+System.Net Information: 0 : [3148] ConnectStream#11090012::ConnectStream(Buffered 298 bytes.)
+System.Net Information: 0 : [3148] Associating HttpWebRequest#59621546 with ConnectStream#11090012
+System.Net Information: 0 : [3148] Associating HttpWebRequest#59621546 with HttpWebResponse#52037308
+System.Net Information: 0 : [3148] ContentLength=298
+System.Net Error: 0 : [1724] Exception in HttpWebRequest#59621546:: - The request was aborted: The request was canceled..
+System.Net Information: 0 : [2196] Associating HttpWebRequest#8140213 with ServicePoint#31364015
+System.Net Information: 0 : [2196] Associating Connection#39086322 with HttpWebRequest#8140213
+System.Net Information: 0 : [3148] Connection#39086322 - Created connection from 10.0.2.15:52306 to 104.44.128.13:80.
+System.Net Information: 0 : [3148] Associating HttpWebRequest#8140213 with ConnectStream#12162820
+System.Net Information: 0 : [3148] HttpWebRequest#8140213 - Request: GET /catalogs/LN/categories?gender=female HTTP/1.1
+
+System.Net Information: 0 : [3148] ConnectStream#12162820 - Sending headers
+{
+User-Agent: ZtherApiIntegration.API.LandauWebAPI/1.0.0.0
+Host: microsoft-apiapp5dcb282abbf74b72ad1667c2-staging.azurewebsites.net
+}.
+System.Net Information: 0 : [3148] Connection#39086322 - Received status line: Version=1.1, StatusCode=200, StatusDescription=OK.
+System.Net Information: 0 : [3148] Connection#39086322 - Received headers
+{
+Pragma: no-cache
+Content-Length: 298
+Cache-Control: no-cache
+Content-Type: application/json; charset=utf-8
+Date: Fri, 16 Oct 2015 14:44:59 GMT
+Expires: -1
+Set-Cookie: ARRAffinity=9c521909a57d4c66cddfd2415c004c882d4e36f50d603dadb2e697cdbab7a829;Path=/;Domain=microsoft-apiapp5dcb282abbf74b72ad1667c2-staging.azurewebsites.net
+Server: Microsoft-IIS/8.0
+X-AspNet-Version: 4.0.30319
+X-Powered-By: ASP.NET
+}.
+System.Net Information: 0 : [3148] ConnectStream#28913585::ConnectStream(Buffered 298 bytes.)
+System.Net Information: 0 : [3148] Associating HttpWebRequest#8140213 with ConnectStream#28913585
+System.Net Information: 0 : [3148] Associating HttpWebRequest#8140213 with HttpWebResponse#44606316
+System.Net Information: 0 : [3148] ContentLength=298
+System.Net Information: 0 : [1924] Associating HttpWebRequest#6322590 with ServicePoint#31364015
+System.Net Information: 0 : [1924] Associating Connection#39086322 with HttpWebRequest#6322590
+System.Net Information: 0 : [1924] Associating HttpWebRequest#6322590 with ConnectStream#7318883
+System.Net Information: 0 : [1924] HttpWebRequest#6322590 - Request: GET /catalogs/LN/collections?gender=female HTTP/1.1
+
+System.Net Information: 0 : [1924] ConnectStream#7318883 - Sending headers
+{
+User-Agent: ZtherApiIntegration.API.LandauWebAPI/1.0.0.0
+Host: microsoft-apiapp5dcb282abbf74b72ad1667c2-staging.azurewebsites.net
+Cookie: ARRAffinity=9c521909a57d4c66cddfd2415c004c882d4e36f50d603dadb2e697cdbab7a829
+}.
+System.Net Information: 0 : [3148] Connection#39086322 - Received status line: Version=1.1, StatusCode=200, StatusDescription=OK.
+System.Net Information: 0 : [3148] Connection#39086322 - Received headers
+{
+Pragma: no-cache
+Content-Length: 172
+Cache-Control: no-cache
+Content-Type: application/json; charset=utf-8
+Date: Fri, 16 Oct 2015 14:44:59 GMT
+Expires: -1
+Server: Microsoft-IIS/8.0
+X-AspNet-Version: 4.0.30319
+X-Powered-By: ASP.NET
+}.
+System.Net Information: 0 : [3148] ConnectStream#34723915::ConnectStream(Buffered 172 bytes.)
+System.Net Information: 0 : [3148] Associating HttpWebRequest#6322590 with ConnectStream#34723915
+System.Net Information: 0 : [3148] Associating HttpWebRequest#6322590 with HttpWebResponse#14394393
+System.Net Information: 0 : [3148] ContentLength=172
+System.Net Information: 0 : [1924] Associating HttpWebRequest#19066549 with ServicePoint#31364015
+System.Net Information: 0 : [1924] Associating Connection#39086322 with HttpWebRequest#19066549
+System.Net Information: 0 : [1924] Associating HttpWebRequest#19066549 with ConnectStream#25216348
+System.Net Information: 0 : [1924] HttpWebRequest#19066549 - Request: GET /catalogs/LN/categories?gender=male HTTP/1.1
+
+System.Net Information: 0 : [1924] ConnectStream#25216348 - Sending headers
+{
+User-Agent: ZtherApiIntegration.API.LandauWebAPI/1.0.0.0
+Host: microsoft-apiapp5dcb282abbf74b72ad1667c2-staging.azurewebsites.net
+Cookie: ARRAffinity=9c521909a57d4c66cddfd2415c004c882d4e36f50d603dadb2e697cdbab7a829
+}.
+System.Net Information: 0 : [3148] Connection#39086322 - Received status line: Version=1.1, StatusCode=200, StatusDescription=OK.
+System.Net Information: 0 : [3148] Connection#39086322 - Received headers
+{
+Pragma: no-cache
+Content-Length: 249
+Cache-Control: no-cache
+Content-Type: application/json; charset=utf-8
+Date: Fri, 16 Oct 2015 14:45:00 GMT
+Expires: -1
+Server: Microsoft-IIS/8.0
+X-AspNet-Version: 4.0.30319
+X-Powered-By: ASP.NET
+}.
+System.Net Information: 0 : [3148] ConnectStream#30471863::ConnectStream(Buffered 249 bytes.)
+System.Net Information: 0 : [3148] Associating HttpWebRequest#19066549 with ConnectStream#30471863
+System.Net Information: 0 : [3148] Associating HttpWebRequest#19066549 with HttpWebResponse#41386841
+System.Net Information: 0 : [3148] ContentLength=249
+System.Net Information: 0 : [2196] Associating HttpWebRequest#33163964 with ServicePoint#31364015
+System.Net Information: 0 : [2196] Associating Connection#39086322 with HttpWebRequest#33163964
+System.Net Information: 0 : [2196] Associating HttpWebRequest#33163964 with ConnectStream#14421545
+System.Net Information: 0 : [2196] HttpWebRequest#33163964 - Request: GET /catalogs/LN/collections?gender=male HTTP/1.1
+
+System.Net Information: 0 : [2196] ConnectStream#14421545 - Sending headers
+{
+User-Agent: ZtherApiIntegration.API.LandauWebAPI/1.0.0.0
+Host: microsoft-apiapp5dcb282abbf74b72ad1667c2-staging.azurewebsites.net
+Cookie: ARRAffinity=9c521909a57d4c66cddfd2415c004c882d4e36f50d603dadb2e697cdbab7a829
+}.
+System.Net Information: 0 : [2508] Connection#39086322 - Received status line: Version=1.1, StatusCode=200, StatusDescription=OK.
+System.Net Information: 0 : [2508] Connection#39086322 - Received headers
+{
+Pragma: no-cache
+Content-Length: 142
+Cache-Control: no-cache
+Content-Type: application/json; charset=utf-8
+Date: Fri, 16 Oct 2015 14:45:00 GMT
+Expires: -1
+Server: Microsoft-IIS/8.0
+X-AspNet-Version: 4.0.30319
+X-Powered-By: ASP.NET
+}.
+System.Net Information: 0 : [2508] ConnectStream#20974680::ConnectStream(Buffered 142 bytes.)
+System.Net Information: 0 : [2508] Associating HttpWebRequest#33163964 with ConnectStream#20974680
+System.Net Information: 0 : [2508] Associating HttpWebRequest#33163964 with HttpWebResponse#37916227
+System.Net Information: 0 : [2508] ContentLength=142
+System.Net Error: 0 : [1724] Exception in HttpWebRequest#33163964:: - The request was aborted: The request was canceled..
+System.Net Warning: 0 : [1724] ScriptEngine was notified of a potential change in the system's proxy settings and will update WebProxy settings.
+System.Net Information: 0 : [1724] Associating HttpWebRequest#11872615 with ServicePoint#31364015
+System.Net Information: 0 : [1724] Associating Connection#8761516 with HttpWebRequest#11872615
+System.Net Information: 0 : [2508] Connection#8761516 - Created connection from 10.0.2.15:52331 to 104.44.128.13:80.
+System.Net Information: 0 : [2508] Associating HttpWebRequest#11872615 with ConnectStream#52253787
+System.Net Information: 0 : [2508] HttpWebRequest#11872615 - Request: GET /catalogs/LN?gender=female&collection=&category=Tops&color=System.Collections.Generic.List%601%5BSystem.String%5D&sort=&page=1&pagesize=16 HTTP/1.1
+
+System.Net Information: 0 : [2508] ConnectStream#52253787 - Sending headers
+{
+User-Agent: ZtherApiIntegration.API.LandauWebAPI/1.0.0.0
+Host: microsoft-apiapp5dcb282abbf74b72ad1667c2-staging.azurewebsites.net
+}.
+System.Net Information: 0 : [2508] Connection#8761516 - Received status line: Version=1.1, StatusCode=200, StatusDescription=OK.
+System.Net Information: 0 : [2508] Connection#8761516 - Received headers
+{
+Pragma: no-cache
+Content-Length: 131
+Cache-Control: no-cache
+Content-Type: application/json; charset=utf-8
+Date: Fri, 16 Oct 2015 14:45:20 GMT
+Expires: -1
+Set-Cookie: ARRAffinity=9c521909a57d4c66cddfd2415c004c882d4e36f50d603dadb2e697cdbab7a829;Path=/;Domain=microsoft-apiapp5dcb282abbf74b72ad1667c2-staging.azurewebsites.net
+Server: Microsoft-IIS/8.0
+X-AspNet-Version: 4.0.30319
+X-Powered-By: ASP.NET
+}.
+System.Net Information: 0 : [2508] ConnectStream#17987329::ConnectStream(Buffered 131 bytes.)
+System.Net Information: 0 : [2508] Associating HttpWebRequest#11872615 with ConnectStream#17987329
+System.Net Information: 0 : [2508] Associating HttpWebRequest#11872615 with HttpWebResponse#13804354
+System.Net Information: 0 : [2508] ContentLength=131
+System.Net Information: 0 : [0240] Current OS installation type is 'Client'.
+System.Net Information: 0 : [3704] RAS supported: True
+System.Net Information: 0 : [3704] Associating HttpWebRequest#11429296 with ServicePoint#28379535
+System.Net Information: 0 : [3704] Associating Connection#64109423 with HttpWebRequest#11429296
+System.Net Information: 0 : [1348] Connection#64109423 - Created connection from 10.0.2.15:52388 to 104.44.128.13:80.
+System.Net Information: 0 : [1348] Associating HttpWebRequest#11429296 with ConnectStream#62476613
+System.Net Information: 0 : [1348] HttpWebRequest#11429296 - Request: GET /catalogs/LN?gender=female&category=tops&page=1&pagesize=16 HTTP/1.1
+
+System.Net Information: 0 : [1348] ConnectStream#62476613 - Sending headers
+{
+User-Agent: ZtherApiIntegration.API.LandauWebAPI/1.0.0.0
+Host: microsoft-apiapp5dcb282abbf74b72ad1667c2-staging.azurewebsites.net
+Connection: Keep-Alive
+}.
+System.Net Information: 0 : [1348] Connection#64109423 - Received status line: Version=1.1, StatusCode=200, StatusDescription=OK.
+System.Net Information: 0 : [1348] Connection#64109423 - Received headers
+{
+Pragma: no-cache
+Content-Length: 4040
+Cache-Control: no-cache
+Content-Type: application/json; charset=utf-8
+Date: Fri, 16 Oct 2015 15:05:14 GMT
+Expires: -1
+Set-Cookie: ARRAffinity=9c521909a57d4c66cddfd2415c004c882d4e36f50d603dadb2e697cdbab7a829;Path=/;Domain=microsoft-apiapp5dcb282abbf74b72ad1667c2-staging.azurewebsites.net
+Server: Microsoft-IIS/8.0
+X-AspNet-Version: 4.0.30319
+X-Powered-By: ASP.NET
+}.
+System.Net Information: 0 : [1348] ConnectStream#11404313::ConnectStream(Buffered 4040 bytes.)
+System.Net Information: 0 : [1348] Associating HttpWebRequest#11429296 with ConnectStream#11404313
+System.Net Information: 0 : [1348] Associating HttpWebRequest#11429296 with HttpWebResponse#64923656
+System.Net Information: 0 : [1348] ContentLength=4040
+System.Net Error: 0 : [4252] Exception in HttpWebRequest#11429296:: - The request was aborted: The request was canceled..
+System.Net Information: 0 : [3704] Associating HttpWebRequest#53052340 with ServicePoint#28379535
+System.Net Information: 0 : [3704] Associating Connection#5896758 with HttpWebRequest#53052340
+System.Net Information: 0 : [4756] Connection#5896758 - Created connection from 10.0.2.15:52389 to 104.44.128.13:80.
+System.Net Information: 0 : [4756] Associating HttpWebRequest#53052340 with ConnectStream#64981649
+System.Net Information: 0 : [4756] HttpWebRequest#53052340 - Request: GET /catalogs/LN/sizes HTTP/1.1
+
+System.Net Information: 0 : [4756] ConnectStream#64981649 - Sending headers
+{
+User-Agent: ZtherApiIntegration.API.LandauWebAPI/1.0.0.0
+Host: microsoft-apiapp5dcb282abbf74b72ad1667c2-staging.azurewebsites.net
+}.
+System.Net Information: 0 : [4756] Connection#5896758 - Received status line: Version=1.1, StatusCode=200, StatusDescription=OK.
+System.Net Information: 0 : [4756] Connection#5896758 - Received headers
+{
+Pragma: no-cache
+Content-Length: 159
+Cache-Control: no-cache
+Content-Type: application/json; charset=utf-8
+Date: Fri, 16 Oct 2015 15:05:18 GMT
+Expires: -1
+Set-Cookie: ARRAffinity=9c521909a57d4c66cddfd2415c004c882d4e36f50d603dadb2e697cdbab7a829;Path=/;Domain=microsoft-apiapp5dcb282abbf74b72ad1667c2-staging.azurewebsites.net
+Server: Microsoft-IIS/8.0
+X-AspNet-Version: 4.0.30319
+X-Powered-By: ASP.NET
+}.
+System.Net Information: 0 : [4756] ConnectStream#38493088::ConnectStream(Buffered 159 bytes.)
+System.Net Information: 0 : [4756] Associating HttpWebRequest#53052340 with ConnectStream#38493088
+System.Net Information: 0 : [4756] Associating HttpWebRequest#53052340 with HttpWebResponse#54467399
+System.Net Information: 0 : [4756] ContentLength=159
+System.Net Information: 0 : [3704] Associating HttpWebRequest#49129953 with ServicePoint#28379535
+System.Net Information: 0 : [3704] Associating Connection#5896758 with HttpWebRequest#49129953
+System.Net Information: 0 : [3704] Associating HttpWebRequest#49129953 with ConnectStream#10675717
+System.Net Information: 0 : [3704] HttpWebRequest#49129953 - Request: GET /catalogs/LN/pantfittypes HTTP/1.1
+
+System.Net Information: 0 : [3704] ConnectStream#10675717 - Sending headers
+{
+User-Agent: ZtherApiIntegration.API.LandauWebAPI/1.0.0.0
+Host: microsoft-apiapp5dcb282abbf74b72ad1667c2-staging.azurewebsites.net
+Cookie: ARRAffinity=9c521909a57d4c66cddfd2415c004c882d4e36f50d603dadb2e697cdbab7a829
+}.
+System.Net Information: 0 : [4756] Connection#5896758 - Received status line: Version=1.1, StatusCode=200, StatusDescription=OK.
+System.Net Information: 0 : [4756] Connection#5896758 - Received headers
+{
+Pragma: no-cache
+Content-Length: 141
+Cache-Control: no-cache
+Content-Type: application/json; charset=utf-8
+Date: Fri, 16 Oct 2015 15:05:18 GMT
+Expires: -1
+Server: Microsoft-IIS/8.0
+X-AspNet-Version: 4.0.30319
+X-Powered-By: ASP.NET
+}.
+System.Net Information: 0 : [4756] ConnectStream#640117::ConnectStream(Buffered 141 bytes.)
+System.Net Information: 0 : [4756] Associating HttpWebRequest#49129953 with ConnectStream#640117
+System.Net Information: 0 : [4756] Associating HttpWebRequest#49129953 with HttpWebResponse#28805302
+System.Net Information: 0 : [4756] ContentLength=141
+System.Net Information: 0 : [3704] Associating HttpWebRequest#58998806 with ServicePoint#28379535
+System.Net Information: 0 : [3704] Associating Connection#5896758 with HttpWebRequest#58998806
+System.Net Information: 0 : [3704] Associating HttpWebRequest#58998806 with ConnectStream#803548
+System.Net Information: 0 : [3704] HttpWebRequest#58998806 - Request: GET /catalogs/LN/colors HTTP/1.1
+
+System.Net Information: 0 : [3704] ConnectStream#803548 - Sending headers
+{
+User-Agent: ZtherApiIntegration.API.LandauWebAPI/1.0.0.0
+Host: microsoft-apiapp5dcb282abbf74b72ad1667c2-staging.azurewebsites.net
+Cookie: ARRAffinity=9c521909a57d4c66cddfd2415c004c882d4e36f50d603dadb2e697cdbab7a829
+}.
+System.Net Information: 0 : [4756] Connection#5896758 - Received status line: Version=1.1, StatusCode=200, StatusDescription=OK.
+System.Net Information: 0 : [4756] Connection#5896758 - Received headers
+{
+Pragma: no-cache
+Content-Length: 406
+Cache-Control: no-cache
+Content-Type: application/json; charset=utf-8
+Date: Fri, 16 Oct 2015 15:05:19 GMT
+Expires: -1
+Server: Microsoft-IIS/8.0
+X-AspNet-Version: 4.0.30319
+X-Powered-By: ASP.NET
+}.
+System.Net Information: 0 : [4756] ConnectStream#21855962::ConnectStream(Buffered 406 bytes.)
+System.Net Information: 0 : [4756] Associating HttpWebRequest#58998806 with ConnectStream#21855962
+System.Net Information: 0 : [4756] Associating HttpWebRequest#58998806 with HttpWebResponse#43994237
+System.Net Information: 0 : [4756] ContentLength=406
+System.Net Information: 0 : [3704] Associating HttpWebRequest#20318803 with ServicePoint#28379535
+System.Net Information: 0 : [3704] Associating Connection#5896758 with HttpWebRequest#20318803
+System.Net Information: 0 : [3704] Associating HttpWebRequest#20318803 with ConnectStream#66540731
+System.Net Information: 0 : [3704] HttpWebRequest#20318803 - Request: GET /catalogs/LN/sortby HTTP/1.1
+
+System.Net Information: 0 : [3704] ConnectStream#66540731 - Sending headers
+{
+User-Agent: ZtherApiIntegration.API.LandauWebAPI/1.0.0.0
+Host: microsoft-apiapp5dcb282abbf74b72ad1667c2-staging.azurewebsites.net
+Cookie: ARRAffinity=9c521909a57d4c66cddfd2415c004c882d4e36f50d603dadb2e697cdbab7a829
+}.
+System.Net Information: 0 : [4756] Connection#5896758 - Received status line: Version=1.1, StatusCode=200, StatusDescription=OK.
+System.Net Information: 0 : [4756] Connection#5896758 - Received headers
+{
+Pragma: no-cache
+Content-Length: 168
+Cache-Control: no-cache
+Content-Type: application/json; charset=utf-8
+Date: Fri, 16 Oct 2015 15:05:19 GMT
+Expires: -1
+Server: Microsoft-IIS/8.0
+X-AspNet-Version: 4.0.30319
+X-Powered-By: ASP.NET
+}.
+System.Net Information: 0 : [4756] ConnectStream#10454271::ConnectStream(Buffered 168 bytes.)
+System.Net Information: 0 : [4756] Associating HttpWebRequest#20318803 with ConnectStream#10454271
+System.Net Information: 0 : [4756] Associating HttpWebRequest#20318803 with HttpWebResponse#680171
+System.Net Information: 0 : [4756] ContentLength=168
+System.Net Error: 0 : [4252] Exception in HttpWebRequest#20318803:: - The request was aborted: The request was canceled..
+System.Net Information: 0 : [3704] Associating HttpWebRequest#51235992 with ServicePoint#28379535
+System.Net Information: 0 : [3704] Associating Connection#13066146 with HttpWebRequest#51235992
+System.Net Information: 0 : [4756] Connection#13066146 - Created connection from 10.0.2.15:52390 to 104.44.128.13:80.
+System.Net Information: 0 : [4756] Associating HttpWebRequest#51235992 with ConnectStream#17274517
+System.Net Information: 0 : [4756] HttpWebRequest#51235992 - Request: GET /catalogs/LN/categories?gender=female HTTP/1.1
+
+System.Net Information: 0 : [4756] ConnectStream#17274517 - Sending headers
+{
+User-Agent: ZtherApiIntegration.API.LandauWebAPI/1.0.0.0
+Host: microsoft-apiapp5dcb282abbf74b72ad1667c2-staging.azurewebsites.net
+}.
+System.Net Information: 0 : [4756] Connection#13066146 - Received status line: Version=1.1, StatusCode=200, StatusDescription=OK.
+System.Net Information: 0 : [4756] Connection#13066146 - Received headers
+{
+Pragma: no-cache
+Content-Length: 298
+Cache-Control: no-cache
+Content-Type: application/json; charset=utf-8
+Date: Fri, 16 Oct 2015 15:05:22 GMT
+Expires: -1
+Set-Cookie: ARRAffinity=9c521909a57d4c66cddfd2415c004c882d4e36f50d603dadb2e697cdbab7a829;Path=/;Domain=microsoft-apiapp5dcb282abbf74b72ad1667c2-staging.azurewebsites.net
+Server: Microsoft-IIS/8.0
+X-AspNet-Version: 4.0.30319
+X-Powered-By: ASP.NET
+}.
+System.Net Information: 0 : [4756] ConnectStream#39155797::ConnectStream(Buffered 298 bytes.)
+System.Net Information: 0 : [4756] Associating HttpWebRequest#51235992 with ConnectStream#39155797
+System.Net Information: 0 : [4756] Associating HttpWebRequest#51235992 with HttpWebResponse#17180427
+System.Net Information: 0 : [4756] ContentLength=298
+System.Net Information: 0 : [3704] Associating HttpWebRequest#64506597 with ServicePoint#28379535
+System.Net Information: 0 : [3704] Associating Connection#13066146 with HttpWebRequest#64506597
+System.Net Information: 0 : [3704] Associating HttpWebRequest#64506597 with ConnectStream#48342929
+System.Net Information: 0 : [3704] HttpWebRequest#64506597 - Request: GET /catalogs/LN/collections?gender=female HTTP/1.1
+
+System.Net Information: 0 : [3704] ConnectStream#48342929 - Sending headers
+{
+User-Agent: ZtherApiIntegration.API.LandauWebAPI/1.0.0.0
+Host: microsoft-apiapp5dcb282abbf74b72ad1667c2-staging.azurewebsites.net
+Cookie: ARRAffinity=9c521909a57d4c66cddfd2415c004c882d4e36f50d603dadb2e697cdbab7a829
+}.
+System.Net Information: 0 : [4756] Connection#13066146 - Received status line: Version=1.1, StatusCode=200, StatusDescription=OK.
+System.Net Information: 0 : [4756] Connection#13066146 - Received headers
+{
+Pragma: no-cache
+Content-Length: 172
+Cache-Control: no-cache
+Content-Type: application/json; charset=utf-8
+Date: Fri, 16 Oct 2015 15:05:23 GMT
+Expires: -1
+Server: Microsoft-IIS/8.0
+X-AspNet-Version: 4.0.30319
+X-Powered-By: ASP.NET
+}.
+System.Net Information: 0 : [4756] ConnectStream#5822459::ConnectStream(Buffered 172 bytes.)
+System.Net Information: 0 : [4756] Associating HttpWebRequest#64506597 with ConnectStream#5822459
+System.Net Information: 0 : [4756] Associating HttpWebRequest#64506597 with HttpWebResponse#60684095
+System.Net Information: 0 : [4756] ContentLength=172
+System.Net Information: 0 : [3704] Associating HttpWebRequest#52709690 with ServicePoint#28379535
+System.Net Information: 0 : [3704] Associating Connection#13066146 with HttpWebRequest#52709690
+System.Net Information: 0 : [3704] Associating HttpWebRequest#52709690 with ConnectStream#61698184
+System.Net Information: 0 : [3704] HttpWebRequest#52709690 - Request: GET /catalogs/LN/categories?gender=male HTTP/1.1
+
+System.Net Information: 0 : [3704] ConnectStream#61698184 - Sending headers
+{
+User-Agent: ZtherApiIntegration.API.LandauWebAPI/1.0.0.0
+Host: microsoft-apiapp5dcb282abbf74b72ad1667c2-staging.azurewebsites.net
+Cookie: ARRAffinity=9c521909a57d4c66cddfd2415c004c882d4e36f50d603dadb2e697cdbab7a829
+}.
+System.Net Information: 0 : [4756] Connection#13066146 - Received status line: Version=1.1, StatusCode=200, StatusDescription=OK.
+System.Net Information: 0 : [4756] Connection#13066146 - Received headers
+{
+Pragma: no-cache
+Content-Length: 249
+Cache-Control: no-cache
+Content-Type: application/json; charset=utf-8
+Date: Fri, 16 Oct 2015 15:05:23 GMT
+Expires: -1
+Server: Microsoft-IIS/8.0
+X-AspNet-Version: 4.0.30319
+X-Powered-By: ASP.NET
+}.
+System.Net Information: 0 : [4756] ConnectStream#30923613::ConnectStream(Buffered 249 bytes.)
+System.Net Information: 0 : [4756] Associating HttpWebRequest#52709690 with ConnectStream#30923613
+System.Net Information: 0 : [4756] Associating HttpWebRequest#52709690 with HttpWebResponse#49385318
+System.Net Information: 0 : [4756] ContentLength=249
+System.Net Information: 0 : [3704] Associating HttpWebRequest#37915543 with ServicePoint#28379535
+System.Net Information: 0 : [3704] Associating Connection#13066146 with HttpWebRequest#37915543
+System.Net Information: 0 : [3704] Associating HttpWebRequest#37915543 with ConnectStream#43253384
+System.Net Information: 0 : [3704] HttpWebRequest#37915543 - Request: GET /catalogs/LN/collections?gender=male HTTP/1.1
+
+System.Net Information: 0 : [3704] ConnectStream#43253384 - Sending headers
+{
+User-Agent: ZtherApiIntegration.API.LandauWebAPI/1.0.0.0
+Host: microsoft-apiapp5dcb282abbf74b72ad1667c2-staging.azurewebsites.net
+Cookie: ARRAffinity=9c521909a57d4c66cddfd2415c004c882d4e36f50d603dadb2e697cdbab7a829
+}.
+System.Net Information: 0 : [4756] Connection#13066146 - Received status line: Version=1.1, StatusCode=200, StatusDescription=OK.
+System.Net Information: 0 : [4756] Connection#13066146 - Received headers
+{
+Pragma: no-cache
+Content-Length: 142
+Cache-Control: no-cache
+Content-Type: application/json; charset=utf-8
+Date: Fri, 16 Oct 2015 15:05:23 GMT
+Expires: -1
+Server: Microsoft-IIS/8.0
+X-AspNet-Version: 4.0.30319
+X-Powered-By: ASP.NET
+}.
+System.Net Information: 0 : [4756] ConnectStream#10366524::ConnectStream(Buffered 142 bytes.)
+System.Net Information: 0 : [4756] Associating HttpWebRequest#37915543 with ConnectStream#10366524
+System.Net Information: 0 : [4756] Associating HttpWebRequest#37915543 with HttpWebResponse#63840421
+System.Net Information: 0 : [4756] ContentLength=142
+System.Net Error: 0 : [4252] Exception in HttpWebRequest#37915543:: - The request was aborted: The request was canceled..
+System.Net Information: 0 : [3704] Associating HttpWebRequest#21353980 with ServicePoint#28379535
+System.Net Information: 0 : [3704] Associating Connection#33592719 with HttpWebRequest#21353980
+System.Net Information: 0 : [4756] Connection#33592719 - Created connection from 10.0.2.15:52391 to 104.44.128.13:80.
+System.Net Information: 0 : [4756] Associating HttpWebRequest#21353980 with ConnectStream#56152722
+System.Net Information: 0 : [4756] HttpWebRequest#21353980 - Request: GET /catalogs/LN/categories?gender=female HTTP/1.1
+
+System.Net Information: 0 : [4756] ConnectStream#56152722 - Sending headers
+{
+User-Agent: ZtherApiIntegration.API.LandauWebAPI/1.0.0.0
+Host: microsoft-apiapp5dcb282abbf74b72ad1667c2-staging.azurewebsites.net
+}.
+System.Net Information: 0 : [4756] Connection#33592719 - Received status line: Version=1.1, StatusCode=200, StatusDescription=OK.
+System.Net Information: 0 : [4756] Connection#33592719 - Received headers
+{
+Pragma: no-cache
+Content-Length: 298
+Cache-Control: no-cache
+Content-Type: application/json; charset=utf-8
+Date: Fri, 16 Oct 2015 15:05:24 GMT
+Expires: -1
+Set-Cookie: ARRAffinity=9c521909a57d4c66cddfd2415c004c882d4e36f50d603dadb2e697cdbab7a829;Path=/;Domain=microsoft-apiapp5dcb282abbf74b72ad1667c2-staging.azurewebsites.net
+Server: Microsoft-IIS/8.0
+X-AspNet-Version: 4.0.30319
+X-Powered-By: ASP.NET
+}.
+System.Net Information: 0 : [4756] ConnectStream#43844556::ConnectStream(Buffered 298 bytes.)
+System.Net Information: 0 : [4756] Associating HttpWebRequest#21353980 with ConnectStream#43844556
+System.Net Information: 0 : [4756] Associating HttpWebRequest#21353980 with HttpWebResponse#26847985
+System.Net Information: 0 : [4756] ContentLength=298
+System.Net Error: 0 : [4252] Exception in HttpWebRequest#21353980:: - The request was aborted: The request was canceled..
+System.Net Information: 0 : [3704] Associating HttpWebRequest#191593 with ServicePoint#28379535
+System.Net Information: 0 : [3704] Associating Connection#6322590 with HttpWebRequest#191593
+System.Net Information: 0 : [4756] Connection#6322590 - Created connection from 10.0.2.15:52392 to 104.44.128.13:80.
+System.Net Information: 0 : [4756] Associating HttpWebRequest#191593 with ConnectStream#18262443
+System.Net Information: 0 : [4756] HttpWebRequest#191593 - Request: GET /catalogs/LN/categories?gender=female HTTP/1.1
+
+System.Net Information: 0 : [4756] ConnectStream#18262443 - Sending headers
+{
+User-Agent: ZtherApiIntegration.API.LandauWebAPI/1.0.0.0
+Host: microsoft-apiapp5dcb282abbf74b72ad1667c2-staging.azurewebsites.net
+}.
+System.Net Information: 0 : [4756] Connection#6322590 - Received status line: Version=1.1, StatusCode=200, StatusDescription=OK.
+System.Net Information: 0 : [4756] Connection#6322590 - Received headers
+{
+Pragma: no-cache
+Content-Length: 298
+Cache-Control: no-cache
+Content-Type: application/json; charset=utf-8
+Date: Fri, 16 Oct 2015 15:05:33 GMT
+Expires: -1
+Set-Cookie: ARRAffinity=9c521909a57d4c66cddfd2415c004c882d4e36f50d603dadb2e697cdbab7a829;Path=/;Domain=microsoft-apiapp5dcb282abbf74b72ad1667c2-staging.azurewebsites.net
+Server: Microsoft-IIS/8.0
+X-AspNet-Version: 4.0.30319
+X-Powered-By: ASP.NET
+}.
+System.Net Information: 0 : [4756] ConnectStream#16503569::ConnectStream(Buffered 298 bytes.)
+System.Net Information: 0 : [4756] Associating HttpWebRequest#191593 with ConnectStream#16503569
+System.Net Information: 0 : [4756] Associating HttpWebRequest#191593 with HttpWebResponse#4463106
+System.Net Information: 0 : [4756] ContentLength=298
+System.Net Information: 0 : [3704] Associating HttpWebRequest#51417822 with ServicePoint#28379535
+System.Net Information: 0 : [3704] Associating Connection#6322590 with HttpWebRequest#51417822
+System.Net Information: 0 : [3704] Associating HttpWebRequest#51417822 with ConnectStream#19066549
+System.Net Information: 0 : [3704] HttpWebRequest#51417822 - Request: GET /catalogs/LN/collections?gender=female HTTP/1.1
+
+System.Net Information: 0 : [3704] ConnectStream#19066549 - Sending headers
+{
+User-Agent: ZtherApiIntegration.API.LandauWebAPI/1.0.0.0
+Host: microsoft-apiapp5dcb282abbf74b72ad1667c2-staging.azurewebsites.net
+Cookie: ARRAffinity=9c521909a57d4c66cddfd2415c004c882d4e36f50d603dadb2e697cdbab7a829
+}.
+System.Net Information: 0 : [4756] Connection#6322590 - Received status line: Version=1.1, StatusCode=200, StatusDescription=OK.
+System.Net Information: 0 : [4756] Connection#6322590 - Received headers
+{
+Pragma: no-cache
+Content-Length: 172
+Cache-Control: no-cache
+Content-Type: application/json; charset=utf-8
+Date: Fri, 16 Oct 2015 15:05:33 GMT
+Expires: -1
+Server: Microsoft-IIS/8.0
+X-AspNet-Version: 4.0.30319
+X-Powered-By: ASP.NET
+}.
+System.Net Information: 0 : [4756] ConnectStream#67041637::ConnectStream(Buffered 172 bytes.)
+System.Net Information: 0 : [4756] Associating HttpWebRequest#51417822 with ConnectStream#67041637
+System.Net Information: 0 : [4756] Associating HttpWebRequest#51417822 with HttpWebResponse#64083652
+System.Net Information: 0 : [4756] ContentLength=172
+System.Net Information: 0 : [3232] Associating HttpWebRequest#13077851 with ServicePoint#28379535
+System.Net Information: 0 : [3232] Associating Connection#6322590 with HttpWebRequest#13077851
+System.Net Information: 0 : [3232] Associating HttpWebRequest#13077851 with ConnectStream#39086322
+System.Net Information: 0 : [3232] HttpWebRequest#13077851 - Request: GET /catalogs/LN/categories?gender=male HTTP/1.1
+
+System.Net Information: 0 : [3232] ConnectStream#39086322 - Sending headers
+{
+User-Agent: ZtherApiIntegration.API.LandauWebAPI/1.0.0.0
+Host: microsoft-apiapp5dcb282abbf74b72ad1667c2-staging.azurewebsites.net
+Cookie: ARRAffinity=9c521909a57d4c66cddfd2415c004c882d4e36f50d603dadb2e697cdbab7a829
+}.
+System.Net Information: 0 : [4756] Connection#6322590 - Received status line: Version=1.1, StatusCode=200, StatusDescription=OK.
+System.Net Information: 0 : [4756] Connection#6322590 - Received headers
+{
+Pragma: no-cache
+Content-Length: 249
+Cache-Control: no-cache
+Content-Type: application/json; charset=utf-8
+Date: Fri, 16 Oct 2015 15:05:34 GMT
+Expires: -1
+Server: Microsoft-IIS/8.0
+X-AspNet-Version: 4.0.30319
+X-Powered-By: ASP.NET
+}.
+System.Net Information: 0 : [4756] ConnectStream#17059405::ConnectStream(Buffered 249 bytes.)
+System.Net Information: 0 : [4756] Associating HttpWebRequest#13077851 with ConnectStream#17059405
+System.Net Information: 0 : [4756] Associating HttpWebRequest#13077851 with HttpWebResponse#29475730
+System.Net Information: 0 : [4756] ContentLength=249
+System.Net Information: 0 : [3232] Associating HttpWebRequest#33163964 with ServicePoint#28379535
+System.Net Information: 0 : [3232] Associating Connection#6322590 with HttpWebRequest#33163964
+System.Net Information: 0 : [3232] Associating HttpWebRequest#33163964 with ConnectStream#14421545
+System.Net Information: 0 : [3232] HttpWebRequest#33163964 - Request: GET /catalogs/LN/collections?gender=male HTTP/1.1
+
+System.Net Information: 0 : [3232] ConnectStream#14421545 - Sending headers
+{
+User-Agent: ZtherApiIntegration.API.LandauWebAPI/1.0.0.0
+Host: microsoft-apiapp5dcb282abbf74b72ad1667c2-staging.azurewebsites.net
+Cookie: ARRAffinity=9c521909a57d4c66cddfd2415c004c882d4e36f50d603dadb2e697cdbab7a829
+}.
+System.Net Information: 0 : [4396] Connection#6322590 - Received status line: Version=1.1, StatusCode=200, StatusDescription=OK.
+System.Net Information: 0 : [4396] Connection#6322590 - Received headers
+{
+Pragma: no-cache
+Content-Length: 142
+Cache-Control: no-cache
+Content-Type: application/json; charset=utf-8
+Date: Fri, 16 Oct 2015 15:05:34 GMT
+Expires: -1
+Server: Microsoft-IIS/8.0
+X-AspNet-Version: 4.0.30319
+X-Powered-By: ASP.NET
+}.
+System.Net Information: 0 : [4396] ConnectStream#20974680::ConnectStream(Buffered 142 bytes.)
+System.Net Information: 0 : [4396] Associating HttpWebRequest#33163964 with ConnectStream#20974680
+System.Net Information: 0 : [4396] Associating HttpWebRequest#33163964 with HttpWebResponse#37916227
+System.Net Information: 0 : [4396] ContentLength=142
+System.Net Error: 0 : [4252] Exception in HttpWebRequest#33163964:: - The request was aborted: The request was canceled..
+System.Net Information: 0 : [4252] Associating HttpWebRequest#34160229 with ServicePoint#28379535
+System.Net Information: 0 : [4252] Associating Connection#15175453 with HttpWebRequest#34160229
+System.Net Information: 0 : [4396] Connection#15175453 - Created connection from 10.0.2.15:52405 to 104.44.128.13:80.
+System.Net Information: 0 : [4396] Associating HttpWebRequest#34160229 with ConnectStream#52253787
+System.Net Information: 0 : [4396] HttpWebRequest#34160229 - Request: GET /catalogs/LN?gender=female&collection=&category=Tops&color=System.Collections.Generic.List%601%5BSystem.String%5D&sort=&page=1&pagesize=16 HTTP/1.1
+
+System.Net Information: 0 : [4396] ConnectStream#52253787 - Sending headers
+{
+User-Agent: ZtherApiIntegration.API.LandauWebAPI/1.0.0.0
+Host: microsoft-apiapp5dcb282abbf74b72ad1667c2-staging.azurewebsites.net
+}.
+System.Net Information: 0 : [4396] Connection#15175453 - Received status line: Version=1.1, StatusCode=200, StatusDescription=OK.
+System.Net Information: 0 : [4396] Connection#15175453 - Received headers
+{
+Pragma: no-cache
+Content-Length: 131
+Cache-Control: no-cache
+Content-Type: application/json; charset=utf-8
+Date: Fri, 16 Oct 2015 15:05:52 GMT
+Expires: -1
+Set-Cookie: ARRAffinity=9c521909a57d4c66cddfd2415c004c882d4e36f50d603dadb2e697cdbab7a829;Path=/;Domain=microsoft-apiapp5dcb282abbf74b72ad1667c2-staging.azurewebsites.net
+Server: Microsoft-IIS/8.0
+X-AspNet-Version: 4.0.30319
+X-Powered-By: ASP.NET
+}.
+System.Net Information: 0 : [4396] ConnectStream#17987329::ConnectStream(Buffered 131 bytes.)
+System.Net Information: 0 : [4396] Associating HttpWebRequest#34160229 with ConnectStream#17987329
+System.Net Information: 0 : [4396] Associating HttpWebRequest#34160229 with HttpWebResponse#13804354
+System.Net Information: 0 : [4396] ContentLength=131
+System.Net Information: 0 : [3744] Current OS installation type is 'Client'.
+System.Net Information: 0 : [1956] RAS supported: True
+System.Net Information: 0 : [1956] Associating HttpWebRequest#41622463 with ServicePoint#28379535
+System.Net Information: 0 : [1956] Associating Connection#64109423 with HttpWebRequest#41622463
+System.Net Information: 0 : [4420] Connection#64109423 - Created connection from 10.0.2.15:52448 to 104.44.128.13:80.
+System.Net Information: 0 : [4420] Associating HttpWebRequest#41622463 with ConnectStream#62476613
+System.Net Information: 0 : [4420] HttpWebRequest#41622463 - Request: GET /catalogs/LN?gender=female&category=tops&page=1&pagesize=16 HTTP/1.1
+
+System.Net Information: 0 : [4420] ConnectStream#62476613 - Sending headers
+{
+User-Agent: ZtherApiIntegration.API.LandauWebAPI/1.0.0.0
+Host: microsoft-apiapp5dcb282abbf74b72ad1667c2-staging.azurewebsites.net
+Connection: Keep-Alive
+}.
+System.Net Information: 0 : [4420] Connection#64109423 - Received status line: Version=1.1, StatusCode=200, StatusDescription=OK.
+System.Net Information: 0 : [4420] Connection#64109423 - Received headers
+{
+Pragma: no-cache
+Content-Length: 4040
+Cache-Control: no-cache
+Content-Type: application/json; charset=utf-8
+Date: Fri, 16 Oct 2015 15:30:09 GMT
+Expires: -1
+Set-Cookie: ARRAffinity=9c521909a57d4c66cddfd2415c004c882d4e36f50d603dadb2e697cdbab7a829;Path=/;Domain=microsoft-apiapp5dcb282abbf74b72ad1667c2-staging.azurewebsites.net
+Server: Microsoft-IIS/8.0
+X-AspNet-Version: 4.0.30319
+X-Powered-By: ASP.NET
+}.
+System.Net Information: 0 : [4420] ConnectStream#11404313::ConnectStream(Buffered 4040 bytes.)
+System.Net Information: 0 : [4420] Associating HttpWebRequest#41622463 with ConnectStream#11404313
+System.Net Information: 0 : [4420] Associating HttpWebRequest#41622463 with HttpWebResponse#64923656
+System.Net Information: 0 : [4420] ContentLength=4040
+System.Net Error: 0 : [4564] Exception in HttpWebRequest#41622463:: - The request was aborted: The request was canceled..
+System.Net Information: 0 : [1956] Associating HttpWebRequest#53052340 with ServicePoint#28379535
+System.Net Information: 0 : [1956] Associating Connection#5896758 with HttpWebRequest#53052340
+System.Net Information: 0 : [3288] Connection#5896758 - Created connection from 10.0.2.15:52449 to 104.44.128.13:80.
+System.Net Information: 0 : [3288] Associating HttpWebRequest#53052340 with ConnectStream#45653674
+System.Net Information: 0 : [3288] HttpWebRequest#53052340 - Request: GET /catalogs/LN/sizes HTTP/1.1
+
+System.Net Information: 0 : [3288] ConnectStream#45653674 - Sending headers
+{
+User-Agent: ZtherApiIntegration.API.LandauWebAPI/1.0.0.0
+Host: microsoft-apiapp5dcb282abbf74b72ad1667c2-staging.azurewebsites.net
+}.
+System.Net Information: 0 : [3288] Connection#5896758 - Received status line: Version=1.1, StatusCode=200, StatusDescription=OK.
+System.Net Information: 0 : [3288] Connection#5896758 - Received headers
+{
+Pragma: no-cache
+Content-Length: 159
+Cache-Control: no-cache
+Content-Type: application/json; charset=utf-8
+Date: Fri, 16 Oct 2015 15:30:10 GMT
+Expires: -1
+Set-Cookie: ARRAffinity=9c521909a57d4c66cddfd2415c004c882d4e36f50d603dadb2e697cdbab7a829;Path=/;Domain=microsoft-apiapp5dcb282abbf74b72ad1667c2-staging.azurewebsites.net
+Server: Microsoft-IIS/8.0
+X-AspNet-Version: 4.0.30319
+X-Powered-By: ASP.NET
+}.
+System.Net Information: 0 : [3288] ConnectStream#41149443::ConnectStream(Buffered 159 bytes.)
+System.Net Information: 0 : [3288] Associating HttpWebRequest#53052340 with ConnectStream#41149443
+System.Net Information: 0 : [3288] Associating HttpWebRequest#53052340 with HttpWebResponse#39785641
+System.Net Information: 0 : [3288] ContentLength=159
+System.Net Information: 0 : [1956] Associating HttpWebRequest#49129953 with ServicePoint#28379535
+System.Net Information: 0 : [1956] Associating Connection#5896758 with HttpWebRequest#49129953
+System.Net Information: 0 : [1956] Associating HttpWebRequest#49129953 with ConnectStream#10675717
+System.Net Information: 0 : [1956] HttpWebRequest#49129953 - Request: GET /catalogs/LN/pantfittypes HTTP/1.1
+
+System.Net Information: 0 : [1956] ConnectStream#10675717 - Sending headers
+{
+User-Agent: ZtherApiIntegration.API.LandauWebAPI/1.0.0.0
+Host: microsoft-apiapp5dcb282abbf74b72ad1667c2-staging.azurewebsites.net
+Cookie: ARRAffinity=9c521909a57d4c66cddfd2415c004c882d4e36f50d603dadb2e697cdbab7a829
+}.
+System.Net Information: 0 : [3288] Connection#5896758 - Received status line: Version=1.1, StatusCode=200, StatusDescription=OK.
+System.Net Information: 0 : [3288] Connection#5896758 - Received headers
+{
+Pragma: no-cache
+Content-Length: 141
+Cache-Control: no-cache
+Content-Type: application/json; charset=utf-8
+Date: Fri, 16 Oct 2015 15:30:10 GMT
+Expires: -1
+Server: Microsoft-IIS/8.0
+X-AspNet-Version: 4.0.30319
+X-Powered-By: ASP.NET
+}.
+System.Net Information: 0 : [3288] ConnectStream#52697953::ConnectStream(Buffered 141 bytes.)
+System.Net Information: 0 : [3288] Associating HttpWebRequest#49129953 with ConnectStream#52697953
+System.Net Information: 0 : [3288] Associating HttpWebRequest#49129953 with HttpWebResponse#22597652
+System.Net Information: 0 : [3288] ContentLength=141
+System.Net Information: 0 : [1956] Associating HttpWebRequest#58998806 with ServicePoint#28379535
+System.Net Information: 0 : [1956] Associating Connection#5896758 with HttpWebRequest#58998806
+System.Net Information: 0 : [1956] Associating HttpWebRequest#58998806 with ConnectStream#803548
+System.Net Information: 0 : [1956] HttpWebRequest#58998806 - Request: GET /catalogs/LN/colors HTTP/1.1
+
+System.Net Information: 0 : [1956] ConnectStream#803548 - Sending headers
+{
+User-Agent: ZtherApiIntegration.API.LandauWebAPI/1.0.0.0
+Host: microsoft-apiapp5dcb282abbf74b72ad1667c2-staging.azurewebsites.net
+Cookie: ARRAffinity=9c521909a57d4c66cddfd2415c004c882d4e36f50d603dadb2e697cdbab7a829
+}.
+System.Net Information: 0 : [3288] Connection#5896758 - Received status line: Version=1.1, StatusCode=200, StatusDescription=OK.
+System.Net Information: 0 : [3288] Connection#5896758 - Received headers
+{
+Pragma: no-cache
+Content-Length: 406
+Cache-Control: no-cache
+Content-Type: application/json; charset=utf-8
+Date: Fri, 16 Oct 2015 15:30:12 GMT
+Expires: -1
+Server: Microsoft-IIS/8.0
+X-AspNet-Version: 4.0.30319
+X-Powered-By: ASP.NET
+}.
+System.Net Information: 0 : [3288] ConnectStream#40644060::ConnectStream(Buffered 406 bytes.)
+System.Net Information: 0 : [3288] Associating HttpWebRequest#58998806 with ConnectStream#40644060
+System.Net Information: 0 : [3288] Associating HttpWebRequest#58998806 with HttpWebResponse#17043416
+System.Net Information: 0 : [3288] ContentLength=406
+System.Net Information: 0 : [1956] Associating HttpWebRequest#20318803 with ServicePoint#28379535
+System.Net Information: 0 : [1956] Associating Connection#5896758 with HttpWebRequest#20318803
+System.Net Information: 0 : [1956] Associating HttpWebRequest#20318803 with ConnectStream#66540731
+System.Net Information: 0 : [1956] HttpWebRequest#20318803 - Request: GET /catalogs/LN/sortby HTTP/1.1
+
+System.Net Information: 0 : [1956] ConnectStream#66540731 - Sending headers
+{
+User-Agent: ZtherApiIntegration.API.LandauWebAPI/1.0.0.0
+Host: microsoft-apiapp5dcb282abbf74b72ad1667c2-staging.azurewebsites.net
+Cookie: ARRAffinity=9c521909a57d4c66cddfd2415c004c882d4e36f50d603dadb2e697cdbab7a829
+}.
+System.Net Information: 0 : [3288] Connection#5896758 - Received status line: Version=1.1, StatusCode=200, StatusDescription=OK.
+System.Net Information: 0 : [3288] Connection#5896758 - Received headers
+{
+Pragma: no-cache
+Content-Length: 168
+Cache-Control: no-cache
+Content-Type: application/json; charset=utf-8
+Date: Fri, 16 Oct 2015 15:30:12 GMT
+Expires: -1
+Server: Microsoft-IIS/8.0
+X-AspNet-Version: 4.0.30319
+X-Powered-By: ASP.NET
+}.
+System.Net Information: 0 : [3288] ConnectStream#11653293::ConnectStream(Buffered 168 bytes.)
+System.Net Information: 0 : [3288] Associating HttpWebRequest#20318803 with ConnectStream#11653293
+System.Net Information: 0 : [3288] Associating HttpWebRequest#20318803 with HttpWebResponse#54636159
+System.Net Information: 0 : [3288] ContentLength=168
+System.Net Error: 0 : [4564] Exception in HttpWebRequest#20318803:: - The request was aborted: The request was canceled..
+System.Net Information: 0 : [1956] Associating HttpWebRequest#51235992 with ServicePoint#28379535
+System.Net Information: 0 : [1956] Associating Connection#13066146 with HttpWebRequest#51235992
+System.Net Information: 0 : [3288] Connection#13066146 - Created connection from 10.0.2.15:52450 to 104.44.128.13:80.
+System.Net Information: 0 : [3288] Associating HttpWebRequest#51235992 with ConnectStream#63130991
+System.Net Information: 0 : [3288] HttpWebRequest#51235992 - Request: GET /catalogs/LN/categories?gender=female HTTP/1.1
+
+System.Net Information: 0 : [3288] ConnectStream#63130991 - Sending headers
+{
+User-Agent: ZtherApiIntegration.API.LandauWebAPI/1.0.0.0
+Host: microsoft-apiapp5dcb282abbf74b72ad1667c2-staging.azurewebsites.net
+}.
+System.Net Information: 0 : [3288] Connection#13066146 - Received status line: Version=1.1, StatusCode=200, StatusDescription=OK.
+System.Net Information: 0 : [3288] Connection#13066146 - Received headers
+{
+Pragma: no-cache
+Content-Length: 298
+Cache-Control: no-cache
+Content-Type: application/json; charset=utf-8
+Date: Fri, 16 Oct 2015 15:30:13 GMT
+Expires: -1
+Set-Cookie: ARRAffinity=9c521909a57d4c66cddfd2415c004c882d4e36f50d603dadb2e697cdbab7a829;Path=/;Domain=microsoft-apiapp5dcb282abbf74b72ad1667c2-staging.azurewebsites.net
+Server: Microsoft-IIS/8.0
+X-AspNet-Version: 4.0.30319
+X-Powered-By: ASP.NET
+}.
+System.Net Information: 0 : [3288] ConnectStream#22322349::ConnectStream(Buffered 298 bytes.)
+System.Net Information: 0 : [3288] Associating HttpWebRequest#51235992 with ConnectStream#22322349
+System.Net Information: 0 : [3288] Associating HttpWebRequest#51235992 with HttpWebResponse#64981649
+System.Net Information: 0 : [3288] ContentLength=298
+System.Net Information: 0 : [1956] Associating HttpWebRequest#64506597 with ServicePoint#28379535
+System.Net Information: 0 : [1956] Associating Connection#13066146 with HttpWebRequest#64506597
+System.Net Information: 0 : [1956] Associating HttpWebRequest#64506597 with ConnectStream#48342929
+System.Net Information: 0 : [1956] HttpWebRequest#64506597 - Request: GET /catalogs/LN/collections?gender=female HTTP/1.1
+
+System.Net Information: 0 : [1956] ConnectStream#48342929 - Sending headers
+{
+User-Agent: ZtherApiIntegration.API.LandauWebAPI/1.0.0.0
+Host: microsoft-apiapp5dcb282abbf74b72ad1667c2-staging.azurewebsites.net
+Cookie: ARRAffinity=9c521909a57d4c66cddfd2415c004c882d4e36f50d603dadb2e697cdbab7a829
+}.
+System.Net Information: 0 : [3288] Connection#13066146 - Received status line: Version=1.1, StatusCode=200, StatusDescription=OK.
+System.Net Information: 0 : [3288] Connection#13066146 - Received headers
+{
+Pragma: no-cache
+Content-Length: 172
+Cache-Control: no-cache
+Content-Type: application/json; charset=utf-8
+Date: Fri, 16 Oct 2015 15:30:14 GMT
+Expires: -1
+Server: Microsoft-IIS/8.0
+X-AspNet-Version: 4.0.30319
+X-Powered-By: ASP.NET
+}.
+System.Net Information: 0 : [3288] ConnectStream#36620214::ConnectStream(Buffered 172 bytes.)
+System.Net Information: 0 : [3288] Associating HttpWebRequest#64506597 with ConnectStream#36620214
+System.Net Information: 0 : [3288] Associating HttpWebRequest#64506597 with HttpWebResponse#37296927
+System.Net Information: 0 : [3288] ContentLength=172
+System.Net Information: 0 : [1956] Associating HttpWebRequest#52709690 with ServicePoint#28379535
+System.Net Information: 0 : [1956] Associating Connection#13066146 with HttpWebRequest#52709690
+System.Net Information: 0 : [1956] Associating HttpWebRequest#52709690 with ConnectStream#61698184
+System.Net Information: 0 : [1956] HttpWebRequest#52709690 - Request: GET /catalogs/LN/categories?gender=male HTTP/1.1
+
+System.Net Information: 0 : [1956] ConnectStream#61698184 - Sending headers
+{
+User-Agent: ZtherApiIntegration.API.LandauWebAPI/1.0.0.0
+Host: microsoft-apiapp5dcb282abbf74b72ad1667c2-staging.azurewebsites.net
+Cookie: ARRAffinity=9c521909a57d4c66cddfd2415c004c882d4e36f50d603dadb2e697cdbab7a829
+}.
+System.Net Information: 0 : [3288] Connection#13066146 - Received status line: Version=1.1, StatusCode=200, StatusDescription=OK.
+System.Net Information: 0 : [3288] Connection#13066146 - Received headers
+{
+Pragma: no-cache
+Content-Length: 249
+Cache-Control: no-cache
+Content-Type: application/json; charset=utf-8
+Date: Fri, 16 Oct 2015 15:30:14 GMT
+Expires: -1
+Server: Microsoft-IIS/8.0
+X-AspNet-Version: 4.0.30319
+X-Powered-By: ASP.NET
+}.
+System.Net Information: 0 : [3288] ConnectStream#13134304::ConnectStream(Buffered 249 bytes.)
+System.Net Information: 0 : [3288] Associating HttpWebRequest#52709690 with ConnectStream#13134304
+System.Net Information: 0 : [3288] Associating HttpWebRequest#52709690 with HttpWebResponse#54172779
+System.Net Information: 0 : [3288] ContentLength=249
+System.Net Information: 0 : [1956] Associating HttpWebRequest#37915543 with ServicePoint#28379535
+System.Net Information: 0 : [1956] Associating Connection#13066146 with HttpWebRequest#37915543
+System.Net Information: 0 : [1956] Associating HttpWebRequest#37915543 with ConnectStream#43253384
+System.Net Information: 0 : [1956] HttpWebRequest#37915543 - Request: GET /catalogs/LN/collections?gender=male HTTP/1.1
+
+System.Net Information: 0 : [1956] ConnectStream#43253384 - Sending headers
+{
+User-Agent: ZtherApiIntegration.API.LandauWebAPI/1.0.0.0
+Host: microsoft-apiapp5dcb282abbf74b72ad1667c2-staging.azurewebsites.net
+Cookie: ARRAffinity=9c521909a57d4c66cddfd2415c004c882d4e36f50d603dadb2e697cdbab7a829
+}.
+System.Net Information: 0 : [3288] Connection#13066146 - Received status line: Version=1.1, StatusCode=200, StatusDescription=OK.
+System.Net Information: 0 : [3288] Connection#13066146 - Received headers
+{
+Pragma: no-cache
+Content-Length: 142
+Cache-Control: no-cache
+Content-Type: application/json; charset=utf-8
+Date: Fri, 16 Oct 2015 15:30:14 GMT
+Expires: -1
+Server: Microsoft-IIS/8.0
+X-AspNet-Version: 4.0.30319
+X-Powered-By: ASP.NET
+}.
+System.Net Information: 0 : [3288] ConnectStream#34868631::ConnectStream(Buffered 142 bytes.)
+System.Net Information: 0 : [3288] Associating HttpWebRequest#37915543 with ConnectStream#34868631
+System.Net Information: 0 : [3288] Associating HttpWebRequest#37915543 with HttpWebResponse#25584554
+System.Net Information: 0 : [3288] ContentLength=142
+System.Net Error: 0 : [4564] Exception in HttpWebRequest#37915543:: - The request was aborted: The request was canceled..
+System.Net Information: 0 : [1956] Associating HttpWebRequest#21353980 with ServicePoint#28379535
+System.Net Information: 0 : [1956] Associating Connection#33592719 with HttpWebRequest#21353980
+System.Net Information: 0 : [3288] Connection#33592719 - Created connection from 10.0.2.15:52451 to 104.44.128.13:80.
+System.Net Information: 0 : [3288] Associating HttpWebRequest#21353980 with ConnectStream#35170261
+System.Net Information: 0 : [3288] HttpWebRequest#21353980 - Request: GET /catalogs/LN/categories?gender=female HTTP/1.1
+
+System.Net Information: 0 : [3288] ConnectStream#35170261 - Sending headers
+{
+User-Agent: ZtherApiIntegration.API.LandauWebAPI/1.0.0.0
+Host: microsoft-apiapp5dcb282abbf74b72ad1667c2-staging.azurewebsites.net
+}.
+System.Net Information: 0 : [3288] Connection#33592719 - Received status line: Version=1.1, StatusCode=200, StatusDescription=OK.
+System.Net Information: 0 : [3288] Connection#33592719 - Received headers
+{
+Pragma: no-cache
+Content-Length: 298
+Cache-Control: no-cache
+Content-Type: application/json; charset=utf-8
+Date: Fri, 16 Oct 2015 15:30:15 GMT
+Expires: -1
+Set-Cookie: ARRAffinity=9c521909a57d4c66cddfd2415c004c882d4e36f50d603dadb2e697cdbab7a829;Path=/;Domain=microsoft-apiapp5dcb282abbf74b72ad1667c2-staging.azurewebsites.net
+Server: Microsoft-IIS/8.0
+X-AspNet-Version: 4.0.30319
+X-Powered-By: ASP.NET
+}.
+System.Net Information: 0 : [3288] ConnectStream#39157888::ConnectStream(Buffered 298 bytes.)
+System.Net Information: 0 : [3288] Associating HttpWebRequest#21353980 with ConnectStream#39157888
+System.Net Information: 0 : [3288] Associating HttpWebRequest#21353980 with HttpWebResponse#17274517
+System.Net Information: 0 : [3288] ContentLength=298
+System.Net Error: 0 : [4564] Exception in HttpWebRequest#21353980:: - The request was aborted: The request was canceled..
+System.Net Information: 0 : [1956] Associating HttpWebRequest#191593 with ServicePoint#28379535
+System.Net Information: 0 : [1956] Associating Connection#6322590 with HttpWebRequest#191593
+System.Net Information: 0 : [3288] Connection#6322590 - Created connection from 10.0.2.15:52452 to 104.44.128.13:80.
+System.Net Information: 0 : [3288] Associating HttpWebRequest#191593 with ConnectStream#27973187
+System.Net Information: 0 : [3288] HttpWebRequest#191593 - Request: GET /catalogs/LN/categories?gender=female HTTP/1.1
+
+System.Net Information: 0 : [3288] ConnectStream#27973187 - Sending headers
+{
+User-Agent: ZtherApiIntegration.API.LandauWebAPI/1.0.0.0
+Host: microsoft-apiapp5dcb282abbf74b72ad1667c2-staging.azurewebsites.net
+}.
+System.Net Information: 0 : [3288] Connection#6322590 - Received status line: Version=1.1, StatusCode=200, StatusDescription=OK.
+System.Net Information: 0 : [3288] Connection#6322590 - Received headers
+{
+Pragma: no-cache
+Content-Length: 298
+Cache-Control: no-cache
+Content-Type: application/json; charset=utf-8
+Date: Fri, 16 Oct 2015 15:30:24 GMT
+Expires: -1
+Set-Cookie: ARRAffinity=9c521909a57d4c66cddfd2415c004c882d4e36f50d603dadb2e697cdbab7a829;Path=/;Domain=microsoft-apiapp5dcb282abbf74b72ad1667c2-staging.azurewebsites.net
+Server: Microsoft-IIS/8.0
+X-AspNet-Version: 4.0.30319
+X-Powered-By: ASP.NET
+}.
+System.Net Information: 0 : [3288] ConnectStream#50833863::ConnectStream(Buffered 298 bytes.)
+System.Net Information: 0 : [3288] Associating HttpWebRequest#191593 with ConnectStream#50833863
+System.Net Information: 0 : [3288] Associating HttpWebRequest#191593 with HttpWebResponse#5822459
+System.Net Information: 0 : [3288] ContentLength=298
+System.Net Information: 0 : [1956] Associating HttpWebRequest#51417822 with ServicePoint#28379535
+System.Net Information: 0 : [1956] Associating Connection#6322590 with HttpWebRequest#51417822
+System.Net Information: 0 : [1956] Associating HttpWebRequest#51417822 with ConnectStream#19066549
+System.Net Information: 0 : [1956] HttpWebRequest#51417822 - Request: GET /catalogs/LN/collections?gender=female HTTP/1.1
+
+System.Net Information: 0 : [1956] ConnectStream#19066549 - Sending headers
+{
+User-Agent: ZtherApiIntegration.API.LandauWebAPI/1.0.0.0
+Host: microsoft-apiapp5dcb282abbf74b72ad1667c2-staging.azurewebsites.net
+Cookie: ARRAffinity=9c521909a57d4c66cddfd2415c004c882d4e36f50d603dadb2e697cdbab7a829
+}.
+System.Net Information: 0 : [3288] Connection#6322590 - Received status line: Version=1.1, StatusCode=200, StatusDescription=OK.
+System.Net Information: 0 : [3288] Connection#6322590 - Received headers
+{
+Pragma: no-cache
+Content-Length: 172
+Cache-Control: no-cache
+Content-Type: application/json; charset=utf-8
+Date: Fri, 16 Oct 2015 15:30:24 GMT
+Expires: -1
+Server: Microsoft-IIS/8.0
+X-AspNet-Version: 4.0.30319
+X-Powered-By: ASP.NET
+}.
+System.Net Information: 0 : [3288] ConnectStream#687191::ConnectStream(Buffered 172 bytes.)
+System.Net Information: 0 : [3288] Associating HttpWebRequest#51417822 with ConnectStream#687191
+System.Net Information: 0 : [3288] Associating HttpWebRequest#51417822 with HttpWebResponse#30923613
+System.Net Information: 0 : [3288] ContentLength=172
+System.Net Information: 0 : [1956] Associating HttpWebRequest#13077851 with ServicePoint#28379535
+System.Net Information: 0 : [1956] Associating Connection#6322590 with HttpWebRequest#13077851
+System.Net Information: 0 : [1956] Associating HttpWebRequest#13077851 with ConnectStream#28915924
+System.Net Information: 0 : [1956] HttpWebRequest#13077851 - Request: GET /catalogs/LN/categories?gender=male HTTP/1.1
+
+System.Net Information: 0 : [1956] ConnectStream#28915924 - Sending headers
+{
+User-Agent: ZtherApiIntegration.API.LandauWebAPI/1.0.0.0
+Host: microsoft-apiapp5dcb282abbf74b72ad1667c2-staging.azurewebsites.net
+Cookie: ARRAffinity=9c521909a57d4c66cddfd2415c004c882d4e36f50d603dadb2e697cdbab7a829
+}.
+System.Net Information: 0 : [1832] Connection#6322590 - Received status line: Version=1.1, StatusCode=200, StatusDescription=OK.
+System.Net Information: 0 : [1832] Connection#6322590 - Received headers
+{
+Pragma: no-cache
+Content-Length: 249
+Cache-Control: no-cache
+Content-Type: application/json; charset=utf-8
+Date: Fri, 16 Oct 2015 15:30:24 GMT
+Expires: -1
+Server: Microsoft-IIS/8.0
+X-AspNet-Version: 4.0.30319
+X-Powered-By: ASP.NET
+}.
+System.Net Information: 0 : [1832] ConnectStream#20974680::ConnectStream(Buffered 249 bytes.)
+System.Net Information: 0 : [1832] Associating HttpWebRequest#13077851 with ConnectStream#20974680
+System.Net Information: 0 : [1832] Associating HttpWebRequest#13077851 with HttpWebResponse#37916227
+System.Net Information: 0 : [1832] ContentLength=249
+System.Net Information: 0 : [1956] Associating HttpWebRequest#37920736 with ServicePoint#28379535
+System.Net Information: 0 : [1956] Associating Connection#6322590 with HttpWebRequest#37920736
+System.Net Information: 0 : [1956] Associating HttpWebRequest#37920736 with ConnectStream#43424763
+System.Net Information: 0 : [1956] HttpWebRequest#37920736 - Request: GET /catalogs/LN/collections?gender=male HTTP/1.1
+
+System.Net Information: 0 : [1956] ConnectStream#43424763 - Sending headers
+{
+User-Agent: ZtherApiIntegration.API.LandauWebAPI/1.0.0.0
+Host: microsoft-apiapp5dcb282abbf74b72ad1667c2-staging.azurewebsites.net
+Cookie: ARRAffinity=9c521909a57d4c66cddfd2415c004c882d4e36f50d603dadb2e697cdbab7a829
+}.
+System.Net Information: 0 : [1832] Connection#6322590 - Received status line: Version=1.1, StatusCode=200, StatusDescription=OK.
+System.Net Information: 0 : [1832] Connection#6322590 - Received headers
+{
+Pragma: no-cache
+Content-Length: 142
+Cache-Control: no-cache
+Content-Type: application/json; charset=utf-8
+Date: Fri, 16 Oct 2015 15:30:25 GMT
+Expires: -1
+Server: Microsoft-IIS/8.0
+X-AspNet-Version: 4.0.30319
+X-Powered-By: ASP.NET
+}.
+System.Net Information: 0 : [1832] ConnectStream#52253787::ConnectStream(Buffered 142 bytes.)
+System.Net Information: 0 : [1832] Associating HttpWebRequest#37920736 with ConnectStream#52253787
+System.Net Information: 0 : [1832] Associating HttpWebRequest#37920736 with HttpWebResponse#17987329
+System.Net Information: 0 : [1832] ContentLength=142
+System.Net Error: 0 : [4564] Exception in HttpWebRequest#37920736:: - The request was aborted: The request was canceled..
+System.Net Information: 0 : [4564] Associating HttpWebRequest#36181605 with ServicePoint#28379535
+System.Net Information: 0 : [4564] Associating Connection#37434980 with HttpWebRequest#36181605
+System.Net Information: 0 : [1832] Connection#37434980 - Created connection from 10.0.2.15:52477 to 104.44.128.13:80.
+System.Net Information: 0 : [1832] Associating HttpWebRequest#36181605 with ConnectStream#8998912
+System.Net Information: 0 : [1832] HttpWebRequest#36181605 - Request: GET /catalogs/LN?gender=female&collection=&category=Tops&color=Green&sort=&page=1&pagesize=16 HTTP/1.1
+
+System.Net Information: 0 : [1832] ConnectStream#8998912 - Sending headers
+{
+User-Agent: ZtherApiIntegration.API.LandauWebAPI/1.0.0.0
+Host: microsoft-apiapp5dcb282abbf74b72ad1667c2-staging.azurewebsites.net
+}.
+System.Net Information: 0 : [1832] Connection#37434980 - Received status line: Version=1.1, StatusCode=200, StatusDescription=OK.
+System.Net Information: 0 : [1832] Connection#37434980 - Received headers
+{
+Pragma: no-cache
+Content-Length: 2661
+Cache-Control: no-cache
+Content-Type: application/json; charset=utf-8
+Date: Fri, 16 Oct 2015 15:30:43 GMT
+Expires: -1
+Set-Cookie: ARRAffinity=9c521909a57d4c66cddfd2415c004c882d4e36f50d603dadb2e697cdbab7a829;Path=/;Domain=microsoft-apiapp5dcb282abbf74b72ad1667c2-staging.azurewebsites.net
+Server: Microsoft-IIS/8.0
+X-AspNet-Version: 4.0.30319
+X-Powered-By: ASP.NET
+}.
+System.Net Information: 0 : [1832] ConnectStream#7180297::ConnectStream(Buffered 2661 bytes.)
+System.Net Information: 0 : [1832] Associating HttpWebRequest#36181605 with ConnectStream#7180297
+System.Net Information: 0 : [1832] Associating HttpWebRequest#36181605 with HttpWebResponse#45011471
+System.Net Information: 0 : [1832] ContentLength=2661
+System.Net Error: 0 : [1956] Exception in HttpWebRequest#36181605:: - The request was aborted: The request was canceled..
+System.Net Information: 0 : [2448] ServicePoint#28379535 - ConnectionGroup#12036987 - Closed as idle.
+System.Net Information: 0 : [2448] ServicePoint#28379535 - ConnectionGroup#42715336 - Closed as idle.
+System.Net Information: 0 : [2448] ServicePoint#28379535 - ConnectionGroup#36963566 - Closed as idle.
+System.Net Information: 0 : [2448] ServicePoint#28379535 - ConnectionGroup#25474675 - Closed as idle.
+System.Net Information: 0 : [2448] ServicePoint#28379535 - ConnectionGroup#3038911 - Closed as idle.
+System.Net Warning: 0 : [4564] ScriptEngine was notified of a potential change in the system's proxy settings and will update WebProxy settings.
+System.Net Information: 0 : [4564] Associating HttpWebRequest#52757382 with ServicePoint#28379535
+System.Net Information: 0 : [4564] Associating Connection#53569095 with HttpWebRequest#52757382
+System.Net Information: 0 : [1832] Connection#53569095 - Created connection from 10.0.2.15:52481 to 104.44.128.13:80.
+System.Net Information: 0 : [1832] Associating HttpWebRequest#52757382 with ConnectStream#40906347
+System.Net Information: 0 : [1832] HttpWebRequest#52757382 - Request: GET /catalogs/LN?gender=female&collection=&category=Tops&sort=&page=1&pagesize=16 HTTP/1.1
+
+System.Net Information: 0 : [1832] ConnectStream#40906347 - Sending headers
+{
+User-Agent: ZtherApiIntegration.API.LandauWebAPI/1.0.0.0
+Host: microsoft-apiapp5dcb282abbf74b72ad1667c2-staging.azurewebsites.net
+}.
+System.Net Information: 0 : [1832] Connection#53569095 - Received status line: Version=1.1, StatusCode=200, StatusDescription=OK.
+System.Net Information: 0 : [1832] Connection#53569095 - Received headers
+{
+Pragma: no-cache
+Content-Length: 4040
+Cache-Control: no-cache
+Content-Type: application/json; charset=utf-8
+Date: Fri, 16 Oct 2015 15:32:14 GMT
+Expires: -1
+Set-Cookie: ARRAffinity=9c521909a57d4c66cddfd2415c004c882d4e36f50d603dadb2e697cdbab7a829;Path=/;Domain=microsoft-apiapp5dcb282abbf74b72ad1667c2-staging.azurewebsites.net
+Server: Microsoft-IIS/8.0
+X-AspNet-Version: 4.0.30319
+X-Powered-By: ASP.NET
+}.
+System.Net Information: 0 : [1832] ConnectStream#20552794::ConnectStream(Buffered 4040 bytes.)
+System.Net Information: 0 : [1832] Associating HttpWebRequest#52757382 with ConnectStream#20552794
+System.Net Information: 0 : [1832] Associating HttpWebRequest#52757382 with HttpWebResponse#15556277
+System.Net Information: 0 : [1832] ContentLength=4040
+System.Net Information: 0 : [4564] Associating HttpWebRequest#13224547 with ServicePoint#28379535
+System.Net Information: 0 : [4564] Associating Connection#21561861 with HttpWebRequest#13224547
+System.Net Information: 0 : [2944] Connection#21561861 - Created connection from 10.0.2.15:52482 to 104.44.128.13:80.
+System.Net Information: 0 : [2944] Associating HttpWebRequest#13224547 with ConnectStream#12625358
+System.Net Information: 0 : [2944] HttpWebRequest#13224547 - Request: GET /catalogs/LN?gender=female&collection=&category=Tops&size=Misses%27&sort=&page=1&pagesize=16 HTTP/1.1
+
+System.Net Information: 0 : [2944] ConnectStream#12625358 - Sending headers
+{
+User-Agent: ZtherApiIntegration.API.LandauWebAPI/1.0.0.0
+Host: microsoft-apiapp5dcb282abbf74b72ad1667c2-staging.azurewebsites.net
+}.
+System.Net Information: 0 : [2944] Connection#21561861 - Received status line: Version=1.1, StatusCode=200, StatusDescription=OK.
+System.Net Information: 0 : [2944] Connection#21561861 - Received headers
+{
+Pragma: no-cache
+Content-Length: 4053
+Cache-Control: no-cache
+Content-Type: application/json; charset=utf-8
+Date: Fri, 16 Oct 2015 15:32:19 GMT
+Expires: -1
+Set-Cookie: ARRAffinity=9c521909a57d4c66cddfd2415c004c882d4e36f50d603dadb2e697cdbab7a829;Path=/;Domain=microsoft-apiapp5dcb282abbf74b72ad1667c2-staging.azurewebsites.net
+Server: Microsoft-IIS/8.0
+X-AspNet-Version: 4.0.30319
+X-Powered-By: ASP.NET
+}.
+System.Net Information: 0 : [2944] ConnectStream#47877643::ConnectStream(Buffered 4053 bytes.)
+System.Net Information: 0 : [2944] Associating HttpWebRequest#13224547 with ConnectStream#47877643
+System.Net Information: 0 : [2944] Associating HttpWebRequest#13224547 with HttpWebResponse#16826326
+System.Net Information: 0 : [2944] ContentLength=4053
+System.Net Information: 0 : [2448] ServicePoint#28379535 - ConnectionGroup#45330878 - Closed as idle.
+System.Net Information: 0 : [2448] ServicePoint#28379535 - ConnectionGroup#66629781 - Closed as idle.
