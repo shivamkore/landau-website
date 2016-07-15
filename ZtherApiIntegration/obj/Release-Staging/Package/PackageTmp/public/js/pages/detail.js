@@ -26,37 +26,6 @@ $(function() {
     });
 
     //Preview image swap
-    //var current_img = 1;
-    //$(".thumbnail_container").on('click', '.thumbnail_img', function() {
-    //    if (!$(this).hasClass('active')) {
-    //        TweenMax.to( [$('.preview_wrapper [preview=' + current_img + ']'),
-    //                      $('.zoomed_img_container [zoom=' + current_img + ']')], 0.35, {
-    //            opacity: 0,
-    //        });
-    //        $('.preview_wrapper [preview=' + current_img + ']').removeClass('active');
-    //        $(".thumbnail_img.active").removeClass('active');
-    //        $('.zoomed_img_container .active').removeClass('active');
-
-    //        current_img = $(this).attr('thumbnail');
-
-    //        if (!$(this).hasClass('video')) {
-
-    //            $(this).addClass('active');
-    //            $('.zoomed_img_container [zoom=' + current_img + ']').addClass('active');
-    //            $('.preview_wrapper [preview=' + current_img + ']').addClass('active');
-    //            TweenMax.to([$('.preview_wrapper [preview=' + current_img + ']'),
-    //                          $('.zoomed_img_container [zoom=' + current_img + ']')], 0.35, {
-    //                              opacity: 1,
-    //                          });
-    //        } else {
-    //            $('.preview.video').show();
-    //            //$('.preview.video ').addClass('active');
-    //            //alert("Video");
-    //        }
-    //    }
-    //    //alert("Debug");
-    //});
-
     var current_img = 1;
     $(".thumbnail_container").on('click', '.thumbnail_img', function () {
         if (!$(this).hasClass('active')) {

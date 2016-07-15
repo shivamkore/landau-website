@@ -102,7 +102,7 @@
 {
     #homepage .home_slider .flexslider ul.slides .cta
     {
-        font-size: 2.5vw;
+        font-size: 1.5vw;
         padding-top: .9em 2em;
     }
 }
@@ -112,50 +112,6 @@
 #homepage .home_slider .flexslider ul.slides div.content {
     position: absolute; /*!important;*/
 }
-
-/*#home-slider-1 .content
-{
-    top: 20.4%;
-    left: 10.5%;
-    color: #fff;
-}
-
-#home-slider-2 .content
-{
-    top: 13%;
-    left: 20%;
-    color: #c15d7e;
-}
-
-#home-slider-2 .content .title #first, 
-#home-slider-2 .content .title #fourth {
-    font-family: 'ProximaNovaW01-Bold';
-    font-size: 1.3vw;
-    letter-spacing: .5em;
-    text-transform: uppercase;
-}*/
-
-/*#homepage .home_slider .flexslider ul.slides .cta {
-    font-family: 'ProximaNovaW01-Bold';
-    font-size: .9vw;
-    display: inline-block;
-    margin-top: 4%;
-    padding-top: .8em;
-    padding-right: 1.4em;
-    padding-bottom: .7em;
-    padding-left: 1.4em;
-    cursor: pointer;
-    transition: background-color .25s ease, color .25s ease, border-color .25s ease;
-    letter-spacing: 0;
-    text-transform: uppercase;
-    border: .2em solid;
-    border-top-left-radius: 0;
-    border-top-right-radius: 0;
-    border-bottom-right-radius: 0;
-    border-bottom-left-radius: 0;
-}*/
-
-/***********************************/
 
 /* BEGIN SLIDE 1 */
 
@@ -317,13 +273,7 @@
     }
 }
 
-
-
-
-
-
 #homepage .home_slider .flexslider ul.slides li.home-slider-1 .content .color {
-    /*font-family: Bauer Bodoni W01 Bold_795736;*/
     font-family: 'NoteraW01-Regular';
     color: #fff;
     font-size: 140px;
@@ -352,14 +302,6 @@
         margin-top: -10$;
     }
 }
-
-
-
-
-
-
-
-
 
 #homepage .home_slider .flexslider ul.slides li.home-slider-1 .content h2 .bottom {
     text-transform: none;
@@ -470,10 +412,52 @@
 
 /* BEGIN SLIDE 2 */
 
+#homepage .home_slider .flexslider .content ul.slides li.home-slider-2 {
+    background-image: url(../public/images/home/slider/desktop/Landau_Wine_Country-1920x589.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat
+}
+
+@media screen and (min-width:1920px) {
+   #homepage .home_slider .flexslider .content ul.slides li.home-slider-2 {
+        background-size: contain;
+        background-color: #f3dcdc
+    }
+}
+
+@media screen and (max-width:1270px) {
+   #homepage .home_slider .flexslider .content ul.slides li.home-slider-2{
+        background-image: url(../public/images/home/slider/desktop/Landau_Wine_Country-1270x510.jpg)
+    }
+}
+
+@media screen and (max-width:989px) {
+    #homepage .home_slider .flexslider .content ul.slides li.home-slider-2 {
+        background-image: url(../public/images/home/slider/tablet/Landau_Wine_Country-990x486.jpg)
+    }
+}
+
+@media screen and (max-width:767px) {
+    #homepage .home_slider .flexslider .content ul.slides li.home-slider-2 {
+        background-image: url(../public/images/home/slider/mobile/Landau_Wine_Country-640x760.jpg)
+    }
+}
+
+@media screen and (max-width:767px) {
+    #homepage .home_slider .flexslider ul.slides li.home-slider-2 .content {
+        position: absolute;
+        width: inherit;
+        height: inherit;
+        top: 8.3%
+    }
+}
+
 #homepage .home_slider .flexslider ul.slides #home-slider-2 .content
 {
+    position: absolute;
     top: 13%;
-    left: 20%;
+    left: 17%;
 
     color: #c15d7e;
 }
@@ -487,30 +471,36 @@
 #homepage .home_slider .flexslider ul.slides #home-slider-2 .content .title #fourth
 {
     font-family: 'ProximaNovaW01-Bold';
-    font-size: 1.3vw;
+    font-size: 23px;
+
     letter-spacing: .5em;
     text-transform: uppercase;
+}
+#homepage .home_slider .flexslider ul.slides #home-slider-2 .content .title #fourth{
+    margin-top: 15px;
 }
 
 #homepage .home_slider .flexslider ul.slides #home-slider-2 .content .title #second
 {
     font-family: 'NoteraW01-Regular';
-    font-size: 4.75vw;
+    font-size: 87.2px;
 
     position: relative;
     z-index: 1;
-    /*Decreased to 2.5*/
-    margin-top: -2.5%;
+
+    margin-top: -10px;
 
     text-transform: capitalize;
+
+    margin-bottom: -25px;
 }
 
 #homepage .home_slider .flexslider ul.slides #home-slider-2 .content .title #third
 {
     font-family: 'Bauer Bodoni Std 1';
-    font-size: 5vw;
-    /*increased margin top*/
-    margin-top: -4%;
+    font-size: 88px;
+
+    margin-top: -2%;
     margin-bottom: 0;
 
     text-transform: uppercase;
@@ -518,82 +508,91 @@
     color: #fff;
 }
 
-#homepage .home_slider .flexslider ul.slides #home-slider-2 .content .detail
+#home-slider-2 > div > a:hover
 {
-    font-family: 'ProximaNovaW01-Regular';
-    font-size: 1.3vw;
-
-    width: 60%;
+    color: #c15d7e;
 }
 
-#homepage .home_slider .flexslider ul.slides #home-slider-2 .wine-country-model
-{
-    position: absolute;
-    top: 0;
-    height: 100%;
-}
-
-#homepage .home_slider .flexslider ul.slides #home-slider-2 #wine-country-model-left
-{
-    right: 34%;
-}
-
-#homepage .home_slider .flexslider ul.slides #home-slider-2 #wine-country-model-right
-{
-    right: 15%;
-}
-#homepage .home_slider .flexslider ul.slides #home-slider-2 .content #fourth{
-    margin-top: 3%;
-}
-
-@media screen and (max-width:989px)
-{
+@media screen and (max-width:1270px){
     #homepage .home_slider .flexslider ul.slides #home-slider-2 .content
     {
-        top: 10%;
-        left: 24%;
-    }
+        position: absolute;
+        top: 13%;
+        left: 8%;
 
+        color: #c15d7e;
+    }
     #homepage .home_slider .flexslider ul.slides #home-slider-2 .content .title #first,
     #homepage .home_slider .flexslider ul.slides #home-slider-2 .content .title #fourth
     {
-        font-size: 3.9vw;
-
-        margin-bottom: -1%;
+        font-size: 20.5px;
     }
-
     #homepage .home_slider .flexslider ul.slides #home-slider-2 .content .title #second
     {
-        font-size: 14vw;
+        font-size: 80.2px;
     }
 
     #homepage .home_slider .flexslider ul.slides #home-slider-2 .content .title #third
     {
-        font-size: 11.25vw;
-
-        margin-top: -7%;
+       font-size: 80px;
     }
-
-    #homepage .home_slider .flexslider ul.slides #home-slider-2 .wine-country-model
+}
+@media screen and (max-width:989px){
+   #homepage .home_slider .flexslider ul.slides #home-slider-2 .content
     {
-        top: auto;
-        bottom: 0;
-
-        height: 63%;
+        position: absolute;
+        top: 13%;
+        left: 8%;
+        color: #c15d7e;
     }
-
-    #homepage .home_slider .flexslider ul.slides #home-slider-2 #wine-country-model-left
+    #homepage .home_slider .flexslider ul.slides #home-slider-2 .content .title #first,
+    #homepage .home_slider .flexslider ul.slides #home-slider-2 .content .title #fourth
     {
-        left: 0;
+        font-size: 17.5px;
+    }
+    #homepage .home_slider .flexslider ul.slides #home-slider-2 .content .title #second
+    {
+        font-size: 69.2px;
+            margin-bottom: -21px;
     }
 
-    #homepage .home_slider .flexslider ul.slides #home-slider-2 #wine-country-model-right
+    #homepage .home_slider .flexslider ul.slides #home-slider-2 .content .title #third
     {
-        right: 0;
+       font-size: 68px;
     }
-    #homepage .home_slider .flexslider ul.slides #home-slider-2 .content .title #fourth{
-        margin-top: 5%;
+}
+@media screen and (max-width:767px){
+    #homepage .home_slider .flexslider ul.slides #home-slider-2 .content
+    {
+        position: absolute;
+        top: 9%;
+        left: 2%;
     }
+    #homepage .home_slider .flexslider ul.slides #home-slider-2 .content .title #first,
+    #homepage .home_slider .flexslider ul.slides #home-slider-2 .content .title #fourth
+    {
+        font-size: 3.23vw;
+    }
+    #homepage .home_slider .flexslider ul.slides #home-slider-2 .content .title #first{
+        margin-bottom: 4px;
+    }
+    #homepage .home_slider .flexslider ul.slides #home-slider-2 .content .title #second
+    {
+        font-size: 11.3vw;
+        margin-bottom: -3%;
+    }
+
+    #homepage .home_slider .flexslider ul.slides #home-slider-2 .content .title #third
+    {
+       font-size: 13vw;
+    }
+    #homepage .home_slider .flexslider ul.slides #home-slider-2 .content .cta
+    {
+        margin-top: 5%;  
+        padding: 2% 5% 2% 5%;
+        font-size: 2.5vw;
+    }
+
 }
 
 /* END SLIDE 2 */

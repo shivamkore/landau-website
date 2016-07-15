@@ -724,6 +724,8 @@
     <Content Include="public\images\home\location_catalog\landau_catalog.jpg" />
     <Content Include="public\images\home\location_catalog\landau_cover.jpg" />
     <Content Include="public\images\home\slider\desktop\blue_leaf.png" />
+    <Content Include="public\images\home\slider\desktop\Landau_Wine_Country-1270x510.jpg" />
+    <Content Include="public\images\home\slider\desktop\Landau_Wine_Country-1920x589.jpg" />
     <Content Include="public\images\home\slider\desktop\lynx-new-colors-desktop.jpg" />
     <Content Include="public\images\home\slider\desktop\painterly-nights-desktop.jpg" />
     <Content Include="public\images\home\slider\desktop\slider1.jpg" />
@@ -750,6 +752,8 @@
     <Content Include="public\images\home\slider\lynx-new-colors-desktop.jpg" />
     <Content Include="public\images\home\slider\lynx-new-colors-mobile.jpg" />
     <Content Include="public\images\home\slider\mobile\blue_leaf.png" />
+    <Content Include="public\images\home\slider\mobile\Landau_Wine_Country-640x760.jpg" />
+    <Content Include="public\images\home\slider\mobile\Landau_Wine_Country-990x486.jpg" />
     <Content Include="public\images\home\slider\mobile\slider1-m.jpg" />
     <Content Include="public\images\home\slider\mobile\slider1.jpg" />
     <Content Include="public\images\home\slider\mobile\slider1_768.jpg" />
@@ -788,6 +792,7 @@
     <Content Include="public\images\home\slider\tablet\640_slider4.jpg" />
     <Content Include="public\images\home\slider\tablet\640_slider5.jpg" />
     <Content Include="public\images\home\slider\tablet\640_slider6.jpg" />
+    <Content Include="public\images\home\slider\tablet\Landau_Wine_Country-990x486.jpg" />
     <Content Include="public\images\home\slider\tablet\slider1.jpg" />
     <Content Include="public\images\home\slider\tablet\slider1_768.jpg" />
     <Content Include="public\images\home\slider\tablet\slider1_990.jpg" />
