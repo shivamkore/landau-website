@@ -36,6 +36,18 @@
     @Html.Partial("~/Views/Partials/Detail/_CustomerReviewsPartial.cshtml", Model)
     
 </div>
+
+<script>
+    window._wq = window._wq || [];
+    var ua = navigator.userAgent.toLowerCase();
+    var isWin7 = ua.indexOf('windows nt 6.1')
+    var isIE11 = (Wistia.detect.trident && Wistia.detect.browser.version === "11.0")
+    if (isWin7 && isIE11) {
+      _wq.push({"2yxj5jmq53": {
+        videoQuality: "sd-only"
+      }});
+    };
+</script>
 <script src="public/js/logic/detail.js"></script>
 <script type="text/javascript">
     setValues('@Model.ProductDetail.Code', '@Model.ProductDetail.DefaultColorCode', '@(Model.ColorsAndSizes.ProductCategorySizes.Count > 0 ? Model.ColorsAndSizes.ProductCategorySizes[0] : "")');

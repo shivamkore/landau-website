@@ -36,7 +36,12 @@
     @Html.Partial("~/Views/Partials/Detail/_CustomerReviewsPartial.cshtml", Model)
     
 </div>
+
 <script src="public/js/logic/detail.js"></script>
 <script type="text/javascript">
     setValues('@Model.ProductDetail.Code', '@Model.ProductDetail.DefaultColorCode', '@(Model.ColorsAndSizes.ProductCategorySizes.Count > 0 ? Model.ColorsAndSizes.ProductCategorySizes[0] : "")');
+</script>
+
+<script>
+    fbq('track', 'ViewContent');
 </script>
