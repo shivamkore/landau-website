@@ -134,6 +134,14 @@ namespace ZtherApiIntegration.API.Managers.Detail
             return list;
         }
 
+        public static List<ProductVideoModel> GetProductVideoModel(String code)
+        {
+            using (var client = new LandauPortalWebAPI())
+            {
+                return GetProductVideoModel(code, client);
+            }
+        }
+
         private static List<ProductVideoModel> GetProductVideoModel(String code, LandauPortalWebAPI client)
         {
 

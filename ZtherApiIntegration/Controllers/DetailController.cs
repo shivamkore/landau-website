@@ -190,11 +190,18 @@ namespace ZtherApiIntegration.Controllers
             sizeCategory = sizeCategory.Replace("_amp_", "'");
 
             var imgsModel = DetailManager.GetProductImageModelByColor(productId, color);
+            var videoModel = DetailManager.GetProductVideoModel(productId);
             var sizesModel = DetailManager.GetSizesByColorAndSizeCategory(productId, color, sizeCategory);
+
+            var detailModel = new DetailModel
+            {
+                ProductImages = imgsModel,
+                ProductVideos = videoModel
+            };
 
             return RenderMultipleViews(new List<RenderViewInfo>() { 
                                     new RenderViewInfo() {ViewName= "zoomedView", ViewPath="~/Views/Partials/Detail/_ZoomedImagePartial.cshtml", Model=imgsModel },                                    
-                                    new RenderViewInfo(){ViewName="imagesView", ViewPath="~/Views/Partials/Detail/_ImagesPartial.cshtml", Model= imgsModel},
+                                    new RenderViewInfo(){ViewName="imagesView", ViewPath="~/Views/Partials/Detail/_ImagesPartial.cshtml", Model= detailModel},
                                     new RenderViewInfo(){ViewName="sizesView", ViewPath="~/Views/Partials/Detail/_SizesPartial.cshtml", Model= sizesModel},
                                     new RenderViewInfo(){ViewName="shareView", ViewPath="~/Views/Partials/Detail/_SocialSharePartial.cshtml", Model= imgsModel}});
         }
