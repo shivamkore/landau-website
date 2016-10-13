@@ -20,7 +20,8 @@
     margin-left: 3px;
     position: relative;
     top: 2px;
-    left: 4px
+    left: 4px;
+    font-weight:bold;
 }
 @media screen and (max-width:1270px) {
     .cta {
@@ -105,8 +106,8 @@
 }
 #homepage .home_slider .flexslider ul.slides li.home-slider-1 .content {
    /* background-color: #9f26b4;*/
-   position: absolute;
-    width: 692px;
+    position: absolute;
+    width: 652px;
     height: 381px;
     background-color: #ffffff;
     top:20%;
@@ -155,7 +156,7 @@
 }
 @media screen and (max-width:989px) {
     #homepage .home_slider .flexslider ul.slides li.home-slider-1 .content h2 {
-        padding-top: 23px
+        padding-top: 15px
     }
 }
 
@@ -190,7 +191,7 @@
         letter-spacing: 2px;
         margin-left: 7px;
         font-size: 60px;
-        line-height: 100%:;
+        line-height: 100%;
     }
 }
 
@@ -236,10 +237,10 @@
 #homepage .home_slider .flexslider ul.slides li.home-slider-1 .content h2 .bottom {
     text-transform: none;
     margin: 11px auto 0;
-    font-size: 20px;
+    font-size: 23px;
     letter-spacing: 4px;
     font-family: "ProximaNovaW01-Regular";
-    letter-spacing: 1.5px;
+    letter-spacing: 0;
     
 }
 
@@ -2595,4 +2596,9 @@
     #homepage .home_slider .flexslider ul.slides li.home-slider-9 .content .cta .arrow {
 
     }
+}
+
+
+.cta {
+    border: 2px solid
 }
