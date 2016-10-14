@@ -73,7 +73,7 @@
 /* BEGIN SLIDE 1 */
 
 #homepage .home_slider .container .flexslider .content ul.slides li.home-slider-1 {
-    background-image: url(../public/images/home/slider/desktop/lynx_jacket-deskto.jpg);
+    background-image: url(../public/images/home/slider/desktop/lynx_jackect_1920.jpg);
     background-size: cover;
     background-position: center right;
     background-repeat: no-repeat;
@@ -82,7 +82,7 @@
 
 @media screen and (max-width:1270px) {
     #homepage .home_slider .container .flexslider .content ul.slides li.home-slider-1 {
-        background-image: url(../public/images/home/slider/desktop/slider1_1270.jpg)
+        background-image: url(../public/images/home/slider/desktop/lynx_jackect_1270.jpg)
     }
 }
 
