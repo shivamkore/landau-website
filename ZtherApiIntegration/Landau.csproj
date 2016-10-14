@@ -727,11 +727,11 @@
     <Content Include="public\images\home\slider\desktop\blue_leaf.png" />
     <Content Include="public\images\home\slider\desktop\Landau_Wine_Country-1270x510.jpg" />
     <Content Include="public\images\home\slider\desktop\Landau_Wine_Country-1920x589.jpg" />
+    <Content Include="public\images\home\slider\desktop\lynx_jackect_1270.jpg" />
     <Content Include="public\images\home\slider\desktop\lynx-new-colors-desktop.jpg" />
     <Content Include="public\images\home\slider\desktop\lynx_1920.jpg" />
-    <Content Include="public\images\home\slider\desktop\lynx_jackect_1270.jpg" />
-    <Content Include="public\images\home\slider\desktop\lynx_jackect_1920.jpg" />
     <Content Include="public\images\home\slider\desktop\lynx_jacket-deskto.jpg" />
+    <Content Include="public\images\home\slider\desktop\lynx_jackect_1920.jpg" />
     <Content Include="public\images\home\slider\desktop\model-left-slide7.png" />
     <Content Include="public\images\home\slider\desktop\model-left-slide8.png" />
     <Content Include="public\images\home\slider\desktop\model-left-slide9.png" />
