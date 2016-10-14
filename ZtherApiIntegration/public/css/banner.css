@@ -957,22 +957,22 @@
 
 
 #homepage .home_slider .container .flexslider .content ul.slides li.home-slider-4 {
-    background-image: url(../public/images/home/slider/desktop/slider4.jpg);
+    background-image: url(../public/images/home/slider/desktop/allday_female_1920.jpg);
     background-size: cover;
-    background-position: center left;
+    background-position: center  left;
     background-repeat: no-repeat;
     background-color: #9f26b4
 }
 
 @media screen and (max-width:1270px) {
     #homepage .home_slider .container .flexslider .content ul.slides li.home-slider-4 {
-        background-image: url(../public/images/home/slider/desktop/slider4_1270.jpg)
+        background-image: url(../public/images/home/slider/desktop/allday_female_1270.jpg)
     }
 }
 
 @media screen and (max-width:989px) {
     #homepage .home_slider .container .flexslider .content ul.slides li.home-slider-4 {
-        background-image: url(../public/images/home/slider/mobile/slider4_990.jpg)
+        background-image: url(../public/images/home/slider/mobile/allday_female_990.jpg)
     }
 }
 
@@ -1263,7 +1263,7 @@
 
 @media screen and (max-width:767px) {
     #homepage .home_slider .container .flexslider .content ul.slides li.home-slider-5  {
-        /*background-image: url(../public/images/home/slider/mobile/slider4.jpg);*/
+        /*background-image: url(../public/images/home/slider/mobile/socks.jpg);*/
         background-position: top
     }
 }
@@ -1277,6 +1277,7 @@
 #homepage .home_slider .container .flexslider .content ul.slides li.home-slider-5  .socks{
 
     background-image: url(../public/images/home/slider/desktop/socks_slider1.png);
+    background-position:center;
     background-repeat: no-repeat;
     min-height: 586px;
     width: 887px;

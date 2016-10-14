@@ -724,6 +724,8 @@
     <Content Include="public\images\home\location_catalog\icon_mapmarker.svg" />
     <Content Include="public\images\home\location_catalog\landau_catalog.jpg" />
     <Content Include="public\images\home\location_catalog\landau_cover.jpg" />
+    <Content Include="public\images\home\slider\desktop\allday_female_1270.jpg" />
+    <Content Include="public\images\home\slider\desktop\allday_female_1920.jpg" />
     <Content Include="public\images\home\slider\desktop\blue_leaf.png" />
     <Content Include="public\images\home\slider\desktop\Landau_Wine_Country-1270x510.jpg" />
     <Content Include="public\images\home\slider\desktop\Landau_Wine_Country-1920x589.jpg" />
@@ -779,6 +781,7 @@
     <Content Include="public\images\home\slider\lynx-logo.png" />
     <Content Include="public\images\home\slider\lynx-new-colors-desktop.jpg" />
     <Content Include="public\images\home\slider\lynx-new-colors-mobile.jpg" />
+    <Content Include="public\images\home\slider\mobile\allday_female_990.jpg" />
     <Content Include="public\images\home\slider\mobile\blue_leaf.png" />
     <Content Include="public\images\home\slider\mobile\Landau_Wine_Country-640x760.jpg" />
     <Content Include="public\images\home\slider\mobile\Landau_Wine_Country-990x486.jpg" />
@@ -810,6 +813,7 @@
     <Content Include="public\images\home\slider\mobile\slider7.jpg" />
     <Content Include="public\images\home\slider\mobile\slider8.jpg" />
     <Content Include="public\images\home\slider\mobile\slider9.jpg" />
+    <Content Include="public\images\home\slider\mobile\socks.jpg" />
     <Content Include="public\images\home\slider\painterly-nights-desktop.jpg" />
     <Content Include="public\images\home\slider\painterly-nights-mobile.jpg" />
     <Content Include="public\images\home\slider\painterly-nights-model-left-desktop.png" />
