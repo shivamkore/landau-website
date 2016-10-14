@@ -381,7 +381,7 @@
 
 @media screen and (max-width:767px) {
     #homepage .home_slider .container .flexslider .content ul.slides li.home-slider-2  {
-        background-image: url(../public/images/home/slider/mobile/slider1.jpg);
+        background-image: url(../public/images/home/slider/mobile/slider2.jpg);
         background-position: top
     }
 }
@@ -397,7 +397,7 @@
     width: 640px;
     height: 381px;
     background-color: #9f26b4;
-    top:20%;
+    top:18%;
     right: 6.5%;
 }
 @media screen and (max-width:1270px) {
@@ -690,11 +690,11 @@
 #homepage .home_slider .flexslider ul.slides li.home-slider-3 .content {
    /* background-color: #9f26b4;*/
    position: absolute;
-    width: 692px;
+    width: 662px;
     height: 381px;
     background-color: #ffffff;
     top:18%;
-    left: 8%;
+    left: 4%;
 }
 @media screen and (max-width:1270px) {
     #homepage .home_slider .flexslider ul.slides li.home-slider-3 .content {
@@ -1450,7 +1450,7 @@
 
 @media screen and (max-width:767px) {
     #homepage .home_slider .container .flexslider .content ul.slides li.home-slider-6  {
-        background-image: url(../public/images/home/slider/mobile/slider4.jpg);
+        background-image: url(../public/images/home/slider/mobile/slider6.jpg);
         background-position: top
     }
 }
@@ -1463,7 +1463,7 @@
 #homepage .home_slider .flexslider ul.slides li.home-slider-6 .content {
    /* background-color: #9f26b4;*/
     position: absolute;
-    width: 640px;
+    width: 580px;
     height: 400px;
     background-color: #0071ba;
     top:17%;
@@ -1560,7 +1560,7 @@
 #homepage .home_slider .flexslider ul.slides li.home-slider-6 .content h2 .middle {
     font-family: Bauer Bodoni W01 Bold_795736;
     color: #ffffff;
-    font-size: 105px;
+    font-size: 95px;
     margin: auto;
     line-height: 89.5%
 }
