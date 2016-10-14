@@ -738,6 +738,10 @@
     <Content Include="public\images\home\slider\desktop\model-right-slide7.png" />
     <Content Include="public\images\home\slider\desktop\model-right-slide8.png" />
     <Content Include="public\images\home\slider\desktop\model-right-slide9.png" />
+    <Content Include="public\images\home\slider\desktop\new_style_1270.jpg" />
+    <Content Include="public\images\home\slider\desktop\new_style_1920.jpg" />
+    <Content Include="public\images\home\slider\desktop\on_the_go_1270.jpg" />
+    <Content Include="public\images\home\slider\desktop\on_the_go_1920.jpg" />
     <Content Include="public\images\home\slider\desktop\painterly-nights-desktop.jpg" />
     <Content Include="public\images\home\slider\desktop\slider8.jpg" />
     <Content Include="public\images\home\slider\desktop\slider-5-gradient.png" />
@@ -745,9 +749,7 @@
     <Content Include="public\images\home\slider\desktop\slider1_1270.jpg" />
     <Content Include="public\images\home\slider\desktop\slider1_background.jpg" />
     <Content Include="public\images\home\slider\desktop\slider1_text.png" />
-    <Content Include="public\images\home\slider\desktop\slider2.jpg" />
     <Content Include="public\images\home\slider\desktop\slider2_1270.jpg" />
-    <Content Include="public\images\home\slider\desktop\slider3.jpg" />
     <Content Include="public\images\home\slider\desktop\slider3_1270.jpg" />
     <Content Include="public\images\home\slider\desktop\slider3_1270x510.jpg" />
     <Content Include="public\images\home\slider\desktop\slider4-1270x510.jpg" />
@@ -781,6 +783,9 @@
     <Content Include="public\images\home\slider\mobile\Landau_Wine_Country-640x760.jpg" />
     <Content Include="public\images\home\slider\mobile\Landau_Wine_Country-990x486.jpg" />
     <Content Include="public\images\home\slider\mobile\lynx_jacket_990.jpg" />
+    <Content Include="public\images\home\slider\mobile\new_style_990.jpg" />
+    <Content Include="public\images\home\slider\mobile\on_the_go_1920.jpg" />
+    <Content Include="public\images\home\slider\mobile\on_the_go_990.jpg" />
     <Content Include="public\images\home\slider\mobile\slider1-m.jpg" />
     <Content Include="public\images\home\slider\mobile\slider1.jpg" />
     <Content Include="public\images\home\slider\mobile\slider1_768.jpg" />

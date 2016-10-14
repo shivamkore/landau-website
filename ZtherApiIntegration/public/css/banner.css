@@ -380,22 +380,22 @@
 
 
 #homepage .home_slider .container .flexslider .content ul.slides li.home-slider-2 {
-    background-image: url(../public/images/home/slider/desktop/lynx_1920.jpg);
+    background-image: url(../public/images/home/slider/desktop/new_style_1920.jpg);
     background-size: cover;
-    background-position: center left;
+    background-position: center;
     background-repeat: no-repeat;
     background-color: #9f26b4
 }
 
 @media screen and (max-width:1270px) {
     #homepage .home_slider .container .flexslider .content ul.slides li.home-slider-2 {
-        background-image: url(../public/images/home/slider/desktop/slider2_1270.jpg)
+        background-image: url(../public/images/home/slider/desktop/new_style_1270.jpg)
     }
 }
 
 @media screen and (max-width:989px) {
     #homepage .home_slider .container .flexslider .content ul.slides li.home-slider-2 {
-        background-image: url(../public/images/home/slider/mobile/slider2_990.jpg)
+        background-image: url(../public/images/home/slider/mobile/new_style_990.jpg)
     }
 }
 
@@ -676,22 +676,22 @@
 
 
 #homepage .home_slider .container .flexslider .content ul.slides li.home-slider-3 {
-    background-image: url(../public/images/home/slider/desktop/slider3.jpg);
+    background-image: url(../public/images/home/slider/desktop/on_the_go_1920.jpg);
     background-size: cover;
-    background-position: center right;
+    background-position: center ;
     background-repeat: no-repeat;
     background-color: #9f26b4
 }
 
 @media screen and (max-width:1270px) {
     #homepage .home_slider .container .flexslider .content ul.slides li.home-slider-3 {
-        background-image: url(../public/images/home/slider/desktop/slider3_1270.jpg)
+        background-image: url(../public/images/home/slider/desktop/on_the_go_1270.jpg)
     }
 }
 
 @media screen and (max-width:989px) {
     #homepage .home_slider .container .flexslider .content ul.slides li.home-slider-3 {
-        background-image: url(../public/images/home/slider/mobile/slider3_990.jpg)
+        background-image: url(../public/images/home/slider/mobile/on_the_go_990.jpg)
     }
 }
 
