@@ -735,6 +735,7 @@
     <Content Include="public\images\home\slider\desktop\model-right-slide8.png" />
     <Content Include="public\images\home\slider\desktop\model-right-slide9.png" />
     <Content Include="public\images\home\slider\desktop\painterly-nights-desktop.jpg" />
+    <Content Include="public\images\home\slider\desktop\slider8.jpg" />
     <Content Include="public\images\home\slider\desktop\slider-5-gradient.png" />
     <Content Include="public\images\home\slider\desktop\slider1.jpg" />
     <Content Include="public\images\home\slider\desktop\slider1_1270.jpg" />
@@ -754,9 +755,11 @@
     <Content Include="public\images\home\slider\desktop\slider6.jpg" />
     <Content Include="public\images\home\slider\desktop\slider6_1270.jpg" />
     <Content Include="public\images\home\slider\desktop\slider6_background.jpg" />
+    <Content Include="public\images\home\slider\desktop\slider7old.jpg" />
     <Content Include="public\images\home\slider\desktop\slider7.jpg" />
-    <Content Include="public\images\home\slider\desktop\slider8.jpg" />
+    <Content Include="public\images\home\slider\desktop\slider8old.jpg" />
     <Content Include="public\images\home\slider\desktop\slider9.jpg" />
+    <Content Include="public\images\home\slider\desktop\slider9old.jpg" />
     <Content Include="public\images\home\slider\desktop\socks2_slider1.png" />
     <Content Include="public\images\home\slider\desktop\socks_slider1.png" />
     <Content Include="public\images\home\slider\desktop\test.png" />
