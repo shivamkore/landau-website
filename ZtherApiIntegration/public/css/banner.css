@@ -73,22 +73,24 @@
 /* BEGIN SLIDE 1 */
 
 #homepage .home_slider .container .flexslider .content ul.slides li.home-slider-1 {
-    background-image: url(../public/images/home/slider/desktop/lynx_jacket-deskto.jpg);
+    background-image: url(../public/images/home/slider/desktop/lynx_jackect_1920.jpg);
     background-size: cover;
-    background-position: center right;
+    background-position: 0px 0px;
     background-repeat: no-repeat;
     background-color: #9f26b4
 }
 
 @media screen and (max-width:1270px) {
     #homepage .home_slider .container .flexslider .content ul.slides li.home-slider-1 {
-        background-image: url(../public/images/home/slider/desktop/slider1_1270.jpg)
+        background-image: url(../public/images/home/slider/desktop/lynx_jackect_1270.jpg);
+        background-position: center right;
     }
 }
 
 @media screen and (max-width:989px) {
     #homepage .home_slider .container .flexslider .content ul.slides li.home-slider-1 {
-        background-image: url(../public/images/home/slider/mobile/slider1_990.jpg)
+        background-image: url(../public/images/home/slider/mobile/lynx_jacket_990.jpg);
+        background-position: center right;
     }
 }
 
@@ -104,6 +106,23 @@
         padding-top: 120.7%
     }
 }
+
+
+#homepage .home_slider .container .flexslider .content ul.slides li.home-slider-1 img{
+    position:absolute;
+    bottom:25px;
+    right:36px;
+}
+@media screen and (max-width:989px) {
+    #homepage .home_slider .container .flexslider .content ul.slides li.home-slider-1 img{
+        display:none;
+    }
+}
+
+
+
+
+
 #homepage .home_slider .flexslider ul.slides li.home-slider-1 .content {
    /* background-color: #9f26b4;*/
     position: absolute;
@@ -111,19 +130,20 @@
     height: 381px;
     background-color: #ffffff;
     top:20%;
-    left: 8%;
+    left: 6%;
 }
 @media screen and (max-width:1270px) {
     #homepage .home_slider .flexslider ul.slides li.home-slider-1 .content {
         width: 500px;
         height: 350px;
-        top: 13%;
+        top: 17%;
+        left:5%;
     }
 }
-@media screen and (max-width:998px) {
+@media screen and (max-width:989px) {
     #homepage .home_slider .flexslider ul.slides li.home-slider-1 .content {
-        top: 20%;
-        width: 400px;
+        top: 22%;
+        width: 413px;
         height: 300px;
     }
 }
@@ -146,17 +166,17 @@
     color: #9f26b4;
     font-size: 20px;
     margin-top: 0;
-    padding-top: 38px;
+    padding-top: 28px;
     overflow: hidden
 }
 @media screen and (max-width:1270px) {
     #homepage .home_slider .flexslider ul.slides li.home-slider-1 .content h2 {
-        padding-top: 40px
+        /*padding-top: 40px*/
     }
 }
 @media screen and (max-width:989px) {
     #homepage .home_slider .flexslider ul.slides li.home-slider-1 .content h2 {
-        padding-top: 15px
+        padding-top: 24px
     }
 }
 
@@ -180,7 +200,7 @@
 @media screen and (max-width:1270px) {
     #homepage .home_slider .flexslider ul.slides li.home-slider-1 .content h2 .top span {
         letter-spacing: 2px;
-        font-size: 60px;
+        /*font-size: 60px;*/
         position: relative;
         top: 0px;
     }
@@ -191,15 +211,15 @@
         letter-spacing: 2px;
         margin-left: 7px;
         font-size: 60px;
-        line-height: 100%;
+        line-height: 85%;
     }
 }
 
 @media screen and (max-width:767px) {
     #homepage .home_slider .flexslider ul.slides li.home-slider-1 .content h2 .top span {
-        letter-spacing: 2px;
+        letter-spacing: 0px;
         font-size: 11vw;
-        margin-bottom: 15px;
+        margin-bottom: 5px;
     }
 }
 
@@ -213,7 +233,7 @@
 
 @media screen and (max-width:1270px) {
     #homepage .home_slider .flexslider ul.slides li.home-slider-1 .content h2 .middle {
-        font-size: 115px
+        /*font-size: 115px*/
     }
 }
 
@@ -225,7 +245,8 @@
 
 @media screen and (max-width:767px) {
     #homepage .home_slider .flexslider ul.slides li.home-slider-1 .content h2 .middle {
-        font-size: 19vw
+        font-size: 19vw;
+        line-height:70%;
     }
 }
 
@@ -246,11 +267,11 @@
 
 @media screen and (max-width:1270px) {
     #homepage .home_slider .flexslider ul.slides li.home-slider-1 .content h2 .bottom {
-        font-size:19px;
-        line-height: 25px;
+        /*font-size:19px;
+        line-height: 25px;*/
         position: relative;
         left: 2px;
-        line-height: 130%;
+        /*line-height: 130%;*/
     }
 }
 
@@ -265,9 +286,10 @@
 
 @media screen and (max-width:767px) {
     #homepage .home_slider .flexslider ul.slides li.home-slider-1 .content h2 .bottom {
-        font-size: 2.5vw;
-        letter-spacing: .65vw;
-        margin-top: 1.5%;
+        font-size: 4.4vw;
+        line-height:130%;
+        letter-spacing: 0;
+        margin-top: 4%;
         width: 100%;
     }
 }
@@ -321,6 +343,7 @@
 
 @media screen and (max-width:767px) {
     #homepage .home_slider .flexslider ul.slides li.home-slider-1 .content .cta {
+        margin-top:2.2%;
     }
 }
 
@@ -357,28 +380,28 @@
 
 
 #homepage .home_slider .container .flexslider .content ul.slides li.home-slider-2 {
-    background-image: url(../public/images/home/slider/desktop/slider2.jpg);
+    background-image: url(../public/images/home/slider/desktop/new_style_1920.jpg);
     background-size: cover;
-    background-position: center left;
+    background-position: center;
     background-repeat: no-repeat;
     background-color: #9f26b4
 }
 
 @media screen and (max-width:1270px) {
     #homepage .home_slider .container .flexslider .content ul.slides li.home-slider-2 {
-        background-image: url(../public/images/home/slider/desktop/slider2_1270.jpg)
+        background-image: url(../public/images/home/slider/desktop/new_style_1270.jpg)
     }
 }
 
 @media screen and (max-width:989px) {
     #homepage .home_slider .container .flexslider .content ul.slides li.home-slider-2 {
-        background-image: url(../public/images/home/slider/mobile/slider2_990.jpg)
+        background-image: url(../public/images/home/slider/mobile/new_style_990.jpg)
     }
 }
 
 @media screen and (max-width:767px) {
     #homepage .home_slider .container .flexslider .content ul.slides li.home-slider-2  {
-        background-image: url(../public/images/home/slider/mobile/slider1.jpg);
+        background-image: url(../public/images/home/slider/mobile/slider2.jpg);
         background-position: top
     }
 }
@@ -394,19 +417,19 @@
     width: 640px;
     height: 381px;
     background-color: #9f26b4;
-    top:20%;
-    right: 6.5%;
+    top:18%;
+    right: 3.5%;
 }
 @media screen and (max-width:1270px) {
     #homepage .home_slider .flexslider ul.slides li.home-slider-2 .content {
-        top: 13%;
+        top: 17%;
         width: 500px;
         height: 350px;
     }
 }
 @media screen and (max-width:998px) {
     #homepage .home_slider .flexslider ul.slides li.home-slider-2 .content {
-                width: 400px;
+        width: 400px;
         height: 300px;
         top: 20%;
     }
@@ -429,12 +452,12 @@
     color: #ffffff;
     font-size: 20px;
     margin-top: 0;
-    padding-top: 55px;
+    padding-top: 45px;
     overflow: hidden
 }
 @media screen and (max-width:1270px) {
     #homepage .home_slider .flexslider ul.slides li.home-slider-2 .content h2 {
-        padding-top: 60px
+        padding-top: 65px
     }
 }
 @media screen and (max-width:989px) {
@@ -484,7 +507,7 @@
         letter-spacing: 2px;
         font-size: 10.57vw;
         margin-bottom: 15px;
-        line-height: 44px;
+        line-height: 9vw;
     }
 }
 
@@ -521,17 +544,17 @@
 
 #homepage .home_slider .flexslider ul.slides li.home-slider-2 .content h2 .bottom {
     text-transform: none;
-    font-size: 19.4px;
-    letter-spacing: 4px;
+    font-size: 21.9px;
+    line-height:130%;
     font-family: "ProximaNovaW01-Regular";
-    letter-spacing: 1.5px;
+    letter-spacing: 0px;
     margin-top: 1%;
     
 }
 
 @media screen and (max-width:1270px) {
     #homepage .home_slider .flexslider ul.slides li.home-slider-2 .content h2 .bottom {
-        font-size:15px;
+        font-size:18px;
         line-height: 140%;
         position: relative;
         left: 2px
@@ -540,7 +563,7 @@
 
 @media screen and (max-width:989px) {
     #homepage .home_slider .flexslider ul.slides li.home-slider-2 .content h2 .bottom {
-        font-size: 13px;
+        font-size: 15px;
         line-height: 20px;
         left: 3px;
         margin: 8px auto 0
@@ -550,9 +573,10 @@
 @media screen and (max-width:767px) {
     #homepage .home_slider .flexslider ul.slides li.home-slider-2 .content h2 .bottom {
         font-size: 3.4vw;
-        letter-spacing: 1.5px;
+        letter-spacing: 0px;
         margin-top: 1.5%;
         width: 100%;
+     
     }
 }
 
@@ -652,22 +676,22 @@
 
 
 #homepage .home_slider .container .flexslider .content ul.slides li.home-slider-3 {
-    background-image: url(../public/images/home/slider/desktop/slider3.jpg);
+    background-image: url(../public/images/home/slider/desktop/on_the_go_1920.jpg);
     background-size: cover;
-    background-position: center right;
+    background-position: center ;
     background-repeat: no-repeat;
     background-color: #9f26b4
 }
 
 @media screen and (max-width:1270px) {
     #homepage .home_slider .container .flexslider .content ul.slides li.home-slider-3 {
-        background-image: url(../public/images/home/slider/desktop/slider3_1270.jpg)
+        background-image: url(../public/images/home/slider/desktop/on_the_go_1270.jpg)
     }
 }
 
 @media screen and (max-width:989px) {
     #homepage .home_slider .container .flexslider .content ul.slides li.home-slider-3 {
-        background-image: url(../public/images/home/slider/mobile/slider3_990.jpg)
+        background-image: url(../public/images/home/slider/mobile/on_the_go_990.jpg)
     }
 }
 
@@ -686,22 +710,22 @@
 #homepage .home_slider .flexslider ul.slides li.home-slider-3 .content {
    /* background-color: #9f26b4;*/
    position: absolute;
-    width: 692px;
+    width: 662px;
     height: 381px;
     background-color: #ffffff;
-    top:20%;
-    left: 8%;
+    top:18%;
+    left: 4%;
 }
 @media screen and (max-width:1270px) {
     #homepage .home_slider .flexslider ul.slides li.home-slider-3 .content {
-        top: 13%;
+        top: 18%;
         width: 500px;
         height: 350px;
     }
 }
 @media screen and (max-width:989px) {
     #homepage .home_slider .flexslider ul.slides li.home-slider-3 .content {
-        top: 13%;
+        top: 20%;
          width: 400px;
         height: 300px;
     }
@@ -724,7 +748,7 @@
     color: #00539b;
     font-size: 20px;
     margin-top: 0;
-    padding-top: 53px;
+    padding-top: 45px;
     overflow: hidden
 }
 
@@ -744,17 +768,17 @@
 #homepage .home_slider .flexslider ul.slides li.home-slider-3 .content h2 .top span {
     font-family: 'NoteraW01-Regular';
     text-transform: none;
-    font-size: 90px;
+    font-size: 84px;
     position: relative;
     letter-spacing: 2px;
-    line-height: 50px;
+    line-height: 65px;
 }
 
 @media screen and (max-width:1270px) {
     #homepage .home_slider .flexslider ul.slides li.home-slider-3 .content h2 .top span {
         letter-spacing: 2px;
         margin-left: 11px;
-        font-size: 68px;
+        font-size: 62px;
         position: relative;
         top: 0px;
         line-height: 100%;
@@ -763,9 +787,9 @@
 
 @media screen and (max-width:989px) {
     #homepage .home_slider .flexslider ul.slides li.home-slider-3 .content h2 .top span {
-        letter-spacing: 7px;
+        letter-spacing: 0px;
         margin-left: 7px;
-        font-size: 35px;
+        font-size: 50px;
     }
 }
 
@@ -782,12 +806,12 @@
     color: #00539b;
     margin: auto;
     line-height: 83%;
-    font-size: 120px;
+    font-size: 105px;
 }
 
 @media screen and (max-width:1270px) {
     #homepage .home_slider .flexslider ul.slides li.home-slider-3 .content h2 .middle {
-        font-size: 80px;
+        font-size: 75px;
         line-height: 70%;
     }
 }
@@ -815,14 +839,14 @@
     font-size: 22px;
     letter-spacing: 4px;
     font-family: "ProximaNovaW01-Regular";
-    letter-spacing: 1.5px;
+    letter-spacing: 0px;
     line-height: 145%;
     
 }
 
 @media screen and (max-width:1270px) {
     #homepage .home_slider .flexslider ul.slides li.home-slider-3 .content h2 .bottom {
-        font-size:14px;
+        font-size:16px;
         position: relative;
         left: 2px;
     }
@@ -830,7 +854,7 @@
 
 @media screen and (max-width:989px) {
     #homepage .home_slider .flexslider ul.slides li.home-slider-3 .content h2 .bottom {
-        font-size: 10px;
+        font-size: 12.8px;
         line-height: 20px;
         left: 3px;
         margin: 8px auto 0
@@ -839,9 +863,10 @@
 
 @media screen and (max-width:767px) {
     #homepage .home_slider .flexslider ul.slides li.home-slider-3 .content h2 .bottom {
-        font-size: 2.8vw;
-        letter-spacing: .65vw;
-        margin-top: 1.5%;
+        font-size: 3.4vw;
+        line-height:125%;
+        letter-spacing: 0vw;
+        margin-top: 4.2%;
         width: 100%;
     }
 }
@@ -895,6 +920,7 @@
 
 @media screen and (max-width:767px) {
     #homepage .home_slider .flexslider ul.slides li.home-slider-3 .content .cta {
+        margin-top:2.5%
     }
 }
 
@@ -931,22 +957,22 @@
 
 
 #homepage .home_slider .container .flexslider .content ul.slides li.home-slider-4 {
-    background-image: url(../public/images/home/slider/desktop/slider4.jpg);
+    background-image: url(../public/images/home/slider/desktop/allday_female_1920.jpg);
     background-size: cover;
-    background-position: center left;
+    background-position: center  left;
     background-repeat: no-repeat;
     background-color: #9f26b4
 }
 
 @media screen and (max-width:1270px) {
     #homepage .home_slider .container .flexslider .content ul.slides li.home-slider-4 {
-        background-image: url(../public/images/home/slider/desktop/slider4_1270.jpg)
+        background-image: url(../public/images/home/slider/desktop/allday_female_1270.jpg)
     }
 }
 
 @media screen and (max-width:989px) {
     #homepage .home_slider .container .flexslider .content ul.slides li.home-slider-4 {
-        background-image: url(../public/images/home/slider/mobile/slider4_990.jpg)
+        background-image: url(../public/images/home/slider/mobile/allday_female_990.jpg)
     }
 }
 
@@ -975,7 +1001,12 @@
     #homepage .home_slider .flexslider ul.slides li.home-slider-4 .content {
         width: 500px;
         height: 350px;
-        top: 13%;
+        top: 17.5%;
+    }
+}
+@media screen and (max-width:989px) {
+    #homepage .home_slider .flexslider ul.slides li.home-slider-4 .content {
+        top: 12.5%;
     }
 }
 @media screen and (max-width:767px) {
@@ -1051,7 +1082,7 @@
 
 #homepage .home_slider .flexslider ul.slides li.home-slider-4 .content h2 .middle {
     font-family: Bauer Bodoni W01 Bold_795736;
-    color: #00539b;
+    color: #0071ba;
     font-size: 95px;
     margin: auto;
     line-height: 89.5%
@@ -1083,18 +1114,18 @@
 
 #homepage .home_slider .flexslider ul.slides li.home-slider-4 .content h2 .bottom {
     text-transform: none;
-    font-size: 16.4px;
+    font-size: 19.4px;
     font-family: "ProximaNovaW01-Regular";
-    letter-spacing: 1.5px;
     margin-top: 1%;
     color: #5d6873;
-    line-height: 18px;
+    line-height: 140%;
+    letter-spacing:0;
     
 }
 
 @media screen and (max-width:1270px) {
     #homepage .home_slider .flexslider ul.slides li.home-slider-4 .content h2 .bottom {
-        font-size:13px;
+        font-size:16.5px;
         position: relative;
         left: 2px
     }
@@ -1102,8 +1133,8 @@
 
 @media screen and (max-width:989px) {
     #homepage .home_slider .flexslider ul.slides li.home-slider-4 .content h2 .bottom {
-        font-size: 13px;
-        line-height: 20px;
+        font-size: 16.5px;
+        line-height: 140%;
         left: 3px;
         margin: 8px auto 0
     }
@@ -1111,8 +1142,8 @@
 
 @media screen and (max-width:767px) {
     #homepage .home_slider .flexslider ul.slides li.home-slider-4 .content h2 .bottom {
-        font-size: 3.4vw;
-        letter-spacing: 1.5px;
+        font-size: 3.9vw;
+        letter-spacing: 0;
         margin-top: 4.5%;
         width: 100%;
     }
@@ -1154,9 +1185,9 @@
 }
 
 #homepage .home_slider .flexslider ul.slides li.home-slider-4 .content .cta {
-    border-color: #00539b;
+    border-color: #0071ba;
     margin-top: 18px;
-    color: #00539b;
+    color: #0071ba;
 }
 
 @media screen and (max-width:989px) {
@@ -1172,13 +1203,13 @@
 
 #homepage .home_slider .flexslider ul.slides li.home-slider-4 .content .cta:hover {
     background-color: transparent;
-    border-color: #00539b
+    border-color: #0071ba
 }
 
 @media screen and (max-width:767px) {
     #homepage .home_slider .flexslider ul.slides li.home-slider-4 .content .cta .arrow {
         background-color: transparent;
-        border-color: #00539b
+        border-color: #0071ba
     }
 }
 
@@ -1232,7 +1263,7 @@
 
 @media screen and (max-width:767px) {
     #homepage .home_slider .container .flexslider .content ul.slides li.home-slider-5  {
-        /*background-image: url(../public/images/home/slider/mobile/slider4.jpg);*/
+        /*background-image: url(../public/images/home/slider/mobile/socks.jpg);*/
         background-position: top
     }
 }
@@ -1246,6 +1277,7 @@
 #homepage .home_slider .container .flexslider .content ul.slides li.home-slider-5  .socks{
 
     background-image: url(../public/images/home/slider/desktop/socks_slider1.png);
+    background-position:center;
     background-repeat: no-repeat;
     min-height: 586px;
     width: 887px;
@@ -1427,19 +1459,19 @@
 
 @media screen and (max-width:1270px) {
     #homepage .home_slider .container .flexslider .content ul.slides li.home-slider-6 {
-        background-image: url(../public/images/home/slider/desktop/slider6_1270.jpg)
+        background-image: url(../public/images/home/slider/desktop/Allday1270.jpg)
     }
 }
 
 @media screen and (max-width:989px) {
     #homepage .home_slider .container .flexslider .content ul.slides li.home-slider-6 {
-        background-image: url(../public/images/home/slider/mobile/slider6_990.jpg)
+        background-image: url(../public/images/home/slider/mobile/allday990.jpg)
     }
 }
 
 @media screen and (max-width:767px) {
     #homepage .home_slider .container .flexslider .content ul.slides li.home-slider-6  {
-        background-image: url(../public/images/home/slider/mobile/slider4.jpg);
+        background-image: url(../public/images/home/slider/mobile/slider6.jpg);
         background-position: top
     }
 }
@@ -1452,11 +1484,11 @@
 #homepage .home_slider .flexslider ul.slides li.home-slider-6 .content {
    /* background-color: #9f26b4;*/
     position: absolute;
-    width: 680px;
+    width: 580px;
     height: 400px;
     background-color: #0071ba;
-    top:13%;
-    right: 6.5%;
+    top:17%;
+    right: 3.5%;
 }
 @media screen and (max-width:1270px) {
     #homepage .home_slider .flexslider ul.slides li.home-slider-6 .content {
@@ -1464,7 +1496,7 @@
         height: 350px;
     }
 }
-@media screen and (max-width:998px) {
+@media screen and (max-width:990px) {
     #homepage .home_slider .flexslider ul.slides li.home-slider-6 .content {
         top: 20%;
         width: 400px;
@@ -1487,7 +1519,7 @@
 #homepage .home_slider .flexslider ul.slides li.home-slider-6 .content h2 {
     font-size: 20px;
     margin-top: 0;
-    padding-top: 55px;
+    padding-top: 45px;
     overflow: hidden
 }
 @media screen and (max-width:1270px) {
@@ -1531,7 +1563,8 @@
 
 @media screen and (max-width:989px) {
     #homepage .home_slider .flexslider ul.slides li.home-slider-6 .content h2 .top span {
-        letter-spacing: 7px;
+        font-size:65px;
+        letter-spacing: 0px;
         margin-left: 7px
     }
 }
@@ -1541,14 +1574,14 @@
         letter-spacing: 2px;
         font-size: 14vw;
         margin-bottom: 15px;
-        line-height: 13vw;
+        line-height: 12vw;
     }
 }
 
 #homepage .home_slider .flexslider ul.slides li.home-slider-6 .content h2 .middle {
     font-family: Bauer Bodoni W01 Bold_795736;
     color: #ffffff;
-    font-size: 105px;
+    font-size: 95px;
     margin: auto;
     line-height: 89.5%
 }
@@ -1580,10 +1613,10 @@
 
 #homepage .home_slider .flexslider ul.slides li.home-slider-6 .content h2 .bottom {
     text-transform: none;
-    font-size: 20.4px;
-    letter-spacing: 4px;
+    font-size: 25.4px;
+    line-height:120%;
     font-family: "ProximaNovaW01-Regular";
-    letter-spacing: 1.5px;
+    letter-spacing: 0;
     margin-top: 1%;
     color: #ffffff;
     
@@ -1594,13 +1627,15 @@
         font-size:19px;
         line-height: 25px;
         position: relative;
-        left: 2px
+        left: 2px;
+        letter-spacing:0;
+        margin-top:3%;
     }
 }
 
 @media screen and (max-width:989px) {
     #homepage .home_slider .flexslider ul.slides li.home-slider-6 .content h2 .bottom {
-        font-size: 13px;
+        font-size: 15px;
         width: 340px;
         line-height: 20px;
         left: 3px;
@@ -1614,6 +1649,7 @@
         letter-spacing: 1.5px;
         margin-top: 4.5%;
         width: 100%;
+        line-height:120%;
     }
 }
 
@@ -1657,7 +1693,11 @@
     margin-top: 18px;
     color: #ffffff;
 }
-
+@media screen and (max-width:1270px) {
+    #homepage .home_slider .flexslider ul.slides li.home-slider-6 .content .cta {
+        margin-top: 6px
+    }
+}
 @media screen and (max-width:989px) {
     #homepage .home_slider .flexslider ul.slides li.home-slider-6 .content .cta {
         margin-top: 6px
@@ -1666,6 +1706,7 @@
 
 @media screen and (max-width:767px) {
     #homepage .home_slider .flexslider ul.slides li.home-slider-6 .content .cta {
+        margin-top:20px;
     }
 }
 
@@ -1717,9 +1758,9 @@
 
 
 #homepage .home_slider .flexslider ul.slides li.home-slider-7 {
-    background-image: url(../public/images/home/slider/desktop/slider7.jpg);
+        background-image: url(../public/images/home/slider/desktop/slider7.jpg);
         background-size: cover;
-        background-position: center left;
+        background-position: center;
         background-repeat: no-repeat;
 }
 
@@ -1732,7 +1773,7 @@
 
 @media screen and (max-width:1270px) {
     #homepage .home_slider .flexslider ul.slides li.home-slider-7 {
-        background-image: url(../public/images/home/slider/desktop/slider4-1270x510.jpg)
+        background-image: url(../public/images/home/slider/desktop/slider7.jpg)
     }
 }
 
@@ -1793,7 +1834,7 @@
     position: relative;
     width: 89%;
     height: 76%;
-    background-color: #52cffc;
+   
     margin-top: 71px;
     margin-left: 8%;
     margin-left: 5%;
@@ -1977,7 +2018,7 @@
 }
 @media screen and (max-width:767px) {
     #homepage .home_slider .flexslider ul.slides li.home-slider-7 .content .cta {
-        margin-top: 4%;
+        margin-top: 45%;
     }
 }
 
@@ -2036,7 +2077,7 @@
 #homepage .home_slider .flexslider ul.slides li.home-slider-8 {
     background-image: url(../public/images/home/slider/desktop/slider8.jpg);
         background-size: cover;
-        background-position: center left;
+        background-position: center;
         background-repeat: no-repeat;
 }
 
@@ -2049,7 +2090,7 @@
 
 @media screen and (max-width:1270px) {
     #homepage .home_slider .flexslider ul.slides li.home-slider-8 {
-        background-image: url(../public/images/home/slider/desktop/slider4-1270x510.jpg)
+        background-image: url(../public/images/home/slider/desktop/slider8.jpg)
     }
 }
 
@@ -2110,7 +2151,7 @@
     position: relative;
     width: 89%;
     height: 76%;
-    background-color: #f6f043;
+    
     margin-top: 71px;
     margin-left: 8%;
     margin-left: 5%;
@@ -2286,6 +2327,7 @@
 }
 @media screen and (max-width:767px) {
     #homepage .home_slider .flexslider ul.slides li.home-slider-8 .content .cta {
+        margin-top:43%;
     }
 }
 
@@ -2332,9 +2374,9 @@
 
 #homepage .home_slider .flexslider ul.slides li.home-slider-9 {
     background-image: url(../public/images/home/slider/desktop/slider9.jpg);
-        background-size: cover;
-        background-position: center left;
-        background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 @media (min-width:1920px) {
@@ -2346,7 +2388,7 @@
 
 @media screen and (max-width:1270px) {
     #homepage .home_slider .flexslider ul.slides li.home-slider-9 {
-        background-image: url(../public/images/home/slider/desktop/slider4-1270x510.jpg)
+        background-image: url(../public/images/home/slider/desktop/slider9.jpg)
     }
 }
 
@@ -2407,7 +2449,7 @@
     position: relative;
     width: 89%;
     height: 76%;
-    background-color: #fd8d3c;
+   
     margin-top: 71px;
     margin-left: 8%;
     margin-left: 5%;
@@ -2444,13 +2486,14 @@
     color: #000000;
     /*font-size: 20px;*/
     margin-top: 0;
-    padding-top: 126px;
+    padding-top: 110px;
     text-transform: uppercase;
     overflow: hidden
 }
 
 @media screen and (max-width:1270px) {
     #homepage .home_slider .flexslider ul.slides li.home-slider-9 .content h2 {
+        padding-top:75px;
     }
 }
 @media screen and (max-width:989px) {
@@ -2474,7 +2517,7 @@
 #homepage .home_slider .flexslider ul.slides li.home-slider-9 .content h2 .top {
     letter-spacing: 14px;
     /*margin-left: 14px;*/
-    font-size: 32px;
+    font-size: 37px;
     font-family: "ProximaNovaW01-Regular";
     font-weight: bold;
     margin: 0;
@@ -2485,7 +2528,7 @@
     #homepage .home_slider .flexslider ul.slides li.home-slider-9 .content h2 .top {
         letter-spacing: 10px;
         margin-left: 10px;
-        font-size: 25px;
+        font-size: 39.5px;
     }
 }
 
@@ -2507,16 +2550,16 @@
 #homepage .home_slider .flexslider ul.slides li.home-slider-9 .content h2 .middle span {
     font-family: Bauer Bodoni W01 Bold_795736;
     color: #ffffff;
-    font-size: 88px;
+    font-size: 95px;
     width: 620px;
     margin: auto;
-    line-height: 85%;
+    line-height: 115%;
     letter-spacing: 3.5px;
 }
 
 @media screen and (max-width:1270px) {
     #homepage .home_slider .flexslider ul.slides li.home-slider-9 .content h2 .middle span {
-        font-size:65px;
+        font-size:85px;
     }
 }
 
@@ -2536,17 +2579,17 @@
 #homepage .home_slider .flexslider ul.slides li.home-slider-9 .content h2 .bottom {
     letter-spacing: 2px;
     /*font-size: 85px;*/
-    font-size: 79px;
+    font-size: 82px;
     color: #00134a;
     font-family: 'NoteraW01-Regular';
     text-transform: capitalize;
-    margin-top: -20px;
+    margin-top: -35px;
 }
 
 @media screen and (max-width:1270px) {
     #homepage .home_slider .flexslider ul.slides li.home-slider-9 .content h2 .bottom {
         letter-spacing: 2px;
-        font-size: 60px;
+        font-size: 63px;
         margin-top: -18px;
     }
 }
@@ -2584,6 +2627,7 @@
 }
 @media screen and (max-width:767px) {
     #homepage .home_slider .flexslider ul.slides li.home-slider-9 .content .cta {
+       margin-top:50%;
     }
 }
 
