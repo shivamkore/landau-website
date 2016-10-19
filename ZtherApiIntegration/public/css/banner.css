@@ -117,15 +117,12 @@
 }
 @media screen and (max-width:989px) {
     #homepage .home_slider .container .flexslider .content ul.slides li.home-slider-1 img{
-<<<<<<< HEAD
-            position: absolute;
+
     bottom: 25px;
     right: 10px;
     width: 112px;
 
-=======
-        display:none;
->>>>>>> origin/SP17
+
     }
 }
 
@@ -1418,7 +1415,15 @@
 
 @media screen and (max-width:989px) {
     #homepage .home_slider .flexslider ul.slides li.home-slider-5 .content h2 {
-    
+     padding-top: 0;
+    margin-top: 3vw;
+    position: absolute;
+    font-family: "TradeGothic LT CondEighteen";
+    font-size: 45px;
+    background-color: transparent;
+    color: #0a375e;
+    left: 7%;
+    top: 7%;
     }
 }
 
@@ -1925,11 +1930,9 @@
 
 @media screen and (max-width:1270px) {
     #homepage .home_slider .flexslider ul.slides li.home-slider-7 {
-<<<<<<< HEAD
+
         background-image: url(../public/images/home/slider/desktop/rio_1270.jpg)
-=======
-        background-image: url(../public/images/home/slider/desktop/slider7.jpg)
->>>>>>> origin/SP17
+
     }
 }
 
@@ -2178,11 +2181,9 @@
 }
 @media screen and (max-width:767px) {
     #homepage .home_slider .flexslider ul.slides li.home-slider-7 .content .cta {
-<<<<<<< HEAD
+
         margin-top: 41vw;
-=======
-        margin-top: 45%;
->>>>>>> origin/SP17
+
     }
 }
 
@@ -2254,11 +2255,9 @@
 
 @media screen and (max-width:1270px) {
     #homepage .home_slider .flexslider ul.slides li.home-slider-8 {
-<<<<<<< HEAD
+
         background-image: url(../public/images/home/slider/desktop/lemon_1270.jpg)
-=======
-        background-image: url(../public/images/home/slider/desktop/slider8.jpg)
->>>>>>> origin/SP17
+
     }
 }
 
@@ -2498,11 +2497,9 @@
 }
 @media screen and (max-width:767px) {
     #homepage .home_slider .flexslider ul.slides li.home-slider-8 .content .cta {
-<<<<<<< HEAD
+
         margin-top:28vw;
-=======
-        margin-top:43%;
->>>>>>> origin/SP17
+
     }
 }
 
@@ -2548,11 +2545,9 @@
 
 
 #homepage .home_slider .flexslider ul.slides li.home-slider-9 {
-<<<<<<< HEAD
+
     background-image: url(../public/images/home/slider/desktop/shoreline_1920.jpg);
-=======
-    background-image: url(../public/images/home/slider/desktop/slider9.jpg);
->>>>>>> origin/SP17
+
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
