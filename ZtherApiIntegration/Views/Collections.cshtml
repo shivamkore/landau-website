@@ -50,19 +50,19 @@
 
     <h1 class="title">Seasonal Collections</h1>
 
-    @* Hide for the moment. This is for Fall Release 2.
+    @* Hide for the moment. This is for Fall Release 2.*@
     <div class="hero">
         <a href="@(Model.Count>0 ? UrlBuilder.BuildCollectionUrl(Model[0].Gender, Model[0].Code) : "#")">
             <div class="content promo1">
-                <div class="title">Wine Country</div>
-                <div class="fourth collection_sub">Collection</div>
+                @*<div class="title">RIO</div>
+                <div class="fourth collection_sub">Collection</div>*@
             </div>
             <picture>
                 <!--[if IE 9]><video style="display: none;"><![endif]-->
-                <source srcset="public/images/collections/seasonal/promo1/product_main_2.jpg" media="(min-width: 1271px)" />
-                <source srcset="public/images/collections/seasonal/promo1/product_main_990_2.jpg" media="(min-width: 990px)" />
+                <source srcset="public/images/collections/seasonal/shoreline/product_main_3.jpg" media="(min-width: 1271px)" />
+                <source srcset="public/images/collections/seasonal/shoreline/rio_tile.jpg" media="(min-width: 990px)" />
                 <!--[if IE 9]></video><![endif]-->
-                <img class="img" srcset="public/images/collections/seasonal/promo1/product_main_768_2.jpg" alt="Wine Country" title="Wine Country" />
+                <img class="img" srcset="public/images/collections/seasonal/shoreline/rio_tile.jpg" alt="Wine Country" title="Wine Country" />
             </picture>
         </a>
     </div>
@@ -74,7 +74,7 @@
             @Html.Partial("~/Views/Partials/Collections/_CollectionPartial.cshtml", Model[0])
         }
     </div>
-    *@
+    
 
     @if (Model.Count>0 && Model[0].Products.Count > 4)
     {
@@ -96,16 +96,16 @@
             </div>
             <div class="hero">
                 <a href="@(Model.Count>1 ? UrlBuilder.BuildCollectionUrl(Model[1].Gender, Model[1].Code) : "#")">
-                    <!--<div class="content promo2">
-                        <div class="title">Painterly Nights</div>
-                        <div class="collection_sub">Collection</div>
-                    </div>-->
+                   <div class="content promo2">
+                        <!--<div class="title">Painterly Nights</div>
+                        <div class="collection_sub">Collection</div>-->
+                    </div>
                     <picture>
                         <!--[if IE 9]><video style="display: none;"><![endif]-->
                         <source srcset="public/images/collections/seasonal/shoreline/product_main_1.jpg" media="(min-width: 1271px)" />
-                        <source srcset="public/images/collections/seasonal/shoreline/product_main1.jpg" media="(min-width: 990px)" />
+                        <source srcset="public/images/collections/seasonal/shoreline/lemon_tile.jpg" media="(min-width: 990px)" />
                         <!--[if IE 9]></video><![endif]-->
-                        <img class="img" srcset="public/images/collections/seasonal/shoreline/product_main_1.jpg" alt="Painterly Nights" title="Painterly Nights" />
+                        <img class="img" srcset="public/images/collections/seasonal/shoreline/lemon_tile.jpg" alt="Painterly Nights" title="Painterly Nights" />
                     </picture>
 
                 </a>
@@ -130,9 +130,9 @@
                     <picture>
                         <!--[if IE 9]><video style="display: none;"><![endif]-->
                         <source srcset="public/images/collections/seasonal/shoreline/product_main_2.jpg" media="(min-width: 1271px)" />
-                        <source srcset="public/images/collections/seasonal/shoreline/product_main_990_2.jpg" media="(min-width: 990px)" />
+                        <source srcset="public/images/collections/seasonal/shoreline/shoreline_tile.jpg" media="(min-width: 990px)" />
                         <!--[if IE 9]></video><![endif]-->
-                        <img class="img" srcset="public/images/collections/shoreline/promo3/product_main_2.jpg" alt="Falling Water" title="Falling Water" />
+                        <img class="img" srcset="public/images/collections/seasonal/shoreline/shoreline_tile.jpg" alt="Falling Water" title="Falling Water" />
                     </picture>
                 </a>
             </div>
