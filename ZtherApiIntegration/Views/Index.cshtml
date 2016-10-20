@@ -135,6 +135,12 @@ jQuery(document).ready(function(){
         var y = 1485 - w + x;
         var s = w - 1485;
         jQuery('.home-slider-3').css('background-position', y + 'px' + ' 0');
+
+    }
+    if (w < 1445) {
+        var y = 1445 - w + x;
+        var s = w - 1445;
+
         jQuery('.home-slider-4').css('background-position', s + 'px' + ' 0');
     }
     /*  if (w <= 1410) {
@@ -179,40 +185,52 @@ jQuery(document).ready(function(){
         var s = w - 1032;
         var y = 1032 - w + x;
         jQuery('.home-slider-1').css('background-position', y + 'px' + ' 0');
+
+    }
+    if (w < 1008) {
+
+        var s = w - 1008;
+
+
         jQuery('.home-slider-6').css('background-position', s + 'px' + ' 0');
     }
     if (w <= 990) {
         jQuery('.home-slider-1').css('background-position', '100%');
         jQuery('.home-slider-3').css('background-position', '100%');
-        jQuery('.home-slider-4').css('background-position', '-100px 0px');
+        jQuery('.home-slider-4').css('background-position', '0 0');
         jQuery('.home-slider-2').css('background-position', '0 0');
         jQuery('.home-slider-6').css('background-position', '0 0');
     }
-    if (w <= 940) {
-        var s = w - 1040;
 
-        jQuery('.home-slider-4').css('background-position', s + 'px' + ' 0');
-    }
 
-    if (w <= 865) {
-        var s = w - 865;
+    if (w <= 900) {
+        var s = w - 900;
         jQuery('.home-slider-2').css('background-position', s + 'px' + ' 0');
     }
-    if (w <= 820) {
-        var s = w - 820;
-        jQuery('.home-slider-6').css('background-position', s + 'px' + ' 0');
+    if (w <= 844) {
+        jQuery('.home-slider-2').css('background-position', '0 0');
     }
-    if (w <= 809) {
-        var s = -231;
+    if (w <= 840) {
+        var s = w - 840;
 
         jQuery('.home-slider-4').css('background-position', s + 'px' + ' 0');
     }
+    if (w <= 790) {
+        var s = w - 790;
+        jQuery('.home-slider-6').css('background-position', s + 'px' + ' 0');
+    }
+    if (w <= 808) {
+        var x = w - 990;
+        var s = w - 808;
+        var y = 808 - w + x;
+        jQuery('.home-slider-1').css('background-position', y + 'px' + ' 0');
+    }
+
     if (w <= 767) {
+        jQuery('.home-slider-1').css('background-position', '100%');
         jQuery('.home-slider-4').css('background-position', '100%');
         jQuery('.home-slider-2').css('background-position', '100%');
         jQuery('.home-slider-6').css('background-position', '100%');
-        jQuery('.home-slider-5 .desktop').css('display', 'none');
-        jQuery('.home-slider-5 .mobile').css('display', 'block');
     }
 
 });
