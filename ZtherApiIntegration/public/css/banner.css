@@ -89,9 +89,7 @@
 
 @media screen and (max-width:989px) {
     #homepage .home_slider .container .flexslider .content ul.slides li.home-slider-1 {
-
         background-image: url(../public/images/home/slider/mobile/jacket_990.jpg);
-
         background-position: center right;
     }
 }
@@ -117,11 +115,10 @@
 }
 @media screen and (max-width:989px) {
     #homepage .home_slider .container .flexslider .content ul.slides li.home-slider-1 img{
-        position:absolute;
+            position: absolute;
     bottom: 25px;
     right: 10px;
     width: 112px;
-
 
     }
 }
@@ -402,7 +399,6 @@
 
 @media screen and (max-width:989px) {
     #homepage .home_slider .container .flexslider .content ul.slides li.home-slider-2 {
-
         background-image: url(../public/images/home/slider/mobile/styles_colors_990.jpg)
     }
     #homepage .home_slider .container .flexslider .content ul.slides li.home-slider-2 img {
@@ -416,15 +412,12 @@
     #homepage .home_slider .container .flexslider .content ul.slides li.home-slider-2{
         background-image: url(../public/images/home/slider/mobile/Lynx_mobile_fix.jpg);
         background-position: 0 0;
-
     }
 }
 
 @media screen and (max-width:767px) {
     #homepage .home_slider .container .flexslider .content ul.slides li.home-slider-2  {
-
         background-image: url(../public/images/home/slider/mobile/slider2_new.jpg);
-
         background-position: top
     }
 }
@@ -452,10 +445,8 @@
 }
 @media screen and (max-width:990px) {
     #homepage .home_slider .flexslider ul.slides li.home-slider-2 .content {
-
         width: 370px;
         height: 250px;
-
         top: 20%;
     }
     #homepage .home_slider .flexslider ul.slides li.home-slider-2 .content .cta{
@@ -492,9 +483,7 @@
     }
 @media screen and (max-width:1270px) {
     #homepage .home_slider .flexslider ul.slides li.home-slider-2 .content h2 {
-
         padding-top: 35px
-
     }
 }
 @media screen and (max-width:989px) {
@@ -1068,11 +1057,9 @@
 }
 @media screen and (max-width:989px) {
     #homepage .home_slider .flexslider ul.slides li.home-slider-4 .content {
-
         top: 20.5%;
             width: 409px;
     height: 282px;
-
     }
 }
 @media screen and (max-width:767px) {
@@ -1331,7 +1318,7 @@
 @media screen and (max-width:1270px) {
     #homepage .home_slider .container .flexslider .content ul.slides li.home-slider-5 {
         background-image: url(../public/images/home/slider/desktop/socks_1270.jpg);
-       background-position:top;
+       
     }
 }
 
@@ -1343,9 +1330,9 @@
 
 @media screen and (max-width:767px) {
     #homepage .home_slider .container .flexslider .content ul.slides li.home-slider-5  {
-
         background-image: url(../public/images/home/slider/mobile/socks.jpg);
-
+        background-position: top
+    }
 }
 @media screen and (max-width:767px) {
     #homepage .home_slider .flexslider ul.slides li.home-slider-5 {
@@ -1402,8 +1389,7 @@
 }
 
 #homepage .home_slider .flexslider ul.slides li.home-slider-5 .content h2 {
-        
-    padding-top: 0;
+        padding-top: 0;
     margin-top: 3vw;
     position: absolute;
     font-family: "TradeGothic LT CondEighteen";
@@ -1416,15 +1402,7 @@
 
 @media screen and (max-width:989px) {
     #homepage .home_slider .flexslider ul.slides li.home-slider-5 .content h2 {
-     padding-top: 0;
-    margin-top: 3vw;
-    position: absolute;
-    font-family: "TradeGothic LT CondEighteen";
-    font-size: 45px;
-    background-color: transparent;
-    color: #0a375e;
-    left: 7%;
-    top: 7%;
+    
     }
 }
 
@@ -1621,13 +1599,12 @@
     background-color: #0071ba;
     top:17%;
     right: 3.5%;
-
 }
 #homepage .home_slider .flexslider ul.slides li.home-slider-6 img{
     position:absolute;
     top: 5%;
     left: 15px;
-
+    
 }
 @media screen and (max-width:1270px) {
     #homepage .home_slider .flexslider ul.slides li.home-slider-6 .content {
@@ -1706,10 +1683,8 @@
 
 @media screen and (max-width:989px) {
     #homepage .home_slider .flexslider ul.slides li.home-slider-6 .content h2 .top span {
-
         font-size:55px;
         letter-spacing: 0px;
-
         margin-left: 7px
     }
 }
@@ -1839,13 +1814,6 @@
     color: #ffffff;
 }
 @media screen and (max-width:1270px) {
-
-    #homepage .home_slider .flexslider ul.slides li.home-slider-6 .content .cta {
-        margin-top: 6px
-    }
-}
-@media screen and (max-width:989px) {
-
     #homepage .home_slider .flexslider ul.slides li.home-slider-6 .content .cta {
         margin-top: 6px
     }
@@ -1859,10 +1827,8 @@
 
 @media screen and (max-width:767px) {
     #homepage .home_slider .flexslider ul.slides li.home-slider-6 .content .cta {
-
         margin-top:5px;
         font-size: 16px;
-
     }
 }
 
@@ -1914,9 +1880,7 @@
 
 
 #homepage .home_slider .flexslider ul.slides li.home-slider-7 {
-
         background-image: url(../public/images/home/slider/desktop/rio_1920.jpg);
-
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
@@ -1931,9 +1895,7 @@
 
 @media screen and (max-width:1270px) {
     #homepage .home_slider .flexslider ul.slides li.home-slider-7 {
-
         background-image: url(../public/images/home/slider/desktop/rio_1270.jpg)
-
     }
 }
 
@@ -2053,7 +2015,7 @@
     #homepage .home_slider .flexslider ul.slides li.home-slider-7 .content h2 {
         padding-top: 0;
         margin-right: initial;
-            margin-top: 4.2vw;
+            margin-top: 3.2vw;
     }
 }
 
@@ -2182,9 +2144,7 @@
 }
 @media screen and (max-width:767px) {
     #homepage .home_slider .flexslider ul.slides li.home-slider-7 .content .cta {
-
         margin-top: 41vw;
-
     }
 }
 
@@ -2256,9 +2216,7 @@
 
 @media screen and (max-width:1270px) {
     #homepage .home_slider .flexslider ul.slides li.home-slider-8 {
-
         background-image: url(../public/images/home/slider/desktop/lemon_1270.jpg)
-
     }
 }
 
@@ -2498,9 +2456,7 @@
 }
 @media screen and (max-width:767px) {
     #homepage .home_slider .flexslider ul.slides li.home-slider-8 .content .cta {
-
         margin-top:28vw;
-
     }
 }
 
@@ -2546,9 +2502,7 @@
 
 
 #homepage .home_slider .flexslider ul.slides li.home-slider-9 {
-
     background-image: url(../public/images/home/slider/desktop/shoreline_1920.jpg);
-
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -2563,9 +2517,7 @@
 
 @media screen and (max-width:1270px) {
     #homepage .home_slider .flexslider ul.slides li.home-slider-9 {
-
         background-image: url(../public/images/home/slider/desktop/shoreline_1270.jpg)
-
     }
 }
 
@@ -2807,9 +2759,7 @@
 }
 @media screen and (max-width:767px) {
     #homepage .home_slider .flexslider ul.slides li.home-slider-9 .content .cta {
-
        margin-top:41vw;
-
     }
 }
 

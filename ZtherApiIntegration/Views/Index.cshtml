@@ -2,11 +2,11 @@
 <script>
 
 jQuery(document).ready(function(){
-    
+
     jQuery(window).resize(function () {
         var w = jQuery(window).width();
         var x = w - 1910;
-        
+
         if (w > 1325) {
             jQuery('.home-slider-1').css('background-position', '100%');
             jQuery('.home-slider-3').css('background-position', '100%');
@@ -15,12 +15,12 @@ jQuery(document).ready(function(){
             jQuery('.home-slider-4').css('background-position', '0 0');
 
         }
-        
+
         if (w < 1485) {
             var y = 1485 - w + x;
             var s = w - 1485;
             jQuery('.home-slider-3').css('background-position', y + 'px' + ' 0');
-           
+
         }
         if (w < 1445) {
             var y = 1445 - w + x;
@@ -38,16 +38,16 @@ jQuery(document).ready(function(){
             var s = w - 1405;
             jQuery('.home-slider-2').css('background-position', s + 'px' + ' 0');
         }
-       
+
         if (w <= 1350) {
             var s = w - 1350;
             jQuery('.home-slider-6').css('background-position', s + 'px' + ' 0');
         }
         if ( w < 1325) {
-            
+
             var y = 1325 - w + x;
             jQuery('.home-slider-1').css('background-position', y + 'px' + ' 0');
-           
+
         }
         if(w <= 1270) {
             jQuery('.home-slider-1').css('background-position', '100%');
@@ -70,13 +70,13 @@ jQuery(document).ready(function(){
             var s = w - 1032;
             var y = 1032 - w + x;
             jQuery('.home-slider-1').css('background-position', y + 'px' + ' 0');
-           
+
         }
         if (w < 1008) {
-         
+
             var s = w - 1008;
-    
-          
+
+
             jQuery('.home-slider-6').css('background-position', s + 'px' + ' 0');
         }
         if (w <= 990) {
@@ -86,8 +86,8 @@ jQuery(document).ready(function(){
             jQuery('.home-slider-2').css('background-position', '0 0');
             jQuery('.home-slider-6').css('background-position', '0 0');
         }
-        
-      
+
+
         if (w <= 900) {
             var s = w - 900;
             jQuery('.home-slider-2').css('background-position', s + 'px' + ' 0');
@@ -111,7 +111,7 @@ jQuery(document).ready(function(){
             var y = 808 - w + x;
             jQuery('.home-slider-1').css('background-position', y + 'px' + ' 0');
         }
-        
+
         if (w <= 767) {
             jQuery('.home-slider-1').css('background-position', '100%');
             jQuery('.home-slider-4').css('background-position', '100%');
@@ -135,12 +135,6 @@ jQuery(document).ready(function(){
         var y = 1485 - w + x;
         var s = w - 1485;
         jQuery('.home-slider-3').css('background-position', y + 'px' + ' 0');
-
-    }
-    if (w < 1445) {
-        var y = 1445 - w + x;
-        var s = w - 1445;
-
         jQuery('.home-slider-4').css('background-position', s + 'px' + ' 0');
     }
     /*  if (w <= 1410) {
@@ -185,52 +179,40 @@ jQuery(document).ready(function(){
         var s = w - 1032;
         var y = 1032 - w + x;
         jQuery('.home-slider-1').css('background-position', y + 'px' + ' 0');
-
-    }
-    if (w < 1008) {
-
-        var s = w - 1008;
-
-
         jQuery('.home-slider-6').css('background-position', s + 'px' + ' 0');
     }
     if (w <= 990) {
         jQuery('.home-slider-1').css('background-position', '100%');
         jQuery('.home-slider-3').css('background-position', '100%');
-        jQuery('.home-slider-4').css('background-position', '0 0');
+        jQuery('.home-slider-4').css('background-position', '-100px 0px');
         jQuery('.home-slider-2').css('background-position', '0 0');
         jQuery('.home-slider-6').css('background-position', '0 0');
     }
-
-
-    if (w <= 900) {
-        var s = w - 900;
-        jQuery('.home-slider-2').css('background-position', s + 'px' + ' 0');
-    }
-    if (w <= 844) {
-        jQuery('.home-slider-2').css('background-position', '0 0');
-    }
-    if (w <= 840) {
-        var s = w - 840;
+    if (w <= 940) {
+        var s = w - 1040;
 
         jQuery('.home-slider-4').css('background-position', s + 'px' + ' 0');
     }
-    if (w <= 790) {
-        var s = w - 790;
+
+    if (w <= 865) {
+        var s = w - 865;
+        jQuery('.home-slider-2').css('background-position', s + 'px' + ' 0');
+    }
+    if (w <= 820) {
+        var s = w - 820;
         jQuery('.home-slider-6').css('background-position', s + 'px' + ' 0');
     }
-    if (w <= 808) {
-        var x = w - 990;
-        var s = w - 808;
-        var y = 808 - w + x;
-        jQuery('.home-slider-1').css('background-position', y + 'px' + ' 0');
-    }
+    if (w <= 809) {
+        var s = -231;
 
+        jQuery('.home-slider-4').css('background-position', s + 'px' + ' 0');
+    }
     if (w <= 767) {
-        jQuery('.home-slider-1').css('background-position', '100%');
         jQuery('.home-slider-4').css('background-position', '100%');
         jQuery('.home-slider-2').css('background-position', '100%');
         jQuery('.home-slider-6').css('background-position', '100%');
+        jQuery('.home-slider-5 .desktop').css('display', 'none');
+        jQuery('.home-slider-5 .mobile').css('display', 'block');
     }
 
 });
@@ -263,9 +245,9 @@ jQuery(document).ready(function(){
                                 </h2>
                                 <a href="http://www.landau.com/women/collection/lynx" class="cta">Shop Now <span class="arrow">></span></a>
                             </div>
-                            <img src="~/public/images/home/slider/lynx-logo.png"/>
+                            <img src="~/public/images/home/slider/lynx-logo.png" />
                         </li>
-                        
+
 
 
                         <li class="home-slider-2">
@@ -307,7 +289,7 @@ jQuery(document).ready(function(){
                                         <span>Fashion that's</span>
                                     </div>
                                     <div class="middle">Flexible</div>
-                                    <div class="bottom">Introducung AllDay by Landau, Featuring mechanical<br />stretch fabric for long-lasting comfort.</div>
+                                    <div class="bottom">Introducung AllDay by Landau, featuring mechanical<br /> stretch fabric for long-lasting comfort.</div>
                                 </h2>
                                 <a href="http://www.landau.com/women/collection/lynx" class="cta">Shop Now <span class="arrow">&gt;</span></a>
                             </div>
@@ -332,7 +314,7 @@ jQuery(document).ready(function(){
                                     <div class="bottom">Form meets fashion with these<br />stylish compression socks.</div>
                                     <a href="http://www.landau.com/women/collection/lynx" class="cta">Shop Now <span class="arrow">&gt;</span></a>
                                 </h2>
-                                
+
                             </div>
                         </li>
 
@@ -344,7 +326,7 @@ jQuery(document).ready(function(){
                                         <span>All Day</span>
                                     </div>
                                     <div class="middle">Comfort</div>
-                                    <div class="bottom">AllDay Landau provides the<br />fit and feel you want.</div>
+                                    <div class="bottom">AllDay Landau provides the<br />natural fit and feel you want.</div>
                                 </h2>
                                 <a href="http://www.landau.com/women/collection/lynx" class="cta">Shop Now <span class="arrow">&gt;</span></a>
                             </div>
@@ -390,7 +372,7 @@ jQuery(document).ready(function(){
 
                         <li class="home-slider-9">
                             <!--<div class="left-model"><img src="public/images/home/slider/desktop/model-left-slide9.png" /></div>-->
-                           <!-- <div class="right-model"><img src="public/images/home/slider/desktop/model-right-slide9.png" /></div>-->
+                            <!-- <div class="right-model"><img src="public/images/home/slider/desktop/model-right-slide9.png" /></div>-->
                             <div class="content">
                                 <h2>
                                     <span class="top">Make some Waves</span>
@@ -404,7 +386,7 @@ jQuery(document).ready(function(){
                         </li>
 
                         <!-- end Template SLiders Jay Murphy -->
-                        
+
                     </ul>
                 </div>
             </div>
@@ -455,17 +437,17 @@ jQuery(document).ready(function(){
             <div class="inner_blocks">
                 <div class="block1_2">
                     <a href="@UrlBuilder.BuildCategoryUrl("women", "tops")">
-						<div class="block1 block">
-							<div class="overlay_img"></div>
-							<div class="content">
-								<h3>
-									<span class="top">Stylish</span>
-									<span class="bot">Tops</span>
-									<span class="detail">Solids and Prints to Fit Your Needs</span>
-								</h3>
-								<div class="cta">Shop Now <span class="arrow">&#xe805;</span></div>
-							</div>
-						</div>
+                        <div class="block1 block">
+                            <div class="overlay_img"></div>
+                            <div class="content">
+                                <h3>
+                                    <span class="top">Stylish</span>
+                                    <span class="bot">Tops</span>
+                                    <span class="detail">Solids and Prints to Fit Your Needs</span>
+                                </h3>
+                                <div class="cta">Shop Now <span class="arrow">&#xe805;</span></div>
+                            </div>
+                        </div>
                     </a>
                     <a href="@UrlBuilder.BuildCategoryUrl("women", "pants")">
                         <div class="block2 block">
@@ -680,7 +662,7 @@ jQuery(document).ready(function(){
                 <div class="input">
                     @using (Html.BeginForm(null, null, FormMethod.Post, new { @action = this.Request.Url.AbsoluteUri, id = "zipcode" }))
                     {
-                        @Html.TextBox("zipCode", "", new { placeholder="Your Zip Code", @class = "text", type = "text", required = "required" })
+                        @Html.TextBox("zipCode", "", new { placeholder = "Your Zip Code", @class = "text", type = "text", required = "required" })
 
                         <input type="submit" value="Find" class="submit" onclick="window.location='/where_to_buy'">
                     }
@@ -710,8 +692,8 @@ jQuery(document).ready(function(){
 <script src="~/public/js/jquery-picture-min.js"></script>
 @*<script>
 
-    $(function () {
-        $('figure.responsive').picture();
-    });
+        $(function () {
+            $('figure.responsive').picture();
+        });
 
-</script>*@
+    </script>*@
