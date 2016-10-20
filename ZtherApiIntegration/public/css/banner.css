@@ -1029,7 +1029,7 @@
 
 @media screen and (max-width:767px) {
     #homepage .home_slider .container .flexslider .content ul.slides li.home-slider-4  {
-        background-image: url(../public/images/home/slider/mobile/slider4.jpg);
+        background-image: url(../public/images/home/slider/mobile/slider4_scale.jpg);
         background-position: top
     }
 }
