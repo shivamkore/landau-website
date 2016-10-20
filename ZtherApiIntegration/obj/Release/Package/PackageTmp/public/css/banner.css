@@ -117,7 +117,7 @@
 }
 @media screen and (max-width:989px) {
     #homepage .home_slider .container .flexslider .content ul.slides li.home-slider-1 img{
-
+        position:absolute;
     bottom: 25px;
     right: 10px;
     width: 112px;
@@ -1331,7 +1331,7 @@
 @media screen and (max-width:1270px) {
     #homepage .home_slider .container .flexslider .content ul.slides li.home-slider-5 {
         background-image: url(../public/images/home/slider/desktop/socks_1270.jpg);
-       
+       background-position:top;
     }
 }
 
@@ -1402,7 +1402,8 @@
 }
 
 #homepage .home_slider .flexslider ul.slides li.home-slider-5 .content h2 {
-        padding-top: 0;
+        
+    padding-top: 0;
     margin-top: 3vw;
     position: absolute;
     font-family: "TradeGothic LT CondEighteen";
@@ -1707,7 +1708,7 @@
     #homepage .home_slider .flexslider ul.slides li.home-slider-6 .content h2 .top span {
 
         font-size:55px;
-
+        letter-spacing: 0px;
 
         margin-left: 7px
     }
@@ -2052,7 +2053,7 @@
     #homepage .home_slider .flexslider ul.slides li.home-slider-7 .content h2 {
         padding-top: 0;
         margin-right: initial;
-            margin-top: 1.2vw;
+            margin-top: 4.2vw;
     }
 }
 
@@ -2684,7 +2685,7 @@
         padding-top: 0;
         margin-right: initial;
         padding-top: 0px;
-        margin-top:5vw;
+        margin-top:6vw;
     }
 }
 
@@ -2785,7 +2786,7 @@
     #homepage .home_slider .flexslider ul.slides li.home-slider-9 .content h2 .bottom {
         letter-spacing: 2px;
         font-size: 9.5vw;
-        margin-top: 0;
+        margin-top: -2vw;
         margin-left: 0;
     }
 }
