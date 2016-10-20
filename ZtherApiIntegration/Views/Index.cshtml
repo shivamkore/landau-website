@@ -1,4 +1,240 @@
 ﻿@using ZtherApiIntegration.Common
+<script>
+
+jQuery(document).ready(function(){
+    
+    jQuery(window).resize(function () {
+        var w = jQuery(window).width();
+        var x = w - 1910;
+        
+        if (w > 1325) {
+            jQuery('.home-slider-1').css('background-position', '100%');
+            jQuery('.home-slider-3').css('background-position', '100%');
+            jQuery('.home-slider-2').css('background-position', '0 0');
+            jQuery('.home-slider-6').css('background-position', '0 0');
+            jQuery('.home-slider-4').css('background-position', '0 0');
+
+        }
+        
+        if (w < 1485) {
+            var y = 1485 - w + x;
+            var s = w - 1485;
+            jQuery('.home-slider-3').css('background-position', y + 'px' + ' 0');
+           
+        }
+        if (w < 1445) {
+            var y = 1445 - w + x;
+            var s = w - 1445;
+
+            jQuery('.home-slider-4').css('background-position', s + 'px' + ' 0');
+        }
+      /*  if (w <= 1410) {
+            var z = 1160 - 1410 ;
+            var s = 1410 - W;
+            var y = z - s;
+            jQuery('.home-slider-5').css('background-position', y + 'px' + ' 0');
+        }*/
+        if (w < 1405) {
+            var s = w - 1405;
+            jQuery('.home-slider-2').css('background-position', s + 'px' + ' 0');
+        }
+       
+        if (w <= 1350) {
+            var s = w - 1350;
+            jQuery('.home-slider-6').css('background-position', s + 'px' + ' 0');
+        }
+        if ( w < 1325) {
+            
+            var y = 1325 - w + x;
+            jQuery('.home-slider-1').css('background-position', y + 'px' + ' 0');
+           
+        }
+        if(w <= 1270) {
+            jQuery('.home-slider-1').css('background-position', '100%');
+            jQuery('.home-slider-3').css('background-position', '100%');
+            jQuery('.home-slider-4').css('background-position', '0 0');
+            jQuery('.home-slider-2').css('background-position', '0 0');
+            jQuery('.home-slider-6').css('background-position', '0 0');
+        }
+        if (w <= 1145) {
+            var s = w - 1145;
+            jQuery('.home-slider-2').css('background-position', s + 'px' + ' 0');
+        }
+        if (w <= 1072) {
+            var s = w - 1072;
+
+            jQuery('.home-slider-4').css('background-position', s + 'px' + ' 0');
+        }
+        if (w < 1032) {
+            var x = w - 1270;
+            var s = w - 1032;
+            var y = 1032 - w + x;
+            jQuery('.home-slider-1').css('background-position', y + 'px' + ' 0');
+           
+        }
+        if (w < 1008) {
+         
+            var s = w - 1008;
+    
+          
+            jQuery('.home-slider-6').css('background-position', s + 'px' + ' 0');
+        }
+        if (w <= 990) {
+            jQuery('.home-slider-1').css('background-position', '100%');
+            jQuery('.home-slider-3').css('background-position', '100%');
+            jQuery('.home-slider-4').css('background-position', '0 0');
+            jQuery('.home-slider-2').css('background-position', '0 0');
+            jQuery('.home-slider-6').css('background-position', '0 0');
+        }
+        
+      
+        if (w <= 900) {
+            var s = w - 900;
+            jQuery('.home-slider-2').css('background-position', s + 'px' + ' 0');
+        }
+        if (w <= 844) {
+            jQuery('.home-slider-2').css('background-position', '0 0');
+        }
+        if (w <= 840) {
+            var s = w - 840;
+
+            jQuery('.home-slider-4').css('background-position', s + 'px' + ' 0');
+        }
+        if (w <= 790) {
+            var s = w - 790;
+            jQuery('.home-slider-6').css('background-position', s + 'px' + ' 0');
+        }
+        if (w <= 808)
+        {
+            var x = w - 990;
+            var s = w - 808;
+            var y = 808 - w + x;
+            jQuery('.home-slider-1').css('background-position', y + 'px' + ' 0');
+        }
+        
+        if (w <= 767) {
+            jQuery('.home-slider-1').css('background-position', '100%');
+            jQuery('.home-slider-4').css('background-position', '100%');
+            jQuery('.home-slider-2').css('background-position', '100%');
+            jQuery('.home-slider-6').css('background-position', '100%');
+        }
+    })
+    var w = jQuery(window).width();
+    var x = w - 1910;
+
+    if (w > 1325) {
+        jQuery('.home-slider-1').css('background-position', '100%');
+        jQuery('.home-slider-3').css('background-position', '100%');
+        jQuery('.home-slider-2').css('background-position', '0 0');
+        jQuery('.home-slider-6').css('background-position', '0 0');
+        jQuery('.home-slider-4').css('background-position', '0 0');
+
+    }
+
+    if (w < 1485) {
+        var y = 1485 - w + x;
+        var s = w - 1485;
+        jQuery('.home-slider-3').css('background-position', y + 'px' + ' 0');
+
+    }
+    if (w < 1445) {
+        var y = 1445 - w + x;
+        var s = w - 1445;
+
+        jQuery('.home-slider-4').css('background-position', s + 'px' + ' 0');
+    }
+    /*  if (w <= 1410) {
+          var z = 1160 - 1410 ;
+          var s = 1410 - W;
+          var y = z - s;
+          jQuery('.home-slider-5').css('background-position', y + 'px' + ' 0');
+      }*/
+    if (w < 1405) {
+        var s = w - 1405;
+        jQuery('.home-slider-2').css('background-position', s + 'px' + ' 0');
+    }
+
+    if (w <= 1350) {
+        var s = w - 1350;
+        jQuery('.home-slider-6').css('background-position', s + 'px' + ' 0');
+    }
+    if (w < 1325) {
+
+        var y = 1325 - w + x;
+        jQuery('.home-slider-1').css('background-position', y + 'px' + ' 0');
+
+    }
+    if (w <= 1270) {
+        jQuery('.home-slider-1').css('background-position', '100%');
+        jQuery('.home-slider-3').css('background-position', '100%');
+        jQuery('.home-slider-4').css('background-position', '0 0');
+        jQuery('.home-slider-2').css('background-position', '0 0');
+        jQuery('.home-slider-6').css('background-position', '0 0');
+    }
+    if (w <= 1145) {
+        var s = w - 1145;
+        jQuery('.home-slider-2').css('background-position', s + 'px' + ' 0');
+    }
+    if (w <= 1072) {
+        var s = w - 1072;
+
+        jQuery('.home-slider-4').css('background-position', s + 'px' + ' 0');
+    }
+    if (w < 1032) {
+        var x = w - 1270;
+        var s = w - 1032;
+        var y = 1032 - w + x;
+        jQuery('.home-slider-1').css('background-position', y + 'px' + ' 0');
+
+    }
+    if (w < 1008) {
+
+        var s = w - 1008;
+
+
+        jQuery('.home-slider-6').css('background-position', s + 'px' + ' 0');
+    }
+    if (w <= 990) {
+        jQuery('.home-slider-1').css('background-position', '100%');
+        jQuery('.home-slider-3').css('background-position', '100%');
+        jQuery('.home-slider-4').css('background-position', '0 0');
+        jQuery('.home-slider-2').css('background-position', '0 0');
+        jQuery('.home-slider-6').css('background-position', '0 0');
+    }
+
+
+    if (w <= 900) {
+        var s = w - 900;
+        jQuery('.home-slider-2').css('background-position', s + 'px' + ' 0');
+    }
+    if (w <= 844) {
+        jQuery('.home-slider-2').css('background-position', '0 0');
+    }
+    if (w <= 840) {
+        var s = w - 840;
+
+        jQuery('.home-slider-4').css('background-position', s + 'px' + ' 0');
+    }
+    if (w <= 790) {
+        var s = w - 790;
+        jQuery('.home-slider-6').css('background-position', s + 'px' + ' 0');
+    }
+    if (w <= 808) {
+        var x = w - 990;
+        var s = w - 808;
+        var y = 808 - w + x;
+        jQuery('.home-slider-1').css('background-position', y + 'px' + ' 0');
+    }
+
+    if (w <= 767) {
+        jQuery('.home-slider-1').css('background-position', '100%');
+        jQuery('.home-slider-4').css('background-position', '100%');
+        jQuery('.home-slider-2').css('background-position', '100%');
+        jQuery('.home-slider-6').css('background-position', '100%');
+    }
+
+});
+</script>
 
 <div id="homepage">
     <div id="video_overlay"></div>
@@ -14,69 +250,161 @@
             <div class="flexslider">
                 <div class="content">
                     <ul class="slides">
+
+                        <!-- begin Template SLiders Jay Murphy -->
                         <li class="home-slider-1">
                             <div class="content">
                                 <h2>
                                     <div class="top">
-                                        <span>Savage Style.</span>
+                                        <span>Make your</span>
                                     </div>
-                                    <div class="middle">Bold New</div>
-                                    <div class="color">Color</div>
-                                    <div class="bottom">It's time to take a walk<br />on the wild side</div>
+                                    <div class="middle">Move</div>
+                                    <div class="bottom">This fierce jacket allows for<br />everywhichway motion.</div>
                                 </h2>
-                                <a href="@UrlBuilder.BuildCollectionUrl("women","lynx")" class="cta">Shop Now <span class="arrow">&#62;</span></a>
+                                <a href="http://www.landau.com/women/collection/lynx" class="cta">Shop Now <span class="arrow">></span></a>
                             </div>
+                            <img src="~/public/images/home/slider/lynx-logo.png"/>
                         </li>
-                        @*<li id="home-slider-2" class="home-slider-2">
-                            <div class="content">
-                                <h2 class="title">
-                                    <div id="first">A Toast To</div>
-                                    <div id="second">Style</div>
-                                    <div id="third">Wine<br />Country</div>
-                                    <div id="fourth">Collection</div>
-                                </h2>
-                                <a href="@UrlBuilder.BuildFullUrl(UrlEnum.COLLECTIONS)" class="cta">Shop Now <span class="arrow">&gt;</span></a>
-                            </div>
-                        </li>*@
-                        <li id="home-slider-3" class="home-slider-3">
-                            <div class="content">
-                                <h2 class="title">
-                                    <div id="first">A Work Of</div>
-                                    <div id="second">Art</div>
-                                    <div id="third">Painterly<br />Nights</div>
-                                    <div id="fourth">Collection</div>
-                                </h2>
-                                <a href="@UrlBuilder.BuildFullUrl(UrlEnum.COLLECTIONS)" class="cta">Shop Now <span class="arrow">&gt;</span></a>
-                            </div>
-                        </li>
-                        <li class="home-slider-4">
-                            <div class="content">
-                                <h2>
-                                    <span class="top">A Work Of</span>
-                                    <span class="middle">
-                                        <picture>
-                                            <img srcset="public/images/home/slider/slider-4-text-2.png" alt="color" draggable="false">
-                                        </picture>
-                                        <span>Falling<br />Water</span>
-                                    </span>
-                                    <span class="bottom">Collection</span>
-                                </h2>
-                                <a href="@UrlBuilder.BuildFullUrl(UrlEnum.COLLECTIONS)" class="cta">Shop Now <span class="arrow">></span></a>
-                            </div>
-                        </li>
-                        <li class="home-slider-5">
+                        
+
+
+                        <li class="home-slider-2">
                             <div class="content">
                                 <h2>
                                     <div class="top">
-                                        <span>Non-Stop</span>
+                                        <span>Sporty and</span>
                                     </div>
-                                    <div class="middle">Poplin</div>
-                                    <div class="bottom tag-line-desktop">Classic styles sure to be<br />everyday favorites.</div>
-                                    <div class="bottom tag-line-mobile">Classic styles sure to be everyday favorites.</div>
+                                    <div class="middle">Stylish</div>
+                                    <div class="bottom">Fresh-look jacket and a cool top<br />in bold new colors.</div>
                                 </h2>
-                                <a href="http://www.landau.com/women/collection/lynx" class="cta">Shop Now <span class="arrow">&#62;</span></a>
+                                <a href="http://www.landau.com/women/collection/lynx" class="cta">Shop Now <span class="arrow">&gt;</span></a>
+                            </div>
+                            <img src="~/public/images/home/slider/lynx-logo.png" />
+                        </li>
+
+
+
+                        <li class="home-slider-3">
+                            <div class="content">
+                                <h2>
+                                    <div class="top">
+                                        <span>We keep you</span>
+                                    </div>
+                                    <div class="middle">on the go</div>
+                                    <div class="bottom">Available in new moisture-wicking, 4-way stretch<br /> fabric that’s flexible, comfortable and durable.</div>
+                                </h2>
+                                <a href="http://www.landau.com/women/collection/lynx" class="cta">Shop Now <span class="arrow">&gt;</span></a>
                             </div>
                         </li>
+
+
+
+
+                        <li class="home-slider-4">
+                            <div class="content">
+                                <h2>
+                                    <div class="top">
+                                        <span>Fashion that's</span>
+                                    </div>
+                                    <div class="middle">Flexible</div>
+                                    <div class="bottom">Introducung AllDay by Landau, Featuring mechanical<br />stretch fabric for long-lasting comfort.</div>
+                                </h2>
+                                <a href="http://www.landau.com/women/collection/lynx" class="cta">Shop Now <span class="arrow">&gt;</span></a>
+                            </div>
+                            <img src="~/public/images/home/slider/desktop/all_day.png" />
+                        </li>
+
+
+
+
+
+                        <li class="home-slider-5">
+                            <div class="content" style="z-index:1;">
+                                <h2>
+                                    <div class="top">
+                                        <div class="desktop">
+                                            <span>The <strong>Fun</strong> You Want,<br />The <strong>Comfort</strong><br />You Deserve</span>
+                                        </div>
+                                        <div class="mobile">
+                                            <span>The <strong>Fun</strong> You Want,<br />The <strong>Comfort</strong> You Deserve</span>
+                                        </div>
+                                    </div>
+                                    <div class="bottom">Form meets fashion with these<br />stylish compression socks.</div>
+                                    <a href="http://www.landau.com/women/collection/lynx" class="cta">Shop Now <span class="arrow">&gt;</span></a>
+                                </h2>
+                                
+                            </div>
+                        </li>
+
+
+                        <li class="home-slider-6">
+                            <div class="content">
+                                <h2>
+                                    <div class="top">
+                                        <span>All Day</span>
+                                    </div>
+                                    <div class="middle">Comfort</div>
+                                    <div class="bottom">AllDay Landau provides the<br />fit and feel you want.</div>
+                                </h2>
+                                <a href="http://www.landau.com/women/collection/lynx" class="cta">Shop Now <span class="arrow">&gt;</span></a>
+                            </div>
+                            <img src="~/public/images/home/slider/desktop/all_day.png" />
+                        </li>
+
+
+
+
+                        <li class="home-slider-7">
+                            <!--<div class="left-model"><img src="public/images/home/slider/desktop/model-left-slide7.png" /></div>-->
+                            <!--<div class="right-model"><img src="public/images/home/slider/desktop/model-right-slide7.png" /></div>-->
+                            <div class="content">
+                                <h2>
+                                    <span class="top">Live Colorfully</span>
+                                    <span class="middle">
+                                        <span>RIO</span>
+                                    </span>
+                                    <span class="bottom">Collection</span>
+                                </h2>
+                                <a href="http://www.landau.com/collections" class="cta">Shop Now <span class="arrow">></span></a>
+                            </div>
+                        </li>
+
+
+
+                        <li class="home-slider-8">
+                            <!--<div class="left-model"><img src="public/images/home/slider/desktop/model-left-slide8.png" /></div>-->
+                            <!--<div class="right-model"><img src="public/images/home/slider/desktop/model-right-slide8.png" /></div>-->
+                            <div class="content">
+                                <h2>
+                                    <span class="top">Style is in Bloom</span>
+                                    <span class="middle">
+                                        <span>Lemon<br />Twist</span>
+                                    </span>
+                                    <span class="bottom">Collection</span>
+                                </h2>
+                                <a href="http://www.landau.com/collections" class="cta">Shop Now <span class="arrow">></span></a>
+                            </div>
+                        </li>
+
+
+
+                        <li class="home-slider-9">
+                            <!--<div class="left-model"><img src="public/images/home/slider/desktop/model-left-slide9.png" /></div>-->
+                           <!-- <div class="right-model"><img src="public/images/home/slider/desktop/model-right-slide9.png" /></div>-->
+                            <div class="content">
+                                <h2>
+                                    <span class="top">Make some Waves</span>
+                                    <span class="middle">
+                                        <span>Shoreline</span>
+                                    </span>
+                                    <span class="bottom">Collection</span>
+                                </h2>
+                                <a href="http://www.landau.com/collections" class="cta">Shop Now <span class="arrow">></span></a>
+                            </div>
+                        </li>
+
+                        <!-- end Template SLiders Jay Murphy -->
+                        
                     </ul>
                 </div>
             </div>
@@ -189,14 +517,14 @@
                 <div class="block">
                     <div class="overlay_img"></div>
                     <div class="content">
-                        <h3>
+                        <!--<h3>
                             <span class="top">Made to Move</span>
                             <span class="detail">Lynx with VersaTec<sup>TM</sup> Fit Technology</span>
                             <img class="logo" srcset="public/images/home/category/lynx_logo.png" />
-                        </h3>
-                        <div class="play_btn">
+                        </h3>-->
+                        <!--<div class="play_btn">
                             <div class="play" alt=""></div>
-                        </div>
+                        </div>-->
                     </div>
                 </div>
             </div>
