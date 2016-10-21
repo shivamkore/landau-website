@@ -57,6 +57,12 @@
 
 @font-face {font-family: "TradeGothic LT CondEighteen";
     src: url("../public/images/home/font/Trade Gothic LT Condensed No. 18.otf");
+    src: url("//db.onlinewebfonts.com/t/0ba944e6785ef3157d935b1224314527.eot");
+    src: url("//db.onlinewebfonts.com/t/0ba944e6785ef3157d935b1224314527.eot?#iefix") format("embedded-opentype"),
+    url("//db.onlinewebfonts.com/t/0ba944e6785ef3157d935b1224314527.woff2") format("woff2"),
+    url("//db.onlinewebfonts.com/t/0ba944e6785ef3157d935b1224314527.woff") format("woff"),
+    url("//db.onlinewebfonts.com/t/0ba944e6785ef3157d935b1224314527.ttf") format("truetype"),
+    url("//db.onlinewebfonts.com/t/0ba944e6785ef3157d935b1224314527.svg#TradeGothic LT CondEighteen") format("svg");
 }
 
 
@@ -157,7 +163,7 @@
         position: absolute;
         width: inherit;
         height: inherit;
-        top:initial;
+        top:inherit;
         bottom: 0;
         background-color: #ffffff;
         height: 47.5%;
@@ -459,7 +465,7 @@
         position: absolute;
         width: inherit;
         height: inherit;
-        top:initial;
+        top:inherit;
         bottom: 0;
         background-color: #9f26b4;
         height: 47.5%;
@@ -782,7 +788,7 @@
         position: absolute;
         width: inherit;
         height: inherit;
-        top:initial;
+        top:inherit;
         bottom: 0;
         background-color: #ffffff;
         height: 47.5%;
@@ -1067,7 +1073,7 @@
         position: absolute;
         width: inherit;
         height: inherit;
-        top:initial;
+        top:inherit;
         bottom: 0;
         background-color: #ffffff;
         height: 47.5%;
@@ -1372,7 +1378,7 @@
             position: absolute;
     width: inherit;
     height: inherit;
-    top: initial;
+    top: inherit;
     bottom: 0;
     background-color: transparent;
     height: 47.5%;
@@ -1646,7 +1652,7 @@
         position: absolute;
         width: inherit;
         height: inherit;
-        top:initial;
+        top:inherit;
         bottom: 0;
         height: 47.5%;
         width: 100%;
@@ -1756,7 +1762,7 @@
 
 #homepage .home_slider .flexslider ul.slides li.home-slider-6 .content h2 .bottom {
     text-transform: none;
-    font-size: 25.4px;
+    font-size: 22.4px;
     line-height:120%;
     font-family: "ProximaNovaW01-Regular";
     letter-spacing: 0;
