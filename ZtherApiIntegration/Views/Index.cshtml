@@ -135,6 +135,12 @@ jQuery(document).ready(function(){
         var y = 1485 - w + x;
         var s = w - 1485;
         jQuery('.home-slider-3').css('background-position', y + 'px' + ' 0');
+
+    }
+    if (w < 1445) {
+        var y = 1445 - w + x;
+        var s = w - 1445;
+
         jQuery('.home-slider-4').css('background-position', s + 'px' + ' 0');
     }
     /*  if (w <= 1410) {
@@ -179,40 +185,52 @@ jQuery(document).ready(function(){
         var s = w - 1032;
         var y = 1032 - w + x;
         jQuery('.home-slider-1').css('background-position', y + 'px' + ' 0');
+
+    }
+    if (w < 1008) {
+
+        var s = w - 1008;
+
+
         jQuery('.home-slider-6').css('background-position', s + 'px' + ' 0');
     }
     if (w <= 990) {
         jQuery('.home-slider-1').css('background-position', '100%');
         jQuery('.home-slider-3').css('background-position', '100%');
-        jQuery('.home-slider-4').css('background-position', '-100px 0px');
+        jQuery('.home-slider-4').css('background-position', '0 0');
         jQuery('.home-slider-2').css('background-position', '0 0');
         jQuery('.home-slider-6').css('background-position', '0 0');
     }
-    if (w <= 940) {
-        var s = w - 1040;
 
-        jQuery('.home-slider-4').css('background-position', s + 'px' + ' 0');
-    }
 
-    if (w <= 865) {
-        var s = w - 865;
+    if (w <= 900) {
+        var s = w - 900;
         jQuery('.home-slider-2').css('background-position', s + 'px' + ' 0');
     }
-    if (w <= 820) {
-        var s = w - 820;
-        jQuery('.home-slider-6').css('background-position', s + 'px' + ' 0');
+    if (w <= 844) {
+        jQuery('.home-slider-2').css('background-position', '0 0');
     }
-    if (w <= 809) {
-        var s = -231;
+    if (w <= 840) {
+        var s = w - 840;
 
         jQuery('.home-slider-4').css('background-position', s + 'px' + ' 0');
     }
+    if (w <= 790) {
+        var s = w - 790;
+        jQuery('.home-slider-6').css('background-position', s + 'px' + ' 0');
+    }
+    if (w <= 808) {
+        var x = w - 990;
+        var s = w - 808;
+        var y = 808 - w + x;
+        jQuery('.home-slider-1').css('background-position', y + 'px' + ' 0');
+    }
+
     if (w <= 767) {
+        jQuery('.home-slider-1').css('background-position', '100%');
         jQuery('.home-slider-4').css('background-position', '100%');
         jQuery('.home-slider-2').css('background-position', '100%');
         jQuery('.home-slider-6').css('background-position', '100%');
-        jQuery('.home-slider-5 .desktop').css('display', 'none');
-        jQuery('.home-slider-5 .mobile').css('display', 'block');
     }
 
 });
@@ -222,7 +240,7 @@ jQuery(document).ready(function(){
     <div id="video_overlay"></div>
     <div id="video_popup">
         <!--  START NEW WISTIA CODE FOR VIDEO -->
-        <iframe src="http://fast.wistia.net/embed/iframe/ls9r0s2mbz" allowtransparency="true" autoplay="true" frameborder="0" scrolling="no" class="wistia_embed" name="wistia_embed" allowfullscreen mozallowfullscreen webkitallowfullscreen oallowfullscreen msallowfullscreen width="100%" height="100%"></iframe>
+        <iframe src="http://fast.wistia.net/embed/iframe/w7ruwjc53s" allowtransparency="true" autoplay="true" frameborder="0" scrolling="no" class="wistia_embed" name="wistia_embed" allowfullscreen mozallowfullscreen webkitallowfullscreen oallowfullscreen msallowfullscreen width="100%" height="100%"></iframe>
         <script src="http://fast.wistia.net/assets/external/E-v1.js" async></script>
         <!--  START NEW WISTIA CODE FOR VIDEO -->
 
@@ -241,7 +259,7 @@ jQuery(document).ready(function(){
                                         <span>Make your</span>
                                     </div>
                                     <div class="middle">Move</div>
-                                    <div class="bottom">This fierce jacket allows for<br />everywhichway motion.</div>
+                                    <div class="bottom">A jacket that is<br />fierce and flexible.</div>
                                 </h2>
                                 <a href="http://www.landau.com/women/collection/lynx" class="cta">Shop Now <span class="arrow">></span></a>
                             </div>
@@ -257,7 +275,7 @@ jQuery(document).ready(function(){
                                         <span>Sporty and</span>
                                     </div>
                                     <div class="middle">Stylish</div>
-                                    <div class="bottom">Fresh-look jacket and a cool top<br />in bold new colors.</div>
+                                    <div class="bottom">Lynx styles now come in fresh new colors<br />just in time for summer.</div>
                                 </h2>
                                 <a href="http://www.landau.com/women/collection/lynx" class="cta">Shop Now <span class="arrow">&gt;</span></a>
                             </div>
@@ -273,7 +291,7 @@ jQuery(document).ready(function(){
                                         <span>We keep you</span>
                                     </div>
                                     <div class="middle">on the go</div>
-                                    <div class="bottom">Available in new moisture-wicking, 4-way stretch<br /> fabric that’s flexible, comfortable and durable.</div>
+                                    <div class="bottom">Men's stretch has a whole new name<br />with new moisture wicking styles with 4-way stretch<br />to offer durable comfort and stretch.</div>
                                 </h2>
                                 <a href="http://www.landau.com/women/collection/lynx" class="cta">Shop Now <span class="arrow">&gt;</span></a>
                             </div>
@@ -289,7 +307,7 @@ jQuery(document).ready(function(){
                                         <span>Fashion that's</span>
                                     </div>
                                     <div class="middle">Flexible</div>
-                                    <div class="bottom">Introducung AllDay by Landau, featuring mechanical<br /> stretch fabric for long-lasting comfort.</div>
+                                    <div class="bottom">Our new All Day by Landau provides<br />the natural fit and feel you want.</div>
                                 </h2>
                                 <a href="http://www.landau.com/women/collection/lynx" class="cta">Shop Now <span class="arrow">&gt;</span></a>
                             </div>
@@ -305,13 +323,13 @@ jQuery(document).ready(function(){
                                 <h2>
                                     <div class="top">
                                         <div class="desktop">
-                                            <span>The <strong>Fun</strong> You Want,<br />The <strong>Comfort</strong><br />You Deserve</span>
+                                            <span><strong>Fun</strong> And <strong>comfort</strong><br />All in one</span>
                                         </div>
                                         <div class="mobile">
                                             <span>The <strong>Fun</strong> You Want,<br />The <strong>Comfort</strong> You Deserve</span>
                                         </div>
                                     </div>
-                                    <div class="bottom">Form meets fashion with these<br />stylish compression socks.</div>
+                                    <div class="bottom">Fun meets fashion in Landau's<br /> new compression socks.</div>
                                     <a href="http://www.landau.com/women/collection/lynx" class="cta">Shop Now <span class="arrow">&gt;</span></a>
                                 </h2>
 
@@ -326,7 +344,7 @@ jQuery(document).ready(function(){
                                         <span>All Day</span>
                                     </div>
                                     <div class="middle">Comfort</div>
-                                    <div class="bottom">AllDay Landau provides the<br />natural fit and feel you want.</div>
+                                    <div class="bottom">Introducing All Day by Landau, featuring mechanical <br />strecth fabric for long-lasting comfort.</div>
                                 </h2>
                                 <a href="http://www.landau.com/women/collection/lynx" class="cta">Shop Now <span class="arrow">&gt;</span></a>
                             </div>
