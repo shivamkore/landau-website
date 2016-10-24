@@ -1,0 +1,76 @@
+﻿@using ZtherApiIntegration.Models.Favorites
+@using ZtherApiIntegration.Common
+@model FavoritesEmailModel
+
+<div id="favorites-email">
+    <div class="form_container">
+        <div class="sub_header">Email Your Favorites</div>
+        @using (Html.BeginForm(null, null, FormMethod.Post, new { @action = this.Request.Url.AbsoluteUri }))
+        {
+            @Html.ValidationSummary(true)
+            <fieldset>
+                @Html.HiddenFor(FavEmailModel => FavEmailModel.FavCodes, new { id = "hiddenFavs" })
+                <div class="form-row clearfix">
+                    <div class="subject_container">
+                        <label class="">Subject</label>
+                        @Html.TextBoxFor(FavEmailModel => FavEmailModel.Subject, new { type = "text", required = "required", @Value = "My Favorites from Landau.com" })
+                        @Html.ValidationMessageFor(FavEmailModel => FavEmailModel.Subject)
+                        <div class="validation-text">Input invalid. Insert validation text here.</div>
+                    </div>
+                </div>
+                <div class="form-row clearfix">
+                    <div class="name_container left">
+                        <label class="">
+                            Recipient's Name
+                            <span class="asterisk">*</span>
+                        </label>
+                        @Html.TextBoxFor(FavEmailModel => FavEmailModel.RecipientName, new { type = "text", required = "required"})
+                        @Html.ValidationMessageFor(FavEmailModel => FavEmailModel.RecipientName)
+                        <div class="validation-text">Input invalid. Insert validation text here.</div>
+                    </div>
+                    <div class="name_container right">
+                        <label class="">
+                            Email Address of Recipient
+                            <span class="asterisk">*</span>
+                        </label>
+                        @Html.TextBoxFor(FavEmailModel => FavEmailModel.RecipientEmail, new { type = "email", required = "required" })
+                        @Html.ValidationMessageFor(FavEmailModel => FavEmailModel.RecipientEmail)
+                        <div class="validation-text">Input invalid. Insert validation text here.</div>
+                    </div>
+                </div>
+                <div class="form-row clearfix">
+                    <div class="name_container left">
+                        <label class="">
+                            Your Name
+                            <span class="asterisk">*</span>
+                        </label>
+                        @Html.TextBoxFor(FavEmailModel => FavEmailModel.FullName, new { type = "text", required = "required" })
+                        @Html.ValidationMessageFor(FavEmailModel => FavEmailModel.FullName)
+                        <div class="validation-text">Input invalid. Insert validation text here.</div>
+                    </div>
+                </div>
+                <div class="comments_container">
+                    <label class="">
+                        Message
+                        <span class="asterisk">*</span>
+                    </label>
+                    @Html.TextAreaFor(FavEmailModel => FavEmailModel.Message, new { required = "required" })
+                    @Html.ValidationMessageFor(FavEmailModel => FavEmailModel.Message)
+                    <div class="validation-text">Input invalid. Insert validation text here.</div>
+                    <div class="required_field">
+                        <span class="asterisk">*</span>
+                        <span class="text">Required Field</span>
+                    </div>
+                </div>
+                <div class="submit_container">
+                    <input type="submit" value="SEND" onclick="javascript:sendFavCodes();" />
+                    <div class="text">
+                        We respect your privacy. <a href="@UrlBuilder.BuildFullUrl(UrlEnum.PRIVACY_POLICY)">View our policy.</a>
+                        <br> You can also find us on <a href="https://www.facebook.com/landauuniforms">Facebook.</a>
+                    </div>
+                </div>
+            </fieldset>
+        }
+    </div>
+</div>
+<script src="public/js/logic/favorites.js"></script>

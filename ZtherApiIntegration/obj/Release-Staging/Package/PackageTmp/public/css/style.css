@@ -2885,12 +2885,12 @@ textarea::-ms-clear {
 }
 
 #homepage .categories .video_container .overlay_img {
-    background-image: url(../images/home/category/lynx2_1680.jpg)
+    background-image: url(../images/videos/FOB-Video-Playscreen_Desktop.jpg)
 }
 
 @media screen and (max-width:1270px) {
     #homepage .categories .video_container .overlay_img {
-        background-image: url(../images/home/category/lynx2_990.jpg)
+        background-image: url(../images/videos/FOB-Video-Playscreen_Desktop_medium.jpg)
     }
 }
 
@@ -2917,7 +2917,7 @@ textarea::-ms-clear {
 
 @media screen and (max-width:989px) {
     #homepage .categories .video_container .block {
-        background-image: url(../images/home/category/lynx2_768.jpg);
+        background-image: url(../images/videos/FOB-Video-Playscreen_Desktop_small.jpg);
         margin-left: 30px;
         margin-right: 33px;
         margin-top: 33px;
@@ -2927,7 +2927,7 @@ textarea::-ms-clear {
 
 @media screen and (max-width:767px) {
     #homepage .categories .video_container .block {
-        background-image: url(../images/home/category/lynx2_640.png);
+        background-image: url(../images/videos/FOB-Video-Playscreen_Mobile.jpg);
         margin-top: 19px;
         height: inherit;
         padding-top: 78.4%;

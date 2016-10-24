@@ -1,0 +1,26 @@
+﻿@using ZtherApiIntegration.Models.Detail
+@using ZtherApiIntegration.Common
+@model List<ProductImageModel>
+
+<div class="text">Share this</div>
+<a class="facebook" href="@string.Format("https://www.facebook.com/dialog/feed?app_id=920816514633086&caption=Landau Scrubs&picture={0}&description=Landau Scrubs&link={1}&redirect_uri={1}&show_error=true",
+                                   Model.Count > 0 ? Model[0].DetailImageUri : Constants.IMAGE_NOT_FOUND,
+                                   this.Request.Url.AbsoluteUri)"
+   target="_blank">
+    &#xe801;
+</a>
+<a class="twitter" href="@string.Format("http://twitter.com/share?text=Landau Scrubs&url={0}",
+                                    this.Request.Url.AbsoluteUri)"
+   target="_blank">
+    &#xe802;
+</a>
+<a class="pinterest" href="@string.Format("http://pinterest.com/pin/create/button/?url={1}&description=Landau Scrubs&media={0}",
+                                    Model.Count > 0 ? Model[0].DetailImageUri : Constants.IMAGE_NOT_FOUND,
+                                    this.Request.Url.AbsoluteUri)"
+   target="_blank">
+    &#xe804;
+</a>
+<a class="mail" href="@string.Format("mailto:?subject=Landau Scrubs&body=Landau Scrubs%0D%0A{0}",
+                                this.Request.Url.AbsoluteUri)">
+    &#xe806;
+</a>

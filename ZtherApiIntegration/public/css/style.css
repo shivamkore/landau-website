@@ -102,7 +102,6 @@ label.error {
 body {
     background: #fff;
     font-family: Proxima N W01 Reg;
-    margin-top: 173px;
     -webkit-text-size-adjust: none;
     -webkit-filter: blur(0);
     width: 100%
@@ -225,9 +224,6 @@ textarea::-ms-clear {
 }
 
 @media only screen and (min-width:990px) and (max-width:1270px) {
-    body {
-        margin-top: 169px
-    }
     .container {
         width: 100%;
         padding: 0 19px 0 0
@@ -15823,6 +15819,13 @@ textarea::-ms-clear {
     height: 804px;
     text-align: center;
     position: relative
+}
+
+/* AJ */
+@media screen and (min-width:989px) {
+    #homepage .home_slider {
+        margin-top: 173px;
+    }
 }
 
 @media screen and (max-width:1200px) {
