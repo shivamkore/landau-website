@@ -270,7 +270,7 @@
     margin: 11px auto 0;
     font-size: 23px;
     letter-spacing: 4px;
-    font-family: "ProximaNovaW01-Regular";
+    font-family: "Proxima N W01 Reg";
     letter-spacing: 0;
     
 }
@@ -596,7 +596,7 @@
     text-transform: none;
     font-size: 21.9px;
     line-height:130%;
-    font-family: "ProximaNovaW01-Regular";
+    font-family: "Proxima N W01 Reg";
     letter-spacing: 0px;
     margin-top: 1%;
     
@@ -891,7 +891,7 @@
     margin: 11px auto 0;
     font-size: 22px;
     letter-spacing: 4px;
-    font-family: "ProximaNovaW01-Regular";
+    font-family: "Proxima N W01 Reg";
     letter-spacing: 0px;
     line-height: 145%;
     
@@ -1187,7 +1187,7 @@
 #homepage .home_slider .flexslider ul.slides li.home-slider-4 .content h2 .bottom {
     text-transform: none;
     font-size: 19.4px;
-    font-family: "ProximaNovaW01-Regular";
+    font-family: "Proxima N W01 Reg";
     margin-top: 1%;
     color: #5d6873;
     line-height: 140%;
@@ -1396,7 +1396,7 @@
 
 #homepage .home_slider .flexslider ul.slides li.home-slider-5 .content h2 {
         padding-top: 0;
-    margin-top: 3vw;
+    margin-top: 4.5vw;
     position: absolute;
     font-family: "TradeGothicW01-BoldCn20_675334";
     font-size: 45px;
@@ -1405,12 +1405,17 @@
     left: 7%;
     top: 7%;
 }
+#homepage .home_slider .flexslider ul.slides li.home-slider-5 .content h2 .bottom {
+       
+    font-family: "Proxima N W01 Reg";
+   
+}
+
 @media screen and (max-width:1270px){
 #homepage .home_slider .flexslider ul.slides li.home-slider-5 .content h2 {
         padding-top: 0;
-    margin-top: 1vw;
+    margin-top: 4vw;
     position: absolute;
-    font-family: "TradeGothicW01-BoldCn20_675334";
     font-size: 45px;
     background-color: transparent;
     color: #0a375e;
@@ -1443,8 +1448,8 @@
 
 
 #homepage .home_slider .flexslider ul.slides li.home-slider-5 .content h2 .top span {
-    font-size: 45px;
-    letter-spacing: 1px;
+    font-size: 56px;
+    letter-spacing: -2px;
 }
 #homepage .home_slider .flexslider ul.slides li.home-slider-5 .content h2 .top .mobile{
     display: none;
@@ -1457,7 +1462,8 @@
 
 @media screen and (max-width:989px) {
     #homepage .home_slider .flexslider ul.slides li.home-slider-5 .content h2 .top span {
-    
+            font-size: 51px;
+    letter-spacing: -2px;
     }
 }
 
@@ -1478,7 +1484,7 @@
 
 
 #homepage .home_slider .flexslider ul.slides li.home-slider-5 .content h2 .bottom {
-    font-size: 30px;
+    font-size: 23px;
     text-transform: none;
     margin-top:7px;
     
@@ -1494,8 +1500,11 @@
     #homepage .home_slider .flexslider ul.slides li.home-slider-5 .content h2 .bottom {
      
     }
+    #homepage .home_slider .flexslider ul.slides li.home-slider-5 .content h2 .cta {
+    left: 75px;
+    }
 }
-@media screen and (max-width:815px){
+@media screen and (max-width:836px){
     #homepage .home_slider .flexslider ul.slides li.home-slider-5 .content{
         width: 96%;
     }
@@ -1521,7 +1530,7 @@
 
 #homepage .home_slider .flexslider ul.slides li.home-slider-5 .content h2 .cta {
     position: absolute;
-    left: 85px;
+    left: 91px;
     /*left: 152px;*/
     margin-top:4%;
 
@@ -1765,7 +1774,7 @@
     text-transform: none;
     font-size: 22.4px;
     line-height:120%;
-    font-family: "ProximaNovaW01-Regular";
+    font-family: "Proxima N W01 Reg";
     letter-spacing: 0;
     margin-top: 1%;
     color: #ffffff;
@@ -2060,7 +2069,7 @@
     /*font-size: 30px;*/
     font-size: 1.5vw;
     font-size: 30px;
-    font-family: "ProximaNovaW01-Regular";
+    font-family: "Proxima N W01 Reg";
     font-weight: bold;
     margin: 0;
 }
@@ -2378,7 +2387,7 @@
     letter-spacing: 14px;
     /*margin-left: 14px;*/
     font-size: 36px;
-    font-family: "ProximaNovaW01-Regular";
+    font-family: "Proxima N W01 Reg";
     font-weight: bold;
     margin: 0;
     color: #00134a;
@@ -2682,7 +2691,7 @@
     letter-spacing: 14px;
     /*margin-left: 14px;*/
     font-size: 37px;
-    font-family: "ProximaNovaW01-Regular";
+    font-family: "Proxima N W01 Reg";
     font-weight: bold;
     margin: 0;
     color: #00134a;
