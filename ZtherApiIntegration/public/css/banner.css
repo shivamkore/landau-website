@@ -1,7 +1,7 @@
 ﻿/*Begin HTML of Slide templates*/
 /*Begin CTA Styles*/
 .cta {
-    border: 3px solid
+    border: 3px solid;
     display: inline-block;
     font-size: 17px;
     padding: 11px 0;
@@ -1398,7 +1398,7 @@
         padding-top: 0;
     margin-top: 3vw;
     position: absolute;
-    font-family: "TradeGothic LT CondEighteen";
+    font-family: "TradeGothicW01-BoldCn20_675334";
     font-size: 45px;
     background-color: transparent;
     color: #0a375e;
@@ -1410,7 +1410,7 @@
         padding-top: 0;
     margin-top: 1vw;
     position: absolute;
-    font-family: "TradeGothic LT CondEighteen";
+    font-family: "TradeGothicW01-BoldCn20_675334";
     font-size: 45px;
     background-color: transparent;
     color: #0a375e;
@@ -1628,6 +1628,7 @@
     position:absolute;
     top: 5%;
     left: 15px;
+    width: 145px;
     
 }
 @media screen and (max-width:1270px) {
