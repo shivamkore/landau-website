@@ -15823,8 +15823,8 @@ textarea::-ms-clear {
 
 /* AJ */
 @media screen and (min-width:989px) {
-    #homepage .home_slider {
-        margin-top: 173px;
+    #divMainBody {
+        padding-top: 171px;
     }
 }
 

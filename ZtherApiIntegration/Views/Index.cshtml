@@ -1,4 +1,6 @@
 ﻿@using ZtherApiIntegration.Common
+@using System.Configuration
+
 <script>
 
 jQuery(document).ready(function(){
@@ -250,7 +252,7 @@ jQuery(document).ready(function(){
                     <ul class="slides">
 
                         <!-- begin Template SLiders Jay Murphy -->
-                        <li class="home-slider-1">
+                        @*<li class="home-slider-1">
                             <div class="content">
                                 <h2>
                                     <div class="top">
@@ -259,12 +261,10 @@ jQuery(document).ready(function(){
                                     <div class="middle">Move</div>
                                     <div class="bottom">A jacket that is<br />fierce and flexible.</div>
                                 </h2>
-                                <a href="http://www.landau.com/women/collection/lynx" class="cta">Shop Now <span class="arrow">></span></a>
+                                <a href="~/women/collection/lynx" class="cta">Shop Now <span class="arrow">></span></a>
                             </div>
                             <img src="~/public/images/home/slider/lynx-logo.png" />
-                        </li>
-
-
+                        </li>*@
 
                         <li class="home-slider-2">
                             <div class="content">
@@ -275,14 +275,12 @@ jQuery(document).ready(function(){
                                     <div class="middle">Stylish</div>
                                     <div class="bottom">Lynx styles now come in fresh new colors<br />just in time for summer.</div>
                                 </h2>
-                                <a href="http://www.landau.com/women/collection/lynx" class="cta">Shop Now <span class="arrow">&gt;</span></a>
+                                <a href="~/women/collection/lynx" class="cta">Shop Now <span class="arrow">&gt;</span></a>
                             </div>
                             <img src="~/public/images/home/slider/lynx-logo.png" />
                         </li>
 
-
-
-                        <li class="home-slider-3">
+                        @*<li class="home-slider-3">
                             <div class="content">
                                 <h2>
                                     <div class="top">
@@ -291,14 +289,11 @@ jQuery(document).ready(function(){
                                     <div class="middle">on the go</div>
                                     <div class="bottom">Men's stretch has a whole new name<br />with moisture wicking styles and 4-way stretch<br />to offer durable comfort and movement.</div>
                                 </h2>
-                                <a href="http://www.landau.com/women/collection/lynx" class="cta">Shop Now <span class="arrow">&gt;</span></a>
+                                <a href="~/men/category/mens-stretch" class="cta">Shop Now <span class="arrow">&gt;</span></a>
                             </div>
-                        </li>
+                        </li>*@
 
-
-
-
-                        <li class="home-slider-4">
+                        @*<li class="home-slider-4">
                             <div class="content">
                                 <h2>
                                     <div class="top">
@@ -307,14 +302,10 @@ jQuery(document).ready(function(){
                                     <div class="middle">Flexible</div>
                                     <div class="bottom">Our new All Day by Landau provides<br />the natural fit, flexibility and feel you want.</div>
                                 </h2>
-                                <a href="http://www.landau.com/women/collection/lynx" class="cta">Shop Now <span class="arrow">&gt;</span></a>
+                                <a href="~/women/category/flexible" class="cta">Shop Now <span class="arrow">&gt;</span></a>
                             </div>
                             <img src="~/public/images/home/slider/desktop/all_day.png" />
-                        </li>
-
-
-
-
+                        </li>*@
 
                         <li class="home-slider-5">
                             <div class="content" style="z-index:1;">
@@ -328,12 +319,11 @@ jQuery(document).ready(function(){
                                         </div>
                                     </div>
                                     <div class="bottom">Fun meets fashion in Landau's<br /> new compression socks.</div>
-                                    <a href="http://www.landau.com/women/collection/lynx" class="cta">Shop Now <span class="arrow">&gt;</span></a>
+                                    <a href="~/women/category/footwear" class="cta">Shop Now <span class="arrow">&gt;</span></a>
                                 </h2>
 
                             </div>
                         </li>
-
 
                         <li class="home-slider-6">
                             <div class="content">
@@ -344,15 +334,12 @@ jQuery(document).ready(function(){
                                     <div class="middle">Comfort</div>
                                     <div class="bottom">Introducing All Day by Landau, featuring <br />mechanical strecth fabric for long-lasting comfort.</div>
                                 </h2>
-                                <a href="http://www.landau.com/women/collection/lynx" class="cta">Shop Now <span class="arrow">&gt;</span></a>
+                                <a href="~/women/category/comfort" class="cta">Shop Now <span class="arrow">&gt;</span></a>
                             </div>
                             <img src="~/public/images/home/slider/desktop/all_day.png" />
                         </li>
 
-
-
-
-                        <li class="home-slider-7">
+                        @*<li class="home-slider-7">
                             <!--<div class="left-model"><img src="public/images/home/slider/desktop/model-left-slide7.png" /></div>-->
                             <!--<div class="right-model"><img src="public/images/home/slider/desktop/model-right-slide7.png" /></div>-->
                             <div class="content">
@@ -363,11 +350,9 @@ jQuery(document).ready(function(){
                                     </span>
                                     <span class="bottom">Collection</span>
                                 </h2>
-                                <a href="http://www.landau.com/collections" class="cta">Shop Now <span class="arrow">></span></a>
+                                <a href="~/collections" class="cta">Shop Now <span class="arrow">></span></a>
                             </div>
-                        </li>
-
-
+                        </li>*@
 
                         <li class="home-slider-8">
                             <!--<div class="left-model"><img src="public/images/home/slider/desktop/model-left-slide8.png" /></div>-->
@@ -380,11 +365,9 @@ jQuery(document).ready(function(){
                                     </span>
                                     <span class="bottom">Collection</span>
                                 </h2>
-                                <a href="http://www.landau.com/collections" class="cta">Shop Now <span class="arrow">></span></a>
+                                <a href="~/collections" class="cta">Shop Now <span class="arrow">></span></a>
                             </div>
                         </li>
-
-
 
                         <li class="home-slider-9">
                             <!--<div class="left-model"><img src="public/images/home/slider/desktop/model-left-slide9.png" /></div>-->
@@ -397,12 +380,10 @@ jQuery(document).ready(function(){
                                     </span>
                                     <span class="bottom">Collection</span>
                                 </h2>
-                                <a href="http://www.landau.com/collections" class="cta">Shop Now <span class="arrow">></span></a>
+                                <a href="~/collections" class="cta">Shop Now <span class="arrow">></span></a>
                             </div>
                         </li>
-
                         <!-- end Template SLiders Jay Murphy -->
-
                     </ul>
                 </div>
             </div>
@@ -696,8 +677,8 @@ jQuery(document).ready(function(){
                     <p>Find what you're looking for in the latest Landau catalog.</p>
                 </div>
                 <div class="buttons">
-                    <a href="public/Landau-Fall-16-Catalog.pdf" target="_blank" class="download">Download PDF</a>
-                    <a href="http://landau.azureedge.net/landau/index.html" target="_blank" class="view">View Online</a>
+                    <a href="@ConfigurationManager.AppSettings["mobile-catalog"].ToString()" target="_blank" class="download">Download PDF</a>
+                    <a href="@ConfigurationManager.AppSettings["desktop-catalog"].ToString()" target="_blank" class="view">View Online</a>
                 </div>
             </div>
         </div>
