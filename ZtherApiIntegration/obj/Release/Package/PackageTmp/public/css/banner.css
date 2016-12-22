@@ -1,7 +1,7 @@
 ﻿/*Begin HTML of Slide templates*/
 /*Begin CTA Styles*/
 .cta {
-    border: 3px solid
+    border: 3px solid;
     display: inline-block;
     font-size: 17px;
     padding: 11px 0;
@@ -57,6 +57,12 @@
 
 @font-face {font-family: "TradeGothic LT CondEighteen";
     src: url("../public/images/home/font/Trade Gothic LT Condensed No. 18.otf");
+    src: url("//db.onlinewebfonts.com/t/0ba944e6785ef3157d935b1224314527.eot");
+    src: url("//db.onlinewebfonts.com/t/0ba944e6785ef3157d935b1224314527.eot?#iefix") format("embedded-opentype"),
+    url("//db.onlinewebfonts.com/t/0ba944e6785ef3157d935b1224314527.woff2") format("woff2"),
+    url("//db.onlinewebfonts.com/t/0ba944e6785ef3157d935b1224314527.woff") format("woff"),
+    url("//db.onlinewebfonts.com/t/0ba944e6785ef3157d935b1224314527.ttf") format("truetype"),
+    url("//db.onlinewebfonts.com/t/0ba944e6785ef3157d935b1224314527.svg#TradeGothic LT CondEighteen") format("svg");
 }
 
 
@@ -157,7 +163,7 @@
         position: absolute;
         width: inherit;
         height: inherit;
-        top:initial;
+        top:inherit;
         bottom: 0;
         background-color: #ffffff;
         height: 47.5%;
@@ -264,7 +270,7 @@
     margin: 11px auto 0;
     font-size: 23px;
     letter-spacing: 4px;
-    font-family: "ProximaNovaW01-Regular";
+    font-family: "Proxima N W01 Reg";
     letter-spacing: 0;
     
 }
@@ -459,7 +465,7 @@
         position: absolute;
         width: inherit;
         height: inherit;
-        top:initial;
+        top:inherit;
         bottom: 0;
         background-color: #9f26b4;
         height: 47.5%;
@@ -590,7 +596,7 @@
     text-transform: none;
     font-size: 21.9px;
     line-height:130%;
-    font-family: "ProximaNovaW01-Regular";
+    font-family: "Proxima N W01 Reg";
     letter-spacing: 0px;
     margin-top: 1%;
     
@@ -769,6 +775,13 @@
         width: 500px;
         height: 350px;
     }
+     #homepage .home_slider .flexslider ul.slides li.home-slider-3 .content h2 {
+    color: #00539b;
+    font-size: 20px;
+    margin-top: 0;
+    padding-top: 45px;
+    overflow: hidden
+}
 }
 @media screen and (max-width:989px) {
     #homepage .home_slider .flexslider ul.slides li.home-slider-3 .content {
@@ -782,7 +795,7 @@
         position: absolute;
         width: inherit;
         height: inherit;
-        top:initial;
+        top:inherit;
         bottom: 0;
         background-color: #ffffff;
         height: 47.5%;
@@ -795,13 +808,18 @@
     color: #00539b;
     font-size: 20px;
     margin-top: 0;
-    padding-top: 45px;
+    padding-top: 22px;
     overflow: hidden
 }
 
 @media screen and (max-width:989px) {
-    #homepage .home_slider .flexslider ul.slides li.home-slider-3 .content h2 {
-    }
+     #homepage .home_slider .flexslider ul.slides li.home-slider-3 .content h2 {
+    color: #00539b;
+    font-size: 20px;
+    margin-top: 0;
+    padding-top: 34px;
+    overflow: hidden;
+}
 }
 
 @media screen and (max-width:767px) {
@@ -822,6 +840,7 @@
 }
 
 @media screen and (max-width:1270px) {
+   
     #homepage .home_slider .flexslider ul.slides li.home-slider-3 .content h2 .top span {
         letter-spacing: 2px;
         margin-left: 11px;
@@ -833,6 +852,7 @@
 }
 
 @media screen and (max-width:989px) {
+   
     #homepage .home_slider .flexslider ul.slides li.home-slider-3 .content h2 .top span {
         letter-spacing: 0px;
         margin-left: 7px;
@@ -885,7 +905,7 @@
     margin: 11px auto 0;
     font-size: 22px;
     letter-spacing: 4px;
-    font-family: "ProximaNovaW01-Regular";
+    font-family: "Proxima N W01 Reg";
     letter-spacing: 0px;
     line-height: 145%;
     
@@ -1029,7 +1049,7 @@
 
 @media screen and (max-width:767px) {
     #homepage .home_slider .container .flexslider .content ul.slides li.home-slider-4  {
-        background-image: url(../public/images/home/slider/mobile/slider4.jpg);
+        background-image: url(../public/images/home/slider/mobile/slider4_scale.jpg);
         background-position: top
     }
 }
@@ -1067,7 +1087,7 @@
         position: absolute;
         width: inherit;
         height: inherit;
-        top:initial;
+        top:inherit;
         bottom: 0;
         background-color: #ffffff;
         height: 47.5%;
@@ -1181,7 +1201,7 @@
 #homepage .home_slider .flexslider ul.slides li.home-slider-4 .content h2 .bottom {
     text-transform: none;
     font-size: 19.4px;
-    font-family: "ProximaNovaW01-Regular";
+    font-family: "Proxima N W01 Reg";
     margin-top: 1%;
     color: #5d6873;
     line-height: 140%;
@@ -1372,7 +1392,7 @@
             position: absolute;
     width: inherit;
     height: inherit;
-    top: initial;
+    top: inherit;
     bottom: 0;
     background-color: transparent;
     height: 47.5%;
@@ -1390,21 +1410,26 @@
 
 #homepage .home_slider .flexslider ul.slides li.home-slider-5 .content h2 {
         padding-top: 0;
-    margin-top: 3vw;
+    margin-top: 4.5vw;
     position: absolute;
-    font-family: "TradeGothic LT CondEighteen";
+    font-family: "TradeGothicW01-BoldCn20_675334";
     font-size: 45px;
     background-color: transparent;
     color: #0a375e;
     left: 7%;
     top: 7%;
 }
+#homepage .home_slider .flexslider ul.slides li.home-slider-5 .content h2 .bottom {
+       
+    font-family: "Proxima N W01 Reg";
+   
+}
+
 @media screen and (max-width:1270px){
 #homepage .home_slider .flexslider ul.slides li.home-slider-5 .content h2 {
         padding-top: 0;
-    margin-top: 1vw;
+    margin-top: 4vw;
     position: absolute;
-    font-family: "TradeGothic LT CondEighteen";
     font-size: 45px;
     background-color: transparent;
     color: #0a375e;
@@ -1437,8 +1462,8 @@
 
 
 #homepage .home_slider .flexslider ul.slides li.home-slider-5 .content h2 .top span {
-    font-size: 45px;
-    letter-spacing: 1px;
+    font-size: 56px;
+    letter-spacing: -2px;
 }
 #homepage .home_slider .flexslider ul.slides li.home-slider-5 .content h2 .top .mobile{
     display: none;
@@ -1451,7 +1476,8 @@
 
 @media screen and (max-width:989px) {
     #homepage .home_slider .flexslider ul.slides li.home-slider-5 .content h2 .top span {
-    
+            font-size: 51px;
+    letter-spacing: -2px;
     }
 }
 
@@ -1472,7 +1498,7 @@
 
 
 #homepage .home_slider .flexslider ul.slides li.home-slider-5 .content h2 .bottom {
-    font-size: 30px;
+    font-size: 23px;
     text-transform: none;
     margin-top:7px;
     
@@ -1488,8 +1514,11 @@
     #homepage .home_slider .flexslider ul.slides li.home-slider-5 .content h2 .bottom {
      
     }
+    #homepage .home_slider .flexslider ul.slides li.home-slider-5 .content h2 .cta {
+    left: 75px;
+    }
 }
-@media screen and (max-width:815px){
+@media screen and (max-width:836px){
     #homepage .home_slider .flexslider ul.slides li.home-slider-5 .content{
         width: 96%;
     }
@@ -1515,7 +1544,7 @@
 
 #homepage .home_slider .flexslider ul.slides li.home-slider-5 .content h2 .cta {
     position: absolute;
-    left: 85px;
+    left: 91px;
     /*left: 152px;*/
     margin-top:4%;
 
@@ -1622,6 +1651,7 @@
     position:absolute;
     top: 5%;
     left: 15px;
+    width: 145px;
     
 }
 @media screen and (max-width:1270px) {
@@ -1646,7 +1676,7 @@
         position: absolute;
         width: inherit;
         height: inherit;
-        top:initial;
+        top:inherit;
         bottom: 0;
         height: 47.5%;
         width: 100%;
@@ -1756,9 +1786,9 @@
 
 #homepage .home_slider .flexslider ul.slides li.home-slider-6 .content h2 .bottom {
     text-transform: none;
-    font-size: 25.4px;
+    font-size: 22.4px;
     line-height:120%;
-    font-family: "ProximaNovaW01-Regular";
+    font-family: "Proxima N W01 Reg";
     letter-spacing: 0;
     margin-top: 1%;
     color: #ffffff;
@@ -1778,7 +1808,7 @@
 
 @media screen and (max-width:989px) {
     #homepage .home_slider .flexslider ul.slides li.home-slider-6 .content h2 .bottom {
-        font-size: 15px;
+        font-size: 14px;
         width: 340px;
         line-height: 20px;
         left: 3px;
@@ -2053,7 +2083,7 @@
     /*font-size: 30px;*/
     font-size: 1.5vw;
     font-size: 30px;
-    font-family: "ProximaNovaW01-Regular";
+    font-family: "Proxima N W01 Reg";
     font-weight: bold;
     margin: 0;
 }
@@ -2371,7 +2401,7 @@
     letter-spacing: 14px;
     /*margin-left: 14px;*/
     font-size: 36px;
-    font-family: "ProximaNovaW01-Regular";
+    font-family: "Proxima N W01 Reg";
     font-weight: bold;
     margin: 0;
     color: #00134a;
@@ -2436,7 +2466,7 @@
     color: #00134a;
     font-family: 'NoteraW01-Regular';
     text-transform: capitalize;
-    margin-top: -30px;
+    margin-top: -10px;
 }
 
 @media screen and (max-width:1270px) {
@@ -2675,7 +2705,7 @@
     letter-spacing: 14px;
     /*margin-left: 14px;*/
     font-size: 37px;
-    font-family: "ProximaNovaW01-Regular";
+    font-family: "Proxima N W01 Reg";
     font-weight: bold;
     margin: 0;
     color: #00134a;

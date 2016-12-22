@@ -105,6 +105,7 @@ namespace ZtherApiIntegration.Common
         public const string ERROR = "404";
         public const string CATALOG_NEW_ARRIVALS = "new-arrivals";
         public const string CATALOG_TOPS_NEW = "tops-new";
+        public const string CATALOG_TOPS = "tops";
         public const string CATALOG_MODERN_FIT = "modern-fit";
         public const string CATALOG_NATURAL_FIT = "natural-fit";
         public const string CATALOG_CLASSIC_FIT = "classic-fit";

@@ -1,5 +1,7 @@
 ﻿@using ZtherApiIntegration.Models.Catalog
 @using ZtherApiIntegration.Common
+@using System.Configuration
+
 @model CatalogSelectionModel
 
 <header id="main_header">
@@ -49,10 +51,10 @@
                 <div class="nav">
                     <ul>
                         <li>
-                            <a href="http://landau.azureedge.net/landau/index.html" target="_blank" id="desktop-pdf-link">
+                            <a href="@ConfigurationManager.AppSettings["desktop-catalog"].ToString()" target="_blank" id="desktop-pdf-link">
                                 <span class="nav-text">Catalog</span>
                             </a>
-                            <a href="public/catalog.pdf" target="_blank" id="mobile-pdf-link">
+                            <a href="@ConfigurationManager.AppSettings["mobile-catalog"].ToString()" target="_blank" id="mobile-pdf-link">
                                 <span class="nav-text">Catalog</span>
                             </a>
                         </li>
@@ -238,7 +240,7 @@
                 <div class="hor-divider"></div>
             </li>
             <li>
-                <a href="public/catalog.pdf">
+                <a href="@ConfigurationManager.AppSettings["mobile-catalog"].ToString()">
                     <span class="nav-text">Catalog</span>
                 </a>
             </li>

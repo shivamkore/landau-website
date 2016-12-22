@@ -415,6 +415,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="App_Offline.htm" />
     <Content Include="favicon.ico" />
     <Content Include="Global.asax" />
     <Content Include="public\css\banner.css" />
@@ -1003,9 +1004,10 @@
     <None Include="Properties\PublishProfiles\landau - Web Deploy.pubxml" />
     <None Include="Properties\PublishProfiles\landau-staging - FTP.pubxml" />
     <None Include="Properties\PublishProfiles\landau-staging - Web Deploy.pubxml" />
-    <Content Include="public\catalog.pdf" />
     <Content Include="public\Landau-Fall-16-Catalog.pdf" />
     <Content Include="public\images\home\font\Trade Gothic LT Condensed No. 18.otf" />
+    <Content Include="public\catalog-staging.pdf" />
+    <Content Include="public\catalog.pdf" />
     <None Include="Views\RetailPartners.cshtml" />
     <Content Include="Views\Partials\WhereToBuy\_DealersLogoPartial.cshtml" />
     <Content Include="Views\Promotions.cshtml" />
@@ -1117,7 +1119,7 @@
           <AutoAssignPort>True</AutoAssignPort>
           <DevelopmentServerPort>54590</DevelopmentServerPort>
           <DevelopmentServerVPath>/</DevelopmentServerVPath>
-          <IISUrl>http://localhost:1212/</IISUrl>
+          <IISUrl>http://localhost:53096/</IISUrl>
           <NTLMAuthentication>False</NTLMAuthentication>
           <UseCustomServer>False</UseCustomServer>
           <CustomServerUrl>

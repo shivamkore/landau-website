@@ -1,4 +1,6 @@
 ﻿@using ZtherApiIntegration.Common
+@using System.Configuration
+
 <script>
 
 jQuery(document).ready(function(){
@@ -28,12 +30,12 @@ jQuery(document).ready(function(){
 
             jQuery('.home-slider-4').css('background-position', s + 'px' + ' 0');
         }
-      /*  if (w <= 1410) {
-            var z = 1160 - 1410 ;
-            var s = 1410 - W;
-            var y = z - s;
-            jQuery('.home-slider-5').css('background-position', y + 'px' + ' 0');
-        }*/
+        /*  if (w <= 1410) {
+              var z = 1160 - 1410 ;
+              var s = 1410 - W;
+              var y = z - s;
+              jQuery('.home-slider-5').css('background-position', y + 'px' + ' 0');
+          }*/
         if (w < 1405) {
             var s = w - 1405;
             jQuery('.home-slider-2').css('background-position', s + 'px' + ' 0');
@@ -43,13 +45,13 @@ jQuery(document).ready(function(){
             var s = w - 1350;
             jQuery('.home-slider-6').css('background-position', s + 'px' + ' 0');
         }
-        if ( w < 1325) {
+        if (w < 1325) {
 
             var y = 1325 - w + x;
             jQuery('.home-slider-1').css('background-position', y + 'px' + ' 0');
 
         }
-        if(w <= 1270) {
+        if (w <= 1270) {
             jQuery('.home-slider-1').css('background-position', '100%');
             jQuery('.home-slider-3').css('background-position', '100%');
             jQuery('.home-slider-4').css('background-position', '0 0');
@@ -104,8 +106,7 @@ jQuery(document).ready(function(){
             var s = w - 790;
             jQuery('.home-slider-6').css('background-position', s + 'px' + ' 0');
         }
-        if (w <= 808)
-        {
+        if (w <= 808) {
             var x = w - 990;
             var s = w - 808;
             var y = 808 - w + x;
@@ -118,7 +119,7 @@ jQuery(document).ready(function(){
             jQuery('.home-slider-2').css('background-position', '100%');
             jQuery('.home-slider-6').css('background-position', '100%');
         }
-    })
+    });
     var w = jQuery(window).width();
     var x = w - 1910;
 
@@ -135,6 +136,12 @@ jQuery(document).ready(function(){
         var y = 1485 - w + x;
         var s = w - 1485;
         jQuery('.home-slider-3').css('background-position', y + 'px' + ' 0');
+
+    }
+    if (w < 1445) {
+        var y = 1445 - w + x;
+        var s = w - 1445;
+
         jQuery('.home-slider-4').css('background-position', s + 'px' + ' 0');
     }
     /*  if (w <= 1410) {
@@ -179,40 +186,51 @@ jQuery(document).ready(function(){
         var s = w - 1032;
         var y = 1032 - w + x;
         jQuery('.home-slider-1').css('background-position', y + 'px' + ' 0');
+
+    }
+    if (w < 1008) {
+
+        var s = w - 1008;
+
+
         jQuery('.home-slider-6').css('background-position', s + 'px' + ' 0');
     }
     if (w <= 990) {
         jQuery('.home-slider-1').css('background-position', '100%');
         jQuery('.home-slider-3').css('background-position', '100%');
-        jQuery('.home-slider-4').css('background-position', '-100px 0px');
+        jQuery('.home-slider-4').css('background-position', '0 0');
         jQuery('.home-slider-2').css('background-position', '0 0');
         jQuery('.home-slider-6').css('background-position', '0 0');
     }
-    if (w <= 940) {
-        var s = w - 1040;
 
-        jQuery('.home-slider-4').css('background-position', s + 'px' + ' 0');
-    }
 
-    if (w <= 865) {
-        var s = w - 865;
+    if (w <= 900) {
+        var s = w - 900;
         jQuery('.home-slider-2').css('background-position', s + 'px' + ' 0');
     }
-    if (w <= 820) {
-        var s = w - 820;
-        jQuery('.home-slider-6').css('background-position', s + 'px' + ' 0');
+    if (w <= 844) {
+        jQuery('.home-slider-2').css('background-position', '0 0');
     }
-    if (w <= 809) {
-        var s = -231;
+    if (w <= 840) {
+        var s = w - 840;
 
         jQuery('.home-slider-4').css('background-position', s + 'px' + ' 0');
     }
+    if (w <= 790) {
+        var s = w - 790;
+        jQuery('.home-slider-6').css('background-position', s + 'px' + ' 0');
+    }
+    if (w <= 808) {
+        var x = w - 990;
+        var y = 808 - w + x;
+        jQuery('.home-slider-1').css('background-position', y + 'px' + ' 0');
+    }
+
     if (w <= 767) {
+        jQuery('.home-slider-1').css('background-position', '100%');
         jQuery('.home-slider-4').css('background-position', '100%');
         jQuery('.home-slider-2').css('background-position', '100%');
         jQuery('.home-slider-6').css('background-position', '100%');
-        jQuery('.home-slider-5 .desktop').css('display', 'none');
-        jQuery('.home-slider-5 .mobile').css('display', 'block');
     }
 
 });
@@ -222,7 +240,7 @@ jQuery(document).ready(function(){
     <div id="video_overlay"></div>
     <div id="video_popup">
         <!--  START NEW WISTIA CODE FOR VIDEO -->
-        <iframe src="http://fast.wistia.net/embed/iframe/ls9r0s2mbz" allowtransparency="true" autoplay="true" frameborder="0" scrolling="no" class="wistia_embed" name="wistia_embed" allowfullscreen mozallowfullscreen webkitallowfullscreen oallowfullscreen msallowfullscreen width="100%" height="100%"></iframe>
+        <iframe src="http://fast.wistia.net/embed/iframe/vafkt14z3r" allowtransparency="true" autoplay="true" frameborder="0" scrolling="no" class="wistia_embed" name="wistia_embed" allowfullscreen mozallowfullscreen webkitallowfullscreen oallowfullscreen msallowfullscreen width="100%" height="100%"></iframe>
         <script src="http://fast.wistia.net/assets/external/E-v1.js" async></script>
         <!--  START NEW WISTIA CODE FOR VIDEO -->
 
@@ -234,21 +252,19 @@ jQuery(document).ready(function(){
                     <ul class="slides">
 
                         <!-- begin Template SLiders Jay Murphy -->
-                        <li class="home-slider-1">
+                        @*<li class="home-slider-1">
                             <div class="content">
                                 <h2>
                                     <div class="top">
                                         <span>Make your</span>
                                     </div>
                                     <div class="middle">Move</div>
-                                    <div class="bottom">This fierce jacket allows for<br />everywhichway motion.</div>
+                                    <div class="bottom">A jacket that is<br />fierce and flexible.</div>
                                 </h2>
-                                <a href="http://www.landau.com/women/collection/lynx" class="cta">Shop Now <span class="arrow">></span></a>
+                                <a href="~/women/collection/lynx" class="cta">Shop Now <span class="arrow">></span></a>
                             </div>
                             <img src="~/public/images/home/slider/lynx-logo.png" />
-                        </li>
-
-
+                        </li>*@
 
                         <li class="home-slider-2">
                             <div class="content">
@@ -257,67 +273,57 @@ jQuery(document).ready(function(){
                                         <span>Sporty and</span>
                                     </div>
                                     <div class="middle">Stylish</div>
-                                    <div class="bottom">Fresh-look jacket and a cool top<br />in bold new colors.</div>
+                                    <div class="bottom">Lynx styles now come in fresh new colors<br />just in time for summer.</div>
                                 </h2>
-                                <a href="http://www.landau.com/women/collection/lynx" class="cta">Shop Now <span class="arrow">&gt;</span></a>
+                                <a href="~/women/collection/lynx" class="cta">Shop Now <span class="arrow">&gt;</span></a>
                             </div>
                             <img src="~/public/images/home/slider/lynx-logo.png" />
                         </li>
 
-
-
-                        <li class="home-slider-3">
+                        @*<li class="home-slider-3">
                             <div class="content">
                                 <h2>
                                     <div class="top">
                                         <span>We keep you</span>
                                     </div>
                                     <div class="middle">on the go</div>
-                                    <div class="bottom">Available in new moisture-wicking, 4-way stretch<br /> fabric that’s flexible, comfortable and durable.</div>
+                                    <div class="bottom">Men's stretch has a whole new name<br />with moisture wicking styles and 4-way stretch<br />to offer durable comfort and movement.</div>
                                 </h2>
-                                <a href="http://www.landau.com/women/collection/lynx" class="cta">Shop Now <span class="arrow">&gt;</span></a>
+                                <a href="~/men/category/mens-stretch" class="cta">Shop Now <span class="arrow">&gt;</span></a>
                             </div>
-                        </li>
+                        </li>*@
 
-
-
-
-                        <li class="home-slider-4">
+                        @*<li class="home-slider-4">
                             <div class="content">
                                 <h2>
                                     <div class="top">
                                         <span>Fashion that's</span>
                                     </div>
                                     <div class="middle">Flexible</div>
-                                    <div class="bottom">Introducung AllDay by Landau, featuring mechanical<br /> stretch fabric for long-lasting comfort.</div>
+                                    <div class="bottom">Our new All Day by Landau provides<br />the natural fit, flexibility and feel you want.</div>
                                 </h2>
-                                <a href="http://www.landau.com/women/collection/lynx" class="cta">Shop Now <span class="arrow">&gt;</span></a>
+                                <a href="~/women/category/flexible" class="cta">Shop Now <span class="arrow">&gt;</span></a>
                             </div>
                             <img src="~/public/images/home/slider/desktop/all_day.png" />
-                        </li>
-
-
-
-
+                        </li>*@
 
                         <li class="home-slider-5">
                             <div class="content" style="z-index:1;">
                                 <h2>
                                     <div class="top">
                                         <div class="desktop">
-                                            <span>The <strong>Fun</strong> You Want,<br />The <strong>Comfort</strong><br />You Deserve</span>
+                                            <span>Fun And comfort<br />All in one</span>
                                         </div>
                                         <div class="mobile">
-                                            <span>The <strong>Fun</strong> You Want,<br />The <strong>Comfort</strong> You Deserve</span>
+                                            <span>Fun And comfort<br />All in one</span>
                                         </div>
                                     </div>
-                                    <div class="bottom">Form meets fashion with these<br />stylish compression socks.</div>
-                                    <a href="http://www.landau.com/women/collection/lynx" class="cta">Shop Now <span class="arrow">&gt;</span></a>
+                                    <div class="bottom">Fun meets fashion in Landau's<br /> new compression socks.</div>
+                                    <a href="~/women/category/footwear" class="cta">Shop Now <span class="arrow">&gt;</span></a>
                                 </h2>
 
                             </div>
                         </li>
-
 
                         <li class="home-slider-6">
                             <div class="content">
@@ -326,17 +332,14 @@ jQuery(document).ready(function(){
                                         <span>All Day</span>
                                     </div>
                                     <div class="middle">Comfort</div>
-                                    <div class="bottom">AllDay Landau provides the<br />natural fit and feel you want.</div>
+                                    <div class="bottom">Introducing All Day by Landau, featuring <br />mechanical strecth fabric for long-lasting comfort.</div>
                                 </h2>
-                                <a href="http://www.landau.com/women/collection/lynx" class="cta">Shop Now <span class="arrow">&gt;</span></a>
+                                <a href="~/women/category/comfort" class="cta">Shop Now <span class="arrow">&gt;</span></a>
                             </div>
                             <img src="~/public/images/home/slider/desktop/all_day.png" />
                         </li>
 
-
-
-
-                        <li class="home-slider-7">
+                        @*<li class="home-slider-7">
                             <!--<div class="left-model"><img src="public/images/home/slider/desktop/model-left-slide7.png" /></div>-->
                             <!--<div class="right-model"><img src="public/images/home/slider/desktop/model-right-slide7.png" /></div>-->
                             <div class="content">
@@ -347,11 +350,9 @@ jQuery(document).ready(function(){
                                     </span>
                                     <span class="bottom">Collection</span>
                                 </h2>
-                                <a href="http://www.landau.com/collections" class="cta">Shop Now <span class="arrow">></span></a>
+                                <a href="~/collections" class="cta">Shop Now <span class="arrow">></span></a>
                             </div>
-                        </li>
-
-
+                        </li>*@
 
                         <li class="home-slider-8">
                             <!--<div class="left-model"><img src="public/images/home/slider/desktop/model-left-slide8.png" /></div>-->
@@ -364,11 +365,9 @@ jQuery(document).ready(function(){
                                     </span>
                                     <span class="bottom">Collection</span>
                                 </h2>
-                                <a href="http://www.landau.com/collections" class="cta">Shop Now <span class="arrow">></span></a>
+                                <a href="~/collections" class="cta">Shop Now <span class="arrow">></span></a>
                             </div>
                         </li>
-
-
 
                         <li class="home-slider-9">
                             <!--<div class="left-model"><img src="public/images/home/slider/desktop/model-left-slide9.png" /></div>-->
@@ -381,12 +380,10 @@ jQuery(document).ready(function(){
                                     </span>
                                     <span class="bottom">Collection</span>
                                 </h2>
-                                <a href="http://www.landau.com/collections" class="cta">Shop Now <span class="arrow">></span></a>
+                                <a href="~/collections" class="cta">Shop Now <span class="arrow">></span></a>
                             </div>
                         </li>
-
                         <!-- end Template SLiders Jay Murphy -->
-
                     </ul>
                 </div>
             </div>
@@ -680,8 +677,8 @@ jQuery(document).ready(function(){
                     <p>Find what you're looking for in the latest Landau catalog.</p>
                 </div>
                 <div class="buttons">
-                    <a href="public/Landau-Fall-16-Catalog.pdf" target="_blank" class="download">Download PDF</a>
-                    <a href="http://landau.azureedge.net/landau/index.html" target="_blank" class="view">View Online</a>
+                    <a href="@ConfigurationManager.AppSettings["mobile-catalog"].ToString()" target="_blank" class="download">Download PDF</a>
+                    <a href="@ConfigurationManager.AppSettings["desktop-catalog"].ToString()" target="_blank" class="view">View Online</a>
                 </div>
             </div>
         </div>
