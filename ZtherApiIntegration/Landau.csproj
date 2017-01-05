@@ -415,7 +415,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="App_Offline.htm" />
+    <Content Include="_App_Offline.htm" />
     <Content Include="favicon.ico" />
     <Content Include="Global.asax" />
     <Content Include="public\css\banner.css" />
@@ -1008,6 +1008,7 @@
     <Content Include="public\images\home\font\Trade Gothic LT Condensed No. 18.otf" />
     <Content Include="public\catalog-staging.pdf" />
     <Content Include="public\catalog.pdf" />
+    <Content Include="public\fonts\4a66a0d94c487ba3931a9aa17e90db5c.woff2" />
     <None Include="Views\RetailPartners.cshtml" />
     <Content Include="Views\Partials\WhereToBuy\_DealersLogoPartial.cshtml" />
     <Content Include="Views\Promotions.cshtml" />
