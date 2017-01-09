@@ -259,7 +259,14 @@
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\ProductDetailSeoRoute.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="Common\GoogleMap\AcceptFormat.cs" />
+    <Compile Include="Common\GoogleMap\Entities\Address.cs" />
+    <Compile Include="Common\GoogleMap\Entities\GeocodingEntity.cs" />
+    <Compile Include="Common\GoogleMap\Entities\Result.cs" />
+    <Compile Include="Common\GoogleMap\GeoLocator.cs" />
     <Compile Include="Common\Constants.cs" />
+    <Compile Include="Common\GoogleMap\UriHelper.cs" />
+    <Compile Include="Common\GoogleMap\RestClient.cs" />
     <Compile Include="Common\UrlBuilder.cs" />
     <Compile Include="Common\Utility.cs" />
     <Compile Include="Controllers\AboutController.cs" />

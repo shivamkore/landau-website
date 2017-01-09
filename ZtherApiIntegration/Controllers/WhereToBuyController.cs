@@ -2,10 +2,12 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text.RegularExpressions;
+using System.Threading.Tasks;
 using System.Web;
 using System.Web.Mvc;
 using ZtherApiIntegration.API.Managers.WhereToBuy;
 using ZtherApiIntegration.Common;
+using ZtherApiIntegration.Common.GoogleMap;
 using ZtherApiIntegration.Models.WhereToBuy;
 
 namespace ZtherApiIntegration.Controllers
@@ -75,15 +77,20 @@ namespace ZtherApiIntegration.Controllers
                     model.DiamondList = RetailManager.GetByZipCode(this.Session, filter, true, pageNum, DIAMOND_PAGE_SIZE);
                     model.SearchByDesc = "Zip Code";
                 }
-                else if(isFilterByCityAndState(filter))
+                else
                 {
-                    var splitString = filter.Split(',');
-                    string city = splitString[0];
-                    string state = splitString[1];
 
-                    model.RetailList  = RetailManager.GetByCityAndState(this.Session,city ,state , false, pageNum, PAGE_SIZE);
+                    var locator = new GeoLocator(filter);
+
+                    Task.Run(() => locator.Locate()).Wait();
+
+                    string city = locator.City;
+                    string state = locator.State;
+
+                    model.RetailList = RetailManager.GetByCityAndState(this.Session, city, state, false, pageNum, PAGE_SIZE);
                     model.DiamondList = RetailManager.GetByCityAndState(this.Session, city, state, true, pageNum, DIAMOND_PAGE_SIZE);
                 }
+
                 model.SearchByValue = filter;
 
                 return RenderMultipleViews(new List<RenderViewInfo>() {
