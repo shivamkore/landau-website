@@ -10,3 +10,9 @@
 /ZtherApiIntegration/Properties/PublishProfiles/landau - Web Deploy.pubxml
 /ZtherApiIntegration/Properties/PublishProfiles/landau - FTP.pubxml.user
 /ZtherApiIntegration/Properties/PublishProfiles/landau - FTP.pubxml
+*.config
+ZtherApiIntegration/bin/ZtherApiIntegration.dll
+*.config
+ZtherApiIntegration/bin/ZtherApiIntegration.pdb
+ZtherApiIntegration/obj/Debug/ZtherApiIntegration.pdb
+*.dll
