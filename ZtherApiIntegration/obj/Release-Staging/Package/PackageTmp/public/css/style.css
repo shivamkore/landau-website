@@ -2451,7 +2451,6 @@ textarea::-ms-clear {
     margin-top: 8px;
     letter-spacing: .3px
 }
-
 @media screen and (max-width:1270px) {
     #homepage .categories .block h3 .detail {
         line-height: 18px
@@ -2459,8 +2458,8 @@ textarea::-ms-clear {
 }
 
 #homepage .categories .block .cta {
-    border-color: #fff;
-    color: #fff
+    border-color: #000;
+    color: #000
 }
 
 @media screen and (max-width:767px) {
@@ -3203,24 +3202,35 @@ textarea::-ms-clear {
 
 #homepage .categories .block5_6 .block .content h3 {
     line-height: 35px;
-    margin-bottom: 19px
+    margin-bottom: 12px
+}
+
+#homepage .categories .block5 .block .content h3 .bot {
+    
 }
 
 #homepage .categories .block5_6 .block .content h3 .bot {
     font-size: 36px;
     width: 50%
 }
+ #homepage .categories .block5 .block .content h3 .detail {
+        margin-left: 17%;
+    }
 
 @media screen and (max-width:989px) {
     #homepage .categories .block5_6 .block .content h3 .bot {
-        font-size: 28px;
+        font-size: 26px;
         line-height: 30px
+    }
+	#homepage .categories .block5_6 .block5 .content h3 .bot {
+        font-size: 26px;
+        line-height: 25px
     }
 }
 
 @media screen and (max-width:767px) {
     #homepage .categories .block5_6 .block .content h3 .bot {
-        font-size: 7vw;
+        font-size: 6.3vw;
         line-height: 100%
     }
 }
@@ -3228,7 +3238,7 @@ textarea::-ms-clear {
 @media screen and (max-width:767px) {
     #homepage .categories .block5_6 .block .content h3 .detail {
         margin-top: 1.2%;
-        font-size: 4vw
+        font-size: 3.5vw
     }
 }
 
@@ -3238,24 +3248,24 @@ textarea::-ms-clear {
 
 @media screen and (max-width:989px) {
     #homepage .categories .block5_6 .block5 {
-        background-image: url(../images/home/category/mdf_bg_mobile_lg.jpg);
+        background-image: url(../images/home/category/adc_bg_mobile_lg.jpg);
         width: 338px
     }
 }
 
 @media screen and (max-width:767px) {
     #homepage .categories .block5_6 .block5 {
-        background-image: url(../images/home/category/mdf_bg_mobile.jpg)
+        background-image: url(../images/home/category/adc_bg_mobile.jpg)
     }
 }
 
 #homepage .categories .block5_6 .block5 .overlay_img {
-    background-image: url(../images/home/category/mdf_bg.jpg)
+    background-image: url(../images/home/category/adc_bg.jpg)
 }
 
 @media screen and (max-width:1270px) {
     #homepage .categories .block5_6 .block5 .overlay_img {
-        background-image: url(../images/home/category/mdf_bg_tablet.jpg)
+        background-image: url(../images/home/category/adc_bg_tablet.jpg)
     }
 }
 
@@ -3267,21 +3277,24 @@ textarea::-ms-clear {
 
 #homepage .categories .block5_6 .block5 .content {
     padding-left: 8%;
-    padding-top: 13%;
-    color: #fff
+    padding-top: 15%;
+	margin-left:42%;
+    color: #000;
+	float:right;
 }
 
 @media screen and (max-width:989px) {
     #homepage .categories .block5_6 .block5 .content {
         padding-left: 7%;
+		padding-right: 1%;
         padding-top: 10%
     }
 }
 
 #homepage .categories .block5_6 .block5 .cta.cta-hover {
-    background-color: #fff!important;
-    border-color: #fff!important;
-    color: #d3caca!important
+    background-color: #d3caca!important;
+    border-color: #d3caca!important;
+    color: #fff!important
 }
 
 #homepage .categories .block5_6 .block6 {
@@ -3917,7 +3930,7 @@ textarea::-ms-clear {
     #homepage .categories .container .block3_4 .block4 .content h3 .bot {
         font-size: 31px
     }
-    #homepage .categories .container .block5_6 .block {
+#homepage .categories .container .block5_6 .block {
         margin-top: 31px;
         height: initial;
         width: initial
@@ -3930,8 +3943,8 @@ textarea::-ms-clear {
         margin-left: 33px
     }
     #homepage .categories .container .block5_6 .block5 .content {
-        padding-left: 7.5%;
-        padding-top: 11%
+        padding-left: 46.5%;
+        padding-top: 13%
     }
     #homepage .categories .container .block5_6 .block5 .content h3 {
         margin-bottom: 11px
@@ -4669,7 +4682,7 @@ textarea::-ms-clear {
     #homepage .categories .container .block3_4 .block4 .content h3 .detail br {
         display: block
     }
-    #homepage .categories .container .block5_6 {
+       #homepage .categories .container .block5_6 {
         margin-top: 18px;
         margin-left: 7%;
         margin-right: 7%
@@ -4678,12 +4691,13 @@ textarea::-ms-clear {
         padding-top: 57.6%
     }
     #homepage .categories .container .block5_6 .block5 {
-        background-image: url(../images/home/category/mdf_bg_mobile.jpg);
+        background-image: url(../images/home/category/adc_bg_mobile.jpg);
         margin-top: 18px
     }
     #homepage .categories .container .block5_6 .block5 .content {
-        padding-left: 7%;
-        padding-top: 9.5%
+        padding-left: 40%;
+        padding-top: 12.5%;
+		padding-right: 0;
     }
     #homepage .categories .container .block5_6 .block5 .content h3 {
         margin-bottom: 3%
@@ -20424,4 +20438,6 @@ textarea::-ms-clear {
         left: -2px
     }
 }
+
+
 /********* COLLECTION ****************/
