@@ -16,3 +16,4 @@ ZtherApiIntegration/bin/ZtherApiIntegration.dll
 ZtherApiIntegration/bin/ZtherApiIntegration.pdb
 ZtherApiIntegration/obj/Debug/ZtherApiIntegration.pdb
 *.dll
+*.config
