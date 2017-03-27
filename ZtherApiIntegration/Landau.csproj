@@ -13,7 +13,7 @@
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>ZtherApiIntegration</RootNamespace>
     <AssemblyName>ZtherApiIntegration</AssemblyName>
-    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <MvcBuildViews>false</MvcBuildViews>
     <UseIISExpress>true</UseIISExpress>
     <IISExpressSSLPort />
@@ -1007,9 +1007,7 @@
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
     <None Include="bundleconfig.json" />
-    <None Include="Properties\PublishProfiles\landau - FTP.pubxml" />
     <None Include="Properties\PublishProfiles\landau - Web Deploy.pubxml" />
-    <None Include="Properties\PublishProfiles\landau-staging - FTP.pubxml" />
     <None Include="Properties\PublishProfiles\landau-staging - Web Deploy.pubxml" />
     <Content Include="public\Landau-Fall-16-Catalog.pdf" />
     <Content Include="public\images\home\font\Trade Gothic LT Condensed No. 18.otf" />

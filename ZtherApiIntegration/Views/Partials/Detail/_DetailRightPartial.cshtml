@@ -5,7 +5,7 @@
 <div class="right">
 
     @if (!Model.IsCanonicalUrl)
-    { 
+    {
         <div class="top_buttons">
             <a class="page_buttons prev" href="@Model.PreviousProductUrl">
                 <div class="arrow">&#xe800;</div>
@@ -15,32 +15,43 @@
             </a>
         </div>
     }
-    @{
-        var stars = (int)Math.Truncate((Decimal) Model.ProductReviews.Average);
-    }
-    @Html.Partial("~/Views/Partials/Detail/_RatingStarsPartial.cshtml",stars)
 
     <h1 class="title" itemprop="name">@Model.ProductDetail.Name</h1>
     <div class="sku">@Model.ProductDetail.Code</div>
-    <a href="@UrlBuilder.BuildProductReviewUrl(Model.Breadcrumb, Model.ProductDetail.Code, Model.ProductDetail.Name)" class="write_review">Write a Review</a>    
+
+    <div class="star-rating-container">
+        @{
+            var stars = (int)Math.Truncate((Decimal)Model.ProductReviews.Average);
+        }
+        @Html.Partial("~/Views/Partials/Detail/_RatingStarsPartial.cshtml", stars)
+        <div class="review-count">
+            @Model.ProductReviews.Pagination.TotalCount.ToString() Reviews
+        </div>
+    </div>
+
+    <a href="@UrlBuilder.BuildProductReviewUrl(Model.Breadcrumb, Model.ProductDetail.Code, Model.ProductDetail.Name)" class="write_review">Write a Review</a>
     <div class="description_title">Description</div>
-    
+
     <div class="description">
-       @Html.Raw(Model.ProductDetail.Description)
+        @Html.Raw(Model.ProductDetail.Description)
     </div>
 
     <div class="buy_favorites_container">
-        <a href="@UrlBuilder.BuildFullUrl(UrlEnum.WHERE_TO_BUY)" class="where_to_buy">Where To Buy</a>
-        <div class="favorites_container">
-            <img class="heart" srcset="public/images/detail/icons/heart.svg" alt="" />
-            <div class="text">Add to My Favorites</div>
-        </div>
+        <a class="buy_now_button where_to_buy" href="#" data-toggle="modal" data-target="#myModal">
+            <div>Buy Online</div>
+        </a>
+        <a href="@UrlBuilder.BuildFullUrl(UrlEnum.WHERE_TO_BUY)" class="where_to_buy">Buy In Store</a>
     </div>
-   
+
+    <div class="favorites_container">
+        <img class="heart" srcset="public/images/detail/icons/heart.svg" alt="" />
+        <div class="text">Add to My Favorites</div>
+    </div>
+
     <div class="social_container">
         @Html.Partial("~/Views/Partials/Detail/_SocialSharePartial.cshtml", Model.ProductImages)
     </div>
-    
+
 
     <!-- Category Options Partial -->
     @Html.Partial("~/Views/Partials/Detail/_CategoryOptionsPartial.cshtml", Model)

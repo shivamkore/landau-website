@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <sitemanifest>
-  <IisApp path="C:\Projects\Github\Landau\landau-web\ZtherApiIntegration\obj\Release-Staging\Package\PackageTmp" />
+  <IisApp path="C:\Projects\Github\Landau\landau-web\ZtherApiIntegration\obj\Release-Staging\Package\PackageTmp" managedRuntimeVersion="v4.0" />
   <setAcl path="C:\Projects\Github\Landau\landau-web\ZtherApiIntegration\obj\Release-Staging\Package\PackageTmp" setAclResourceType="Directory" />
   <setAcl path="C:\Projects\Github\Landau\landau-web\ZtherApiIntegration\obj\Release-Staging\Package\PackageTmp" setAclUser="anonymousAuthenticationUser" setAclResourceType="Directory" />
 </sitemanifest>
