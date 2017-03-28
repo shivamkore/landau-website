@@ -38,6 +38,38 @@
 
 </div>
 
+<!-- Modal Dialog Box Start -->
+@{
+    var url = System.Configuration.ConfigurationManager.AppSettings["Widget-Endpoint"];
+
+    if (Model.SelectedColor.SwatchType != null && Model.SelectedColor.SwatchType.Equals("Print", StringComparison.InvariantCultureIgnoreCase))
+    {
+        url = string.Concat(url, Model.ProductDetail.Code, Model.SelectedColor.ColorCode);
+    }
+    else
+    {
+        url = string.Concat(url, Model.ProductDetail.Code);
+    }
+}
+
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title" id="myModalLabel">BUY NOW</h4>
+            </div>
+            <div class="modal-body">
+                <div id="widget-container">
+                    <iframe src="@url" frameborder="0" scrolling="auto" allowtransparency="true"></iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Modal Dialog Box End -->
+
+
 <script src="public/js/logic/detail.js"></script>
 <script type="text/javascript">
     setValues('@Model.ProductDetail.Code', '@Model.ProductDetail.DefaultColorCode', '@(Model.ColorsAndSizes.ProductCategorySizes.Count > 0 ? Model.ColorsAndSizes.ProductCategorySizes[0] : "")');
