@@ -1,14 +1,20 @@
 [
   {
-    "outputFileName": "public/css/custom.css",
+    "outputFileName": "public/css/style.min.css",
     "inputFiles": [
-      "public/css/custom.css"
+      "public/css/style.css"
     ]
   },
   {
-    "outputFileName": "public/css/style.css",
+    "outputFileName": "public/css/banner.min.css",
     "inputFiles": [
-      "public/css/style.css"
+      "public/css/banner.css"
+    ]
+  },
+  {
+    "outputFileName": "public/css/custom.min.css",
+    "inputFiles": [
+      "public/css/custom.css"
     ]
   }
 ]

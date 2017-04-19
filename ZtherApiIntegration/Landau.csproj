@@ -32,6 +32,8 @@
     <SccProvider>
     </SccProvider>
     <TargetFrameworkProfile />
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -422,6 +424,31 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="public\css\banner.min.css">
+      <DependentUpon>banner.css</DependentUpon>
+    </Content>
+    <Content Include="public\css\custom.min.css">
+      <DependentUpon>custom.css</DependentUpon>
+    </Content>
+    <Content Include="public\css\style.min.css">
+      <DependentUpon>style.css</DependentUpon>
+    </Content>
+    <Content Include="public\images\home\category\acd_bg_mobile_lg.jpg" />
+    <Content Include="public\images\home\category\adc_bg.jpg" />
+    <Content Include="public\images\home\category\adc_bg_mobile.jpg" />
+    <Content Include="public\images\home\category\adc_bg_mobile_lg.jpg" />
+    <Content Include="public\images\home\category\adc_bg_tablet.jpg" />
+    <Content Include="public\images\videos\16-LAND-0145_SP17_FOB_Stripes_DVD.mpg" />
+    <Content Include="public\images\videos\FOB Snippet play screens.jpg" />
+    <Content Include="public\images\videos\FOB-Video-Playscreen_Desktop.jpg" />
+    <Content Include="public\images\videos\FOB-Video-Playscreen_Desktop_medium.jpg" />
+    <Content Include="public\images\videos\FOB-Video-Playscreen_Desktop_small.jpg" />
+    <Content Include="public\images\videos\FOB-Video-Playscreen_Mobile.jpg" />
+    <Content Include="public\images\videos\fob_stripes_v2_poster.jpg" />
+    <Content Include="public\images\videos\new_video_large.jpg" />
+    <Content Include="public\images\videos\new_video_medium.jpg" />
+    <Content Include="public\images\videos\new_video_small.jpg" />
+    <Content Include="public\images\videos\new_video_xsmall.jpg" />
     <Content Include="_App_Offline.htm" />
     <Content Include="favicon.ico" />
     <Content Include="Global.asax" />
@@ -429,15 +456,9 @@
     <Content Include="public\css\banner_box_scale.css" />
     <Content Include="public\css\bootstrap.min.css" />
     <Content Include="public\css\custom.css" />
-    <Content Include="public\css\custom.min.css">
-      <DependentUpon>custom.css</DependentUpon>
-    </Content>
     <Content Include="public\css\perfect-scrollbar.min.css" />
     <Content Include="public\css\fonts.css" />
     <Content Include="public\css\style.css" />
-    <Content Include="public\css\style.min.css">
-      <DependentUpon>style.css</DependentUpon>
-    </Content>
     <Content Include="public\fonts\fontello.eot" />
     <Content Include="public\fonts\fontello.svg" />
     <Content Include="public\fonts\fontello.ttf" />
@@ -1014,6 +1035,10 @@
     <Content Include="public\catalog-staging.pdf" />
     <Content Include="public\catalog.pdf" />
     <Content Include="public\fonts\4a66a0d94c487ba3931a9aa17e90db5c.woff2" />
+    <Content Include="public\images\videos\16-LAND-0145_SP17_FOB_Stripes_1080p.mp4" />
+    <Content Include="public\images\videos\16-LAND-0145_SP17_FOB_Stripes_720p.mp4" />
+    <Content Include="public\images\videos\16-LAND-0145_SP17_FOB_Stripes_DVD.xmp" />
+    <Content Include="public\images\videos\fob_stripes_v2.mp4" />
     <None Include="Views\RetailPartners.cshtml" />
     <Content Include="Views\Partials\WhereToBuy\_DealersLogoPartial.cshtml" />
     <Content Include="Views\Promotions.cshtml" />
