@@ -2927,7 +2927,7 @@ textarea::-ms-clear {
 }
 
 #homepage .home_slider .flexslider ul.slides li.home-slider-5 .content h2 span {
-    display: block
+    /*display: block*/
 }
 
 #homepage .home_slider .flexslider ul.slides li.home-slider-5 .content h2 .top {
@@ -3082,8 +3082,8 @@ textarea::-ms-clear {
 }
 
 #homepage .home_slider .flexslider ul.slides li.home-slider-5 .content .cta:hover {
-    background-color: #fff;
-    border-color: #fff
+    /*background-color: #fff;
+    border-color: #fff*/
 }
 
 @media screen and (max-width:767px) {
@@ -3649,8 +3649,8 @@ textarea::-ms-clear {
 }
 
 #homepage .categories .block .cta {
-    border-color: #fff;
-    color: #fff
+    border-color: #000;
+    color: #000
 }
 
 @media screen and (max-width:767px) {
@@ -4347,23 +4347,26 @@ textarea::-ms-clear {
     }
 }
 
+
 #homepage .categories .block5_6 .block5 .content {
     padding-left: 8%;
-    padding-top: 13%;
-    color: #fff
+    padding-top: 11%;
+    color: #000;
+	float:left;
 }
 
 @media screen and (max-width:989px) {
     #homepage .categories .block5_6 .block5 .content {
-        padding-left: 7%;
+        padding-left: 6%;
+		padding-right: 1%;
         padding-top: 10%
     }
 }
 
 #homepage .categories .block5_6 .block5 .cta.cta-hover {
-    background-color: #fff!important;
-    border-color: #fff!important;
-    color: #d3caca!important
+    background-color: #d3caca!important;
+    border-color: #d3caca!important;
+    color: #fff!important
 }
 
 #homepage .categories .block5_6 .block6 {
@@ -4782,7 +4785,7 @@ textarea::-ms-clear {
 }
 
 #homepage .location_catalog .catalog {
-    background-image: url(../images/home/location_catalog/landau_cover.jpg);
+    background-image: url(../images/home/location_catalog/landau_catalog.jpg);
     background-color: #f6f6f6;
     background-repeat: no-repeat;
     background-position: right -90px bottom -40px;

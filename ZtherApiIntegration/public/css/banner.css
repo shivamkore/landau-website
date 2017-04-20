@@ -1375,7 +1375,7 @@
 }
 
 #homepage .home_slider .flexslider ul.slides li.home-slider-5 .content h2 .cta {
-    position: absolute;
+    /*position: absolute;*/
     left: 91px;
     /*left: 152px;*/
     margin-top:4%;
