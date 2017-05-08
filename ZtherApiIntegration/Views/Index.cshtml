@@ -2,7 +2,7 @@
 @using System.Configuration
 
 <script>
-
+    /*
 jQuery(document).ready(function(){
 
     jQuery(window).resize(function () {
@@ -36,6 +36,7 @@ jQuery(document).ready(function(){
               var y = z - s;
               jQuery('.home-slider-5').css('background-position', y + 'px' + ' 0');
           }*/
+    /*
         if (w < 1405) {
             var s = w - 1405;
             jQuery('.home-slider-2').css('background-position', s + 'px' + ' 0');
@@ -150,6 +151,7 @@ jQuery(document).ready(function(){
           var y = z - s;
           jQuery('.home-slider-5').css('background-position', y + 'px' + ' 0');
       }*/
+    /*
     if (w < 1405) {
         var s = w - 1405;
         jQuery('.home-slider-2').css('background-position', s + 'px' + ' 0');
@@ -233,7 +235,7 @@ jQuery(document).ready(function(){
         jQuery('.home-slider-6').css('background-position', '100%');
     }
 
-});
+});*/
 </script>
 
 <div id="homepage">
@@ -252,22 +254,47 @@ jQuery(document).ready(function(){
                     <ul class="slides">
 
                         <!-- begin Template SLiders Jay Murphy -->
-                        @*<li class="home-slider-1">
-                            <div class="content">
-                                <h2>
-                                    <div class="top">
-                                        <span>Make your</span>
-                                    </div>
-                                    <div class="middle">Move</div>
-                                    <div class="bottom">A jacket that is<br />fierce and flexible.</div>
-                                </h2>
-                                <a href="~/women/collection/lynx" class="cta">Shop Now <span class="arrow">></span></a>
-                            </div>
-                            <img src="~/public/images/home/slider/lynx-logo.png" />
-                        </li>*@
+                        <li class="home-slider-0">
+                           
+    <!--<div class="content">
+        <h2>
+            <div class="top">
+                <span>Make your</span>
+            </div>
+            <div class="middle">Move</div>
+            <div class="bottom">A jacket that is<br />fierce and flexible.</div>
+        </h2>
+        <a href="~/women/collection/lynx" class="cta">Shop Now <span class="arrow">></span></a>
+    </div>
+    <img src="~/public/images/home/slider/lynx-logo.png" />-->
+                            <picture>
+                                <!--[if IE 9]><video style="display: none;"><![endif]-->
+                                <source srcset="public/images/home/slider/playscreen_mobile.jpg" media="(max-width: 767px)" style="width:100%">
+                                <source srcset="public/images/home/slider/playscreen_mobile.jpg" media="(max-width: 989px)" style="width:100%">
+                                <!--[if IE 9]></video><![endif]-->
+                                <img class="background" style="width:100%" srcset="public/images/home/slider/video_banner.jpg" alt="New Hues for U to Celebrate the Season" draggable="false">
+                            </picture>
+                        </li>
 
                         <li class="home-slider-2">
+                            <picture>
+                                <!--[if IE 9]><video style="display: none;"><![endif]-->
+                                <source srcset="public/images/home/slider/shoe_mobile.jpg" media="(max-width: 767px)" style="width:100%">
+                                <source srcset="public/images/home/slider/shoe_mobile.jpg" media="(max-width: 989px)" style="width:100%">
+                                <!--[if IE 9]></video><![endif]-->
+                                <img class="background" style="width:100%" srcset="public/images/home/slider/shoe.jpg" alt="New Hues for U to Celebrate the Season" draggable="false">
+                            </picture>
                             <div class="content">
+                                <a href="~/women/collection/lynx" class="cta">
+                                <div class="cta">
+                                   <img src="public/images/home/slider/shoe_cta.png" />
+                                </div>
+                                <div class="cta-mobile">
+                                    <img src="~/public/images/home/slider/shoe-mobile-cta.png" />
+                                </div>
+                                    </a>
+                            </div>
+                           <!-- <div class="content">
                                 <h2>
                                     <div class="top">
                                         <span>Sporty and</span>
@@ -277,38 +304,66 @@ jQuery(document).ready(function(){
                                 </h2>
                                 <a href="~/women/collection/lynx" class="cta">Shop Now <span class="arrow">&gt;</span></a>
                             </div>
-                            <img src="~/public/images/home/slider/lynx-logo.png" />
+                            <img src="~/public/images/home/slider/lynx-logo.png" />-->
                         </li>
 
-                        @*<li class="home-slider-3">
-                            <div class="content">
-                                <h2>
-                                    <div class="top">
-                                        <span>We keep you</span>
-                                    </div>
-                                    <div class="middle">on the go</div>
-                                    <div class="bottom">Men's stretch has a whole new name<br />with moisture wicking styles and 4-way stretch<br />to offer durable comfort and movement.</div>
-                                </h2>
-                                <a href="~/men/category/mens-stretch" class="cta">Shop Now <span class="arrow">&gt;</span></a>
-                            </div>
-                        </li>*@
-
-                        @*<li class="home-slider-4">
-                            <div class="content">
-                                <h2>
-                                    <div class="top">
-                                        <span>Fashion that's</span>
-                                    </div>
-                                    <div class="middle">Flexible</div>
-                                    <div class="bottom">Our new All Day by Landau provides<br />the natural fit, flexibility and feel you want.</div>
-                                </h2>
-                                <a href="~/women/category/flexible" class="cta">Shop Now <span class="arrow">&gt;</span></a>
-                            </div>
-                            <img src="~/public/images/home/slider/desktop/all_day.png" />
-                        </li>*@
+                       <li class="home-slider-3">
+                           <picture>
+                               <!--[if IE 9]><video style="display: none;"><![endif]-->
+                               <source srcset="public/images/home/slider/lynx_mobile.jpg" media="(max-width: 767px)" style="width:100%">
+                               <source srcset="public/images/home/slider/lynx_mobile.jpg" media="(max-width: 989px)" style="width:100%">
+                               <!--[if IE 9]></video><![endif]-->
+                               <img class="background" style="width:100%" srcset="public/images/home/slider/lynx.jpg" alt="New Hues for U to Celebrate the Season" draggable="false">
+                           </picture>
+                           <div class="content">
+                               <a href="~/women/collection/lynx" class="cta">
+                               <div class="cta">
+                                 <img src="~/public/images/home/slider/lynx-cta.png" />
+                               </div>
+                                   </a>
+                           </div>
+   <!--<div class="content">
+        <h2>
+            <div class="top">
+                <span>We keep you</span>
+            </div>
+            <div class="middle">on the go</div>
+            <div class="bottom">Men's stretch has a whole new name<br />with moisture wicking styles and 4-way stretch<br />to offer durable comfort and movement.</div>
+        </h2>
+        <a href="~/men/category/mens-stretch" class="cta">Shop Now <span class="arrow">&gt;</span></a>
+    </div>-->
+                        </li>
 
                         <li class="home-slider-5">
-                            <div class="content" style="z-index:1;">
+                             <picture>
+                                 <!--[if IE 9]><video style="display: none;"><![endif]-->
+                                 <source srcset="public/images/home/slider/socks_mobile.jpg" media="(max-width: 767px)" style="width:100%">
+                                 <source srcset="public/images/home/slider/socks_mobile.jpg" media="(max-width: 989px)" style="width:100%">
+                                 <!--[if IE 9]></video><![endif]-->
+                                 <img class="background" style="width:100%" srcset="public/images/home/slider/socks.jpg" alt="New Hues for U to Celebrate the Season" draggable="false">
+                             </picture>
+                            <div class="content">
+                                 <a href="~/men/category/mens-stretch" class="cta">
+                                <div class="cta">
+                                    <img src="~/public/images/home/slider/sock_cta.png" />
+                                </div>
+                                     </a>
+                            </div>
+   <!-- <div class="content">
+        <h2>
+            <div class="top">
+                <span>Fashion that's</span>
+            </div>
+            <div class="middle">Flexible</div>
+            <div class="bottom">Our new All Day by Landau provides<br />the natural fit, flexibility and feel you want.</div>
+        </h2>
+        <a href="~/women/category/flexible" class="cta">Shop Now <span class="arrow">&gt;</span></a>
+    </div>
+    <img src="~/public/images/home/slider/desktop/all_day.png" />-->
+                        </li>
+
+                        <li class="home-slider-6">
+                            <!--<div class="content" style="z-index:1;">
                                 <h2>
                                     <div class="top">
                                         <div class="desktop">
@@ -322,11 +377,26 @@ jQuery(document).ready(function(){
                                     <a href="~/women/category/footwear" class="cta">Shop Now <span class="arrow">&gt;</span></a>
                                 </h2>
 
+                            </div>-->
+                            <picture>
+                                <!--[if IE 9]><video style="display: none;"><![endif]-->
+                                <source srcset="public/images/home/slider/men_mobile.jpg" media="(max-width: 767px)" style="width:100%">
+                                <source srcset="public/images/home/slider/men_mobile.jpg" media="(max-width: 989px)" style="width:100%">
+                                <!--[if IE 9]></video><![endif]-->
+                                <img class="background" style="width:100%" srcset="public/images/home/slider/for-men.jpg" alt="New Hues for U to Celebrate the Season" draggable="false">
+                            </picture>
+                            <div class="content">
+                                <a href="~/women/category/footwear" class="cta">
+                                <img src="~/public/images/home/slider/men_cta.png" />
+                                <div class="cta-mobile">
+                                    <img src="~/public/images/home/slider/men_cta-mobile.png" />
+                                </div>
+                                    </a>
                             </div>
                         </li>
 
-                        <li class="home-slider-6">
-                            <div class="content">
+                        <li class="home-slider-7">
+                            <!--<div class="content">
                                 <h2>
                                     <div class="top">
                                         <span>All Day</span>
@@ -336,12 +406,27 @@ jQuery(document).ready(function(){
                                 </h2>
                                 <a href="~/women/category/comfort" class="cta">Shop Now <span class="arrow">&gt;</span></a>
                             </div>
-                            <img src="~/public/images/home/slider/desktop/all_day.png" />
+                            <img src="~/public/images/home/slider/desktop/all_day.png" />-->
+                            <picture>
+                                <!--[if IE 9]><video style="display: none;"><![endif]-->
+                                <source srcset="public/images/home/slider/prewash_mobile.jpg" media="(max-width: 767px)" style="width:100%">
+                                <source srcset="public/images/home/slider/prewash_mobile.jpg" media="(max-width: 989px)" style="width:100%">
+                                <!--[if IE 9]></video><![endif]-->
+                                <img class="background" style="width:100%" srcset="public/images/home/slider/pre-wash.jpg" alt="New Hues for U to Celebrate the Season" draggable="false">
+                            </picture>
+                            <div class="content">
+                                <a href="~/women/category/comfort" >
+                                    <img src="~/public/images/home/slider/prewash_cta.png" />
+                                    <div class="cta-mobile">
+                                        <img src="~/public/images/home/slider/prewash_cta-mobile.png" />
+                                    </div>
+                                </a>
+                            </div>
                         </li>
 
-                        @*<li class="home-slider-7">
+                       <!--<li class="home-slider-7">
                             <!--<div class="left-model"><img src="public/images/home/slider/desktop/model-left-slide7.png" /></div>-->
-                            <!--<div class="right-model"><img src="public/images/home/slider/desktop/model-right-slide7.png" /></div>-->
+                            <!--<div class="right-model"><img src="public/images/home/slider/desktop/model-right-slide7.png" /></div>
                             <div class="content">
                                 <h2>
                                     <span class="top">Live Colorfully</span>
@@ -352,37 +437,37 @@ jQuery(document).ready(function(){
                                 </h2>
                                 <a href="~/collections" class="cta">Shop Now <span class="arrow">></span></a>
                             </div>
-                        </li>*@
+                        </li>-->
 
-                        <li class="home-slider-8">
-                            <!--<div class="left-model"><img src="public/images/home/slider/desktop/model-left-slide8.png" /></div>-->
-                            <!--<div class="right-model"><img src="public/images/home/slider/desktop/model-right-slide8.png" /></div>-->
-                            <div class="content">
-                                <h2>
-                                    <span class="top">Style is in Bloom</span>
-                                    <span class="middle">
-                                        <span>Lemon<br />Twist</span>
-                                    </span>
-                                    <span class="bottom">Collection</span>
-                                </h2>
-                                <a href="~/collections" class="cta">Shop Now <span class="arrow">></span></a>
-                            </div>
-                        </li>
+                       <!-- <li class="home-slider-8">
+        <!--<div class="left-model"><img src="public/images/home/slider/desktop/model-left-slide8.png" /></div>-->
+        <!--<div class="right-model"><img src="public/images/home/slider/desktop/model-right-slide8.png" /></div>
+        <div class="content">
+            <h2>
+                <span class="top">Style is in Bloom</span>
+                <span class="middle">
+                    <span>Lemon<br />Twist</span>
+                </span>
+                <span class="bottom">Collection</span>
+            </h2>
+            <a href="~/collections" class="cta">Shop Now <span class="arrow">></span></a>
+        </div>
+    </li>-->
 
-                        <li class="home-slider-9">
-                            <!--<div class="left-model"><img src="public/images/home/slider/desktop/model-left-slide9.png" /></div>-->
-                            <!-- <div class="right-model"><img src="public/images/home/slider/desktop/model-right-slide9.png" /></div>-->
-                            <div class="content">
-                                <h2>
-                                    <span class="top">Make some Waves</span>
-                                    <span class="middle">
-                                        <span>Shoreline</span>
-                                    </span>
-                                    <span class="bottom">Collection</span>
-                                </h2>
-                                <a href="~/collections" class="cta">Shop Now <span class="arrow">></span></a>
-                            </div>
-                        </li>
+    <!--<li class="home-slider-9">
+        <!--<div class="left-model"><img src="public/images/home/slider/desktop/model-left-slide9.png" /></div>-->
+        <!-- <div class="right-model"><img src="public/images/home/slider/desktop/model-right-slide9.png" /></div>
+        <div class="content">
+            <h2>
+                <span class="top">Make some Waves</span>
+                <span class="middle">
+                    <span>Shoreline</span>
+                </span>
+                <span class="bottom">Collection</span>
+            </h2>
+            <a href="~/collections" class="cta">Shop Now <span class="arrow">></span></a>
+        </div>
+    </li>-->
                         <!-- end Template SLiders Jay Murphy -->
                     </ul>
                 </div>
@@ -438,11 +523,11 @@ jQuery(document).ready(function(){
                             <div class="overlay_img"></div>
                             <div class="content">
                                 <h3>
-                                    <span class="top">Stylish</span>
+                                    <span class="top">FIRST-CLASS</span>
                                     <span class="bot">Tops</span>
-                                    <span class="detail">Solids and Prints to Fit Your Needs</span>
+                                    <span class="detail">The perfect combination of comfort and style</span>
                                 </h3>
-                                <div class="cta">Shop Now <span class="arrow">&#xe805;</span></div>
+                                <div class="cta">VIEW MORE<span class="arrow">&#xe805;</span></div>
                             </div>
                         </div>
                     </a>
@@ -481,10 +566,10 @@ jQuery(document).ready(function(){
                             <div class="content">
                                 <h3>
                                     <span class="bot">Jackets</span>
-                                    <span class="detail">Comfort with Storage to Spare</span>
+                                    <span class="detail">Warm up your <div class="space"> wardrobe in style </div></span>
                                 </h3>
                                 <div class="cta">
-                                    <div>Shop Now <span class="arrow">&#xe805;</span></div>
+                                    <div>Product Details <span class="arrow">&#xe805;</span></div>
                                 </div>
                             </div>
                         </div>
@@ -528,11 +613,11 @@ jQuery(document).ready(function(){
                             <div class="overlay_img"></div>
                             <div class="content">
                                 <h3>
-                                    <span class="top">Comfortable</span>
                                     <span class="bot">Footwear</span>
-                                    <span class="detail">Therapy for Your Feet</span>
+                                    <span class="top">For you</span>
+                                    <span class="detail">Relieve your feet</span>
                                 </h3>
-                                <div class="cta">Shop Now <span class="arrow">&#xe805;</span></div>
+                                <div class="cta">Click for details<span class="arrow">&#xe805;</span></div>
                             </div>
                         </div>
                     </a>
@@ -551,10 +636,11 @@ jQuery(document).ready(function(){
                                     </picture>
                                 </span>
                                 <span class="bot">Arrivals</span>
-                                <span class="detail">See What's New This<br> Season. Whether it's<br> Women's, Men's, Modern<br> or Classic, We've Got<br> the Perfect<br> Look for You.</span>
+                                <span class="top">All Day by Landau</span>
+                                <span class="detail">Our latest line of scrubs <div>that feature superior stretch fabric for</div>all-day comfort.</span>
                             </h3>
                             <div class="cta">
-                                <div>Shop Now <span class="arrow">&#xe805;</span></div>
+                                <div>BUILD A BETTER WARDROBE<span class="arrow">&#xe805;</span></div>
                             </div>
                         </div>
                     </div>
@@ -576,11 +662,11 @@ jQuery(document).ready(function(){
                 <div class="social blocks">
                     <div class="block1 block">
                         <a href="https://www.facebook.com/landauuniforms" target="_blank">
-                            <div class="img">
-                                <img srcset="public/images/home/social/sc_1.jpg" alt="Landau on Facebook" title="Landau on Facebook" />
-                            </div>
+
+                            <img srcset="public/images/home/category/facebook.png" alt="Landau on Facebook" title="Landau on Facebook" width="150px" />
+
                         </a>
-                        <div class="text">
+                       <!-- <div class="text">
                             <div class="icon">&#xe801;</div>
                             <div class="link">
                                 <span class="detail">Stay up to date with our posts</span>
@@ -589,15 +675,15 @@ jQuery(document).ready(function(){
                                     <span class="arrow">&#xe805;</span>
                                 </a>
                             </div>
-                        </div>
+                        </div>-->
                     </div>
                     <div class="block2 block">
                         <a href="https://twitter.com/landauuniforms" target="_blank">
-                            <div class="img">
-                                <img srcset="public/images/home/social/sc_2.jpg" alt="Landau on Twitter" title="Landau on Twitter" />
-                            </div>
+
+                            <img srcset="public/images/home/category/instagram.png" alt="Landau on Twitter" title="Landau on Twitter" width="150px" />
+
                         </a>
-                        <div class="text">
+                        <!--<div class="text">
                             <div class="icon">&#xe80a;</div>
                             <div class="link">
                                 <span class="detail">Follow our feed</span>
@@ -606,15 +692,15 @@ jQuery(document).ready(function(){
                                     <span class="arrow">&#xe805;</span>
                                 </a>
                             </div>
-                        </div>
+                        </div>-->
                     </div>
                     <div class="block3 block">
                         <a href="https://www.pinterest.com/landauuniforms/" target="_blank">
-                            <div class="img">
-                                <img srcset="public/images/home/social/sc_3.jpg" alt="Landau on Pinterest" title="Landau on Pinterest" />
-                            </div>
+
+                            <img srcset="public/images/home/category/pinterest.png" alt="Landau on Pinterest" title="Landau on Pinterest" width="150px" />
+
                         </a>
-                        <div class="text">
+                        <!--<div class="text">
                             <div class="icon">&#xe80b;</div>
                             <div class="link">
                                 <span class="detail">Find your favorite pin</span>
@@ -623,15 +709,15 @@ jQuery(document).ready(function(){
                                     <span class="arrow">&#xe805;</span>
                                 </a>
                             </div>
-                        </div>
+                        </div>-->
                     </div>
                     <div class="block4 block">
                         <a href="/news">
-                            <div class="img">
-                                <img srcset="public/images/home/social/sc_4.jpg" alt="Landau News" title="Landau News" />
-                            </div>
+
+                            <img srcset="public/images/home/category/logo_twitter.gif" alt="Landau on Twitter" title="Landau on Twitter" width="150px" />
+
                         </a>
-                        <div class="text">
+                       <!-- <div class="text">
                             <div class="icon">&#xe80d;</div>
                             <div class="link">
                                 <span class="detail">See what's new</span>
@@ -640,7 +726,7 @@ jQuery(document).ready(function(){
                                     <span class="arrow">&#xe805;</span>
                                 </a>
                             </div>
-                        </div>
+                        </div>-->
                     </div>
                 </div>
             </div>
