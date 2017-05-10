@@ -96,8 +96,8 @@
 }
 @media screen and (max-width:767px) {
     #homepage .home_slider .flexslider ul.slides li.home-slider-1 {
-        height: 0;
-        padding-top: 120.7%
+        height: 100%;
+        /*padding-top: 120.7%*/
     }
 }
 
@@ -382,8 +382,8 @@
 }
 @media screen and (max-width:767px) {
     #homepage .home_slider .flexslider ul.slides li.home-slider-2 {
-        height: 0;
-        padding-top: 120.7%
+        height: 100%;
+        /*padding-top: 120.7%*/
     }
 }
 #homepage .home_slider .flexslider ul.slides li.home-slider-2 .content {
@@ -673,8 +673,8 @@
 }
 @media screen and (max-width:767px) {
     #homepage .home_slider .flexslider ul.slides li.home-slider-3 {
-        height: 0;
-        padding-top: 120.7%
+        height: 100%;
+       /* padding-top: 120.7%*/
     }
 }
 #homepage .home_slider .flexslider ul.slides li.home-slider-3 .content {
@@ -717,7 +717,7 @@
         background-color: #ffffff;
         height: 47.5%;
         width: 100%;
-        left: 0;
+       right: 25vw !important;
     }
 }
 
@@ -968,7 +968,7 @@
 @media screen and (max-width:767px) {
     #homepage .home_slider .flexslider ul.slides li.home-slider-4 {
         height: 0;
-        padding-top: 120.7%
+        /*padding-top: 120.7%*/
     }
 }
 #homepage .home_slider .flexslider ul.slides li.home-slider-4 .content {
@@ -1419,7 +1419,7 @@
 @media screen and (max-width:767px) {
     #homepage .home_slider .flexslider ul.slides li.home-slider-6 {
         height: 0;
-        padding-top: 120.7%
+        /*padding-top: 120.7%*/
     }
 }
 #homepage .home_slider .flexslider ul.slides li.home-slider-6 .content {
@@ -1647,7 +1647,7 @@
 }
 
 #homepage .home_slider .flexslider ul.slides li.home-slider-6 .content .cta {
-    border-color: #ffffff;
+    border:none;
     margin-top: 18px;
     color: #ffffff;
 }
