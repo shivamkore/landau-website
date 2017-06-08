@@ -2783,8 +2783,8 @@ textarea {
 #homepage .home_slider .container .flexslider .content ul.slides li.home-slider-2 .cta img {
     position:absolute;
     top:18.5vw;
-    width:13.5vw;
-    left: 10vw;
+    width:15.5vw;
+    left: 8.7vw;
 
 }
 
@@ -3268,7 +3268,7 @@ textarea {
     display:none;
 }
 #homepage .home_slider .flexslider ul.slides li.home-slider-3 .content .cta img {
-    width:13vw;
+    width:16vw;
 
 }
 
@@ -3384,12 +3384,12 @@ textarea {
     left: 0;
 } 
     #homepage .home_slider .flexslider ul.slides li.home-slider-6 .content img {
-        width: 16vw;
+        width: 21vw;
         margin-top: 18.5vw;
         margin-right: .8vw
     }
 #homepage .home_slider .flexslider ul.slides li.home-slider-7 .content img {
-    width: 16vw;
+    width: 20vw;
 }
     @media screen and (max-width:767px) {
         #homepage .home_slider .flexslider ul.slides li.home-slider-6 .content {
@@ -5507,7 +5507,7 @@ textarea {
     #homepage .stay_connected {
         margin-top: 32px;
         padding: 39px 0 0;
-        height: 29vw
+        height: 403px
     }
 
         #homepage .stay_connected .container {
@@ -5959,7 +5959,7 @@ textarea {
                 }
 
     #homepage .stay_connected {
-        height: 29vw;
+        height: 314px;
         margin-top: 32px;
         padding: 0
     }
@@ -6831,8 +6831,6 @@ textarea {
 
 #contact .form_container form .select .mobile {
     position: absolute;
-
-#contact .form_container form .name_container {
     top: 0;
     z-index: 1
 }
@@ -6843,7 +6841,11 @@ textarea {
         display: inline-block
     }
 }
-    
+
+#contact .form_container form .name_container {
+    width: 50%;
+    margin-bottom: 29px
+}
 @media (max-width:550px) {
     #homepage .categories .block5 h3 .detail {
         width: 46vw;
@@ -22137,4 +22139,3 @@ textarea {
                     }
     }
 
-    #homepage .categories .container .new_arrivals .block

@@ -1,0 +1,118 @@
+﻿@main-font: 'Proxima N W01 Reg';
+@main-font-bold: 'Proxima N W01 Bold';
+@light-gray-color: #989898;
+@blue-color: #00295D;
+@white-color: #FFF;
+
+#header {
+    background-image: url('../images/loyalty/landau-banner-2.png');
+    background-position: right;
+    background-repeat: no-repeat;
+    height: 209px;
+    border-bottom: 1px thin #333;
+    box-shadow: 0 20px 20px -20px #333;
+
+    .logo {
+        float:left;
+        padding-left: 20px;
+        padding-top: 80px;
+    }
+
+    .login {
+        float: right;
+        padding-top: 100px;
+        padding-right: 20px;
+    }
+}
+
+#body-content {
+
+    .steps-to-join-panel, .earn-rewards-panel, .catalog-panel {
+        margin-bottom: 20px;
+    }
+
+    .steps-to-join-panel {
+        margin-top: 60px;
+        margin-bottom: 60px;
+
+        ul {
+            li {
+                position: relative;
+                list-style: none;
+                height: 84px;
+
+                img, span {
+                    position: absolute;
+                }
+
+                span {
+                    left: 80px;
+                    top: 20px;
+                    font-family: @main-font;
+                    font-size: 16pt;
+                    color: @light-gray-color;
+                }
+
+                &:nth-child(2) span {
+                    top: 15px;
+                }
+            }
+        }
+
+        .join-now-section {
+            text-align: center;
+
+            .join-now-button {
+                margin: 0 auto;
+            }
+
+            h5 {
+                font-family: @main-font;
+                font-size: 16pt;
+                font-weight: bold;
+                color: @blue-color;
+            }
+        }
+        
+    }
+
+    .earn-rewards-panel {
+        height: 100px;
+        width: 100%;
+        background-color:@blue-color;
+        margin-bottom: 40px;
+
+        h2 {
+            font-family: @main-font-bold;
+            font-size: 28pt;
+            color: @white-color;
+            line-height: 95px;
+            padding-left: 20px;
+        }
+    }
+
+    .catalog-panel {
+        
+    }
+}
+
+#footer {
+    margin-left: auto;
+    margin-right:auto;
+    margin-bottom: 20px;
+    text-align: center;
+
+    h2, a {
+        display: inline-block;
+        overflow: hidden;
+    }
+
+    h2 {
+        line-height: 40px;
+        color: @blue-color;
+    }
+
+    a {
+        vertical-align: top;
+    }
+}

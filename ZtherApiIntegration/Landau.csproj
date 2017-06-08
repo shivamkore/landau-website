@@ -287,6 +287,7 @@
     <Compile Include="Controllers\GroupsController.cs" />
     <Compile Include="Controllers\HeaderController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\LoyaltyController.cs" />
     <Compile Include="Controllers\MadeBetterController.cs" />
     <Compile Include="Controllers\PrivacyPolicyController.cs" />
     <Compile Include="Controllers\PromotionsController.cs" />
@@ -430,6 +431,12 @@
     <Content Include="public\css\custom.min.css">
       <DependentUpon>custom.css</DependentUpon>
     </Content>
+    <Content Include="public\css\loyalty.css">
+      <DependentUpon>loyalty.less</DependentUpon>
+    </Content>
+    <Content Include="public\css\loyalty.min.css">
+      <DependentUpon>loyalty.css</DependentUpon>
+    </Content>
     <Content Include="public\css\style.min.css">
       <DependentUpon>style.css</DependentUpon>
     </Content>
@@ -438,6 +445,18 @@
     <Content Include="public\images\home\category\adc_bg_mobile.jpg" />
     <Content Include="public\images\home\category\adc_bg_mobile_lg.jpg" />
     <Content Include="public\images\home\category\adc_bg_tablet.jpg" />
+    <Content Include="public\images\loyalty\btn-one.png" />
+    <Content Include="public\images\loyalty\btn-two.png" />
+    <Content Include="public\images\loyalty\btn-three.png" />
+    <Content Include="public\images\loyalty\btn-four.png" />
+    <Content Include="public\images\loyalty\contact-us.png" />
+    <Content Include="public\images\loyalty\join-now.png" />
+    <Content Include="public\images\loyalty\landau-banner-2.png" />
+    <Content Include="public\images\loyalty\landau-banner.png" />
+    <Content Include="public\images\loyalty\landau-blue-banner.png" />
+    <Content Include="public\images\loyalty\landau-rewards.png" />
+    <Content Include="public\images\loyalty\btn-login.png" />
+    <Content Include="public\images\loyalty\btn-prize.png" />
     <Content Include="public\images\videos\16-LAND-0145_SP17_FOB_Stripes_DVD.mpg" />
     <Content Include="public\images\videos\FOB Snippet play screens.jpg" />
     <Content Include="public\images\videos\FOB-Video-Playscreen_Desktop.jpg" />
@@ -1028,6 +1047,10 @@
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
     <None Include="bundleconfig.json" />
+    <None Include="compilerconfig.json" />
+    <None Include="compilerconfig.json.defaults">
+      <DependentUpon>compilerconfig.json</DependentUpon>
+    </None>
     <None Include="Properties\PublishProfiles\landau - Web Deploy.pubxml" />
     <None Include="Properties\PublishProfiles\landau-staging - Web Deploy.pubxml" />
     <Content Include="public\Landau-Fall-16-Catalog.pdf" />
@@ -1039,6 +1062,8 @@
     <Content Include="public\images\videos\16-LAND-0145_SP17_FOB_Stripes_720p.mp4" />
     <Content Include="public\images\videos\16-LAND-0145_SP17_FOB_Stripes_DVD.xmp" />
     <Content Include="public\images\videos\fob_stripes_v2.mp4" />
+    <Content Include="Views\Loyalty\Index.cshtml" />
+    <Content Include="public\css\loyalty.less" />
     <None Include="Views\RetailPartners.cshtml" />
     <Content Include="Views\Partials\WhereToBuy\_DealersLogoPartial.cshtml" />
     <Content Include="Views\Promotions.cshtml" />
@@ -1058,6 +1083,7 @@
     <Content Include="Views\Groups.cshtml" />
     <Content Include="Views\SizeCharts.cshtml" />
     <Content Include="Views\Search.cshtml" />
+    <Content Include="Views\Shared\_Loyalty.cshtml" />
     <None Include="Web.Release-Staging.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

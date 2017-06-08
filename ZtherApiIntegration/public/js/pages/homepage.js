@@ -108,7 +108,12 @@ $(function() {
     //Video Controller
     var videoURL;
 
-    $('.video_container').on('click', function () {
+    $(".flexslider .slides .home-slider-0").hover(function () {
+        $(this).css("cursor", "pointer");
+    });
+
+    $(".video_container, .home-slider-0").on('click', function () {
+
         videoURL = $('iframe.wistia_embed').prop('src');
         videoURL += "?videoFoam=true&autoPlay=true";
 
