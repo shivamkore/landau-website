@@ -1064,6 +1064,8 @@
     <Content Include="public\images\videos\fob_stripes_v2.mp4" />
     <Content Include="Views\Loyalty\Index.cshtml" />
     <Content Include="public\css\loyalty.less" />
+    <Content Include="Views\Loyalty\Faq.cshtml" />
+    <Content Include="Views\Loyalty\disclaimer.cshtml" />
     <None Include="Views\RetailPartners.cshtml" />
     <Content Include="Views\Partials\WhereToBuy\_DealersLogoPartial.cshtml" />
     <Content Include="Views\Promotions.cshtml" />

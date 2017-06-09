@@ -48,18 +48,19 @@ $(function () {
 
 function refreshWidgetUrl(color, swatchType) {
 
+    var product = $('.sku').text().trim();
+    var urlWidget = $('iframe').attr('src');
+
+    var param = product;
+
     if (swatchType.trim().toUpperCase() === 'PRINT') {
-
-        var product = $('.sku').text().trim();
-        var urlWidget = $('iframe').attr('src');
-
-        var param = product + color;
-
-        var url = urlWidget.substr(0, urlWidget.indexOf('?'));
-        var newSrc = (url + "?modelname=" + param).trim().toLowerCase();
-
-        $('iframe').attr('src', newSrc);
+        param += color;
     }
+    
+    var url = urlWidget.substr(0, urlWidget.indexOf('?'));
+    var newSrc = (url + "?modelname=" + param).trim().toLowerCase();
+
+    $('iframe').attr('src', newSrc);
 }
 
 function addHandlerForSizes() {

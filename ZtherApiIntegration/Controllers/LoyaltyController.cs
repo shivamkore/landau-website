@@ -13,5 +13,17 @@ namespace ZtherApiIntegration.Controllers
         {
             return View();
         }
+
+        [Route("loyalty/faq")]
+        public ActionResult Faq()
+        {
+            return View();
+        }
+
+        [Route("loyalty/disclaimer")]
+        public ActionResult disclaimer()
+        {
+            return View();
+        }
     }
 }
