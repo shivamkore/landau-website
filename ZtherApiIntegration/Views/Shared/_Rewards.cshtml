@@ -19,39 +19,44 @@
 
     <link type="text/css" rel="stylesheet" href="http://fast.fonts.net/cssapi/b673da3c-c126-4aa2-a91f-4e32bafc223e.css">
     <link rel="stylesheet" href="~/public/css/bootstrap.min.css">
-    <link rel="stylesheet" href="~/public/css/loyalty.min.css">
+    <link rel="stylesheet" href="~/public/css/rewards.min.css">
 
 </head>
 <body>
-
-    <div class="container">
-
-        <div id="header">
-            <div class="logo">
-                <img class="img-responsive" src="~/public/images/loyalty/landau-rewards.png" alt="Landau Rewards" />
+    <header>
+        <div class="container">
+            <div class="header-menu">
+                <ul>
+                    <li>
+                        <a href="#"><img srcset="public/images/header/landau_logo.svg" alt="Landau" /></a>
+                    </li>
+                </ul>
             </div>
-            <div class="login">
-                <a href="#"><img class="img-responsive" src="~/public/images/loyalty/btn-login.png" alt="Login" /></a>
-            </div>
         </div>
+    </header>
 
-        <div id="body-content">
-            @RenderBody()
-        </div>
-        
-        <div id="footer">
-            <ul>
-                <li><a href="http://www.landau.com">Home</a></li>
-                <li>|</li>
-                <li><a href="http://www.landau.com/contact">Contact Us</a></li>
-                <li>|</li>
-                <li><a href="~/loyalty/faq">FAQ</a></li>
-                <li>|</li>
-                <li><a href="~/loyalty/disclaimer">Disclaimer</a></li>
-            </ul>
-        </div>
-
+    <div>
+        @RenderBody()
     </div>
+
+    <footer>
+        <div class="container">
+            <div class="col-md-6">
+                <div class="copyright">
+                    <span>All Materials Copyright &copy; @DateTime.Today.Year.ToString() by Landau Uniforms.</span>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="footer-menu">
+                    <ul>
+                        <li><a href="#">Contact Us</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">FAQ</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
 
     <script src="~/public/js/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
@@ -72,6 +77,22 @@
         })(window, document, 'script', 'dataLayer', 'GTM-MQJK52');
     </script>
     <!-- End Google Tag Manager -->
+
+    <!-- Sailplay -->
+    <script src="https://cdn.rawgit.com/iamthegoodbot/skazka_loyalty_page/2.1.14/dist/prod/sailplay-magic.js"></script>
+    <sailplay-magic></sailplay-magic>
+    <script>
+
+    var magic = new SAILPLAY.Magic({
+
+      partner_id: "1686",
+      domain: "http://spcrm.landau.com",
+      lang:  "en",
+      config: "landau"
+
+    });
+    </script>
+    <!-- Sailplay End -->
 
 </body>
 </html>

@@ -2,5 +2,9 @@
   {
     "outputFile": "public/css/loyalty.css",
     "inputFile": "public/css/loyalty.less"
+  },
+  {
+    "outputFile": "public/css/rewards.css",
+    "inputFile": "public/css/rewards.less"
   }
 ]

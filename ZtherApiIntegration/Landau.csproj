@@ -292,6 +292,7 @@
     <Compile Include="Controllers\PrivacyPolicyController.cs" />
     <Compile Include="Controllers\PromotionsController.cs" />
     <Compile Include="Controllers\RetailPartnersController.cs" />
+    <Compile Include="Controllers\RewardsController.cs" />
     <Compile Include="Controllers\SearchController.cs" />
     <Compile Include="Controllers\SolidsController.cs" />
     <Compile Include="Controllers\PrintsController.cs" />
@@ -436,6 +437,12 @@
     </Content>
     <Content Include="public\css\loyalty.min.css">
       <DependentUpon>loyalty.css</DependentUpon>
+    </Content>
+    <Content Include="public\css\rewards.css">
+      <DependentUpon>rewards.less</DependentUpon>
+    </Content>
+    <Content Include="public\css\rewards.min.css">
+      <DependentUpon>rewards.css</DependentUpon>
     </Content>
     <Content Include="public\css\style.min.css">
       <DependentUpon>style.css</DependentUpon>
@@ -1066,6 +1073,7 @@
     <Content Include="public\css\loyalty.less" />
     <Content Include="Views\Loyalty\Faq.cshtml" />
     <Content Include="Views\Loyalty\disclaimer.cshtml" />
+    <Content Include="public\css\rewards.less" />
     <None Include="Views\RetailPartners.cshtml" />
     <Content Include="Views\Partials\WhereToBuy\_DealersLogoPartial.cshtml" />
     <Content Include="Views\Promotions.cshtml" />
@@ -1086,6 +1094,8 @@
     <Content Include="Views\SizeCharts.cshtml" />
     <Content Include="Views\Search.cshtml" />
     <Content Include="Views\Shared\_Loyalty.cshtml" />
+    <Content Include="Views\Shared\_Rewards.cshtml" />
+    <Content Include="Views\Rewards\Index.cshtml" />
     <None Include="Web.Release-Staging.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
