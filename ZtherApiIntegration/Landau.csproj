@@ -447,6 +447,7 @@
     <Content Include="public\css\style.min.css">
       <DependentUpon>style.css</DependentUpon>
     </Content>
+    <Content Include="public\images\header\banner3.jpg" />
     <Content Include="public\images\home\category\acd_bg_mobile_lg.jpg" />
     <Content Include="public\images\home\category\adc_bg.jpg" />
     <Content Include="public\images\home\category\adc_bg_mobile.jpg" />
