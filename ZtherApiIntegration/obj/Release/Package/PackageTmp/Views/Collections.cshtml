@@ -6,7 +6,7 @@
 <div id="collections">
 
     <div class="seasonal_container" style="padding-bottom: 0;">
-        <div class="inner">
+        @*<div class="inner">
             <div class="info_slider">
                 <div class="flexslider">
                     <div class="content">
@@ -50,44 +50,8 @@
 
     <h1 class="title">Seasonal Collections</h1>
 
-    @* Hide for the moment. This is for Fall Release 2.*@
-    @*<div class="hero">
-        <a href="@(Model.Count>0 ? UrlBuilder.BuildCollectionUrl(Model[0].Gender, Model[0].Code) : "#")">
-            <div class="content promo1">
-                <!--<div class="title">RIO</div>-->
-                <!--<div class="fourth collection_sub">Collection</div>-->
-            </div>
-            <picture>
-                <!--[if IE 9]><video style="display: none;"><![endif]-->
-                <source srcset="public/images/collections/seasonal/shoreline/product_main_3.jpg" media="(min-width: 1271px)" />
-                <source srcset="public/images/collections/seasonal/shoreline/rio_tile.jpg" media="(min-width: 990px)" />
-                <!--[if IE 9]></video><![endif]-->
-                <img class="img" srcset="public/images/collections/seasonal/shoreline/rio_tile.jpg" alt="Wine Country" title="Wine Country" />
-            </picture>
-        </a>
-    </div>
-
-    <div class="category_container right promo1">
-
-        @if (Model.Count > 0)
-        {
-            @Html.Partial("~/Views/Partials/Collections/_CollectionPartial.cshtml", Model[0])
-        }
-    </div>
-    
-
-    @if (Model.Count>0 && Model[0].Products.Count > 4)
-    {
-        <div class="bottom_container">
-            <a class="see_more_cta" href="@(Model.Count>0 ? UrlBuilder.BuildCollectionUrl(Model[0].Gender, Model[0].Code) : "#")">See More<span class="arrow">&#xe805;</span></a>
-        </div>
-    }
-        </div>
-    </div>*@
-
     <div class="seasonal_container">
         <div class="inner">
-            @*<h1 class="title">Seasonal Collections</h1>*@
             <div class="category_container left shoreline">
                 @if (Model.Count > 1)
                 {
@@ -97,8 +61,7 @@
             <div class="hero">
                 <a href="@(Model.Count>1 ? UrlBuilder.BuildCollectionUrl(Model[1].Gender, Model[1].Code) : "#")">
                    <div class="content promo2">
-                        <!--<div class="title">Painterly Nights</div>
-                        <div class="collection_sub">Collection</div>-->
+
                     </div>
                     <picture>
                         <!--[if IE 9]><video style="display: none;"><![endif]-->
@@ -124,8 +87,7 @@
             <div class="hero">
                 <a href="@(Model.Count>2 ? UrlBuilder.BuildCollectionUrl(Model[2].Gender, Model[2].Code) : "#")">
                     <div class="content promo3">
-                       <!-- <div class="title">Falling Water</div>
-                        <div class="collection_sub">Collection</div>-->
+                       
                     </div>
                     <picture>
                         <!--[if IE 9]><video style="display: none;"><![endif]-->
@@ -149,10 +111,11 @@
                 </div>
             }
         </div>
-    </div>
+    </div>*@
 
     <div class="collections_container">
         <div class="inner">
+            <br /><br /><br />
             <div class="title">Collections</div>
             <a href="@UrlBuilder.BuildCategoryUrl("male", UrlBuilder.CATALOG_TOPS)">
                 <div class="block1 block">

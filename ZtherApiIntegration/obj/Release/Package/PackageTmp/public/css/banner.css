@@ -65,19 +65,7 @@
     url("//db.onlinewebfonts.com/t/0ba944e6785ef3157d935b1224314527.svg#TradeGothic LT CondEighteen") format("svg");
 }
 
-
-
-
-
-
-
-
-
-
-
-
 /* BEGIN SLIDE 1 */
-
 #homepage .home_slider .container .flexslider .content ul.slides li.home-slider-1 {
     background-image: url(../public/images/home/slider/desktop/lynx_jackect_1920.jpg);
     background-size: cover;
@@ -108,8 +96,8 @@
 }
 @media screen and (max-width:767px) {
     #homepage .home_slider .flexslider ul.slides li.home-slider-1 {
-        height: 0;
-        padding-top: 120.7%
+        height: 100%;
+        /*padding-top: 120.7%*/
     }
 }
 
@@ -179,11 +167,7 @@
     padding-top: 28px;
     overflow: hidden
 }
-@media screen and (max-width:1270px) {
-    #homepage .home_slider .flexslider ul.slides li.home-slider-1 .content h2 {
-        /*padding-top: 40px*/
-    }
-}
+
 @media screen and (max-width:989px) {
     #homepage .home_slider .flexslider ul.slides li.home-slider-1 .content h2 {
         padding-top: 24px
@@ -241,12 +225,6 @@
     line-height: 83%
 }
 
-@media screen and (max-width:1270px) {
-    #homepage .home_slider .flexslider ul.slides li.home-slider-1 .content h2 .middle {
-        /*font-size: 115px*/
-    }
-}
-
 @media screen and (max-width:989px) {
     #homepage .home_slider .flexslider ul.slides li.home-slider-1 .content h2 .middle {
         font-size: 110px;
@@ -260,11 +238,6 @@
     }
 }
 
-
-
-
-
-
 #homepage .home_slider .flexslider ul.slides li.home-slider-1 .content h2 .bottom {
     text-transform: none;
     margin: 11px auto 0;
@@ -272,7 +245,6 @@
     letter-spacing: 4px;
     font-family: "Proxima N W01 Reg";
     letter-spacing: 0;
-    
 }
 
 @media screen and (max-width:1270px) {
@@ -370,25 +342,6 @@
 }
 /* END SLIDE 1 */
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 #homepage .home_slider .container .flexslider .content ul.slides li.home-slider-2 {
     background-image: url(../public/images/home/slider/desktop/new_style_1920.jpg);
     background-size: cover;
@@ -429,8 +382,8 @@
 }
 @media screen and (max-width:767px) {
     #homepage .home_slider .flexslider ul.slides li.home-slider-2 {
-        height: 0;
-        padding-top: 120.7%
+        height: 100%;
+        /*padding-top: 120.7%*/
     }
 }
 #homepage .home_slider .flexslider ul.slides li.home-slider-2 .content {
@@ -587,11 +540,6 @@
     }
 }
 
-
-
-
-
-
 #homepage .home_slider .flexslider ul.slides li.home-slider-2 .content h2 .bottom {
     text-transform: none;
     font-size: 21.9px;
@@ -697,37 +645,6 @@
     }
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 #homepage .home_slider .container .flexslider .content ul.slides li.home-slider-3 {
     background-image: url(../public/images/home/slider/desktop/on_the_go_1920.jpg);
     background-size: cover;
@@ -756,8 +673,8 @@
 }
 @media screen and (max-width:767px) {
     #homepage .home_slider .flexslider ul.slides li.home-slider-3 {
-        height: 0;
-        padding-top: 120.7%
+        height: 100%;
+       /* padding-top: 120.7%*/
     }
 }
 #homepage .home_slider .flexslider ul.slides li.home-slider-3 .content {
@@ -800,7 +717,7 @@
         background-color: #ffffff;
         height: 47.5%;
         width: 100%;
-        left: 0;
+       right: 25vw !important;
     }
 }
 
@@ -894,11 +811,6 @@
         font-size: 16vw
     }
 }
-
-
-
-
-
 
 #homepage .home_slider .flexslider ul.slides li.home-slider-3 .content h2 .bottom {
     text-transform: none;
@@ -1056,7 +968,7 @@
 @media screen and (max-width:767px) {
     #homepage .home_slider .flexslider ul.slides li.home-slider-4 {
         height: 0;
-        padding-top: 120.7%
+        /*padding-top: 120.7%*/
     }
 }
 #homepage .home_slider .flexslider ul.slides li.home-slider-4 .content {
@@ -1193,11 +1105,6 @@
     }
 }
 
-
-
-
-
-
 #homepage .home_slider .flexslider ul.slides li.home-slider-4 .content h2 .bottom {
     text-transform: none;
     font-size: 19.4px;
@@ -1206,7 +1113,6 @@
     color: #5d6873;
     line-height: 140%;
     letter-spacing:0;
-    
 }
 
 @media screen and (max-width:1270px) {
@@ -1282,11 +1188,6 @@
     }
 }
 
-@media screen and (max-width:767px) {
-    #homepage .home_slider .flexslider ul.slides li.home-slider-4 .content .cta {
-    }
-}
-
 #homepage .home_slider .flexslider ul.slides li.home-slider-4 .content .cta:hover {
     background-color: transparent;
     border-color: #0071ba
@@ -1299,37 +1200,9 @@
     }
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 #homepage .home_slider .container .flexslider .content ul.slides li.home-slider-5 {
     background-image: url(../public/images/home/slider/desktop/socks_1920.jpg);
-        background-position: center;
+    background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
     background-color: #3ae5bf;
@@ -1338,7 +1211,6 @@
 @media screen and (max-width:1270px) {
     #homepage .home_slider .container .flexslider .content ul.slides li.home-slider-5 {
         background-image: url(../public/images/home/slider/desktop/socks_1270.jpg);
-       
     }
 }
 
@@ -1354,15 +1226,8 @@
         background-position: top
     }
 }
-@media screen and (max-width:767px) {
-    #homepage .home_slider .flexslider ul.slides li.home-slider-5 {
 
-    }
-}
-
-
-#homepage .home_slider .container .flexslider .content ul.slides li.home-slider-5  .socks{
-
+#homepage .home_slider .container .flexslider .content ul.slides li.home-slider-5  .socks {
     background-image: url(../public/images/home/slider/desktop/socks_slider1.png);
     background-position:center;
     background-repeat: no-repeat;
@@ -1389,23 +1254,21 @@
 
 @media screen and (max-width:767px) {
     #homepage .home_slider .flexslider ul.slides li.home-slider-5 .content {
-            position: absolute;
-    width: inherit;
-    height: inherit;
-    top: inherit;
-    bottom: 0;
-    background-color: transparent;
-    height: 47.5%;
-    width: 100%;
-    left: 0;
+        position: absolute;
+        width: inherit;
+        height: inherit;
+        top: inherit;
+        bottom: 0;
+        background-color: transparent;
+        height: 47.5%;
+        width: 100%;
+        left: 0;
     }
-      #homepage .home_slider .flexslider ul.slides li.home-slider-5 .content h2 .cta {
-           position:relative; 
-           left: 0;
-            
-        }
 
-
+    #homepage .home_slider .flexslider ul.slides li.home-slider-5 .content h2 .cta {
+        position:relative; 
+        left: 0;
+    }
 }
 
 #homepage .home_slider .flexslider ul.slides li.home-slider-5 .content h2 {
@@ -1419,103 +1282,68 @@
     left: 7%;
     top: 7%;
 }
-#homepage .home_slider .flexslider ul.slides li.home-slider-5 .content h2 .bottom {
-       
-    font-family: "Proxima N W01 Reg";
-   
-}
 
-@media screen and (max-width:1270px){
-#homepage .home_slider .flexslider ul.slides li.home-slider-5 .content h2 {
-        padding-top: 0;
-    margin-top: 4vw;
-    position: absolute;
-    font-size: 45px;
-    background-color: transparent;
-    color: #0a375e;
-    left: 7%;
-    top: 7%;
-}
-} 
-
-@media screen and (max-width:989px) {
+@media screen and (max-width:1270px) {
     #homepage .home_slider .flexslider ul.slides li.home-slider-5 .content h2 {
-    
+        padding-top: 0;
+        margin-top: 4vw;
+        position: absolute;
+        font-size: 45px;
+        background-color: transparent;
+        color: #0a375e;
+        left: 7%;
+        top: 7%;
     }
-}
+} 
 
 @media screen and (max-width:767px) {
     #homepage .home_slider .flexslider ul.slides li.home-slider-5 .content h2 {
-    padding-top: 0;
-    margin-top: 5vw;
-    position:relative;
-    font-size:4vw;
-    left: 0;
-    top: 0;
+        padding-top: 0;
+        margin-top: 5vw;
+        position:relative;
+        font-size:4vw;
+        left: 0;
+        top: 0;
     }
-        #homepage .home_slider .flexslider ul.slides li.home-slider-5 .content h2 .top span{
-            font-size: 6vw;
-            width: 100%;
-        }
-     
+    #homepage .home_slider .flexslider ul.slides li.home-slider-5 .content h2 .top span{
+        font-size: 6vw;
+        width: 100%;
+    }
 }
-
 
 #homepage .home_slider .flexslider ul.slides li.home-slider-5 .content h2 .top span {
     font-size: 56px;
     letter-spacing: -2px;
 }
+
 #homepage .home_slider .flexslider ul.slides li.home-slider-5 .content h2 .top .mobile{
     display: none;
-}
-@media screen and (max-width:1270px) {
-    #homepage .home_slider .flexslider ul.slides li.home-slider-5 .content h2 .top span {
-      
-    }
 }
 
 @media screen and (max-width:989px) {
     #homepage .home_slider .flexslider ul.slides li.home-slider-5 .content h2 .top span {
-            font-size: 51px;
-    letter-spacing: -2px;
+        font-size: 51px;
+        letter-spacing: -2px;
     }
 }
 
 @media screen and (max-width:767px) {
     #homepage .home_slider .flexslider ul.slides li.home-slider-5 .content h2 .top span {
-            letter-spacing: 2px;
-    font-size: 7.57vw;
- 
-    line-height: 8vw;
+        letter-spacing: 2px;
+        font-size: 7.57vw;
+        line-height: 8vw;
     }
-     #homepage .home_slider .flexslider ul.slides li.home-slider-5 .content h2 .top .desktop{
-         display: none;
-     }
-    #homepage .home_slider .flexslider ul.slides li.home-slider-5 .content h2 .top .mobile{
+    #homepage .home_slider .flexslider ul.slides li.home-slider-5 .content h2 .top .desktop {
+        display: none;
+    }
+    #homepage .home_slider .flexslider ul.slides li.home-slider-5 .content h2 .top .mobile {
         display: block;
     }
 }
 
-
-#homepage .home_slider .flexslider ul.slides li.home-slider-5 .content h2 .bottom {
-    font-size: 23px;
-    text-transform: none;
-    margin-top:7px;
-    
-}
-
-@media screen and (max-width:1270px) {
-    #homepage .home_slider .flexslider ul.slides li.home-slider-5 .content h2 .bottom {
-     
-    }
-}
-
 @media screen and (max-width:989px) {
-    #homepage .home_slider .flexslider ul.slides li.home-slider-5 .content h2 .bottom {
-     
-    }
     #homepage .home_slider .flexslider ul.slides li.home-slider-5 .content h2 .cta {
-    left: 75px;
+        left: 75px;
     }
 }
 @media screen and (max-width:836px){
@@ -1524,36 +1352,34 @@
     }
 }
 
+#homepage .home_slider .flexslider ul.slides li.home-slider-5 .content h2 .bottom {
+    font-family: "Proxima N W01 Reg";
+    font-size: 23px;
+    text-transform: none;
+    margin-top:7px;
+    letter-spacing: 2px;
+}
+
 @media screen and (max-width:767px) {
     #homepage .home_slider .flexslider ul.slides li.home-slider-5 .content h2 .bottom {
-         font-size: 5vw;
-    margin-top: 2px;
+        font-size: 5vw;
+        margin-top: 2px;
         line-height: 6vw;
     }
 }
 
-#homepage .home_slider .flexslider ul.slides li.home-slider-5 .content h2 .bottom span {
-  
-}
-
-@media screen and (max-width:767px) {
-    #homepage .home_slider .flexslider ul.slides li.home-slider-5 .content h2 .bottom span {
-        
+@media screen and (min-width:1300px) {
+    #homepage .home_slider .flexslider ul.slides li.home-slider-5 .content h2 .bottom {
+        letter-spacing: 5px;
     }
 }
 
 #homepage .home_slider .flexslider ul.slides li.home-slider-5 .content h2 .cta {
-    position: absolute;
+    /*position: absolute;*/
     left: 91px;
     /*left: 152px;*/
     margin-top:4%;
 
-}
-
-@media screen and (max-width:989px) {
-    #homepage .home_slider .flexslider ul.slides li.home-slider-5 .content .cta {
-       
-    }
 }
 
 @media screen and (max-width:767px) {
@@ -1563,49 +1389,7 @@
     }
 }
 
-#homepage .home_slider .flexslider ul.slides li.home-slider-5 .content .cta:hover {
-    
-}
-
-@media screen and (max-width:767px) {
-    #homepage .home_slider .flexslider ul.slides li.home-slider-5 .content .cta .arrow {
-       
-    }
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/* SLIDER 6 */
 #homepage .home_slider .container .flexslider .content ul.slides li.home-slider-6 {
     background-image: url(../public/images/home/slider/desktop/slider6.jpg);
     background-size: cover;
@@ -1635,7 +1419,7 @@
 @media screen and (max-width:767px) {
     #homepage .home_slider .flexslider ul.slides li.home-slider-6 {
         height: 0;
-        padding-top: 120.7%
+        /*padding-top: 120.7%*/
     }
 }
 #homepage .home_slider .flexslider ul.slides li.home-slider-6 .content {
@@ -1863,7 +1647,7 @@
 }
 
 #homepage .home_slider .flexslider ul.slides li.home-slider-6 .content .cta {
-    border-color: #ffffff;
+    border:none;
     margin-top: 18px;
     color: #ffffff;
 }
@@ -2054,11 +1838,6 @@
     overflow: hidden
 }
 
-@media screen and (max-width:1270px) {
-    #homepage .home_slider .flexslider ul.slides li.home-slider-7 .content h2 {
-
-    }
-}
 @media screen and (max-width:989px) {
     #homepage .home_slider .flexslider ul.slides li.home-slider-7 .content h2 {
         margin-right: initial;
@@ -2203,16 +1982,9 @@
 }
 
 #homepage .home_slider .flexslider ul.slides li.home-slider-7 .content .cta:hover {
-    background-color: #transparent;
+    background-color: transparent;
     border-color: #000000
 }
-
-@media screen and (max-width:767px) {
-    #homepage .home_slider .flexslider ul.slides li.home-slider-7 .content .cta .arrow {
-
-    }
-}
-
 
 
 
@@ -2374,10 +2146,6 @@
     overflow: hidden
 }
 
-@media screen and (max-width:1270px) {
-    #homepage .home_slider .flexslider ul.slides li.home-slider-8 .content h2 {
-    }
-}
 @media screen and (max-width:989px) {
     #homepage .home_slider .flexslider ul.slides li.home-slider-8 .content h2 {
         margin-top:70px;
@@ -2500,15 +2268,6 @@
     color: #00134a;
 }
 
-@media screen and (max-width:1270px) {
-    #homepage .home_slider .flexslider ul.slides li.home-slider-8 .content .cta {
-    }
-}
-@media screen and (max-width:989px) {
-    #homepage .home_slider .flexslider ul.slides li.home-slider-8 .content .cta {
-        margin-right: 0%;
-    }
-}
 @media screen and (max-width:767px) {
     #homepage .home_slider .flexslider ul.slides li.home-slider-8 .content .cta {
         margin-top:28vw;
@@ -2519,14 +2278,6 @@
     background-color: transparent;
     border-color: #00134a
 }
-
-@media screen and (max-width:767px) {
-    #homepage .home_slider .flexslider ul.slides li.home-slider-8 .content .cta .arrow {
-
-    }
-}
-
-
 
 
 
@@ -2804,10 +2555,6 @@
     color: #00134a;
 }
 
-@media screen and (max-width:1270px) {
-    #homepage .home_slider .flexslider ul.slides li.home-slider-9 .content .cta {
-    }
-}
 @media screen and (max-width:989px) {
     #homepage .home_slider .flexslider ul.slides li.home-slider-9 .content .cta {
         margin-right: 0%;
@@ -2823,13 +2570,6 @@
     background-color: transparent;
     border-color: #00134a
 }
-
-@media screen and (max-width:767px) {
-    #homepage .home_slider .flexslider ul.slides li.home-slider-9 .content .cta .arrow {
-
-    }
-}
-
 
 .cta {
     border: 2px solid

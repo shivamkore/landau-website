@@ -1,0 +1,98 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>@(ViewBag.Title != null ? ViewBag.Title : "")</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=0">
+    <meta name="description" content="@(ViewBag.Description != null ? ViewBag.Description : "")">
+    <meta name="author" content="SitePoint">
+
+    @if (ViewBag.HasNoFollow != null && ViewBag.HasNoFollow)
+    {
+        <META NAME="ROBOTS" CONTENT="NOINDEX, NOFOLLOW">
+    }
+
+    @if (!string.IsNullOrEmpty(ViewBag.CanonicalUrl))
+    {
+        <link rel="canonical" href="@ViewBag.CanonicalUrl" />
+    }
+
+    <link type="text/css" rel="stylesheet" href="http://fast.fonts.net/cssapi/b673da3c-c126-4aa2-a91f-4e32bafc223e.css">
+    <link rel="stylesheet" href="~/public/css/bootstrap.min.css">
+    <link rel="stylesheet" href="~/public/css/rewards.min.css">
+
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="header-menu">
+                <ul>
+                    <li>
+                        <a href="#"><img srcset="public/images/header/landau_logo.svg" alt="Landau" /></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </header>
+
+    <div>
+        @RenderBody()
+    </div>
+
+    <footer>
+        <div class="container">
+            <div class="col-md-6">
+                <div class="copyright">
+                    <span>All Materials Copyright &copy; @DateTime.Today.Year.ToString() by Landau Uniforms.</span>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="footer-menu">
+                    <ul>
+                        <li><a href="#">Contact Us</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">FAQ</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="~/public/js/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+
+    <!-- Google Tag Manager -->
+    <noscript>
+        <iframe src="//www.googletagmanager.com/ns.html?id=GTM-MQJK52"
+                height="0" width="0" style="display:none;visibility:hidden"></iframe>
+    </noscript>
+    <script>
+        (function (w, d, s, l, i) {
+            w[l] = w[l] || []; w[l].push({
+                'gtm.start':
+                new Date().getTime(), event: 'gtm.js'
+            }); var f = d.getElementsByTagName(s)[0],
+            j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+            '//www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-MQJK52');
+    </script>
+    <!-- End Google Tag Manager -->
+
+    <!-- Sailplay -->
+    <script src="https://cdn.rawgit.com/iamthegoodbot/skazka_loyalty_page/2.1.14/dist/prod/sailplay-magic.js"></script>
+    <sailplay-magic></sailplay-magic>
+    <script>
+
+    var magic = new SAILPLAY.Magic({
+
+      partner_id: "1686",
+      domain: "http://spcrm.landau.com",
+      lang:  "en",
+      config: "landau"
+
+    });
+    </script>
+    <!-- Sailplay End -->
+
+</body>
+</html>
