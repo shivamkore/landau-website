@@ -19,19 +19,10 @@
     <h1 class="title" itemprop="name">@Model.ProductDetail.Name</h1>
     <div class="sku">@Model.ProductDetail.Code</div>
 
-    <div class="star-rating-container">
-        @{
-            var stars = (int)Math.Truncate((Decimal)Model.ProductReviews.Average);
-        }
-        @Html.Partial("~/Views/Partials/Detail/_RatingStarsPartial.cshtml", stars)
-        <div class="review-count">
-            @Model.ProductReviews.Pagination.TotalCount.ToString() Reviews
-        </div>
-    </div>
+    <!-- Summary Container goes above the fold near product name or image -->
+    <div id="BVRRSummaryContainer"></div>
 
-    <a href="@UrlBuilder.BuildProductReviewUrl(Model.Breadcrumb, Model.ProductDetail.Code, Model.ProductDetail.Name)" class="write_review">Write a Review</a>
     <div class="description_title">Description</div>
-
     <div class="description">
         @Html.Raw(Model.ProductDetail.Description)
     </div>
@@ -40,7 +31,7 @@
         <a class="buy_now_button where_to_buy" href="#" data-toggle="modal" data-target="#myModal">
             <div>Buy Online</div>
         </a>
-        <a href="@UrlBuilder.BuildFullUrl(UrlEnum.WHERE_TO_BUY)" class="where_to_buy">Buy In Store</a>
+        <a id="buy_in_store" href="#" class="where_to_buy">Buy In Store</a>
     </div>
 
     <div class="favorites_container">

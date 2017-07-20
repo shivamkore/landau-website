@@ -1,6 +1,13 @@
 ﻿@using ZtherApiIntegration.Models.Detail
 @model DetailModel
 
+<!-- load BazaarVoice Scripts -->
+<script type="text/javascript" src="@System.Configuration.ConfigurationManager.AppSettings["bvpixel-js"].ToString()"></script>
+<script type="text/javascript" src="@System.Configuration.ConfigurationManager.AppSettings["bvapi-js"].ToString()"></script>
+
+<!-- schema.org Markup -->
+<div itemscope itemtype="https://schema.org/Product"> 
+
 <div id="detail_page">
     <div class="modal_overlay"></div>
     <div class="detail_modal">
@@ -25,16 +32,29 @@
 
     </div>
 
-    @if (Model.ProductCoordinates.Count > 0)
-    {
-        <div class="center_container">
-            <!-- Coordinates With Partial -->
-            @Html.Partial("~/Views/Partials/Detail/_CoordinatesWithPartial.cshtml", Model)
-        </div>
-    }
-    
-    <!-- Customer Reviews Partial -->
-    @Html.Partial("~/Views/Partials/Detail/_CustomerReviewsPartial.cshtml", Model)
+    <!-- Ratings and Reviews Container goes below product description -->
+    <div id="BVRRContainer"></div>
+    <script type="text/javascript">
+        $BV.ui('rr', 'show_reviews', {
+            doShowContent: function () {
+                // If the container is hidden (such as behind a tab), put code here to make it visible
+                //(open the tab).
+            }
+        });
+    </script>
+
+    <!-- Q&A code -->
+    <div id="BVQAContainer"></div>
+    <script type="text/javascript">
+        $BV.ui('qa', 'show_questions', {
+            doShowContent: function () {
+                // If the container is hidden (such as behind a tab), put code here to make it visible
+                //(open the tab).
+            }
+        });
+    </script>
+
+</div>
 
 </div>
 
@@ -71,6 +91,7 @@
 
 
 <script src="public/js/logic/detail.js"></script>
+
 <script type="text/javascript">
     setValues('@Model.ProductDetail.Code', '@Model.ProductDetail.DefaultColorCode', '@(Model.ColorsAndSizes.ProductCategorySizes.Count > 0 ? Model.ColorsAndSizes.ProductCategorySizes[0] : "")');
 </script>
@@ -78,3 +99,4 @@
 <script>
     fbq('track', 'ViewContent');
 </script>
+
