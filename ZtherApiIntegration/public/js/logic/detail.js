@@ -46,9 +46,6 @@ $(function () {
     
     // BazaarVoice Event Registrations.
     var productCode = $('div.sku').text();
-
-    //// BazaarVoice - Display Integration.
-    $BV.configure('global', { productId: productCode });
     
     // BazaarVoice - register when user clicks the Buy Online.
     $('#myModal').on('shown.bs.modal', function () {

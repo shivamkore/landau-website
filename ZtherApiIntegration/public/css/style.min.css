@@ -12203,7 +12203,7 @@ textarea {
                 position: absolute;
                 top: 115px;
                 left: 0;
-                z-index: 4;
+                z-index: 10;
                 width: 100%;
                 background-color: #f7f7f7;
                 font-family: Proxima N W01 Bold
