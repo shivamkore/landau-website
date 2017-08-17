@@ -1,9 +1,6 @@
 ﻿@using ZtherApiIntegration.Models.Detail
 @model DetailModel
 
-<!-- load BazaarVoice Scripts -->
-<script type="text/javascript" src="@System.Configuration.ConfigurationManager.AppSettings["bvpixel-js"].ToString()"></script>
-
 <!-- BazaarVoice schema.org Markup -->
 <div itemscope itemtype="https://schema.org/Product">
 
@@ -21,6 +18,7 @@
             @Html.Partial("~/Views/Partials/Detail/_SizeChartPartial.cshtml", Model)
 
         </div>
+
         <div class="detail_top">
 
             <!-- Detail Left Partial  -->
@@ -31,9 +29,7 @@
 
         </div>
 
-        <div data-bv-show="reviews" data-bv-productId="@Model.ProductDetail.Code"></div>
-
-        @*<div data-bv-show="questions" data-bv-productId="@Model.ProductDetail.Code"></div>*@
+        <div data-bv-show="reviews" data-bv-productId="@Model.ProductDetail.Code.ToUpper()">@Html.Raw(ViewBag.OutputReviews)</div>
 
     </div>
 
@@ -80,3 +76,5 @@
     fbq('track', 'ViewContent');
 </script>
 
+<!-- load BazaarVoice Scripts -->
+<script type="text/javascript" src="@System.Configuration.ConfigurationManager.AppSettings["bvpixel-js"].ToString()"></script>
