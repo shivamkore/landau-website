@@ -61,7 +61,7 @@ namespace ZtherApiIntegration.Controllers
                 bvConfig.addProperty(BVClientConfig.STAGING, "true");
 
                 //Prepare pageURL and SubjectID/ProductID values.	
-                String subjectID = product;
+                String subjectID = product.Trim().ToUpper();
                 String pageURL = Request.Url.ToString();
 
                 //Set BV Parameters that are specific to the page and content type.
