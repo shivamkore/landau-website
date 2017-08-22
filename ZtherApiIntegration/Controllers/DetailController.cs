@@ -16,6 +16,7 @@ using BVSeoSdkDotNet.Config;
 using BVSeoSdkDotNet.Content;
 using BVSeoSdkDotNet.Model;
 using BVSeoSdkDotNet.BVException;
+using System.Configuration;
 
 namespace ZtherApiIntegration.Controllers
 {
@@ -53,12 +54,16 @@ namespace ZtherApiIntegration.Controllers
                 #region BAZAAR VOICE
                 /** BAZAAR VOICE - BEGIN ***********************/
 
+                var bvseoKey = ConfigurationManager.AppSettings["bvseo-key"].ToString();
+                var bvseoRootFolder = ConfigurationManager.AppSettings["bvseo-root-folder"].ToString();
+                var bvseoStaging = ConfigurationManager.AppSettings["bvseo-staging"].ToString();
+
                 //Establish a new BVConfiguration. Properties within this configuration are typically set in bvconfig.properties.  
                 //addProperty can be used to override configurations set in bvconfig.properties.
                 BVConfiguration bvConfig = new BVSdkConfiguration();
-                bvConfig.addProperty(BVClientConfig.CLOUD_KEY, "landauuniforms-e0b53e88915e9e9d8fbaeeb9170629e8");
-                bvConfig.addProperty(BVClientConfig.BV_ROOT_FOLDER, "landau-en_US"); //adjust this for each locale
-                bvConfig.addProperty(BVClientConfig.STAGING, "true");
+                bvConfig.addProperty(BVClientConfig.CLOUD_KEY, bvseoKey);
+                bvConfig.addProperty(BVClientConfig.BV_ROOT_FOLDER, bvseoRootFolder); //adjust this for each locale
+                bvConfig.addProperty(BVClientConfig.STAGING, bvseoStaging);
 
                 //Prepare pageURL and SubjectID/ProductID values.	
                 String subjectID = product.Trim().ToUpper();
