@@ -9,7 +9,7 @@
 #validation-page {
     text-align: center;
     padding: 160px 20px 300px;
-    max-width: 570px;
+    max-width: 570px; 
     width: 100%;
     margin: auto
 }
@@ -7052,6 +7052,98 @@ textarea::-ms-clear {
     color: #7fd4da!important
 }
 
+#collections .collections_container .inner .block.block5 .overlay_img {
+    background-image: url(../images/collections/collections/allday.jpg)
+}
+
+#collections .collections_container .inner .block.block5 .content {
+    padding-top: 230px;
+    padding-right: 320px
+}
+
+#collections .collections_container .inner .block.block5 .content .top {
+    color: #fff;
+    font-size: 1.1em;
+    letter-spacing: .35em;
+    text-align: center;
+    margin-left: .35em
+}
+
+#collections .collections_container .inner .block.block5 .content .title {
+    color: #2e4ca2;
+    font-size: 3.5em;
+    line-height: 1.1em;
+    text-align: center
+}
+
+#collections .collections_container .inner .block.block5 .content img {
+    margin-top: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+}
+
+#collections .collections_container .inner .block.block5 .content .bottom {
+    text-align: center
+}
+
+#collections .collections_container .inner .block.block5 .content .cta {
+    border-color: #475677;
+    color: #475677
+}
+
+#collections .collections_container .inner .block.block5 .content .cta.cta-hover {
+    background-color: #fff !important;
+    border-color: #fff !important;
+    color: #475677 !important
+}
+
+#collections .collections_container .inner .block.block6 .overlay_img {
+    background-image: url(../images/collections/collections/prewashed.jpg)
+}
+
+#collections .collections_container .inner .block.block6 .content {
+    padding-top: 230px;
+    padding-right: 230px
+}
+
+#collections .collections_container .inner .block.block6 .content .top {
+    color: #fff;
+    font-size: 1.1em;
+    letter-spacing: .35em;
+    text-align: center;
+    margin-left: .35em
+}
+
+#collections .collections_container .inner .block.block6 .content .title {
+    color: #2e4ca2;
+    font-size: 3.5em;
+    line-height: 1.1em;
+    text-align: center
+}
+
+#collections .collections_container .inner .block.block6 .content img {
+    margin-top: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+}
+
+#collections .collections_container .inner .block.block6 .content .bottom {
+    text-align: center
+}
+
+#collections .collections_container .inner .block.block6 .content .cta {
+    border-color: #475677;
+    color: #475677
+}
+
+#collections .collections_container .inner .block.block6 .content .cta.cta-hover {
+    background-color: #fff !important;
+    border-color: #fff !important;
+    color: #475677 !important
+}
+
 #collections .collections_container .inner .block:nth-child(2n) {
     margin-right: 15px
 }
@@ -7236,6 +7328,22 @@ textarea::-ms-clear {
         font-size: .65em;
         padding: 5px 16px 8px 12px
     }
+
+    #collections .collections_container .inner .block.block5 .overlay_img {
+        background-image: url(../images/collections/collections/allday_990.jpg)
+    }
+
+    #collections .collections_container .inner .block.block5 .content {
+        padding-top: 160px;
+    }
+
+    #collections .collections_container .inner .block.block6 .overlay_img {
+        background-image: url(../images/collections/collections/prewashed_990.jpg)
+    }
+
+    #collections .collections_container .inner .block.block6 .content {
+        padding-top: 160px;
+    }
 }
 
 @media only screen and (max-width:989px) {
@@ -7398,6 +7506,18 @@ textarea::-ms-clear {
         font-family: Proxima N W01 Smbd;
         font-size: 1em;
         padding: 18px 43px 18px 39px
+    }
+
+    #collections .collections_container .inner .block.block5 .content {
+        background-image: url(../images/collections/collections/allday_768.jpg);
+        padding-top: 255px;
+        padding-right: 360px
+    }
+
+    #collections .collections_container .inner .block.block6 .content {
+        background-image: url(../images/collections/collections/prewashed_768.jpg);
+        padding-top: 255px;
+        padding-right: 360px
     }
 }
 
@@ -7672,6 +7792,28 @@ textarea::-ms-clear {
         font-size: 13px;
         top: 2px;
         left: -2px
+    }
+
+    #collections .collections_container .inner .block.block5 .content {
+        background-image: url(../images/collections/collections/allday_640.jpg);
+        padding-top: 68.5%;
+    }
+
+    #collections .collections_container .inner .block.block5 .content .cta {
+        top: 55%;
+        margin-top: 0;
+        left: 8%;
+    }
+
+    #collections .collections_container .inner .block.block6 .content {
+        background-image: url(../images/collections/collections/prewashed_640.jpg);
+        padding-top: 68.5%;
+    }
+
+    #collections .collections_container .inner .block.block6 .content .cta {
+        top: 55%;
+        margin-top: 0;
+        left: 8%;
     }
 }
 
@@ -20618,4 +20760,6 @@ textarea::-ms-clear {
         padding: 0 42px;
         letter-spacing: .2em
     }
-}#homepage .categories .container .new_arrivals .block
+}
+
+/*#homepage .categories .container .new_arrivals .block*/

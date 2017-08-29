@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Configuration;
 using System.Globalization;
 using System.Linq;
 using System.Web;
@@ -16,7 +17,6 @@ using BVSeoSdkDotNet.Config;
 using BVSeoSdkDotNet.Content;
 using BVSeoSdkDotNet.Model;
 using BVSeoSdkDotNet.BVException;
-using System.Configuration;
 
 namespace ZtherApiIntegration.Controllers
 {
