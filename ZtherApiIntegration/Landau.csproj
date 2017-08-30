@@ -34,6 +34,7 @@
     <TargetFrameworkProfile />
     <NuGetPackageImportStamp>
     </NuGetPackageImportStamp>
+    <Use64BitIISExpress />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -460,6 +461,14 @@
     <Content Include="public\css\style.min.css">
       <DependentUpon>style.css</DependentUpon>
     </Content>
+    <Content Include="public\images\collections\collections\allday.jpg" />
+    <Content Include="public\images\collections\collections\allday_640.jpg" />
+    <Content Include="public\images\collections\collections\allday_768.jpg" />
+    <Content Include="public\images\collections\collections\allday_990.jpg" />
+    <Content Include="public\images\collections\collections\prewashed.jpg" />
+    <Content Include="public\images\collections\collections\prewashed_640.jpg" />
+    <Content Include="public\images\collections\collections\prewashed_768.jpg" />
+    <Content Include="public\images\collections\collections\prewashed_990.jpg" />
     <Content Include="public\images\header\banner3.jpg" />
     <Content Include="public\images\home\category\acd_bg_mobile_lg.jpg" />
     <Content Include="public\images\home\category\adc_bg.jpg" />
