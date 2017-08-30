@@ -117,7 +117,9 @@ namespace ZtherApiIntegration.Controllers
 
             model.Filters.FilterDisplay = model.ProductList.FilterDisplay;
             model.ProductList.DisplaySlider = !((category == "other-products") ||
+                                                (category == "new-arrivals") ||
                                                 (genderFilter == Constants.WOMEN_GENDER && category == "pre-washed") ||
+                                                (genderFilter == Constants.MEN_GENDER && category == "pre-washed") ||
                                                 (genderFilter == Constants.MEN_GENDER && category == "mens-ripstop"));
 
             ViewBag.Title = model.ProductList.Seo.PageTitle;

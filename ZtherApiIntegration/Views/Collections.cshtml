@@ -6,173 +6,67 @@
 <div id="collections">
 
     <div class="seasonal_container" style="padding-bottom: 0;">
-        @*<div class="inner">
-            <div class="info_slider">
-                <div class="flexslider">
-                    <div class="content">
-                        <ul class="slides">
-							<li>
-								<div class="content">
-									<h1 class="top">Collections</h1>
-									<div class="body">At Landau we pride ourselves on creating collections of medical clothing that can meet your needs.  Whether you work in a hospital, general practitioner or a dentist’s office we know that providing you options in your work wardrobe is essential to you looking and feeling your best.</div>
-								</div>
-							</li>
-							<li>
-								<div class="content">
-									<h2 class="top">Collections</h2>
-									<div class="body">Each season Landau works hard to provide you both seasonal and traditional options to keep your wardrobe looking its best.</div>
-								</div>
-							</li>
-							<li>
-								<div class="content">
-									<h2 class="top">Collections</h2>
-									<div class="body"> We offer medical scrubs for all types of professional needs: Surgical scrubs, hospital scrubs, nursing scrubs, dental scrubs and even veterinary scrubs. And with a variety of styles available you are sure to find the right fit for you and your personal style.</div>
-								</div>
-							</li>
-							<li>
-								<div class="content">
-									<h2 class="top">Collections</h2>
-									<div class="body">With so many options for scrubs available today Landau is committed to creating styles to meet the demands of the busy medical professional. That’s why we have designed all of our medical scrub lines with your comfort in mind.</div>
-								</div>
-							</li>
-							<li>
-								<div class="content">
-									<h2 class="top">Collections</h2>
-									<div class="body">Landau offers a broad range of uniforms, scrubs and related products that are comfortable and designed to last. Whether you’re looking for customization, specialty sizes embroidery and more, we have it.</div>
-								</div>
-							</li>
-						</ul>
-                    </div>
-                </div>
-            </div>
-
-            <div class="top_divider"></div>
-
-    <h1 class="title">Seasonal Collections</h1>
-
-    <div class="seasonal_container">
-        <div class="inner">
-            <div class="category_container left shoreline">
-                @if (Model.Count > 1)
-                {
-                    @Html.Partial("~/Views/Partials/Collections/_CollectionPartial.cshtml", Model[1])
-                }
-            </div>
-            <div class="hero">
-                <a href="@(Model.Count>1 ? UrlBuilder.BuildCollectionUrl(Model[1].Gender, Model[1].Code) : "#")">
-                   <div class="content promo2">
-
-                    </div>
-                    <picture>
-                        <!--[if IE 9]><video style="display: none;"><![endif]-->
-                        <source srcset="public/images/collections/seasonal/shoreline/product_main_1.jpg" media="(min-width: 1271px)" />
-                        <source srcset="public/images/collections/seasonal/shoreline/lemon_tile.jpg" media="(min-width: 990px)" />
-                        <!--[if IE 9]></video><![endif]-->
-                        <img class="img" srcset="public/images/collections/seasonal/shoreline/lemon_tile.jpg" alt="Painterly Nights" title="Painterly Nights" />
-                    </picture>
-
-                </a>
-            </div>
-            @if (Model.Count>1 && Model[1].Products.Count > 4)
-            {
-                <div class="bottom_container">
-                    <a class="see_more_cta" href="@(Model.Count>1 ? UrlBuilder.BuildCollectionUrl(Model[1].Gender, Model[1].Code) : "#")">See More<span class="arrow">&#xe805;</span></a>
-                </div>
-            }
-        </div>
-    </div>
-
-    <div class="seasonal_container">
-        <div class="inner">
-            <div class="hero">
-                <a href="@(Model.Count>2 ? UrlBuilder.BuildCollectionUrl(Model[2].Gender, Model[2].Code) : "#")">
-                    <div class="content promo3">
-                       
-                    </div>
-                    <picture>
-                        <!--[if IE 9]><video style="display: none;"><![endif]-->
-                        <source srcset="public/images/collections/seasonal/shoreline/product_main_2.jpg" media="(min-width: 1271px)" />
-                        <source srcset="public/images/collections/seasonal/shoreline/shoreline_tile.jpg" media="(min-width: 990px)" />
-                        <!--[if IE 9]></video><![endif]-->
-                        <img class="img" srcset="public/images/collections/seasonal/shoreline/shoreline_tile.jpg" alt="Falling Water" title="Falling Water" />
-                    </picture>
-                </a>
-            </div>
-            <div class="category_container right promo3">
-                @if (Model.Count > 2)
-                {
-                    @Html.Partial("~/Views/Partials/Collections/_CollectionPartial.cshtml", Model[2])
-                }
-            </div>
-            @if (Model.Count>0 && Model[2].Products.Count > 4)
-            {
-                <div class="bottom_container">
-                    <a class="see_more_cta" href=@(Model.Count>2 ? UrlBuilder.BuildCollectionUrl(Model[2].Gender, Model[2].Code) : "#")>See More<span class="arrow">&#xe805;</span></a>
-                </div>
-            }
-        </div>
-    </div>*@
-
-    <div class="collections_container">
-        <div class="inner">
-            <br /><br /><br />
-            <div class="title">Collections</div>
-            <a href="@UrlBuilder.BuildCategoryUrl("male", UrlBuilder.CATALOG_TOPS)">
-                <div class="block1 block">
-                    <div class="shadow"></div>
-                    <div class="overlay_img"></div>
-                    <div class="content">
-                        <div class="top fit_text">Landau</div>
-                        <div class="title fit_text">For Men</div>
-                        <div class="cta">Shop Now <span class="arrow">&#xe805;</span></div>
-                    </div>
-                </div>
-            </a>
-            <a href="@(UrlBuilder.BuildCollectionUrl("women","lynx"))">
-                <div class="block2 block">
-                    <div class="shadow"></div>
-                    <div class="overlay_img"></div>
-                    <div class="content">
-                        <div class="top fit_text">Introducing</div>
-                        <div class="title fit_text">Lynx</div>
-                        <div class="cta">Shop Now <span class="arrow">&#xe805;</span></div>
-                    </div>
-                </div>
-            </a>
-            <a href="@(UrlBuilder.BuildCollectionUrl("women","scrubzone"))">
-                <div class="block3 block">
-                    <div class="shadow"></div>
-                    <div class="overlay_img"></div>
-                    <div class="content">
-                        <div class="top fit_text">Comfort & Value</div>
-                        <div class="title fit_text">Scrubzone</div>
-                        <picture>
-                            <!--[if IE 9]><video style="display: none;"><![endif]-->
-                            <source srcset="public/images/collections/collections/scrubzone_logo.png" media="(min-width: 1271px)" />
-                            <source srcset="public/images/collections/collections/scrubzone_logo_990.png" media="(min-width: 990px)" />
-                            <source srcset="public/images/collections/collections/scrubzone_logo_768.png" media="(min-width: 768px)" />
-                            <!--[if IE 9]></video><![endif]-->
-                            <img class="img" srcset="public/images/collections/collections/scrubzone_logo_640.png" alt="Scrubzone" title="Scrubzone" />
-                        </picture>
-                        <div class="bottom fit_text">
-                            by
-                            <span>Landau</span>
+        <div class="collections_container">
+            <div class="inner">
+                <br /><br /><br />
+                <div class="title">Collections</div>
+                <a href="@UrlBuilder.BuildCategoryUrl("male", UrlBuilder.CATALOG_TOPS)">
+                    <div class="block1 block">
+                        <div class="shadow"></div>
+                        <div class="overlay_img"></div>
+                        <div class="content">
+                            <div class="top fit_text">Landau</div>
+                            <div class="title fit_text">For Men</div>
+                            <div class="cta">Shop Now <span class="arrow">&#xe805;</span></div>
                         </div>
-                        <div class="cta">Shop Now <span class="arrow">&#xe805;</span></div>
                     </div>
-                </div>
-            </a>
-            <a href="@(UrlBuilder.BuildCollectionUrl("men","for-groups"))">
-                <div class="block4 block">
-                    <div class="shadow"></div>
-                    <div class="overlay_img"></div>
-                    <div class="content">
-                        <div class="top fit_text">Landau</div>
-                        <div class="title fit_text">Groups</div>
-                        <div class="cta">Shop Now <span class="arrow">&#xe805;</span></div>
+                </a>
+                <a href="@(UrlBuilder.BuildCollectionUrl("women","lynx"))">
+                    <div class="block2 block">
+                        <div class="shadow"></div>
+                        <div class="overlay_img"></div>
+                        <div class="content">
+                            <div class="top fit_text">Introducing</div>
+                            <div class="title fit_text">Lynx</div>
+                            <div class="cta">Shop Now <span class="arrow">&#xe805;</span></div>
+                        </div>
                     </div>
-                </div>
-            </a>
+                </a>
+                <a href="@(UrlBuilder.BuildCollectionUrl("women","scrubzone"))">
+                    <div class="block3 block">
+                        <div class="shadow"></div>
+                        <div class="overlay_img"></div>
+                        <div class="content">
+                            <div class="top fit_text">Comfort & Value</div>
+                            <div class="title fit_text">Scrubzone</div>
+                            <picture>
+                                <!--[if IE 9]><video style="display: none;"><![endif]-->
+                                <source srcset="public/images/collections/collections/scrubzone_logo.png" media="(min-width: 1271px)" />
+                                <source srcset="public/images/collections/collections/scrubzone_logo_990.png" media="(min-width: 990px)" />
+                                <source srcset="public/images/collections/collections/scrubzone_logo_768.png" media="(min-width: 768px)" />
+                                <!--[if IE 9]></video><![endif]-->
+                                <img class="img" srcset="public/images/collections/collections/scrubzone_logo_640.png" alt="Scrubzone" title="Scrubzone" />
+                            </picture>
+                            <div class="bottom fit_text">
+                                by
+                                <span>Landau</span>
+                            </div>
+                            <div class="cta">Shop Now <span class="arrow">&#xe805;</span></div>
+                        </div>
+                    </div>
+                </a>
+                <a href="@(UrlBuilder.BuildCollectionUrl("men","for-groups"))">
+                    <div class="block4 block">
+                        <div class="shadow"></div>
+                        <div class="overlay_img"></div>
+                        <div class="content">
+                            <div class="top fit_text">Landau</div>
+                            <div class="title fit_text">Groups</div>
+                            <div class="cta">Shop Now <span class="arrow">&#xe805;</span></div>
+                        </div>
+                    </div>
+                </a>
+            </div>
         </div>
     </div>
 </div>
