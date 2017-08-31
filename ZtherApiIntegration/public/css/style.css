@@ -7710,11 +7710,11 @@ textarea {
         color: #2e4ca2
     }
 
-        #collections .collections_container .inner .block.block3 .content .cta.cta-hover {
-            background-color: #fff !important;
-            border-color: #fff !important;
-            color: #2e4ca2 !important
-        }
+    #collections .collections_container .inner .block.block3 .content .cta.cta-hover {
+        background-color: #fff !important;
+        border-color: #fff !important;
+        color: #2e4ca2 !important
+    }
 
 #collections .collections_container .inner .block.block4 .overlay_img {
     background-image: url(../images/collections/collections/landau_groups.jpg)
@@ -7740,11 +7740,51 @@ textarea {
         color: #fff
     }
 
-        #collections .collections_container .inner .block.block4 .content .cta.cta-hover {
-            background-color: #fff !important;
-            border-color: #fff !important;
-            color: #7fd4da !important
-        }
+    #collections .collections_container .inner .block.block4 .content .cta.cta-hover {
+        background-color: #fff !important;
+        border-color: #fff !important;
+        color: #7fd4da !important
+    }
+
+#collections .collections_container .inner .block.block5 .overlay_img {
+    background-image: url(../images/collections/collections/allday.jpg)
+}
+
+#collections .collections_container .inner .block.block5 .content .cta {
+    margin-top: 230px;
+    margin-left: 80px;
+}
+
+#collections .collections_container .inner .block.block5 .content .cta {
+    border-color: #465776;
+    color: #465776
+}
+
+#collections .collections_container .inner .block.block5 .content .cta.cta-hover {
+    background-color: #fff !important;
+    border-color: #fff !important;
+    color: #465776 !important
+}
+
+#collections .collections_container .inner .block.block6 .overlay_img {
+    background-image: url(../images/collections/collections/prewashed.jpg)
+}
+
+#collections .collections_container .inner .block.block6 .content .cta {
+    margin-top: 200px;
+    margin-left: 100px;
+}
+
+#collections .collections_container .inner .block.block6 .content .cta {
+    border-color: #465776;
+    color: #465776
+}
+
+#collections .collections_container .inner .block.block6 .content .cta.cta-hover {
+    background-color: #fff !important;
+    border-color: #fff !important;
+    color: #465776 !important
+}
 
 #collections .collections_container .inner .block:nth-child(2n) {
     margin-right: 15px
@@ -7956,12 +7996,30 @@ textarea {
             height: 320px
         }
 
-            #collections .collections_container .inner .block .content .cta {
-                margin-top: 17px;
-                font-family: Proxima N W01 Bold;
-                font-size: .65em;
-                padding: 5px 16px 8px 12px
-            }
+        #collections .collections_container .inner .block .content .cta {
+            margin-top: 17px;
+            font-family: Proxima N W01 Bold;
+            font-size: .65em;
+            padding: 5px 16px 8px 12px
+        }
+
+        #collections .collections_container .inner .block.block5 .overlay_img {
+            background-image: url(../images/collections/collections/allday_990.jpg)
+        }
+
+        #collections .collections_container .inner .block.block5 .content .cta {
+            margin-top: 180px;
+            margin-left: 60px;
+        }
+
+        #collections .collections_container .inner .block.block6 .overlay_img {
+            background-image: url(../images/collections/collections/prewashed_990.jpg)
+        }
+
+        #collections .collections_container .inner .block.block6 .content .cta {
+            margin-top: 160px;
+            margin-left: 100px;
+        }
 }
 
 @media only screen and (max-width:989px) {
@@ -8162,6 +8220,26 @@ textarea {
                 font-size: 1em;
                 padding: 18px 43px 18px 39px
             }
+
+        #collections .collections_container .inner .block.block5 .content {
+            background-image: url(../images/collections/collections/allday_768.jpg);
+            padding-top: 142px;
+        }
+
+        #collections .collections_container .inner .block.block5 .content .cta {
+            margin-top: 140px;
+            margin-left: 100px;
+        }
+
+        #collections .collections_container .inner .block.block6 .content {
+            background-image: url(../images/collections/collections/prewashed_768.jpg);
+            padding-top: 142px;
+        }
+
+        #collections .collections_container .inner .block.block6 .content .cta {
+            margin-top: 100px;
+            margin-left: 100px;
+        }
 }
 
 @media only screen and (max-width:767px) {
@@ -8464,33 +8542,61 @@ textarea {
                     margin-top: 0
                 }
 
-            #collections .collections_container .inner .block:nth-child(n+4) {
-                margin-top: 6px
-            }
+    #collections .collections_container .inner .block.block5 .content
+    {
+        background-image: url(../images/collections/collections/allday_640.jpg);
+        background-repeat: no-repeat;
+        padding-top: 68.5%;
+                
+    }
 
-            #collections .collections_container .inner .block .content {
-                background-size: contain;
-                background-repeat: no-repeat;
-                height: 0;
-                width: 100%
-            }
+    #collections .collections_container .inner .block.block5 .content .cta {
+        top: 55%;
+        left: 8%;
+        margin-top: 0;
+        margin-left: 0;
+    }
 
-                #collections .collections_container .inner .block .content .cta {
-                    position: absolute;
-                    margin-top: 21px;
-                    font-family: Proxima N W01 Bold;
-                    font-size: .5em;
-                    letter-spacing: .1em;
-                    white-space: nowrap;
-                    line-height: 16px;
-                    padding: 7px 13px
-                }
+    #collections .collections_container .inner .block.block6 .content {
+        background-image: url(../images/collections/collections/prewashed_640.jpg);
+        background-repeat: no-repeat;
+        padding-top: 68.5%;
+    }
 
-                    #collections .collections_container .inner .block .content .cta .arrow {
-                        font-size: 13px;
-                        top: 2px;
-                        left: -2px
-                    }
+    #collections .collections_container .inner .block.block6 .content .cta {
+        top: 50%;
+        left: 8%;
+        margin-top: 0;
+        margin-left: 0;
+    }
+
+    #collections .collections_container .inner .block:nth-child(n+4) {
+        margin-top: 6px
+    }
+
+    #collections .collections_container .inner .block .content {
+        background-size: contain;
+        background-repeat: no-repeat;
+        height: 0;
+        width: 100%
+    }
+
+    #collections .collections_container .inner .block .content .cta {
+        position: absolute;
+        margin-top: 21px;
+        font-family: Proxima N W01 Bold;
+        font-size: .5em;
+        letter-spacing: .1em;
+        white-space: nowrap;
+        line-height: 16px;
+        padding: 7px 13px
+    }
+
+    #collections .collections_container .inner .block .content .cta .arrow {
+        font-size: 13px;
+        top: 2px;
+        left: -2px
+    }
 }
 
 #catalog_container {
