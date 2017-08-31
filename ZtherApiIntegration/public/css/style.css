@@ -599,7 +599,7 @@ textarea {
             }
 
                 #main_header #main_nav ul li.dropdown .dropdown-menu ul.ul-category .dropdown-header {
-                    font-family: Proxima N W01 Smbd;
+                    font-family: Proxima N W01 Bold;
                     color: #2b3752;
                     font-size: 1.2em;
                     font-weight: 700;
@@ -635,7 +635,7 @@ textarea {
             #main_header #main_nav ul li.dropdown .dropdown-menu .banner-container {
                 background-color: #bfddeb;
                 text-align: center;
-                font-family: Proxima N W01 Smbd;
+                font-family: Proxima N W01 Bold;
                 margin-left: 20px;
                 -webkit-transition: opacity .25s ease-in-out;
                 transition: opacity .25s ease-in-out
@@ -1704,7 +1704,7 @@ textarea {
     }
 
         #main_footer .mailing_list .clearfix .text h4 {
-            font-family: Proxima N W01 Smbd;
+            font-family: Proxima N W01 Bold;
             font-size: 15px;
             top: 0;
             left: -11px;
@@ -1920,7 +1920,7 @@ textarea {
 
     #left_nav .breadcrumbs {
         font-size: .9em;
-        font-family: Proxima N W01 Smbd
+        font-family: Proxima N W01 Bold
     }
 
         #left_nav .breadcrumbs a {
@@ -2052,24 +2052,25 @@ textarea {
     }
 
         #homepage .home_slider .flexslider ul.slides li {
-            height: 586px
+            /* height: 586px*/
         }
 
 @media screen and (max-width:1270px) {
     #homepage .home_slider .flexslider ul.slides li {
-        height: 510px
+        /*height: 510px*/
     }
 }
 
 @media screen and (max-width:989px) {
     #homepage .home_slider .flexslider ul.slides li {
-        height: 486px
+        /* height: 486px*/
     }
 }
 
 @media screen and (max-width:767px) {
     #homepage .home_slider .flexslider ul.slides li {
-        /*padding-top: 118.7%*/
+        height: 0;
+        /* padding-top: 118.7%*/
     }
 }
 
@@ -2202,7 +2203,7 @@ textarea {
 }
 
 #homepage .home_slider .flexslider ul.slides li.home-slider-1 .content h2 .middle {
-    font-family: Bauer Bodoni W01 Bold_795736;
+    font-family: Bauer Bodoni Pro_1 W01 Bold;
     color: #fff;
     font-size: 160px;
     margin: auto;
@@ -2468,7 +2469,7 @@ textarea {
 }
 
 #homepage .home_slider .flexslider ul.slides li.home-slider-2 .content h2 .middle span {
-    font-family: Bauer Bodoni W01 Bold_795736;
+    font-family: Bauer Bodoni Pro_1 W01 Bold;
     color: #fff;
     font-size: 100px;
     width: 528px;
@@ -2548,8 +2549,6 @@ textarea {
 }
 
 #homepage .home_slider .flexslider ul.slides li.home-slider-2 .content .cta:hover {
-    background-color: #fff;
-    border-color: #fff
 }
 
 @media screen and (max-width:767px) {
@@ -2693,7 +2692,7 @@ textarea {
 }
 
 #homepage .home_slider .flexslider ul.slides li.home-slider-3 .content h2 .middle span {
-    font-family: Bauer Bodoni W01 Bold_795736;
+    font-family: Bauer Bodoni Pro_1 W01 Bold;
     color: #fff;
     font-size: 100px;
     width: 528px;
@@ -2712,6 +2711,14 @@ textarea {
     #homepage .home_slider .flexslider ul.slides li.home-slider-3 .content h2 .middle span {
         font-size: 90px
     }
+
+    #homepage .home_slider .flexslider ul.slides li.home-slider-3 .content {
+        width: 52vw !important;
+    }
+
+        #homepage .home_slider .flexslider ul.slides li.home-slider-3 .content .cta img {
+            width: 46vw !important;
+        }
 }
 
 @media screen and (max-width:767px) {
@@ -2748,14 +2755,16 @@ textarea {
 
 #homepage .home_slider .flexslider ul.slides li.home-slider-3 .content .cta {
     border-color: #4e6f9b;
-    margin-top: 19px;
-    color: #4e6f9b;
-    padding: 11px 27px 11px 23px
+    /*margin-top: 9px;*/
+    border: 0px !important;
+    color: #fff !important;
+    position: absolute;
 }
 
 @media screen and (max-width:1270px) {
     #homepage .home_slider .flexslider ul.slides li.home-slider-3 .content .cta {
-        margin-top: 10px
+        margin-top: 8px;
+        padding: 0px !important;
     }
 }
 
@@ -2763,13 +2772,18 @@ textarea {
     #homepage .home_slider .flexslider ul.slides li.home-slider-3 .content .cta {
         margin-top: 4.5%;
         font-size: 3vw;
-        padding: 2.6vw 6vw
     }
 }
 
 #homepage .home_slider .flexslider ul.slides li.home-slider-3 .content .cta:hover {
-    background-color: #fff;
     border-color: #fff
+}
+
+#homepage .home_slider .container .flexslider .content ul.slides li.home-slider-2 .cta img {
+    position: absolute;
+    top: 18.5vw;
+    width: 15.5vw;
+    left: 8.7vw;
 }
 
 @media screen and (max-width:767px) {
@@ -2801,6 +2815,13 @@ textarea {
 @media screen and (max-width:989px) {
     #homepage .home_slider .flexslider ul.slides li.home-slider-4 {
         background-image: url(../images/home/slider/tablet/slider4_768.jpg)
+    }
+
+    #homepage .home_slider .container .flexslider .content ul.slides li.home-slider-2 .cta img {
+        position: absolute;
+        top: 1vw;
+        width: 15vw;
+        left: 0vw;
     }
 }
 
@@ -2931,7 +2952,7 @@ textarea {
 }
 
 #homepage .home_slider .flexslider ul.slides li.home-slider-4 .content h2 .middle span {
-    font-family: Bauer Bodoni W01 Bold_795736;
+    font-family: Bauer Bodoni Pro_1 W01 Bold;
     color: #fff;
     font-size: 100px;
     width: 620px;
@@ -3145,7 +3166,7 @@ textarea {
 
 #homepage .home_slider .flexslider ul.slides li.home-slider-5 .content h2 .middle span {
     color: #5c5d71;
-    font-family: Bauer Bodoni W01 Bold_795736;
+    font-family: Bauer Bodoni Pro_1 W01 Bold;
     font-size: 108px;
     margin: auto;
     line-height: 83%
@@ -3229,24 +3250,44 @@ textarea {
 }
 
 #homepage .home_slider .flexslider ul.slides li.home-slider-5 .content .cta {
-    border-color: #5c5d71;
+    /* border-color: #5c5d71;
     margin-top: 19px;
     color: #5c5d71;
-    padding: 11px 27px 11px 23px
+    padding: 11px 27px 11px 23px*/
+    border: 0px !important;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#homepage .home_slider .container .flexslider .content ul.slides li.home-slider-2 .cta-mobile img {
+    display: none;
+}
+
+#homepage .home_slider .flexslider ul.slides li.home-slider-6 .content .cta-mobile {
+    display: none;
+}
+
+#homepage .home_slider .flexslider ul.slides li.home-slider-3 .content .cta img {
+    width: 16vw;
 }
 
 @media screen and (max-width:1270px) {
     #homepage .home_slider .flexslider ul.slides li.home-slider-5 .content .cta {
-        margin-top: 12px
+        margin-top: 0px
     }
 }
 
 @media screen and (max-width:767px) {
     #homepage .home_slider .flexslider ul.slides li.home-slider-5 .content .cta {
-        margin-top: 3.3%;
+        margin-top: -5px;
         font-size: 3vw;
         padding: 2.6vw 6vw
     }
+
+        #homepage .home_slider .flexslider ul.slides li.home-slider-5 .content .cta img {
+            width: 73vw !important;
+        }
 }
 
 #homepage .home_slider .flexslider ul.slides li.home-slider-5 .content .cta:hover {
@@ -3275,9 +3316,44 @@ textarea {
 }
 
 @media screen and (max-width:989px) {
+    #homepage .home_slider .flexslider ul.slides li.home-slider-5 .content .cta img {
+        width: 73vw;
+    }
+
     #homepage .home_slider .flexslider ul.slides li.home-slider-6 {
         background-image: url(../images/home/slider/tablet/slider6_768.jpg)
     }
+
+    #homepage .home_slider .container .flexslider .content ul.slides li.home-slider-2 .cta img {
+        display: none;
+    }
+
+    #homepage .home_slider .container .flexslider .content ul.slides li.home-slider-2 .cta-mobile img {
+        display: block;
+        width: 40vw;
+        position: absolute;
+    }
+
+    #homepage .home_slider .container .flexslider .content ul.slides li.home-slider-2 .cta-mobile {
+        width: 100%;
+        height: 90%;
+        position: absolute;
+        top: 50vw;
+        left: -27vw;
+    }
+
+    #homepage .home_slider .flexslider ul.slides li.home-slider-3 .content {
+        top: 58vw !important;
+        right: 25vw !important;
+        width: 500px;
+        height: 200px;
+    }
+
+        #homepage .home_slider .flexslider ul.slides li.home-slider-3 .content .cta {
+            margin-top: 6px;
+            font-size: 4vw;
+            line-height: 4vw !important;
+        }
 }
 
 @media screen and (max-width:767px) {
@@ -3285,12 +3361,42 @@ textarea {
         background-image: url(../images/home/slider/mobile/slider6.jpg);
         background-position: top
     }
+
+    #homepage .home_slider .container .flexslider .content ul.slides li.home-slider-2 .cta-mobile img {
+        display: block;
+        width: 35vw;
+        position: absolute;
+    }
+
+    #homepage .home_slider .container .flexslider .content ul.slides li.home-slider-2 .cta-mobile {
+        width: 100%;
+        height: 90%;
+        position: absolute;
+        top: 51vw;
+        left: 32vw;
+    }
 }
 
 #homepage .home_slider .flexslider ul.slides li.home-slider-6 .content {
-    background-color: #c5d9e0;
+    background-color: transparent;
     width: 50%;
     height: 100%
+}
+
+#homepage .home_slider .flexslider ul.slides li.home-slider-7 .content img {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+#homepage .home_slider .flexslider ul.slides li.home-slider-6 .content img {
+    width: 21vw;
+    margin-top: 18.5vw;
+    margin-right: .8vw
+}
+
+#homepage .home_slider .flexslider ul.slides li.home-slider-7 .content img {
+    width: 20vw;
 }
 
 @media screen and (max-width:767px) {
@@ -3318,6 +3424,24 @@ textarea {
 }
 
 @media screen and (max-width:989px) {
+    #homepage .home_slider .flexslider ul.slides li.home-slider-6 .content img {
+        display: none;
+    }
+
+    #homepage .home_slider .flexslider ul.slides li.home-slider-6 .content .cta-mobile {
+        position: absolute;
+        display: block;
+        height: 400px;
+        top: 37vw;
+        left: -37vw;
+        width: 500px;
+    }
+
+        #homepage .home_slider .flexslider ul.slides li.home-slider-6 .content .cta-mobile img {
+            display: block;
+            width: 33vw;
+        }
+
     #homepage .home_slider .flexslider ul.slides li.home-slider-6 .content h2 {
         padding-top: 126px
     }
@@ -3327,6 +3451,14 @@ textarea {
     #homepage .home_slider .flexslider ul.slides li.home-slider-6 .content h2 {
         padding-top: 0;
         margin: 0
+    }
+
+    #homepage .home_slider .flexslider ul.slides li.home-slider-6 .content .cta-mobile {
+        left: 37vw !important;
+    }
+
+    #homepage .home_slider .container .flexslider .content ul.slides li.home-slider-6 .content .cta-mobile img {
+        width: 32vw !important;
     }
 }
 
@@ -3405,7 +3537,7 @@ textarea {
 }
 
 #homepage .home_slider .flexslider ul.slides li.home-slider-6 .content h2 .middle span {
-    font-family: Bauer Bodoni W01 Bold_795736;
+    font-family: Bauer Bodoni Pro_1 W01 Bold;
     color: #fff;
     font-size: 100px;
     width: 528px;
@@ -3473,7 +3605,35 @@ textarea {
     padding: 11px 27px 11px 23px
 }
 
+#homepage .home_slider .container .flexslider .content ul.slides li.home-slider-7 .content .cta-mobile img {
+    display: none;
+}
+
 @media screen and (max-width:989px) {
+    #homepage .home_slider .container .flexslider .content ul.slides li.home-slider-7 .content {
+        margin-left: 0px !important;
+        height: 100px;
+        top: 56vw;
+        left: 35vw !important;
+        right: inherit;
+    }
+
+        #homepage .home_slider .container .flexslider .content ul.slides li.home-slider-7 .content img {
+            display: none;
+        }
+
+        #homepage .home_slider .container .flexslider .content ul.slides li.home-slider-7 .content .cta-mobile img {
+            width: 32vw;
+            display: block;
+            position: relative;
+        }
+
+        #homepage .home_slider .container .flexslider .content ul.slides li.home-slider-7 .content .cta-mobile {
+            display: block;
+            width: 100%;
+            position: relative;
+        }
+
     #homepage .home_slider .flexslider ul.slides li.home-slider-6 .content .cta {
         margin-top: 15px
     }
@@ -3645,7 +3805,7 @@ textarea {
 
                 #homepage .info_slider .flexslider ul.slides li .content h1,
                 #homepage .info_slider .flexslider ul.slides li .content h2 {
-                    font-family: Bauer Bodoni W01 Bold_795736;
+                    font-family: Bauer Bodoni Pro_1 W01 Bold;
                     -webkit-font-smoothing: antialiased;
                     color: #00295d;
                     font-size: 35px;
@@ -3780,6 +3940,7 @@ textarea {
 }
 
 @media screen and (max-width:767px) {
+
     #homepage .categories .block h3 .top {
         font-size: 4.4vw;
         line-height: 100%;
@@ -3788,7 +3949,7 @@ textarea {
 }
 
 #homepage .categories .block h3 .bot {
-    font-family: Bauer Bodoni W01 Bold_795736;
+    font-family: Bauer Bodoni Pro_1 W01 Bold;
     -webkit-font-smoothing: antialiased;
     font-size: 44px
 }
@@ -3803,7 +3964,7 @@ textarea {
 
 #homepage .categories .block h3 .detail {
     font-family: Proxima N W01 Reg;
-    font-size: 13.5px;
+    font-size: 17.5px;
     text-transform: none;
     line-height: 19px;
     margin-top: 8px;
@@ -3822,6 +3983,10 @@ textarea {
 }
 
 @media screen and (max-width:767px) {
+    #homepage .categories .new_arrivals .block .cta {
+        font-size: 2vw;
+    }
+
     #homepage .categories .block .cta {
         font-size: 3.3vw;
         padding: 2.2vw 5.2vw 2vw 4.5vw
@@ -3829,7 +3994,7 @@ textarea {
 }
 
 #homepage .categories .block .cta .arrow {
-    margin-left: 3px
+    margin-left: -1px
 }
 
 @media screen and (max-width:767px) {
@@ -3925,14 +4090,14 @@ textarea {
 }
 
 #homepage .categories .block1_2 .block1 .cta {
-    border-color: #9f6e57;
-    color: #9f6e57
+    border-color: #293069;
+    color: #293069;
 }
 
     #homepage .categories .block1_2 .block1 .cta.cta-hover {
-        background-color: #9f6e57 !important;
-        border-color: #9f6e57 !important;
-        color: #fff !important
+        background-color: #293069 !important;
+        border-color: #293069 !important;
+        color: #fff !important;
     }
 
 #homepage .categories .block1_2 .block2 {
@@ -4229,15 +4394,34 @@ textarea {
         margin-top: 0;
         width: 50%
     }
+
+    #homepage .categories .new_arrivals .block h3 .top {
+        font-size: 4vw !important;
+        margin-top: 2vw !important;
+    }
 }
 
 #homepage .categories .block3_4 .block4 .content .detail br {
     display: none
 }
 
+#homepage .categories .block3_4 .block4 .content .cta {
+    padding: 11px 10px 11px 10px;
+    border-color: #002f1d;
+    color: #002f1d;
+}
+
+#homepage .categories .new_arrivals .block h3 .top {
+    text-transform: none;
+    font-size: 25px;
+    letter-spacing: 1px;
+    margin-top: 20px;
+    text-transform: uppercase;
+}
+
 #homepage .categories .block3_4 .block4 .cta.cta-hover {
-    background-color: #fff !important;
-    border-color: #fff !important;
+    background-color: #002f1d !important;
+    border-color: #002f1d !important;
     color: #cacfd4 !important
 }
 
@@ -4311,7 +4495,7 @@ textarea {
 
 #homepage .categories .video_container .block .content h3 .top {
     color: #9f27b6;
-    font-family: Bauer Bodoni W01 Bold_795736;
+    font-family: Bauer Bodoni Pro_1 W01 Bold;
     font-size: 82px;
     line-height: 75px;
     width: 464px;
@@ -4485,8 +4669,8 @@ textarea {
 
 @media screen and (max-width:767px) {
     #homepage .categories .block5_6 .block .content h3 .detail {
-        margin-top: 1.2%;
-        font-size: 4vw
+        margin-top: 2.2%;
+        font-size: 4vw !important
     }
 }
 
@@ -4535,7 +4719,7 @@ textarea {
     #homepage .categories .block5_6 .block5 .content {
         padding-left: 6%;
         padding-right: 1%;
-        padding-top: 10%
+        padding-top: 2.5vw
     }
 }
 
@@ -4547,7 +4731,23 @@ textarea {
 
 #homepage .categories .block5_6 .block6 {
     float: right;
-    border: 10px solid #9fbcb7
+}
+
+#homepage .categories .block6 h3 .detail {
+    font-family: Proxima N W01 Reg;
+    font-size: 17.5px;
+    text-transform: none;
+    line-height: 19px;
+    margin-top: 8px;
+    padding-bottom: 10px;
+    letter-spacing: .3px;
+}
+
+#homepage .categories .block6 h3 .top {
+    font-size: 14px;
+    letter-spacing: 4px;
+    line-height: 22px;
+    font-weight: 700;
 }
 
 @media screen and (max-width:989px) {
@@ -4587,6 +4787,11 @@ textarea {
     padding-top: 14%;
 }
 
+    #homepage .categories .block5_6 .block6 .content h3 .bot {
+        font-size: 32px;
+        width: 50%;
+    }
+
     #homepage .categories .block5_6 .block6 .content h3 {
         line-height: 33px;
         margin-bottom: 13px
@@ -4607,18 +4812,18 @@ textarea {
 
 @media screen and (max-width:767px) {
     #homepage .categories .block5_6 .block6 .content h3 .detail {
-        font-size: 3.9vw
+        font-size: 2.9vw
     }
 }
 
 #homepage .categories .block5_6 .block6 .content .cta {
-    border-color: #9fbcb7;
-    color: #9fbcb7
+    border-color: #000;
+    color: #000
 }
 
     #homepage .categories .block5_6 .block6 .content .cta.cta-hover {
-        background-color: #9fbcb7 !important;
-        border-color: #9fbcb7 !important;
+        background-color: #000 !important;
+        border-color: #000 !important;
         color: #fff !important
     }
 
@@ -4663,7 +4868,7 @@ textarea {
 #homepage .categories .new_arrivals .block .content {
     color: #113e63;
     display: inline-block;
-    padding-right: 10%;
+    padding-right: 5%;
     padding-top: 7%;
     text-align: center;
     float: right;
@@ -4689,12 +4894,16 @@ textarea {
 
 @media screen and (max-width:767px) {
     #homepage .categories .new_arrivals .block .content h3 img {
-        width: 29%
+        width: 51%
+    }
+
+    #homepage .categories .new_arrivals .block .content h3 .bot {
+        font-size: 9vw !important;
     }
 }
 
 #homepage .categories .new_arrivals .block .content h3 .bot {
-    color: #fff;
+    color: #113e63;
     font-size: 82px;
     line-height: 75px
 }
@@ -4713,9 +4922,11 @@ textarea {
 }
 
 #homepage .categories .new_arrivals .block .content h3 .detail {
-    color: #fff;
+    color: #113e63;
     width: 430px;
-    line-height: 24px
+    line-height: 24px;
+    font-size: 18.5px !important;
+    font-weight: 900;
 }
 
     #homepage .categories .new_arrivals .block .content h3 .detail br {
@@ -4746,7 +4957,7 @@ textarea {
 
 @media screen and (max-width:767px) {
     #homepage .categories .new_arrivals .block .content h3 .detail {
-        font-size: 3.7vw;
+        font-size: 3vw !important;
         line-height: 130%;
         width: 100%;
         margin: 3% auto 0;
@@ -4762,7 +4973,7 @@ textarea {
 
 #homepage .stay_connected {
     background: #c9e2e9;
-    height: 455px;
+    height: 350px;
     margin-top: 40px;
     padding: 53px 0;
     text-align: center
@@ -4780,7 +4991,7 @@ textarea {
 
         #homepage .stay_connected .content h3 .bot {
             display: block;
-            font-family: Proxima N W01 Smbd;
+            font-family: Proxima N W01 Bold;
             font-size: 16px;
             margin-top: 5px
         }
@@ -4915,7 +5126,7 @@ textarea {
                     border-color: #e1e1e1;
                     background: #fff;
                     color: #002049;
-                    font-family: Proxima N W01 Smbd;
+                    font-family: Proxima N W01 Bold;
                     letter-spacing: .5px;
                     padding: 15px 25px;
                     width: 198px
@@ -5133,7 +5344,7 @@ textarea {
         }
 
             #homepage .categories .container .block .cta .arrow {
-                margin-left: -3px
+                margin-left: -1px
             }
 
         #homepage .categories .container .block1_2 .block {
@@ -5255,7 +5466,7 @@ textarea {
                         }
 
         #homepage .categories .container .block5_6 .block6 {
-            padding: 2px 0;
+            padding: 11px 0;
             border-width: 8px;
             margin-right: 30px
         }
@@ -5272,7 +5483,7 @@ textarea {
             }
 
                 #homepage .categories .container .block5_6 .block6 .content h3 .top {
-                    font-size: 12px;
+                    font-size: 14px;
                     line-height: 13px
                 }
 
@@ -5281,7 +5492,7 @@ textarea {
                 }
 
                 #homepage .categories .container .block5_6 .block6 .content h3 .detail {
-                    margin-top: 0;
+                    margin-top: 4%;
                     line-height: 13px;
                     width: 150px
                 }
@@ -5295,10 +5506,8 @@ textarea {
 
             #homepage .categories .container .new_arrivals .block .content {
                 padding-left: 0;
-                padding-top: 7.1%;
+                padding-top: 4.1%;
                 height: 349px;
-                width: 926px;
-                left: -238px
             }
 
                 #homepage .categories .container .new_arrivals .block .content h3 {
@@ -5352,7 +5561,7 @@ textarea {
                 }
 
                     #homepage .stay_connected .container .content .social .block img {
-                        width: 192px
+                        width: 12vw
                     }
 
                     #homepage .stay_connected .container .content .social .block .text {
@@ -5440,6 +5649,7 @@ textarea {
         background-position: 50%
     }
 
+
         #homepage .info_slider .flexslider .flex-direction-nav li:first-child a:hover,
         #homepage .info_slider .flexslider .flex-direction-nav li:last-child a:hover {
             border: 1px solid #00295d
@@ -5491,6 +5701,10 @@ textarea {
 }
 
 @media (min-width:768px) and (max-width:989px) {
+    #homepage .stay_connected .container .content .social .block img {
+        width: 12vw
+    }
+
     #homepage .home_slider .flexslider .flex-control-nav {
         bottom: 13px
     }
@@ -5596,7 +5810,7 @@ textarea {
 
             #homepage .categories .block1_2 .block .content .cta {
                 padding: 13px 27px 13px 26px;
-                font-family: Proxima N W01 Smbd;
+                font-family: Proxima N W01 Bold;
                 font-size: 11px
             }
 
@@ -5660,7 +5874,7 @@ textarea {
 
                 #homepage .categories .block3_4 .block .content .cta {
                     padding: 13px 27px 13px 26px;
-                    font-family: Proxima N W01 Smbd;
+                    font-family: Proxima N W01 Bold;
                     font-size: 11px
                 }
 
@@ -5701,42 +5915,47 @@ textarea {
         margin-right: 32px
     }
 
-        #homepage .categories .block5_6 .block {
-            width: 337px;
-            height: 205px;
-            margin-top: 31px
+    #homepage .categories .block5 h3 .detail {
+        width: 27vw
+    }
+
+    #homepage .categories .block5_6 .block {
+        width: 337px;
+        height: 205px;
+        margin-top: 31px
+    }
+
+        #homepage .categories .block5_6 .block .content h3 {
+            margin-bottom: 8px
         }
 
-            #homepage .categories .block5_6 .block .content h3 {
-                margin-bottom: 8px
+            #homepage .categories .block5_6 .block .content h3 .top {
+                font-size: 14px;
+                letter-spacing: 3.6px;
+                line-height: 17px
             }
 
-                #homepage .categories .block5_6 .block .content h3 .top {
-                    font-size: 12px;
-                    letter-spacing: 3.6px;
-                    line-height: 17px
-                }
-
-                #homepage .categories .block5_6 .block .content h3 .detail {
-                    margin-top: 2px
-                }
-
-            #homepage .categories .block5_6 .block .content .cta {
-                padding: 13px 27px 13px 26px;
-                font-family: Proxima N W01 Smbd;
-                font-size: 11px
+            #homepage .categories .block5_6 .block .content h3 .detail {
+                margin-top: 7px;
+                padding-bottom: 5px
             }
 
-                #homepage .categories .block5_6 .block .content .cta .arrow {
-                    font-size: 16px;
-                    top: 2px;
-                    left: 1px
-                }
-
-        #homepage .categories .block5_6 .block6 .content {
-            padding-left: 6%;
-            padding-top: 8.5%
+        #homepage .categories .block5_6 .block .content .cta {
+            padding: 13px 27px 13px 26px;
+            font-family: Proxima N W01 Bold;
+            font-size: 11px
         }
+
+            #homepage .categories .block5_6 .block .content .cta .arrow {
+                font-size: 16px;
+                top: 2px;
+                left: 1px
+            }
+
+    #homepage .categories .block5_6 .block6 .content {
+        padding-left: 6%;
+        padding-top: 12.5%
+    }
 
     #homepage .categories .new_arrivals .block {
         margin-top: 31px;
@@ -5748,7 +5967,7 @@ textarea {
 
         #homepage .categories .new_arrivals .block .content {
             padding-left: 5%;
-            padding-top: 5%
+            padding-top: 1%
         }
 
             #homepage .categories .new_arrivals .block .content h3 {
@@ -5758,8 +5977,10 @@ textarea {
 
             #homepage .categories .new_arrivals .block .content .cta {
                 padding: 13px 27px 13px 26px;
-                font-family: Proxima N W01 Smbd;
-                font-size: 11px
+                font-family: Proxima N W01 Bold;
+                font-size: 11px;
+                border-color: #113e63 !important;
+                color: #113e63;
             }
 
                 #homepage .categories .new_arrivals .block .content .cta .arrow {
@@ -5924,7 +6145,7 @@ textarea {
                     width: 142px;
                     letter-spacing: .5px;
                     text-align: center;
-                    font-family: Proxima N W01 Smbd
+                    font-family: Proxima N W01 Bold
                 }
 
                     #homepage .location_catalog .catalog .content .buttons a.download {
@@ -5938,6 +6159,27 @@ textarea {
 }
 
 @media (max-width:767px) {
+    #homepage .categories .block5 h3 .detail {
+        width: 46vw;
+        line-height: 27px;
+    }
+
+    #homepage .home_slider .flexslider ul.slides li {
+        height: 100% !important;
+    }
+
+    #homepage .categories .new_arrivals .block h3 .detail {
+        font-size: 3vw !important;
+    }
+
+    #homepage .categories .container .new_arrivals .block .content {
+        padding-top: 14%;
+        right: 0 !important;
+        left: inherit;
+        width: 50% !important;
+        padding-right: 4%;
+    }
+
     #homepage .home_slider .flexslider .flex-control-nav li {
         margin: 0 9px;
         left: 0
@@ -5956,8 +6198,9 @@ textarea {
             display: inline-block
         }
 
+
         #homepage .info_slider .container .flexslider ul.slides li {
-            height: auto
+            height: 100%
         }
 
             #homepage .info_slider .container .flexslider ul.slides li .content {
@@ -6151,7 +6394,7 @@ textarea {
 
                 #homepage .categories .container .block5_6 .block5 .content {
                     padding-left: 7%;
-                    padding-top: 9.5%
+                    padding-top: 6vw
                 }
 
                     #homepage .categories .container .block5_6 .block5 .content h3 {
@@ -6231,8 +6474,7 @@ textarea {
                 }
 
                     #homepage .stay_connected .container .content .social .block img {
-                        width: 135px;
-                        border: 4px solid #fff
+                        width: 120px;
                     }
 
                     #homepage .stay_connected .container .content .social .block .text {
@@ -6343,7 +6585,7 @@ textarea {
                     width: 166px;
                     text-align: center;
                     padding: 14px 0 12px;
-                    font-family: Proxima N W01 Smbd
+                    font-family: Proxima N W01 Bold
                 }
 
                     #homepage .location_catalog .catalog .content .buttons a.download {
@@ -6412,7 +6654,7 @@ textarea {
     }
 
     #contact .top .sub_header {
-        font-family: Proxima N W01 Smbd;
+        font-family: Proxima N W01 Bold;
         color: #04529d;
         margin-top: 31px;
         font-size: 1.5em
@@ -6588,7 +6830,7 @@ textarea {
     display: block;
     padding: 19px;
     color: #00295d;
-    font-family: Proxima N W01 Smbd;
+    font-family: Proxima N W01 Bold;
     white-space: pre
 }
 
@@ -6638,6 +6880,25 @@ textarea {
 #contact .form_container form .name_container {
     width: 50%;
     margin-bottom: 29px
+}
+
+@media (max-width:550px) {
+    #homepage .categories .block5 h3 .detail {
+        width: 46vw;
+        line-height: 4vw;
+    }
+
+    #homepage .categories .container .block5_6 .block6 .content {
+        padding-top: 7vw;
+    }
+
+        #homepage .categories .container .block5_6 .block6 .content h3 {
+            margin-bottom: 1vw;
+        }
+
+    #homepage .categories .block6 h3 .detail {
+        padding-bottom: 1vw;
+    }
 }
 
 @media screen and (max-width:767px) {
@@ -6699,7 +6960,7 @@ textarea {
     #contact .form_container form .submit_container input {
         background-color: #2c90ce;
         color: #fff;
-        font-family: Proxima N W01 Smbd;
+        font-family: Proxima N W01 Bold;
         width: 182px;
         margin-left: auto;
         margin-right: auto;
@@ -6722,7 +6983,7 @@ textarea {
     }
 
         #contact .form_container form .submit_container .text a {
-            font-family: Proxima N W01 Smbd;
+            font-family: Proxima N W01 Bold;
             color: #002049
         }
 
@@ -6917,7 +7178,7 @@ textarea {
 
 #collections .info_slider .flexslider ul.slides li .content h1,
 #collections .info_slider .flexslider ul.slides li .content h2 {
-    font-family: Bauer Bodoni W01 Bold_795736;
+    font-family: Bauer Bodoni Pro_1 W01 Bold;
     -webkit-font-smoothing: antialiased;
     color: #00295d;
     font-size: 35px;
@@ -7093,7 +7354,7 @@ textarea {
                 }
 
                 #collections .seasonal_container .inner .hero .content .title {
-                    font-family: Bauer Bodoni W01 Bold_795736;
+                    font-family: Bauer Bodoni Pro_1 W01 Bold;
                     color: #fff;
                     text-transform: uppercase;
                     line-height: 90%;
@@ -7101,7 +7362,7 @@ textarea {
                 }
 
                 #collections .seasonal_container .inner .hero .content .collection_sub {
-                    font-family: Proxima N W01 Smbd;
+                    font-family: Proxima N W01 Bold;
                     text-transform: uppercase;
                     font-size: 1.4em;
                     letter-spacing: .6em;
@@ -7246,7 +7507,7 @@ textarea {
                     #collections .seasonal_container .inner .category_container .category .footer .text,
                     #collections .seasonal_container .inner .category_container .category .footer h2.text {
                         text-align: center;
-                        font-family: Proxima N W01 Smbd;
+                        font-family: Proxima N W01 Bold;
                         font-size: medium;
                         color: #04295d;
                         line-height: 1.42857;
@@ -7449,11 +7710,11 @@ textarea {
         color: #2e4ca2
     }
 
-        #collections .collections_container .inner .block.block3 .content .cta.cta-hover {
-            background-color: #fff !important;
-            border-color: #fff !important;
-            color: #2e4ca2 !important
-        }
+    #collections .collections_container .inner .block.block3 .content .cta.cta-hover {
+        background-color: #fff !important;
+        border-color: #fff !important;
+        color: #2e4ca2 !important
+    }
 
 #collections .collections_container .inner .block.block4 .overlay_img {
     background-image: url(../images/collections/collections/landau_groups.jpg)
@@ -7479,11 +7740,51 @@ textarea {
         color: #fff
     }
 
-        #collections .collections_container .inner .block.block4 .content .cta.cta-hover {
-            background-color: #fff !important;
-            border-color: #fff !important;
-            color: #7fd4da !important
-        }
+    #collections .collections_container .inner .block.block4 .content .cta.cta-hover {
+        background-color: #fff !important;
+        border-color: #fff !important;
+        color: #7fd4da !important
+    }
+
+#collections .collections_container .inner .block.block5 .overlay_img {
+    background-image: url(../images/collections/collections/allday.jpg)
+}
+
+#collections .collections_container .inner .block.block5 .content .cta {
+    margin-top: 230px;
+    margin-left: 80px;
+}
+
+#collections .collections_container .inner .block.block5 .content .cta {
+    border-color: #465776;
+    color: #465776
+}
+
+#collections .collections_container .inner .block.block5 .content .cta.cta-hover {
+    background-color: #fff !important;
+    border-color: #fff !important;
+    color: #465776 !important
+}
+
+#collections .collections_container .inner .block.block6 .overlay_img {
+    background-image: url(../images/collections/collections/prewashed.jpg)
+}
+
+#collections .collections_container .inner .block.block6 .content .cta {
+    margin-top: 200px;
+    margin-left: 100px;
+}
+
+#collections .collections_container .inner .block.block6 .content .cta {
+    border-color: #465776;
+    color: #465776
+}
+
+#collections .collections_container .inner .block.block6 .content .cta.cta-hover {
+    background-color: #fff !important;
+    border-color: #fff !important;
+    color: #465776 !important
+}
 
 #collections .collections_container .inner .block:nth-child(2n) {
     margin-right: 15px
@@ -7523,7 +7824,7 @@ textarea {
     }
 
     #collections .collections_container .inner .block .content .title {
-        font-family: Bauer Bodoni W01 Bold_795736;
+        font-family: Bauer Bodoni Pro_1 W01 Bold;
         -webkit-font-smoothing: antialiased;
         text-transform: uppercase;
         font-size: 3.9em;
@@ -7547,7 +7848,7 @@ textarea {
         margin-left: auto;
         margin-right: auto;
         margin-top: 23px;
-        font-family: Proxima N W01 Smbd;
+        font-family: Proxima N W01 Bold;
         padding: 13px 25px 13px 22px
     }
 
@@ -7695,12 +7996,30 @@ textarea {
             height: 320px
         }
 
-            #collections .collections_container .inner .block .content .cta {
-                margin-top: 17px;
-                font-family: Proxima N W01 Smbd;
-                font-size: .65em;
-                padding: 5px 16px 8px 12px
-            }
+        #collections .collections_container .inner .block .content .cta {
+            margin-top: 17px;
+            font-family: Proxima N W01 Bold;
+            font-size: .65em;
+            padding: 5px 16px 8px 12px
+        }
+
+        #collections .collections_container .inner .block.block5 .overlay_img {
+            background-image: url(../images/collections/collections/allday_990.jpg)
+        }
+
+        #collections .collections_container .inner .block.block5 .content .cta {
+            margin-top: 180px;
+            margin-left: 60px;
+        }
+
+        #collections .collections_container .inner .block.block6 .overlay_img {
+            background-image: url(../images/collections/collections/prewashed_990.jpg)
+        }
+
+        #collections .collections_container .inner .block.block6 .content .cta {
+            margin-top: 160px;
+            margin-left: 100px;
+        }
 }
 
 @media only screen and (max-width:989px) {
@@ -7897,10 +8216,30 @@ textarea {
 
             #collections .collections_container .inner .block .content .cta {
                 margin-top: 30px;
-                font-family: Proxima N W01 Smbd;
+                font-family: Proxima N W01 Bold;
                 font-size: 1em;
                 padding: 18px 43px 18px 39px
             }
+
+        #collections .collections_container .inner .block.block5 .content {
+            background-image: url(../images/collections/collections/allday_768.jpg);
+            padding-top: 142px;
+        }
+
+        #collections .collections_container .inner .block.block5 .content .cta {
+            margin-top: 140px;
+            margin-left: 100px;
+        }
+
+        #collections .collections_container .inner .block.block6 .content {
+            background-image: url(../images/collections/collections/prewashed_768.jpg);
+            padding-top: 142px;
+        }
+
+        #collections .collections_container .inner .block.block6 .content .cta {
+            margin-top: 100px;
+            margin-left: 100px;
+        }
 }
 
 @media only screen and (max-width:767px) {
@@ -8203,33 +8542,61 @@ textarea {
                     margin-top: 0
                 }
 
-            #collections .collections_container .inner .block:nth-child(n+4) {
-                margin-top: 6px
-            }
+    #collections .collections_container .inner .block.block5 .content
+    {
+        background-image: url(../images/collections/collections/allday_640.jpg);
+        background-repeat: no-repeat;
+        padding-top: 68.5%;
+                
+    }
 
-            #collections .collections_container .inner .block .content {
-                background-size: contain;
-                background-repeat: no-repeat;
-                height: 0;
-                width: 100%
-            }
+    #collections .collections_container .inner .block.block5 .content .cta {
+        top: 55%;
+        left: 8%;
+        margin-top: 0;
+        margin-left: 0;
+    }
 
-                #collections .collections_container .inner .block .content .cta {
-                    position: absolute;
-                    margin-top: 21px;
-                    font-family: Proxima N W01 Smbd;
-                    font-size: .5em;
-                    letter-spacing: .1em;
-                    white-space: nowrap;
-                    line-height: 16px;
-                    padding: 7px 13px
-                }
+    #collections .collections_container .inner .block.block6 .content {
+        background-image: url(../images/collections/collections/prewashed_640.jpg);
+        background-repeat: no-repeat;
+        padding-top: 68.5%;
+    }
 
-                    #collections .collections_container .inner .block .content .cta .arrow {
-                        font-size: 13px;
-                        top: 2px;
-                        left: -2px
-                    }
+    #collections .collections_container .inner .block.block6 .content .cta {
+        top: 50%;
+        left: 8%;
+        margin-top: 0;
+        margin-left: 0;
+    }
+
+    #collections .collections_container .inner .block:nth-child(n+4) {
+        margin-top: 6px
+    }
+
+    #collections .collections_container .inner .block .content {
+        background-size: contain;
+        background-repeat: no-repeat;
+        height: 0;
+        width: 100%
+    }
+
+    #collections .collections_container .inner .block .content .cta {
+        position: absolute;
+        margin-top: 21px;
+        font-family: Proxima N W01 Bold;
+        font-size: .5em;
+        letter-spacing: .1em;
+        white-space: nowrap;
+        line-height: 16px;
+        padding: 7px 13px
+    }
+
+    #collections .collections_container .inner .block .content .cta .arrow {
+        font-size: 13px;
+        top: 2px;
+        left: -2px
+    }
 }
 
 #catalog_container {
@@ -8318,7 +8685,7 @@ textarea {
 
 #catalog_container .info_slider .flexslider ul.slides li .content h1,
 #catalog_container .info_slider .flexslider ul.slides li .content h2 {
-    font-family: Bauer Bodoni W01 Bold_795736;
+    font-family: Bauer Bodoni Pro_1 W01 Bold;
     -webkit-font-smoothing: antialiased;
     color: #00295d;
     font-size: 35px;
@@ -8462,7 +8829,7 @@ textarea {
     #catalog_container #catalog .breadcrumbs.tablet {
         display: none;
         font-size: .9em;
-        font-family: Proxima N W01 Smbd
+        font-family: Proxima N W01 Bold
     }
 
         #catalog_container #catalog .breadcrumbs.tablet a {
@@ -8903,10 +9270,14 @@ textarea {
     }
 }
 
+.block a img {
+    width: 8vw;
+}
+
 #catalog_container #catalog .product .footer .text,
 #catalog_container #catalog .product .footer h2.text {
     text-align: center;
-    font-family: Proxima N W01 Smbd;
+    font-family: Proxima N W01 Bold;
     color: #04295d;
     font-size: 1.13em;
     line-height: 1.42857;
@@ -9000,7 +9371,7 @@ textarea {
     }
 
         #catalog_container #catalog .bottom_pagination .right .view_all {
-            font-family: Proxima N W01 Smbd;
+            font-family: Proxima N W01 Bold;
             position: relative;
             top: 7px;
             color: #000;
@@ -9347,7 +9718,7 @@ textarea {
                         border: 1px solid #acacac;
                         text-align: center;
                         letter-spacing: .02em;
-                        font-family: Proxima N W01 Smbd;
+                        font-family: Proxima N W01 Bold;
                         font-size: .9em;
                         line-height: 3.5em
                     }
@@ -9395,7 +9766,7 @@ textarea {
                             width: 50%;
                             float: left;
                             text-align: center;
-                            font-family: Proxima N W01 Smbd;
+                            font-family: Proxima N W01 Bold;
                             padding-bottom: 30px
                         }
 
@@ -9861,7 +10232,7 @@ textarea {
 
 #detail_page .detail_modal .size_chart h2 {
     color: #384e6d;
-    font-family: Bauer Bodoni W01 Bold_795736;
+    font-family: Bauer Bodoni Pro_1 W01 Bold;
     -webkit-font-smoothing: antialiased;
     font-size: 36px;
     margin: 0
@@ -10064,7 +10435,7 @@ textarea {
             padding-top: 10px;
             padding-left: 3px;
             font-size: .9em;
-            font-family: Proxima N W01 Smbd
+            font-family: Proxima N W01 Bold
         }
 
             #detail_page .detail_top > .left .breadcrumbs a {
@@ -10411,7 +10782,7 @@ textarea {
     }
 
         #detail_page .detail_top > .right .social_container .text {
-            font-family: Proxima N W01 Smbd;
+            font-family: Proxima N W01 Bold;
             display: inline-block;
             letter-spacing: .025em;
             margin-right: 16px
@@ -10533,7 +10904,7 @@ textarea {
 
         #detail_page .detail_top > .right .color_options_container .text {
             font-size: 14px;
-            font-family: Proxima N W01 Smbd;
+            font-family: Proxima N W01 Bold;
             letter-spacing: .02em
         }
 
@@ -10608,7 +10979,7 @@ textarea {
             font-size: 14px;
             color: #7c7c7c;
             cursor: pointer;
-            font-family: Proxima N W01 Smbd;
+            font-family: Proxima N W01 Bold;
             letter-spacing: .02em;
             -webkit-transition: opacity .25s ease-in-out;
             transition: opacity .25s ease-in-out
@@ -10631,7 +11002,7 @@ textarea {
     }
 
         #detail_page .detail_top > .right .sizes_container .title {
-            font-family: Proxima N W01 Smbd;
+            font-family: Proxima N W01 Bold;
             letter-spacing: .02em
         }
 
@@ -10749,7 +11120,7 @@ textarea {
 
                     #detail_page .center_container .related .items_container .product .footer .text {
                         text-align: center;
-                        font-family: Proxima N W01 Smbd;
+                        font-family: Proxima N W01 Bold;
                         color: #04295d;
                         line-height: 1.1em
                     }
@@ -11978,10 +12349,10 @@ textarea {
             position: absolute;
             top: 115px;
             left: 0;
-            z-index: 4;
+            z-index: 10;
             width: 100%;
             background-color: #f7f7f7;
-            font-family: Proxima N W01 Smbd
+            font-family: Proxima N W01 Bold
         }
 
             #where_to_buy .search_bar .right .international_container .column_container {
@@ -13144,7 +13515,7 @@ textarea {
     }
 
     #about_us .section1 a {
-        font-family: Proxima N W01 Smbd;
+        font-family: Proxima N W01 Bold;
         display: table;
         margin-top: 15px;
         color: #054786;
@@ -13203,7 +13574,7 @@ textarea {
 }
 
     #about_us .section3 .title {
-        font-family: Bauer Bodoni W01 Bold_795736;
+        font-family: Bauer Bodoni Pro_1 W01 Bold;
         -webkit-font-smoothing: antialiased;
         text-transform: uppercase;
         color: #002049;
@@ -13665,7 +14036,7 @@ textarea {
     padding: 15px 10px 14px;
     width: 100%;
     color: #00295d;
-    font-family: Proxima N W01 Smbd;
+    font-family: Proxima N W01 Bold;
     font-size: 1em;
     -webkit-transition: background-color .25s ease, color .25s ease, border-color .25s ease;
     transition: background-color .25s ease, color .25s ease, border-color .25s ease
@@ -13698,7 +14069,7 @@ textarea {
     padding: 0 19px;
     cursor: pointer;
     color: #00295d;
-    font-family: Proxima N W01 Smbd;
+    font-family: Proxima N W01 Bold;
     -webkit-transition: background-color .25s ease, color .25s ease, border-color .25s ease;
     transition: background-color .25s ease, color .25s ease, border-color .25s ease
 }
@@ -13715,7 +14086,7 @@ textarea {
     height: 323px;
     padding: 10px;
     color: #00295d;
-    font-family: Proxima N W01 Smbd;
+    font-family: Proxima N W01 Bold;
     -webkit-transition: background-color .25s ease, color .25s ease, border-color .25s ease;
     transition: background-color .25s ease, color .25s ease, border-color .25s ease
 }
@@ -13795,7 +14166,7 @@ textarea {
     display: block;
     padding: 15px 19px;
     color: #00295d;
-    font-family: Proxima N W01 Smbd;
+    font-family: Proxima N W01 Bold;
     white-space: pre
 }
 
@@ -14066,7 +14437,7 @@ textarea {
     #group_order .form_container form .section3 input[type=submit] {
         background-color: #2c90ce;
         color: #fff;
-        font-family: Proxima N W01 Smbd;
+        font-family: Proxima N W01 Bold;
         width: 182px;
         margin-left: auto;
         margin-right: auto;
@@ -14676,7 +15047,7 @@ textarea {
 
         #favorites_page .favorites_container .favorite_item_row .favorite_item > .right .title {
             color: #04295d;
-            font-family: Proxima N W01 Smbd;
+            font-family: Proxima N W01 Bold;
             font-size: 1.2em
         }
 
@@ -15030,7 +15401,7 @@ textarea {
 
     #faq .top .header {
         text-align: center;
-        font-family: Proxima N W01 Smbd;
+        font-family: Proxima N W01 Bold;
         color: #04295d;
         text-transform: uppercase;
         font-size: 2.1em;
@@ -15094,7 +15465,7 @@ textarea {
     #faq .form_container .sub_header {
         text-transform: uppercase;
         text-align: center;
-        font-family: Proxima N W01 Smbd;
+        font-family: Proxima N W01 Bold;
         color: #04529d;
         font-size: 1.7em;
         letter-spacing: .0875em
@@ -15244,7 +15615,7 @@ textarea {
             #faq .form_container form .submit_container input {
                 background-color: #2c90ce;
                 color: #fff;
-                font-family: Proxima N W01 Smbd;
+                font-family: Proxima N W01 Bold;
                 width: inherit;
                 margin-left: auto;
                 margin-right: auto;
@@ -15267,7 +15638,7 @@ textarea {
             }
 
                 #faq .form_container form .submit_container .text a {
-                    font-family: Proxima N W01 Smbd;
+                    font-family: Proxima N W01 Bold;
                     color: #002049
                 }
 
@@ -15633,7 +16004,7 @@ textarea {
         }
 
 #made_better_page .sections_container .section.middle .title {
-    font-family: Bauer Bodoni W01 Bold_795736;
+    font-family: Bauer Bodoni Pro_1 W01 Bold;
     -webkit-font-smoothing: antialiased;
     font-size: 5em;
     color: #0d2f60;
@@ -15692,7 +16063,7 @@ textarea {
     }
 
         #made_better_page .sections_container .section .step_container .step_title_container .number {
-            font-family: Bauer Bodoni W01 Bold_795736;
+            font-family: Bauer Bodoni Pro_1 W01 Bold;
             -webkit-font-smoothing: antialiased;
             color: #0d2f60;
             font-size: 5em;
@@ -15783,7 +16154,7 @@ textarea {
             top: 307px;
             left: 330px;
             font-size: 19.6px;
-            font-family: Proxima N W01 SmBd;
+            font-family: Proxima N W01 Bold;
             width: 280px;
             line-height: 1.45em;
             letter-spacing: .12em
@@ -16007,7 +16378,7 @@ textarea {
 
 #login_page .login_container label {
     color: #02529b;
-    font-family: Proxima N W01 Smbd;
+    font-family: Proxima N W01 Bold;
     display: block;
     letter-spacing: .05em;
     font-size: 1.1em;
@@ -16044,7 +16415,7 @@ textarea {
 
     #login_page .login_container .help .help_title {
         color: #02529b;
-        font-family: Proxima N W01 Smbd;
+        font-family: Proxima N W01 Bold;
         padding-right: 6px
     }
 
@@ -16325,7 +16696,7 @@ textarea {
 }
 
     #promotions_page .promo .content .main-title {
-        font-family: Bauer Bodoni W01 Bold_795736;
+        font-family: Bauer Bodoni Pro_1 W01 Bold;
         text-transform: uppercase
     }
 
@@ -16367,7 +16738,7 @@ textarea {
 
 #promotions_page .promo .content .cta-promo .cta-text {
     text-transform: uppercase;
-    font-family: Proxima N W01 Smbd;
+    font-family: Proxima N W01 Bold;
     letter-spacing: .02em;
     word-spacing: .1em;
     -webkit-transition: background-color .25s ease, color .25s ease, border-color .25s ease;
@@ -16584,7 +16955,7 @@ textarea {
 
 #prints_page .info_slider .flexslider ul.slides li .content h1,
 #prints_page .info_slider .flexslider ul.slides li .content h2 {
-    font-family: Bauer Bodoni W01 Bold_795736;
+    font-family: Bauer Bodoni Pro_1 W01 Bold;
     -webkit-font-smoothing: antialiased;
     color: #00295d;
     font-size: 35px;
@@ -16860,7 +17231,7 @@ textarea {
 }
 
 #prints_page .banner1 .content .inner .middle {
-    font-family: Bauer Bodoni W01 Bold_795736;
+    font-family: Bauer Bodoni Pro_1 W01 Bold;
     color: #fff;
     font-size: 4em;
     letter-spacing: .08em;
@@ -16981,7 +17352,7 @@ textarea {
 }
 
 #prints_page .banner2 .content .inner .middle {
-    font-family: Bauer Bodoni W01 Bold_795736;
+    font-family: Bauer Bodoni Pro_1 W01 Bold;
     color: #fff;
     font-size: 1.9em;
     letter-spacing: .03em;
@@ -17095,7 +17466,7 @@ textarea {
 }
 
 #prints_page .solids_banner .content .inner .middle {
-    font-family: Bauer Bodoni W01 Bold_795736;
+    font-family: Bauer Bodoni Pro_1 W01 Bold;
     color: #fff;
     font-size: 2em;
     letter-spacing: .03em;
@@ -17261,7 +17632,7 @@ textarea {
 }
 
 #prints_page .solids_banner2 .content .inner .middle {
-    font-family: Bauer Bodoni W01 Bold_795736;
+    font-family: Bauer Bodoni Pro_1 W01 Bold;
     color: #fff;
     font-size: 2em;
     letter-spacing: .03em;
@@ -18182,7 +18553,7 @@ textarea {
 
 #fitguide_page .view_fitguide .text {
     color: #fff;
-    font-family: Bauer Bodoni W01 Bold_795736;
+    font-family: Bauer Bodoni Pro_1 W01 Bold;
     -webkit-font-smoothing: antialiased;
     font-size: 40px;
     text-decoration: none
@@ -18538,7 +18909,7 @@ textarea {
 
 #fitguide_detail_page .fitguide_content .fit_guide .content h2 {
     color: #00295d;
-    font-family: Bauer Bodoni W01 Bold_795736;
+    font-family: Bauer Bodoni Pro_1 W01 Bold;
     -webkit-font-smoothing: antialiased;
     font-size: 57px;
     line-height: 54px;
@@ -18717,7 +19088,7 @@ textarea {
         }
 
             #fitguide_detail_page .fitguide_content .product_blocks .product .image .text h2 {
-                font-family: Bauer Bodoni W01 Bold_795736;
+                font-family: Bauer Bodoni Pro_1 W01 Bold;
                 -webkit-font-smoothing: antialiased;
                 font-size: 14vw;
                 line-height: 100%;
@@ -18769,7 +19140,7 @@ textarea {
 }
 
 #fitguide_detail_page .fitguide_content .product_blocks .product .content .text_wrap h2 {
-    font-family: Bauer Bodoni W01 Bold_795736;
+    font-family: Bauer Bodoni Pro_1 W01 Bold;
     -webkit-font-smoothing: antialiased;
     font-size: 70px;
     letter-spacing: 0;
@@ -19216,7 +19587,7 @@ textarea {
 
 #fitguide_detail_page .fitguide_content .view_fitguide .text {
     color: #fff;
-    font-family: Bauer Bodoni W01 Bold_795736;
+    font-family: Bauer Bodoni Pro_1 W01 Bold;
     -webkit-font-smoothing: antialiased;
     font-size: 40px;
     text-decoration: none
@@ -19314,7 +19685,7 @@ textarea {
 
 #fitguide_detail_page .size_chart_flyout .size_chart h2 {
     color: #384e6d;
-    font-family: Bauer Bodoni W01 Bold_795736;
+    font-family: Bauer Bodoni Pro_1 W01 Bold;
     -webkit-font-smoothing: antialiased;
     font-size: 36px;
     margin: 0
@@ -19508,7 +19879,7 @@ textarea {
 
 #fitguide_detail_page .size_chart_flyout .tips .content h2 {
     color: #384e6d;
-    font-family: Bauer Bodoni W01 Bold_795736;
+    font-family: Bauer Bodoni Pro_1 W01 Bold;
     -webkit-font-smoothing: antialiased;
     font-size: 51px;
     margin: 0;
@@ -19761,7 +20132,7 @@ textarea {
 
 #fitguide_detail_page .diagrams_flyout .content .block h2 {
     color: #384e6d;
-    font-family: Bauer Bodoni W01 Bold_795736;
+    font-family: Bauer Bodoni Pro_1 W01 Bold;
     -webkit-font-smoothing: antialiased;
     font-size: 55px;
     letter-spacing: 2px;
@@ -20354,7 +20725,7 @@ textarea {
     }
 
     #review_page .top .product_name {
-        font-family: Proxima N W01 Smbd;
+        font-family: Proxima N W01 Bold;
         color: #04529d;
         font-size: 1.5em;
         letter-spacing: .03em;
@@ -20542,7 +20913,7 @@ textarea {
     #review_page .form_container form .submit_container input {
         background-color: #2c90ce;
         color: #fff;
-        font-family: Proxima N W01 Smbd;
+        font-family: Proxima N W01 Bold;
         width: auto;
         margin-left: auto;
         margin-right: auto;
@@ -20735,7 +21106,7 @@ textarea {
 
 #privacy-policy .section-title {
     color: #0d2f60;
-    font-family: Proxima N W01 Smbd;
+    font-family: Proxima N W01 Bold;
     text-transform: uppercase;
     font-size: 19px;
     letter-spacing: 1.6px;
@@ -20751,7 +21122,7 @@ textarea {
 
 #privacy-policy .sub-section-title {
     color: #0d2f60;
-    font-family: Proxima N W01 Smbd;
+    font-family: Proxima N W01 Bold;
     text-transform: uppercase;
     font-size: 15px;
     letter-spacing: .3px;
@@ -20929,7 +21300,7 @@ textarea {
 
 #size-chart-page .size_chart h2 {
     color: #384e6d;
-    font-family: Bauer Bodoni W01 Bold_795736;
+    font-family: Bauer Bodoni Pro_1 W01 Bold;
     -webkit-font-smoothing: antialiased;
     font-size: 43px;
     margin: 0;
@@ -21189,7 +21560,7 @@ textarea {
 
 #size-chart-page .tips .content h2 {
     color: #384e6d;
-    font-family: Bauer Bodoni W01 Bold_795736;
+    font-family: Bauer Bodoni Pro_1 W01 Bold;
     -webkit-font-smoothing: antialiased;
     font-size: 51px;
     margin: 0 auto;
@@ -21429,7 +21800,7 @@ textarea {
 
 #size-chart-page .view_fitguide .text {
     color: #fff;
-    font-family: Bauer Bodoni W01 Bold_795736;
+    font-family: Bauer Bodoni Pro_1 W01 Bold;
     -webkit-font-smoothing: antialiased;
     font-size: 40px;
     text-decoration: none
@@ -21493,7 +21864,7 @@ textarea {
     #favorites-email .form_container .sub_header {
         text-transform: uppercase;
         text-align: center;
-        font-family: Proxima N W01 Smbd;
+        font-family: Proxima N W01 Bold;
         color: #04529d;
         font-size: 1.7em;
         letter-spacing: .0875em
@@ -21636,7 +22007,7 @@ textarea {
             #favorites-email .form_container form .submit_container input {
                 background-color: #2c90ce;
                 color: #fff;
-                font-family: Proxima N W01 Smbd;
+                font-family: Proxima N W01 Bold;
                 width: inherit;
                 margin-left: auto;
                 margin-right: auto;
@@ -21659,7 +22030,7 @@ textarea {
             }
 
                 #favorites-email .form_container form .submit_container .text a {
-                    font-family: Proxima N W01 Smbd;
+                    font-family: Proxima N W01 Bold;
                     color: #002049
                 }
 
@@ -21913,5 +22284,3 @@ textarea {
                     letter-spacing: .2em
                 }
 }
-
-/*#homepage .categories .container .new_arrivals .block*/
