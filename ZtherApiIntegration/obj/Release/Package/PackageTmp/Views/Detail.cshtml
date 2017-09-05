@@ -1,40 +1,48 @@
 ﻿@using ZtherApiIntegration.Models.Detail
 @model DetailModel
 
-<div id="detail_page">
-    <div class="modal_overlay"></div>
-    <div class="detail_modal">
-        <div style="display:none" id="divCurrentProductCode">@Model.ProductDetail.Code</div>
-        <div class="mobile_exit">
-            <img src="public/images/detail/icons/x_close_white.png">
+<!-- BazaarVoice schema.org Markup -->
+<div itemscope itemtype="https://schema.org/Product">
+
+    <div id="detail_page">
+        <div class="modal_overlay"></div>
+        <div class="detail_modal">
+            <div style="display:none" id="divCurrentProductCode">@Model.ProductDetail.Code</div>
+            <div class="mobile_exit">
+                <img src="public/images/detail/icons/x_close_white.png">
+
+            </div>
+            <img class="exit" src="public/images/detail/icons/x_close.png">
+
+            <!-- Size Chart Partial -->
+            @Html.Partial("~/Views/Partials/Detail/_SizeChartPartial.cshtml", Model)
 
         </div>
-        <img class="exit" src="public/images/detail/icons/x_close.png">
 
-        <!-- Size Chart Partial -->
-        @Html.Partial("~/Views/Partials/Detail/_SizeChartPartial.cshtml", Model)
+        <div class="detail_top">
 
-    </div>
-    <div class="detail_top">
+            <!-- Detail Left Partial  -->
+            @Html.Partial("~/Views/Partials/Detail/_DetailLeftPartial.cshtml")
 
-        <!-- Detail Left Partial  -->
-        @Html.Partial("~/Views/Partials/Detail/_DetailLeftPartial.cshtml")
+            <!-- Detail Right Partial  -->
+            @Html.Partial("~/Views/Partials/Detail/_DetailRightPartial.cshtml", Model)
 
-        <!-- Detail Right Partial  -->
-        @Html.Partial("~/Views/Partials/Detail/_DetailRightPartial.cshtml", Model)
-
-    </div>
-
-    @if (Model.ProductCoordinates.Count > 0)
-    {
-        <div class="center_container">
-            <!-- Coordinates With Partial -->
-            @Html.Partial("~/Views/Partials/Detail/_CoordinatesWithPartial.cshtml", Model)
         </div>
-    }
-    
-    <!-- Customer Reviews Partial -->
-    @Html.Partial("~/Views/Partials/Detail/_CustomerReviewsPartial.cshtml", Model)
+
+        @*<div data-bv-show="reviews" data-bv-productId="@Model.ProductDetail.Code.ToUpper()">@Html.Raw(ViewBag.OutputReviews)</div>*@
+
+        @if (Model.ProductCoordinates.Count > 0)
+        {
+            <div class="center_container">
+                <!-- Coordinates With Partial -->
+                @Html.Partial("~/Views/Partials/Detail/_CoordinatesWithPartial.cshtml", Model)
+            </div>
+        }
+
+        <!-- Customer Reviews Partial -->
+        @Html.Partial("~/Views/Partials/Detail/_CustomerReviewsPartial.cshtml", Model)
+
+    </div>
 
 </div>
 
@@ -69,8 +77,8 @@
 </div>
 <!-- Modal Dialog Box End -->
 
-
 <script src="public/js/logic/detail.js"></script>
+
 <script type="text/javascript">
     setValues('@Model.ProductDetail.Code', '@Model.ProductDetail.DefaultColorCode', '@(Model.ColorsAndSizes.ProductCategorySizes.Count > 0 ? Model.ColorsAndSizes.ProductCategorySizes[0] : "")');
 </script>
@@ -78,3 +86,6 @@
 <script>
     fbq('track', 'ViewContent');
 </script>
+
+<!-- load BazaarVoice Scripts -->
+<script type="text/javascript" src="@System.Configuration.ConfigurationManager.AppSettings["bv-js"].ToString()"></script>

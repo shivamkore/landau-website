@@ -29,7 +29,18 @@
 
         </div>
 
-        <div data-bv-show="reviews" data-bv-productId="@Model.ProductDetail.Code.ToUpper()">@Html.Raw(ViewBag.OutputReviews)</div>
+        @*<div data-bv-show="reviews" data-bv-productId="@Model.ProductDetail.Code.ToUpper()">@Html.Raw(ViewBag.OutputReviews)</div>*@
+
+        @if (Model.ProductCoordinates.Count > 0)
+        {
+            <div class="center_container">
+                <!-- Coordinates With Partial -->
+                @Html.Partial("~/Views/Partials/Detail/_CoordinatesWithPartial.cshtml", Model)
+            </div>
+        }
+
+        <!-- Customer Reviews Partial -->
+        @Html.Partial("~/Views/Partials/Detail/_CustomerReviewsPartial.cshtml", Model)
 
     </div>
 

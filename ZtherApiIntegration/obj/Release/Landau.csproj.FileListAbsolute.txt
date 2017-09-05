@@ -205,3 +205,9 @@ C:\Projects\Github\Landau\landau-web\ZtherApiIntegration\obj\Release\Landau.cspr
 C:\Projects\Github\Landau\landau-web\ZtherApiIntegration\obj\Release\Landau.csprojResolveAssemblyReference.cache
 C:\Projects\Github\Landau\landau-web\ZtherApiIntegration\obj\Release\ZtherApiIntegration.dll
 C:\Projects\Github\Landau\landau-web\ZtherApiIntegration\obj\Release\ZtherApiIntegration.pdb
+C:\Projects\Github\Landau\landau-web\ZtherApiIntegration\bin\BVSeoSdkDotNet.dll
+C:\Projects\Github\Landau\landau-web\ZtherApiIntegration\bin\Commons.dll
+C:\Projects\Github\Landau\landau-web\ZtherApiIntegration\bin\log4net.dll
+C:\Projects\Github\Landau\landau-web\ZtherApiIntegration\bin\NVelocity.dll
+C:\Projects\Github\Landau\landau-web\ZtherApiIntegration\bin\BVSeoSdkDotNet.pdb
+C:\Projects\Github\Landau\landau-web\ZtherApiIntegration\obj\Release\Landau.csproj.CoreCompileInputs.cache

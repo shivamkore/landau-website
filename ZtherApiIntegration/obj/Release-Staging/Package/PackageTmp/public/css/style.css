@@ -7751,7 +7751,7 @@ textarea {
 }
 
 #collections .collections_container .inner .block.block5 .content .cta {
-    margin-top: 240px;
+    margin-top: 230px;
     margin-left: 80px;
 }
 
@@ -7771,7 +7771,7 @@ textarea {
 }
 
 #collections .collections_container .inner .block.block6 .content .cta {
-    margin-top: 240px;
+    margin-top: 200px;
     margin-left: 100px;
 }
 
@@ -7996,12 +7996,30 @@ textarea {
             height: 320px
         }
 
-            #collections .collections_container .inner .block .content .cta {
-                margin-top: 17px;
-                font-family: Proxima N W01 Bold;
-                font-size: .65em;
-                padding: 5px 16px 8px 12px
-            }
+        #collections .collections_container .inner .block .content .cta {
+            margin-top: 17px;
+            font-family: Proxima N W01 Bold;
+            font-size: .65em;
+            padding: 5px 16px 8px 12px
+        }
+
+        #collections .collections_container .inner .block.block5 .overlay_img {
+            background-image: url(../images/collections/collections/allday_990.jpg)
+        }
+
+        #collections .collections_container .inner .block.block5 .content .cta {
+            margin-top: 180px;
+            margin-left: 60px;
+        }
+
+        #collections .collections_container .inner .block.block6 .overlay_img {
+            background-image: url(../images/collections/collections/prewashed_990.jpg)
+        }
+
+        #collections .collections_container .inner .block.block6 .content .cta {
+            margin-top: 160px;
+            margin-left: 100px;
+        }
 }
 
 @media only screen and (max-width:989px) {
@@ -8202,6 +8220,26 @@ textarea {
                 font-size: 1em;
                 padding: 18px 43px 18px 39px
             }
+
+        #collections .collections_container .inner .block.block5 .content {
+            background-image: url(../images/collections/collections/allday_768.jpg);
+            padding-top: 142px;
+        }
+
+        #collections .collections_container .inner .block.block5 .content .cta {
+            margin-top: 140px;
+            margin-left: 100px;
+        }
+
+        #collections .collections_container .inner .block.block6 .content {
+            background-image: url(../images/collections/collections/prewashed_768.jpg);
+            padding-top: 142px;
+        }
+
+        #collections .collections_container .inner .block.block6 .content .cta {
+            margin-top: 100px;
+            margin-left: 100px;
+        }
 }
 
 @media only screen and (max-width:767px) {
@@ -8210,131 +8248,131 @@ textarea {
         padding-bottom: 27px
     }
 
-    #collections .seasonal_container .inner {
-        width: 100%;
-        padding: 0 10px
-    }
+        #collections .seasonal_container .inner {
+            width: 100%;
+            padding: 0 10px
+        }
 
-    #collections .seasonal_container .inner .hero,
-    #collections .seasonal_container .inner .hero .img {
-        width: 100%
-    }
+            #collections .seasonal_container .inner .hero,
+            #collections .seasonal_container .inner .hero .img {
+                width: 100%
+            }
 
-    #collections .seasonal_container .inner .hero .content.promo1 {
-        top: 20%;
-        right: 5%
-    }
+                #collections .seasonal_container .inner .hero .content.promo1 {
+                    top: 20%;
+                    right: 5%
+                }
 
-    #collections .seasonal_container .inner .hero .content.promo1 img {
-        width: 80%
-    }
+                    #collections .seasonal_container .inner .hero .content.promo1 img {
+                        width: 80%
+                    }
 
-    #collections .seasonal_container .inner .hero .content.promo1 .title {
-        font-size: 12vw
-    }
+                    #collections .seasonal_container .inner .hero .content.promo1 .title {
+                        font-size: 12vw
+                    }
 
-    #collections .seasonal_container .inner .hero .content.promo1 .collection_sub {
-        margin-top: 4%;
-        font-size: 2.6vw
-    }
+                    #collections .seasonal_container .inner .hero .content.promo1 .collection_sub {
+                        margin-top: 4%;
+                        font-size: 2.6vw
+                    }
 
-    #collections .seasonal_container .inner .hero .content.promo2 {
-        top: 29.1%
-    }
+                #collections .seasonal_container .inner .hero .content.promo2 {
+                    top: 29.1%
+                }
 
-    #collections .seasonal_container .inner .hero .content.promo2 .title {
-        font-size: 11.2vw
-    }
+                    #collections .seasonal_container .inner .hero .content.promo2 .title {
+                        font-size: 11.2vw
+                    }
 
-    #collections .seasonal_container .inner .hero .content.promo2 .collection_sub {
-        font-size: 2.6vw
-    }
+                    #collections .seasonal_container .inner .hero .content.promo2 .collection_sub {
+                        font-size: 2.6vw
+                    }
 
-    #collections .seasonal_container .inner .hero .content.promo3 {
-        top: 19%
-    }
+                #collections .seasonal_container .inner .hero .content.promo3 {
+                    top: 19%
+                }
 
-    #collections .seasonal_container .inner .hero .content.promo3 img {
-        width: 64%
-    }
+                    #collections .seasonal_container .inner .hero .content.promo3 img {
+                        width: 64%
+                    }
 
-    #collections .seasonal_container .inner .hero .content.promo3 .title {
-        font-size: 12vw
-    }
+                    #collections .seasonal_container .inner .hero .content.promo3 .title {
+                        font-size: 12vw
+                    }
 
-    #collections .seasonal_container .inner .hero .content.promo3 .collection_sub {
-        margin-top: 3%;
-        letter-spacing: .8em;
-        font-size: 2.6vw
-    }
+                    #collections .seasonal_container .inner .hero .content.promo3 .collection_sub {
+                        margin-top: 3%;
+                        letter-spacing: .8em;
+                        font-size: 2.6vw
+                    }
 
-    #collections .seasonal_container .inner .category_container {
-        width: 100%;
-        margin-top: 10px;
-        margin-bottom: 30px
-    }
+            #collections .seasonal_container .inner .category_container {
+                width: 100%;
+                margin-top: 10px;
+                margin-bottom: 30px
+            }
 
-    #collections .seasonal_container .inner .category_container .category {
-        width: 50%
-    }
+                #collections .seasonal_container .inner .category_container .category {
+                    width: 50%
+                }
 
-    #collections .seasonal_container .inner .category_container .category:nth-child(odd) {
-        padding-right: 5px;
-        margin-right: 0
-    }
+                    #collections .seasonal_container .inner .category_container .category:nth-child(odd) {
+                        padding-right: 5px;
+                        margin-right: 0
+                    }
 
-    #collections .seasonal_container .inner .category_container .category:nth-child(2n) {
-        padding-left: 5px
-    }
+                    #collections .seasonal_container .inner .category_container .category:nth-child(2n) {
+                        padding-left: 5px
+                    }
 
-    #collections .seasonal_container .inner .category_container .category:nth-child(n+3) {
-        margin-top: 10px
-    }
+                    #collections .seasonal_container .inner .category_container .category:nth-child(n+3) {
+                        margin-top: 10px
+                    }
 
-    #collections .seasonal_container .inner .category_container .category .view_details_cta {
-        display: none !important
-    }
+                    #collections .seasonal_container .inner .category_container .category .view_details_cta {
+                        display: none !important
+                    }
 
-    #collections .seasonal_container .inner .category_container .category .img {
-        height: 100%;
-        width: 100%;
-        opacity: 1 !important;
-        margin-bottom: 0
-    }
+                    #collections .seasonal_container .inner .category_container .category .img {
+                        height: 100%;
+                        width: 100%;
+                        opacity: 1 !important;
+                        margin-bottom: 0
+                    }
 
-    #collections .seasonal_container .inner .category_container .category .footer {
-        position: relative;
-        display: table-cell;
-        padding: 0 15px;
-        width: 1%;
-        height: 59px;
-        vertical-align: middle
-    }
+                    #collections .seasonal_container .inner .category_container .category .footer {
+                        position: relative;
+                        display: table-cell;
+                        padding: 0 15px;
+                        width: 1%;
+                        height: 59px;
+                        vertical-align: middle
+                    }
 
-    #collections .seasonal_container .inner .category_container .category .footer .text {
-        font-size: .8em;
-        line-height: 1em
-    }
+                        #collections .seasonal_container .inner .category_container .category .footer .text {
+                            font-size: .8em;
+                            line-height: 1em
+                        }
 
-    #collections .seasonal_container .inner .category_container .category .footer .number {
-        font-size: .7em
-    }
+                        #collections .seasonal_container .inner .category_container .category .footer .number {
+                            font-size: .7em
+                        }
 
-    #collections .seasonal_container .inner .bottom_container {
-        padding-top: 0
-    }
+            #collections .seasonal_container .inner .bottom_container {
+                padding-top: 0
+            }
 
-    #collections .seasonal_container .inner .see_more_cta {
-        font-size: .7em;
-        padding: 12px 42px;
-        letter-spacing: .15em
-    }
+            #collections .seasonal_container .inner .see_more_cta {
+                font-size: .7em;
+                padding: 12px 42px;
+                letter-spacing: .15em
+            }
 
-    #collections .seasonal_container .inner .see_more_cta .arrow {
-        font-size: 13px;
-        left: 3px;
-        top: 1px
-    }
+                #collections .seasonal_container .inner .see_more_cta .arrow {
+                    font-size: 13px;
+                    left: 3px;
+                    top: 1px
+                }
 
     #collections .collections_container .fit_text {
         position: absolute
@@ -8347,173 +8385,189 @@ textarea {
         margin-bottom: 20px
     }
 
-    #collections .collections_container .inner > .title {
-        font-size: 1.15em;
-        letter-spacing: .12em;
-        margin-bottom: 23px
-    }
+        #collections .collections_container .inner > .title {
+            font-size: 1.15em;
+            letter-spacing: .12em;
+            margin-bottom: 23px
+        }
 
-    #collections .collections_container .inner a:nth-of-type(2n),
-    #collections .collections_container .inner a:nth-of-type(odd) {
-        float: none
-    }
+        #collections .collections_container .inner a:nth-of-type(2n),
+        #collections .collections_container .inner a:nth-of-type(odd) {
+            float: none
+        }
 
-    #collections .collections_container .inner a:nth-of-type(n+2) .block {
-        margin-top: 1.15%
-    }
+        #collections .collections_container .inner a:nth-of-type(n+2) .block {
+            margin-top: 1.15%
+        }
 
-    #collections .collections_container .inner .block {
-        width: 100%
-    }
+        #collections .collections_container .inner .block {
+            width: 100%
+        }
 
-    #collections .collections_container .inner .block.block1 .content {
-        padding-top: 68.5%;
-        padding-left: 0;
-        background-image: url(../images/collections/collections/landau_for_men_640.jpg)
-    }
+            #collections .collections_container .inner .block.block1 .content {
+                padding-top: 68.5%;
+                padding-left: 0;
+                background-image: url(../images/collections/collections/landau_for_men_640.jpg)
+            }
 
-    #collections .collections_container .inner .block.block1 .content .top {
-        font-size: .75em;
-        letter-spacing: .35em;
-        top: 28.5%;
-        right: -16%;
-        width: 58%;
-        text-align: left
-    }
+                #collections .collections_container .inner .block.block1 .content .top {
+                    font-size: .75em;
+                    letter-spacing: .35em;
+                    top: 28.5%;
+                    right: -16%;
+                    width: 58%;
+                    text-align: left
+                }
 
-    #collections .collections_container .inner .block.block1 .content .title {
-        font-size: 2em;
-        top: 37.5%;
-        right: -103%;
-        width: 158%;
-        text-align: left
-    }
+                #collections .collections_container .inner .block.block1 .content .title {
+                    font-size: 2em;
+                    top: 37.5%;
+                    right: -103%;
+                    width: 158%;
+                    text-align: left
+                }
 
-    #collections .collections_container .inner .block.block1 .content .cta {
-        top: 57%;
-        right: 15.4%;
-        margin-top: 0
-    }
+                #collections .collections_container .inner .block.block1 .content .cta {
+                    top: 57%;
+                    right: 15.4%;
+                    margin-top: 0
+                }
 
-    #collections .collections_container .inner .block.block2 .content {
-        padding-top: 68.5%;
-        background-image: url(../images/collections/collections/introducing_lynx_640.jpg)
-    }
+            #collections .collections_container .inner .block.block2 .content {
+                padding-top: 68.5%;
+                background-image: url(../images/collections/collections/introducing_lynx_640.jpg)
+            }
 
-    #collections .collections_container .inner .block.block2 .content .top {
-        font-size: .6em;
-        letter-spacing: .3em;
-        top: 27%;
-        width: 48%;
-        left: 15.7%;
-        text-align: left
-    }
+                #collections .collections_container .inner .block.block2 .content .top {
+                    font-size: .6em;
+                    letter-spacing: .3em;
+                    top: 27%;
+                    width: 48%;
+                    left: 15.7%;
+                    text-align: left
+                }
 
-    #collections .collections_container .inner .block.block2 .content .title {
-        font-size: 2.6em;
-        line-height: 100%;
-        top: 33.5%;
-        right: -120.5%;
-        width: 208%;
-        text-align: left
-    }
+                #collections .collections_container .inner .block.block2 .content .title {
+                    font-size: 2.6em;
+                    line-height: 100%;
+                    top: 33.5%;
+                    right: -120.5%;
+                    width: 208%;
+                    text-align: left
+                }
 
-    #collections .collections_container .inner .block.block2 .content .cta {
-        top: 57%;
-        left: 16.2%;
-        margin-top: 0
-    }
+                #collections .collections_container .inner .block.block2 .content .cta {
+                    top: 57%;
+                    left: 16.2%;
+                    margin-top: 0
+                }
 
-    #collections .collections_container .inner .block.block3 .content {
-        padding-top: 68.5%;
-        background-image: url(../images/collections/collections/scrubzone_640.jpg)
-    }
+            #collections .collections_container .inner .block.block3 .content {
+                padding-top: 68.5%;
+                background-image: url(../images/collections/collections/scrubzone_640.jpg)
+            }
 
-    #collections .collections_container .inner .block.block3 .content .top {
-        font-size: .6em;
-        letter-spacing: .28em;
-        top: 15%;
-        width: 48%;
-        left: 14.7%;
-        text-align: left
-    }
+                #collections .collections_container .inner .block.block3 .content .top {
+                    font-size: .6em;
+                    letter-spacing: .28em;
+                    top: 15%;
+                    width: 48%;
+                    left: 14.7%;
+                    text-align: left
+                }
 
-    #collections .collections_container .inner .block.block3 .content .title {
-        font-size: 1.8em;
-        line-height: 100%;
-        top: 21.5%;
-        left: 6.5%;
-        width: 145%;
-        text-align: left
-    }
+                #collections .collections_container .inner .block.block3 .content .title {
+                    font-size: 1.8em;
+                    line-height: 100%;
+                    top: 21.5%;
+                    left: 6.5%;
+                    width: 145%;
+                    text-align: left
+                }
 
-    #collections .collections_container .inner .block.block3 .content img {
-        position: absolute;
-        width: 27.3%;
-        top: 33%;
-        left: 22.5%
-    }
+                #collections .collections_container .inner .block.block3 .content img {
+                    position: absolute;
+                    width: 27.3%;
+                    top: 33%;
+                    left: 22.5%
+                }
 
-    #collections .collections_container .inner .block.block3 .content .bottom {
-        margin-top: 0;
-        word-spacing: .3em;
-        font-size: .5em;
-        top: 57%;
-        left: 25.2%;
-        width: 45%;
-        text-align: left
-    }
+                #collections .collections_container .inner .block.block3 .content .bottom {
+                    margin-top: 0;
+                    word-spacing: .3em;
+                    font-size: .5em;
+                    top: 57%;
+                    left: 25.2%;
+                    width: 45%;
+                    text-align: left
+                }
 
-    #collections .collections_container .inner .block.block3 .content .bottom span {
-        letter-spacing: .3em
-    }
+                    #collections .collections_container .inner .block.block3 .content .bottom span {
+                        letter-spacing: .3em
+                    }
 
-    #collections .collections_container .inner .block.block3 .content .cta {
-        top: 68%;
-        left: 20.9%;
-        margin-top: 0
-    }
+                #collections .collections_container .inner .block.block3 .content .cta {
+                    top: 68%;
+                    left: 20.9%;
+                    margin-top: 0
+                }
 
-    #collections .collections_container .inner .block.block4 .content {
-        padding-top: 68.5%;
-        background-image: url(../images/collections/collections/landau_groups_640.jpg);
-        background-repeat: no-repeat
-    }
+            #collections .collections_container .inner .block.block4 .content {
+                padding-top: 68.5%;
+                background-image: url(../images/collections/collections/landau_groups_640.jpg);
+                background-repeat: no-repeat
+            }
 
-    #collections .collections_container .inner .block.block4 .content .top {
-        font-size: .65em;
-        top: 15%;
-        top: 28%;
-        width: 51%;
-        left: 65.4%;
-        text-align: left
-    }
+                #collections .collections_container .inner .block.block4 .content .top {
+                    font-size: .65em;
+                    top: 15%;
+                    top: 28%;
+                    width: 51%;
+                    left: 65.4%;
+                    text-align: left
+                }
 
-    #collections .collections_container .inner .block.block4 .content .title {
-        font-size: 1.9em;
-        top: 21.5%;
-        top: 34.5%;
-        left: 54.5%;
-        width: 150%;
-        text-align: left
-    }
+                #collections .collections_container .inner .block.block4 .content .title {
+                    font-size: 1.9em;
+                    top: 21.5%;
+                    top: 34.5%;
+                    left: 54.5%;
+                    width: 150%;
+                    text-align: left
+                }
 
-    #collections .collections_container .inner .block.block4 .content .cta {
-        top: 51%;
-        left: 60.6%;
-        margin-top: 0
-    }
+                #collections .collections_container .inner .block.block4 .content .cta {
+                    top: 51%;
+                    left: 60.6%;
+                    margin-top: 0
+                }
 
-    #collections .collections_container .inner .block.block5 .content {
-        padding-top: 68.5%;
+    #collections .collections_container .inner .block.block5 .content
+    {
         background-image: url(../images/collections/collections/allday_640.jpg);
-        background-repeat: no-repeat
+        background-repeat: no-repeat;
+        padding-top: 68.5%;
+                
+    }
+
+    #collections .collections_container .inner .block.block5 .content .cta {
+        top: 55%;
+        left: 8%;
+        margin-top: 0;
+        margin-left: 0;
     }
 
     #collections .collections_container .inner .block.block6 .content {
-        padding-top: 68.5%;
         background-image: url(../images/collections/collections/prewashed_640.jpg);
-        background-repeat: no-repeat
+        background-repeat: no-repeat;
+        padding-top: 68.5%;
+    }
+
+    #collections .collections_container .inner .block.block6 .content .cta {
+        top: 50%;
+        left: 8%;
+        margin-top: 0;
+        margin-left: 0;
     }
 
     #collections .collections_container .inner .block:nth-child(n+4) {
