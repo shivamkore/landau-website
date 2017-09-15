@@ -680,11 +680,11 @@
 #homepage .home_slider .flexslider ul.slides li.home-slider-3 .content {
    /* background-color: #9f26b4;*/
    position: absolute;
-    width: 662px;
-    height: 381px;
+    width: 15vw;
+    height: 200px;
     background-color: #ffffff;
-    top:18%;
-    left: 4%;
+    top:18vw;
+    left: 59.5vw;
 }
 @media screen and (max-width:1270px) {
     #homepage .home_slider .flexslider ul.slides li.home-slider-3 .content {
@@ -1240,8 +1240,8 @@
 }
 
 #homepage .home_slider .flexslider ul.slides li.home-slider-5 .content {
-    width: 90%;
-    height: 75%;
+    width: 19%;
+    /*height: 75%;*/
     /*border: #ffffff solid 2px;*/
     margin: 0 auto;
     margin-top: 70px;
