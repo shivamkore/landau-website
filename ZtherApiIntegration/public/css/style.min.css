@@ -1589,7 +1589,88 @@ textarea {
         color: #fff
     }
 
+#collections .collections_container .inner .block.block5 .content .title {
+    color: #024d9a;
+    position: absolute;
+    top: -90px;
+    left: 38px;
+    font-size: 4em
+}
+
+#collections .collections_container .inner .block.block5 .content .top {
+    color: #666666 !important;
+    position:absolute;
+    top: -120px;
+    left: 38px;
+    letter-spacing: 4px;
+
+    font-size: 1.2em;
+    
+
+}
+
+#collections .collections_container .inner .block.block6 .content .title {
+    color: #00adef;
+    position:absolute;
+    top: -80px;
+    left: 240px;
+    font-size: 3.6em;
+
+}
+
+
+
+#collections .collections_container .inner .block.block6 .content .top {
+    color: #000;
+    position: absolute;
+    top: -110px;
+    left: 275px;
+    letter-spacing: .3em;
+}
+
+
 @media screen and (min-width:990px) and (max-width:1270px) {
+
+
+
+    #collections .collections_container .inner .block.block5 .content .title {
+        color: #024d9a;
+        position: absolute;
+        top: -50px;
+        left: 37px;
+        font-size: 2.6em
+    }
+
+    #collections .collections_container .inner .block.block5 .content .top {
+        color: #666666 !important;
+        position: absolute;
+        top: -75px;
+        left: 17px;
+        letter-spacing: 3px;
+        font-size: 1em;
+    }
+
+
+    #collections .collections_container .inner .block.block6 .content .title {
+        color: #00adef;
+        position: absolute;
+        top: -60px;
+        left: 190px;
+        font-size: 2.7em;
+    }
+
+
+
+    #collections .collections_container .inner .block.block6 .content .top {
+        color: #000;
+        position: absolute;
+        top: -90px;
+        left: 207px;
+        font-size: 1em;
+        letter-spacing: .3em;
+    }
+
+
     #main_footer .container {
         padding: 0 43px
     }
@@ -1669,6 +1750,45 @@ textarea {
     }
 
 @media screen and (min-width:768px) and (max-width:989px) {
+
+
+    #collections .collections_container .inner .block.block5 .content .title {
+        color: #024d9a;
+        position: absolute;
+        top: 190px;
+        left: 22px;
+        font-size: 5.3em
+    }
+
+    #collections .collections_container .inner .block.block5 .content .top {
+        color: #666666 !important;
+        position: absolute;
+        top: 155px;
+        left: 46px;
+        letter-spacing: 3px;
+        font-size: 1.5em;
+    }
+
+    #collections .collections_container .inner .block.block6 .content .title {
+        color: #00adef;
+        position: absolute;
+        top: 190px;
+        left: 305px;
+        font-size: 4.2em;
+    }
+
+
+
+    #collections .collections_container .inner .block.block6 .content .top {
+        color: #000;
+        position: absolute;
+        top: 160px;
+        left: 360px;
+        font-size: 1.3em;
+    }
+
+
+
     #main_footer .mailing_list .clearfix {
         padding: 34px 0
     }
@@ -1743,6 +1863,45 @@ textarea {
 }
 
 @media screen and (max-width:767px) {
+
+
+
+    #collections .collections_container .inner .block.block5 .content .title {
+        color: #024d9a;
+        position: absolute;
+        top: 37%;
+        left: 2%;
+        font-size: 9.8vw
+    }
+
+    #collections .collections_container .inner .block.block5 .content .top {
+        color: #666666 !important;
+        position: absolute;
+        top: 30%;
+        left: 4.5%;
+        letter-spacing: .4vw;
+        font-size: 2.9vw;
+    }
+
+
+    #collections .collections_container .inner .block.block6 .content .title {
+        color: #00adef;
+        position: absolute;
+        top: 35%;
+        left: 40%;
+        font-size: 8vw !important;
+    }
+
+
+
+    #collections .collections_container .inner .block.block6 .content .top {
+        color: #000;
+        position: absolute;
+        top: 28%;
+        left: 45.5%;
+        font-size: 2.9vw;
+    }
+
     #main_footer .container {
         padding: 0 24px
     }
@@ -7789,18 +7948,18 @@ textarea {
 
 #collections .collections_container .inner .block.block5 .content .cta {
     margin-top: 230px;
-    margin-left: 80px
+    margin-left: 76px
 }
 
 #collections .collections_container .inner .block.block5 .content .cta {
-    border-color: #465776;
-    color: #465776
+    border-color: #024d9a;
+    color: #024d9a
 }
 
     #collections .collections_container .inner .block.block5 .content .cta.cta-hover {
         background-color: #fff !important;
         border-color: #fff !important;
-        color: #465776 !important
+        color: #024d9a !important
     }
 
 #collections .collections_container .inner .block.block6 .overlay_img {
@@ -7808,19 +7967,19 @@ textarea {
 }
 
 #collections .collections_container .inner .block.block6 .content .cta {
-    margin-top: 200px;
-    margin-left: 100px
+    margin-top: 235px;
+    margin-right: 93px
 }
 
 #collections .collections_container .inner .block.block6 .content .cta {
-    border-color: #465776;
-    color: #465776
+    border-color: #000;
+    color: #000
 }
 
     #collections .collections_container .inner .block.block6 .content .cta.cta-hover {
         background-color: #fff !important;
         border-color: #fff !important;
-        color: #465776 !important
+        color: #000 !important
     }
 
 #collections .collections_container .inner .block:nth-child(2n) {
@@ -8045,7 +8204,7 @@ textarea {
 
         #collections .collections_container .inner .block.block5 .content .cta {
             margin-top: 180px;
-            margin-left: 60px
+            margin-left: 64px
         }
 
         #collections .collections_container .inner .block.block6 .overlay_img {
@@ -8053,8 +8212,9 @@ textarea {
         }
 
         #collections .collections_container .inner .block.block6 .content .cta {
-            margin-top: 160px;
-            margin-left: 100px
+            margin-top: 180px;
+            margin-left: 249px;
+            margin-right: 0;
         }
 }
 
@@ -8264,7 +8424,7 @@ textarea {
 
             #collections .collections_container .inner .block.block5 .content .cta {
                 margin-top: 140px;
-                margin-left: 100px
+                margin-left: 96px
             }
 
         #collections .collections_container .inner .block.block6 .content {
@@ -8273,8 +8433,8 @@ textarea {
         }
 
             #collections .collections_container .inner .block.block6 .content .cta {
-                margin-top: 100px;
-                margin-left: 100px
+                margin-top: 130px;
+                margin-left: 377px
             }
 }
 
@@ -8582,12 +8742,16 @@ textarea {
                 padding-top: 68.5%
             }
 
-                #collections .collections_container .inner .block.block5 .content .cta {
-                    top: 55%;
-                    left: 8%;
-                    margin-top: 0;
-                    margin-left: 0
-                }
+            
+            
+            
+            #collections .collections_container .inner .block.block5 .content .cta {
+                top: 55%;
+                left: 8%;
+                margin-top: 0;
+                margin-left: 0
+            }
+               
 
             #collections .collections_container .inner .block.block6 .content {
                 background-image: url(../images/collections/collections/prewashed_640.jpg);
@@ -8595,9 +8759,17 @@ textarea {
                 padding-top: 68.5%
             }
 
+                #collections .collections_container .inner .block.block6 .content .title {
+                    color: #00adef;
+                }
+
+            #collections .collections_container .inner .block.block6 .content .top {
+                color: #000 !important;
+            }
+
                 #collections .collections_container .inner .block.block6 .content .cta {
-                    top: 50%;
-                    left: 8%;
+                    top: 54%;
+                    left: 46%;
                     margin-top: 0;
                     margin-left: 0
                 }
