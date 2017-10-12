@@ -19,19 +19,8 @@
     <h1 class="title" itemprop="name">@Model.ProductDetail.Name</h1>
     <div class="sku">@Model.ProductDetail.Code</div>
 
-     @*Summary Container goes above the fold near product name or image 
-    <div data-bv-show="rating_summary" data-bv-productId="@Model.ProductDetail.Code"></div>*@
-
-    <div class="star-rating-container">
-        @{
-            var stars = (int)Math.Truncate((Decimal)Model.ProductReviews.Average);
-        }
-        @Html.Partial("~/Views/Partials/Detail/_RatingStarsPartial.cshtml", stars)
-        <div class="review-count">
-            @Model.ProductReviews.Pagination.TotalCount.ToString() Reviews
-        </div>
-    </div>
-    <a href="@UrlBuilder.BuildProductReviewUrl(Model.Breadcrumb, Model.ProductDetail.Code, Model.ProductDetail.Name)" class="write_review">Write a Review</a>
+    @*Summary Container goes above the fold near product name or image*@
+    <div data-bv-show="rating_summary" data-bv-productId="@Model.ProductDetail.Code"></div>
 
     <div class="description_title">Description</div>
     <div class="description">

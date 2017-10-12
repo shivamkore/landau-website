@@ -1,7 +1,7 @@
 @font-face {
     font-family: fontello;
-    src: url(../fonts/fontello.eot);
-    src: url(../fonts/fontello.eot) format("embedded-opentype"), url(../fonts/fontello.woff) format("woff"), url(../fonts/fontello.ttf) format("truetype"), url(../fonts/fontello.svg) format("svg");
+    src: url(../fonts/fontello.eot?);
+    src: url(../fonts/fontello.eot?) format("embedded-opentype"),url(../fonts/fontello.woff) format("woff"),url(../fonts/fontello.ttf) format("truetype"),url(../fonts/fontello.svg) format("svg");
     font-weight: 400;
     font-style: normal
 }
@@ -77,8 +77,8 @@
 
     #validation-page li a {
         color: #2d90d1;
-        -webkit-transition: background-color .25s ease, color .25s ease, border-color .25s ease;
-        transition: background-color .25s ease, color .25s ease, border-color .25s ease
+        -webkit-transition: background-color .25s ease,color .25s ease,border-color .25s ease;
+        transition: background-color .25s ease,color .25s ease,border-color .25s ease
     }
 
         #validation-page li a:hover {
@@ -117,11 +117,7 @@ body {
     display: none
 }
 
-h1,
-h2,
-h3,
-h4,
-h5 {
+h1, h2, h3, h4, h5 {
     font-family: Proxima N W01 Bold;
     text-transform: uppercase
 }
@@ -153,8 +149,7 @@ input {
     border-radius: 0
 }
 
-    input:-moz-placeholder,
-    input::-moz-placeholder {
+    input:-moz-placeholder, input::-moz-placeholder {
         opacity: 1
     }
 
@@ -163,8 +158,7 @@ textarea {
     border-radius: 0
 }
 
-    input::-ms-clear,
-    textarea::-ms-clear {
+    input::-ms-clear, textarea::-ms-clear {
         display: none
     }
 
@@ -174,9 +168,7 @@ textarea {
     -moz-transform: perspective(1px)
 }
 
-.col-sm-4,
-.col-sm-8,
-.col-xs-12 {
+.col-sm-4, .col-sm-8, .col-xs-12 {
     padding-left: 0;
     padding-right: 0
 }
@@ -200,7 +192,7 @@ textarea {
     text-transform: uppercase;
     padding: 11px 18px 11px 14px;
     cursor: pointer;
-    transition: background-color .25s ease, color .25s ease, border-color .25s ease
+    transition: background-color .25s ease,color .25s ease,border-color .25s ease
 }
 
     .cta .arrow {
@@ -217,7 +209,7 @@ textarea {
     display: none
 }
 
-@media (min-width:1271px) {
+@media(min-width:1271px) {
     .container {
         width: 1270px
     }
@@ -322,12 +314,11 @@ textarea {
     #main_header #utility .logo ul li {
         display: inline-block;
         border-right: 1px solid #2d4e79;
-        -webkit-transition: background-color .25s ease, color .25s ease, border-color .25s ease;
-        transition: background-color .25s ease, color .25s ease, border-color .25s ease
+        -webkit-transition: background-color .25s ease,color .25s ease,border-color .25s ease;
+        transition: background-color .25s ease,color .25s ease,border-color .25s ease
     }
 
-        #main_header #utility .logo ul li.active,
-        #main_header #utility .logo ul li:hover {
+        #main_header #utility .logo ul li.active, #main_header #utility .logo ul li:hover {
             background-color: #fff
         }
 
@@ -385,8 +376,8 @@ textarea {
 }
 
 #main_header #utility .nav_search .nav ul li a .nav-text {
-    -webkit-transition: background-color .25s ease, color .25s ease, border-color .25s ease;
-    transition: background-color .25s ease, color .25s ease, border-color .25s ease
+    -webkit-transition: background-color .25s ease,color .25s ease,border-color .25s ease;
+    transition: background-color .25s ease,color .25s ease,border-color .25s ease
 }
 
 #main_header #utility .nav_search .nav ul li a:hover .nav-text {
@@ -411,8 +402,8 @@ textarea {
         top: -1px;
         width: 23px;
         line-height: 20px;
-        -webkit-transition: background-color .25s ease, color .25s ease, border-color .25s ease;
-        transition: background-color .25s ease, color .25s ease, border-color .25s ease
+        -webkit-transition: background-color .25s ease,color .25s ease,border-color .25s ease;
+        transition: background-color .25s ease,color .25s ease,border-color .25s ease
     }
 
     #main_header #utility .nav_search .nav ul li a.num:hover .num-circle {
@@ -445,16 +436,15 @@ textarea {
         padding: 0 42px 0 13px;
         width: 100%;
         color: #2d90d0;
-        -webkit-transition: background-color .25s ease, color .25s ease, border-color .25s ease;
-        transition: background-color .25s ease, color .25s ease, border-color .25s ease
+        -webkit-transition: background-color .25s ease,color .25s ease,border-color .25s ease;
+        transition: background-color .25s ease,color .25s ease,border-color .25s ease
     }
 
         #main_header #utility .nav_search .search form input.search::-webkit-input-placeholder {
             color: #2d90d0
         }
 
-        #main_header #utility .nav_search .search form input.search:-moz-placeholder,
-        #main_header #utility .nav_search .search form input.search::-moz-placeholder {
+        #main_header #utility .nav_search .search form input.search:-moz-placeholder, #main_header #utility .nav_search .search form input.search::-moz-placeholder {
             color: #2d90d0
         }
 
@@ -471,8 +461,7 @@ textarea {
                 color: transparent
             }
 
-            #main_header #utility .nav_search .search form input.search:focus:-moz-placeholder,
-            #main_header #utility .nav_search .search form input.search:focus::-moz-placeholder {
+            #main_header #utility .nav_search .search form input.search:focus:-moz-placeholder, #main_header #utility .nav_search .search form input.search:focus::-moz-placeholder {
                 color: transparent
             }
 
@@ -519,12 +508,11 @@ textarea {
             display: block;
             font-family: Proxima N W01 Bold;
             text-transform: uppercase;
-            -webkit-transition: background-color .25s ease, color .25s ease, border-color .25s ease;
-            transition: background-color .25s ease, color .25s ease, border-color .25s ease
+            -webkit-transition: background-color .25s ease,color .25s ease,border-color .25s ease;
+            transition: background-color .25s ease,color .25s ease,border-color .25s ease
         }
 
-            #main_header #main_nav ul li a:focus,
-            #main_header #main_nav ul li a:hover {
+            #main_header #main_nav ul li a:focus, #main_header #main_nav ul li a:hover {
                 background-color: #fff
             }
 
@@ -577,8 +565,8 @@ textarea {
             text-align: left;
             background-color: #fff;
             float: none;
-            -webkit-transform: translate(-50%, 170px) !important;
-            transform: translate(-50%, 170px) !important;
+            -webkit-transform: translate(-50%,170px) !important;
+            transform: translate(-50%,170px) !important;
             box-shadow: none;
             border: none;
             border-top: 1px solid #e5e5e5
@@ -716,8 +704,7 @@ textarea {
                     top: 10px
                 }
 
-            #main_header #utility .nav_search .nav ul li:last-of-type a,
-            #main_header #utility .nav_search .nav ul li:not(:first-child) a:before {
+            #main_header #utility .nav_search .nav ul li:last-of-type a, #main_header #utility .nav_search .nav ul li:not(:first-child) a:before {
                 padding-right: 0
             }
 
@@ -752,8 +739,8 @@ textarea {
         }
 
             #main_header #main_nav ul li.dropdown .dropdown-menu {
-                -webkit-transform: translate(-50%, 166px) !important;
-                transform: translate(-50%, 166px) !important
+                -webkit-transform: translate(-50%,166px) !important;
+                transform: translate(-50%,166px) !important
             }
 
                 #main_header #main_nav ul li.dropdown .dropdown-menu > li:first-of-type {
@@ -780,8 +767,7 @@ textarea {
                 width: 365px
             }
 
-                #main_header #utility .logo ul,
-                #main_header #utility .logo ul li:first-of-type {
+                #main_header #utility .logo ul, #main_header #utility .logo ul li:first-of-type {
                     border-left: none
                 }
 
@@ -823,8 +809,7 @@ textarea {
             min-height: 82px
         }
 
-            #main_header #main_nav ul li.nav-left,
-            #main_header #main_nav ul li.nav-right {
+            #main_header #main_nav ul li.nav-left, #main_header #main_nav ul li.nav-right {
                 display: none
             }
 
@@ -942,8 +927,7 @@ textarea {
                         color: #fff
                     }
 
-                    #main_header #navbar-search form input.search:-moz-placeholder,
-                    #main_header #navbar-search form input.search::-moz-placeholder {
+                    #main_header #navbar-search form input.search:-moz-placeholder, #main_header #navbar-search form input.search::-moz-placeholder {
                         color: #fff
                     }
 
@@ -955,8 +939,7 @@ textarea {
                         color: transparent
                     }
 
-                    #main_header #navbar-search form input.search:focus:-moz-placeholder,
-                    #main_header #navbar-search form input.search:focus::-moz-placeholder {
+                    #main_header #navbar-search form input.search:focus:-moz-placeholder, #main_header #navbar-search form input.search:focus::-moz-placeholder {
                         color: transparent
                     }
 
@@ -996,12 +979,11 @@ textarea {
                 text-transform: none;
                 color: #d6dbe1;
                 font-size: .9em;
-                -webkit-transition: background-color .25s ease, color .25s ease, border-color .25s ease;
-                transition: background-color .25s ease, color .25s ease, border-color .25s ease
+                -webkit-transition: background-color .25s ease,color .25s ease,border-color .25s ease;
+                transition: background-color .25s ease,color .25s ease,border-color .25s ease
             }
 
-                #main_header #main_nav_side li .nav-text:focus,
-                #main_header #main_nav_side li .nav-text:hover {
+                #main_header #main_nav_side li .nav-text:focus, #main_header #main_nav_side li .nav-text:hover {
                     color: #fff
                 }
 
@@ -1010,14 +992,12 @@ textarea {
                 color: #9ab0cc
             }
 
-                #main_header #main_nav_side li a,
-                #main_header #main_nav_side li a span {
-                    -webkit-transition: background-color .25s ease, color .25s ease, border-color .25s ease;
-                    transition: background-color .25s ease, color .25s ease, border-color .25s ease
+                #main_header #main_nav_side li a, #main_header #main_nav_side li a span {
+                    -webkit-transition: background-color .25s ease,color .25s ease,border-color .25s ease;
+                    transition: background-color .25s ease,color .25s ease,border-color .25s ease
                 }
 
-                    #main_header #main_nav_side li a:focus,
-                    #main_header #main_nav_side li a:hover {
+                    #main_header #main_nav_side li a:focus, #main_header #main_nav_side li a:hover {
                         color: #fff
                     }
 
@@ -1056,7 +1036,6 @@ textarea {
                 display: inline-block;
                 font-family: fontello;
                 margin-right: 41px;
-                /*float: right;*/
                 font-size: 1.7em;
                 position: relative;
                 top: -10px
@@ -1078,12 +1057,11 @@ textarea {
                     padding: 14.5px 0;
                     letter-spacing: 1px;
                     font-size: .9em;
-                    -webkit-transition: background-color .25s ease, color .25s ease, border-color .25s ease;
-                    transition: background-color .25s ease, color .25s ease, border-color .25s ease
+                    -webkit-transition: background-color .25s ease,color .25s ease,border-color .25s ease;
+                    transition: background-color .25s ease,color .25s ease,border-color .25s ease
                 }
 
-                    #main_header #main_nav_side li.dropdown .dropdown-menu .ul-category li a:focus,
-                    #main_header #main_nav_side li.dropdown .dropdown-menu .ul-category li a:hover {
+                    #main_header #main_nav_side li.dropdown .dropdown-menu .ul-category li a:focus, #main_header #main_nav_side li.dropdown .dropdown-menu .ul-category li a:hover {
                         color: #fff
                     }
 }
@@ -1159,8 +1137,7 @@ textarea {
             position: relative
         }
 
-            #main_header #main_nav ul li.nav-left,
-            #main_header #main_nav ul li.nav-right {
+            #main_header #main_nav ul li.nav-left, #main_header #main_nav ul li.nav-right {
                 display: none
             }
 
@@ -1275,8 +1252,7 @@ textarea {
                         color: #fff
                     }
 
-                    #main_header #navbar-search form input.search:-moz-placeholder,
-                    #main_header #navbar-search form input.search::-moz-placeholder {
+                    #main_header #navbar-search form input.search:-moz-placeholder, #main_header #navbar-search form input.search::-moz-placeholder {
                         color: #fff
                     }
 
@@ -1316,12 +1292,11 @@ textarea {
                 text-transform: none;
                 color: #d6dbe1;
                 font-size: 1.1em;
-                -webkit-transition: background-color .25s ease, color .25s ease, border-color .25s ease;
-                transition: background-color .25s ease, color .25s ease, border-color .25s ease
+                -webkit-transition: background-color .25s ease,color .25s ease,border-color .25s ease;
+                transition: background-color .25s ease,color .25s ease,border-color .25s ease
             }
 
-                #main_header #main_nav_side li .nav-text:focus,
-                #main_header #main_nav_side li .nav-text:hover {
+                #main_header #main_nav_side li .nav-text:focus, #main_header #main_nav_side li .nav-text:hover {
                     color: #fff
                 }
 
@@ -1330,14 +1305,12 @@ textarea {
                 color: #9ab0cc
             }
 
-                #main_header #main_nav_side li a,
-                #main_header #main_nav_side li a span {
-                    -webkit-transition: background-color .25s ease, color .25s ease, border-color .25s ease;
-                    transition: background-color .25s ease, color .25s ease, border-color .25s ease
+                #main_header #main_nav_side li a, #main_header #main_nav_side li a span {
+                    -webkit-transition: background-color .25s ease,color .25s ease,border-color .25s ease;
+                    transition: background-color .25s ease,color .25s ease,border-color .25s ease
                 }
 
-                    #main_header #main_nav_side li a:focus,
-                    #main_header #main_nav_side li a:hover {
+                    #main_header #main_nav_side li a:focus, #main_header #main_nav_side li a:hover {
                         color: #fff
                     }
 
@@ -1376,7 +1349,6 @@ textarea {
                 display: inline-block;
                 font-family: fontello;
                 margin-right: 18px;
-                /*float: right;*/
                 font-size: 1.7em;
                 position: relative;
                 top: -8px
@@ -1455,16 +1427,15 @@ textarea {
                 height: 47px;
                 font-family: Proxima N W01 Bold;
                 text-transform: uppercase;
-                -webkit-transition: background-color .25s ease, color .25s ease, border-color .25s ease;
-                transition: background-color .25s ease, color .25s ease, border-color .25s ease
+                -webkit-transition: background-color .25s ease,color .25s ease,border-color .25s ease;
+                transition: background-color .25s ease,color .25s ease,border-color .25s ease
             }
 
                 #main_footer .mailing_list .clearfix .input input::-webkit-input-placeholder {
                     color: #002049
                 }
 
-                #main_footer .mailing_list .clearfix .input input:-moz-placeholder,
-                #main_footer .mailing_list .clearfix .input input::-moz-placeholder {
+                #main_footer .mailing_list .clearfix .input input:-moz-placeholder, #main_footer .mailing_list .clearfix .input input::-moz-placeholder {
                     color: #002049
                 }
 
@@ -1476,8 +1447,7 @@ textarea {
                     color: transparent
                 }
 
-                #main_footer .mailing_list .clearfix .input input:focus:-moz-placeholder,
-                #main_footer .mailing_list .clearfix .input input:focus::-moz-placeholder {
+                #main_footer .mailing_list .clearfix .input input:focus:-moz-placeholder, #main_footer .mailing_list .clearfix .input input:focus::-moz-placeholder {
                     color: transparent
                 }
 
@@ -1558,8 +1528,8 @@ textarea {
             padding-top: 7px;
             text-align: center;
             width: 40px;
-            -webkit-transition: background-color .25s ease, color .25s ease, border-color .25s ease;
-            transition: background-color .25s ease, color .25s ease, border-color .25s ease
+            -webkit-transition: background-color .25s ease,color .25s ease,border-color .25s ease;
+            transition: background-color .25s ease,color .25s ease,border-color .25s ease
         }
 
             #main_footer .social_page_links .social ul li a:hover {
@@ -1599,8 +1569,8 @@ textarea {
 
             #main_footer .social_page_links .page_links ul li a {
                 color: #9ab0cc;
-                -webkit-transition: background-color .25s ease, color .25s ease, border-color .25s ease;
-                transition: background-color .25s ease, color .25s ease, border-color .25s ease
+                -webkit-transition: background-color .25s ease,color .25s ease,border-color .25s ease;
+                transition: background-color .25s ease,color .25s ease,border-color .25s ease
             }
 
                 #main_footer .social_page_links .page_links ul li a:hover {
@@ -1619,7 +1589,84 @@ textarea {
         color: #fff
     }
 
+#collections .collections_container .inner .block.block5 .content .title {
+    color: #024d9a;
+    position: absolute;
+    top: -90px;
+    left: 38px;
+    font-size: 4em
+}
+
+#collections .collections_container .inner .block.block5 .content .top {
+    color: #666666 !important;
+    position: absolute;
+    top: -120px;
+    left: 38px;
+    letter-spacing: 4px;
+    font-size: 1.2em;
+}
+
+#collections .collections_container .inner .block.block6 .content .title {
+    color: #00adef;
+    position: absolute;
+    top: -80px;
+    left: 240px;
+    font-size: 3.6em;
+}
+
+
+
+#collections .collections_container .inner .block.block6 .content .top {
+    color: #000;
+    position: absolute;
+    top: -110px;
+    left: 275px;
+    letter-spacing: .3em;
+}
+
+
 @media screen and (min-width:990px) and (max-width:1270px) {
+
+
+
+    #collections .collections_container .inner .block.block5 .content .title {
+        color: #024d9a;
+        position: absolute;
+        top: -50px;
+        left: 37px;
+        font-size: 2.6em
+    }
+
+    #collections .collections_container .inner .block.block5 .content .top {
+        color: #666666 !important;
+        position: absolute;
+        top: -75px;
+        left: 17px;
+        letter-spacing: 3px;
+        font-size: 1em;
+    }
+
+
+    #collections .collections_container .inner .block.block6 .content .title {
+        color: #00adef;
+        position: absolute;
+        top: -60px;
+        left: 190px;
+        font-size: 2.7em;
+    }
+
+
+
+    #collections .collections_container .inner .block.block6 .content .top {
+        color: #000;
+        position: absolute;
+        top: -90px;
+        left: 207px;
+        font-size: 1em;
+        letter-spacing: .3em;
+    }
+
+
     #main_footer .container {
         padding: 0 43px
     }
@@ -1699,6 +1746,45 @@ textarea {
     }
 
 @media screen and (min-width:768px) and (max-width:989px) {
+
+
+    #collections .collections_container .inner .block.block5 .content .title {
+        color: #024d9a;
+        position: absolute;
+        top: 190px;
+        left: 22px;
+        font-size: 5.3em
+    }
+
+    #collections .collections_container .inner .block.block5 .content .top {
+        color: #666666 !important;
+        position: absolute;
+        top: 155px;
+        left: 46px;
+        letter-spacing: 3px;
+        font-size: 1.5em;
+    }
+
+    #collections .collections_container .inner .block.block6 .content .title {
+        color: #00adef;
+        position: absolute;
+        top: 190px;
+        left: 305px;
+        font-size: 4.2em;
+    }
+
+
+
+    #collections .collections_container .inner .block.block6 .content .top {
+        color: #000;
+        position: absolute;
+        top: 160px;
+        left: 360px;
+        font-size: 1.3em;
+    }
+
+
+
     #main_footer .mailing_list .clearfix {
         padding: 34px 0
     }
@@ -1773,6 +1859,45 @@ textarea {
 }
 
 @media screen and (max-width:767px) {
+
+
+
+    #collections .collections_container .inner .block.block5 .content .title {
+        color: #024d9a;
+        position: absolute;
+        top: 37%;
+        left: 2%;
+        font-size: 9.8vw
+    }
+
+    #collections .collections_container .inner .block.block5 .content .top {
+        color: #666666 !important;
+        position: absolute;
+        top: 30%;
+        left: 4.5%;
+        letter-spacing: .4vw;
+        font-size: 2.9vw;
+    }
+
+
+    #collections .collections_container .inner .block.block6 .content .title {
+        color: #00adef;
+        position: absolute;
+        top: 35%;
+        left: 40%;
+        font-size: 8vw !important;
+    }
+
+
+
+    #collections .collections_container .inner .block.block6 .content .top {
+        color: #000;
+        position: absolute;
+        top: 28%;
+        left: 45.5%;
+        font-size: 2.9vw;
+    }
+
     #main_footer .container {
         padding: 0 24px
     }
@@ -1947,8 +2072,7 @@ textarea {
         margin-top: 32px
     }
 
-    #left_nav .sub_title,
-    #left_nav .title {
+    #left_nav .sub_title, #left_nav .title {
         font-family: Proxima N W01 Bold;
         color: #00295d;
         text-transform: uppercase
@@ -1964,8 +2088,8 @@ textarea {
         color: #989898;
         padding: 5px 0;
         cursor: pointer;
-        -webkit-transition: background-color .25s ease, color .25s ease, border-color .25s ease;
-        transition: background-color .25s ease, color .25s ease, border-color .25s ease
+        -webkit-transition: background-color .25s ease,color .25s ease,border-color .25s ease;
+        transition: background-color .25s ease,color .25s ease,border-color .25s ease
     }
 
         #left_nav .link:hover {
@@ -2035,8 +2159,7 @@ textarea {
     text-align: center
 }
 
-    #homepage .home_slider a:focus,
-    #homepage .home_slider a:hover {
+    #homepage .home_slider a:focus, #homepage .home_slider a:hover {
         text-decoration: none
     }
 
@@ -2051,26 +2174,9 @@ textarea {
         position: relative
     }
 
-        #homepage .home_slider .flexslider ul.slides li {
-            /* height: 586px*/
-        }
-
-@media screen and (max-width:1270px) {
-    #homepage .home_slider .flexslider ul.slides li {
-        /*height: 510px*/
-    }
-}
-
-@media screen and (max-width:989px) {
-    #homepage .home_slider .flexslider ul.slides li {
-        /* height: 486px*/
-    }
-}
-
 @media screen and (max-width:767px) {
     #homepage .home_slider .flexslider ul.slides li {
-        height: 0;
-        /* padding-top: 118.7%*/
+        height: 0
     }
 }
 
@@ -2284,6 +2390,16 @@ textarea {
 }
 
 @media screen and (max-width:990px) {
+    #homepage .categories .block5_6 .block6 .content .h3 .bot {
+        font-size: 32px !important
+    }
+
+    #homepage .categories .block6 h3 .detail {
+        font-size: 19px !important;
+        width: 150px;
+        line-height: 23px !important
+    }
+
     #homepage .home_slider .flexslider ul.slides li.home-slider-1 .content h2 .bottom span sup {
         top: -4px
     }
@@ -2548,9 +2664,6 @@ textarea {
     }
 }
 
-#homepage .home_slider .flexslider ul.slides li.home-slider-2 .content .cta:hover {
-}
-
 @media screen and (max-width:767px) {
     #homepage .home_slider .flexslider ul.slides li.home-slider-2 .content .cta .arrow {
         font-size: 4vw
@@ -2564,7 +2677,7 @@ textarea {
     background-repeat: no-repeat
 }
 
-@media (min-width:1920px) {
+@media(min-width:1920px) {
     #homepage .home_slider .flexslider ul.slides li.home-slider-3 {
         background-size: contain;
         background-color: #d6e4cf
@@ -2713,11 +2826,11 @@ textarea {
     }
 
     #homepage .home_slider .flexslider ul.slides li.home-slider-3 .content {
-        width: 52vw !important;
+        width: 52vw !important
     }
 
         #homepage .home_slider .flexslider ul.slides li.home-slider-3 .content .cta img {
-            width: 46vw !important;
+            width: 46vw !important
         }
 }
 
@@ -2755,23 +2868,21 @@ textarea {
 
 #homepage .home_slider .flexslider ul.slides li.home-slider-3 .content .cta {
     border-color: #4e6f9b;
-    /*margin-top: 9px;*/
-    border: 0px !important;
+    border: 0 !important;
     color: #fff !important;
-    position: absolute;
+    position: absolute
 }
 
 @media screen and (max-width:1270px) {
     #homepage .home_slider .flexslider ul.slides li.home-slider-3 .content .cta {
-        margin-top: 8px;
-        padding: 0px !important;
+        padding: 0 !important
     }
 }
 
 @media screen and (max-width:767px) {
     #homepage .home_slider .flexslider ul.slides li.home-slider-3 .content .cta {
         margin-top: 4.5%;
-        font-size: 3vw;
+        font-size: 3vw
     }
 }
 
@@ -2781,9 +2892,9 @@ textarea {
 
 #homepage .home_slider .container .flexslider .content ul.slides li.home-slider-2 .cta img {
     position: absolute;
-    top: 18.5vw;
-    width: 15.5vw;
-    left: 8.7vw;
+    top: 19.1vw;
+    width: 10.5vw;
+    left: 17.7vw
 }
 
 @media screen and (max-width:767px) {
@@ -2799,7 +2910,7 @@ textarea {
     background-repeat: no-repeat
 }
 
-@media (min-width:1920px) {
+@media(min-width:1920px) {
     #homepage .home_slider .flexslider ul.slides li.home-slider-4 {
         background-size: contain;
         background-color: #d1e3eb
@@ -2821,7 +2932,7 @@ textarea {
         position: absolute;
         top: 1vw;
         width: 15vw;
-        left: 0vw;
+        left: 0
     }
 }
 
@@ -3080,8 +3191,7 @@ textarea {
 
 #homepage .home_slider .flexslider ul.slides li.home-slider-5 .content {
     background-color: #f7f2ec;
-    width: 50%;
-    height: 100%
+    width: 50%
 }
 
 @media screen and (max-width:767px) {
@@ -3113,10 +3223,6 @@ textarea {
         padding-top: 0;
         margin: 0
     }
-}
-
-#homepage .home_slider .flexslider ul.slides li.home-slider-5 .content h2 span {
-    /*display: block*/
 }
 
 #homepage .home_slider .flexslider ul.slides li.home-slider-5 .content h2 .top {
@@ -3250,31 +3356,27 @@ textarea {
 }
 
 #homepage .home_slider .flexslider ul.slides li.home-slider-5 .content .cta {
-    /* border-color: #5c5d71;
-    margin-top: 19px;
-    color: #5c5d71;
-    padding: 11px 27px 11px 23px*/
-    border: 0px !important;
+    border: 0 !important;
     position: relative;
     margin-left: auto;
-    margin-right: auto;
+    margin-right: auto
 }
 
 #homepage .home_slider .container .flexslider .content ul.slides li.home-slider-2 .cta-mobile img {
-    display: none;
+    display: none
 }
 
 #homepage .home_slider .flexslider ul.slides li.home-slider-6 .content .cta-mobile {
-    display: none;
+    display: none
 }
 
 #homepage .home_slider .flexslider ul.slides li.home-slider-3 .content .cta img {
-    width: 16vw;
+    width: 12vw
 }
 
 @media screen and (max-width:1270px) {
     #homepage .home_slider .flexslider ul.slides li.home-slider-5 .content .cta {
-        margin-top: 0px
+        margin-top: 0
     }
 }
 
@@ -3286,13 +3388,8 @@ textarea {
     }
 
         #homepage .home_slider .flexslider ul.slides li.home-slider-5 .content .cta img {
-            width: 73vw !important;
+            width: 73vw !important
         }
-}
-
-#homepage .home_slider .flexslider ul.slides li.home-slider-5 .content .cta:hover {
-    /*background-color: #fff;
-    border-color: #fff*/
 }
 
 @media screen and (max-width:767px) {
@@ -3315,9 +3412,13 @@ textarea {
     }
 }
 
+#homepage .home_slider .flexslider ul.slides li.home-slider-3 .content .cta .cta-mobile img {
+    display: none !important
+}
+
 @media screen and (max-width:989px) {
     #homepage .home_slider .flexslider ul.slides li.home-slider-5 .content .cta img {
-        width: 73vw;
+        width: 73vw
     }
 
     #homepage .home_slider .flexslider ul.slides li.home-slider-6 {
@@ -3325,34 +3426,42 @@ textarea {
     }
 
     #homepage .home_slider .container .flexslider .content ul.slides li.home-slider-2 .cta img {
-        display: none;
+        display: none
     }
 
     #homepage .home_slider .container .flexslider .content ul.slides li.home-slider-2 .cta-mobile img {
         display: block;
-        width: 40vw;
-        position: absolute;
+        width: 25vw;
+        position: absolute
     }
 
     #homepage .home_slider .container .flexslider .content ul.slides li.home-slider-2 .cta-mobile {
         width: 100%;
         height: 90%;
         position: absolute;
-        top: 50vw;
-        left: -27vw;
+        top: 60vw;
+        left: -19.7vw
+    }
+
+    #homepage .home_slider .flexslider ul.slides li.home-slider-3 .content .cta img {
+        display: none !important
     }
 
     #homepage .home_slider .flexslider ul.slides li.home-slider-3 .content {
         top: 58vw !important;
         right: 25vw !important;
         width: 500px;
-        height: 200px;
+        height: 200px
     }
 
+        #homepage .home_slider .flexslider ul.slides li.home-slider-3 .content .cta .cta-mobile img {
+            display: block !important;
+            width: 25vw !important
+        }
+
         #homepage .home_slider .flexslider ul.slides li.home-slider-3 .content .cta {
-            margin-top: 6px;
             font-size: 4vw;
-            line-height: 4vw !important;
+            line-height: 4vw !important
         }
 }
 
@@ -3364,16 +3473,16 @@ textarea {
 
     #homepage .home_slider .container .flexslider .content ul.slides li.home-slider-2 .cta-mobile img {
         display: block;
-        width: 35vw;
-        position: absolute;
+        width: 25vw;
+        position: absolute
     }
 
     #homepage .home_slider .container .flexslider .content ul.slides li.home-slider-2 .cta-mobile {
         width: 100%;
         height: 90%;
         position: absolute;
-        top: 51vw;
-        left: 32vw;
+        top: 60vw;
+        left: 38.3vw
     }
 }
 
@@ -3386,17 +3495,17 @@ textarea {
 #homepage .home_slider .flexslider ul.slides li.home-slider-7 .content img {
     position: absolute;
     bottom: 0;
-    left: 0;
+    left: 0
 }
 
 #homepage .home_slider .flexslider ul.slides li.home-slider-6 .content img {
-    width: 21vw;
+    width: 11vw;
     margin-top: 18.5vw;
-    margin-right: .8vw
+    left: 1.8vw
 }
 
 #homepage .home_slider .flexslider ul.slides li.home-slider-7 .content img {
-    width: 20vw;
+    width: 12vw
 }
 
 @media screen and (max-width:767px) {
@@ -3425,21 +3534,19 @@ textarea {
 
 @media screen and (max-width:989px) {
     #homepage .home_slider .flexslider ul.slides li.home-slider-6 .content img {
-        display: none;
+        display: none
     }
 
     #homepage .home_slider .flexslider ul.slides li.home-slider-6 .content .cta-mobile {
         position: absolute;
         display: block;
-        height: 400px;
-        top: 37vw;
-        left: -37vw;
-        width: 500px;
+        top: 52vw;
+        left: -37vw
     }
 
         #homepage .home_slider .flexslider ul.slides li.home-slider-6 .content .cta-mobile img {
             display: block;
-            width: 33vw;
+            width: 38vw
         }
 
     #homepage .home_slider .flexslider ul.slides li.home-slider-6 .content h2 {
@@ -3454,11 +3561,11 @@ textarea {
     }
 
     #homepage .home_slider .flexslider ul.slides li.home-slider-6 .content .cta-mobile {
-        left: 37vw !important;
+        left: 30vw !important
     }
 
     #homepage .home_slider .container .flexslider .content ul.slides li.home-slider-6 .content .cta-mobile img {
-        width: 32vw !important;
+        width: 38vw !important
     }
 }
 
@@ -3606,32 +3713,32 @@ textarea {
 }
 
 #homepage .home_slider .container .flexslider .content ul.slides li.home-slider-7 .content .cta-mobile img {
-    display: none;
+    display: none
 }
 
 @media screen and (max-width:989px) {
     #homepage .home_slider .container .flexslider .content ul.slides li.home-slider-7 .content {
-        margin-left: 0px !important;
+        margin-left: 0 !important;
         height: 100px;
         top: 56vw;
-        left: 35vw !important;
-        right: inherit;
+        left: 34vw !important;
+        right: inherit
     }
 
         #homepage .home_slider .container .flexslider .content ul.slides li.home-slider-7 .content img {
-            display: none;
+            display: none
         }
 
         #homepage .home_slider .container .flexslider .content ul.slides li.home-slider-7 .content .cta-mobile img {
-            width: 32vw;
+            width: 26vw;
             display: block;
-            position: relative;
+            position: relative
         }
 
         #homepage .home_slider .container .flexslider .content ul.slides li.home-slider-7 .content .cta-mobile {
             display: block;
             width: 100%;
-            position: relative;
+            position: relative
         }
 
     #homepage .home_slider .flexslider ul.slides li.home-slider-6 .content .cta {
@@ -3769,12 +3876,16 @@ textarea {
     }
 }
 
+#homepage .categories .new_arrivals .block .cta {
+    border-color: #1b356a;
+    color: #1b356a
+}
+
 #homepage .info_slider {
     text-align: center
 }
 
-    #homepage .info_slider a:focus,
-    #homepage .info_slider a:hover {
+    #homepage .info_slider a:focus, #homepage .info_slider a:hover {
         text-decoration: none
     }
 
@@ -3803,8 +3914,7 @@ textarea {
                     margin-bottom: auto
                 }
 
-                #homepage .info_slider .flexslider ul.slides li .content h1,
-                #homepage .info_slider .flexslider ul.slides li .content h2 {
+                #homepage .info_slider .flexslider ul.slides li .content h1, #homepage .info_slider .flexslider ul.slides li .content h2 {
                     font-family: Bauer Bodoni Pro_1 W01 Bold;
                     -webkit-font-smoothing: antialiased;
                     color: #00295d;
@@ -3836,8 +3946,8 @@ textarea {
                     color: #00295d;
                     padding: 11px 27px 11px 23px;
                     letter-spacing: 0;
-                    -webkit-transition: background-color .25s ease, color .25s ease, border-color .25s ease;
-                    transition: background-color .25s ease, color .25s ease, border-color .25s ease
+                    -webkit-transition: background-color .25s ease,color .25s ease,border-color .25s ease;
+                    transition: background-color .25s ease,color .25s ease,border-color .25s ease
                 }
 
                     #homepage .info_slider .flexslider ul.slides li .content .cta:hover {
@@ -3870,8 +3980,8 @@ textarea {
                     display: block;
                     height: 54px;
                     width: 54px;
-                    -webkit-transition: background-color .25s ease, color .25s ease, border-color .25s ease;
-                    transition: background-color .25s ease, color .25s ease, border-color .25s ease
+                    -webkit-transition: background-color .25s ease,color .25s ease,border-color .25s ease;
+                    transition: background-color .25s ease,color .25s ease,border-color .25s ease
                 }
 
                 #homepage .info_slider .flexslider .flex-direction-nav li:hover {
@@ -3902,8 +4012,7 @@ textarea {
             display: none
         }
 
-#homepage .categories a:focus,
-#homepage .categories a:hover {
+#homepage .categories a:focus, #homepage .categories a:hover {
     text-decoration: none
 }
 
@@ -3919,7 +4028,7 @@ textarea {
 
     #homepage .categories .block h3 {
         line-height: 32px;
-        margin-bottom: 20px;
+        margin-bottom: 37px;
         margin-top: 0;
         text-transform: uppercase
     }
@@ -3940,7 +4049,6 @@ textarea {
 }
 
 @media screen and (max-width:767px) {
-
     #homepage .categories .block h3 .top {
         font-size: 4.4vw;
         line-height: 100%;
@@ -3984,12 +4092,17 @@ textarea {
 
 @media screen and (max-width:767px) {
     #homepage .categories .new_arrivals .block .cta {
-        font-size: 2vw;
+        font-size: 3vw
     }
 
     #homepage .categories .block .cta {
         font-size: 3.3vw;
         padding: 2.2vw 5.2vw 2vw 4.5vw
+    }
+
+    #homepage .categories .block6 .cta {
+        font-size: 3vw;
+        padding: 2.2vw 2.2vw 2vw 1.5vw
     }
 }
 
@@ -4005,8 +4118,7 @@ textarea {
     }
 }
 
-#homepage .categories .block1_2,
-#homepage .categories .block1_2 a {
+#homepage .categories .block1_2, #homepage .categories .block1_2 a {
     float: left
 }
 
@@ -4065,7 +4177,7 @@ textarea {
 }
 
 #homepage .categories .block1_2 .block1 .detail {
-    width: 125px
+    width: 150px
 }
 
 @media screen and (max-width:1270px) {
@@ -4091,18 +4203,19 @@ textarea {
 
 #homepage .categories .block1_2 .block1 .cta {
     border-color: #293069;
-    color: #293069;
+    color: #293069
 }
 
     #homepage .categories .block1_2 .block1 .cta.cta-hover {
         background-color: #293069 !important;
         border-color: #293069 !important;
-        color: #fff !important;
+        color: #fff !important
     }
 
 #homepage .categories .block1_2 .block2 {
-    border: 10px solid #b7b7b7;
-    color: #a7a7a7
+    height: 513px;
+    width: 385px;
+    color: #342f3c
 }
 
 @media screen and (max-width:989px) {
@@ -4196,7 +4309,7 @@ textarea {
 
 @media screen and (max-width:767px) {
     #homepage .categories .block1_2 .block2 .content .detail {
-        width: 60%;
+        width: 49%;
         margin-top: 2%;
         font-size: 4.4vw;
         line-height: 140%
@@ -4204,13 +4317,13 @@ textarea {
 }
 
 #homepage .categories .block1_2 .block2 .cta {
-    border-color: #a7a7a7;
-    color: #a7a7a7
+    border-color: #342f3c;
+    color: #342f3c
 }
 
     #homepage .categories .block1_2 .block2 .cta.cta-hover {
-        background-color: #a7a7a7 !important;
-        border-color: #a7a7a7 !important;
+        background-color: #342f3c !important;
+        border-color: #342f3c !important;
         color: #fff !important
     }
 
@@ -4221,7 +4334,7 @@ textarea {
     #homepage .categories .block3_4 .block .content {
         color: #fff;
         height: 236px;
-        padding-left: 10.6%;
+        padding-left: 7.6%;
         padding-top: 13%;
         width: 385px
     }
@@ -4262,7 +4375,7 @@ textarea {
 @media screen and (max-width:767px) {
     #homepage .categories .block3_4 .block .content h3 .detail {
         margin-top: 0;
-        font-size: 4vw;
+        font-size: 4vw !important;
         line-height: 140%
     }
 }
@@ -4362,7 +4475,7 @@ textarea {
     height: 236px;
     padding-left: 5.6%;
     padding-top: 13%;
-    width: 385px;
+    width: 385px
 }
 
 @media screen and (max-width:767px) {
@@ -4397,7 +4510,16 @@ textarea {
 
     #homepage .categories .new_arrivals .block h3 .top {
         font-size: 4vw !important;
-        margin-top: 2vw !important;
+        margin-top: 3vw !important
+    }
+
+    #homepage .categories .new_arrivals .block h3 .top {
+        text-transform: none !important;
+        font-size: 25px;
+        letter-spacing: 1px;
+        margin-top: 1vw;
+        margin-bottom: 6px;
+        text-transform: uppercase
     }
 }
 
@@ -4408,15 +4530,16 @@ textarea {
 #homepage .categories .block3_4 .block4 .content .cta {
     padding: 11px 10px 11px 10px;
     border-color: #002f1d;
-    color: #002f1d;
+    color: #002f1d
 }
 
 #homepage .categories .new_arrivals .block h3 .top {
-    text-transform: none;
-    font-size: 25px;
+    text-transform: none !important;
+    font-size: 30px;
     letter-spacing: 1px;
-    margin-top: 20px;
-    text-transform: uppercase;
+    margin-top: 1vw;
+    margin-bottom: 6px;
+    text-transform: uppercase
 }
 
 #homepage .categories .block3_4 .block4 .cta.cta-hover {
@@ -4431,12 +4554,12 @@ textarea {
 }
 
     #homepage .categories .video_container .overlay_img {
-        background-image: url('../images/videos/FOB-Video-Playscreen_Desktop.jpg');
+        background-image: url(../images/videos/FOB-Video-Playscreen_Desktop.jpg)
     }
 
 @media screen and (max-width:1270px) {
     #homepage .categories .video_container .overlay_img {
-        background-image: url('../images/videos/FOB-Video-Playscreen_Desktop_medium.jpg');
+        background-image: url(../images/videos/FOB-Video-Playscreen_Desktop_medium.jpg)
     }
 }
 
@@ -4463,21 +4586,21 @@ textarea {
 
 @media screen and (max-width:989px) {
     #homepage .categories .video_container .block {
-        background-image: url('../images/videos/FOB-Video-Playscreen_Desktop_small.jpg');
+        background-image: url(../images/videos/FOB-Video-Playscreen_Desktop_small.jpg);
         margin-left: 30px;
         margin-right: 33px;
         margin-top: 33px;
-        height: 250px;
+        height: 250px
     }
 }
 
 @media screen and (max-width:767px) {
     #homepage .categories .video_container .block {
-        background-image: url('../images/videos/FOB-Video-Playscreen_Mobile.jpg');
+        background-image: url(../images/videos/FOB-Video-Playscreen_Mobile.jpg);
         margin-top: 19px;
         height: inherit;
         padding-top: 78.4%;
-        background-size: cover;
+        background-size: cover
     }
 }
 
@@ -4707,12 +4830,11 @@ textarea {
     }
 }
 
-
 #homepage .categories .block5_6 .block5 .content {
     padding-left: 8%;
     padding-top: 11%;
     color: #000;
-    float: left;
+    float: left
 }
 
 @media screen and (max-width:989px) {
@@ -4731,23 +4853,25 @@ textarea {
 
 #homepage .categories .block5_6 .block6 {
     float: right;
+    border: 10px solid #063e6b;
 }
 
 #homepage .categories .block6 h3 .detail {
     font-family: Proxima N W01 Reg;
-    font-size: 17.5px;
+    font-size: 23px;
     text-transform: none;
-    line-height: 19px;
+    line-height: 30px;
     margin-top: 8px;
     padding-bottom: 10px;
     letter-spacing: .3px;
+    color: #063e6b
 }
 
 #homepage .categories .block6 h3 .top {
     font-size: 14px;
     letter-spacing: 4px;
     line-height: 22px;
-    font-weight: 700;
+    font-weight: 700
 }
 
 @media screen and (max-width:989px) {
@@ -4781,20 +4905,21 @@ textarea {
 
 #homepage .categories .block5_6 .block6 .content {
     height: 578px;
-    width: 294px;
+    width: 330px;
     color: #000;
     padding-left: 6.2%;
-    padding-top: 14%;
+    padding-top: 14%
 }
 
     #homepage .categories .block5_6 .block6 .content h3 .bot {
-        font-size: 32px;
+        font-size: 44px;
         width: 50%;
+        color: #063e6b
     }
 
     #homepage .categories .block5_6 .block6 .content h3 {
         line-height: 33px;
-        margin-bottom: 13px
+        margin-bottom: 3px
     }
 
 @media screen and (max-width:767px) {
@@ -4806,24 +4931,26 @@ textarea {
 
 @media screen and (max-width:767px) {
     #homepage .categories .block5_6 .block6 .content h3 .bot {
-        font-size: 7vw
+        font-size: 7vw !important
     }
 }
 
 @media screen and (max-width:767px) {
     #homepage .categories .block5_6 .block6 .content h3 .detail {
-        font-size: 2.9vw
+        font-size: 2.9vw;
+        width: 33%;
+        line-height: 4.5vw !important
     }
 }
 
 #homepage .categories .block5_6 .block6 .content .cta {
-    border-color: #000;
-    color: #000
+    border-color: #063e6b;
+    color: #063e6b
 }
 
     #homepage .categories .block5_6 .block6 .content .cta.cta-hover {
-        background-color: #000 !important;
-        border-color: #000 !important;
+        background-color: #063e6b !important;
+        border-color: #063e6b !important;
         color: #fff !important
     }
 
@@ -4866,12 +4993,12 @@ textarea {
 }
 
 #homepage .categories .new_arrivals .block .content {
-    color: #113e63;
+    color: #1b356a;
     display: inline-block;
-    padding-right: 5%;
-    padding-top: 7%;
+    padding-left: 10%;
+    padding-top: 5%;
     text-align: center;
-    float: right;
+    float: left
 }
 
 @media screen and (max-width:767px) {
@@ -4882,7 +5009,8 @@ textarea {
 
 @media screen and (max-width:1270px) {
     #homepage .categories .new_arrivals .block .content h3 img {
-        width: 129px
+        width: 16vw;
+        margin-left: 1vw;
     }
 }
 
@@ -4890,22 +5018,36 @@ textarea {
     #homepage .categories .new_arrivals .block .content h3 img {
         width: 115px
     }
+
+    #homepage .categories .new_arrivals .block h3 .top {
+        text-transform: none !important;
+        font-size: 24px;
+        letter-spacing: 1px;
+        margin-top: 1vw;
+        margin-bottom: 6px;
+        text-transform: uppercase;
+    }
 }
 
 @media screen and (max-width:767px) {
     #homepage .categories .new_arrivals .block .content h3 img {
-        width: 51%
+        width: 57%;
+        margin-left: 5vw;
     }
 
     #homepage .categories .new_arrivals .block .content h3 .bot {
-        font-size: 9vw !important;
+        font-size: 9vw !important
     }
 }
 
 #homepage .categories .new_arrivals .block .content h3 .bot {
-    color: #113e63;
+    color: #1b356a;
     font-size: 82px;
     line-height: 75px
+}
+
+#homepage .categories .new_arrivals .block .content h3 .detail-mobile {
+    display: none;
 }
 
 @media screen and (max-width:1270px) {
@@ -4917,16 +5059,20 @@ textarea {
 @media screen and (max-width:989px) {
     #homepage .categories .new_arrivals .block .content h3 .bot {
         font-size: 60px;
-        line-height: 52px
+        line-height: 7vw
+    }
+
+    #homepage .categories .block5_6 .block6 .content h3 .bot {
+        font-size: 40px;
     }
 }
 
 #homepage .categories .new_arrivals .block .content h3 .detail {
-    color: #113e63;
+    color: #1b356a;
     width: 430px;
     line-height: 24px;
-    font-size: 18.5px !important;
-    font-weight: 900;
+    font-size: 21.5px !important;
+    font-weight: 900
 }
 
     #homepage .categories .new_arrivals .block .content h3 .detail br {
@@ -4934,6 +5080,9 @@ textarea {
     }
 
 @media screen and (max-width:767px) {
+
+
+
     #homepage .categories .new_arrivals .block .content h3 .detail br {
         display: block
     }
@@ -4942,13 +5091,14 @@ textarea {
 @media screen and (max-width:1270px) {
     #homepage .categories .new_arrivals .block .content h3 .detail {
         width: 381px;
-        margin: auto
+        margin: auto;
+        font-size: 22px !important;
     }
 }
 
 @media screen and (max-width:989px) {
     #homepage .categories .new_arrivals .block .content h3 .detail {
-        font-size: 13px;
+        font-size: 18px !important;
         line-height: 26px;
         margin-top: 8px;
         width: 330px
@@ -4957,23 +5107,31 @@ textarea {
 
 @media screen and (max-width:767px) {
     #homepage .categories .new_arrivals .block .content h3 .detail {
-        font-size: 3vw !important;
+        display: none;
+    }
+
+    #homepage .categories .new_arrivals .block .content h3 .detail-mobile {
+        display: block;
+        color: #1b356a;
+        font-size: 3.5vw !important;
         line-height: 130%;
-        width: 100%;
-        margin: 3% auto 0;
-        letter-spacing: 1.2px
+        width: 110%;
+        margin: 6% auto 0;
+        letter-spacing: 1.2px;
+        text-transform: none;
+        font-weight: 800;
     }
 }
 
 #homepage .categories .new_arrivals .block .content .cta.cta-hover {
-    background-color: #fff !important;
-    border-color: #fff !important;
-    color: #9fbdc4 !important
+    background-color: #1b356a !important;
+    border-color: #1b356a !important;
+    color: #fff !important
 }
 
 #homepage .stay_connected {
     background: #c9e2e9;
-    height: 350px;
+    height: 300px;
     margin-top: 40px;
     padding: 53px 0;
     text-align: center
@@ -5061,8 +5219,7 @@ textarea {
                             transition: opacity .25s ease-in-out
                         }
 
-                        #homepage .stay_connected .content .social .block .text .link a:focus .hover-underline,
-                        #homepage .stay_connected .content .social .block .text .link a:hover .hover-underline {
+                        #homepage .stay_connected .content .social .block .text .link a:focus .hover-underline, #homepage .stay_connected .content .social .block .text .link a:hover .hover-underline {
                             opacity: .8
                         }
 
@@ -5115,8 +5272,8 @@ textarea {
                     height: 47px;
                     font-family: Proxima N W01 Bold;
                     text-transform: uppercase;
-                    -webkit-transition: background-color .25s ease, color .25s ease, border-color .25s ease;
-                    transition: background-color .25s ease, color .25s ease, border-color .25s ease
+                    -webkit-transition: background-color .25s ease,color .25s ease,border-color .25s ease;
+                    transition: background-color .25s ease,color .25s ease,border-color .25s ease
                 }
 
                 #homepage .location_catalog .location .content .input .text {
@@ -5136,8 +5293,7 @@ textarea {
                         color: #002049
                     }
 
-                    #homepage .location_catalog .location .content .input .text:-moz-placeholder,
-                    #homepage .location_catalog .location .content .input .text::-moz-placeholder {
+                    #homepage .location_catalog .location .content .input .text:-moz-placeholder, #homepage .location_catalog .location .content .input .text::-moz-placeholder {
                         color: #002049
                     }
 
@@ -5153,8 +5309,7 @@ textarea {
                             color: transparent
                         }
 
-                        #homepage .location_catalog .location .content .input .text:focus:-moz-placeholder,
-                        #homepage .location_catalog .location .content .input .text:focus::-moz-placeholder {
+                        #homepage .location_catalog .location .content .input .text:focus:-moz-placeholder, #homepage .location_catalog .location .content .input .text:focus::-moz-placeholder {
                             color: transparent
                         }
 
@@ -5185,7 +5340,7 @@ textarea {
         float: right
     }
 
-@media (min-width:1500px) {
+@media(min-width:1500px) {
     #homepage .location_catalog .catalog {
         background-position: right -20px bottom -40px
     }
@@ -5216,8 +5371,8 @@ textarea {
             font-size: 11px;
             padding: 15px 26px;
             text-transform: uppercase;
-            -webkit-transition: background-color .25s ease, color .25s ease, border-color .25s ease;
-            transition: background-color .25s ease, color .25s ease, border-color .25s ease
+            -webkit-transition: background-color .25s ease,color .25s ease,border-color .25s ease;
+            transition: background-color .25s ease,color .25s ease,border-color .25s ease
         }
 
             #homepage .location_catalog .catalog .content .buttons a:hover {
@@ -5254,7 +5409,7 @@ textarea {
     color: #fff
 }
 
-@media (min-width:990px) and (max-width:1270px) {
+@media(min-width:990px) and (max-width:1270px) {
     #homepage .home_slider > .container {
         max-width: 1270px
     }
@@ -5292,8 +5447,7 @@ textarea {
                     width: 101px
                 }
 
-                #homepage .info_slider .container .flexslider ul.slides li .content h1,
-                #homepage .info_slider .container .flexslider ul.slides li .content h2 {
+                #homepage .info_slider .container .flexslider ul.slides li .content h1, #homepage .info_slider .container .flexslider ul.slides li .content h2 {
                     margin-left: 206px;
                     font-size: 32px;
                     letter-spacing: 0;
@@ -5339,7 +5493,7 @@ textarea {
             }
 
         #homepage .categories .container .block .cta {
-            font-size: 11px;
+            font-size: 13px;
             padding: 11px 22px 11px 19px
         }
 
@@ -5471,15 +5625,11 @@ textarea {
             margin-right: 30px
         }
 
-            #homepage .categories .container .block5_6 .block6 .overlay_img {
-                background-size: cover
-            }
-
             #homepage .categories .container .block5_6 .block6 .content {
                 height: 213px;
                 width: 427px;
                 padding-left: 6%;
-                padding-top: 11.5%
+                padding-top: 4.5%
             }
 
                 #homepage .categories .container .block5_6 .block6 .content h3 .top {
@@ -5488,13 +5638,14 @@ textarea {
                 }
 
                 #homepage .categories .container .block5_6 .block6 .content h3 .bot {
-                    font-size: 29px
+                    font-size: 38px
                 }
 
                 #homepage .categories .container .block5_6 .block6 .content h3 .detail {
-                    margin-top: 4%;
-                    line-height: 13px;
-                    width: 150px
+                    margin-top: 2%;
+                    line-height: 30px;
+                    width: 175px;
+                    font-size: 25px
                 }
 
         #homepage .categories .container .new_arrivals .block {
@@ -5505,13 +5656,13 @@ textarea {
         }
 
             #homepage .categories .container .new_arrivals .block .content {
-                padding-left: 0;
+                padding-left: 5vw;
                 padding-top: 4.1%;
-                height: 349px;
+                height: 349px
             }
 
                 #homepage .categories .container .new_arrivals .block .content h3 {
-                    margin-bottom: 2px
+                    margin-bottom: 2px;
                 }
 }
 
@@ -5521,7 +5672,7 @@ textarea {
     }
 }
 
-@media (min-width:990px) and (max-width:1270px) {
+@media(min-width:990px) and (max-width:1270px) {
     #homepage .categories .container .new_arrivals .block .content h3 .text {
         font-size: 13px;
         letter-spacing: 2px;
@@ -5535,7 +5686,7 @@ textarea {
     #homepage .stay_connected {
         margin-top: 32px;
         padding: 39px 0 0;
-        height: 403px
+        height: 300px
     }
 
         #homepage .stay_connected .container {
@@ -5561,7 +5712,7 @@ textarea {
                 }
 
                     #homepage .stay_connected .container .content .social .block img {
-                        width: 12vw
+                        width: 8vw
                     }
 
                     #homepage .stay_connected .container .content .social .block .text {
@@ -5643,15 +5794,12 @@ textarea {
                     }
 }
 
-@media (min-width:990px) {
-    #homepage .info_slider .flexslider .flex-direction-nav li:first-child a,
-    #homepage .info_slider .flexslider .flex-direction-nav li:last-child a {
+@media(min-width:990px) {
+    #homepage .info_slider .flexslider .flex-direction-nav li:first-child a, #homepage .info_slider .flexslider .flex-direction-nav li:last-child a {
         background-position: 50%
     }
 
-
-        #homepage .info_slider .flexslider .flex-direction-nav li:first-child a:hover,
-        #homepage .info_slider .flexslider .flex-direction-nav li:last-child a:hover {
+        #homepage .info_slider .flexslider .flex-direction-nav li:first-child a:hover, #homepage .info_slider .flexslider .flex-direction-nav li:last-child a:hover {
             border: 1px solid #00295d
         }
 
@@ -5689,18 +5837,37 @@ textarea {
         }
 }
 
-@media (max-width:1270px) {
+#homepage .categories .block3_4 .block3 .cta {
+    padding: 11px 10px 11px 10px !important;
+    letter-spacing: 0.5px;
+    font-size: 15px;
+}
+
+@media(max-width:1270px) {
+
+    #homepage .categories .block3_4 .block3 .content h3 .detail {
+        font-size: 15px
+    }
+
+
+    #homepage .categories .block3_4 .block3 .cta {
+        padding: 11px 8px 11px 8px !important;
+        letter-spacing: 0.5px;
+        font-size: 13px;
+    }
+
     #homepage .home_slider .flexslider .flex-direction-nav li:hover {
         opacity: .5
     }
 
-    #homepage .info_slider .flexslider .flex-direction-nav li:first-child a:hover,
-    #homepage .info_slider .flexslider .flex-direction-nav li:last-child a:hover {
+    #homepage .info_slider .flexslider .flex-direction-nav li:first-child a:hover, #homepage .info_slider .flexslider .flex-direction-nav li:last-child a:hover {
         border: none
     }
 }
 
-@media (min-width:768px) and (max-width:989px) {
+@media(min-width:768px) and (max-width:989px) {
+
+
     #homepage .stay_connected .container .content .social .block img {
         width: 12vw
     }
@@ -5747,8 +5914,7 @@ textarea {
                 width: 100px
             }
 
-            #homepage .info_slider .flexslider ul.slides li .content h1,
-            #homepage .info_slider .flexslider ul.slides li .content h2 {
+            #homepage .info_slider .flexslider ul.slides li .content h1, #homepage .info_slider .flexslider ul.slides li .content h2 {
                 font-size: 32px;
                 margin-left: 70px;
                 letter-spacing: 0;
@@ -5775,8 +5941,7 @@ textarea {
                 font-size: 11px
             }
 
-    #homepage .info_slider .flexslider .flex-direction-nav li:first-child a,
-    #homepage .info_slider .flexslider .flex-direction-nav li:last-child a {
+    #homepage .info_slider .flexslider .flex-direction-nav li:first-child a, #homepage .info_slider .flexslider .flex-direction-nav li:last-child a {
         background-position: 50%
     }
 
@@ -5833,7 +5998,9 @@ textarea {
 
     #homepage .categories .block1_2 .block2 {
         background-image: url(../images/home/category/pants_bg_mobile_lg.jpg);
-        background-size: cover
+        background-size: cover;
+        width: 336px;
+        height: 447px
     }
 
         #homepage .categories .block1_2 .block2 .content {
@@ -5842,8 +6009,14 @@ textarea {
         }
 
             #homepage .categories .block1_2 .block2 .content h3 .bot {
-                left: 0
+                left: 0;
+                font-size: 49px
             }
+
+    #homepage .categories .block2 h3 .top {
+        font-size: 16px;
+        letter-spacing: 3px
+    }
 
     #homepage .categories .block3_4 {
         float: left;
@@ -5910,6 +6083,7 @@ textarea {
                         letter-spacing: 1px
                     }
 
+
     #homepage .categories .block5_6 {
         margin-left: 30px;
         margin-right: 32px
@@ -5954,7 +6128,7 @@ textarea {
 
     #homepage .categories .block5_6 .block6 .content {
         padding-left: 6%;
-        padding-top: 12.5%
+        padding-top: 10.5%
     }
 
     #homepage .categories .new_arrivals .block {
@@ -5966,8 +6140,8 @@ textarea {
     }
 
         #homepage .categories .new_arrivals .block .content {
-            padding-left: 5%;
-            padding-top: 1%
+            padding-left: 1%;
+            padding-top: 3%
         }
 
             #homepage .categories .new_arrivals .block .content h3 {
@@ -5978,19 +6152,19 @@ textarea {
             #homepage .categories .new_arrivals .block .content .cta {
                 padding: 13px 27px 13px 26px;
                 font-family: Proxima N W01 Bold;
-                font-size: 11px;
+                font-size: 13px;
                 border-color: #113e63 !important;
-                color: #113e63;
+                color: #113e63
             }
 
                 #homepage .categories .new_arrivals .block .content .cta .arrow {
                     font-size: 16px;
                     top: 2px;
-                    left: 1px
+                    left: 3px
                 }
 
     #homepage .stay_connected {
-        height: 314px;
+        height: 30vw;
         margin-top: 32px;
         padding: 0
     }
@@ -6156,28 +6330,43 @@ textarea {
                         margin-top: 11px;
                         padding: 13px 0
                     }
+
+    #homepage .categories .block3_4 .block3 .cta {
+        padding: 11px 10px 11px 10px !important;
+        letter-spacing: 0.5px;
+        font-size: 17.5px;
+    }
 }
 
-@media (max-width:767px) {
+@media(max-width:767px) {
+
+    #homepage .categories .block3_4 .block3 .content h3 .detail {
+    }
+
+
+    #homepage .categories .block3_4 .block3 .cta {
+        font-size: 3.3vw;
+    }
+
     #homepage .categories .block5 h3 .detail {
         width: 46vw;
-        line-height: 27px;
+        line-height: 27px
     }
 
     #homepage .home_slider .flexslider ul.slides li {
-        height: 100% !important;
+        height: 100% !important
     }
 
     #homepage .categories .new_arrivals .block h3 .detail {
-        font-size: 3vw !important;
+        font-size: 3vw !important
     }
 
     #homepage .categories .container .new_arrivals .block .content {
         padding-top: 14%;
-        right: 0 !important;
-        left: inherit;
+        right: inherit !important;
+        left: 0 !important;
         width: 50% !important;
-        padding-right: 4%;
+        padding-right: 4%
     }
 
     #homepage .home_slider .flexslider .flex-control-nav li {
@@ -6198,7 +6387,6 @@ textarea {
             display: inline-block
         }
 
-
         #homepage .info_slider .container .flexslider ul.slides li {
             height: 100%
         }
@@ -6215,8 +6403,7 @@ textarea {
                     width: 52px
                 }
 
-                #homepage .info_slider .container .flexslider ul.slides li .content h1,
-                #homepage .info_slider .container .flexslider ul.slides li .content h2 {
+                #homepage .info_slider .container .flexslider ul.slides li .content h1, #homepage .info_slider .container .flexslider ul.slides li .content h2 {
                     margin: 7px auto 0;
                     float: none;
                     font-size: 25px;
@@ -6428,19 +6615,33 @@ textarea {
 
             #homepage .categories .container .new_arrivals .block .content {
                 padding-top: 14%;
-                right: 0 !important;
-                left: inherit;
-                width: 50% !important;
-                padding-right: 4%;
+                right: inherit;
+                left: -6.5vw !important;
+                width: 56% !important;
+                padding-right: 4%
             }
 
-                #homepage .categories .container .new_arrivals .block .content h3 {
-                    margin-bottom: 2px
-                }
+    #homepage .categories .new_arrivals .block h3 .top {
+        letter-spacing: 0px;
+        margin-left: 3vw;
+    }
 
-                #homepage .categories .container .new_arrivals .block .content .cta {
-                    margin-top: 19px
-                }
+
+    #homepage .categories .container .new_arrivals .block .content h3 {
+        margin-top: 4vw;
+        margin-bottom: 2px
+    }
+
+    #homepage .categories .container .new_arrivals .block .content .cta {
+        margin-left: 3vw;
+        margin-top: 19px;
+        padding: 2vw 3vw 2vw 3vw;
+    }
+
+        #homepage .categories .container .new_arrivals .block .content .cta .arrow {
+            top: 0.9vw !important;
+        }
+
 
     #homepage .stay_connected {
         margin-top: 0;
@@ -6474,7 +6675,7 @@ textarea {
                 }
 
                     #homepage .stay_connected .container .content .social .block img {
-                        width: 120px;
+                        width: 60px
                     }
 
                     #homepage .stay_connected .container .content .social .block .text {
@@ -6604,14 +6805,14 @@ textarea {
     }
 }
 
-@media (max-width:400px) {
+@media(max-width:400px) {
     #homepage .location_catalog .catalog {
         background-size: 188px;
         background-position: right -70px bottom 30px
     }
 }
 
-@media (min-width:440px) and (max-width:639px) {
+@media(min-width:440px) and (max-width:639px) {
     .stay_connected .container .content .social {
         padding: 0 16%
     }
@@ -6706,8 +6907,8 @@ textarea {
             padding: 17px 10px;
             font-family: Proxima N W01 Reg;
             font-size: 1.1em;
-            -webkit-transition: background-color .25s ease, color .25s ease, border-color .25s ease;
-            transition: background-color .25s ease, color .25s ease, border-color .25s ease
+            -webkit-transition: background-color .25s ease,color .25s ease,border-color .25s ease;
+            transition: background-color .25s ease,color .25s ease,border-color .25s ease
         }
 
             #contact .form_container form input:focus {
@@ -6718,8 +6919,7 @@ textarea {
                     color: transparent
                 }
 
-                #contact .form_container form input:focus:-moz-placeholder,
-                #contact .form_container form input:focus::-moz-placeholder {
+                #contact .form_container form input:focus:-moz-placeholder, #contact .form_container form input:focus::-moz-placeholder {
                     color: transparent
                 }
 
@@ -6736,8 +6936,8 @@ textarea {
             width: 100%;
             padding: 0 10px;
             cursor: pointer;
-            -webkit-transition: background-color .25s ease, color .25s ease, border-color .25s ease;
-            transition: background-color .25s ease, color .25s ease, border-color .25s ease
+            -webkit-transition: background-color .25s ease,color .25s ease,border-color .25s ease;
+            transition: background-color .25s ease,color .25s ease,border-color .25s ease
         }
 
             #contact .form_container form select:focus {
@@ -6751,8 +6951,8 @@ textarea {
             width: 100%;
             height: 125px;
             padding: 10px;
-            -webkit-transition: background-color .25s ease, color .25s ease, border-color .25s ease;
-            transition: background-color .25s ease, color .25s ease, border-color .25s ease
+            -webkit-transition: background-color .25s ease,color .25s ease,border-color .25s ease;
+            transition: background-color .25s ease,color .25s ease,border-color .25s ease
         }
 
             #contact .form_container form textarea:focus {
@@ -6763,8 +6963,7 @@ textarea {
                     color: transparent
                 }
 
-                #contact .form_container form textarea:focus:-moz-placeholder,
-                #contact .form_container form textarea:focus::-moz-placeholder {
+                #contact .form_container form textarea:focus:-moz-placeholder, #contact .form_container form textarea:focus::-moz-placeholder {
                     color: transparent
                 }
 
@@ -6820,8 +7019,7 @@ textarea {
     }
 }
 
-#contact .form_container form .select .desktop a:focus,
-#contact .form_container form .select .desktop a:hover {
+#contact .form_container form .select .desktop a:focus, #contact .form_container form .select .desktop a:hover {
     text-decoration: none;
     color: inherit
 }
@@ -6856,8 +7054,8 @@ textarea {
         padding: 2px 0 2px 19px;
         color: #80848c;
         display: block;
-        -webkit-transition: background-color .25s ease, color .25s ease, border-color .25s ease;
-        transition: background-color .25s ease, color .25s ease, border-color .25s ease
+        -webkit-transition: background-color .25s ease,color .25s ease,border-color .25s ease;
+        transition: background-color .25s ease,color .25s ease,border-color .25s ease
     }
 
         #contact .form_container form .select .desktop .options_container a:hover {
@@ -6882,22 +7080,22 @@ textarea {
     margin-bottom: 29px
 }
 
-@media (max-width:550px) {
+@media(max-width:550px) {
     #homepage .categories .block5 h3 .detail {
         width: 46vw;
-        line-height: 4vw;
+        line-height: 4vw
     }
 
     #homepage .categories .container .block5_6 .block6 .content {
-        padding-top: 7vw;
+        padding-top: 7vw
     }
 
         #homepage .categories .container .block5_6 .block6 .content h3 {
-            margin-bottom: 1vw;
+            margin-bottom: 1vw
         }
 
     #homepage .categories .block6 h3 .detail {
-        padding-bottom: 1vw;
+        padding-bottom: 1vw
     }
 }
 
@@ -7111,8 +7309,7 @@ textarea {
                 }
 }
 
-#collections a:focus,
-#collections a:hover {
+#collections a:focus, #collections a:hover {
     text-decoration: none
 }
 
@@ -7120,8 +7317,7 @@ textarea {
     text-align: center
 }
 
-    #collections .info_slider a:focus,
-    #collections .info_slider a:hover {
+    #collections .info_slider a:focus, #collections .info_slider a:hover {
         text-decoration: none
     }
 
@@ -7176,8 +7372,7 @@ textarea {
     }
 }
 
-#collections .info_slider .flexslider ul.slides li .content h1,
-#collections .info_slider .flexslider ul.slides li .content h2 {
+#collections .info_slider .flexslider ul.slides li .content h1, #collections .info_slider .flexslider ul.slides li .content h2 {
     font-family: Bauer Bodoni Pro_1 W01 Bold;
     -webkit-font-smoothing: antialiased;
     color: #00295d;
@@ -7188,8 +7383,7 @@ textarea {
 }
 
 @media screen and (max-width:767px) {
-    #collections .info_slider .flexslider ul.slides li .content h1,
-    #collections .info_slider .flexslider ul.slides li .content h2 {
+    #collections .info_slider .flexslider ul.slides li .content h1, #collections .info_slider .flexslider ul.slides li .content h2 {
         font-size: 29px
     }
 }
@@ -7256,8 +7450,8 @@ textarea {
         display: block;
         height: 54px;
         width: 54px;
-        -webkit-transition: background-color .25s ease, color .25s ease, border-color .25s ease;
-        transition: background-color .25s ease, color .25s ease, border-color .25s ease;
+        -webkit-transition: background-color .25s ease,color .25s ease,border-color .25s ease;
+        transition: background-color .25s ease,color .25s ease,border-color .25s ease;
         background-size: 11px 20px;
         background-position: 50%
     }
@@ -7504,8 +7698,7 @@ textarea {
                     bottom: 0
                 }
 
-                    #collections .seasonal_container .inner .category_container .category .footer .text,
-                    #collections .seasonal_container .inner .category_container .category .footer h2.text {
+                    #collections .seasonal_container .inner .category_container .category .footer .text, #collections .seasonal_container .inner .category_container .category .footer h2.text {
                         text-align: center;
                         font-family: Proxima N W01 Bold;
                         font-size: medium;
@@ -7537,8 +7730,8 @@ textarea {
             font-size: .9em;
             letter-spacing: .1em;
             padding: 18px 56px;
-            -webkit-transition: background-color .25s ease, color .25s ease, border-color .25s ease;
-            transition: background-color .25s ease, color .25s ease, border-color .25s ease
+            -webkit-transition: background-color .25s ease,color .25s ease,border-color .25s ease;
+            transition: background-color .25s ease,color .25s ease,border-color .25s ease
         }
 
             #collections .seasonal_container .inner .see_more_cta:hover {
@@ -7710,11 +7903,11 @@ textarea {
         color: #2e4ca2
     }
 
-    #collections .collections_container .inner .block.block3 .content .cta.cta-hover {
-        background-color: #fff !important;
-        border-color: #fff !important;
-        color: #2e4ca2 !important
-    }
+        #collections .collections_container .inner .block.block3 .content .cta.cta-hover {
+            background-color: #fff !important;
+            border-color: #fff !important;
+            color: #2e4ca2 !important
+        }
 
 #collections .collections_container .inner .block.block4 .overlay_img {
     background-image: url(../images/collections/collections/landau_groups.jpg)
@@ -7740,11 +7933,11 @@ textarea {
         color: #fff
     }
 
-    #collections .collections_container .inner .block.block4 .content .cta.cta-hover {
-        background-color: #fff !important;
-        border-color: #fff !important;
-        color: #7fd4da !important
-    }
+        #collections .collections_container .inner .block.block4 .content .cta.cta-hover {
+            background-color: #fff !important;
+            border-color: #fff !important;
+            color: #7fd4da !important
+        }
 
 #collections .collections_container .inner .block.block5 .overlay_img {
     background-image: url(../images/collections/collections/allday.jpg)
@@ -7752,46 +7945,45 @@ textarea {
 
 #collections .collections_container .inner .block.block5 .content .cta {
     margin-top: 230px;
-    margin-left: 80px;
+    margin-left: 76px
 }
 
 #collections .collections_container .inner .block.block5 .content .cta {
-    border-color: #465776;
-    color: #465776
+    border-color: #024d9a;
+    color: #024d9a
 }
 
-#collections .collections_container .inner .block.block5 .content .cta.cta-hover {
-    background-color: #fff !important;
-    border-color: #fff !important;
-    color: #465776 !important
-}
+    #collections .collections_container .inner .block.block5 .content .cta.cta-hover {
+        background-color: #fff !important;
+        border-color: #fff !important;
+        color: #024d9a !important
+    }
 
 #collections .collections_container .inner .block.block6 .overlay_img {
     background-image: url(../images/collections/collections/prewashed.jpg)
 }
 
 #collections .collections_container .inner .block.block6 .content .cta {
-    margin-top: 200px;
-    margin-left: 100px;
+    margin-top: 235px;
+    margin-right: 93px
 }
 
 #collections .collections_container .inner .block.block6 .content .cta {
-    border-color: #465776;
-    color: #465776
+    border-color: #000;
+    color: #000
 }
 
-#collections .collections_container .inner .block.block6 .content .cta.cta-hover {
-    background-color: #fff !important;
-    border-color: #fff !important;
-    color: #465776 !important
-}
+    #collections .collections_container .inner .block.block6 .content .cta.cta-hover {
+        background-color: #fff !important;
+        border-color: #fff !important;
+        color: #000 !important
+    }
 
 #collections .collections_container .inner .block:nth-child(2n) {
     margin-right: 15px
 }
 
-#collections .collections_container .inner .block .overlay_img,
-#collections .collections_container .inner .block .shadow {
+#collections .collections_container .inner .block .overlay_img, #collections .collections_container .inner .block .shadow {
     position: absolute;
     top: 0;
     left: 0;
@@ -7996,12 +8188,12 @@ textarea {
             height: 320px
         }
 
-        #collections .collections_container .inner .block .content .cta {
-            margin-top: 17px;
-            font-family: Proxima N W01 Bold;
-            font-size: .65em;
-            padding: 5px 16px 8px 12px
-        }
+            #collections .collections_container .inner .block .content .cta {
+                margin-top: 17px;
+                font-family: Proxima N W01 Bold;
+                font-size: .65em;
+                padding: 5px 16px 8px 12px
+            }
 
         #collections .collections_container .inner .block.block5 .overlay_img {
             background-image: url(../images/collections/collections/allday_990.jpg)
@@ -8009,7 +8201,7 @@ textarea {
 
         #collections .collections_container .inner .block.block5 .content .cta {
             margin-top: 180px;
-            margin-left: 60px;
+            margin-left: 64px
         }
 
         #collections .collections_container .inner .block.block6 .overlay_img {
@@ -8017,8 +8209,9 @@ textarea {
         }
 
         #collections .collections_container .inner .block.block6 .content .cta {
-            margin-top: 160px;
-            margin-left: 100px;
+            margin-top: 180px;
+            margin-left: 249px;
+            margin-right: 0;
         }
 }
 
@@ -8223,23 +8416,23 @@ textarea {
 
         #collections .collections_container .inner .block.block5 .content {
             background-image: url(../images/collections/collections/allday_768.jpg);
-            padding-top: 142px;
+            padding-top: 142px
         }
 
-        #collections .collections_container .inner .block.block5 .content .cta {
-            margin-top: 140px;
-            margin-left: 100px;
-        }
+            #collections .collections_container .inner .block.block5 .content .cta {
+                margin-top: 140px;
+                margin-left: 96px
+            }
 
         #collections .collections_container .inner .block.block6 .content {
             background-image: url(../images/collections/collections/prewashed_768.jpg);
-            padding-top: 142px;
+            padding-top: 142px
         }
 
-        #collections .collections_container .inner .block.block6 .content .cta {
-            margin-top: 100px;
-            margin-left: 100px;
-        }
+            #collections .collections_container .inner .block.block6 .content .cta {
+                margin-top: 130px;
+                margin-left: 377px
+            }
 }
 
 @media only screen and (max-width:767px) {
@@ -8253,8 +8446,7 @@ textarea {
             padding: 0 10px
         }
 
-            #collections .seasonal_container .inner .hero,
-            #collections .seasonal_container .inner .hero .img {
+            #collections .seasonal_container .inner .hero, #collections .seasonal_container .inner .hero .img {
                 width: 100%
             }
 
@@ -8391,8 +8583,7 @@ textarea {
             margin-bottom: 23px
         }
 
-        #collections .collections_container .inner a:nth-of-type(2n),
-        #collections .collections_container .inner a:nth-of-type(odd) {
+        #collections .collections_container .inner a:nth-of-type(2n), #collections .collections_container .inner a:nth-of-type(odd) {
             float: none
         }
 
@@ -8542,61 +8733,71 @@ textarea {
                     margin-top: 0
                 }
 
-    #collections .collections_container .inner .block.block5 .content
-    {
-        background-image: url(../images/collections/collections/allday_640.jpg);
-        background-repeat: no-repeat;
-        padding-top: 68.5%;
-                
-    }
+            #collections .collections_container .inner .block.block5 .content {
+                background-image: url(../images/collections/collections/allday_640.jpg);
+                background-repeat: no-repeat;
+                padding-top: 68.5%
+            }
 
-    #collections .collections_container .inner .block.block5 .content .cta {
-        top: 55%;
-        left: 8%;
-        margin-top: 0;
-        margin-left: 0;
-    }
 
-    #collections .collections_container .inner .block.block6 .content {
-        background-image: url(../images/collections/collections/prewashed_640.jpg);
-        background-repeat: no-repeat;
-        padding-top: 68.5%;
-    }
 
-    #collections .collections_container .inner .block.block6 .content .cta {
-        top: 50%;
-        left: 8%;
-        margin-top: 0;
-        margin-left: 0;
-    }
 
-    #collections .collections_container .inner .block:nth-child(n+4) {
-        margin-top: 6px
-    }
+                #collections .collections_container .inner .block.block5 .content .cta {
+                    top: 55%;
+                    left: 8%;
+                    margin-top: 0;
+                    margin-left: 0
+                }
 
-    #collections .collections_container .inner .block .content {
-        background-size: contain;
-        background-repeat: no-repeat;
-        height: 0;
-        width: 100%
-    }
 
-    #collections .collections_container .inner .block .content .cta {
-        position: absolute;
-        margin-top: 21px;
-        font-family: Proxima N W01 Bold;
-        font-size: .5em;
-        letter-spacing: .1em;
-        white-space: nowrap;
-        line-height: 16px;
-        padding: 7px 13px
-    }
+            #collections .collections_container .inner .block.block6 .content {
+                background-image: url(../images/collections/collections/prewashed_640.jpg);
+                background-repeat: no-repeat;
+                padding-top: 68.5%
+            }
 
-    #collections .collections_container .inner .block .content .cta .arrow {
-        font-size: 13px;
-        top: 2px;
-        left: -2px
-    }
+                #collections .collections_container .inner .block.block6 .content .title {
+                    color: #00adef;
+                }
+
+                #collections .collections_container .inner .block.block6 .content .top {
+                    color: #000 !important;
+                }
+
+                #collections .collections_container .inner .block.block6 .content .cta {
+                    top: 54%;
+                    left: 46%;
+                    margin-top: 0;
+                    margin-left: 0
+                }
+
+            #collections .collections_container .inner .block:nth-child(n+4) {
+                margin-top: 6px
+            }
+
+            #collections .collections_container .inner .block .content {
+                background-size: contain;
+                background-repeat: no-repeat;
+                height: 0;
+                width: 100%
+            }
+
+                #collections .collections_container .inner .block .content .cta {
+                    position: absolute;
+                    margin-top: 21px;
+                    font-family: Proxima N W01 Bold;
+                    font-size: .5em;
+                    letter-spacing: .1em;
+                    white-space: nowrap;
+                    line-height: 16px;
+                    padding: 7px 13px
+                }
+
+                    #collections .collections_container .inner .block .content .cta .arrow {
+                        font-size: 13px;
+                        top: 2px;
+                        left: -2px
+                    }
 }
 
 #catalog_container {
@@ -8629,8 +8830,7 @@ textarea {
     text-align: center
 }
 
-    #catalog_container .info_slider a:focus,
-    #catalog_container .info_slider a:hover {
+    #catalog_container .info_slider a:focus, #catalog_container .info_slider a:hover {
         text-decoration: none
     }
 
@@ -8683,8 +8883,7 @@ textarea {
     }
 }
 
-#catalog_container .info_slider .flexslider ul.slides li .content h1,
-#catalog_container .info_slider .flexslider ul.slides li .content h2 {
+#catalog_container .info_slider .flexslider ul.slides li .content h1, #catalog_container .info_slider .flexslider ul.slides li .content h2 {
     font-family: Bauer Bodoni Pro_1 W01 Bold;
     -webkit-font-smoothing: antialiased;
     color: #00295d;
@@ -8695,8 +8894,7 @@ textarea {
 }
 
 @media screen and (max-width:767px) {
-    #catalog_container .info_slider .flexslider ul.slides li .content h1,
-    #catalog_container .info_slider .flexslider ul.slides li .content h2 {
+    #catalog_container .info_slider .flexslider ul.slides li .content h1, #catalog_container .info_slider .flexslider ul.slides li .content h2 {
         font-size: 29px
     }
 }
@@ -8759,8 +8957,8 @@ textarea {
         display: block;
         height: 54px;
         width: 54px;
-        -webkit-transition: background-color .25s ease, color .25s ease, border-color .25s ease;
-        transition: background-color .25s ease, color .25s ease, border-color .25s ease;
+        -webkit-transition: background-color .25s ease,color .25s ease,border-color .25s ease;
+        transition: background-color .25s ease,color .25s ease,border-color .25s ease;
         background-size: 11px 20px;
         background-position: 50%
     }
@@ -8870,8 +9068,7 @@ textarea {
             vertical-align: middle
         }
 
-            #catalog_container #catalog .filters .left .select:hover .arrow,
-            #catalog_container #catalog .filters .left .select:hover .text {
+            #catalog_container #catalog .filters .left .select:hover .arrow, #catalog_container #catalog .filters .left .select:hover .text {
                 opacity: .8
             }
 
@@ -8942,8 +9139,8 @@ textarea {
         padding: 5px 0;
         white-space: nowrap;
         color: #767676;
-        -webkit-transition: background-color .25s ease, color .25s ease, border-color .25s ease, opacity .25s ease-in-out;
-        transition: background-color .25s ease, color .25s ease, border-color .25s ease, opacity .25s ease-in-out
+        -webkit-transition: background-color .25s ease,color .25s ease,border-color .25s ease,opacity .25s ease-in-out;
+        transition: background-color .25s ease,color .25s ease,border-color .25s ease,opacity .25s ease-in-out
     }
 
         #catalog_container #catalog .filters .left .select_group a.active {
@@ -8955,23 +9152,17 @@ textarea {
             color: #39aaf2
         }
 
-    #catalog_container #catalog .filters .left .select_group.color a,
-    #catalog_container #catalog .filters .left .select_group.fit_type a,
-    #catalog_container #catalog .filters .left .select_group.size a {
+    #catalog_container #catalog .filters .left .select_group.color a, #catalog_container #catalog .filters .left .select_group.fit_type a, #catalog_container #catalog .filters .left .select_group.size a {
         padding: 5px 0 5px 24px;
         white-space: normal;
         background: url(../images/catalog/filter.png) no-repeat 0
     }
 
-        #catalog_container #catalog .filters .left .select_group.color a:hover,
-        #catalog_container #catalog .filters .left .select_group.fit_type a:hover,
-        #catalog_container #catalog .filters .left .select_group.size a:hover {
+        #catalog_container #catalog .filters .left .select_group.color a:hover, #catalog_container #catalog .filters .left .select_group.fit_type a:hover, #catalog_container #catalog .filters .left .select_group.size a:hover {
             background-image: url(../images/catalog/filter_hover.png)
         }
 
-        #catalog_container #catalog .filters .left .select_group.color a.active,
-        #catalog_container #catalog .filters .left .select_group.fit_type a.active,
-        #catalog_container #catalog .filters .left .select_group.size a.active {
+        #catalog_container #catalog .filters .left .select_group.color a.active, #catalog_container #catalog .filters .left .select_group.fit_type a.active, #catalog_container #catalog .filters .left .select_group.size a.active {
             background-image: url(../images/catalog/filter_selected.png) !important
         }
 
@@ -8984,13 +9175,13 @@ textarea {
         background-size: 10px
     }
 
-@media (min-width:768px) {
+@media(min-width:768px) {
     #catalog_container #catalog .filters .left .select_group.color a {
         display: block
     }
 }
 
-@media (max-width:767px) {
+@media(max-width:767px) {
     #catalog_container #catalog .filters .left .select_group.color a:not(:nth-of-type(3n)) {
         margin-right: 6px
     }
@@ -9086,18 +9277,16 @@ textarea {
         height: 29px;
         width: 31px;
         cursor: pointer;
-        -webkit-transition: background-color .25s ease, color .25s ease, border-color .25s ease;
-        transition: background-color .25s ease, color .25s ease, border-color .25s ease
+        -webkit-transition: background-color .25s ease,color .25s ease,border-color .25s ease;
+        transition: background-color .25s ease,color .25s ease,border-color .25s ease
     }
 
-        #catalog_container #catalog .pagination_container .page_button:focus,
-        #catalog_container #catalog .pagination_container .page_button:hover {
+        #catalog_container #catalog .pagination_container .page_button:focus, #catalog_container #catalog .pagination_container .page_button:hover {
             border: 1px solid #00295d;
             text-decoration: none
         }
 
-            #catalog_container #catalog .pagination_container .page_button:focus .arrow,
-            #catalog_container #catalog .pagination_container .page_button:hover .arrow {
+            #catalog_container #catalog .pagination_container .page_button:focus .arrow, #catalog_container #catalog .pagination_container .page_button:hover .arrow {
                 color: #00295d
             }
 
@@ -9140,8 +9329,8 @@ textarea {
             font-size: 21px;
             color: #b2b1b1;
             text-align: center;
-            -webkit-transition: background-color .25s ease, color .25s ease, border-color .25s ease;
-            transition: background-color .25s ease, color .25s ease, border-color .25s ease
+            -webkit-transition: background-color .25s ease,color .25s ease,border-color .25s ease;
+            transition: background-color .25s ease,color .25s ease,border-color .25s ease
         }
 
     #catalog_container #catalog .pagination_container .pages {
@@ -9172,14 +9361,12 @@ textarea {
     vertical-align: top
 }
 
-    #catalog_container #catalog .product a:focus,
-    #catalog_container #catalog .product a:hover {
+    #catalog_container #catalog .product a:focus, #catalog_container #catalog .product a:hover {
         text-decoration: none
     }
 
 @media screen and (min-width:1271px) {
-    #catalog_container #catalog .product a:hover .new_tag,
-    #catalog_container #catalog .product a:hover .product_img {
+    #catalog_container #catalog .product a:hover .new_tag, #catalog_container #catalog .product a:hover .product_img {
         opacity: .2
     }
 }
@@ -9271,11 +9458,10 @@ textarea {
 }
 
 .block a img {
-    width: 8vw;
+    width: 4vw
 }
 
-#catalog_container #catalog .product .footer .text,
-#catalog_container #catalog .product .footer h2.text {
+#catalog_container #catalog .product .footer .text, #catalog_container #catalog .product .footer h2.text {
     text-align: center;
     font-family: Proxima N W01 Bold;
     color: #04295d;
@@ -9491,23 +9677,17 @@ textarea {
                 min-width: 102px
             }
 
-                #catalog_container #catalog .filters .left .select .select_group.color a,
-                #catalog_container #catalog .filters .left .select .select_group.fit_type a,
-                #catalog_container #catalog .filters .left .select .select_group.size a {
+                #catalog_container #catalog .filters .left .select .select_group.color a, #catalog_container #catalog .filters .left .select .select_group.fit_type a, #catalog_container #catalog .filters .left .select .select_group.size a {
                     padding: 5px 0 5px 24px;
                     white-space: normal;
                     background: url(../images/catalog/filter.png) no-repeat 0
                 }
 
-                    #catalog_container #catalog .filters .left .select .select_group.color a:hover,
-                    #catalog_container #catalog .filters .left .select .select_group.fit_type a:hover,
-                    #catalog_container #catalog .filters .left .select .select_group.size a:hover {
+                    #catalog_container #catalog .filters .left .select .select_group.color a:hover, #catalog_container #catalog .filters .left .select .select_group.fit_type a:hover, #catalog_container #catalog .filters .left .select .select_group.size a:hover {
                         background-image: url(../images/catalog/filter_hover.png)
                     }
 
-                    #catalog_container #catalog .filters .left .select .select_group.color a.active,
-                    #catalog_container #catalog .filters .left .select .select_group.fit_type a.active,
-                    #catalog_container #catalog .filters .left .select .select_group.size a.active {
+                    #catalog_container #catalog .filters .left .select .select_group.color a.active, #catalog_container #catalog .filters .left .select .select_group.fit_type a.active, #catalog_container #catalog .filters .left .select .select_group.size a.active {
                         background-image: url(../images/catalog/filter_selected.png) !important
                     }
 
@@ -9625,14 +9805,12 @@ textarea {
             display: none
         }
 
-        #catalog_container #catalog .product_group .mobile_row,
-        #catalog_container #catalog .product_row .mobile_row {
+        #catalog_container #catalog .product_group .mobile_row, #catalog_container #catalog .product_row .mobile_row {
             display: block;
             clear: both
         }
 
-            #catalog_container #catalog .product_group .mobile_row .product,
-            #catalog_container #catalog .product_row .mobile_row .product {
+            #catalog_container #catalog .product_group .mobile_row .product, #catalog_container #catalog .product_row .mobile_row .product {
                 margin-right: 0
             }
 
@@ -9668,8 +9846,7 @@ textarea {
                 min-height: 58px
             }
 
-                #catalog_container #catalog .product .footer .number,
-                #catalog_container #catalog .product .footer .text {
+                #catalog_container #catalog .product .footer .number, #catalog_container #catalog .product .footer .text {
                     font-size: .9em
                 }
 
@@ -9818,7 +9995,6 @@ textarea {
                             display: inline-block;
                             font-family: fontello;
                             margin-right: 13px;
-                            /*float: right;*/
                             font-size: 1.7em;
                             position: relative;
                             top: -8px
@@ -10027,18 +10203,16 @@ textarea {
         height: 29px;
         width: 31px;
         cursor: pointer;
-        -webkit-transition: background-color .25s ease, color .25s ease, border-color .25s ease;
-        transition: background-color .25s ease, color .25s ease, border-color .25s ease
+        -webkit-transition: background-color .25s ease,color .25s ease,border-color .25s ease;
+        transition: background-color .25s ease,color .25s ease,border-color .25s ease
     }
 
-        #catalog_container.search-results-page .pagination_container .page_button:focus,
-        #catalog_container.search-results-page .pagination_container .page_button:hover {
+        #catalog_container.search-results-page .pagination_container .page_button:focus, #catalog_container.search-results-page .pagination_container .page_button:hover {
             border: 1px solid #00295d;
             text-decoration: none
         }
 
-            #catalog_container.search-results-page .pagination_container .page_button:focus .arrow,
-            #catalog_container.search-results-page .pagination_container .page_button:hover .arrow {
+            #catalog_container.search-results-page .pagination_container .page_button:focus .arrow, #catalog_container.search-results-page .pagination_container .page_button:hover .arrow {
                 color: #00295d
             }
 
@@ -10081,8 +10255,8 @@ textarea {
             font-size: 21px;
             color: #b2b1b1;
             text-align: center;
-            -webkit-transition: background-color .25s ease, color .25s ease, border-color .25s ease;
-            transition: background-color .25s ease, color .25s ease, border-color .25s ease
+            -webkit-transition: background-color .25s ease,color .25s ease,border-color .25s ease;
+            transition: background-color .25s ease,color .25s ease,border-color .25s ease
         }
 
     #catalog_container.search-results-page .pagination_container .pages {
@@ -10140,8 +10314,8 @@ textarea {
     z-index: 12;
     left: 50%;
     top: 50%;
-    -webkit-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
     -webkit-transition: opacity .25s ease-in-out;
     transition: opacity .25s ease-in-out
 }
@@ -10386,7 +10560,7 @@ textarea {
         height: 100%;
         width: 1242px;
         z-index: 1;
-        cursor: url(../images/detail/zoom/exiticon.svg) 17 17, auto;
+        cursor: url(../images/detail/zoom/exiticon.svg) 17 17,auto;
         background-color: #fff;
         -webkit-transition: opacity .25s ease-in-out;
         transition: opacity .25s ease-in-out
@@ -10472,7 +10646,7 @@ textarea {
 
                 #detail_page .detail_top > .left .img_container .preview_wrapper .preview {
                     position: absolute;
-                    cursor: url(../images/detail/zoom/zoomin_icon.svg) 17 17, auto;
+                    cursor: url(../images/detail/zoom/zoomin_icon.svg) 17 17,auto;
                     top: 0;
                     left: 0;
                     -webkit-transition: opacity .25s ease-in-out;
@@ -10611,20 +10785,18 @@ textarea {
             height: 33px;
             width: 32px;
             display: inline-block;
-            -webkit-transition: background-color .25s ease, color .25s ease, border-color .25s ease;
-            transition: background-color .25s ease, color .25s ease, border-color .25s ease;
+            -webkit-transition: background-color .25s ease,color .25s ease,border-color .25s ease;
+            transition: background-color .25s ease,color .25s ease,border-color .25s ease;
             position: relative
         }
 
-            #detail_page .detail_top > .right .top_buttons .page_buttons:focus,
-            #detail_page .detail_top > .right .top_buttons .page_buttons:hover {
+            #detail_page .detail_top > .right .top_buttons .page_buttons:focus, #detail_page .detail_top > .right .top_buttons .page_buttons:hover {
                 border: 1px solid #00295d;
                 text-decoration: none;
                 z-index: 1
             }
 
-                #detail_page .detail_top > .right .top_buttons .page_buttons:focus .arrow,
-                #detail_page .detail_top > .right .top_buttons .page_buttons:hover .arrow {
+                #detail_page .detail_top > .right .top_buttons .page_buttons:focus .arrow, #detail_page .detail_top > .right .top_buttons .page_buttons:hover .arrow {
                     color: #00295d
                 }
 
@@ -10636,7 +10808,7 @@ textarea {
                 color: #b2b1b1;
                 text-align: center;
                 -webkit-transition: opacity .25s ease-in-out;
-                transition: background-color .25s ease, color .25s ease, border-color .25s ease
+                transition: background-color .25s ease,color .25s ease,border-color .25s ease
             }
 
             #detail_page .detail_top > .right .top_buttons .page_buttons.prev {
@@ -10735,11 +10907,10 @@ textarea {
             letter-spacing: .12em;
             padding: 14px 40px;
             -webkit-transition: opacity .25s ease-in-out;
-            transition: background-color .25s ease, color .25s ease, border-color .25s ease
+            transition: background-color .25s ease,color .25s ease,border-color .25s ease
         }
 
-            #detail_page .detail_top > .right .buy_favorites_container .where_to_buy:focus,
-            #detail_page .detail_top > .right .buy_favorites_container .where_to_buy:hover {
+            #detail_page .detail_top > .right .buy_favorites_container .where_to_buy:focus, #detail_page .detail_top > .right .buy_favorites_container .where_to_buy:hover {
                 text-decoration: none;
                 background-color: #00529c
             }
@@ -10812,8 +10983,7 @@ textarea {
                 font-size: 17px
             }
 
-            #detail_page .detail_top > .right .social_container a:focus,
-            #detail_page .detail_top > .right .social_container a:hover {
+            #detail_page .detail_top > .right .social_container a:focus, #detail_page .detail_top > .right .social_container a:hover {
                 text-decoration: none;
                 opacity: .8
             }
@@ -10826,8 +10996,8 @@ textarea {
             font-family: Proxima N W01 Bold;
             color: #878787;
             font-size: 1.15em;
-            -webkit-transition: opacity .25s ease-in-out, background-color .25s ease, color .25s ease, border-color .25s ease;
-            transition: opacity .25s ease-in-out, background-color .25s ease, color .25s ease, border-color .25s ease;
+            -webkit-transition: opacity .25s ease-in-out,background-color .25s ease,color .25s ease,border-color .25s ease;
+            transition: opacity .25s ease-in-out,background-color .25s ease,color .25s ease,border-color .25s ease;
             cursor: pointer;
             position: relative
         }
@@ -10861,8 +11031,7 @@ textarea {
                 color: #2d90d0
             }
 
-            #detail_page .detail_top > .right .category_container .type_container a:focus,
-            #detail_page .detail_top > .right .category_container .type_container a:hover {
+            #detail_page .detail_top > .right .category_container .type_container a:focus, #detail_page .detail_top > .right .category_container .type_container a:hover {
                 text-decoration: none;
                 opacity: .8
             }
@@ -10964,8 +11133,7 @@ textarea {
                     transition: opacity .25s ease-in-out
                 }
 
-                #detail_page .detail_top > .right .color_options_container .color_swatches .swatch_container:focus .select_circle,
-                #detail_page .detail_top > .right .color_options_container .color_swatches .swatch_container:hover .select_circle {
+                #detail_page .detail_top > .right .color_options_container .color_swatches .swatch_container:focus .select_circle, #detail_page .detail_top > .right .color_options_container .color_swatches .swatch_container:hover .select_circle {
                     opacity: .75
                 }
 
@@ -10985,10 +11153,7 @@ textarea {
             transition: opacity .25s ease-in-out
         }
 
-            #detail_page .detail_top > .right .color_options_container .more_colors.laptop,
-            #detail_page .detail_top > .right .color_options_container .more_colors .less,
-            #detail_page .detail_top > .right .color_options_container .more_colors.mobile,
-            #detail_page .detail_top > .right .color_options_container .more_colors.tablet {
+            #detail_page .detail_top > .right .color_options_container .more_colors.laptop, #detail_page .detail_top > .right .color_options_container .more_colors .less, #detail_page .detail_top > .right .color_options_container .more_colors.mobile, #detail_page .detail_top > .right .color_options_container .more_colors.tablet {
                 display: none
             }
 
@@ -11025,12 +11190,11 @@ textarea {
                 text-align: center;
                 margin-right: 16px;
                 margin-bottom: 16px;
-                -webkit-transition: opacity .25s ease-in-out, background-color .25s ease, color .25s ease, border-color .25s ease;
-                transition: opacity .25s ease-in-out, background-color .25s ease, color .25s ease, border-color .25s ease
+                -webkit-transition: opacity .25s ease-in-out,background-color .25s ease,color .25s ease,border-color .25s ease;
+                transition: opacity .25s ease-in-out,background-color .25s ease,color .25s ease,border-color .25s ease
             }
 
-                #detail_page .detail_top > .right .sizes_container .size_options_container .size_option:focus,
-                #detail_page .detail_top > .right .sizes_container .size_options_container .size_option:hover {
+                #detail_page .detail_top > .right .sizes_container .size_options_container .size_option:focus, #detail_page .detail_top > .right .sizes_container .size_options_container .size_option:hover {
                     opacity: .75
                 }
 
@@ -11055,8 +11219,7 @@ textarea {
             transition: opacity .25s ease-in-out
         }
 
-            #detail_page .detail_top > .right .sizes_container .measurement:focus,
-            #detail_page .detail_top > .right .sizes_container .measurement:hover {
+            #detail_page .detail_top > .right .sizes_container .measurement:focus, #detail_page .detail_top > .right .sizes_container .measurement:hover {
                 text-decoration: none;
                 opacity: .75
             }
@@ -11067,8 +11230,7 @@ textarea {
     table-layout: fixed
 }
 
-    #detail_page .center_container > .buy_now,
-    #detail_page .center_container > .related {
+    #detail_page .center_container > .buy_now, #detail_page .center_container > .related {
         display: table-cell;
         vertical-align: top;
         text-align: center;
@@ -11092,8 +11254,7 @@ textarea {
             padding: 22px 0
         }
 
-            #detail_page .center_container .related .items_container a:focus,
-            #detail_page .center_container .related .items_container a:hover {
+            #detail_page .center_container .related .items_container a:focus, #detail_page .center_container .related .items_container a:hover {
                 text-decoration: none
             }
 
@@ -11274,18 +11435,16 @@ textarea {
             height: 33px;
             width: 32px;
             display: inline-block;
-            -webkit-transition: background-color .25s ease, color .25s ease, border-color .25s ease;
-            transition: background-color .25s ease, color .25s ease, border-color .25s ease
+            -webkit-transition: background-color .25s ease,color .25s ease,border-color .25s ease;
+            transition: background-color .25s ease,color .25s ease,border-color .25s ease
         }
 
-            #detail_page .comments .bottom_buttons .page_buttons:focus,
-            #detail_page .comments .bottom_buttons .page_buttons:hover {
+            #detail_page .comments .bottom_buttons .page_buttons:focus, #detail_page .comments .bottom_buttons .page_buttons:hover {
                 border: 1px solid #00295d;
                 text-decoration: none
             }
 
-                #detail_page .comments .bottom_buttons .page_buttons:focus .arrow,
-                #detail_page .comments .bottom_buttons .page_buttons:hover .arrow {
+                #detail_page .comments .bottom_buttons .page_buttons:focus .arrow, #detail_page .comments .bottom_buttons .page_buttons:hover .arrow {
                     color: #00295d
                 }
 
@@ -11297,7 +11456,7 @@ textarea {
                 color: #b2b1b1;
                 text-align: center;
                 -webkit-transition: opacity .25s ease-in-out;
-                transition: background-color .25s ease, color .25s ease, border-color .25s ease
+                transition: background-color .25s ease,color .25s ease,border-color .25s ease
             }
 
             #detail_page .comments .bottom_buttons .page_buttons.prev .arrow {
@@ -11380,8 +11539,7 @@ textarea {
                     top: 7px
                 }
 
-            #detail_page .detail_top > .right .stars,
-            #detail_page .detail_top > .right .write_review {
+            #detail_page .detail_top > .right .stars, #detail_page .detail_top > .right .write_review {
                 margin-top: 3px
             }
 
@@ -11464,8 +11622,7 @@ textarea {
             padding: 0 3px
         }
 
-            #detail_page .center_container .related .items_container .product .footer,
-            #detail_page .center_container .related .items_container .product .product_img {
+            #detail_page .center_container .related .items_container .product .footer, #detail_page .center_container .related .items_container .product .product_img {
                 width: 136px
             }
 
@@ -11606,9 +11763,7 @@ textarea {
                     margin-top: 13px
                 }
 
-                    #detail_page .detail_top > .right .color_options_container .color_swatches .swatch_container:not(:nth-of-type(9n)),
-                    #detail_page .detail_top > .right .color_options_container .color_swatches .swatch_container:nth-of-type(7n),
-                    #detail_page .detail_top > .right .color_options_container .color_swatches .swatch_container:nth-of-type(9n) {
+                    #detail_page .detail_top > .right .color_options_container .color_swatches .swatch_container:not(:nth-of-type(9n)), #detail_page .detail_top > .right .color_options_container .color_swatches .swatch_container:nth-of-type(7n), #detail_page .detail_top > .right .color_options_container .color_swatches .swatch_container:nth-of-type(9n) {
                         margin-right: 11.2px
                     }
 
@@ -11628,8 +11783,7 @@ textarea {
         display: block
     }
 
-        #detail_page .center_container > .buy_now,
-        #detail_page .center_container > .related {
+        #detail_page .center_container > .buy_now, #detail_page .center_container > .related {
             width: 100%;
             display: block
         }
@@ -12049,8 +12203,7 @@ textarea {
                         margin-right: 5px
                     }
 
-                    #detail_page .comments .posted_review .right > .top .dot,
-                    #detail_page .comments .posted_review .right > .top .time {
+                    #detail_page .comments .posted_review .right > .top .dot, #detail_page .comments .posted_review .right > .top .time {
                         font-size: 1em
                     }
 
@@ -12089,8 +12242,8 @@ textarea {
         position: relative;
         font-size: 1.32em;
         padding: 23px 30px;
-        -webkit-transition: background-color .25s ease, color .25s ease, border-color .25s ease;
-        transition: background-color .25s ease, color .25s ease, border-color .25s ease
+        -webkit-transition: background-color .25s ease,color .25s ease,border-color .25s ease;
+        transition: background-color .25s ease,color .25s ease,border-color .25s ease
     }
 
         #detail_page .mobile_dropdown .text {
@@ -12119,18 +12272,7 @@ textarea {
 }
 
 @media print {
-    #detail_page,
-    #detail_page .breadcrumbs,
-    #detail_page .buy_favorites_container,
-    #detail_page .center_container,
-    #detail_page .color_options_container,
-    #detail_page .comments,
-    #detail_page .measurement,
-    #detail_page .social_container,
-    #detail_page .top_buttons,
-    #detail_page .write_review,
-    #detail_page .zoom_hint_container,
-    #detail_page .zoom_wrapper {
+    #detail_page, #detail_page .breadcrumbs, #detail_page .buy_favorites_container, #detail_page .center_container, #detail_page .color_options_container, #detail_page .comments, #detail_page .measurement, #detail_page .social_container, #detail_page .top_buttons, #detail_page .write_review, #detail_page .zoom_hint_container, #detail_page .zoom_wrapper {
         display: none !important
     }
 }
@@ -12227,8 +12369,7 @@ textarea {
                 color: #002049
             }
 
-            #where_to_buy .search_bar .dropdown_wrapper form input:-moz-placeholder,
-            #where_to_buy .search_bar .dropdown_wrapper form input::-moz-placeholder {
+            #where_to_buy .search_bar .dropdown_wrapper form input:-moz-placeholder, #where_to_buy .search_bar .dropdown_wrapper form input::-moz-placeholder {
                 color: #002049
             }
 
@@ -12244,8 +12385,7 @@ textarea {
                     color: transparent
                 }
 
-                #where_to_buy .search_bar .dropdown_wrapper form input:focus:-moz-placeholder,
-                #where_to_buy .search_bar .dropdown_wrapper form input:focus::-moz-placeholder {
+                #where_to_buy .search_bar .dropdown_wrapper form input:focus:-moz-placeholder, #where_to_buy .search_bar .dropdown_wrapper form input:focus::-moz-placeholder {
                     color: transparent
                 }
 
@@ -12286,11 +12426,10 @@ textarea {
                 left: 3px
             }
 
-            #where_to_buy .search_bar .dropdown_wrapper form .arrow div,
-            #where_to_buy .search_bar .right {
+            #where_to_buy .search_bar .dropdown_wrapper form .arrow div, #where_to_buy .search_bar .right {
                 position: relative;
-                -webkit-transition: background-color .25s ease, color .25s ease, border-color .25s ease;
-                transition: background-color .25s ease, color .25s ease, border-color .25s ease
+                -webkit-transition: background-color .25s ease,color .25s ease,border-color .25s ease;
+                transition: background-color .25s ease,color .25s ease,border-color .25s ease
             }
 
     #where_to_buy .search_bar .right {
@@ -12369,7 +12508,6 @@ textarea {
                     display: inline-block;
                     vertical-align: top;
                     width: 25%;
-                    /*float: left;*/
                     text-align: left
                 }
 
@@ -12377,8 +12515,7 @@ textarea {
                         padding: 5.5px 0
                     }
 
-                        #where_to_buy .search_bar .right .international_container .column_container .column li.selected a,
-                        #where_to_buy .search_bar .right .international_container .column_container .column li:hover a {
+                        #where_to_buy .search_bar .right .international_container .column_container .column li.selected a, #where_to_buy .search_bar .right .international_container .column_container .column li:hover a {
                             color: #2d90d0
                         }
 
@@ -12394,8 +12531,8 @@ textarea {
                     #where_to_buy .search_bar .right .international_container .column_container .column a {
                         color: #04295d;
                         font-size: 1.2em;
-                        -webkit-transition: background-color .25s ease, color .25s ease, border-color .25s ease;
-                        transition: background-color .25s ease, color .25s ease, border-color .25s ease
+                        -webkit-transition: background-color .25s ease,color .25s ease,border-color .25s ease;
+                        transition: background-color .25s ease,color .25s ease,border-color .25s ease
                     }
 
 #where_to_buy .flexslider.mobile {
@@ -12547,8 +12684,7 @@ textarea {
         padding-right: 78px
     }
 
-        #where_to_buy .locations_container .title .text,
-        #where_to_buy .locations_container .title h1.text {
+        #where_to_buy .locations_container .title .text, #where_to_buy .locations_container .title h1.text {
             font-family: Proxima N W01 Bold;
             color: #04295d;
             text-transform: uppercase;
@@ -12584,16 +12720,14 @@ textarea {
     }
 
 @media screen and (min-width:768px) {
-    #where_to_buy .locations_container .email a,
-    #where_to_buy .locations_container .website a {
+    #where_to_buy .locations_container .email a, #where_to_buy .locations_container .website a {
         color: #2b90ce;
-        -webkit-transition: background-color .25s ease, color .25s ease, border-color .25s ease;
-        transition: background-color .25s ease, color .25s ease, border-color .25s ease;
+        -webkit-transition: background-color .25s ease,color .25s ease,border-color .25s ease;
+        transition: background-color .25s ease,color .25s ease,border-color .25s ease;
         text-decoration: none
     }
 
-        #where_to_buy .locations_container .email a:hover,
-        #where_to_buy .locations_container .website a:hover {
+        #where_to_buy .locations_container .email a:hover, #where_to_buy .locations_container .website a:hover {
             text-decoration: none;
             color: #04529d
         }
@@ -12621,8 +12755,7 @@ textarea {
             padding: 19px 98px
         }
 
-    #where_to_buy .locations_container .diamond_dealers .left_scroll,
-    #where_to_buy .locations_container .diamond_dealers .right_scroll {
+    #where_to_buy .locations_container .diamond_dealers .left_scroll, #where_to_buy .locations_container .diamond_dealers .right_scroll {
         display: none
     }
 
@@ -12647,8 +12780,7 @@ textarea {
             padding-left: 37px
         }
 
-            #where_to_buy .locations_container .diamond_dealers .bottom .location .right .name,
-            #where_to_buy .locations_container .diamond_dealers .bottom .location .right h2.name {
+            #where_to_buy .locations_container .diamond_dealers .bottom .location .right .name, #where_to_buy .locations_container .diamond_dealers .bottom .location .right h2.name {
                 color: #04529d;
                 text-transform: uppercase;
                 font-family: Proxima N W01 Bold;
@@ -12685,8 +12817,8 @@ textarea {
                 padding: 11px 0;
                 text-align: center;
                 text-indent: -99999px;
-                -webkit-transition: background-color .25s ease, color .25s ease, border-color .25s ease;
-                transition: background-color .25s ease, color .25s ease, border-color .25s ease
+                -webkit-transition: background-color .25s ease,color .25s ease,border-color .25s ease;
+                transition: background-color .25s ease,color .25s ease,border-color .25s ease
             }
 
                 #where_to_buy .locations_container .diamond_dealers .bottom .flex-direction-nav li a:hover {
@@ -12729,8 +12861,7 @@ textarea {
             padding-top: 1px
         }
 
-            #where_to_buy .locations_container .dealers_container .location .right .name,
-            #where_to_buy .locations_container .dealers_container .location .right h2.name {
+            #where_to_buy .locations_container .dealers_container .location .right .name, #where_to_buy .locations_container .dealers_container .location .right h2.name {
                 color: #04529d;
                 text-transform: uppercase;
                 font-family: Proxima N W01 Bold;
@@ -12762,18 +12893,16 @@ textarea {
             height: 29px;
             width: 31px;
             cursor: pointer;
-            -webkit-transition: background-color .25s ease, color .25s ease, border-color .25s ease;
-            transition: background-color .25s ease, color .25s ease, border-color .25s ease
+            -webkit-transition: background-color .25s ease,color .25s ease,border-color .25s ease;
+            transition: background-color .25s ease,color .25s ease,border-color .25s ease
         }
 
-            #where_to_buy .locations_container .dealers_container .pagination_container .page_button:focus,
-            #where_to_buy .locations_container .dealers_container .pagination_container .page_button:hover {
+            #where_to_buy .locations_container .dealers_container .pagination_container .page_button:focus, #where_to_buy .locations_container .dealers_container .pagination_container .page_button:hover {
                 border: 1px solid #00295d;
                 text-decoration: none
             }
 
-                #where_to_buy .locations_container .dealers_container .pagination_container .page_button:focus .arrow,
-                #where_to_buy .locations_container .dealers_container .pagination_container .page_button:hover .arrow {
+                #where_to_buy .locations_container .dealers_container .pagination_container .page_button:focus .arrow, #where_to_buy .locations_container .dealers_container .pagination_container .page_button:hover .arrow {
                     color: #00295d
                 }
 
@@ -12816,8 +12945,8 @@ textarea {
                 font-size: 21px;
                 color: #b2b1b1;
                 text-align: center;
-                -webkit-transition: background-color .25s ease, color .25s ease, border-color .25s ease;
-                transition: background-color .25s ease, color .25s ease, border-color .25s ease
+                -webkit-transition: background-color .25s ease,color .25s ease,border-color .25s ease;
+                transition: background-color .25s ease,color .25s ease,border-color .25s ease
             }
 
         #where_to_buy .locations_container .dealers_container .pagination_container .pages {
@@ -12852,8 +12981,8 @@ textarea {
         #where_to_buy .search_bar .left {
             cursor: pointer;
             width: 50%;
-            -webkit-transition: background-color .25s ease, color .25s ease, border-color .25s ease;
-            transition: background-color .25s ease, color .25s ease, border-color .25s ease
+            -webkit-transition: background-color .25s ease,color .25s ease,border-color .25s ease;
+            transition: background-color .25s ease,color .25s ease,border-color .25s ease
         }
 
             #where_to_buy .search_bar .left:hover {
@@ -13075,8 +13204,7 @@ textarea {
             padding-bottom: 50px
         }
 
-            #where_to_buy .locations_container .diamond_dealers .header,
-            #where_to_buy .locations_container .diamond_dealers .slides li {
+            #where_to_buy .locations_container .diamond_dealers .header, #where_to_buy .locations_container .diamond_dealers .slides li {
                 text-align: center
             }
 
@@ -13506,8 +13634,7 @@ textarea {
         color: #343434
     }
 
-    #about_us .section1 .text,
-    #about_us .section1 a {
+    #about_us .section1 .text, #about_us .section1 a {
         text-align: center;
         margin-left: auto;
         margin-right: auto;
@@ -13543,7 +13670,6 @@ textarea {
         #about_us .section2 .mission_container .left {
             display: table-cell;
             vertical-align: middle;
-            /*float: left;*/
             width: 441px;
             padding-left: 45px
         }
@@ -13565,8 +13691,7 @@ textarea {
 
         #about_us .section2 .mission_container .right {
             display: table-cell;
-            vertical-align: middle;
-            /*float: right*/
+            vertical-align: middle
         }
 
 #about_us .section3 {
@@ -13888,8 +14013,7 @@ textarea {
             padding: 0 8.4%
         }
 
-            #about_us .section3 .body_container .left,
-            #about_us .section3 .body_container .right {
+            #about_us .section3 .body_container .left, #about_us .section3 .body_container .right {
                 display: inline-block;
                 width: 100%;
                 padding: 0
@@ -13956,8 +14080,7 @@ textarea {
         margin-right: auto
     }
 
-#group_order .form_container .title,
-#group_order .form_container h2.title {
+#group_order .form_container .title, #group_order .form_container h2.title {
     font-family: Proxima N W01 Bold;
     color: #04295d;
     letter-spacing: .02em;
@@ -13990,8 +14113,7 @@ textarea {
         opacity: 0
     }
 
-    #group_order .form_container form label .checkbox_btn,
-    #group_order .form_container form label .radio_btn {
+    #group_order .form_container form label .checkbox_btn, #group_order .form_container form label .radio_btn {
         background-color: #fff;
         border: 1px solid #e0e0e0;
         display: inline-block;
@@ -14003,8 +14125,7 @@ textarea {
         vertical-align: middle
     }
 
-        #group_order .form_container form label .checkbox_btn.gray,
-        #group_order .form_container form label .radio_btn.gray {
+        #group_order .form_container form label .checkbox_btn.gray, #group_order .form_container form label .radio_btn.gray {
             background-color: #d8e1e7;
             border: none
         }
@@ -14023,8 +14144,7 @@ textarea {
         box-shadow: 0 0 0 1px #e0e0e0
     }
 
-        #group_order .form_container form label input:checked + span.gray,
-        #group_order .form_container form label input:checked + span:checked {
+        #group_order .form_container form label input:checked + span.gray, #group_order .form_container form label input:checked + span:checked {
             background-color: #002049;
             border: 4px solid #d8e1e7;
             box-shadow: none
@@ -14038,8 +14158,8 @@ textarea {
     color: #00295d;
     font-family: Proxima N W01 Bold;
     font-size: 1em;
-    -webkit-transition: background-color .25s ease, color .25s ease, border-color .25s ease;
-    transition: background-color .25s ease, color .25s ease, border-color .25s ease
+    -webkit-transition: background-color .25s ease,color .25s ease,border-color .25s ease;
+    transition: background-color .25s ease,color .25s ease,border-color .25s ease
 }
 
     #group_order .form_container form input:not([type=radio]):not([type=checkbox]):focus {
@@ -14050,8 +14170,7 @@ textarea {
             color: transparent
         }
 
-        #group_order .form_container form input:not([type=radio]):not([type=checkbox]):focus:-moz-placeholder,
-        #group_order .form_container form input:not([type=radio]):not([type=checkbox]):focus::-moz-placeholder {
+        #group_order .form_container form input:not([type=radio]):not([type=checkbox]):focus:-moz-placeholder, #group_order .form_container form input:not([type=radio]):not([type=checkbox]):focus::-moz-placeholder {
             color: transparent
         }
 
@@ -14070,8 +14189,8 @@ textarea {
     cursor: pointer;
     color: #00295d;
     font-family: Proxima N W01 Bold;
-    -webkit-transition: background-color .25s ease, color .25s ease, border-color .25s ease;
-    transition: background-color .25s ease, color .25s ease, border-color .25s ease
+    -webkit-transition: background-color .25s ease,color .25s ease,border-color .25s ease;
+    transition: background-color .25s ease,color .25s ease,border-color .25s ease
 }
 
     #group_order .form_container form select:focus {
@@ -14087,8 +14206,8 @@ textarea {
     padding: 10px;
     color: #00295d;
     font-family: Proxima N W01 Bold;
-    -webkit-transition: background-color .25s ease, color .25s ease, border-color .25s ease;
-    transition: background-color .25s ease, color .25s ease, border-color .25s ease
+    -webkit-transition: background-color .25s ease,color .25s ease,border-color .25s ease;
+    transition: background-color .25s ease,color .25s ease,border-color .25s ease
 }
 
     #group_order .form_container form textarea:focus {
@@ -14099,8 +14218,7 @@ textarea {
             color: transparent
         }
 
-        #group_order .form_container form textarea:focus:-moz-placeholder,
-        #group_order .form_container form textarea:focus::-moz-placeholder {
+        #group_order .form_container form textarea:focus:-moz-placeholder, #group_order .form_container form textarea:focus::-moz-placeholder {
             color: transparent
         }
 
@@ -14156,8 +14274,7 @@ textarea {
     }
 }
 
-#group_order .form_container form .select .desktop a:focus,
-#group_order .form_container form .select .desktop a:hover {
+#group_order .form_container form .select .desktop a:focus, #group_order .form_container form .select .desktop a:hover {
     text-decoration: none;
     color: inherit
 }
@@ -14192,8 +14309,8 @@ textarea {
         padding: 2px 0 2px 19px;
         color: #80848c;
         display: block;
-        -webkit-transition: background-color .25s ease, color .25s ease, border-color .25s ease;
-        transition: background-color .25s ease, color .25s ease, border-color .25s ease
+        -webkit-transition: background-color .25s ease,color .25s ease,border-color .25s ease;
+        transition: background-color .25s ease,color .25s ease,border-color .25s ease
     }
 
         #group_order .form_container form .select .desktop .options_container a:hover {
@@ -14275,8 +14392,7 @@ textarea {
 
 #group_order .form_container form .section1 .city_container {
     width: 50%;
-    display: inline-block;
-    /*float: left*/
+    display: inline-block
 }
 
 @media screen and (max-width:767px) {
@@ -14300,8 +14416,7 @@ textarea {
 #group_order .form_container form .section1 .zipcode_container {
     display: inline-block;
     padding-left: 10px;
-    width: 25%;
-    /*float: right*/
+    width: 25%
 }
 
 #group_order .form_container form .section1 .phone_container {
@@ -14482,8 +14597,7 @@ textarea {
         font-size: 1.18em
     }
 
-    #group_order .form_container form .two_column .option,
-    #group_order .form_container form .two_column label {
+    #group_order .form_container form .two_column .option, #group_order .form_container form .two_column label {
         line-height: 1.5em;
         margin-bottom: 20px
     }
@@ -14502,8 +14616,7 @@ textarea {
         margin-bottom: 24px
     }
 
-    #group_order .form_container form .two_column .left,
-    #group_order .form_container form .two_column .right {
+    #group_order .form_container form .two_column .left, #group_order .form_container form .two_column .right {
         width: 50%;
         display: table-cell;
         vertical-align: top
@@ -14547,16 +14660,14 @@ textarea {
     margin-right: auto
 }
 
-    #group_order .form_container form .need_container .row1,
-    #group_order .form_container form .need_container .row2 {
+    #group_order .form_container form .need_container .row1, #group_order .form_container form .need_container .row2 {
         width: 100%;
         display: inline-block;
         text-align: center;
         margin-bottom: 39px
     }
 
-        #group_order .form_container form .need_container .row1 > div label:not(.radio_label),
-        #group_order .form_container form .need_container .row2 > div label:not(.radio_label) {
+        #group_order .form_container form .need_container .row1 > div label:not(.radio_label), #group_order .form_container form .need_container .row2 > div label:not(.radio_label) {
             text-transform: uppercase;
             margin-bottom: 12px;
             font-size: 1.1em;
@@ -14564,41 +14675,34 @@ textarea {
             letter-spacing: .08em
         }
 
-        #group_order .form_container form .need_container .row1 > div .radio_label,
-        #group_order .form_container form .need_container .row2 > div .radio_label {
+        #group_order .form_container form .need_container .row1 > div .radio_label, #group_order .form_container form .need_container .row2 > div .radio_label {
             display: inline-block;
             margin-right: 17px
         }
 
-            #group_order .form_container form .need_container .row1 > div .radio_label:last-child,
-            #group_order .form_container form .need_container .row2 > div .radio_label:last-child {
+            #group_order .form_container form .need_container .row1 > div .radio_label:last-child, #group_order .form_container form .need_container .row2 > div .radio_label:last-child {
                 margin-right: 0
             }
 
-            #group_order .form_container form .need_container .row1 > div .radio_label .radio_btn,
-            #group_order .form_container form .need_container .row2 > div .radio_label .radio_btn {
+            #group_order .form_container form .need_container .row1 > div .radio_label .radio_btn, #group_order .form_container form .need_container .row2 > div .radio_label .radio_btn {
                 margin-right: 4px !important
             }
 
-            #group_order .form_container form .need_container .row1 > div .radio_label .option,
-            #group_order .form_container form .need_container .row2 > div .radio_label .option {
+            #group_order .form_container form .need_container .row1 > div .radio_label .option, #group_order .form_container form .need_container .row2 > div .radio_label .option {
                 font-size: 1em
             }
 
-        #group_order .form_container form .need_container .row1 > div:first-of-type,
-        #group_order .form_container form .need_container .row2 > div:first-of-type {
+        #group_order .form_container form .need_container .row1 > div:first-of-type, #group_order .form_container form .need_container .row2 > div:first-of-type {
             float: left;
             text-align: left
         }
 
-        #group_order .form_container form .need_container .row1 > div:nth-of-type(2),
-        #group_order .form_container form .need_container .row2 > div:nth-of-type(2) {
+        #group_order .form_container form .need_container .row1 > div:nth-of-type(2), #group_order .form_container form .need_container .row2 > div:nth-of-type(2) {
             display: inline-block;
             text-align: left
         }
 
-        #group_order .form_container form .need_container .row1 > div:nth-of-type(3),
-        #group_order .form_container form .need_container .row2 > div:nth-of-type(3) {
+        #group_order .form_container form .need_container .row1 > div:nth-of-type(3), #group_order .form_container form .need_container .row2 > div:nth-of-type(3) {
             float: right;
             text-align: left
         }
@@ -14693,8 +14797,7 @@ textarea {
         padding-top: 57px
     }
 
-        #group_order .form_container form .need_container .row1 > div label,
-        #group_order .form_container form .need_container .row2 > div label {
+        #group_order .form_container form .need_container .row1 > div label, #group_order .form_container form .need_container .row2 > div label {
             font-size: 1.2em
         }
 }
@@ -14734,8 +14837,7 @@ textarea {
         padding: 11px 10px
     }
 
-    #group_order .form_container form input[type=checkbox],
-    #group_order .form_container form input[type=radio] {
+    #group_order .form_container form input[type=checkbox], #group_order .form_container form input[type=radio] {
         margin: -5px 15px 0 0
     }
 
@@ -14886,38 +14988,30 @@ textarea {
                 float: right
             }
 
-            #group_order .form_container form .section3 .need_container .row1,
-            #group_order .form_container form .section3 .need_container .row2 {
+            #group_order .form_container form .section3 .need_container .row1, #group_order .form_container form .section3 .need_container .row2 {
                 width: 50%;
                 margin-bottom: 0
             }
 
-                #group_order .form_container form .section3 .need_container .row1 > div,
-                #group_order .form_container form .section3 .need_container .row2 > div {
+                #group_order .form_container form .section3 .need_container .row1 > div, #group_order .form_container form .section3 .need_container .row2 > div {
                     width: 100%;
                     margin-bottom: 20px
                 }
 
-                    #group_order .form_container form .section3 .need_container .row1 > div label,
-                    #group_order .form_container form .section3 .need_container .row2 > div label {
+                    #group_order .form_container form .section3 .need_container .row1 > div label, #group_order .form_container form .section3 .need_container .row2 > div label {
                         font-size: .98em;
                         margin-bottom: 5px
                     }
 
-                    #group_order .form_container form .section3 .need_container .row1 > div .checkbox_btn,
-                    #group_order .form_container form .section3 .need_container .row1 > div .radio_btn,
-                    #group_order .form_container form .section3 .need_container .row2 > div .checkbox_btn,
-                    #group_order .form_container form .section3 .need_container .row2 > div .radio_btn {
+                    #group_order .form_container form .section3 .need_container .row1 > div .checkbox_btn, #group_order .form_container form .section3 .need_container .row1 > div .radio_btn, #group_order .form_container form .section3 .need_container .row2 > div .checkbox_btn, #group_order .form_container form .section3 .need_container .row2 > div .radio_btn {
                         margin-right: 12px
                     }
 
-                    #group_order .form_container form .section3 .need_container .row1 > div input:nth-of-type(2),
-                    #group_order .form_container form .section3 .need_container .row2 > div input:nth-of-type(2) {
+                    #group_order .form_container form .section3 .need_container .row1 > div input:nth-of-type(2), #group_order .form_container form .section3 .need_container .row2 > div input:nth-of-type(2) {
                         margin-left: 20px
                     }
 
-                    #group_order .form_container form .section3 .need_container .row1 > div input + .option,
-                    #group_order .form_container form .section3 .need_container .row2 > div input + .option {
+                    #group_order .form_container form .section3 .need_container .row1 > div input + .option, #group_order .form_container form .section3 .need_container .row2 > div input + .option {
                         margin-right: 0
                     }
 
@@ -15351,8 +15445,7 @@ textarea {
                     word-break: normal
                 }
 
-                #favorites_page .favorites_container .favorite_item_row .favorite_item > .right > .bottom .color_container .swatch,
-                #favorites_page .favorites_container .favorite_item_row .favorite_item > .right > .bottom .color_container .swatch .background {
+                #favorites_page .favorites_container .favorite_item_row .favorite_item > .right > .bottom .color_container .swatch, #favorites_page .favorites_container .favorite_item_row .favorite_item > .right > .bottom .color_container .swatch .background {
                     width: 26px;
                     height: 26px
                 }
@@ -15375,8 +15468,7 @@ textarea {
         content: none !important
     }
 
-    #favorites_page .remove_container,
-    #favorites_page .top .links {
+    #favorites_page .remove_container, #favorites_page .top .links {
         display: none !important
     }
 
@@ -15508,8 +15600,8 @@ textarea {
             font-family: Proxima N W01 Reg;
             font-size: 1.1em;
             height: 46px;
-            -webkit-transition: background-color .25s ease, color .25s ease, border-color .25s ease;
-            transition: background-color .25s ease, color .25s ease, border-color .25s ease
+            -webkit-transition: background-color .25s ease,color .25s ease,border-color .25s ease;
+            transition: background-color .25s ease,color .25s ease,border-color .25s ease
         }
 
             #faq .form_container form input:focus {
@@ -15520,8 +15612,7 @@ textarea {
                     color: transparent
                 }
 
-                #faq .form_container form input:focus:-moz-placeholder,
-                #faq .form_container form input:focus::-moz-placeholder {
+                #faq .form_container form input:focus:-moz-placeholder, #faq .form_container form input:focus::-moz-placeholder {
                     color: transparent
                 }
 
@@ -15546,8 +15637,7 @@ textarea {
                     color: transparent
                 }
 
-                #faq .form_container form textarea:focus:-moz-placeholder,
-                #faq .form_container form textarea:focus::-moz-placeholder {
+                #faq .form_container form textarea:focus:-moz-placeholder, #faq .form_container form textarea:focus::-moz-placeholder {
                     color: transparent
                 }
 
@@ -15995,8 +16085,8 @@ textarea {
     #made_better_page .sections_container .section.top .bottom a {
         color: inherit;
         text-decoration: underline;
-        -webkit-transition: background-color .25s ease, color .25s ease, border-color .25s ease;
-        transition: background-color .25s ease, color .25s ease, border-color .25s ease
+        -webkit-transition: background-color .25s ease,color .25s ease,border-color .25s ease;
+        transition: background-color .25s ease,color .25s ease,border-color .25s ease
     }
 
         #made_better_page .sections_container .section.top .bottom a:hover {
@@ -16361,8 +16451,7 @@ textarea {
     }
 }
 
-#login_page .login_container .title,
-#login_page .login_container form {
+#login_page .login_container .title, #login_page .login_container form {
     position: relative;
     z-index: 4
 }
@@ -16385,20 +16474,18 @@ textarea {
     margin-bottom: 9px
 }
 
-#login_page .login_container input[type=password],
-#login_page .login_container input[type=text] {
+#login_page .login_container input[type=password], #login_page .login_container input[type=text] {
     border: 1px solid #e1e1e1;
     display: block;
     font-size: 1.1em;
     width: 100%;
     margin-bottom: 25px;
     padding: 11px 10px;
-    -webkit-transition: background-color .25s ease, color .25s ease, border-color .25s ease;
-    transition: background-color .25s ease, color .25s ease, border-color .25s ease
+    -webkit-transition: background-color .25s ease,color .25s ease,border-color .25s ease;
+    transition: background-color .25s ease,color .25s ease,border-color .25s ease
 }
 
-    #login_page .login_container input[type=password]:focus,
-    #login_page .login_container input[type=text]:focus {
+    #login_page .login_container input[type=password]:focus, #login_page .login_container input[type=text]:focus {
         border-color: #00295d
     }
 
@@ -16445,8 +16532,8 @@ textarea {
     text-transform: uppercase;
     padding: 11px 46px;
     letter-spacing: .08em;
-    -webkit-transition: background-color .25s ease, color .25s ease, border-color .25s ease;
-    transition: background-color .25s ease, color .25s ease, border-color .25s ease
+    -webkit-transition: background-color .25s ease,color .25s ease,border-color .25s ease;
+    transition: background-color .25s ease,color .25s ease,border-color .25s ease
 }
 
     #login_page .login_container input[type=submit]:hover {
@@ -16494,8 +16581,7 @@ textarea {
                     padding: 0 38px
                 }
 
-                    #login_page .login_container .vendor_container .vendor_row:first-child picture:last-child img,
-                    #login_page .login_container .vendor_container .vendor_row:first-child picture:nth-of-type(2) img {
+                    #login_page .login_container .vendor_container .vendor_row:first-child picture:last-child img, #login_page .login_container .vendor_container .vendor_row:first-child picture:nth-of-type(2) img {
                         width: 26.4%
                     }
 
@@ -16511,8 +16597,7 @@ textarea {
                         padding: 0 47px
                     }
 
-                        #login_page .login_container .vendor_container .vendor_row:last-child picture:last-child img,
-                        #login_page .login_container .vendor_container .vendor_row:last-child picture:nth-of-type(2) img {
+                        #login_page .login_container .vendor_container .vendor_row:last-child picture:last-child img, #login_page .login_container .vendor_container .vendor_row:last-child picture:nth-of-type(2) img {
                             width: 25%
                         }
 }
@@ -16531,9 +16616,7 @@ textarea {
                 letter-spacing: .1em
             }
 
-            #login_page .login_container .help,
-            #login_page .login_container input[type=password],
-            #login_page .login_container input[type=text] {
+            #login_page .login_container .help, #login_page .login_container input[type=password], #login_page .login_container input[type=text] {
                 margin-bottom: 17px
             }
 
@@ -16558,8 +16641,7 @@ textarea {
                     padding: 0 33px
                 }
 
-                    #login_page .login_container .vendor_container .vendor_row:first-child picture:last-child img,
-                    #login_page .login_container .vendor_container .vendor_row:first-child picture:nth-of-type(2) img {
+                    #login_page .login_container .vendor_container .vendor_row:first-child picture:last-child img, #login_page .login_container .vendor_container .vendor_row:first-child picture:nth-of-type(2) img {
                         width: 26%
                     }
 
@@ -16575,8 +16657,7 @@ textarea {
                         padding: 0 45px
                     }
 
-                        #login_page .login_container .vendor_container .vendor_row:last-child picture:last-child img,
-                        #login_page .login_container .vendor_container .vendor_row:last-child picture:nth-of-type(2) img {
+                        #login_page .login_container .vendor_container .vendor_row:last-child picture:last-child img, #login_page .login_container .vendor_container .vendor_row:last-child picture:nth-of-type(2) img {
                             width: 24%
                         }
 }
@@ -16599,8 +16680,7 @@ textarea {
                 font-size: 1em
             }
 
-            #login_page .login_container input[type=password],
-            #login_page .login_container input[type=text] {
+            #login_page .login_container input[type=password], #login_page .login_container input[type=text] {
                 margin-bottom: 11px
             }
 
@@ -16639,8 +16719,7 @@ textarea {
                     padding: 0 12%
                 }
 
-                    #login_page .login_container .vendor_container .vendor_row:first-child picture:last-child img,
-                    #login_page .login_container .vendor_container .vendor_row:first-child picture:nth-of-type(2) img {
+                    #login_page .login_container .vendor_container .vendor_row:first-child picture:last-child img, #login_page .login_container .vendor_container .vendor_row:first-child picture:nth-of-type(2) img {
                         width: 24%
                     }
 
@@ -16656,8 +16735,7 @@ textarea {
                         padding: 0 12%
                     }
 
-                        #login_page .login_container .vendor_container .vendor_row:last-child picture:last-child img,
-                        #login_page .login_container .vendor_container .vendor_row:last-child picture:nth-of-type(2) img {
+                        #login_page .login_container .vendor_container .vendor_row:last-child picture:last-child img, #login_page .login_container .vendor_container .vendor_row:last-child picture:nth-of-type(2) img {
                             width: 24%
                         }
 }
@@ -16707,8 +16785,8 @@ textarea {
         margin-top: 26px;
         line-height: 37px;
         padding: 0 39px 0 24px;
-        -webkit-transition: background-color .25s ease, color .25s ease, border-color .25s ease;
-        transition: background-color .25s ease, color .25s ease, border-color .25s ease
+        -webkit-transition: background-color .25s ease,color .25s ease,border-color .25s ease;
+        transition: background-color .25s ease,color .25s ease,border-color .25s ease
     }
 
 @media screen and (max-width:989px) {
@@ -16731,8 +16809,7 @@ textarea {
     }
 }
 
-#promotions_page .promo .content .cta-promo:focus,
-#promotions_page .promo .content .cta-promo:hover {
+#promotions_page .promo .content .cta-promo:focus, #promotions_page .promo .content .cta-promo:hover {
     text-decoration: none
 }
 
@@ -16741,8 +16818,8 @@ textarea {
     font-family: Proxima N W01 Bold;
     letter-spacing: .02em;
     word-spacing: .1em;
-    -webkit-transition: background-color .25s ease, color .25s ease, border-color .25s ease;
-    transition: background-color .25s ease, color .25s ease, border-color .25s ease
+    -webkit-transition: background-color .25s ease,color .25s ease,border-color .25s ease;
+    transition: background-color .25s ease,color .25s ease,border-color .25s ease
 }
 
 @media screen and (max-width:989px) {
@@ -16762,8 +16839,8 @@ textarea {
     font-family: fontello;
     font-size: 19px;
     padding-left: 12px;
-    -webkit-transition: background-color .25s ease, color .25s ease, border-color .25s ease;
-    transition: background-color .25s ease, color .25s ease, border-color .25s ease
+    -webkit-transition: background-color .25s ease,color .25s ease,border-color .25s ease;
+    transition: background-color .25s ease,color .25s ease,border-color .25s ease
 }
 
 @media screen and (max-width:989px) {
@@ -16852,21 +16929,16 @@ textarea {
     border-color: #04295d
 }
 
-    #promotions_page #promo1 .content .cta-promo .cta-arrow,
-    #promotions_page #promo1 .content .cta-promo .cta-text {
+    #promotions_page #promo1 .content .cta-promo .cta-arrow, #promotions_page #promo1 .content .cta-promo .cta-text {
         color: #04295d
     }
 
-#promotions_page #promo1:focus .cta-promo,
-#promotions_page #promo1:hover .cta-promo {
+#promotions_page #promo1:focus .cta-promo, #promotions_page #promo1:hover .cta-promo {
     border-color: #fff;
     background: #fff
 }
 
-    #promotions_page #promo1:focus .cta-promo .cta-arrow,
-    #promotions_page #promo1:focus .cta-promo .cta-text,
-    #promotions_page #promo1:hover .cta-promo .cta-arrow,
-    #promotions_page #promo1:hover .cta-promo .cta-text {
+    #promotions_page #promo1:focus .cta-promo .cta-arrow, #promotions_page #promo1:focus .cta-promo .cta-text, #promotions_page #promo1:hover .cta-promo .cta-arrow, #promotions_page #promo1:hover .cta-promo .cta-text {
         color: #04295d
     }
 
@@ -16899,8 +16971,7 @@ textarea {
     }
 }
 
-#prints_page .info_slider a:focus,
-#prints_page .info_slider a:hover {
+#prints_page .info_slider a:focus, #prints_page .info_slider a:hover {
     text-decoration: none
 }
 
@@ -16953,8 +17024,7 @@ textarea {
     }
 }
 
-#prints_page .info_slider .flexslider ul.slides li .content h1,
-#prints_page .info_slider .flexslider ul.slides li .content h2 {
+#prints_page .info_slider .flexslider ul.slides li .content h1, #prints_page .info_slider .flexslider ul.slides li .content h2 {
     font-family: Bauer Bodoni Pro_1 W01 Bold;
     -webkit-font-smoothing: antialiased;
     color: #00295d;
@@ -16965,8 +17035,7 @@ textarea {
 }
 
 @media screen and (max-width:767px) {
-    #prints_page .info_slider .flexslider ul.slides li .content h1,
-    #prints_page .info_slider .flexslider ul.slides li .content h2 {
+    #prints_page .info_slider .flexslider ul.slides li .content h1, #prints_page .info_slider .flexslider ul.slides li .content h2 {
         font-size: 29px
     }
 }
@@ -17028,8 +17097,8 @@ textarea {
         display: block;
         height: 54px;
         width: 54px;
-        -webkit-transition: background-color .25s ease, color .25s ease, border-color .25s ease;
-        transition: background-color .25s ease, color .25s ease, border-color .25s ease;
+        -webkit-transition: background-color .25s ease,color .25s ease,border-color .25s ease;
+        transition: background-color .25s ease,color .25s ease,border-color .25s ease;
         background-size: 11px 20px;
         background-position: 50%
     }
@@ -17852,8 +17921,8 @@ textarea {
     height: 160px;
     width: 160px;
     position: relative;
-    -webkit-transition: background-color .25s ease, color .25s ease, border-color .25s ease;
-    transition: background-color .25s ease, color .25s ease, border-color .25s ease
+    -webkit-transition: background-color .25s ease,color .25s ease,border-color .25s ease;
+    transition: background-color .25s ease,color .25s ease,border-color .25s ease
 }
 
     #prints_page .product_blocks .products_block .image_icon:hover {
@@ -18330,8 +18399,8 @@ textarea {
     display: block;
     height: 54px;
     width: 54px;
-    -webkit-transition: background-color .25s ease, color .25s ease, border-color .25s ease;
-    transition: background-color .25s ease, color .25s ease, border-color .25s ease
+    -webkit-transition: background-color .25s ease,color .25s ease,border-color .25s ease;
+    transition: background-color .25s ease,color .25s ease,border-color .25s ease
 }
 
 #prints_page .product_blocks .products_block .hover_selection .bottom .flexslider .flex-direction-nav li:hover {
@@ -18390,8 +18459,7 @@ textarea {
     border-bottom: 0
 }
 
-#fitguide_page a:focus,
-#fitguide_page a:hover {
+#fitguide_page a:focus, #fitguide_page a:hover {
     text-decoration: none
 }
 
@@ -18423,8 +18491,7 @@ textarea {
     }
 }
 
-#fitguide_page .large_wrapper .block .overlay_img,
-#fitguide_page .large_wrapper .block .shadow {
+#fitguide_page .large_wrapper .block .overlay_img, #fitguide_page .large_wrapper .block .shadow {
     background-position: 50%;
     background-size: cover;
     height: 100.1%;
@@ -18446,7 +18513,6 @@ textarea {
 
 #fitguide_page .large_wrapper .block .content {
     display: inline-block;
-    /*float: right;*/
     margin: 35% 8% 0 0;
     position: relative;
     text-align: center;
@@ -18522,8 +18588,8 @@ textarea {
     height: 176px;
     padding-top: 65px;
     text-align: center;
-    -webkit-transition: background-color .25s ease, color .25s ease, border-color .25s ease;
-    transition: background-color .25s ease, color .25s ease, border-color .25s ease;
+    -webkit-transition: background-color .25s ease,color .25s ease,border-color .25s ease;
+    transition: background-color .25s ease,color .25s ease,border-color .25s ease;
     display: block
 }
 
@@ -18603,8 +18669,7 @@ textarea {
     position: relative
 }
 
-    #fitguide_detail_page a:focus,
-    #fitguide_detail_page a:hover {
+    #fitguide_detail_page a:focus, #fitguide_detail_page a:hover {
         text-decoration: none
     }
 
@@ -18674,7 +18739,7 @@ textarea {
     top: 0;
     right: 0;
     padding: 30px;
-    box-shadow: inset 0 0 40px 200px rgba(0, 0, 0, .25), 0 0 160px #000;
+    box-shadow: inset 0 0 40px 200px rgba(0,0,0,.25),0 0 160px #000;
     border-radius: 50%;
     cursor: pointer;
     z-index: 1;
@@ -18973,8 +19038,7 @@ textarea {
     }
 }
 
-#fitguide_detail_page .fitguide_content .fit_guide .content .view a,
-#fitguide_detail_page .fitguide_content .fit_guide .content .view span {
+#fitguide_detail_page .fitguide_content .fit_guide .content .view a, #fitguide_detail_page .fitguide_content .fit_guide .content .view span {
     display: inline-block
 }
 
@@ -18987,8 +19051,8 @@ textarea {
     margin-top: 31px;
     text-decoration: none;
     text-transform: uppercase;
-    -webkit-transition: background-color .25s ease, color .25s ease, border-color .25s ease;
-    transition: background-color .25s ease, color .25s ease, border-color .25s ease
+    -webkit-transition: background-color .25s ease,color .25s ease,border-color .25s ease;
+    transition: background-color .25s ease,color .25s ease,border-color .25s ease
 }
 
     #fitguide_detail_page .fitguide_content .fit_guide .content .view a:hover {
@@ -19349,8 +19413,7 @@ textarea {
     }
 }
 
-#fitguide_detail_page .fitguide_content .product_blocks .img_right .content .text_wrap,
-#fitguide_detail_page .fitguide_content .product_blocks .img_right .image {
+#fitguide_detail_page .fitguide_content .product_blocks .img_right .content .text_wrap, #fitguide_detail_page .fitguide_content .product_blocks .img_right .image {
     float: right
 }
 
@@ -19427,8 +19490,7 @@ textarea {
     }
 }
 
-#fitguide_detail_page .fitguide_content .product_blocks .gold .image .sub-header,
-#fitguide_detail_page .fitguide_content .product_blocks .gold .image h2 {
+#fitguide_detail_page .fitguide_content .product_blocks .gold .image .sub-header, #fitguide_detail_page .fitguide_content .product_blocks .gold .image h2 {
     color: #a29355
 }
 
@@ -19447,8 +19509,7 @@ textarea {
         color: #fcfcf8
     }
 
-#fitguide_detail_page .fitguide_content .product_blocks .blue .image .sub-header,
-#fitguide_detail_page .fitguide_content .product_blocks .blue .image h2 {
+#fitguide_detail_page .fitguide_content .product_blocks .blue .image .sub-header, #fitguide_detail_page .fitguide_content .product_blocks .blue .image h2 {
     color: #7d9aa8
 }
 
@@ -19471,8 +19532,7 @@ textarea {
         color: #fff
     }
 
-#fitguide_detail_page .fitguide_content .product_blocks .purple .image .sub-header,
-#fitguide_detail_page .fitguide_content .product_blocks .purple .image h2 {
+#fitguide_detail_page .fitguide_content .product_blocks .purple .image .sub-header, #fitguide_detail_page .fitguide_content .product_blocks .purple .image h2 {
     color: #9f7a98
 }
 
@@ -19556,8 +19616,8 @@ textarea {
     height: 176px;
     padding-top: 65px;
     text-align: center;
-    -webkit-transition: background-color .25s ease, color .25s ease, border-color .25s ease;
-    transition: background-color .25s ease, color .25s ease, border-color .25s ease;
+    -webkit-transition: background-color .25s ease,color .25s ease,border-color .25s ease;
+    transition: background-color .25s ease,color .25s ease,border-color .25s ease;
     display: block
 }
 
@@ -19980,14 +20040,12 @@ textarea {
     }
 }
 
-#fitguide_detail_page .size_chart_flyout .tips .content .text .r h4,
-#fitguide_detail_page .size_chart_flyout .tips .content .text .r p {
+#fitguide_detail_page .size_chart_flyout .tips .content .text .r h4, #fitguide_detail_page .size_chart_flyout .tips .content .text .r p {
     display: table-cell
 }
 
 @media screen and (max-width:767px) {
-    #fitguide_detail_page .size_chart_flyout .tips .content .text .r h4,
-    #fitguide_detail_page .size_chart_flyout .tips .content .text .r p {
+    #fitguide_detail_page .size_chart_flyout .tips .content .text .r h4, #fitguide_detail_page .size_chart_flyout .tips .content .text .r p {
         float: none
     }
 }
@@ -20072,8 +20130,8 @@ textarea {
     text-align: center;
     width: 100px;
     z-index: 5;
-    -webkit-transition: background-color .25s ease, color .25s ease, border-color .25s ease;
-    transition: background-color .25s ease, color .25s ease, border-color .25s ease
+    -webkit-transition: background-color .25s ease,color .25s ease,border-color .25s ease;
+    transition: background-color .25s ease,color .25s ease,border-color .25s ease
 }
 
     #fitguide_detail_page .close_col:hover {
@@ -20773,7 +20831,6 @@ textarea {
 #review_page .form_container form label {
     color: #04529d;
     display: inline-block;
-    /*float: left;*/
     font-size: 1.1em;
     letter-spacing: .02em;
     margin-bottom: 11px
@@ -20786,8 +20843,8 @@ textarea {
     padding: 17px 10px;
     font-family: Proxima N W01 Reg;
     font-size: 1.1em;
-    -webkit-transition: background-color .25s ease, color .25s ease, border-color .25s ease;
-    transition: background-color .25s ease, color .25s ease, border-color .25s ease;
+    -webkit-transition: background-color .25s ease,color .25s ease,border-color .25s ease;
+    transition: background-color .25s ease,color .25s ease,border-color .25s ease;
     clear: both
 }
 
@@ -20799,8 +20856,7 @@ textarea {
             color: transparent
         }
 
-        #review_page .form_container form input:focus:-moz-placeholder,
-        #review_page .form_container form input:focus::-moz-placeholder {
+        #review_page .form_container form input:focus:-moz-placeholder, #review_page .form_container form input:focus::-moz-placeholder {
             color: transparent
         }
 
@@ -20815,8 +20871,8 @@ textarea {
     width: 100%;
     height: 300px;
     padding: 10px;
-    -webkit-transition: background-color .25s ease, color .25s ease, border-color .25s ease;
-    transition: background-color .25s ease, color .25s ease, border-color .25s ease
+    -webkit-transition: background-color .25s ease,color .25s ease,border-color .25s ease;
+    transition: background-color .25s ease,color .25s ease,border-color .25s ease
 }
 
     #review_page .form_container form textarea:focus {
@@ -20827,8 +20883,7 @@ textarea {
             color: transparent
         }
 
-        #review_page .form_container form textarea:focus:-moz-placeholder,
-        #review_page .form_container form textarea:focus::-moz-placeholder {
+        #review_page .form_container form textarea:focus:-moz-placeholder, #review_page .form_container form textarea:focus::-moz-placeholder {
             color: transparent
         }
 
@@ -21053,8 +21108,7 @@ textarea {
         width: 100%
     }
 
-        #review_page .form_container form .containers.left,
-        #review_page .form_container form .containers.right {
+        #review_page .form_container form .containers.left, #review_page .form_container form .containers.right {
             float: none;
             padding: 0
         }
@@ -21139,8 +21193,7 @@ textarea {
     display: inline
 }
 
-#privacy-policy a,
-#privacy-policy span {
+#privacy-policy a, #privacy-policy span {
     color: #2d90d1
 }
 
@@ -21663,14 +21716,12 @@ textarea {
     }
 }
 
-#size-chart-page .tips .content .text .r h4,
-#size-chart-page .tips .content .text .r p {
+#size-chart-page .tips .content .text .r h4, #size-chart-page .tips .content .text .r p {
     display: table-cell
 }
 
 @media screen and (max-width:767px) {
-    #size-chart-page .tips .content .text .r h4,
-    #size-chart-page .tips .content .text .r p {
+    #size-chart-page .tips .content .text .r h4, #size-chart-page .tips .content .text .r p {
         float: none
     }
 }
@@ -21747,8 +21798,8 @@ textarea {
     height: 176px;
     padding-top: 65px;
     text-align: center;
-    -webkit-transition: background-color .25s ease, color .25s ease, border-color .25s ease;
-    transition: background-color .25s ease, color .25s ease, border-color .25s ease;
+    -webkit-transition: background-color .25s ease,color .25s ease,border-color .25s ease;
+    transition: background-color .25s ease,color .25s ease,border-color .25s ease;
     display: block;
     text-decoration: none;
     width: 50%;
@@ -21896,8 +21947,8 @@ textarea {
             font-family: Proxima N W01 Reg;
             font-size: 1.1em;
             height: 46px;
-            -webkit-transition: background-color .25s ease, color .25s ease, border-color .25s ease;
-            transition: background-color .25s ease, color .25s ease, border-color .25s ease
+            -webkit-transition: background-color .25s ease,color .25s ease,border-color .25s ease;
+            transition: background-color .25s ease,color .25s ease,border-color .25s ease
         }
 
             #favorites-email .form_container form input:focus {
@@ -21908,8 +21959,7 @@ textarea {
                     color: transparent
                 }
 
-                #favorites-email .form_container form input:focus:-moz-placeholder,
-                #favorites-email .form_container form input:focus::-moz-placeholder {
+                #favorites-email .form_container form input:focus:-moz-placeholder, #favorites-email .form_container form input:focus::-moz-placeholder {
                     color: transparent
                 }
 
@@ -21934,8 +21984,7 @@ textarea {
                     color: transparent
                 }
 
-                #favorites-email .form_container form textarea:focus:-moz-placeholder,
-                #favorites-email .form_container form textarea:focus::-moz-placeholder {
+                #favorites-email .form_container form textarea:focus:-moz-placeholder, #favorites-email .form_container form textarea:focus::-moz-placeholder {
                     color: transparent
                 }
 
