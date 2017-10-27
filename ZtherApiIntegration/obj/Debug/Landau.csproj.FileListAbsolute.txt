@@ -488,3 +488,4 @@ C:\Users\art\Desktop\fresh-landau\landau-web\ZtherApiIntegration\obj\Debug\Landa
 C:\Users\art\Desktop\fresh-landau\landau-web\ZtherApiIntegration\obj\Debug\ZtherApiIntegration.dll
 C:\Users\art\Desktop\fresh-landau\landau-web\ZtherApiIntegration\obj\Debug\ZtherApiIntegration.pdb
 C:\Projects\Github\Landau\landau-web\ZtherApiIntegration\obj\Debug\Landau.csprojResolveAssemblyReference.cache
+C:\Users\art\Desktop\fresh-landau\landau-web\ZtherApiIntegration\obj\Debug\Landau.csproj.CoreCompileInputs.cache
