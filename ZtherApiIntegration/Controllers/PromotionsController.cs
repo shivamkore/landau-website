@@ -18,5 +18,11 @@ namespace ZtherApiIntegration.Controllers
             ViewBag.Scripts = new List<string>() { "promotions.js" };
             return View(PathFromView("Promotions"));
         }
+
+        [Route("~/group-programs")]
+        public ActionResult GroupPrograms()
+        {
+            return View(PathFromView("GroupPrograms"));
+        }
     }
 }

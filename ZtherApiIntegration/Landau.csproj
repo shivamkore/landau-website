@@ -488,6 +488,7 @@
     <Content Include="public\images\loyalty\landau-rewards.png" />
     <Content Include="public\images\loyalty\btn-login.png" />
     <Content Include="public\images\loyalty\btn-prize.png" />
+    <Content Include="public\images\promotions\sales_flyer.jpg" />
     <Content Include="public\images\videos\16-LAND-0145_SP17_FOB_Stripes_DVD.mpg" />
     <Content Include="public\images\videos\FOB Snippet play screens.jpg" />
     <Content Include="public\images\videos\FOB-Video-Playscreen_Desktop.jpg" />
@@ -1099,6 +1100,7 @@
     <Content Include="Views\Loyalty\Faq.cshtml" />
     <Content Include="Views\Loyalty\disclaimer.cshtml" />
     <Content Include="public\css\rewards.less" />
+    <Content Include="Views\GroupPrograms.cshtml" />
     <None Include="Views\RetailPartners.cshtml" />
     <Content Include="Views\Partials\WhereToBuy\_DealersLogoPartial.cshtml" />
     <Content Include="Views\Promotions.cshtml" />
