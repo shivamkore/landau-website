@@ -114,21 +114,28 @@ $(function() {
     });
 
     $(".video_container, .home-slider-0").on('click', function () {
+        var wistia_video = Wistia.api("wistia_video");
 
-        videoURL = $('iframe.wistia_embed').prop('src');
+        var videoURL = $('iframe.wistia_embed').prop('src');
         videoURL += "?videoFoam=true&autoPlay=true";
 
         $('iframe.wistia_embed').prop('src', videoURL);
         $('#video_overlay').fadeIn();
+
         $('#video_popup').show();
+        wistia_video.play();
     });
 
     $('#video_overlay').on('click', function () {
-        videoURL = $('iframe.wistia_embed').prop('src');
+        var wistia_video = Wistia.api("wistia_video");
+
+        var videoURL = $('iframe.wistia_embed').prop('src');
         videoURL = videoURL.replace("?videoFoam=true&autoPlay=true", "");
 
         $('iframe.wistia_embed').prop('src', videoURL);
         $('#video_overlay').fadeOut();
+
         $('#video_popup').hide();
+        wistia_video.pause();
     });
 });
