@@ -3,6 +3,7 @@ $(function() {
     $('#homepage .home_slider .flexslider').flexslider({
         slideshow: true,
         animation: "fade",
+        slideshowSpeed: 7000,
         animationSpeed: 650,
         move: 1,
         controlNav: true,
@@ -48,7 +49,7 @@ $(function() {
         move: 1,
         directionNav: true,
         // smoothHeight: true,
-        slideshowSpeed: 10000,
+        //slideshowSpeed: 10000,
         animationLoop: true,
         start: function(slider) {
             $('body').removeClass('loading');
