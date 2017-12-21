@@ -1086,7 +1086,6 @@
     </None>
     <None Include="Properties\PublishProfiles\landau - Web Deploy.pubxml" />
     <None Include="Properties\PublishProfiles\landau-staging - Web Deploy.pubxml" />
-    <Content Include="public\Landau-Fall-16-Catalog.pdf" />
     <Content Include="public\images\home\font\Trade Gothic LT Condensed No. 18.otf" />
     <Content Include="public\catalog-staging.pdf" />
     <Content Include="public\catalog.pdf" />

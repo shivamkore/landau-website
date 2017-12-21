@@ -18568,6 +18568,11 @@ textarea {
     color: #d77e7e
 }
 
+#fitguide_page .tops .content, #fitguide_page .pants .content {
+    left: 60%;
+}
+
+
 #fitguide_page .large_wrapper .pants .overlay_img {
     background-image: url(../images/fitguide/landing/pants_fitguide_bg.jpg)
 }
