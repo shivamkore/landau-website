@@ -1,0 +1,66 @@
+﻿@using ZtherApiIntegration.Common
+
+<footer id="main_footer">
+    <div class="container">
+        <div>
+            <div class="mailing_list col-xs-12">
+                <div class="clearfix">
+                    <div class="text">
+                        <h4>Get News &amp; Special Deals</h4>
+                    </div>
+                    <div class="input">
+                        @using (Html.BeginForm("SignUp", "Footer", FormMethod.Post))
+                        {
+                            <input type="email" placeholder="Your Email Address" name="email" class="text" required />
+                            <input type="submit" value="Sign Up" class="submit">
+                        }
+                    </div>
+                    <div class="validation-text">Input invalid. Insert validation text here.</div>
+                </div>
+            </div>
+        </div>
+        <div class="social_page_links">
+            <div class="col-xs-12 col-sm-4 pull-right">
+                <div class="page_links clearfix">
+                    <ul>
+                        <li><a href="@UrlBuilder.BuildFullUrl(UrlEnum.CONTACT)">Contact</a></li>
+                        <li><a href="@UrlBuilder.BuildFullUrl(UrlEnum.ABOUT)">About</a></li>
+                        <li><a href="@UrlBuilder.BuildFullUrl(UrlEnum.FAQ)">FAQ</a></li>
+                    </ul>
+                    <ul>
+                        <li><a href="@UrlBuilder.BuildFullUrl(UrlEnum.MAD_BETTER)">Made Better</a></li>
+                        <li><a href="@UrlBuilder.BuildFullUrl(UrlEnum.GROUPS)">Groups</a></li>
+                        <li><a href="http://www.landaub2b.com/account/logon?ReturnUrl=%2f">Retail Partners</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-xs-12 col-sm-4 mobile-padding">
+                <div class="social" itemscope itemtype="http://schema.org/Organization">
+                    <link itemprop="url" href="http://www.landau.com">
+                    <h5>Join Us</h5>
+                    <ul>
+                        <li><a class="facebook" href="https://www.facebook.com/landauuniforms" target="_blank" itemprop="sameAs">&#xe801;</a></li>
+                        <li><a class="twitter" href="https://twitter.com/landauuniforms" target="_blank" itemprop="sameAs">&#xe802;</a></li>
+                        <li><a class="instagram" href="https://www.instagram.com/landauuniforms/" target="_blank" itemprop="sameAs">&#xe803;</a></li>
+                        <li><a class="pinterest" href="https://www.pinterest.com/landauuniforms/" target="_blank" itemprop="sameAs">&#xe804;</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <div class="container">
+            <div>
+                <div class="col-xs-12">
+                    All Materials Copyright &copy; @DateTime.Today.Year.ToString() by Landau Uniforms.
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+<script src="public/js/bottom_scripts.js"></script>
+
+<script type="text/javascript">
+    // IE9 support for placeholder text in input fields
+    $('input, textarea').placeholder();
+</script>

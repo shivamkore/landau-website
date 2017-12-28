@@ -1,0 +1,139 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>@(ViewBag.Title != null ? ViewBag.Title : "")</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=0">
+    <meta name="description" content="@(ViewBag.Description != null ? ViewBag.Description : "")">
+    <meta name="author" content="SitePoint">
+
+    @if (ViewBag.HasNoFollow != null && ViewBag.HasNoFollow)
+    {
+        <META NAME="ROBOTS" CONTENT="NOINDEX, NOFOLLOW">
+    }
+
+    @if (!string.IsNullOrEmpty(ViewBag.CanonicalUrl))
+    {
+    <link rel="canonical" href="@ViewBag.CanonicalUrl" />
+    }
+
+    <link rel="stylesheet" type="text/css" href="~/public/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="~/public/css/style.min.css">
+    <link rel="stylesheet" type="text/css" href="~/public/css/banner.min.css">
+    <link rel="stylesheet" type="text/css" href="~/public/css/custom.min.css">
+    <link type="text/css" rel="stylesheet" href="http://fast.fonts.net/cssapi/b673da3c-c126-4aa2-a91f-4e32bafc223e.css" />
+
+    <script src="public/js/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <script>
+        // Picture element HTML5 shiv
+        document.createElement("picture");
+    </script>
+    <!--[if lt IE 9]>
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <style> #main_header #utility .nav_search .nav ul li a.num .num-circle{ line-height: 19px !important; }</style>
+    <![endif]-->
+    <script src="public/js/top_scripts.js"></script>
+
+    @if (ViewBag.HasGoogleMaps != null && ViewBag.HasGoogleMaps)
+    {
+        <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&key=AIzaSyAozf7qwNc4qMHgJdUmx_DzhffWr47b5pE"></script>
+        <script src="https://cdn.rawgit.com/googlemaps/v3-utility-library/master/infobubble/src/infobubble.js"></script>
+    }
+
+    @if (ViewBag.IsContactOrGroup != null && ViewBag.IsContactOrGroup)
+    {
+        <link rel="stylesheet" href="public/css/perfect-scrollbar.min.css">
+    }
+
+    <!-- Facebook Pixel Code -->
+    <script>
+        !function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+        n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
+        n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
+        t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
+        document,'script','https://connect.facebook.net/en_US/fbevents.js');
+
+        fbq('init', '1022033611214950');
+        fbq('track', "PageView");
+    </script>
+    <noscript>
+        <img height="1" width="1" style="display:none"
+                src="https://www.facebook.com/tr?id=1022033611214950&ev=PageView&noscript=1" />
+    </noscript>
+    <!-- End Facebook Pixel Code -->
+
+</head>
+<body>
+
+    <!-- Google Tag Manager -->
+    <noscript>
+        <iframe src="//www.googletagmanager.com/ns.html?id=GTM-MQJK52"
+                height="0" width="0" style="display:none;visibility:hidden"></iframe>
+    </noscript>
+    <script>
+        (function (w, d, s, l, i) {
+            w[l] = w[l] || []; w[l].push({
+                'gtm.start':
+                new Date().getTime(), event: 'gtm.js'
+            }); var f = d.getElementsByTagName(s)[0],
+            j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+            '//www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-MQJK52');
+    </script>
+    <!-- End Google Tag Manager -->
+
+    @if (ViewBag.IsProductDetail != null && ViewBag.IsProductDetail)
+    {
+        <script>
+        window.fbAsyncInit = function () {
+
+            FB.init({
+                appId: '920816514633086',
+                xfbml: true,
+                version: 'v2.5'
+            });
+        };
+
+
+        (function (d, s, id) {
+            var js, fjs = d.getElementsByTagName(s)[0];
+
+            if (d.getElementById(id)) { return; }
+
+            js = d.createElement(s); js.id = id;
+            js.src = "//connect.facebook.net/en_US/sdk.js";
+            fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));
+
+
+    </script>
+    }
+
+    <div id="slideout_overlay"></div>
+    @{
+        Html.RenderAction("RenderHeader", "Header");
+    }
+
+    <div id="divMainBody">
+        @RenderBody()
+    </div>
+
+    @Html.Partial("~/Views/Partials/_FooterPartial.cshtml")
+
+    @if (@ViewBag.Scripts != null)
+    {
+        foreach (var aScript in @ViewBag.Scripts)
+        {
+            if (aScript.StartsWith("../"))
+            {
+                <script src='public/js/@aScript.Replace("../","")'></script>
+            }
+            else
+            {
+                <script src="public/js/pages/@aScript"></script>
+            }
+        }
+    }
+</body>
+</html>

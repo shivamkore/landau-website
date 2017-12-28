@@ -1,0 +1,135 @@
+﻿@using ZtherApiIntegration.Models.Review
+@using ZtherApiIntegration.Common
+@model ReviewItemModel
+
+<div id="review_page">
+    <div class="top">
+        <div class="header">Write a Review</div>
+        <div class="product">
+            <img srcset="@Model.ProductImage">
+            <div class="content">
+                <div class="product_name">@Model.ProductName</div>
+                <div class="number">@Model.ProductCode</div>
+                <div class="body">@Html.Raw(Model.ProductDescription)</div> 
+            </div>
+        </div>
+    </div>
+    <div class="form_container">
+        @using (Html.BeginForm(null, null, FormMethod.Post, new { @action = this.Request.Url.AbsoluteUri }))
+        {
+            @Html.ValidationSummary(true)
+            @Html.HiddenFor(ReviewItemModel => ReviewItemModel.ProductCode, new { id = "hiddenProductCode" })
+
+            <div class="section">
+                <div class="inner_section">
+                    <div class="header">Tell Us What You Think</div>
+                    <div class="star_container">
+                        <label>Overall Rating</label>
+                        
+                        @Html.Partial("~/Views/Partials/Detail/_RatingStarsPartial.cshtml", 5)
+                        
+                        <div class="rating_title">Excellent</div>
+                        <div class="validation-text">Input invalid. Insert validation text here.</div>
+                        <select class="hidden" name="star_rating">
+                            <option value="3"></option>
+                            <option value="1"></option>
+                            <option value="2"></option>
+                            <option value="4"></option>
+                            <option value="5"></option>
+                        </select>
+
+                        @Html.HiddenFor(ReviewItemModel => ReviewItemModel.Rating, new { id = "hiddenRating" })
+                    </div>
+                    <div class="title_container">
+                        <label>
+                            Title/Subject
+                            <span class="asterisk">*</span>
+                        </label>
+                        
+                        @Html.TextBoxFor(ReviewItemModel => ReviewItemModel.Title, new { type = "text", required = "required" })
+                        @Html.ValidationMessageFor(ReviewItemModel => ReviewItemModel.Title)
+
+                        <div class="validation-text">Input invalid. Insert validation text here.</div>
+                        <div class="detail">Please enter a title for your review</div>
+                    </div>
+                    <div class="review_container">
+                        <label>
+                            Review
+                            <span class="asterisk">*</span>
+                        </label>
+                        
+                        @Html.TextAreaFor(ReviewItemModel => ReviewItemModel.Comments, new { type = "text", required = "required" })
+                        @Html.ValidationMessageFor(ReviewItemModel => ReviewItemModel.Comments)
+
+                        <div class="validation-text">Input invalid. Insert validation text here.</div>
+                        <div class="required_field">
+                            <span class="asterisk">*</span>
+                            <span class="text">Required Fields</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="section">
+                <div class="inner_section">
+                    <div class="header">Personal Information</div>
+                    <div class="containers left">
+                        <label class="">
+                            Name
+                            <span class="asterisk">*</span>
+                        </label>
+
+                        @Html.TextBoxFor(ReviewItemModel => ReviewItemModel.CommentatorName, new { type = "text", required = "required" })
+                        @Html.ValidationMessageFor(ReviewItemModel => ReviewItemModel.CommentatorName)
+
+                        <div class="validation-text">Input invalid. Insert validation text here.</div>
+                    </div>
+                    <div class="containers right">
+                        <label class="">
+                            Location
+                            <span class="asterisk">*</span>
+                        </label>
+
+                        @Html.TextBoxFor(ReviewItemModel => ReviewItemModel.Location, new { type = "text", required = "required" })
+                        @Html.ValidationMessageFor(ReviewItemModel => ReviewItemModel.Location)
+
+                        <div class="validation-text">Input invalid. Insert validation text here.</div>
+                    </div>
+                    <div class="containers left">
+                        <label class="">
+                            Email Address
+                            <span class="asterisk">*</span>
+                        </label>
+
+                        @Html.TextBoxFor(ReviewItemModel => ReviewItemModel.Email, new { type = "email", required = "required" })
+                        @Html.ValidationMessageFor(ReviewItemModel => ReviewItemModel.Email)
+
+                        <div class="validation-text">Input invalid. Insert validation text here.</div>
+
+                    </div>
+                    <div class="containers right">
+                        <label class="">
+                            Confirm Email Address
+                            <span class="asterisk">*</span>
+                        </label>
+
+                        @Html.TextBoxFor(ReviewItemModel => ReviewItemModel.EmailConfirmation, new { type = "email", required = "required" })
+                        @Html.ValidationMessageFor(ReviewItemModel => ReviewItemModel.EmailConfirmation)
+
+                        <div class="validation-text">Input invalid. Insert validation text here.</div>
+
+                    </div>
+                    <div class="detail">Just in case we need to contact you. We respect your privacy.</div>
+                    <div class="submit_container">
+                        <input type="submit" value="SUBMIT REVIEW" />
+                        <div class="text">We respect your privacy. <a href="@UrlBuilder.BuildFullUrl(UrlEnum.PRIVACY_POLICY)">View our policy.</a></div>
+                    </div>
+                </div>
+            </div>
+        }
+    </div>
+</div>
+<script src="public/js/logic/review.js"></script>
+
+<script>
+    fbq('track', 'Lead');
+</script>

@@ -1,0 +1,399 @@
+﻿@using ZtherApiIntegration.Common
+@using System.Configuration
+
+<div id="homepage">
+    <div id="video_overlay"></div>
+    <div id="video_popup">
+        <!--  START NEW WISTIA CODE FOR VIDEO -->
+        <iframe src="http://fast.wistia.net/embed/iframe/0efbs1090f" id="wistia_video" allowtransparency="true" autoplay="true" frameborder="0" scrolling="no" class="wistia_embed" name="wistia_embed" allowfullscreen mozallowfullscreen webkitallowfullscreen oallowfullscreen msallowfullscreen width="100%" height="100%"></iframe>
+        <script src="http://fast.wistia.net/assets/external/E-v1.js" async></script>
+        <!--  START NEW WISTIA CODE FOR VIDEO -->
+    </div>
+    <div class="home_slider">
+        <div class="container">
+            <div class="flexslider">
+                <div class="content">
+                    <ul class="slides">
+                        <!-- begin Template SLiders Jay Murphy -->
+                        <li class="home-slider-0">
+                            <picture>
+                                <!--[if IE 9]><video style="display: none;"><![endif]-->
+                                <source srcset="public/images/home/slider/playscreen_mobile.jpg" media="(max-width: 767px)" style="width:100%">
+                                <source srcset="public/images/home/slider/playscreen_mobile.jpg" media="(max-width: 989px)" style="width:100%">
+                                <!--[if IE 9]></video><![endif]-->
+                                <img class="background" style="width:100%" srcset="public/images/home/slider/video_banner.jpg" alt="New Hues for U to Celebrate the Season" draggable="false">
+                            </picture>
+                        </li>
+
+@*   <li class="home-slider-2">
+<picture>
+<!--[if IE 9]><video style="display: none;"><![endif]-->
+<source srcset="public/images/home/slider/shoe_mobile.jpg" media="(max-width: 767px)" style="width:100%">
+<source srcset="public/images/home/slider/shoe_mobile.jpg" media="(max-width: 989px)" style="width:100%">
+<!--[if IE 9]></video><![endif]-->
+<img class="background" style="width:100%" srcset="public/images/home/slider/all-day.jpg" alt="They Won't Stop Until You Do" draggable="false">
+</picture>
+<div class="content">
+<a href="~/women/category/footwear" class="cta">
+<div class="cta">
+<img src="public/images/home/slider/all-day-cta.png" />
+</div>
+<div class="cta-mobile">
+<img src="~/public/images/home/slider/shoe-mobile-cta.png" />
+</div>
+</a>
+</div>
+</li>*@
+
+                        @*<li class="home-slider-2">
+                            <picture>
+                                <!--[if IE 9]><video style="display: none;"><![endif]-->
+                                <source srcset="public/images/home/slider/all-day-mobile.jpg" media="(max-width: 767px)" style="width:100%">
+                                <source srcset="public/images/home/slider/all-day-mobile.jpg" media="(max-width: 989px)" style="width:100%">
+                                <!--[if IE 9]></video><![endif]-->
+                                <img class="background" style="width:100%" srcset="public/images/home/slider/all-day.jpg" alt="Make Your Move" draggable="false">
+                            </picture>
+                            <div class="content">
+                                <a href="~/women/category/all-day" class="cta">
+                                    <div class="cta">
+                                        <img src="~/public/images/home/slider/all-day-cta.png" />
+                                        <div class="cta-mobile">
+                                            <img src="~/public/images/home/slider/all-day-mobile-cta.png" />
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </li>*@
+
+                        <li class="home-slider-3">
+                            <picture>
+                                <!--[if IE 9]><video style="display: none;"><![endif]-->
+                                <source srcset="public/images/home/slider/lynx_mobile.jpg" media="(max-width: 767px)" style="width:100%">
+                                <source srcset="public/images/home/slider/lynx_mobile.jpg" media="(max-width: 989px)" style="width:100%">
+                                <!--[if IE 9]></video><![endif]-->
+                                <img class="background" style="width:100%" srcset="public/images/home/slider/lynx.jpg" alt="Make Your Move" draggable="false">
+                            </picture>
+                            <div class="content">
+                                <a href="~/women/collection/lynx" class="cta">
+                                    <div class="cta">
+                                        <img src="~/public/images/home/slider/lynx-cta.png" />
+                                        <div class="cta-mobile">
+                                            <img src="~/public/images/home/slider/lynx-mobile-cta.png" />
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </li>
+
+@* <li class="home-slider-5">
+<picture>
+<!--[if IE 9]><video style="display: none;"><![endif]-->
+<source srcset="public/images/home/slider/socks_mobile.jpg" media="(max-width: 767px)" style="width:100%">
+<source srcset="public/images/home/slider/socks_mobile.jpg" media="(max-width: 989px)" style="width:100%">
+<!--[if IE 9]></video><![endif]-->
+<img class="background" style="width:100%" srcset="public/images/home/slider/socks.jpg" alt="These'll Knock You Off Your Feet" draggable="false">
+</picture>
+<div class="content">
+<a href="~/women/category/new-arrivals" class="cta">
+<div class="cta">
+<img src="~/public/images/home/slider/sock_cta.png" />
+<div class="cta-mobile">
+<img src="~/public/images/home/slider/mobile-socks-cta.png" />
+</div>
+</div>
+</a>
+</div>
+</li>*@
+
+                        @*<li class="home-slider-6">
+                            <picture>
+                                <!--[if IE 9]><video style="display: none;"><![endif]-->
+                                <source srcset="public/images/home/slider/socks_mobile.jpg" media="(max-width: 767px)" style="width:100%">
+                                <source srcset="public/images/home/slider/socks_mobile.jpg" media="(max-width: 989px)" style="width:100%">
+                                <!--[if IE 9]></video><![endif]-->
+                                <img class="background" style="width:100%" srcset="public/images/home/slider/socks.jpg" alt="These'll Knock You Off Your Feet" draggable="false">
+                            </picture>
+                            <div class="content">
+                                <a href="~/women/category/footwear" class="cta">
+                                    <img src="~/public/images/home/slider/sock_cta.png" />
+                                    <div class="cta-mobile">
+                                        <img src="~/public/images/home/slider/socks-mobile_cta.png" />
+                                    </div>
+                                </a>
+                            </div>
+                        </li>*@
+                        <li class="home-slider-7">
+                            <picture>
+                                <!--[if IE 9]><video style="display: none;"><![endif]-->
+                                <source srcset="public/images/home/slider/prewash_mobile.jpg" media="(max-width: 767px)" style="width:100%">
+                                <source srcset="public/images/home/slider/prewash_mobile.jpg" media="(max-width: 989px)" style="width:100%">
+                                <!--[if IE 9]></video><![endif]-->
+                                <img class="background" style="width:100%" srcset="public/images/home/slider/pre-wash.jpg" alt="New Hues for U to Celebrate the Season" draggable="false">
+                            </picture>
+                            <div class="content">
+                                <a href="~/women/category/pre-washed" >
+                                    <img src="~/public/images/home/slider/prewash_cta.png" />
+                                    <div class="cta-mobile">
+                                        <img src="~/public/images/home/slider/prewash_cta-mobile.png" />
+                                    </div>
+                                </a>
+                            </div>
+                        </li>
+                        <!-- end Template SLiders Jay Murphy -->
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="info_slider">
+        <div class="container">
+            <div class="flexslider">
+                <div class="content">
+                    <ul class="slides">
+                        <li>
+                            <div class="content">
+                                <img srcset="public/images/home/slider/desktop/blue_leaf.png" alt="All-Day Comfort" />
+                                <h1 class="top">Landau Scrubs</h1>
+                                <div class="body">Over the years, Landau’s commitment to its customers has been the same. To create the highest quality scrubs and medical apparel through the use of better fabric, better color, better design, better construction and better quality. When it comes down to it, we believe our attention to detail makes all the difference. It may sound obsessive, but it’s just how we’ve been making Landau scrubs and clothing for medical professionals for generations.</div>
+                                <a href="@UrlBuilder.BuildFullUrl(UrlEnum.ABOUT)">
+                                    <div class="cta">Learn More <span class="arrow">&#xe805;</span></div>
+                                </a>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="content">
+                                <img srcset="public/images/home/slider/desktop/blue_leaf.png" alt="All-Day Comfort" />
+                                <h2 class="top">Landau Scrubs</h2>
+                                <div class="body">Landau offers a wide array of scrub tops and bottoms in a variety of styles and colors to fit your needs from our Lynx stretch fit technology (VersaTec) to our traditional poplin scrubs. But it doesn’t stop there; Landau is also known for its wide range of lab coats for men and women, as well as men and women’s scrub tops, pants, jackets and student uniforms. Not to mention accessories such as women’s and unisex shoes as well as being a proud distributor of ADC Instrument products.</div>
+                                <a href="@UrlBuilder.BuildFullUrl(UrlEnum.ABOUT)">
+                                    <div class="cta">Learn More <span class="arrow">&#xe805;</span></div>
+                                </a>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="content">
+                                <img srcset="public/images/home/slider/desktop/blue_leaf.png" alt="All-Day Comfort" />
+                                <h2 class="top">Landau Scrubs</h2>
+                                <div class="body">The brands you know and love have all been a part of the Landau scrubs family of brands including ScrubZone, WorkFlow and Smart Stretch. As well as some you may not be aware of including Urbane Scrubs, Urbane Ultimate, Urbane Performance and Smitten Scrubs. Whether you’re an RN, LPN or an MD, Landau has something for you. When it says Landau on the label, you know that it is simply made better.</div>
+                                <a href="@UrlBuilder.BuildFullUrl(UrlEnum.ABOUT)">
+                                    <div class="cta">Learn More <span class="arrow">&#xe805;</span></div>
+                                </a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="categories">
+        <div class="container">
+            <div class="inner_blocks">
+                <div class="block1_2">
+                    <a href="@UrlBuilder.BuildCategoryUrl("women", "tops")">
+                        <div class="block1 block">
+                            <div class="overlay_img"></div>
+                            <div class="content">
+                                <h3>
+                                    <span class="top">FIRST-CLASS</span>
+                                    <span class="bot">Tops</span>
+                                    <span class="detail">The perfect combination of comfort and style</span>
+                                </h3>
+                                <div class="cta">VIEW MORE<span class="arrow">&#xe805;</span></div>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="@UrlBuilder.BuildCategoryUrl("women", "pants")">
+                        <div class="block2 block">
+                            <div class="overlay_img"></div>
+                            <div class="content">
+                                <h3>
+                                    <span class="bot">Pants</span>
+                                    <span class="top">You'll Love</span>
+                                    <span class="detail">Classic, Modern, and Natural Fits</span>
+                                </h3>
+                                <div class="cta">View More <span class="arrow">&#xe805;</span></div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="block3_4">
+                    <a href="@UrlBuilder.BuildCategoryUrl("women", "lab-coats")">
+                        <div class="block3 block">
+                            <div class="overlay_img"></div>
+                            <div class="content">
+                                <h3>
+                                    <span class="bot">Lab Coats</span>
+                                    <span class="detail">Stylish functionality</span>
+                                </h3>
+                                <div class="cta">
+                                    <div>Product Details <span class="arrow">&#xe805;</span></div>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="@UrlBuilder.BuildCategoryUrl("women", "jackets")">
+                        <div class="block4 block">
+                            <div class="overlay_img"></div>
+                            <div class="content">
+                                <h3>
+                                    <span class="bot">Jackets</span>
+                                    <span class="detail">Warm up your <div class="space"> wardrobe in style </div></span>
+                                </h3>
+                                <div class="cta">
+                                    <div>Product Details <span class="arrow">&#xe805;</span></div>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+
+            <div class="video_container">
+                <div class="block">
+                    <div class="overlay_img"></div>
+                    <div class="content">
+                        @*<h3>
+                                <span class="top">Made to Move</span>
+                                <span class="detail">Lynx with VersaTec<sup>TM</sup> Fit Technology</span>
+                                <img class="logo" srcset="public/images/home/category/lynx_logo.png" />
+                            </h3>
+                            <div class="play_btn">
+                                <div class="play" alt=""></div>
+                            </div>*@
+                    </div>
+                </div>
+            </div>
+
+            <div class="block5_6">
+                <div class="inner_blocks">
+                    <a href="@UrlBuilder.BuildCategoryUrl("women","adc-instruments")">
+                        <div class="block5 block">
+                            <div class="overlay_img"></div>
+                            <div class="content">
+                                <h3>
+                                    <span class="bot">ADC INSTRUMENTS</span>
+                                    <span class="detail">Premier Healthcare Instruments</span>
+                                </h3>
+                                <div class="cta">Shop Now <span class="arrow">&#xe805;</span></div>
+                            </div>
+                        </div>
+                    </a>
+                    <!-- .block 5 -->
+                    <a href="@UrlBuilder.BuildCategoryUrl("women", "footwear")">
+                        <div class="block6 block">
+                            <div class="overlay_img"></div>
+                            <div class="content">
+                                <h3>
+                                    <span class="bot">Footwear</span>
+                                    @*<span class="top">For you</span>*@
+                                    <span class="detail">A step in the right direction</span>
+                                </h3>
+                                <div class="cta">Click for details<span class="arrow">&#xe805;</span></div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+
+            <div class="new_arrivals">
+                <a href="~/collections">
+                    <div class="block">
+                        <div class="overlay_img"></div>
+                        <div class="content">
+                            <h3>
+                                <span class="img">
+                                    <picture>
+                                        <img srcset="public/images/home/category/new_arrivals.png 1x" alt="New Arrivals" />
+                                    </picture>
+                                </span>
+                                <span class="bot">Arrivals</span>
+                                <span class="top">All Day by Landau</span>
+                                <span class="detail">Superior stretch fabric provides <div> non-stop performance and comfort.</div></span>
+                                <span class="detail-mobile">Superior stretch fabric <div>provides non-stop</div> performance and comfort.</span>
+                            </h3>
+                            <div class="cta">
+                                <div>See them all<span class="arrow">&#xe805;</span></div>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+
+        </div>
+    </div>
+    <!-- .categories -->
+    <div class="stay_connected">
+        <div class="container">
+            <div class="content">
+                <h3>
+                    <span class="top">Stay Connected</span>
+                    <span class="bot">
+                        <span class="at">@@</span>landauuniforms
+                    </span>
+                </h3>
+                <div class="social blocks">
+                    <div class="block1 block">
+                        <a href="https://www.facebook.com/landauuniforms" target="_blank">
+                            <img srcset="public/images/home/category/facebook.png" alt="Landau on Facebook" title="Landau on Facebook" width="125px" />
+                        </a>
+                    </div>
+                    <div class="block2 block">
+                        <a href="https://www.instagram.com/landauuniforms" target="_blank">
+                            <img srcset="public/images/home/category/instagram.png" alt="Landau on Twitter" title="Landau on Twitter" width="125px" />
+                        </a>
+                    </div>
+                    <div class="block3 block">
+                        <a href="https://www.pinterest.com/landauuniforms/" target="_blank">
+                            <img srcset="public/images/home/category/pinterest.png" alt="Landau on Pinterest" title="Landau on Pinterest" width="125px" />
+                        </a>
+                    </div>
+                    <div class="block4 block">
+                        <a href="https://twitter.com/landauuniforms">
+                            <img srcset="public/images/home/category/logo_twitter.gif" alt="Landau on Twitter" title="Landau on Twitter" width="125px" />
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="location_catalog">
+        <div class="location">
+            <div class="content">
+                <div class="icon">
+                    <img srcset="public/images/home/location_catalog/icon_mapmarker.svg" alt="" />
+                </div>
+                <h3>Where To Buy</h3>
+                <div class="text">
+                    <p>Find an authorized Landau retail location near you.</p>
+                </div>
+                <div class="input">
+                    @using (Html.BeginForm(null, null, FormMethod.Post, new { @action = this.Request.Url.AbsoluteUri, id = "zipcode" }))
+                    {
+                        @Html.TextBox("zipCode", "", new { placeholder = "Your Zip Code", @class = "text", type = "text", required = "required" })
+
+                        <input type="submit" value="Find" class="submit" onclick="window.location='/where-to-buy'">
+                    }
+                </div>
+                <div id="zip-validation" class="validation-text">Please enter a valid zipcode</div>
+            </div>
+        </div>
+        <div class="catalog">
+            <div class="content">
+                <h3>
+                    Check Out
+                    <br />Our New Catalog
+                </h3>
+                <div class="text">
+                    <p>Find what you're looking for in the latest Landau catalog.</p>
+                </div>
+                <div class="buttons">
+                    <a href="@ConfigurationManager.AppSettings["mobile-catalog"].ToString()" target="_blank" class="download">Download PDF</a>
+                    <a href="@ConfigurationManager.AppSettings["desktop-catalog"].ToString()" target="_blank" class="view">View Online</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="~/public/js/modernizr.js"></script>
+<script src="~/public/js/jquery-picture-min.js"></script>
