@@ -22,7 +22,7 @@
     <link type="text/css" rel="stylesheet" href="http://fast.fonts.net/cssapi/b673da3c-c126-4aa2-a91f-4e32bafc223e.css" />
 
     <script src="public/js/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+
     <script>
         // Picture element HTML5 shiv
         document.createElement("picture");
@@ -31,7 +31,6 @@
     <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <style> #main_header #utility .nav_search .nav ul li a.num .num-circle{ line-height: 19px !important; }</style>
     <![endif]-->
-    <script src="public/js/top_scripts.js"></script>
 
     @if (ViewBag.HasGoogleMaps != null && ViewBag.HasGoogleMaps)
     {
@@ -49,7 +48,7 @@
         !function (f, b, e, v, n, t, s) {
             if (f.fbq) return; n = f.fbq = function () {
                 n.callMethod ?
-                n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+                    n.callMethod.apply(n, arguments) : n.queue.push(arguments)
             }; if (!f._fbq) f._fbq = n;
             n.push = n; n.loaded = !0; n.version = '2.0'; n.queue = []; t = b.createElement(e); t.async = !0;
             t.src = v; s = b.getElementsByTagName(e)[0]; s.parentNode.insertBefore(t, s)
@@ -79,8 +78,8 @@
                 'gtm.start':
                 new Date().getTime(), event: 'gtm.js'
             }); var f = d.getElementsByTagName(s)[0],
-            j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
-            '//www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+                j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+                    '//www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
         })(window, document, 'script', 'dataLayer', 'GTM-MQJK52');
     </script>
     <!-- End Google Tag Manager -->
@@ -88,28 +87,28 @@
     @if (ViewBag.IsProductDetail != null && ViewBag.IsProductDetail)
     {
         <script>
-        window.fbAsyncInit = function () {
+            window.fbAsyncInit = function () {
 
-            FB.init({
-                appId: '920816514633086',
-                xfbml: true,
-                version: 'v2.5'
-            });
-        };
-
-
-        (function (d, s, id) {
-            var js, fjs = d.getElementsByTagName(s)[0];
-
-            if (d.getElementById(id)) { return; }
-
-            js = d.createElement(s); js.id = id;
-            js.src = "//connect.facebook.net/en_US/sdk.js";
-            fjs.parentNode.insertBefore(js, fjs);
-        }(document, 'script', 'facebook-jssdk'));
+                FB.init({
+                    appId: '920816514633086',
+                    xfbml: true,
+                    version: 'v2.5'
+                });
+            };
 
 
-    </script>
+            (function (d, s, id) {
+                var js, fjs = d.getElementsByTagName(s)[0];
+
+                if (d.getElementById(id)) { return; }
+
+                js = d.createElement(s); js.id = id;
+                js.src = "//connect.facebook.net/en_US/sdk.js";
+                fjs.parentNode.insertBefore(js, fjs);
+            }(document, 'script', 'facebook-jssdk'));
+
+
+        </script>
     }
 
     <div id="slideout_overlay"></div>
@@ -122,6 +121,19 @@
     </div>
 
     @Html.Partial("~/Views/Partials/_FooterPartial.cshtml")
+
+    <script src="~/public/js/jquery-picture-min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <script src="~/public/js/modernizr.js"></script>
+
+    <script src="public/js/top_scripts.js"></script>
+    <script src="public/js/logic/header.js"></script>
+    <script src="public/js/bottom_scripts.js"></script>
+
+    <script type="text/javascript">
+        // IE9 support for placeholder text in input fields
+        $('input, textarea').placeholder();
+    </script>
 
     @if (@ViewBag.Scripts != null)
     {
@@ -137,5 +149,8 @@
             }
         }
     }
+
+
+
 </body>
 </html>

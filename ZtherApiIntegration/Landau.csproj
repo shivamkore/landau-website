@@ -478,6 +478,15 @@
     <Content Include="public\images\home\category\adc_bg_mobile.jpg" />
     <Content Include="public\images\home\category\adc_bg_mobile_lg.jpg" />
     <Content Include="public\images\home\category\adc_bg_tablet.jpg" />
+    <Content Include="public\images\home\category\facebook.jpg" />
+    <Content Include="public\images\home\category\facebook.png" />
+    <Content Include="public\images\home\category\facebook_logo.png" />
+    <Content Include="public\images\home\category\instagram.png" />
+    <Content Include="public\images\home\category\instagram_logo.png" />
+    <Content Include="public\images\home\category\logo_twitter.gif" />
+    <Content Include="public\images\home\category\pinterest.png" />
+    <Content Include="public\images\home\category\pinterest_logo.png" />
+    <Content Include="public\images\home\category\twitter_logo.gif" />
     <Content Include="public\images\home\location_catalog\landau_catalog.png" />
     <Content Include="public\images\loyalty\btn-one.png" />
     <Content Include="public\images\loyalty\btn-two.png" />
