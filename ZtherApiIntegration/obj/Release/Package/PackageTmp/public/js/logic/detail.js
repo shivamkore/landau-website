@@ -73,7 +73,7 @@ $(function () {
 function refreshWidgetUrl(color, swatchType) {
 
     var product = $('.sku').text().trim();
-    var urlWidget = $('iframe').attr('src');
+    var urlWidget = $('#where-to-buy-dialog').attr('src');
 
     var param = product;
 
@@ -83,8 +83,8 @@ function refreshWidgetUrl(color, swatchType) {
     
     var url = urlWidget.substr(0, urlWidget.indexOf('?'));
     var newSrc = (url + "?modelname=" + param).trim().toLowerCase();
-
-    $('iframe').attr('src', newSrc);
+    
+    $('#where-to-buy-dialog').attr('src', newSrc);
 }
 
 function addHandlerForSizes() {
