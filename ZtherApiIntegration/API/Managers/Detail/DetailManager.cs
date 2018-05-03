@@ -1,13 +1,10 @@
 ﻿using System;
-using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
-using System.Web;
-using ZtherApiIntegration.API;
-using ZtherApiIntegration.Models.Detail;
 using ZtherApiIntegration.API.Managers.Review;
-using ZtherApiIntegration.Models;
 using ZtherApiIntegration.API.Managers.WhereToBuy;
+using ZtherApiIntegration.Models;
+using ZtherApiIntegration.Models.Detail;
 
 
 namespace ZtherApiIntegration.API.Managers.Detail
@@ -62,7 +59,7 @@ namespace ZtherApiIntegration.API.Managers.Detail
         {
             var prod = client.Products.GetByProduct(code);
 
-            var detail = new ProductDetailModel(prod.ProductCode, prod.ProductName, prod.ProductDescription, prod.Image != null ? prod.Image.CatalogImageUri : null, prod.Image != null ? prod.Image.ColorCode : null, prod.Breadcrumb != null ? prod.Breadcrumb.Gender : null, prod.Breadcrumb != null && prod.Breadcrumb.Category != null ? prod.Breadcrumb.Collection : null, prod.Breadcrumb != null ? prod.Breadcrumb.Category : null, prod.Seo.PageTitle, prod.Seo.MetaDescription);
+            var detail = new ProductDetailModel(prod.ProductCode, prod.ProductName, prod.ProductDescription, prod.Image != null ? prod.Image.CatalogImageUri : null, prod.Image != null ? prod.Image.ColorCode : null, prod.Breadcrumb != null ? prod.Breadcrumb.Gender : null, prod.Breadcrumb != null && prod.Breadcrumb.Category != null ? prod.Breadcrumb.Collection : null, prod.Breadcrumb != null ? prod.Breadcrumb.Category : null, prod.Seo.PageTitle, prod.Seo.MetaDescription, prod.FitRiseWaist);
 
             return detail;
         }

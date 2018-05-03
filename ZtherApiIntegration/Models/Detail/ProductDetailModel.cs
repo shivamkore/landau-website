@@ -1,7 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Web;
 using ZtherApiIntegration.Common;
 
 namespace ZtherApiIntegration.Models.Detail
@@ -17,6 +14,7 @@ namespace ZtherApiIntegration.Models.Detail
         public String DefaultColorCode { get; set; }
         public String DefaultCategorySize { get; set; }
         public SeoModel Seo { get; set; }
+        public String FitRiseWaist { get; set; }
 
         private String _image;
         public String Image
@@ -33,7 +31,7 @@ namespace ZtherApiIntegration.Models.Detail
             }
         }
 
-        public ProductDetailModel(String code, String name, String description, String image, String defaultColorCode, String defaultGender, String defaultCollection, String defaultCategory, String seoPageTitle, String seoDescription)
+        public ProductDetailModel(String code, String name, String description, String image, String defaultColorCode, String defaultGender, String defaultCollection, String defaultCategory, String seoPageTitle, String seoDescription, String fitRiseWaist)
         {
             this.Code = code;
             this.Name = name;
@@ -44,6 +42,7 @@ namespace ZtherApiIntegration.Models.Detail
             this.DefaultCollection = defaultCollection;
             this.DefaultGender = defaultGender;
             this.Seo = new SeoModel() { PageDescription = seoDescription, PageTitle = seoPageTitle };
+            this.FitRiseWaist = fitRiseWaist;
         }
     }
 }
