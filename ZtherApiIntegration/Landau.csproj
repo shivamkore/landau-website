@@ -501,6 +501,8 @@
     <Content Include="public\images\loyalty\btn-login.png" />
     <Content Include="public\images\loyalty\btn-prize.png" />
     <Content Include="public\images\promotions\sales_flyer.jpg" />
+    <Content Include="public\images\promotions\scholarship_2018.jpg" />
+    <Content Include="public\images\promotions\scholarship_2018_mobile.jpg" />
     <Content Include="public\images\promotions\scholarship_desktop.jpg" />
     <Content Include="public\images\promotions\scholarship_mobile1.jpg" />
     <Content Include="public\images\videos\16-LAND-0145_SP17_FOB_Stripes_DVD.mpg" />
