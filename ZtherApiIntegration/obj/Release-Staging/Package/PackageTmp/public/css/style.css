@@ -16766,8 +16766,21 @@ textarea {
         cursor: pointer
     }
 
+    #promotions_page .promo2 {
+        height: 768px;
+        background-position: 10%;
+        background-repeat: no-repeat;
+        cursor: pointer
+    }
+
 @media screen and (max-width:989px) {
     #promotions_page .promo {
+        height: inherit;
+        background-size: cover;
+        padding-top: 91.5%
+    }
+
+    #promotions_page .promo2 {
         height: inherit;
         background-size: cover;
         padding-top: 91.5%
@@ -16788,6 +16801,18 @@ textarea {
     }
 
     #promotions_page .promo .content .cta-promo {
+        position: relative;
+        display: inline-block;
+        border: 1px solid;
+        margin-top: 26px;
+        line-height: 37px;
+        padding: 0 39px 0 24px;
+        -webkit-transition: background-color .25s ease,color .25s ease,border-color .25s ease;
+        transition: background-color .25s ease,color .25s ease,border-color .25s ease
+    }
+
+
+    #promotions_page .promo2 .content .cta-promo2 {
         position: relative;
         display: inline-block;
         border: 1px solid;
@@ -16822,7 +16847,8 @@ textarea {
     text-decoration: none
 }
 
-#promotions_page .promo .content .cta-promo .cta-text {
+#promotions_page .promo .content .cta-promo .cta-text,
+#promotions_page .promo2 .content .cta-promo2 .cta-text {
     text-transform: uppercase;
     font-family: Proxima N W01 Bold;
     letter-spacing: .02em;
@@ -16843,7 +16869,8 @@ textarea {
     }
 }
 
-#promotions_page .promo .content .cta-promo .cta-arrow {
+#promotions_page .promo .content .cta-promo .cta-arrow,
+#promotions_page .promo2 .content .cta-promo2 .cta-arrow {
     position: absolute;
     font-family: fontello;
     font-size: 19px;
@@ -16864,15 +16891,32 @@ textarea {
     }
 }
 
+#promotions_page #promo2 {
+    position: relative;
+    background-image: url(~/public/images/promotions/scholarship_2018.jpg)
+}
+
 #promotions_page #promo1 {
+    position: relative;
     background-color: #91cad7;
     background-image: url(~/public/images/promotions/promo1_desktop.jpg)
 }
 
 @media screen and (max-width:989px) {
+    #promotions_page #promo2 {
+        background-image: url(~/public/images/promotions/scholarship_2018_mobile.jpg)
+    }
+
     #promotions_page #promo1 {
         background-image: url(~/public/images/promotions/promo1_mobile.jpg)
     }
+}
+
+#promotions_page #promo2 .content {
+    position: absolute;
+    top: 500px;
+    left: 100px;
+    width: 411px
 }
 
 #promotions_page #promo1 .content {
@@ -16887,6 +16931,11 @@ textarea {
         left: 41%;
         width: 40%
     }
+
+    #promotions_page #promo2 .content {
+        top: 100px;
+        left: 600px;
+    }
 }
 
 @media screen and (max-width:767px) {
@@ -16894,6 +16943,26 @@ textarea {
         top: 23%;
         left: 44%;
         width: 47%
+    }
+
+    #promotions_page #promo2 .content {
+        top: 60px;
+        left: 400px;
+    }
+}
+
+@media screen and (max-width:560px) {
+    #promotions_page #promo2 .content {
+        top: 20px;
+        left: 320px;
+    }
+}
+
+
+@media screen and (max-width:420px) {
+    #promotions_page #promo2 .content {
+        top: 10px;
+        left: 220px;
     }
 }
 
@@ -16933,6 +17002,20 @@ textarea {
         margin-top: 5.3%
     }
 }
+
+#promotions_page #promo2 .content .cta-promo2 {
+    background-color: #00529C;
+    border-color: #00529C;
+}
+
+    #promotions_page #promo2 .content .cta-promo2 .cta-text,
+    #promotions_page #promo2 .content .cta-promo2 .cta-arrow {
+        color: #FFF;
+    }
+
+    #promotions_page #promo2 .content .cta-promo2:hover {
+        text-decoration: none;
+    }
 
 #promotions_page #promo1 .content .cta-promo {
     border-color: #04295d

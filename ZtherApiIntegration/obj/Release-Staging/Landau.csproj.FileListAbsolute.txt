@@ -202,7 +202,6 @@ C:\Projects\Github\Landau\landau-web\ZtherApiIntegration\bin\System.Web.WebPages
 C:\Projects\Github\Landau\landau-web\ZtherApiIntegration\bin\Antlr3.Runtime.pdb
 C:\Projects\Github\Landau\landau-web\ZtherApiIntegration\bin\Newtonsoft.Json.xml
 C:\Projects\Github\Landau\landau-web\ZtherApiIntegration\obj\Release-Staging\Landau.csproj.App.config
-C:\Projects\Github\Landau\landau-web\ZtherApiIntegration\obj\Release-Staging\Landau.csprojResolveAssemblyReference.cache
 C:\Projects\Github\Landau\landau-web\ZtherApiIntegration\obj\Release-Staging\ZtherApiIntegration.dll
 C:\Projects\Github\Landau\landau-web\ZtherApiIntegration\obj\Release-Staging\ZtherApiIntegration.pdb
 C:\Projects\Github\Landau\landau-web\ZtherApiIntegration\bin\BVSeoSdkDotNet.dll
@@ -211,3 +210,4 @@ C:\Projects\Github\Landau\landau-web\ZtherApiIntegration\bin\log4net.dll
 C:\Projects\Github\Landau\landau-web\ZtherApiIntegration\bin\NVelocity.dll
 C:\Projects\Github\Landau\landau-web\ZtherApiIntegration\bin\BVSeoSdkDotNet.pdb
 C:\Projects\Github\Landau\landau-web\ZtherApiIntegration\obj\Release-Staging\Landau.csproj.CoreCompileInputs.cache
+C:\Projects\Github\Landau\landau-web\ZtherApiIntegration\obj\Release-Staging\Landau.csproj.CopyComplete
