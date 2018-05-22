@@ -16897,7 +16897,7 @@ textarea {
 }
 
 #promotions_page #promo1 {
-    position: relative;
+    position: relative; 
     background-color: #91cad7;
     background-image: url(~/public/images/promotions/promo1_desktop.jpg)
 }

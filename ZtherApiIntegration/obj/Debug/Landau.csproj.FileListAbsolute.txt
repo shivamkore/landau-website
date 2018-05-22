@@ -491,7 +491,6 @@ C:\Projects\Github\Landau\landau-web\ZtherApiIntegration\obj\Debug\ZtherApiInteg
 C:\Projects\Github\Landau\landau-web\ZtherApiIntegration\obj\Debug\Landau.csproj.CopyComplete
 C:\Projects\Github\Landau\landau-web\ZtherApiIntegration\obj\Debug\Landau.csprojAssemblyReference.cache
 C:\Projects\GitHub\Landau\ZtherApiIntegration\obj\Debug\Landau.csproj.App.config
-C:\Projects\GitHub\Landau\ZtherApiIntegration\obj\Debug\Landau.csprojAssemblyReference.cache
 C:\Projects\GitHub\Landau\ZtherApiIntegration\obj\Debug\Landau.csproj.CoreCompileInputs.cache
 C:\Projects\GitHub\Landau\ZtherApiIntegration\obj\Debug\ZtherApiIntegration.dll
 C:\Projects\GitHub\Landau\ZtherApiIntegration\obj\Debug\ZtherApiIntegration.pdb
@@ -552,3 +551,4 @@ C:\Projects\GitHub\Landau\ZtherApiIntegration\bin\System.Web.WebPages.Razor.xml
 C:\Projects\GitHub\Landau\ZtherApiIntegration\bin\Antlr3.Runtime.pdb
 C:\Projects\GitHub\Landau\ZtherApiIntegration\bin\Newtonsoft.Json.xml
 C:\Projects\GitHub\Landau\ZtherApiIntegration\obj\Debug\Landau.csproj.CopyComplete
+C:\Projects\GitHub\Landau\ZtherApiIntegration\obj\Debug\Landau.csprojAssemblyReference.cache

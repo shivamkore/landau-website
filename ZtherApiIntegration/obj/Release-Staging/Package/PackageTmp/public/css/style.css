@@ -16893,11 +16893,11 @@ textarea {
 
 #promotions_page #promo2 {
     position: relative;
-    background-image: url(~/public/images/promotions/scholarship_2018.jpg)
+    background-image: url(~/public/images/promotions/scholarship1_2018.jpg)
 }
 
 #promotions_page #promo1 {
-    position: relative;
+    position: relative; 
     background-color: #91cad7;
     background-image: url(~/public/images/promotions/promo1_desktop.jpg)
 }
