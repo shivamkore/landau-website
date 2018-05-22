@@ -55,13 +55,13 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="BVSeoSdkDotNet">
-      <HintPath>..\..\..\Libraries\BazaarVoice\dotnet_v3.2.0\BVSeoSdkDotNet.dll</HintPath>
+      <HintPath>..\..\Libraries\BazaarVoice\dotnet_v3.2.0\BVSeoSdkDotNet.dll</HintPath>
     </Reference>
     <Reference Include="Commons">
-      <HintPath>..\..\..\Libraries\BazaarVoice\dotnet_v3.2.0\Commons.dll</HintPath>
+      <HintPath>..\..\Libraries\BazaarVoice\dotnet_v3.2.0\Commons.dll</HintPath>
     </Reference>
     <Reference Include="log4net">
-      <HintPath>..\..\..\Libraries\BazaarVoice\dotnet_v3.2.0\log4net.dll</HintPath>
+      <HintPath>..\..\Libraries\BazaarVoice\dotnet_v3.2.0\log4net.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.AI.Agent.Intercept, Version=1.2.1.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
       <HintPath>..\packages\Microsoft.ApplicationInsights.Agent.Intercept.1.2.1\lib\net45\Microsoft.AI.Agent.Intercept.dll</HintPath>
@@ -105,7 +105,7 @@
       <HintPath>..\packages\WindowsAzure.MobileServices.2.0.0-beta\lib\net45\Microsoft.WindowsAzure.Mobile.Ext.dll</HintPath>
     </Reference>
     <Reference Include="NVelocity">
-      <HintPath>..\..\..\Libraries\BazaarVoice\dotnet_v3.2.0\NVelocity.dll</HintPath>
+      <HintPath>..\..\Libraries\BazaarVoice\dotnet_v3.2.0\NVelocity.dll</HintPath>
     </Reference>
     <Reference Include="Recaptcha.Web, Version=2.1.0.0, Culture=neutral, PublicKeyToken=171a6ec5fa4b1644, processorArchitecture=MSIL">
       <HintPath>..\packages\RecaptchaNet.2.1.0\lib\net45\Recaptcha.Web.dll</HintPath>
@@ -501,6 +501,7 @@
     <Content Include="public\images\loyalty\btn-login.png" />
     <Content Include="public\images\loyalty\btn-prize.png" />
     <Content Include="public\images\promotions\sales_flyer.jpg" />
+    <Content Include="public\images\promotions\scholarship1_2018.jpg" />
     <Content Include="public\images\promotions\scholarship_2018.jpg" />
     <Content Include="public\images\promotions\scholarship_2018_mobile.jpg" />
     <Content Include="public\images\promotions\scholarship_desktop.jpg" />
