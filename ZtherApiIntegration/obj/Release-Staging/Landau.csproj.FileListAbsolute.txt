@@ -272,3 +272,4 @@ C:\Projects\GitHub\Landau\ZtherApiIntegration\obj\Release-Staging\Landau.csproj.
 C:\Projects\GitHub\Landau\ZtherApiIntegration\obj\Release-Staging\Landau.csproj.CopyComplete
 C:\Projects\GitHub\Landau\ZtherApiIntegration\obj\Release-Staging\ZtherApiIntegration.dll
 C:\Projects\GitHub\Landau\ZtherApiIntegration\obj\Release-Staging\ZtherApiIntegration.pdb
+C:\Projects\GitHub\Landau\ZtherApiIntegration\obj\Release-Staging\Landau.csprojAssemblyReference.cache
