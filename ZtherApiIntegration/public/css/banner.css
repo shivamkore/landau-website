@@ -675,8 +675,8 @@
     position: absolute;
     width: 15vw;
     height: 200px;
-    top: 18vw;
-    left: 59.5vw
+    top: 20vw;
+    left: 73vw
 }
 
 @media screen and (max-width:1270px) {
@@ -688,8 +688,8 @@
         position: absolute;
         width: 15vw;
         height: 200px;
-        top: 18vw;
-        left: 59.5v
+        top: 20vw;
+        left: 73vw
     }
 
         #homepage .home_slider .flexslider ul.slides li.home-slider-3 .content h2 {
@@ -896,13 +896,14 @@
 
 @media screen and (max-width:989px) {
     #homepage .home_slider .flexslider ul.slides li.home-slider-3 .content .cta {
-        margin-top: 9px;
+        margin-top: -1vw;
+        margin-left: 3vw;
     }
 }
 
 @media screen and (max-width:767px) {
     #homepage .home_slider .flexslider ul.slides li.home-slider-3 .content .cta {
-        margin-top: 2.5%
+        margin-top: -2.5%
     }
 }
 

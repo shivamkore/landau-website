@@ -1,7 +1,7 @@
 @font-face {
     font-family: fontello;
-    src: url(~/public/fonts/fontello.eot?);
-    src: url(~/public/fonts/fontello.eot?) format("embedded-opentype"),url(~/public/fonts/fontello.woff) format("woff"),url(~/public/fonts/fontello.ttf) format("truetype"),url(~/public/fonts/fontello.svg) format("svg");
+    src: url(/public/fonts/fontello.eot?);
+    src: url(/public/fonts/fontello.eot?) format("embedded-opentype"),url(/public/fonts/fontello.woff) format("woff"),url(/public/fonts/fontello.ttf) format("truetype"),url(/public/fonts/fontello.svg) format("svg");
     font-weight: 400;
     font-style: normal
 }
@@ -470,7 +470,7 @@ textarea {
             }
 
     #main_header #utility .nav_search .search form input.submit {
-        background: url(~/public/images/header/mag_glass_icon.svg) no-repeat 50%;
+        background: url(/public/images/header/mag_glass_icon.svg) no-repeat 50%;
         border: 0 none;
         height: 31px;
         position: absolute;
@@ -483,7 +483,7 @@ textarea {
     }
 
         #main_header #utility .nav_search .search form input.submit:hover {
-            background: url(~/public/images/header/mag_glass_hover.svg) no-repeat 50%
+            background: url(/public/images/header/mag_glass_hover.svg) no-repeat 50%
         }
 
 #main_header #main_nav {
@@ -597,7 +597,7 @@ textarea {
                 }
 
                 #main_header #main_nav ul li.dropdown .dropdown-menu ul.ul-category > li a {
-                    background: url(~/public/images/header/red_triangle.svg) 0 6px no-repeat;
+                    background: url(/public/images/header/red_triangle.svg) 0 6px no-repeat;
                     background-size: 4px 6px
                 }
 
@@ -900,7 +900,7 @@ textarea {
                 }
 
                 #main_header #navbar-search form input.submit {
-                    background: url(~/public/images/header/mag_mobile.svg) no-repeat scroll 50% transparent;
+                    background: url(/public/images/header/mag_mobile.svg) no-repeat scroll 50% transparent;
                     background-size: 25px;
                     border: 0 none;
                     text-indent: -9999px;
@@ -1225,7 +1225,7 @@ textarea {
                 }
 
                 #main_header #navbar-search form input.submit {
-                    background: url(~/public/images/header/mag_mobile.svg) no-repeat scroll 50% transparent;
+                    background: url(/public/images/header/mag_mobile.svg) no-repeat scroll 50% transparent;
                     background-size: 25px;
                     border: 0 none;
                     text-indent: -9999px;
@@ -2181,7 +2181,7 @@ textarea {
 }
 
 #homepage .home_slider .flexslider ul.slides li.home-slider-1 {
-    background-image: url(~/public/images/home/slider/desktop/slider1.jpg);
+    background-image: url(/public/images/home/slider/desktop/slider1.jpg);
     background-size: contain;
     background-position: 100%;
     background-repeat: no-repeat;
@@ -2190,19 +2190,19 @@ textarea {
 
 @media screen and (max-width:1440px) {
     #homepage .home_slider .flexslider ul.slides li.home-slider-1 {
-        background-image: url(~/public/images/home/slider/tablet/slider1_990.jpg)
+        background-image: url(/public/images/home/slider/tablet/slider1_990.jpg)
     }
 }
 
 @media screen and (max-width:989px) {
     #homepage .home_slider .flexslider ul.slides li.home-slider-1 {
-        background-image: url(~/public/images/home/slider/tablet/slider1_768.jpg)
+        background-image: url(/public/images/home/slider/tablet/slider1_768.jpg)
     }
 }
 
 @media screen and (max-width:767px) {
     #homepage .home_slider .flexslider ul.slides li.home-slider-1 {
-        background-image: url(~/public/images/home/slider/mobile/slider1.jpg);
+        background-image: url(/public/images/home/slider/mobile/slider1.jpg);
         background-position: top
     }
 }
@@ -2451,7 +2451,7 @@ textarea {
 }
 
 #homepage .home_slider .flexslider ul.slides li.home-slider-2 {
-    background-image: url(~/public/images/home/slider/desktop/slider2.jpg);
+    background-image: url(/public/images/home/slider/desktop/slider2.jpg);
     background-size: cover;
     background-position: 50%;
     background-repeat: no-repeat
@@ -2466,19 +2466,19 @@ textarea {
 
 @media screen and (max-width:1270px) {
     #homepage .home_slider .flexslider ul.slides li.home-slider-2 {
-        background-image: url(~/public/images/home/slider/tablet/slider2_990.jpg)
+        background-image: url(/public/images/home/slider/tablet/slider2_990.jpg)
     }
 }
 
 @media screen and (max-width:989px) {
     #homepage .home_slider .flexslider ul.slides li.home-slider-2 {
-        background-image: url(~/public/images/home/slider/tablet/slider2_768.jpg)
+        background-image: url(/public/images/home/slider/tablet/slider2_768.jpg)
     }
 }
 
 @media screen and (max-width:767px) {
     #homepage .home_slider .flexslider ul.slides li.home-slider-2 {
-        background-image: url(~/public/images/home/slider/mobile/slider2.jpg)
+        background-image: url(/public/images/home/slider/mobile/slider2.jpg)
     }
 }
 
@@ -2671,7 +2671,7 @@ textarea {
 }
 
 #homepage .home_slider .flexslider ul.slides li.home-slider-3 {
-    background-image: url(~/public/images/home/slider/desktop/slider3.jpg);
+    background-image: url(/public/images/home/slider/desktop/slider3.jpg);
     background-size: cover;
     background-position: 50%;
     background-repeat: no-repeat
@@ -2686,19 +2686,19 @@ textarea {
 
 @media screen and (max-width:1270px) {
     #homepage .home_slider .flexslider ul.slides li.home-slider-3 {
-        background-image: url(~/public/images/home/slider/tablet/slider3_990.jpg)
+        background-image: url(/public/images/home/slider/tablet/slider3_990.jpg)
     }
 }
 
 @media screen and (max-width:989px) {
     #homepage .home_slider .flexslider ul.slides li.home-slider-3 {
-        background-image: url(~/public/images/home/slider/tablet/slider3_768.jpg)
+        background-image: url(/public/images/home/slider/tablet/slider3_768.jpg)
     }
 }
 
 @media screen and (max-width:767px) {
     #homepage .home_slider .flexslider ul.slides li.home-slider-3 {
-        background-image: url(~/public/images/home/slider/mobile/slider3.jpg)
+        background-image: url(/public/images/home/slider/mobile/slider3.jpg)
     }
 }
 
@@ -2904,7 +2904,7 @@ textarea {
 }
 
 #homepage .home_slider .flexslider ul.slides li.home-slider-4 {
-    background-image: url(~/public/images/home/slider/desktop/slider4.jpg);
+    background-image: url(/public/images/home/slider/desktop/slider4.jpg);
     background-size: cover;
     background-position: 50%;
     background-repeat: no-repeat
@@ -2919,13 +2919,13 @@ textarea {
 
 @media screen and (max-width:1270px) {
     #homepage .home_slider .flexslider ul.slides li.home-slider-4 {
-        background-image: url(~/public/images/home/slider/tablet/slider4_990.jpg)
+        background-image: url(/public/images/home/slider/tablet/slider4_990.jpg)
     }
 }
 
 @media screen and (max-width:989px) {
     #homepage .home_slider .flexslider ul.slides li.home-slider-4 {
-        background-image: url(~/public/images/home/slider/tablet/slider4_768.jpg)
+        background-image: url(/public/images/home/slider/tablet/slider4_768.jpg)
     }
 
     #homepage .home_slider .container .flexslider .content ul.slides li.home-slider-2 .cta img {
@@ -2938,7 +2938,7 @@ textarea {
 
 @media screen and (max-width:767px) {
     #homepage .home_slider .flexslider ul.slides li.home-slider-4 {
-        background-image: url(~/public/images/home/slider/mobile/slider4.jpg)
+        background-image: url(/public/images/home/slider/mobile/slider4.jpg)
     }
 }
 
@@ -3157,7 +3157,7 @@ textarea {
 }
 
 #homepage .home_slider .flexslider ul.slides li.home-slider-5 {
-    background-image: url(~/public/images/home/slider/desktop/slider5.jpg);
+    background-image: url(/public/images/home/slider/desktop/slider5.jpg);
     background-size: contain;
     background-position: 100%;
     background-repeat: no-repeat;
@@ -3166,25 +3166,25 @@ textarea {
 
 @media screen and (max-width:1500px) {
     #homepage .home_slider .flexslider ul.slides li.home-slider-5 {
-        background-image: url(~/public/images/home/slider/tablet/slider5_990.jpg)
+        background-image: url(/public/images/home/slider/tablet/slider5_990.jpg)
     }
 }
 
 @media screen and (max-width:1270px) {
     #homepage .home_slider .flexslider ul.slides li.home-slider-5 {
-        background-image: url(~/public/images/home/slider/tablet/slider5_990.jpg)
+        background-image: url(/public/images/home/slider/tablet/slider5_990.jpg)
     }
 }
 
 @media screen and (max-width:989px) {
     #homepage .home_slider .flexslider ul.slides li.home-slider-5 {
-        background-image: url(~/public/images/home/slider/tablet/slider5_768.jpg)
+        background-image: url(/public/images/home/slider/tablet/slider5_768.jpg)
     }
 }
 
 @media screen and (max-width:767px) {
     #homepage .home_slider .flexslider ul.slides li.home-slider-5 {
-        background-image: url(~/public/images/home/slider/mobile/slider5.jpg);
+        background-image: url(/public/images/home/slider/mobile/slider5.jpg);
         background-position: top
     }
 }
@@ -3399,7 +3399,7 @@ textarea {
 }
 
 #homepage .home_slider .flexslider ul.slides li.home-slider-6 {
-    background-image: url(~/public/images/home/slider/desktop/slider6.jpg);
+    background-image: url(/public/images/home/slider/desktop/slider6.jpg);
     background-size: contain;
     background-position: 100%;
     background-repeat: no-repeat;
@@ -3408,7 +3408,7 @@ textarea {
 
 @media screen and (max-width:1270px) {
     #homepage .home_slider .flexslider ul.slides li.home-slider-6 {
-        background-image: url(~/public/images/home/slider/tablet/slider6_990.jpg)
+        background-image: url(/public/images/home/slider/tablet/slider6_990.jpg)
     }
 }
 
@@ -3422,7 +3422,7 @@ textarea {
     }
 
     #homepage .home_slider .flexslider ul.slides li.home-slider-6 {
-        background-image: url(~/public/images/home/slider/tablet/slider6_768.jpg)
+        background-image: url(/public/images/home/slider/tablet/slider6_768.jpg)
     }
 
     #homepage .home_slider .container .flexslider .content ul.slides li.home-slider-2 .cta img {
@@ -3467,7 +3467,7 @@ textarea {
 
 @media screen and (max-width:767px) {
     #homepage .home_slider .flexslider ul.slides li.home-slider-6 {
-        background-image: url(~/public/images/home/slider/mobile/slider6.jpg);
+        background-image: url(/public/images/home/slider/mobile/slider6.jpg);
         background-position: top
     }
 
@@ -3495,17 +3495,17 @@ textarea {
 #homepage .home_slider .flexslider ul.slides li.home-slider-7 .content img {
     position: absolute;
     bottom: 0;
-    left: 0
+    left: -16.1vw;
 }
 
 #homepage .home_slider .flexslider ul.slides li.home-slider-6 .content img {
-    width: 11vw;
-    margin-top: 18.5vw;
-    left: 1.8vw
+    width: 17vw;
+    margin-top: 25vw;
+    left: 0vw
 }
 
 #homepage .home_slider .flexslider ul.slides li.home-slider-7 .content img {
-    width: 12vw
+    width: 12vw;
 }
 
 @media screen and (max-width:767px) {
@@ -3540,13 +3540,13 @@ textarea {
     #homepage .home_slider .flexslider ul.slides li.home-slider-6 .content .cta-mobile {
         position: absolute;
         display: block;
-        top: 52vw;
-        left: -37vw
+        top: 27vw;
+        left: -30vw
     }
 
         #homepage .home_slider .flexslider ul.slides li.home-slider-6 .content .cta-mobile img {
             display: block;
-            width: 38vw
+            width: 31vw
         }
 
     #homepage .home_slider .flexslider ul.slides li.home-slider-6 .content h2 {
@@ -3730,12 +3730,14 @@ textarea {
         }
 
         #homepage .home_slider .container .flexslider .content ul.slides li.home-slider-7 .content .cta-mobile img {
-            width: 26vw;
+            
+            width: 25vw;
             display: block;
             position: relative
         }
 
         #homepage .home_slider .container .flexslider .content ul.slides li.home-slider-7 .content .cta-mobile {
+            left: 23vw;
             display: block;
             width: 100%;
             position: relative
@@ -3805,7 +3807,7 @@ textarea {
         }
 
             #homepage .home_slider .flexslider .flex-direction-nav li:first-of-type a {
-                background-image: url(~/public/images/home/slider/left_arrow.svg)
+                background-image: url(/public/images/home/slider/left_arrow.svg)
             }
 
         #homepage .home_slider .flexslider .flex-direction-nav li:nth-of-type(2) {
@@ -3813,7 +3815,7 @@ textarea {
         }
 
             #homepage .home_slider .flexslider .flex-direction-nav li:nth-of-type(2) a {
-                background-image: url(~/public/images/home/slider/right_arrow.svg)
+                background-image: url(/public/images/home/slider/right_arrow.svg)
             }
 
 #homepage .home_slider .flexslider .flex-control-nav {
@@ -3993,7 +3995,7 @@ textarea {
                 }
 
                     #homepage .info_slider .flexslider .flex-direction-nav li:first-of-type a {
-                        background-image: url(~/public/images/home/slider/left_arrow.svg);
+                        background-image: url(/public/images/home/slider/left_arrow.svg);
                         background-position: 0;
                         background-size: 11px 20px
                     }
@@ -4003,7 +4005,7 @@ textarea {
                 }
 
                     #homepage .info_slider .flexslider .flex-direction-nav li:nth-of-type(2) a {
-                        background-image: url(~/public/images/home/slider/right_arrow.svg);
+                        background-image: url(/public/images/home/slider/right_arrow.svg);
                         background-position: 100%;
                         background-size: 11px 20px
                     }
@@ -4139,23 +4141,23 @@ textarea {
 
 @media screen and (max-width:989px) {
     #homepage .categories .block1_2 .block1 {
-        background-image: url(~/public/images/home/category/tops_bg_mobile_lg.jpg)
+        background-image: url(/public/images/home/category/tops_bg_mobile_lg.jpg)
     }
 }
 
 @media screen and (max-width:767px) {
     #homepage .categories .block1_2 .block1 {
-        background-image: url(~/public/images/home/category/tops_bg_mobile.jpg)
+        background-image: url(/public/images/home/category/tops_bg_mobile.jpg)
     }
 }
 
 #homepage .categories .block1_2 .block1 .overlay_img {
-    background-image: url(~/public/images/home/category/tops_bg.jpg)
+    background-image: url(/public/images/home/category/tops_bg.jpg)
 }
 
 @media screen and (max-width:1270px) {
     #homepage .categories .block1_2 .block1 .overlay_img {
-        background-image: url(~/public/images/home/category/tops_bg_tablet.jpg)
+        background-image: url(/public/images/home/category/tops_bg_tablet.jpg)
     }
 }
 
@@ -4166,12 +4168,12 @@ textarea {
 }
 
 #homepage .categories .block1_2 .block1 .content {
-    padding-top: 43.6%
+    padding-top: 36.6%
 }
 
 @media screen and (max-width:767px) {
     #homepage .categories .block1_2 .block1 .content {
-        padding-top: 41%;
+        padding-top: 36%;
         padding-left: 9%
     }
 }
@@ -4220,23 +4222,23 @@ textarea {
 
 @media screen and (max-width:989px) {
     #homepage .categories .block1_2 .block2 {
-        background-image: url(~/public/images/home/category/pants_bg_mobile_lg.jpg)
+        background-image: url(/public/images/home/category/pants_bg_mobile_lg.jpg)
     }
 }
 
 @media screen and (max-width:767px) {
     #homepage .categories .block1_2 .block2 {
-        background-image: url(~/public/images/home/category/pants_bg_mobile.jpg)
+        background-image: url(/public/images/home/category/pants_bg_mobile.jpg)
     }
 }
 
 #homepage .categories .block1_2 .block2 .overlay_img {
-    background-image: url(~/public/images/home/category/pants_bg.jpg)
+    background-image: url(/public/images/home/category/pants_bg.jpg)
 }
 
 @media screen and (max-width:1270px) {
     #homepage .categories .block1_2 .block2 .overlay_img {
-        background-image: url(~/public/images/home/category/pants_bg_tablet.jpg)
+        background-image: url(/public/images/home/category/pants_bg_tablet.jpg)
     }
 }
 
@@ -4391,23 +4393,23 @@ textarea {
 
 @media screen and (max-width:989px) {
     #homepage .categories .block3_4 .block3 {
-        background-image: url(~/public/images/home/category/labcoats_bg_mobile_lg.jpg)
+        background-image: url(/public/images/home/category/labcoats_bg_mobile_lg.jpg)
     }
 }
 
 @media screen and (max-width:767px) {
     #homepage .categories .block3_4 .block3 {
-        background-image: url(~/public/images/home/category/labcoats_bg_mobile.jpg)
+        background-image: url(/public/images/home/category/labcoats_bg_mobile.jpg)
     }
 }
 
 #homepage .categories .block3_4 .block3 .overlay_img {
-    background-image: url(~/public/images/home/category/labcoats_bg.jpg)
+    background-image: url(/public/images/home/category/labcoats_bg.jpg)
 }
 
 @media screen and (max-width:1270px) {
     #homepage .categories .block3_4 .block3 .overlay_img {
-        background-image: url(~/public/images/home/category/labcoats_bg_tablet.jpg)
+        background-image: url(/public/images/home/category/labcoats_bg_tablet.jpg)
     }
 }
 
@@ -4436,23 +4438,23 @@ textarea {
 
 @media screen and (max-width:989px) {
     #homepage .categories .block3_4 .block4 {
-        background-image: url(~/public/images/home/category/jackets_bg_mobile_lg.jpg)
+        background-image: url(/public/images/home/category/jackets_bg_mobile_lg.jpg)
     }
 }
 
 @media screen and (max-width:767px) {
     #homepage .categories .block3_4 .block4 {
-        background-image: url(~/public/images/home/category/jackets_bg_mobile.jpg)
+        background-image: url(/public/images/home/category/jackets_bg_mobile.jpg)
     }
 }
 
 #homepage .categories .block3_4 .block4 .overlay_img {
-    background-image: url(~/public/images/home/category/jackets_bg.jpg)
+    background-image: url(/public/images/home/category/jackets_bg.jpg)
 }
 
 @media screen and (max-width:1270px) {
     #homepage .categories .block3_4 .block4 .overlay_img {
-        background-image: url(~/public/images/home/category/jackets_bg_tablet.jpg)
+        background-image: url(/public/images/home/category/jackets_bg_tablet.jpg)
     }
 }
 
@@ -4554,12 +4556,12 @@ textarea {
 }
 
     #homepage .categories .video_container .overlay_img {
-        background-image: url(~/public/images/videos/FOB-Video-Playscreen_Desktop.jpg)
+        background-image: url(/public/images/videos/FOB-Video-Playscreen_Desktop.jpg)
     }
 
 @media screen and (max-width:1270px) {
     #homepage .categories .video_container .overlay_img {
-        background-image: url(~/public/images/videos/FOB-Video-Playscreen_Desktop_medium.jpg)
+        background-image: url(/public/images/videos/FOB-Video-Playscreen_Desktop_medium.jpg)
     }
 }
 
@@ -4586,7 +4588,7 @@ textarea {
 
 @media screen and (max-width:989px) {
     #homepage .categories .video_container .block {
-        background-image: url(~/public/images/videos/FOB-Video-Playscreen_Desktop_small.jpg);
+        background-image: url(/public/images/videos/FOB-Video-Playscreen_Desktop_small.jpg);
         margin-left: 30px;
         margin-right: 33px;
         margin-top: 33px;
@@ -4596,7 +4598,7 @@ textarea {
 
 @media screen and (max-width:767px) {
     #homepage .categories .video_container .block {
-        background-image: url(~/public/images/videos/FOB-Video-Playscreen_Mobile.jpg);
+        background-image: url(/public/images/videos/FOB-Video-Playscreen_Mobile.jpg);
         margin-top: 19px;
         height: inherit;
         padding-top: 78.4%;
@@ -4734,7 +4736,7 @@ textarea {
     cursor: pointer;
     width: 65px;
     height: 65px;
-    background: url(~/public/images/home/category/play_btn.svg) no-repeat;
+    background: url(/public/images/home/category/play_btn.svg) no-repeat;
     background-size: 100%
 }
 
@@ -4754,7 +4756,7 @@ textarea {
 
 @media screen and (max-width:767px) {
     #homepage .categories .video_container .block .play_btn .play {
-        background: url(~/public/images/home/category/play_btn_white.svg) no-repeat;
+        background: url(/public/images/home/category/play_btn_white.svg) no-repeat;
         background-size: 100%;
         width: 12vw;
         height: 12vw
@@ -4803,24 +4805,24 @@ textarea {
 
 @media screen and (max-width:989px) {
     #homepage .categories .block5_6 .block5 {
-        background-image: url(~/public/images/home/category/adc_bg_mobile_lg.jpg);
+        background-image: url(/public/images/home/category/adc_bg_mobile_lg.jpg);
         width: 338px
     }
 }
 
 @media screen and (max-width:767px) {
     #homepage .categories .block5_6 .block5 {
-        background-image: url(~/public/images/home/category/adc_bg_mobile.jpg)
+        background-image: url(/public/images/home/category/adc_bg_mobile.jpg)
     }
 }
 
 #homepage .categories .block5_6 .block5 .overlay_img {
-    background-image: url(~/public/images/home/category/adc_bg.jpg)
+    background-image: url(/public/images/home/category/adc_bg.jpg)
 }
 
 @media screen and (max-width:1270px) {
     #homepage .categories .block5_6 .block5 .overlay_img {
-        background-image: url(~/public/images/home/category/adc_bg_tablet.jpg)
+        background-image: url(/public/images/home/category/adc_bg_tablet.jpg)
     }
 }
 
@@ -4876,24 +4878,24 @@ textarea {
 
 @media screen and (max-width:989px) {
     #homepage .categories .block5_6 .block6 {
-        background-image: url(~/public/images/home/category/footwear_bg_mobile_lg.jpg);
+        background-image: url(/public/images/home/category/footwear_bg_mobile_lg.jpg);
         background-size: cover
     }
 }
 
 @media screen and (max-width:767px) {
     #homepage .categories .block5_6 .block6 {
-        background-image: url(~/public/images/home/category/footwear_bg_mobile.jpg)
+        background-image: url(/public/images/home/category/footwear_bg_mobile.jpg)
     }
 }
 
 #homepage .categories .block5_6 .block6 .overlay_img {
-    background-image: url(~/public/images/home/category/footwear_bg.jpg)
+    background-image: url(/public/images/home/category/footwear_bg.jpg)
 }
 
 @media screen and (max-width:1270px) {
     #homepage .categories .block5_6 .block6 .overlay_img {
-        background-image: url(~/public/images/home/category/footwear_bg_tablet.jpg)
+        background-image: url(/public/images/home/category/footwear_bg_tablet.jpg)
     }
 }
 
@@ -4960,12 +4962,12 @@ textarea {
 }
 
     #homepage .categories .new_arrivals .overlay_img {
-        background-image: url(~/public/images/home/category/newarrivals_bg.jpg)
+        background-image: url(/public/images/home/category/new-arrivals.jpg)
     }
 
 @media screen and (max-width:1270px) {
     #homepage .categories .new_arrivals .overlay_img {
-        background-image: url(~/public/images/home/category/newarrivals_bg_tablet.jpg)
+        background-image: url(/public/images/home/category/newarrivals_bg_tablet.jpg)
     }
 }
 
@@ -4981,13 +4983,13 @@ textarea {
 
 @media screen and (max-width:989px) {
     #homepage .categories .new_arrivals .block {
-        background-image: url(~/public/images/home/category/newarrivals_bg_mobile_lg.jpg)
+        background-image: url(/public/images/home/category/newarrivals_bg_mobile_lg.jpg)
     }
 }
 
 @media screen and (max-width:767px) {
     #homepage .categories .new_arrivals .block {
-        background-image: url(~/public/images/home/category/newarrivals_bg_mobile.jpg);
+        background-image: url(/public/images/home/category/newarrivals_bg_mobile.jpg);
         background-size: cover
     }
 }
@@ -4995,10 +4997,10 @@ textarea {
 #homepage .categories .new_arrivals .block .content {
     color: #1b356a;
     display: inline-block;
-    padding-left: 10%;
+    padding-right: 10%;
     padding-top: 5%;
     text-align: center;
-    float: left
+    float: right
 }
 
 @media screen and (max-width:767px) {
@@ -5329,7 +5331,7 @@ textarea {
                     }
 
     #homepage .location_catalog .catalog {
-        background-image: url(~/public/images/home/location_catalog/landau_catalog.png);
+        background-image: url(/public/images/home/location_catalog/landau_catalog.png);
         background-color: #f6f6f6;
         background-repeat: no-repeat;
         background-position: right -90px bottom -40px;
@@ -5656,7 +5658,7 @@ textarea {
         }
 
             #homepage .categories .container .new_arrivals .block .content {
-                padding-left: 5vw;
+                padding-right: 5vw;
                 padding-top: 4.1%;
                 height: 349px
             }
@@ -5986,7 +5988,7 @@ textarea {
                 }
 
     #homepage .categories .block1_2 .block1 {
-        background-image: url(~/public/images/home/category/tops_bg_mobile_lg.jpg);
+        background-image: url(/public/images/home/category/tops_bg_mobile_lg.jpg);
         margin-left: 30px;
         margin-right: 33px
     }
@@ -5997,7 +5999,7 @@ textarea {
         }
 
     #homepage .categories .block1_2 .block2 {
-        background-image: url(~/public/images/home/category/pants_bg_mobile_lg.jpg);
+        background-image: url(/public/images/home/category/pants_bg_mobile_lg.jpg);
         background-size: cover;
         width: 336px;
         height: 447px
@@ -6058,7 +6060,7 @@ textarea {
                     }
 
         #homepage .categories .block3_4 .block3 {
-            background-image: url(~/public/images/home/category/labcoats_bg_mobile_lg.jpg)
+            background-image: url(/public/images/home/category/labcoats_bg_mobile_lg.jpg)
         }
 
             #homepage .categories .block3_4 .block3 .content {
@@ -6066,7 +6068,7 @@ textarea {
             }
 
         #homepage .categories .block3_4 .block4 {
-            background-image: url(~/public/images/home/category/jackets_bg_mobile_lg.jpg);
+            background-image: url(/public/images/home/category/jackets_bg_mobile_lg.jpg);
             margin-top: 20px;
             margin-left: 33px
         }
@@ -6136,11 +6138,11 @@ textarea {
         margin-left: 30px;
         height: 287px;
         width: 705px;
-        background-image: url(~/public/images/home/category/newarrivals_bg_mobile_lg.jpg)
+        background-image: url(/public/images/home/category/newarrivals_bg_mobile_lg.jpg)
     }
 
         #homepage .categories .new_arrivals .block .content {
-            padding-left: 1%;
+            padding-right: 1%;
             padding-top: 3%
         }
 
@@ -6502,13 +6504,13 @@ textarea {
             }
 
             #homepage .categories .container .block1_2 .block1 {
-                background-image: url(~/public/images/home/category/tops_bg_mobile.jpg);
+                background-image: url(/public/images/home/category/tops_bg_mobile.jpg);
                 margin-top: 9px
             }
 
             #homepage .categories .container .block1_2 .block2 {
                 border-width: 7px;
-                background-image: url(~/public/images/home/category/pants_bg_mobile.jpg);
+                background-image: url(/public/images/home/category/pants_bg_mobile.jpg);
                 background-size: cover;
                 margin-top: 18px;
                 padding-top: 113.9%;
@@ -6547,7 +6549,7 @@ textarea {
                     }
 
             #homepage .categories .container .block3_4 .block3 {
-                background-image: url(~/public/images/home/category/labcoats_bg_mobile.jpg);
+                background-image: url(/public/images/home/category/labcoats_bg_mobile.jpg);
                 margin-top: 18px
             }
 
@@ -6556,7 +6558,7 @@ textarea {
                 }
 
             #homepage .categories .container .block3_4 .block4 {
-                background-image: url(~/public/images/home/category/jackets_bg_mobile.jpg);
+                background-image: url(/public/images/home/category/jackets_bg_mobile.jpg);
                 margin-top: 18px
             }
 
@@ -6575,7 +6577,7 @@ textarea {
             }
 
             #homepage .categories .container .block5_6 .block5 {
-                background-image: url(~/public/images/home/category/adc_bg_mobile.jpg);
+                background-image: url(/public/images/home/category/adc_bg_mobile.jpg);
                 margin-top: 18px
             }
 
@@ -6590,7 +6592,7 @@ textarea {
 
             #homepage .categories .container .block5_6 .block6 {
                 border-width: 8px;
-                background-image: url(~/public/images/home/category/footwear_bg_mobile.jpg);
+                background-image: url(/public/images/home/category/footwear_bg_mobile.jpg);
                 background-size: cover;
                 margin-top: 15px;
                 margin-bottom: 15px;
@@ -6607,7 +6609,7 @@ textarea {
                     }
 
         #homepage .categories .container .new_arrivals .block {
-            background-image: url(~/public/images/home/category/newarrivals_bg_mobile.jpg);
+            background-image: url(/public/images/home/category/newarrivals_bg_mobile.jpg);
             margin-top: 19px;
             height: auto;
             padding-top: 96.5%
@@ -6615,10 +6617,10 @@ textarea {
 
             #homepage .categories .container .new_arrivals .block .content {
                 padding-top: 14%;
-                right: inherit;
-                left: -6.5vw !important;
+                left: inherit !important;
+                right: -6.5vw !important;
                 width: 56% !important;
-                padding-right: 4%
+                padding-left: 1%
             }
 
     #homepage .categories .new_arrivals .block h3 .top {
@@ -7471,7 +7473,7 @@ textarea {
 }
 
     #collections .info_slider .flexslider .flex-direction-nav li:first-of-type a {
-        background-image: url(~/public/images/collections/left_arrow.svg)
+        background-image: url(/public/images/collections/left_arrow.svg)
     }
 
 #collections .info_slider .flexslider .flex-direction-nav li:nth-of-type(2) {
@@ -7479,7 +7481,7 @@ textarea {
 }
 
     #collections .info_slider .flexslider .flex-direction-nav li:nth-of-type(2) a {
-        background-image: url(~/public/images/collections/right_arrow.svg)
+        background-image: url(/public/images/collections/right_arrow.svg)
     }
 
 #collections .info_slider .flexslider .flex-control-nav {
@@ -7800,7 +7802,7 @@ textarea {
 }
 
 #collections .collections_container .inner .block.block1 .overlay_img {
-    background-image: url(~/public/images/collections/collections/landau_for_men.jpg)
+    background-image: url(/public/images/collections/collections/landau_for_men.jpg)
 }
 
 #collections .collections_container .inner .block.block1 .content {
@@ -7830,7 +7832,7 @@ textarea {
         }
 
 #collections .collections_container .inner .block.block2 .overlay_img {
-    background-image: url(~/public/images/collections/collections/introducing_lynx.jpg)
+    background-image: url(/public/images/collections/collections/introducing_lynx.jpg)
 }
 
 #collections .collections_container .inner .block.block2 .content {
@@ -7864,7 +7866,7 @@ textarea {
         }
 
 #collections .collections_container .inner .block.block3 .overlay_img {
-    background-image: url(~/public/images/collections/collections/scrubzone.jpg)
+    background-image: url(/public/images/collections/collections/scrubzone.jpg)
 }
 
 #collections .collections_container .inner .block.block3 .content {
@@ -7910,7 +7912,7 @@ textarea {
         }
 
 #collections .collections_container .inner .block.block4 .overlay_img {
-    background-image: url(~/public/images/collections/collections/landau_groups.jpg)
+    background-image: url(/public/images/collections/collections/landau_groups.jpg)
 }
 
 #collections .collections_container .inner .block.block4 .content {
@@ -7940,7 +7942,7 @@ textarea {
         }
 
 #collections .collections_container .inner .block.block5 .overlay_img {
-    background-image: url(~/public/images/collections/collections/allday.jpg)
+    background-image: url(/public/images/collections/collections/allday.jpg)
 }
 
 #collections .collections_container .inner .block.block5 .content .cta {
@@ -7960,7 +7962,7 @@ textarea {
     }
 
 #collections .collections_container .inner .block.block6 .overlay_img {
-    background-image: url(~/public/images/collections/collections/prewashed.jpg)
+    background-image: url(/public/images/collections/collections/prewashed.jpg)
 }
 
 #collections .collections_container .inner .block.block6 .content .cta {
@@ -8114,7 +8116,7 @@ textarea {
         }
 
         #collections .collections_container .inner .block.block1 .overlay_img {
-            background-image: url(~/public/images/collections/collections/landau_for_men_990.jpg)
+            background-image: url(/public/images/collections/collections/landau_for_men_990.jpg)
         }
 
         #collections .collections_container .inner .block.block1 .content {
@@ -8131,7 +8133,7 @@ textarea {
             }
 
         #collections .collections_container .inner .block.block2 .overlay_img {
-            background-image: url(~/public/images/collections/collections/introducing_lynx_990.jpg)
+            background-image: url(/public/images/collections/collections/introducing_lynx_990.jpg)
         }
 
         #collections .collections_container .inner .block.block2 .content {
@@ -8150,7 +8152,7 @@ textarea {
             }
 
         #collections .collections_container .inner .block.block3 .overlay_img {
-            background-image: url(~/public/images/collections/collections/scrubzone_990.jpg)
+            background-image: url(/public/images/collections/collections/scrubzone_990.jpg)
         }
 
         #collections .collections_container .inner .block.block3 .content {
@@ -8174,7 +8176,7 @@ textarea {
             }
 
         #collections .collections_container .inner .block.block4 .overlay_img {
-            background-image: url(~/public/images/collections/collections/landau_groups_990.jpg)
+            background-image: url(/public/images/collections/collections/landau_groups_990.jpg)
         }
 
         #collections .collections_container .inner .block.block4 .content {
@@ -8203,7 +8205,7 @@ textarea {
             }
 
         #collections .collections_container .inner .block.block5 .overlay_img {
-            background-image: url(~/public/images/collections/collections/allday_990.jpg)
+            background-image: url(/public/images/collections/collections/allday_990.jpg)
         }
 
         #collections .collections_container .inner .block.block5 .content .cta {
@@ -8212,7 +8214,7 @@ textarea {
         }
 
         #collections .collections_container .inner .block.block6 .overlay_img {
-            background-image: url(~/public/images/collections/collections/prewashed_990.jpg)
+            background-image: url(/public/images/collections/collections/prewashed_990.jpg)
         }
 
         #collections .collections_container .inner .block.block6 .content .cta {
@@ -8331,7 +8333,7 @@ textarea {
         }
 
         #collections .collections_container .inner .block.block1 .content {
-            background-image: url(~/public/images/collections/collections/landau_for_men_768.jpg);
+            background-image: url(/public/images/collections/collections/landau_for_men_768.jpg);
             padding-top: 136px;
             padding-left: 295px
         }
@@ -8350,7 +8352,7 @@ textarea {
         }
 
             #collections .collections_container .inner .block.block2 .content {
-                background-image: url(~/public/images/collections/collections/introducing_lynx_768.jpg);
+                background-image: url(/public/images/collections/collections/introducing_lynx_768.jpg);
                 padding-top: 145px;
                 padding-right: 271px
             }
@@ -8366,7 +8368,7 @@ textarea {
                 }
 
         #collections .collections_container .inner .block.block3 .content {
-            background-image: url(~/public/images/collections/collections/scrubzone_768.jpg);
+            background-image: url(/public/images/collections/collections/scrubzone_768.jpg);
             padding-top: 78px;
             padding-right: 183px
         }
@@ -8396,7 +8398,7 @@ textarea {
                 }
 
         #collections .collections_container .inner .block.block4 .content {
-            background-image: url(~/public/images/collections/collections/landau_groups_768.jpg);
+            background-image: url(/public/images/collections/collections/landau_groups_768.jpg);
             padding-top: 142px;
             padding-left: 360px
         }
@@ -8422,7 +8424,7 @@ textarea {
             }
 
         #collections .collections_container .inner .block.block5 .content {
-            background-image: url(~/public/images/collections/collections/allday_768.jpg);
+            background-image: url(/public/images/collections/collections/allday_768.jpg);
             padding-top: 142px
         }
 
@@ -8432,7 +8434,7 @@ textarea {
             }
 
         #collections .collections_container .inner .block.block6 .content {
-            background-image: url(~/public/images/collections/collections/prewashed_768.jpg);
+            background-image: url(/public/images/collections/collections/prewashed_768.jpg);
             padding-top: 142px
         }
 
@@ -8605,7 +8607,7 @@ textarea {
             #collections .collections_container .inner .block.block1 .content {
                 padding-top: 68.5%;
                 padding-left: 0;
-                background-image: url(~/public/images/collections/collections/landau_for_men_640.jpg)
+                background-image: url(/public/images/collections/collections/landau_for_men_640.jpg)
             }
 
                 #collections .collections_container .inner .block.block1 .content .top {
@@ -8633,7 +8635,7 @@ textarea {
 
             #collections .collections_container .inner .block.block2 .content {
                 padding-top: 68.5%;
-                background-image: url(~/public/images/collections/collections/introducing_lynx_640.jpg)
+                background-image: url(/public/images/collections/collections/introducing_lynx_640.jpg)
             }
 
                 #collections .collections_container .inner .block.block2 .content .top {
@@ -8662,7 +8664,7 @@ textarea {
 
             #collections .collections_container .inner .block.block3 .content {
                 padding-top: 68.5%;
-                background-image: url(~/public/images/collections/collections/scrubzone_640.jpg)
+                background-image: url(/public/images/collections/collections/scrubzone_640.jpg)
             }
 
                 #collections .collections_container .inner .block.block3 .content .top {
@@ -8712,7 +8714,7 @@ textarea {
 
             #collections .collections_container .inner .block.block4 .content {
                 padding-top: 68.5%;
-                background-image: url(~/public/images/collections/collections/landau_groups_640.jpg);
+                background-image: url(/public/images/collections/collections/landau_groups_640.jpg);
                 background-repeat: no-repeat
             }
 
@@ -8741,7 +8743,7 @@ textarea {
                 }
 
             #collections .collections_container .inner .block.block5 .content {
-                background-image: url(~/public/images/collections/collections/allday_640.jpg);
+                background-image: url(/public/images/collections/collections/allday_640.jpg);
                 background-repeat: no-repeat;
                 padding-top: 68.5%
             }
@@ -8758,7 +8760,7 @@ textarea {
 
 
             #collections .collections_container .inner .block.block6 .content {
-                background-image: url(~/public/images/collections/collections/prewashed_640.jpg);
+                background-image: url(/public/images/collections/collections/prewashed_640.jpg);
                 background-repeat: no-repeat;
                 padding-top: 68.5%
             }
@@ -8987,7 +8989,7 @@ textarea {
 }
 
     #catalog_container .info_slider .flexslider .flex-direction-nav li:first-of-type a {
-        background-image: url(~/public/images/catalog/left_arrow.svg)
+        background-image: url(/public/images/catalog/left_arrow.svg)
     }
 
 #catalog_container .info_slider .flexslider .flex-direction-nav li:nth-of-type(2) {
@@ -8995,7 +8997,7 @@ textarea {
 }
 
     #catalog_container .info_slider .flexslider .flex-direction-nav li:nth-of-type(2) a {
-        background-image: url(~/public/images/catalog/right_arrow.svg)
+        background-image: url(/public/images/catalog/right_arrow.svg)
     }
 
 #catalog_container .info_slider .flexslider .flex-control-nav {
@@ -9114,7 +9116,7 @@ textarea {
                     display: block;
                     font-size: 1.15em;
                     color: #767676;
-                    background: url(~/public/images/catalog/filter_close.png) no-repeat 100%;
+                    background: url(/public/images/catalog/filter_close.png) no-repeat 100%;
                     background-size: 8px;
                     width: 90px
                 }
@@ -9164,15 +9166,15 @@ textarea {
     #catalog_container #catalog .filters .left .select_group.color a, #catalog_container #catalog .filters .left .select_group.fit_type a, #catalog_container #catalog .filters .left .select_group.size a {
         padding: 5px 0 5px 24px;
         white-space: normal;
-        background: url(~/public/images/catalog/filter.png) no-repeat 0
+        background: url(/public/images/catalog/filter.png) no-repeat 0
     }
 
         #catalog_container #catalog .filters .left .select_group.color a:hover, #catalog_container #catalog .filters .left .select_group.fit_type a:hover, #catalog_container #catalog .filters .left .select_group.size a:hover {
-            background-image: url(~/public/images/catalog/filter_hover.png)
+            background-image: url(/public/images/catalog/filter_hover.png)
         }
 
         #catalog_container #catalog .filters .left .select_group.color a.active, #catalog_container #catalog .filters .left .select_group.fit_type a.active, #catalog_container #catalog .filters .left .select_group.size a.active {
-            background-image: url(~/public/images/catalog/filter_selected.png) !important
+            background-image: url(/public/images/catalog/filter_selected.png) !important
         }
 
     #catalog_container #catalog .filters .left .select_group.color.mobile {
@@ -9225,7 +9227,7 @@ textarea {
 }
 
 #catalog_container #catalog .filters .left .select_group.color a.active {
-    background-image: url(~/public/images/catalog/filter_selected.png)
+    background-image: url(/public/images/catalog/filter_selected.png)
 }
 
     #catalog_container #catalog .filters .left .select_group.color a.active .swatch:before {
@@ -9233,7 +9235,7 @@ textarea {
     }
 
 #catalog_container #catalog .filters .left .select_group.color a:hover {
-    background-image: url(~/public/images/catalog/filter_hover.png)
+    background-image: url(/public/images/catalog/filter_hover.png)
 }
 
     #catalog_container #catalog .filters .left .select_group.color a:hover .swatch:before {
@@ -9421,7 +9423,7 @@ textarea {
 }
 
 #catalog_container #catalog .product .new_tag {
-    background-image: url(~/public/images/catalog/new_icon.svg);
+    background-image: url(/public/images/catalog/new_icon.svg);
     position: absolute;
     top: 6px;
     right: 6px;
@@ -9434,7 +9436,7 @@ textarea {
 }
 
     #catalog_container #catalog .product .new_tag.new_colors {
-        background-image: url(~/public/images/catalog/new_colors_icon.svg);
+        background-image: url(/public/images/catalog/new_colors_icon.svg);
         width: 55px !important;
         height: 55px !important
     }
@@ -9689,15 +9691,15 @@ textarea {
                 #catalog_container #catalog .filters .left .select .select_group.color a, #catalog_container #catalog .filters .left .select .select_group.fit_type a, #catalog_container #catalog .filters .left .select .select_group.size a {
                     padding: 5px 0 5px 24px;
                     white-space: normal;
-                    background: url(~/public/images/catalog/filter.png) no-repeat 0
+                    background: url(/public/images/catalog/filter.png) no-repeat 0
                 }
 
                     #catalog_container #catalog .filters .left .select .select_group.color a:hover, #catalog_container #catalog .filters .left .select .select_group.fit_type a:hover, #catalog_container #catalog .filters .left .select .select_group.size a:hover {
-                        background-image: url(~/public/images/catalog/filter_hover.png)
+                        background-image: url(/public/images/catalog/filter_hover.png)
                     }
 
                     #catalog_container #catalog .filters .left .select .select_group.color a.active, #catalog_container #catalog .filters .left .select .select_group.fit_type a.active, #catalog_container #catalog .filters .left .select .select_group.size a.active {
-                        background-image: url(~/public/images/catalog/filter_selected.png) !important
+                        background-image: url(/public/images/catalog/filter_selected.png) !important
                     }
 
         #catalog_container #catalog .filters .left .reset {
@@ -10027,12 +10029,12 @@ textarea {
                                 padding: 12px 0 12px 25px;
                                 letter-spacing: 1px;
                                 font-size: .9em;
-                                background: url(~/public/images/catalog/filter.png) no-repeat 0
+                                background: url(/public/images/catalog/filter.png) no-repeat 0
                             }
 
                             #catalog_container #catalog .main_row .mobile-filters .mobile_right_filters li.dropdown .dropdown-menu .ul-category:not(.sort_by) li.active a {
                                 color: #39aaf2;
-                                background-image: url(~/public/images/catalog/filter_selected.png) !important
+                                background-image: url(/public/images/catalog/filter_selected.png) !important
                             }
 
                             #catalog_container #catalog .main_row .mobile-filters .mobile_right_filters li.dropdown .dropdown-menu .ul-category li a {
@@ -10596,7 +10598,7 @@ textarea {
         height: 100%;
         width: 1242px;
         z-index: 1;
-        cursor: url(~/public/images/detail/zoom/exiticon.svg) 17 17,auto;
+        cursor: url(/public/images/detail/zoom/exiticon.svg) 17 17,auto;
         background-color: #fff;
         -webkit-transition: opacity .25s ease-in-out;
         transition: opacity .25s ease-in-out
@@ -10682,7 +10684,7 @@ textarea {
 
                 #detail_page .detail_top > .left .img_container .preview_wrapper .preview {
                     position: absolute;
-                    cursor: url(~/public/images/detail/zoom/zoomin_icon.svg) 17 17,auto;
+                    cursor: url(/public/images/detail/zoom/zoomin_icon.svg) 17 17,auto;
                     top: 0;
                     left: 0;
                     -webkit-transition: opacity .25s ease-in-out;
@@ -10772,7 +10774,7 @@ textarea {
 
         #detail_page .detail_top > .left .img_container .thumbnail_container .thumbnail_video:before {
             content: "";
-            background-image: url(~/public/images/detail/icons/play.png);
+            background-image: url(/public/images/detail/icons/play.png);
             height: 29px;
             width: 29px;
             position: absolute;
@@ -12556,7 +12558,7 @@ textarea {
                         }
 
                         #where_to_buy .search_bar .right .international_container .column_container .column li.selected span {
-                            background: url(~/public/images/where_to_buy/checkmark_icon.png) no-repeat;
+                            background: url(/public/images/where_to_buy/checkmark_icon.png) no-repeat;
                             width: 17px;
                             height: 12px;
                             display: inline-block;
@@ -12862,11 +12864,11 @@ textarea {
                 }
 
             #where_to_buy .locations_container .diamond_dealers .bottom .flex-direction-nav li .flex-prev {
-                background: url(~/public/images/where_to_buy/slider_arrow_up.png) #6293c4 no-repeat 50%
+                background: url(/public/images/where_to_buy/slider_arrow_up.png) #6293c4 no-repeat 50%
             }
 
             #where_to_buy .locations_container .diamond_dealers .bottom .flex-direction-nav li .flex-next {
-                background: url(~/public/images/where_to_buy/slider_arrow_down.png) #93b2d1 no-repeat 50%
+                background: url(/public/images/where_to_buy/slider_arrow_down.png) #93b2d1 no-repeat 50%
             }
 
 #where_to_buy .locations_container .dealers_container {
@@ -13187,11 +13189,11 @@ textarea {
                     }
 
                     #where_to_buy .locations_container .diamond_dealers .locations .flexslider .flex-direction-nav li .flex-prev {
-                        background: url(~/public/images/where_to_buy/slider_arrow_blue_left.png) no-repeat 50%
+                        background: url(/public/images/where_to_buy/slider_arrow_blue_left.png) no-repeat 50%
                     }
 
                     #where_to_buy .locations_container .diamond_dealers .locations .flexslider .flex-direction-nav li .flex-next {
-                        background: url(~/public/images/where_to_buy/slider_arrow_blue_right.png) no-repeat 50%;
+                        background: url(/public/images/where_to_buy/slider_arrow_blue_right.png) no-repeat 50%;
                         right: 0
                     }
 
@@ -13647,7 +13649,7 @@ textarea {
     height: 517px;
     margin-left: auto;
     margin-right: auto;
-    background: url(~/public/images/about/desktop/hero.jpg) no-repeat 50%;
+    background: url(/public/images/about/desktop/hero.jpg) no-repeat 50%;
     background-size: cover
 }
 
@@ -13967,7 +13969,7 @@ textarea {
     #about_us .hero_container {
         padding-top: 49.3%;
         height: auto;
-        background-image: url(~/public/images/about/mobile/hero.jpg)
+        background-image: url(/public/images/about/mobile/hero.jpg)
     }
 
         #about_us .hero_container .title {
@@ -15556,11 +15558,11 @@ textarea {
             #faq .top ul li div span {
                 height: 100%;
                 padding-right: 2.3em;
-                background: url(~/public/images/faq/dropdown_icon.png) no-repeat 0
+                background: url(/public/images/faq/dropdown_icon.png) no-repeat 0
             }
 
             #faq .top ul li div .rotate {
-                background-image: url(~/public/images/faq/dropdown_icon_rot.png)
+                background-image: url(/public/images/faq/dropdown_icon_rot.png)
             }
 
         #faq .top ul li p {
@@ -15940,11 +15942,11 @@ textarea {
                     background-position: 0 8px;
                     display: table-cell;
                     padding-right: 1.6em;
-                    background-image: url(~/public/images/faq/dropdown_icon_mobile.png)
+                    background-image: url(/public/images/faq/dropdown_icon_mobile.png)
                 }
 
                 #faq .top ul li div .rotate {
-                    background-image: url(~/public/images/faq/dropdown_icon_mobile_rot.png)
+                    background-image: url(/public/images/faq/dropdown_icon_mobile_rot.png)
                 }
 
         #faq .top .body {
@@ -16047,7 +16049,7 @@ textarea {
     height: 553px;
     margin-left: auto;
     margin-right: auto;
-    background: url(~/public/images/made_better/desktop/made_better_banner.jpg) no-repeat 50%;
+    background: url(/public/images/made_better/desktop/made_better_banner.jpg) no-repeat 50%;
     background-color: #ffebd3
 }
 
@@ -16331,7 +16333,7 @@ textarea {
 
 @media screen and (max-width:767px) {
     #made_better_page .hero {
-        background: url(~/public/images/made_better/mobile/made_better_banner.jpg) no-repeat 50%;
+        background: url(/public/images/made_better/mobile/made_better_banner.jpg) no-repeat 50%;
         height: auto;
         padding-top: 76.3%;
         background-size: cover;
@@ -16920,22 +16922,26 @@ textarea {
 
 #promotions_page #promo2 {
     position: relative;
+
     background-image: url(~/public/images/promotions/scholarship1_2018.jpg)
+
 }
 
 #promotions_page #promo1 {
     position: relative; 
     background-color: #91cad7;
-    background-image: url(~/public/images/promotions/promo1_desktop.jpg)
+    background-image: url(/public/images/promotions/promo1_desktop.jpg)
 }
 
 @media screen and (max-width:989px) {
     #promotions_page #promo2 {
+
         background-image: url(~/public/images/promotions/scholarship_2018_mobile.jpg)
+
     }
 
     #promotions_page #promo1 {
-        background-image: url(~/public/images/promotions/promo1_mobile.jpg)
+        background-image: url(/public/images/promotions/promo1_mobile.jpg)
     }
 }
 
@@ -17237,7 +17243,7 @@ textarea {
 }
 
     #prints_page .info_slider .flexslider .flex-direction-nav li:first-of-type a {
-        background-image: url(~/public/images/prints/left_arrow.svg)
+        background-image: url(/public/images/prints/left_arrow.svg)
     }
 
 #prints_page .info_slider .flexslider .flex-direction-nav li:nth-of-type(2) {
@@ -17245,7 +17251,7 @@ textarea {
 }
 
     #prints_page .info_slider .flexslider .flex-direction-nav li:nth-of-type(2) a {
-        background-image: url(~/public/imagesprints/right_arrow.svg)
+        background-image: url(/public/imagesprints/right_arrow.svg)
     }
 
 #prints_page .info_slider .flexslider .flex-control-nav {
@@ -17345,13 +17351,13 @@ textarea {
 }
 
 #prints_page .banner1 {
-    background-image: url(~/public/images/prints/prints_banners/1920_top.jpg);
+    background-image: url(/public/images/prints/prints_banners/1920_top.jpg);
     background-color: #badbca
 }
 
 @media screen and (max-width:767px) {
     #prints_page .banner1 {
-        background-image: url(~/public/images/prints/prints_banners/320_top.jpg)
+        background-image: url(/public/images/prints/prints_banners/320_top.jpg)
     }
 }
 
@@ -17469,13 +17475,13 @@ textarea {
 }
 
 #prints_page .banner2 {
-    background-image: url(~/public/images/prints/prints_banners/1920_bottom.jpg);
+    background-image: url(/public/images/prints/prints_banners/1920_bottom.jpg);
     background-color: #b3d6ea
 }
 
 @media screen and (max-width:767px) {
     #prints_page .banner2 {
-        background-image: url(~/public/images/prints/prints_banners/320_bottom.jpg)
+        background-image: url(/public/images/prints/prints_banners/320_bottom.jpg)
     }
 }
 
@@ -17571,7 +17577,7 @@ textarea {
 
 @media screen and (max-width:767px) {
     #prints_page .solids_banner {
-        background-image: url(~/public/images/prints/solids_banners/model_320.jpg);
+        background-image: url(/public/images/prints/solids_banners/model_320.jpg);
         background-size: cover
     }
 }
@@ -17729,7 +17735,7 @@ textarea {
 
 @media screen and (max-width:767px) {
     #prints_page .solids_banner2 {
-        background-image: url(~/public/images/prints/solids_banners/model2_320.jpg);
+        background-image: url(/public/images/prints/solids_banners/model2_320.jpg);
         background-size: cover
     }
 }
@@ -18543,7 +18549,7 @@ textarea {
 }
 
 #prints_page .product_blocks .products_block .hover_selection .bottom .flexslider .flex-direction-nav li:first-of-type a {
-    background-image: url(~/public/images/prints/left_arrow_white.svg);
+    background-image: url(/public/images/prints/left_arrow_white.svg);
     background-position: 50%;
     background-size: 11px 20px
 }
@@ -18565,7 +18571,7 @@ textarea {
 }
 
 #prints_page .product_blocks .products_block .hover_selection .bottom .flexslider .flex-direction-nav li:nth-of-type(2) a {
-    background-image: url(~/public/images/prints/right_arrow_white.svg);
+    background-image: url(/public/images/prints/right_arrow_white.svg);
     background-position: 50%;
     background-size: 11px 20px
 }
@@ -18673,7 +18679,7 @@ textarea {
 }
 
 #fitguide_page .large_wrapper .tops .overlay_img {
-    background-image: url(~/public/images/fitguide/landing/tops_fitguide_bg.jpg)
+    background-image: url(/public/images/fitguide/landing/tops_fitguide_bg.jpg)
 }
 
 #fitguide_page .large_wrapper .tops .cta {
@@ -18693,7 +18699,7 @@ textarea {
 
 
 #fitguide_page .large_wrapper .pants .overlay_img {
-    background-image: url(~/public/images/fitguide/landing/pants_fitguide_bg.jpg)
+    background-image: url(/public/images/fitguide/landing/pants_fitguide_bg.jpg)
 }
 
 #fitguide_page .large_wrapper .pants .cta {
@@ -19012,13 +19018,13 @@ textarea {
         width: 108px;
         height: 108px;
         margin: auto;
-        background: url(~/public/images/fitguide/detail/play_btn.svg) no-repeat;
+        background: url(/public/images/fitguide/detail/play_btn.svg) no-repeat;
         -webkit-transition: background-image .25s ease-in;
         transition: background-image .25s ease-in
     }
 
         #fitguide_detail_page .banner .content .play_btn .play:hover {
-            background-image: url(~/public/images/fitguide/detail/play_btn_hover.svg)
+            background-image: url(/public/images/fitguide/detail/play_btn_hover.svg)
         }
 
 @media screen and (max-width:1026px) {
@@ -19555,62 +19561,62 @@ textarea {
 }
 
 #fitguide_detail_page .fitguide_content .product_blocks .tops_modern .image {
-    background-image: url(~/public/images/fitguide/detail/1680/nurse1.jpg)
+    background-image: url(/public/images/fitguide/detail/1680/nurse1.jpg)
 }
 
 @media screen and (max-width:767px) {
     #fitguide_detail_page .fitguide_content .product_blocks .tops_modern .image {
-        background-image: url(~/public/images/fitguide/detail/767/nurse1.jpg)
+        background-image: url(/public/images/fitguide/detail/767/nurse1.jpg)
     }
 }
 
 #fitguide_detail_page .fitguide_content .product_blocks .tops_relaxed .image {
-    background-image: url(~/public/images/fitguide/detail/1680/nurse2.jpg)
+    background-image: url(/public/images/fitguide/detail/1680/nurse2.jpg)
 }
 
 @media screen and (max-width:767px) {
     #fitguide_detail_page .fitguide_content .product_blocks .tops_relaxed .image {
-        background-image: url(~/public/images/fitguide/detail/767/nurse2.jpg)
+        background-image: url(/public/images/fitguide/detail/767/nurse2.jpg)
     }
 }
 
 #fitguide_detail_page .fitguide_content .product_blocks .tops_classic .image {
-    background-image: url(~/public/images/fitguide/detail/1680/nurse3.jpg)
+    background-image: url(/public/images/fitguide/detail/1680/nurse3.jpg)
 }
 
 @media screen and (max-width:767px) {
     #fitguide_detail_page .fitguide_content .product_blocks .tops_classic .image {
-        background-image: url(~/public/images/fitguide/detail/767/nurse3.jpg)
+        background-image: url(/public/images/fitguide/detail/767/nurse3.jpg)
     }
 }
 
 #fitguide_detail_page .fitguide_content .product_blocks .pants_modern .image {
-    background-image: url(~/public/images/fitguide/detail/1680/pants1.jpg)
+    background-image: url(/public/images/fitguide/detail/1680/pants1.jpg)
 }
 
 @media screen and (max-width:767px) {
     #fitguide_detail_page .fitguide_content .product_blocks .pants_modern .image {
-        background-image: url(~/public/images/fitguide/detail/767/pants1.jpg)
+        background-image: url(/public/images/fitguide/detail/767/pants1.jpg)
     }
 }
 
 #fitguide_detail_page .fitguide_content .product_blocks .pants_natural .image {
-    background-image: url(~/public/images/fitguide/detail/1680/pants2.jpg)
+    background-image: url(/public/images/fitguide/detail/1680/pants2.jpg)
 }
 
 @media screen and (max-width:767px) {
     #fitguide_detail_page .fitguide_content .product_blocks .pants_natural .image {
-        background-image: url(~/public/images/fitguide/detail/767/pants2.jpg)
+        background-image: url(/public/images/fitguide/detail/767/pants2.jpg)
     }
 }
 
 #fitguide_detail_page .fitguide_content .product_blocks .pants_classic .image {
-    background-image: url(~/public/images/fitguide/detail/1680/pants3.jpg)
+    background-image: url(/public/images/fitguide/detail/1680/pants3.jpg)
 }
 
 @media screen and (max-width:767px) {
     #fitguide_detail_page .fitguide_content .product_blocks .pants_classic .image {
-        background-image: url(~/public/images/fitguide/detail/767/pants3.jpg)
+        background-image: url(/public/images/fitguide/detail/767/pants3.jpg)
     }
 }
 
@@ -20729,7 +20735,7 @@ textarea {
 }
 
 .womans_scrub_tops .banner {
-    background-image: url(~/public/images/fitguide/detail/fgw_tops_bg.jpg)
+    background-image: url(/public/images/fitguide/detail/fgw_tops_bg.jpg)
 }
 
 .womans_scrub_tops .fitguide_content .view span {
@@ -20865,7 +20871,7 @@ textarea {
 }
 
 .womans_scrub_pants .banner {
-    background-image: url(~/public/images/fitguide/detail/fgw_pants_bg.jpg)
+    background-image: url(/public/images/fitguide/detail/fgw_pants_bg.jpg)
 }
 
 #review_page .validation-text {
@@ -22364,11 +22370,11 @@ textarea {
                     background-position: 0 8px;
                     display: table-cell;
                     padding-right: 1.6em;
-                    background-image: url(~/public/images/faq/dropdown_icon_mobile.png)
+                    background-image: url(/public/images/faq/dropdown_icon_mobile.png)
                 }
 
                 #favorites-email .top ul li div .rotate {
-                    background-image: url(~/public/images/faq/dropdown_icon_mobile_rot.png)
+                    background-image: url(/public/images/faq/dropdown_icon_mobile_rot.png)
                 }
 
     #favorites-email .form_container {
