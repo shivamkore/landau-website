@@ -10440,6 +10440,33 @@ textarea {
     position: relative
 }
 
+/* Style for Fit Display - Starts Here */
+#detail_page .detail_top > .right .fit-display h3 {
+    margin: 0;
+    padding: 10px 5px;
+    color: #fff;
+    width: 100px;
+    text-align: center;
+    font-family: Proxima N W01 Smbd;
+    text-transform: uppercase;
+    font-size: 1.4em;
+    letter-spacing: 1.0px;
+}
+
+    #detail_page .detail_top > .right .fit-display h3.classic {
+        background-color: #00A0DD;
+    }
+
+    #detail_page .detail_top > .right .fit-display h3.contemp {
+        background-color: #CADB2A;
+        width: 180px;
+    }
+
+    #detail_page .detail_top > .right .fit-display h3.modern {
+        background-color: #F78D28;
+    }
+/* Style for Fit Display - Ends Here */
+
 @media screen and (max-width:1026px) {
     #detail_page .detail_modal .size_chart .chart {
         margin-top: 47px
