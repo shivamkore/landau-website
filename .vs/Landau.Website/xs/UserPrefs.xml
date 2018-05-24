@@ -1,0 +1,14 @@
+﻿<Properties StartupConfiguration="{7BC27821-7C2A-4098-BC51-96A2BF8F136D}|">
+  <MonoDevelop.Ide.Workbench ActiveDocument="ZtherApiIntegration/public/css/style.css">
+    <Files>
+      <File FileName="ZtherApiIntegration/public/css/style.css" Line="22432" Column="65" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.ItemProperties.Landau PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+</Properties>
