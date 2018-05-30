@@ -1,0 +1,32 @@
+﻿@using ZtherApiIntegration.Models.Detail
+@using ZtherApiIntegration.Common
+@model DetailModel
+
+<div class="mobile_dropdown">
+    <div class="title">
+        <span class="text">Coordinates With</span>
+        <span class="arrow">&#xe800;</span>
+    </div>
+</div>
+
+<div class="related">
+    <div class="title">Coordinates With</div>
+    <div class="items_container">
+
+        @for (int i = 0; i < Model.ProductCoordinates.Count; i++)
+        {
+            var aCoordinate = Model.ProductCoordinates[i];            
+            <a href="@UrlBuilder.BuildCanonicalProductDetailUrl(aCoordinate.Code, aCoordinate.Name)" itemprop="isRelatedTo" itemscope itemtype="http://schema.org/Product">
+                <div class="product">
+                    <img class="product_img" srcset="@aCoordinate.ImageUri" alt="@aCoordinate.Name" title="@aCoordinate.Name" />
+                    <div class="footer">
+                        <div class="text" itemprop="name">@aCoordinate.Name</div>
+                        <div class="number">@aCoordinate.Code</div>
+                    </div>
+                </div>
+            </a>
+        }
+
+    </div>
+</div>
+

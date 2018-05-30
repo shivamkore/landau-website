@@ -1,0 +1,49 @@
+﻿@using ZtherApiIntegration.Models.Detail
+@using ZtherApiIntegration.Common
+@model DetailModel
+
+<div class="zoom_wrapper">
+    @Html.Partial("~/Views/Partials/Detail/_ZoomedImagePartial.cshtml", Model.ProductImages)
+</div>
+
+<div class="left">
+
+    <div class="breadcrumbs" itemscope itemtype="http://schema.org/BreadcrumbList">
+        <div itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
+            <a href="@UrlBuilder.BuildHomeUrl()" itemprop="item">
+                <span itemprop="name" class="name">Home</span>
+                <meta itemprop="position" content="1" />
+            </a>
+            <span>/</span>
+            <a href="#" itemprop="item">
+                <span itemprop="name" class="name">@Model.Breadcrumb.Gender</span>
+                <meta itemprop="position" content="2" />
+            </a>
+            @if (Model.Breadcrumb.Collection != null)
+            {
+            <span>/</span>
+            <a href="@UrlBuilder.BuildCatalogUrl(Model.Breadcrumb)" itemprop="item">
+                <span itemprop="name" class="name">@Model.Breadcrumb.Collection.Value</span>
+                <meta itemprop="position" content="3" />
+            </a>
+            }
+            else if (Model.Breadcrumb.Category != null)
+            {
+                <span>/</span>
+                <a href="@UrlBuilder.BuildCatalogUrl(Model.Breadcrumb)" itemprop="item">
+                    <span itemprop="name" class="name">@Utility.GetBreadcrumbCategory(Model.Breadcrumb.Category)</span>
+                    <meta itemprop="position" content="3" />
+                </a>
+            }
+            <span>/</span>
+            <a href="#" itemprop="item">
+                <span itemprop="name" class="name">@Model.ProductDetail.Name</span>
+                <meta itemprop="position" content="4" />
+            </a>
+        </div>
+    </div>
+    <div class="img_container">
+        @Html.Partial("~/Views/Partials/Detail/_ImagesPartial.cshtml", Model)
+    </div>
+
+    </div>
