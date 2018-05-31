@@ -4962,7 +4962,7 @@ textarea {
 }
 
     #homepage .categories .new_arrivals .overlay_img {
-        background-image: url(/public/images/home/category/new-arrivals.jpg)
+        background-image: url(/public/images/home/category/newarrivals_bg.jpg)
     }
 
 @media screen and (max-width:1270px) {
