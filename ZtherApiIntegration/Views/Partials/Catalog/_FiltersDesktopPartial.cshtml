@@ -2,22 +2,23 @@
 @model FilterModel
 
 <div class="left">
-    @if (Model.FilterDisplay.DisplayFitFilter)
-    {
-        <div class="select fit_type">
-            <div class="text">Fit Type</div>
-            <span class="arrow">&#xe800;</span>
-        
-            <div class="select_group fit_type">
+ @if (Model.FilterDisplay.DisplayFitFilter)
+        {
+  
+    <div class="select fit_type">
+        <div class="text">Fit Type</div>
+        <span class="arrow">&#xe800;</span>
+
+        <div class="select_group fit_type">
             @foreach (var dropDownItem in Model.FitTypes)
             {
                 <a value="@dropDownItem.EncodedValue" data-name="@dropDownItem.Name" class="dropdownFilter @(dropDownItem.Selected ? "active" : "")">@dropDownItem.Value</a>
             }
-            </div>  
-            <div class="filter_list"></div>     
         </div>
-    }
-    
+        <div class="filter_list"></div>
+    </div>
+   }
+
     @if (Model.FilterDisplay.DisplaySizeFilter)
     {
         <div class="select size">
@@ -32,7 +33,7 @@
             <div class="filter_list"></div>
         </div>
     }
-    
+
     @if (Model.FilterDisplay.DisplayColorFilter)
     {
         <div class="select color">
@@ -47,7 +48,7 @@
             <div class="filter_list"></div>
         </div>
     }
-    
+
     @if (Model.FilterDisplay.DisplaySort)
     {
         <div class="select sort_by">
