@@ -31,8 +31,12 @@ namespace ZtherApiIntegration.Controllers
                         fitFilter = "Modern Fit";
                         break;
 
-                    case UrlBuilder.CATALOG_NATURAL_FIT:
-                        fitFilter = "Natural Fit";
+                    //case UrlBuilder.CATALOG_NATURAL_FIT:
+                    //    fitFilter = "Natural Fit";
+                    //    break;
+
+                    case UrlBuilder.CATALOG_CONTEMPORARY_FIT:
+                        fitFilter = "Contemporary Fit";
                         break;
                 }
 

@@ -109,7 +109,7 @@ namespace ZtherApiIntegration.Common
         public const string CATALOG_MODERN_FIT = "modern-fit";
         public const string CATALOG_NATURAL_FIT = "natural-fit";
         public const string CATALOG_CLASSIC_FIT = "classic-fit";
-
+        public const string CATALOG_CONTEMPORARY_FIT = "contemporary-fit";
         public static string BuildFullUrl(UrlEnum anUrl)
         {
             return string.Format("{0}://{1}/{2}", HttpContext.Current.Request.Url.Scheme, HttpContext.Current.Request.Url.Authority, Utility.ToDescription(anUrl));
@@ -173,6 +173,10 @@ namespace ZtherApiIntegration.Common
         public static string BuildCategoryPantsWithFitUrl(string gender, string fit)
         {
             return BuildCatalogUrl(gender, "category/pants", fit);
+        }
+        public static string BuildCategoryTopsWithFitUrl(string gender, string fit)
+        {
+            return BuildCatalogUrl(gender, "category/tops", fit);
         }
 
         private static string BuildCatalogUrl(string gender, string type, string typeName)

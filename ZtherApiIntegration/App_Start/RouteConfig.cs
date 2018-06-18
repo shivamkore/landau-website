@@ -19,12 +19,12 @@ namespace ZtherApiIntegration
             routes.IgnoreRoute("{resource}.axd/{*pathInfo}");
 
             routes.MapMvcAttributeRoutes();
-
+             
             routes.MapRoute(
                             "CatalogFit", // Route name
                             "{gender}/{type}/{selection}/{fit}", // URL with parameters
                             new { controller = "Catalog", action = "IndexFit" },
-                            constraints: new { gender = "(women|men)", fit = string.Format("({0}|{1}|{2})", UrlBuilder.CATALOG_CLASSIC_FIT, UrlBuilder.CATALOG_MODERN_FIT, UrlBuilder.CATALOG_NATURAL_FIT) }// Parameter defaults
+                            constraints: new { gender = "(women|men)", fit = string.Format("({0}|{1}|{2})", UrlBuilder.CATALOG_CLASSIC_FIT, UrlBuilder.CATALOG_MODERN_FIT, UrlBuilder.CATALOG_CONTEMPORARY_FIT ) }// Parameter defaults
                         );
             
             routes.Add(
