@@ -500,6 +500,8 @@
     <Content Include="public\images\loyalty\landau-rewards.png" />
     <Content Include="public\images\loyalty\btn-login.png" />
     <Content Include="public\images\loyalty\btn-prize.png" />
+    <Content Include="public\images\promotions\Landau_Ambassador.jpg" />
+    <Content Include="public\images\promotions\Landau_Ambassador_mobile.jpg" />
     <Content Include="public\images\promotions\sales_flyer.jpg" />
     <Content Include="public\images\promotions\scholarship1_2018.jpg" />
     <Content Include="public\images\promotions\scholarship_2018.jpg" />
@@ -1117,7 +1119,6 @@
     <Content Include="Views\Loyalty\disclaimer.cshtml" />
     <Content Include="public\css\rewards.less" />
     <Content Include="Views\GroupPrograms.cshtml" />
-    <Content Include="public\images\Web.config" />
     <None Include="Views\RetailPartners.cshtml" />
     <Content Include="Views\Partials\WhereToBuy\_DealersLogoPartial.cshtml" />
     <Content Include="Views\Promotions.cshtml" />
