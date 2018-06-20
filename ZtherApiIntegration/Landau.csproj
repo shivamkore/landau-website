@@ -56,6 +56,7 @@
   <ItemGroup>
     <Reference Include="BVSeoSdkDotNet">
       <HintPath>..\..\Libraries\BazaarVoice\dotnet_v3.2.0\BVSeoSdkDotNet.dll</HintPath>
+      <Private>True</Private>
     </Reference>
     <Reference Include="Commons">
       <HintPath>..\..\Libraries\BazaarVoice\dotnet_v3.2.0\Commons.dll</HintPath>
@@ -103,6 +104,9 @@
     </Reference>
     <Reference Include="Microsoft.WindowsAzure.Mobile.Ext">
       <HintPath>..\packages\WindowsAzure.MobileServices.2.0.0-beta\lib\net45\Microsoft.WindowsAzure.Mobile.Ext.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=11.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.11.0.2\lib\net45\Newtonsoft.Json.dll</HintPath>
     </Reference>
     <Reference Include="NVelocity">
       <HintPath>..\..\Libraries\BazaarVoice\dotnet_v3.2.0\NVelocity.dll</HintPath>
@@ -180,11 +184,6 @@
     <Reference Include="Antlr3.Runtime">
       <Private>True</Private>
       <HintPath>..\packages\Antlr.3.4.1.9004\lib\Antlr3.Runtime.dll</HintPath>
-    </Reference>
-  </ItemGroup>
-  <ItemGroup>
-    <Reference Include="Newtonsoft.Json">
-      <HintPath>..\packages\Newtonsoft.Json.6.0.4\lib\net45\Newtonsoft.Json.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
