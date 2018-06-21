@@ -439,12 +439,20 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="container.htm" />
+    <Content Include="Content\bootstrap-theme.css" />
+    <Content Include="Content\bootstrap-theme.min.css" />
+    <Content Include="Content\bootstrap.css" />
+    <Content Include="Content\bootstrap.min.css" />
+    <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="public\css\banner.min.css">
       <DependentUpon>banner.css</DependentUpon>
     </Content>
     <Content Include="public\css\custom.min.css">
       <DependentUpon>custom.css</DependentUpon>
     </Content>
+    <Content Include="public\css\fitguide.css" />
+    <Content Include="public\css\flexslider.css" />
+    <Content Include="public\css\fonts\flexslider-icon.svg" />
     <Content Include="public\css\loyalty.css">
       <DependentUpon>loyalty.less</DependentUpon>
     </Content>
@@ -468,6 +476,65 @@
     <Content Include="public\images\collections\collections\prewashed_640.jpg" />
     <Content Include="public\images\collections\collections\prewashed_768.jpg" />
     <Content Include="public\images\collections\collections\prewashed_990.jpg" />
+    <Content Include="public\images\fit-guide\2012-large-1.jpeg" />
+    <Content Include="public\images\fit-guide\2012-large-2.jpeg" />
+    <Content Include="public\images\fit-guide\2012-large.jpeg" />
+    <Content Include="public\images\fit-guide\2012.jpeg" />
+    <Content Include="public\images\fit-guide\2024-large.jpeg" />
+    <Content Include="public\images\fit-guide\2024-lg-2.jpeg" />
+    <Content Include="public\images\fit-guide\2024-lg.jpeg" />
+    <Content Include="public\images\fit-guide\2024.jpeg" />
+    <Content Include="public\images\fit-guide\2025.jpeg" />
+    <Content Include="public\images\fit-guide\2035.jpeg" />
+    <Content Include="public\images\fit-guide\4098-large.jpeg" />
+    <Content Include="public\images\fit-guide\4098.jpeg" />
+    <Content Include="public\images\fit-guide\4125-large-1.jpeg" />
+    <Content Include="public\images\fit-guide\4125-large-2.jpeg" />
+    <Content Include="public\images\fit-guide\4125-large.jpeg" />
+    <Content Include="public\images\fit-guide\4125.jpeg" />
+    <Content Include="public\images\fit-guide\4143.jpeg" />
+    <Content Include="public\images\fit-guide\7478.jpeg" />
+    <Content Include="public\images\fit-guide\7489-large.jpeg" />
+    <Content Include="public\images\fit-guide\7489.jpeg" />
+    <Content Include="public\images\fit-guide\7502.jpeg" />
+    <Content Include="public\images\fit-guide\7602.jpeg" />
+    <Content Include="public\images\fit-guide\8219-large-1.jpeg" />
+    <Content Include="public\images\fit-guide\8219-large-2.jpeg" />
+    <Content Include="public\images\fit-guide\8219-large.jpeg" />
+    <Content Include="public\images\fit-guide\8219.jpeg" />
+    <Content Include="public\images\fit-guide\8232.jpeg" />
+    <Content Include="public\images\fit-guide\8327-large.jpeg" />
+    <Content Include="public\images\fit-guide\8327.jpeg" />
+    <Content Include="public\images\fit-guide\8335.jpeg" />
+    <Content Include="public\images\fit-guide\8555-large.jpeg" />
+    <Content Include="public\images\fit-guide\8555.jpeg" />
+    <Content Include="public\images\fit-guide\9047.jpeg" />
+    <Content Include="public\images\fit-guide\9062.jpg" />
+    <Content Include="public\images\fit-guide\9063-large.jpg" />
+    <Content Include="public\images\fit-guide\9063.jpg" />
+    <Content Include="public\images\fit-guide\9306.jpeg" />
+    <Content Include="public\images\fit-guide\9324.jpeg" />
+    <Content Include="public\images\fit-guide\9329.jpeg" />
+    <Content Include="public\images\fit-guide\9330-large.jpg" />
+    <Content Include="public\images\fit-guide\9502.jpeg" />
+    <Content Include="public\images\fit-guide\9534.jpeg" />
+    <Content Include="public\images\fit-guide\9577.jpeg" />
+    <Content Include="public\images\fit-guide\landau_logo2.png" />
+    <Content Include="public\images\fit-guide\model.png" />
+    <Content Include="public\images\fit-guide\s101002-large-2.jpeg" />
+    <Content Include="public\images\fit-guide\s101002.jpeg" />
+    <Content Include="public\images\fit-guide\s101033.jpeg" />
+    <Content Include="public\images\fit-guide\s201002.jpeg" />
+    <Content Include="public\images\fit-guide\s201003.jpeg" />
+    <Content Include="public\images\fit-guide\sig-gif2.gif" />
+    <Content Include="public\images\fit-guide\sig-logo.png" />
+    <Content Include="public\images\fit-guide\smitten_logo.svg" />
+    <Content Include="public\images\fit-guide\tag-c.jpg" />
+    <Content Include="public\images\fit-guide\tag-con.jpg" />
+    <Content Include="public\images\fit-guide\tag.jpg" />
+    <Content Include="public\images\fit-guide\tile.png" />
+    <Content Include="public\images\fit-guide\urbane_logo.svg" />
+    <Content Include="public\images\fit-guide\video-banner.jpg" />
     <Content Include="public\images\header\banner3.jpg" />
     <Content Include="public\images\header\landau_logo2.png" />
     <Content Include="public\images\header\smitten_logo2.png" />
@@ -1102,6 +1169,14 @@
     <None Include="compilerconfig.json.defaults">
       <DependentUpon>compilerconfig.json</DependentUpon>
     </None>
+    <Content Include="Content\bootstrap-theme.css.map" />
+    <Content Include="Content\bootstrap-theme.min.css.map" />
+    <Content Include="Content\bootstrap.css.map" />
+    <Content Include="Content\bootstrap.min.css.map" />
+    <Content Include="fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="fonts\glyphicons-halflings-regular.woff2" />
     <None Include="Properties\PublishProfiles\landau - Web Deploy.pubxml" />
     <None Include="Properties\PublishProfiles\landau-staging - Web Deploy.pubxml" />
     <Content Include="public\images\home\font\Trade Gothic LT Condensed No. 18.otf" />
@@ -1118,6 +1193,12 @@
     <Content Include="Views\Loyalty\disclaimer.cshtml" />
     <Content Include="public\css\rewards.less" />
     <Content Include="Views\GroupPrograms.cshtml" />
+    <Content Include="public\css\fonts\.DS_Store" />
+    <Content Include="public\css\fonts\flexslider-icon.eot" />
+    <Content Include="public\css\fonts\flexslider-icon.ttf" />
+    <Content Include="public\css\fonts\flexslider-icon.woff" />
+    <Content Include="public\images\fit-guide\.DS_Store" />
+    <Content Include="public\images\fit-guide\0073-Fit Guide Webpage 4-8-18.pdf" />
     <None Include="Views\RetailPartners.cshtml" />
     <Content Include="Views\Partials\WhereToBuy\_DealersLogoPartial.cshtml" />
     <Content Include="Views\Promotions.cshtml" />
