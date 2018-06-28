@@ -1,0 +1,15 @@
+﻿@using ZtherApiIntegration.Models.WhereToBuy;
+@using ZtherApiIntegration.Common;
+@model WhereToBuyIntlModel
+
+<div id="where_to_buy" class="international">
+    <h1>Where to Buy</h1>
+    @Html.Partial("~/Views/Partials/WhereToBuy/_SearchBarPartial.cshtml", Model.Countries)
+    <div class="locations_container">
+        <div class="dealers_container" id="retailDealer">
+            @Html.Partial("~/Views/Partials/WhereToBuy/_DealersIntlPartial.cshtml", Model)
+        </div>
+    </div>
+</div>
+<input type="hidden" id="hdnUrl" value="@UrlBuilder.BuildFullUrl(UrlEnum.WHERE_TO_BUY)" />
+<script src="public/js/logic/where_to_buy_Intl.js"></script>

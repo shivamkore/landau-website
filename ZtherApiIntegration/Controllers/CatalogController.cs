@@ -59,7 +59,7 @@ namespace ZtherApiIntegration.Controllers
         }
 
 
-        public ActionResult Index(string selection)
+        public ActionResult Index(string selection, string fit)
         {
             string category = null, collection = null;
 
@@ -69,13 +69,92 @@ namespace ZtherApiIntegration.Controllers
                     category = selection;
                 else if (this.RouteData.Values["type"].ToString().ToLower() == "collection")
                     collection = selection;
-
-                return BuildCatalogHome(category, collection, null);
+                if(fit == null)
+                {
+                    return BuildCatalogHome(category, collection, null);
+                }
+                else
+                {
+                    return BuildCatalogHomeByFit(category, fit);
+                }
+                
             }
             catch
             {
                 throw Utility.Exception404();
             }
+        }
+
+        private ActionResult BuildCatalogHomeByFit(string category, string fitFilter)
+        {
+                string gender = null, genderFilter = null;
+
+                gender = this.RouteData.Values["gender"].ToString().ToLower();
+                genderFilter = Constants.GenderFilterFor(gender);
+
+                ViewBag.Scripts = new List<string>() { "catalog.js" };
+
+                var model = new CatalogModel();
+                model.Selections = SelectionsManager.GetSelectionModel(this.CurrentBrand);
+
+                this.BuildBreadcrumb(model.Selections.Breadcrumb, category, null, gender, genderFilter);
+
+                if (string.IsNullOrEmpty(gender) ||
+                    ((model.Selections.Breadcrumb.Category == null && !model.Selections.Breadcrumb.IsCategoryForNewProds) &&
+                    model.Selections.Breadcrumb.Collection == null))
+                    throw Utility.Exception404();
+
+                    //get filters
+                    model.Filters = FiltersManager.GetFilterModel(this.CurrentBrand, genderFilter);
+            
+                if (fitFilter != null)
+                {
+                    var fit = model.Filters.FitTypes.Where(d => d.Name.ToLower() == fitFilter.ToLower()).FirstOrDefault();
+                    if (fit != null)
+                        fit.Selected = true;
+                }
+
+                model.ProductList = ProductsManager.GetProducts(this.Session,
+                    new ProductListFilter()
+                    {
+                        Brand = this.CurrentBrand,
+                        ViewAll = false,
+                        PageNumber = 1,
+                        Collection = model.Selections.Breadcrumb.Collection != null ? model.Selections.Breadcrumb.Collection.Name : null,
+                        Gender = genderFilter,
+                        Category = model.Selections.Breadcrumb.Category != null ? model.Selections.Breadcrumb.Category.Name : null,
+                        IsNew = model.Selections.Breadcrumb.IsCategoryForNewProds ? "true" : null,
+                        Fit = string.IsNullOrEmpty(fitFilter) ? new List<string>() : new List<string>() { fitFilter }
+                    });
+
+            if(fitFilter  == "Classic" || fitFilter == "Modern")
+            {
+                string fileName = fitFilter == "Classic" ? "ln_fit_classic" : "ln_fit_modern";
+                var arr = model.ProductList.CatalogImage.Split('/');
+
+                for (int i = 0; i < arr.Length; i++)
+                {
+                    if (arr[i].Contains(".jpg"))
+                    {
+                        arr[i] = fileName + ".jpg";
+                    }
+                }
+                model.ProductList.CatalogImage = String.Join("/", arr);               
+            }
+
+            model.Filters.FilterDisplay = model.ProductList.FilterDisplay;
+            model.Filters.FilterDisplay.DisplayFitFilter = false;
+                model.ProductList.DisplaySlider = !((category == "other-products") ||
+                                                    (category == "new-arrivals") ||
+                                                    (genderFilter == Constants.WOMEN_GENDER && category == "pre-washed") ||
+                                                    (genderFilter == Constants.MEN_GENDER && category == "pre-washed") ||
+                                                    (genderFilter == Constants.MEN_GENDER && category == "mens-ripstop"));
+
+                ViewBag.Title = model.ProductList.Seo.PageTitle;
+                ViewBag.Description = model.ProductList.Seo.PageDescription;
+
+                return View(PathFromView("FitTypes"), model);
+            
         }
 
         private ActionResult BuildCatalogHome(string category, string collection, string fitFilter)

@@ -4962,7 +4962,7 @@ textarea {
 }
 
     #homepage .categories .new_arrivals .overlay_img {
-        background-image: url(/public/images/home/category/new-arrivals.jpg)
+        background-image: url(/public/images/home/category/newarrivals_bg.jpg)
     }
 
 @media screen and (max-width:1270px) {
@@ -16922,9 +16922,7 @@ textarea {
 
 #promotions_page #promo2 {
     position: relative;
-
-    background-image: url(~/public/images/promotions/scholarship1_2018.jpg)
-
+    background-image: url(~/public/images/promotions/Landau_Ambassador.jpg)
 }
 
 #promotions_page #promo1 {
@@ -16935,9 +16933,7 @@ textarea {
 
 @media screen and (max-width:989px) {
     #promotions_page #promo2 {
-
-        background-image: url(~/public/images/promotions/scholarship_2018_mobile.jpg)
-
+        background-image: url(~/public/images/promotions/Landau_Ambassador_mobile.jpg)
     }
 
     #promotions_page #promo1 {

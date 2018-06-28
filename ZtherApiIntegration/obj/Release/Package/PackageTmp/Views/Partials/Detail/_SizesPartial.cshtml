@@ -1,0 +1,14 @@
+﻿@using ZtherApiIntegration.Models.Detail
+@model List<ProductSizeModel>
+
+@if (Model.Count > 0)
+{
+    var k = 0;
+    foreach (var aSize in Model)
+    {
+        <div class='size_option@(k==0 ? " selected" : "")' data-size-category="@aSize.SizeCategory">@aSize.SizeCode</div>
+        k++;
+    }
+}
+
+

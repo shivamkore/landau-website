@@ -553,6 +553,7 @@
     <Content Include="public\images\home\category\pinterest.png" />
     <Content Include="public\images\home\category\pinterest_logo.png" />
     <Content Include="public\images\home\category\twitter_logo.gif" />
+    <Content Include="public\images\home\location_catalog\FA18_landau_catalog.png" />
     <Content Include="public\images\home\location_catalog\landau_catalog.png" />
     <Content Include="public\images\loyalty\btn-one.png" />
     <Content Include="public\images\loyalty\btn-two.png" />
@@ -1224,6 +1225,7 @@
     <Content Include="scripts\jquery-1.10.2.min.map" />
     <Content Include="scripts\jquery-3.1.1.min.map" />
     <Content Include="scripts\jquery-3.1.1.slim.min.map" />
+    <Content Include="Views\FitTypes.cshtml" />
     <None Include="Views\RetailPartners.cshtml" />
     <Content Include="Views\Partials\WhereToBuy\_DealersLogoPartial.cshtml" />
     <Content Include="Views\Promotions.cshtml" />

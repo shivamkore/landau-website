@@ -1,0 +1,12 @@
+﻿@using ZtherApiIntegration.Models
+@model PaginationModel
+
+@if (Model != null && Model.PageCount > 0)
+{ 
+    <div class="right">
+        <a href="javascript:onViewAll();" class="view_all">@(Model.CurrentPage > 0 ? "View All" : "Show(16)")</a>
+         
+        @Html.Partial("~/Views/Partials/_BasePaginationPartial.cshtml", Model)
+        
+    </div>
+}

@@ -1,7 +1,66 @@
-$(function(){
+$(function () {
+   
 		$('.flexslider').flexslider({
 			animation: "slide"
 		});
+
+    $('#Seemorefromlandau').on('click', function () {
+        redirecttofit(null);
+    });
+    
+    $('#seemorefromurbane').on('click', function () {
+        redirecttofit('urbane');
+    });
+
+    $('#morecomingsoon').on('click', function () {
+        redirecttofit(null);
+    });
+
+    $('#seemorefromsmitten ').on('click', function () {
+        redirecttofit('smitten');
+    });
+
+    function redirecttofit(externalLink) {
+        var redirectUrl = {};
+        var gender = $('#options').children('#active').children('div').attr('class');
+        var types = $('.types').children('#active').attr('class');
+        var fit = $('#active.style').attr('class');
+
+        if (types == "pants clothing") {
+            types = "pants";
+        }
+        else if (types == "tops clothing") {
+            types = "tops";
+        }
+
+        if (fit == "classic style") {
+            fit = "Classic";
+        }
+        else if (fit == "modern style") {
+            fit = "Modern";
+        }
+        else if (fit == "contemporary style") {
+            fit = "Contemporary";
+        }
+
+        if (gender == 'men' && fit == "Contemporary") {
+            fit = 'Classic';
+        }
+
+        redirectUrl = { gender: gender, types: types, fit: fit };
+        console.log(redirectUrl);
+        if (externalLink=='urbane') {
+            window.location.href = "http://www.urbanescrubs.com/" + redirectUrl.gender + '/category/' + redirectUrl.types + '?fit=' + redirectUrl.fit;
+        }
+        else if (externalLink == 'smitten') {
+            window.location.href = "http://www.smittenscrubs.com/" + redirectUrl.gender + '/collection/' + redirectUrl.types + '?fit=' + redirectUrl.fit;
+        }
+        else {
+            window.location = redirectUrl.gender + '/category/' + redirectUrl.types + '?fit=' + redirectUrl.fit;
+        }
+        
+    
+    }
 
 		$('.style').on('click', function(){
 			$('#active.style').attr('id', '');
@@ -80,8 +139,9 @@ console.log(types);
 			$('.classic-fit').fadeIn('slow');
 		}
 
-		console.log(fit);
-		var output;
+        console.log(fit);
+
+        var output;
 
 		if(gender == 'men'){
 			$('button.landau').fadeOut();
@@ -131,7 +191,7 @@ console.log(types);
 
 			}
 		}
-		if(gender == 'women'){
+		else if(gender == 'women'){
 			$('button.landau').fadeIn();
 			$('button.landau-temp').fadeOut();
 			$('#women-chart').fadeIn();
@@ -262,6 +322,7 @@ console.log(types);
 
 
 	}
+
 
 	function add_content(output){
 		$('#slider_below').empty();

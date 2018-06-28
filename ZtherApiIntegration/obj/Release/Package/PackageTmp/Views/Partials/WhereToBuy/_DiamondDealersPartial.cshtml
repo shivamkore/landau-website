@@ -1,0 +1,49 @@
+﻿@using ZtherApiIntegration.Models.WhereToBuy
+@model WhereToBuyModel
+
+<script type="text/javascript">
+    var diamondDealers = [];
+    @foreach (var d in Model.DiamondList.Retailers)
+    {
+        @:diamondDealers.push(['@d.StoreName', '@d.Latitude', '@d.Longitude']);
+    }
+
+
+</script>
+
+    <div class="title hidden-lg">
+        <div class="text">Retailers</div>
+        <div class="sub_text">@Model.SearchByDesc
+        <span class="highlight space_left">@Model.SearchByValue</span>
+        <span class="divider">|</span>Displaying
+        <span class="highlight space_both">@Model.RetailList.Retailers.Count</span>Stores
+        </div>
+    </div>
+    
+    <div class="header">
+        <picture>
+            <!--[if IE 9]><video style="display: none;"><![endif]-->
+            <source srcset="public/images/where_to_buy/diamond_dealers.png" media="(min-width: 768px)" />
+            <!--[if IE 9]></video><![endif]-->
+            <img class="header_img" src="public/images/where_to_buy/diamond_dealers.png" alt="diamond dealers" />
+        </picture>
+    </div>
+
+    <div class="bottom">
+        <div class="left_scroll">
+            <span>&#xe800;</span>
+        </div>
+        <div class="right_scroll">
+            <span>&#xe800;</span>
+        </div>
+        <div class="locations">
+            <div class="flexslider mobile">
+                @Html.Partial("~/Views/Partials/WhereToBuy/_SliderMobile.cshtml", Model.DiamondList)
+            </div>
+            <!-- .flexslider mobile -->
+            <div class="flexslider desktop">
+                @Html.Partial("~/Views/Partials/WhereToBuy/_SliderDesktop.cshtml", Model.DiamondList)
+            </div>
+            <!-- .flexslider -->
+        </div>
+    </div>

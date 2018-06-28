@@ -112,7 +112,6 @@ C:\Projects\Github\landau-web\ZtherApiIntegration\bin\Microsoft.Rest.ClientRunti
 C:\Projects\Github\landau-web\ZtherApiIntegration\bin\Microsoft.Web.Infrastructure.dll
 C:\Projects\Github\landau-web\ZtherApiIntegration\bin\Microsoft.WindowsAzure.Mobile.dll
 C:\Projects\Github\landau-web\ZtherApiIntegration\bin\Microsoft.WindowsAzure.Mobile.Ext.dll
-C:\Projects\Github\landau-web\ZtherApiIntegration\bin\Newtonsoft.Json.dll
 C:\Projects\Github\landau-web\ZtherApiIntegration\bin\Recaptcha.Web.dll
 C:\Projects\Github\landau-web\ZtherApiIntegration\bin\System.Net.Http.Extensions.dll
 C:\Projects\Github\landau-web\ZtherApiIntegration\bin\System.Net.Http.Formatting.dll
@@ -145,9 +144,7 @@ C:\Projects\Github\landau-web\ZtherApiIntegration\bin\System.Web.WebPages.xml
 C:\Projects\Github\landau-web\ZtherApiIntegration\bin\System.Web.WebPages.Deployment.xml
 C:\Projects\Github\landau-web\ZtherApiIntegration\bin\System.Web.WebPages.Razor.xml
 C:\Projects\Github\landau-web\ZtherApiIntegration\bin\Antlr3.Runtime.pdb
-C:\Projects\Github\landau-web\ZtherApiIntegration\bin\Newtonsoft.Json.xml
 C:\Projects\Github\landau-web\ZtherApiIntegration\obj\Release\Landau.csproj.App.config
-C:\Projects\Github\landau-web\ZtherApiIntegration\obj\Release\Landau.csprojResolveAssemblyReference.cache
 C:\Projects\Github\landau-web\ZtherApiIntegration\obj\Release\ZtherApiIntegration.dll
 C:\Projects\Github\landau-web\ZtherApiIntegration\obj\Release\ZtherApiIntegration.pdb
 C:\Projects\Github\Landau\landau-web\ZtherApiIntegration\bin\ApplicationInsights.config
@@ -272,3 +269,6 @@ C:\Projects\GitHub\Landau\ZtherApiIntegration\obj\Release\Landau.csproj.CoreComp
 C:\Projects\GitHub\Landau\ZtherApiIntegration\obj\Release\Landau.csproj.CopyComplete
 C:\Projects\GitHub\Landau\ZtherApiIntegration\obj\Release\ZtherApiIntegration.dll
 C:\Projects\GitHub\Landau\ZtherApiIntegration\obj\Release\ZtherApiIntegration.pdb
+C:\Projects\GitHub\landau-web\ZtherApiIntegration\obj\Release\Landau.csprojAssemblyReference.cache
+C:\Projects\GitHub\landau-web\ZtherApiIntegration\obj\Release\Landau.csproj.CoreCompileInputs.cache
+C:\Projects\GitHub\landau-web\ZtherApiIntegration\obj\Release\Landau.csproj.CopyComplete
