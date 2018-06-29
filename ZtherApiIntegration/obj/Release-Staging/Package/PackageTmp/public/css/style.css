@@ -5331,7 +5331,7 @@ textarea {
                     }
 
     #homepage .location_catalog .catalog {
-        background-image: url(/public/images/home/location_catalog/landau_catalog.png);
+        background-image: url(/public/images/home/location_catalog/FA18_landau_catalog.png);
         background-color: #f6f6f6;
         background-repeat: no-repeat;
         background-position: right -90px bottom -40px;
@@ -16841,16 +16841,16 @@ textarea {
     }
 
 
-    #promotions_page .promo2 .content .cta-promo2 {
-        position: relative;
-        display: inline-block;
-        border: 1px solid;
-        margin-top: 26px;
-        line-height: 37px;
-        padding: 0 39px 0 24px;
-        -webkit-transition: background-color .25s ease,color .25s ease,border-color .25s ease;
-        transition: background-color .25s ease,color .25s ease,border-color .25s ease
-    }
+#promotions_page .promo2 .content .cta-promo2 {
+    position: relative;
+    display: inline-block;
+    border: 1px solid;
+    margin-top: 26px;
+    line-height: 37px;
+    padding: 0 39px 0 24px;
+    -webkit-transition: background-color .25s ease,color .25s ease,border-color .25s ease;
+    transition: background-color .25s ease,color .25s ease,border-color .25s ease
+}
 
 @media screen and (max-width:989px) {
     #promotions_page .promo .content .cta-promo {
@@ -17032,10 +17032,10 @@ textarea {
     }
 }
 
-#promotions_page #promo2 .content .cta-promo2 {
-    background-color: #00529C;
-    border-color: #00529C;
-}
+    #promotions_page #promo2 .content .cta-promo2 {
+        background-color: #00529C;
+        border-color: #00529C;
+    }
 
     #promotions_page #promo2 .content .cta-promo2 .cta-text,
     #promotions_page #promo2 .content .cta-promo2 .cta-arrow {

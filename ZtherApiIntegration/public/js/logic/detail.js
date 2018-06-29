@@ -307,7 +307,7 @@ function getFavsFromStorage() {
 
 function measureChart() {
     $('.measurement').off('click');
-    window.location.href = "http://www.landau.com/size-charts";
+    window.location.href = "http://www.landau.com/fit-guide";
 }
 
 function isIE() {

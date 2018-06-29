@@ -2107,7 +2107,7 @@ textarea {
     overflow: hidden
 }
 
-    #homepage #video_overlay {
+    #homepage #video_overlay, #fitguide_page #video_overlay {
         cursor: pointer;
         display: none;
         position: fixed;

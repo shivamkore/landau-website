@@ -47,12 +47,43 @@
         </a>*@
 
     <div id="video-banner">
-        <img src="public/images/fit-guide/video-banner.jpg" />
+        <div id="video_overlay"></div>
+
+        <img class="background" style="width:100%" srcset="public/images/fit-guide/video-banner.jpg" draggable="false" />
+
+        @*<img src="public/images/fit-guide/video-banner.jpg" />*@
+        <div class="video_container">
+            <iframe src="http://fast.wistia.net/embed/iframe/3hz3nemnz4" id="wistia_video" allowtransparency="true" autoplay="true" frameborder="0" scrolling="no" class="wistia_embed" name="wistia_embed" allowfullscreen mozallowfullscreen webkitallowfullscreen oallowfullscreen msallowfullscreen width="100%" height="100%"></iframe>
+            <script src="http://fast.wistia.net/assets/external/E-v1.js" async></script>
+
+        </div>
+        <div class="play_btn">
+            <div class="play" alt=""></div>
+        </div>
     </div>
 
-
-
-
+    @*************************
+        <div class="banner">
+            <div class="video_overlay"></div>
+            <img class="video_exit" srcset="public/images/fitguide/detail/close_x.svg" />
+            <div class="video_container">
+                <iframe id="iframe" width="100%" height="100%" src="https://www.youtube.com/embed/jw660L7niow?wmode=transparent" frameborder="0" allowfullscreen></iframe>
+            </div>
+            <div class="content">
+                <h1>
+                    <span>
+                        <picture>
+                            <img srcset="public/images/fitguide/detail/womans_sp_text.png 1x, public/images/fitguide/detail/womans_sp_text@2x.png 2x" alt="Women's Scrub Pants">
+                        </picture>
+                    </span>
+                    <span class="bot">Find Your Fit</span>
+                </h1>
+                <div class="play_btn">
+                    <div class="play" alt=""></div>
+                </div>
+            </div>
+        </div>
+    *@
 
 
     <div class="container">
@@ -178,11 +209,6 @@
             </div>
 
 
-
-
-
-
-            
             <div class="landau-row">
                 <div class="col-xs-12 col-md-12">
 
@@ -227,10 +253,10 @@
                     </div>
 
                 </div>
-                <button class="landau" style="">
+                <button class="landau" style="" id="Seemorefromlandau">
                     See More From Landau >
                 </button>
-                <button class="landau-temp" disabled="disabled" style="">
+                <button class="landau-temp" id="morecomingsoon" style="">
                     More Coming Soon >
                 </button>
             </div>
@@ -284,7 +310,7 @@
                     </div>
 
                 </div>
-                <button class="smitten">
+                <button class="smitten" id="seemorefromsmitten">
                     See More From Smitten >
                 </button>
 
@@ -293,7 +319,7 @@
 
 
 
-            
+
             <div class="urbane-row">
                 <div class="col-xs-12 col-md-12">
                     <div class="urbane_logo">
@@ -338,7 +364,7 @@
 
                 </div>
 
-                <button class="urbane">
+                <button class="urbane" id="seemorefromurbane">
                     See More From Urbane >
                 </button>
             </div>
@@ -778,7 +804,7 @@
 
 
 
-        <script src="public/js/fitguide.js" ></script>
+        <script src="public/js/fitguide.js"></script>
 
 
 </section>

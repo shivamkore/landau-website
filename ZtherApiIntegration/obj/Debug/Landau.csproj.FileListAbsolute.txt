@@ -609,4 +609,9 @@ C:\Projects\GitHub\landau-web\ZtherApiIntegration\obj\Debug\Landau.csproj.CoreCo
 C:\Projects\GitHub\landau-web\ZtherApiIntegration\obj\Debug\Landau.csproj.CopyComplete
 C:\Projects\GitHub\landau-web\ZtherApiIntegration\obj\Debug\ZtherApiIntegration.dll
 C:\Projects\GitHub\landau-web\ZtherApiIntegration\obj\Debug\ZtherApiIntegration.pdb
+C:\Projects\GitHub\landau-web\ZtherApiIntegration\bin\BVSeoSdkDotNet.dll
+C:\Projects\GitHub\landau-web\ZtherApiIntegration\bin\Commons.dll
+C:\Projects\GitHub\landau-web\ZtherApiIntegration\bin\log4net.dll
+C:\Projects\GitHub\landau-web\ZtherApiIntegration\bin\NVelocity.dll
+C:\Projects\GitHub\landau-web\ZtherApiIntegration\bin\BVSeoSdkDotNet.pdb
 C:\Projects\GitHub\landau-web\ZtherApiIntegration\obj\Debug\Landau.csprojAssemblyReference.cache
