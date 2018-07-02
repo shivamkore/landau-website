@@ -93,21 +93,21 @@ transition: font-weight .6s ease-in-out;
 	transition: font-weight .6s ease-in-out;
 }
 
-.smitten-row > div > div > img{
-	height: 220px ;
-	width: auto;
-	border: 1px solid black;
+.smitten-row > div > div > img, .smitten-row > div > div > a > img {
+    height: 220px;
+    width: auto;
+    border: 1px solid black;
 }
-.landau-row > div > div > img{
-	height: 220px;
-	width: auto ;
-	border: 1px solid black;
+.landau-row > div > div > img, .landau-row > div > div > a > img {
+    height: 220px;
+    width: auto;
+    border: 1px solid black;
 }
 
-.urbane-row > div > div > img{
-	height: 220px ;
-	width: auto;
-	border: 1px solid black;
+.urbane-row > div > div > img, .urbane-row > div > div > a > img {
+    height: 220px;
+    width: auto;
+    border: 1px solid black;
 }
 
 .types #active{

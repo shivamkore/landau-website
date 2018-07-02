@@ -24,7 +24,7 @@ namespace ZtherApiIntegration.Controllers
         {
             this.FillSeoInformation("Size Charts");
 
-            return View(PathFromView("SizeCharts"));
+            return View(PathFromView("FitGuide"));
         }
     }
 }

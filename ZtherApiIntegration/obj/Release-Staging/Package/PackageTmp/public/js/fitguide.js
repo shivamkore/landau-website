@@ -57,9 +57,7 @@ $(function () {
         }
         else {
             window.location = redirectUrl.gender + '/category/' + redirectUrl.types + '?fit=' + redirectUrl.fit;
-        }
-        
-    
+        } 
     }
 
 		$('.style').on('click', function(){
