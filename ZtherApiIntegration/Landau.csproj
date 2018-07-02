@@ -604,6 +604,7 @@
     <Content Include="public\js\retina.js" />
     <Content Include="scripts\bootstrap.js" />
     <Content Include="scripts\bootstrap.min.js" />
+    <Content Include="public\catalog.pdf" />
     <None Include="scripts\jquery-1.10.2-vsdoc.js" />
     <Content Include="scripts\jquery-1.10.2.js" />
     <Content Include="scripts\jquery-1.10.2.min.js" />
@@ -1218,7 +1219,6 @@
     <None Include="Properties\PublishProfiles\landau-staging - Web Deploy.pubxml" />
     <Content Include="public\images\home\font\Trade Gothic LT Condensed No. 18.otf" />
     <Content Include="public\catalog-staging.pdf" />
-    <Content Include="public\catalog.pdf" />
     <Content Include="public\fonts\4a66a0d94c487ba3931a9aa17e90db5c.woff2" />
     <Content Include="public\images\videos\16-LAND-0145_SP17_FOB_Stripes_1080p.mp4" />
     <Content Include="public\images\videos\16-LAND-0145_SP17_FOB_Stripes_720p.mp4" />
