@@ -4,6 +4,12 @@
 <link rel="stylesheet" type="text/css" href="public/css/flexslider.css">
 @*Commented for 2018 Fall Fit Guide Page Update June 4th_SnehaK*@
 <section id="fitguide_page" class="clearfix">
+    <div id="video_overlay"></div>
+    <div id="video_popup">
+        <iframe src="http://fast.wistia.net/embed/iframe/3hz3nemnz4" id="wistia_video" allowtransparency="true" autoplay="true" frameborder="0" scrolling="no" class="wistia_embed" name="wistia_embed" allowfullscreen mozallowfullscreen webkitallowfullscreen oallowfullscreen msallowfullscreen width="100%" height="100%"></iframe>
+        <script src="http://fast.wistia.net/assets/external/E-v1.js" async></script>
+    </div>
+    <!--
     @*<div class="large_wrapper clearfix">
         <a href="@UrlBuilder.BuildFullUrl(UrlEnum.FIT_GUIDE_TOPS)">
             <div class="tops block">
@@ -11,7 +17,7 @@
                 <div class="overlay_img"></div>
                 <div class="content">
                     <div class="img_text">
-                        <picture>
+                        <picture class="home-slider-0">
                             <img srcset="public/images/fitguide/landing/tops_fitguide_text.png 1x, publicpublic/images/fitguide/landing/tops_fitguide_text@2x.png 2x" alt="">
                         </picture>
                     </div>
@@ -21,8 +27,7 @@
                 </div>
             </div>
         </a>*@
-    <!-- .tops -->
-    @*<a href="@UrlBuilder.BuildFullUrl(UrlEnum.FIT_GUIDE_PANTS)">
+        @*<a href="@UrlBuilder.BuildFullUrl(UrlEnum.FIT_GUIDE_PANTS)">
             <div class="pants block">
                 <div class="shadow"></div>
                 <div class="overlay_img"></div>
@@ -38,21 +43,19 @@
                 </div>
             </div>
         </a>*@
-    <!-- .pants -->
-    @*</div>*@
+        @*
+    </div>*@
     @*Commented for  2018 Fall Fit Guide Page Update on June 4th_Sneha
-        <section id="fitguide_page" class="clearfix">*@
-    @*<a href="@UrlBuilder.BuildFullUrl(UrlEnum.SIZE_CHARTS)" class="view_fitguide">
+    <section id="fitguide_page" class="clearfix">
+        *@
+        @*<a href="@UrlBuilder.BuildFullUrl(UrlEnum.SIZE_CHARTS)" class="view_fitguide">
             <span class="text">View All Measurement Charts <span class="arrow">&#xe805;</span></span>
-        </a>*@
+        </a>*@ -->
 
-    <div id="video-banner">
-        <img src="public/images/fit-guide/video-banner.jpg" />
+    <div id="video-banner" class="home-slider-0">
+        <img src="public/images/fit-guide/video-banner.jpg" />*
+
     </div>
-
-
-
-
 
 
     <div class="container">
@@ -73,10 +76,10 @@
                     </div>
                 </div>
                 <!--    <div class="col-md-4">
-                        <div class="unisex">
-                            UNISEX
-                        </div>
-                    </div> -->
+                    <div class="unisex">
+                        UNISEX
+                    </div>
+                </div> -->
 
             </div>
         </div>
@@ -96,10 +99,10 @@
                         TOPS
                     </div>
                     <!--    <div class='seperator-slant'>/</div>
-                        <div class="coats clothing">
-                            COATS
-                        </div>
-                     -->
+                       <div class="coats clothing">
+                           COATS
+                       </div>
+                    -->
                 </div>
             </div>
         </div>
@@ -178,11 +181,6 @@
             </div>
 
 
-
-
-
-
-            
             <div class="landau-row">
                 <div class="col-xs-12 col-md-12">
 
@@ -227,10 +225,10 @@
                     </div>
 
                 </div>
-                <button class="landau" style="">
+                <button class="landau" style="" id="Seemorefromlandau">
                     See More From Landau >
                 </button>
-                <button class="landau-temp" disabled="disabled" style="">
+                <button class="landau-temp" id="morecomingsoon" style="">
                     More Coming Soon >
                 </button>
             </div>
@@ -284,7 +282,7 @@
                     </div>
 
                 </div>
-                <button class="smitten">
+                <button class="smitten" id="seemorefromsmitten">
                     See More From Smitten >
                 </button>
 
@@ -293,7 +291,7 @@
 
 
 
-            
+
             <div class="urbane-row">
                 <div class="col-xs-12 col-md-12">
                     <div class="urbane_logo">
@@ -338,7 +336,7 @@
 
                 </div>
 
-                <button class="urbane">
+                <button class="urbane" id="seemorefromurbane">
                     See More From Urbane >
                 </button>
             </div>
@@ -778,7 +776,9 @@
 
 
 
-        <script src="public/js/fitguide.js" ></script>
+        <script src="public/js/fitguide.js"></script>
 
 
 </section>
+
+                   
