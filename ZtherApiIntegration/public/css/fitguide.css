@@ -255,7 +255,7 @@ table tr{
 .urbane-row > div > .col-xs-6 > img{
 	height: auto !important;
 	width: 100% !important;
-	
+
 	border: 1px solid black;
 }
 
@@ -360,7 +360,7 @@ td{
 }
 
 
-#women-chart, #men-chart, #unisex-chart{
+#women-chart, #women-coat-chart, #men-coat-chart, #men-chart, #unisex-chart{
 	margin-top: 20px;
 	margin-bottom: 80px;
 	display: none;
@@ -368,6 +368,14 @@ td{
 
 #unisex-chart{
 	display:block;
+}
+
+#women-coat-chart.active{
+	display: block;
+}
+
+#men-coat-chart.active{
+	display: block;
 }
 
 #women-chart.active{

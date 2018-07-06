@@ -1,5 +1,5 @@
 $(function () {
-   
+
 		$('.flexslider').flexslider({
 			animation: "slide"
 		});
@@ -7,7 +7,7 @@ $(function () {
     $('#Seemorefromlandau').on('click', function () {
         redirecttofit(null);
     });
-    
+
     $('#seemorefromurbane').on('click', function () {
         redirecttofit('urbane');
     });
@@ -57,7 +57,7 @@ $(function () {
         }
         else {
             window.location = redirectUrl.gender + '/category/' + redirectUrl.types + '?fit=' + redirectUrl.fit;
-        }    
+        }
     }
 
     $(".video_container, .home-slider-0").on('click', function () {
@@ -174,6 +174,8 @@ console.log(types);
 
 			$('.urbane-row').fadeOut();
 			if(types == 'pants clothing'){
+                 $('#women-coat-chart').removeClass('active');
+            $('#men-coat-chart').removeClass('active');
 				if(fit == 'classic style'){
 					var output = '<div class="flexslider"><ul class="slides"><li class="slide1 flex-active-slide" style="width: 100%; float: left; margin-right: -100%; position: relative; opacity: 1; display: block; z-index: 2;"><img src="public/images/fit-guide/8555-large.jpeg" /></li></ul></div>';
 					add_content(output);
@@ -196,6 +198,9 @@ console.log(types);
                 }
 			}
 			else if(types == 'tops clothing'){
+
+                $('#women-coat-chart').removeClass('active');
+            $('#men-coat-chart').addClass('active');
 
 				if(fit == 'classic style'){
 				var output = '<div class="flexslider"><ul class="slides"><li class="slide1"><img src="public/images/fit-guide/7489-large.jpeg" /></li></ul></div>';
@@ -229,8 +234,12 @@ console.log(types);
 			$('button.landau').fadeIn();
 			$('button.landau-temp').fadeOut();
 			$('#women-chart').fadeIn();
+            $('#women-coat-chart').removeClass('active');
+            $('#men-coat-chart').removeClass('active');
 			$('.urbane-row').fadeIn();
 			if(types == 'pants clothing'){
+                $('#women-coat-chart').removeClass('active');
+            $('#men-coat-chart').removeClass('active');
 				if(fit == 'classic style'){
 				var output = '<div class="flexslider"><ul class="slides"><li class="slide1"><img src="public/images/fit-guide/8327-large.jpeg" /></li></ul></div>';
 
@@ -240,7 +249,7 @@ console.log(types);
                     var rowinfo = '<div class="landau_logo"><img id="logo" src="public/images/fit-guide/landau_logo2.png"></div><div class="col-xs-0 col-sm-3 col-md-3"></div> <div class="col-xs-6 col-sm-3 col-md-3"><a href="/8335-womens-natural-flare-leg-pant"><img src="public/images/fit-guide/8335.jpeg"></a><div class="description">Womens Natural Flare Leg Pant</div><div class="number">8335</div></div><div class="col-xs-6 col-sm-3 col-md-3" > <a href="/8327-womens-classic-relaxed-pant"><img src="public/images/fit-guide/8327.jpeg"></a><div class="description">Womens Classic Relaxed Pant</div><div class="number">8327</div></div> <div class="col-xs-6 col-sm-3 col-md-3"></div>';
 					update_rowinfo(rowinfo, 'landau');
 
-					
+
                     var nextrowinfo = '<div class="urbane_logo"><img id="logo" src="public/images/fit-guide/urbane_logo.svg" width="10%" height="auto"></div><div class="col-xs-0 col-sm-3 col-md-3"></div><a href="http://www.urbanescrubs.com/9502-womens-relaxed-drawstring-pant"><div class="col-xs-6 col-sm-3 col-md-3"><img src="public/images/fit-guide/9502.jpeg"></a><div class="description">Womens Relaxed Drawstring Pant</div><div class="number">9502</div></div><div class="col-xs-6 col-sm-3 col-md-3"></div><div class="col-xs-6 col-sm-3 col-md-3"></div>';
                     update_rowinfo(nextrowinfo, 'urbane');
 
@@ -249,11 +258,11 @@ console.log(types);
 					var output = '<div class="flexslider"><ul class="slides"><li class="slide1"><img src="public/images/fit-guide/2024-lg-2.jpeg" /></li><li class="slide2"><img src="public/images/fit-guide/2024-lg.jpeg" /></li><li class="slide3"><img src="public/images/fit-guide/2024-large.jpeg" /></li></ul></div>';
 					add_content(output);
 
-				
+
                     var rowinfo = '<div class="landau_logo"><img id="logo" src="public/images/fit-guide/landau_logo2.png"></div><div class="col-xs-0 col-sm-3 col-md-3"></div> <div class="col-xs-6 col-sm-3 col-md-3"><a href="/2035-womens-all-day-full-elastic-cargo-pant"><img src="public/images/fit-guide/2035.jpeg"></a><div class="description">Womens All Day Full Elastic Cargo Pant</div><div class="number">2035</div></div><div class="col-xs-6 col-sm-3 col-md-3"><a href="/2024-womens-pre-washed-cargo-pant"><img src="public/images/fit-guide/2024.jpeg"></a><div class="description">Womens Pre-Washed Cargo Pant</div><div class="number">2024</div></div><div class="col-xs-6 col-sm-3 col-md-3"></div>';
                     update_rowinfo(rowinfo, 'landau')
-                                                                   
-                                        	
+
+
                     var nextrowinfo = '<div class="urbane_logo"><img id="logo" src="public/images/fit-guide/urbane_logo.svg" width="10%" height="auto"></div><div class="col-xs-0 col-sm-3 col-md-3"></div> <div class="col-xs-6 col-sm-3 col-md-3"><a href="http://www.urbanescrubs.com/9324-womens-knit-waist-cargo-jogger-pant"><img src="public/images/fit-guide/9324.jpeg"></a><div class="description">Womens Knit Waist Cargo Jogger Pant</div><div class="number">9324</div></div><div class="col-xs-6 col-sm-3 col-md-3"><a href="http://www.urbanescrubs.com/9306-womens-alexis-comfort-elastic-waist-pant"><img src="public/images/fit-guide/9306.jpeg"></a><div class="description">Womens Alexis Comfort Elastic Waist Pant</div><div class="number">9306</div></div><div class="col-xs-6 col-sm-3 col-md-3"></div>';
                     update_rowinfo(nextrowinfo, 'urbane');
 				}
@@ -262,16 +271,18 @@ console.log(types);
 
 
 				add_content(output);
-				
+
                     var nextrowinfo = '<div class="urbane_logo"><img id="logo" src="public/images/fit-guide/urbane_logo.svg" width="10%" height="auto"></div><div class="col-xs-0 col-sm-3 col-md-3"></div><div class="col-xs-6 col-sm-3 col-md-3"><a href="http://www.urbanescrubs.com/9329-taylor-straight-leg-pant"><img src="public/images/fit-guide/9329.jpeg" width="200px" height="auto"></a><div class="description">"Taylor" Straight Leg Pant</div><div class="number">9329</div></div><div class="col-xs-6 col-sm-3 col-md-3"><a href="http://www.urbanescrubs.com/9330-michelle-yoga-flare-leg-pant"><img src="public/images/fit-guide/9330-large.jpg" width="60%"></a><div class="description">"Michelle" Yoga Flare Leg Pant</div><div class="number">9330</div></div><div class="col-xs-6 col-sm-3 col-md-3"></div>';
                     update_rowinfo(nextrowinfo, 'urbane');
-					
+
                     var rowinfo = '<div class="smitten_logo"><img id="logo" src="public/images/fit-guide/smitten_logo.svg" width="10%" height="auto"></div><div class="col-xs-0 col-sm-3 col-md-3"></div><div class="col-xs-6 col-sm-3 col-md-3"><a href="http://www.smittenscrubs.com/s201003-amp---womens-smitten-cargo-elastic-pant"><img src="public/images/fit-guide/s201003.jpeg" width="90%"></a><div class="description">AMP- Womens Smitten Cargo Elastic Pant</div><div class="number">S201003</div></div><div class="col-xs-6 col-sm-3 col-md-3"><a href="http://www.smittenscrubs.com/s201002-hottie---womens-smitten-pant"><img src="public/images/fit-guide/s201002.jpeg" width="90%"></a><div class="description">Hottie - Womens Smitten Pant</div><div class="number">S201002</div></div><div class="col-xs-6 col-sm-3 col-md-3"></div>';
 
                     update_rowinfo(rowinfo, 'smitten');
 				}
 			}
 			else if(types == 'tops clothing'){
+                 $('#women-coat-chart').addClass('active');
+            $('#men-coat-chart').removeClass('active');
 				if(fit == 'classic style'){
 					var output = '<div class="flexslider"><ul class="slides"><li class="slide1"><img src="public/images/fit-guide/8219-large.jpeg" /></li><li class="slide2"><img src="public/images/fit-guide/8219-large-1.jpeg" /></li><li class="slide3"><img src="public/images/fit-guide/8219-large-2.jpeg" /></li></ul></div>';
 					add_content(output);
