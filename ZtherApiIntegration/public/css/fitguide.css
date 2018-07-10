@@ -277,6 +277,9 @@ display: none;
 #mobile{
 	display: block;
 }
+#mobile > #women-coat-chart.active{
+	display: block;
+}
 
 }
 
@@ -360,7 +363,7 @@ td{
 }
 
 
-#women-chart, #women-coat-chart, #men-coat-chart, #men-chart, #unisex-chart{
+#women-chart, #women-coat-chart,#child-chart, #men-coat-chart, #men-chart, #unisex-chart{
 	margin-top: 20px;
 	margin-bottom: 80px;
 	display: none;
