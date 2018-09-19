@@ -1,0 +1,66 @@
+﻿@using ZtherApiIntegration.Models.Catalog
+@model FilterModel
+
+<div class="left">
+ @if (Model.FilterDisplay.DisplayFitFilter)
+        {
+  
+    <div class="select fit_type">
+        <div class="text">Fit Type</div>
+        <span class="arrow">&#xe800;</span>
+
+        <div class="select_group fit_type">
+            @foreach (var dropDownItem in Model.FitTypes)
+            {
+                <a value="@dropDownItem.EncodedValue" data-name="@dropDownItem.Name" class="dropdownFilter @(dropDownItem.Selected ? "active" : "")">@dropDownItem.Value</a>
+            }
+        </div>
+        <div class="filter_list"></div>
+    </div>
+   }
+
+    @if (Model.FilterDisplay.DisplaySizeFilter)
+    {
+        <div class="select size">
+            <div class="text">Size</div>
+            <span class="arrow">&#xe800;</span>
+            <div class="select_group size">
+                @foreach (var dropDownItem in Model.Sizes)
+                {
+                    <a value="@dropDownItem.EncodedValue" data-name="@dropDownItem.Name" class="dropdownFilter">@dropDownItem.Value</a>
+                }
+            </div>
+            <div class="filter_list"></div>
+        </div>
+    }
+
+    @if (Model.FilterDisplay.DisplayColorFilter)
+    {
+        <div class="select color">
+            <div class="text">Color</div>
+            <span class="arrow">&#xe800;</span>
+            <div class="select_group color">
+                @foreach (var dropDownItem in Model.Colors)
+                {
+                    <a value="@dropDownItem.EncodedValue" data-name="@dropDownItem.Name" class="dropdownFilter">@dropDownItem.Value</a>
+                }
+            </div>
+            <div class="filter_list"></div>
+        </div>
+    }
+
+    @if (Model.FilterDisplay.DisplaySort)
+    {
+        <div class="select sort_by">
+            <div class="text">Sort By</div>
+            <span class="arrow">&#xe800;</span>
+            <div class="select_group sort_by">
+                @foreach (var dropDownItem in Model.SortBy)
+                {
+                    <a value="@dropDownItem.EncodedValue" data-name="@dropDownItem.Name" class="dropdownFilter">@dropDownItem.Value</a>
+                }
+            </div>
+        </div>
+    }
+    <a href="javascript:resetFiltersDesktop()" class="reset">Reset Filters</a>
+</div>

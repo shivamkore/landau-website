@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /Users/art/Code/landau-web/ZtherApiIntegration/bin/ApplicationInsights.config
 /Users/art/Code/landau-web/ZtherApiIntegration/bin/ZtherApiIntegration.dll.config
 /Users/art/Code/landau-web/ZtherApiIntegration/bin/ZtherApiIntegration.dll
@@ -55,3 +56,622 @@
 /Users/art/Code/landau-web/ZtherApiIntegration/obj/Debug/Landau.csproj.CoreCompileInputs.cache
 /Users/art/Code/landau-web/ZtherApiIntegration/obj/Debug/ZtherApiIntegration.dll
 /Users/art/Code/landau-web/ZtherApiIntegration/obj/Debug/ZtherApiIntegration.pdb
+=======
+C:\Projects\Landau.Web\Landau.Website\ZtherApiIntegration\bin\ZtherApiIntegration.dll.config
+C:\Projects\Landau.Web\Landau.Website\ZtherApiIntegration\bin\ZtherApiIntegration.dll
+C:\Projects\Landau.Web\Landau.Website\ZtherApiIntegration\bin\ZtherApiIntegration.pdb
+C:\Projects\Landau.Web\Landau.Website\ZtherApiIntegration\bin\Antlr3.Runtime.dll
+C:\Projects\Landau.Web\Landau.Website\ZtherApiIntegration\bin\Microsoft.Azure.AppService.dll
+C:\Projects\Landau.Web\Landau.Website\ZtherApiIntegration\bin\Microsoft.Rest.ClientRuntime.dll
+C:\Projects\Landau.Web\Landau.Website\ZtherApiIntegration\bin\Microsoft.Web.Infrastructure.dll
+C:\Projects\Landau.Web\Landau.Website\ZtherApiIntegration\bin\Microsoft.WindowsAzure.Mobile.dll
+C:\Projects\Landau.Web\Landau.Website\ZtherApiIntegration\bin\Microsoft.WindowsAzure.Mobile.Ext.dll
+C:\Projects\Landau.Web\Landau.Website\ZtherApiIntegration\bin\Newtonsoft.Json.dll
+C:\Projects\Landau.Web\Landau.Website\ZtherApiIntegration\bin\System.Net.Http.Extensions.dll
+C:\Projects\Landau.Web\Landau.Website\ZtherApiIntegration\bin\System.Net.Http.Formatting.dll
+C:\Projects\Landau.Web\Landau.Website\ZtherApiIntegration\bin\System.Net.Http.Primitives.dll
+C:\Projects\Landau.Web\Landau.Website\ZtherApiIntegration\bin\System.Web.Helpers.dll
+C:\Projects\Landau.Web\Landau.Website\ZtherApiIntegration\bin\System.Web.Mvc.dll
+C:\Projects\Landau.Web\Landau.Website\ZtherApiIntegration\bin\System.Web.Optimization.dll
+C:\Projects\Landau.Web\Landau.Website\ZtherApiIntegration\bin\System.Web.Razor.dll
+C:\Projects\Landau.Web\Landau.Website\ZtherApiIntegration\bin\System.Web.WebPages.Deployment.dll
+C:\Projects\Landau.Web\Landau.Website\ZtherApiIntegration\bin\System.Web.WebPages.dll
+C:\Projects\Landau.Web\Landau.Website\ZtherApiIntegration\bin\System.Web.WebPages.Razor.dll
+C:\Projects\Landau.Web\Landau.Website\ZtherApiIntegration\bin\WebGrease.dll
+C:\Projects\Landau.Web\Landau.Website\ZtherApiIntegration\bin\Microsoft.Azure.AppService.xml
+C:\Projects\Landau.Web\Landau.Website\ZtherApiIntegration\bin\Microsoft.Rest.ClientRuntime.xml
+C:\Projects\Landau.Web\Landau.Website\ZtherApiIntegration\bin\Microsoft.WindowsAzure.Mobile.xml
+C:\Projects\Landau.Web\Landau.Website\ZtherApiIntegration\bin\Microsoft.WindowsAzure.Mobile.Ext.xml
+C:\Projects\Landau.Web\Landau.Website\ZtherApiIntegration\bin\System.Net.Http.Extensions.xml
+C:\Projects\Landau.Web\Landau.Website\ZtherApiIntegration\bin\System.Net.Http.Formatting.xml
+C:\Projects\Landau.Web\Landau.Website\ZtherApiIntegration\bin\System.Net.Http.Primitives.xml
+C:\Projects\Landau.Web\Landau.Website\ZtherApiIntegration\bin\System.Web.Optimization.xml
+C:\Projects\Landau.Web\Landau.Website\ZtherApiIntegration\bin\System.Web.Helpers.xml
+C:\Projects\Landau.Web\Landau.Website\ZtherApiIntegration\bin\System.Web.Mvc.xml
+C:\Projects\Landau.Web\Landau.Website\ZtherApiIntegration\bin\System.Web.Razor.xml
+C:\Projects\Landau.Web\Landau.Website\ZtherApiIntegration\bin\System.Web.WebPages.xml
+C:\Projects\Landau.Web\Landau.Website\ZtherApiIntegration\bin\System.Web.WebPages.Deployment.xml
+C:\Projects\Landau.Web\Landau.Website\ZtherApiIntegration\bin\System.Web.WebPages.Razor.xml
+C:\Projects\Landau.Web\Landau.Website\ZtherApiIntegration\bin\Antlr3.Runtime.pdb
+C:\Projects\Landau.Web\Landau.Website\ZtherApiIntegration\bin\Newtonsoft.Json.xml
+C:\Projects\Landau.Web\Landau.Website\ZtherApiIntegration\obj\Debug\Landau.csproj.App.config
+C:\Projects\Landau.Web\Landau.Website\ZtherApiIntegration\obj\Debug\ZtherApiIntegration.dll
+C:\Projects\Landau.Web\Landau.Website\ZtherApiIntegration\obj\Debug\ZtherApiIntegration.pdb
+C:\Projects\Landau.Web\Landau.Website\ZtherApiIntegration\bin\Recaptcha.Web.dll
+C:\Projects\Landau.Web\Landau.Website\ZtherApiIntegration\obj\Debug\Landau.csprojResolveAssemblyReference.cache
+C:\Projects\Landau.Web\Landau.Website\Main\ZtherApiIntegration\bin\ApplicationInsights.config
+C:\Projects\Landau.Web\Landau.Website\Main\ZtherApiIntegration\bin\ZtherApiIntegration.dll.config
+C:\Projects\Landau.Web\Landau.Website\Main\ZtherApiIntegration\bin\ZtherApiIntegration.dll
+C:\Projects\Landau.Web\Landau.Website\Main\ZtherApiIntegration\bin\ZtherApiIntegration.pdb
+C:\Projects\Landau.Web\Landau.Website\Main\ZtherApiIntegration\bin\Antlr3.Runtime.dll
+C:\Projects\Landau.Web\Landau.Website\Main\ZtherApiIntegration\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Projects\Landau.Web\Landau.Website\Main\ZtherApiIntegration\bin\Microsoft.AI.DependencyCollector.dll
+C:\Projects\Landau.Web\Landau.Website\Main\ZtherApiIntegration\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Projects\Landau.Web\Landau.Website\Main\ZtherApiIntegration\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Projects\Landau.Web\Landau.Website\Main\ZtherApiIntegration\bin\Microsoft.AI.Web.dll
+C:\Projects\Landau.Web\Landau.Website\Main\ZtherApiIntegration\bin\Microsoft.AI.WindowsServer.dll
+C:\Projects\Landau.Web\Landau.Website\Main\ZtherApiIntegration\bin\Microsoft.ApplicationInsights.dll
+C:\Projects\Landau.Web\Landau.Website\Main\ZtherApiIntegration\bin\Microsoft.Azure.AppService.dll
+C:\Projects\Landau.Web\Landau.Website\Main\ZtherApiIntegration\bin\Microsoft.Rest.ClientRuntime.dll
+C:\Projects\Landau.Web\Landau.Website\Main\ZtherApiIntegration\bin\Microsoft.Web.Infrastructure.dll
+C:\Projects\Landau.Web\Landau.Website\Main\ZtherApiIntegration\bin\Microsoft.WindowsAzure.Mobile.dll
+C:\Projects\Landau.Web\Landau.Website\Main\ZtherApiIntegration\bin\Microsoft.WindowsAzure.Mobile.Ext.dll
+C:\Projects\Landau.Web\Landau.Website\Main\ZtherApiIntegration\bin\Newtonsoft.Json.dll
+C:\Projects\Landau.Web\Landau.Website\Main\ZtherApiIntegration\bin\Recaptcha.Web.dll
+C:\Projects\Landau.Web\Landau.Website\Main\ZtherApiIntegration\bin\System.Net.Http.Extensions.dll
+C:\Projects\Landau.Web\Landau.Website\Main\ZtherApiIntegration\bin\System.Net.Http.Formatting.dll
+C:\Projects\Landau.Web\Landau.Website\Main\ZtherApiIntegration\bin\System.Net.Http.Primitives.dll
+C:\Projects\Landau.Web\Landau.Website\Main\ZtherApiIntegration\bin\System.Web.Helpers.dll
+C:\Projects\Landau.Web\Landau.Website\Main\ZtherApiIntegration\bin\System.Web.Mvc.dll
+C:\Projects\Landau.Web\Landau.Website\Main\ZtherApiIntegration\bin\System.Web.Optimization.dll
+C:\Projects\Landau.Web\Landau.Website\Main\ZtherApiIntegration\bin\System.Web.Razor.dll
+C:\Projects\Landau.Web\Landau.Website\Main\ZtherApiIntegration\bin\System.Web.WebPages.Deployment.dll
+C:\Projects\Landau.Web\Landau.Website\Main\ZtherApiIntegration\bin\System.Web.WebPages.dll
+C:\Projects\Landau.Web\Landau.Website\Main\ZtherApiIntegration\bin\System.Web.WebPages.Razor.dll
+C:\Projects\Landau.Web\Landau.Website\Main\ZtherApiIntegration\bin\WebGrease.dll
+C:\Projects\Landau.Web\Landau.Website\Main\ZtherApiIntegration\bin\Microsoft.AI.DependencyCollector.xml
+C:\Projects\Landau.Web\Landau.Website\Main\ZtherApiIntegration\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Projects\Landau.Web\Landau.Website\Main\ZtherApiIntegration\bin\Microsoft.AI.Web.xml
+C:\Projects\Landau.Web\Landau.Website\Main\ZtherApiIntegration\bin\Microsoft.AI.WindowsServer.xml
+C:\Projects\Landau.Web\Landau.Website\Main\ZtherApiIntegration\bin\Microsoft.ApplicationInsights.xml
+C:\Projects\Landau.Web\Landau.Website\Main\ZtherApiIntegration\bin\Microsoft.Azure.AppService.xml
+C:\Projects\Landau.Web\Landau.Website\Main\ZtherApiIntegration\bin\Microsoft.Rest.ClientRuntime.xml
+C:\Projects\Landau.Web\Landau.Website\Main\ZtherApiIntegration\bin\Microsoft.WindowsAzure.Mobile.xml
+C:\Projects\Landau.Web\Landau.Website\Main\ZtherApiIntegration\bin\Microsoft.WindowsAzure.Mobile.Ext.xml
+C:\Projects\Landau.Web\Landau.Website\Main\ZtherApiIntegration\bin\System.Net.Http.Extensions.xml
+C:\Projects\Landau.Web\Landau.Website\Main\ZtherApiIntegration\bin\System.Net.Http.Formatting.xml
+C:\Projects\Landau.Web\Landau.Website\Main\ZtherApiIntegration\bin\System.Net.Http.Primitives.xml
+C:\Projects\Landau.Web\Landau.Website\Main\ZtherApiIntegration\bin\System.Web.Helpers.xml
+C:\Projects\Landau.Web\Landau.Website\Main\ZtherApiIntegration\bin\System.Web.Mvc.xml
+C:\Projects\Landau.Web\Landau.Website\Main\ZtherApiIntegration\bin\System.Web.Optimization.xml
+C:\Projects\Landau.Web\Landau.Website\Main\ZtherApiIntegration\bin\System.Web.Razor.xml
+C:\Projects\Landau.Web\Landau.Website\Main\ZtherApiIntegration\bin\System.Web.WebPages.xml
+C:\Projects\Landau.Web\Landau.Website\Main\ZtherApiIntegration\bin\System.Web.WebPages.Deployment.xml
+C:\Projects\Landau.Web\Landau.Website\Main\ZtherApiIntegration\bin\System.Web.WebPages.Razor.xml
+C:\Projects\Landau.Web\Landau.Website\Main\ZtherApiIntegration\bin\Antlr3.Runtime.pdb
+C:\Projects\Landau.Web\Landau.Website\Main\ZtherApiIntegration\bin\Newtonsoft.Json.xml
+C:\Projects\Landau.Web\Landau.Website\Main\ZtherApiIntegration\obj\Debug\Landau.csproj.App.config
+C:\Projects\Landau.Web\Landau.Website\Main\ZtherApiIntegration\obj\Debug\ZtherApiIntegration.dll
+C:\Projects\Landau.Web\Landau.Website\Main\ZtherApiIntegration\obj\Debug\ZtherApiIntegration.pdb
+C:\Projects\Landau.Web\Landau.Website\Main\ZtherApiIntegration\obj\Debug\Landau.csprojResolveAssemblyReference.cache
+C:\Users\mm72\Desktop\landau sp17\git_repos\landau\landau-web\ZtherApiIntegration\bin\ApplicationInsights.config
+C:\Users\mm72\Desktop\landau sp17\git_repos\landau\landau-web\ZtherApiIntegration\bin\ZtherApiIntegration.dll.config
+C:\Users\mm72\Desktop\landau sp17\git_repos\landau\landau-web\ZtherApiIntegration\bin\ZtherApiIntegration.dll
+C:\Users\mm72\Desktop\landau sp17\git_repos\landau\landau-web\ZtherApiIntegration\bin\ZtherApiIntegration.pdb
+C:\Users\mm72\Desktop\landau sp17\git_repos\landau\landau-web\ZtherApiIntegration\bin\Antlr3.Runtime.dll
+C:\Users\mm72\Desktop\landau sp17\git_repos\landau\landau-web\ZtherApiIntegration\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\mm72\Desktop\landau sp17\git_repos\landau\landau-web\ZtherApiIntegration\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\mm72\Desktop\landau sp17\git_repos\landau\landau-web\ZtherApiIntegration\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\mm72\Desktop\landau sp17\git_repos\landau\landau-web\ZtherApiIntegration\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\mm72\Desktop\landau sp17\git_repos\landau\landau-web\ZtherApiIntegration\bin\Microsoft.AI.Web.dll
+C:\Users\mm72\Desktop\landau sp17\git_repos\landau\landau-web\ZtherApiIntegration\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\mm72\Desktop\landau sp17\git_repos\landau\landau-web\ZtherApiIntegration\bin\Microsoft.ApplicationInsights.dll
+C:\Users\mm72\Desktop\landau sp17\git_repos\landau\landau-web\ZtherApiIntegration\bin\Microsoft.Azure.AppService.dll
+C:\Users\mm72\Desktop\landau sp17\git_repos\landau\landau-web\ZtherApiIntegration\bin\Microsoft.Rest.ClientRuntime.dll
+C:\Users\mm72\Desktop\landau sp17\git_repos\landau\landau-web\ZtherApiIntegration\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\mm72\Desktop\landau sp17\git_repos\landau\landau-web\ZtherApiIntegration\bin\Microsoft.WindowsAzure.Mobile.dll
+C:\Users\mm72\Desktop\landau sp17\git_repos\landau\landau-web\ZtherApiIntegration\bin\Microsoft.WindowsAzure.Mobile.Ext.dll
+C:\Users\mm72\Desktop\landau sp17\git_repos\landau\landau-web\ZtherApiIntegration\bin\Newtonsoft.Json.dll
+C:\Users\mm72\Desktop\landau sp17\git_repos\landau\landau-web\ZtherApiIntegration\bin\Recaptcha.Web.dll
+C:\Users\mm72\Desktop\landau sp17\git_repos\landau\landau-web\ZtherApiIntegration\bin\System.Net.Http.Extensions.dll
+C:\Users\mm72\Desktop\landau sp17\git_repos\landau\landau-web\ZtherApiIntegration\bin\System.Net.Http.Formatting.dll
+C:\Users\mm72\Desktop\landau sp17\git_repos\landau\landau-web\ZtherApiIntegration\bin\System.Net.Http.Primitives.dll
+C:\Users\mm72\Desktop\landau sp17\git_repos\landau\landau-web\ZtherApiIntegration\bin\System.Web.Helpers.dll
+C:\Users\mm72\Desktop\landau sp17\git_repos\landau\landau-web\ZtherApiIntegration\bin\System.Web.Mvc.dll
+C:\Users\mm72\Desktop\landau sp17\git_repos\landau\landau-web\ZtherApiIntegration\bin\System.Web.Optimization.dll
+C:\Users\mm72\Desktop\landau sp17\git_repos\landau\landau-web\ZtherApiIntegration\bin\System.Web.Razor.dll
+C:\Users\mm72\Desktop\landau sp17\git_repos\landau\landau-web\ZtherApiIntegration\bin\System.Web.WebPages.Deployment.dll
+C:\Users\mm72\Desktop\landau sp17\git_repos\landau\landau-web\ZtherApiIntegration\bin\System.Web.WebPages.dll
+C:\Users\mm72\Desktop\landau sp17\git_repos\landau\landau-web\ZtherApiIntegration\bin\System.Web.WebPages.Razor.dll
+C:\Users\mm72\Desktop\landau sp17\git_repos\landau\landau-web\ZtherApiIntegration\bin\WebGrease.dll
+C:\Users\mm72\Desktop\landau sp17\git_repos\landau\landau-web\ZtherApiIntegration\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\mm72\Desktop\landau sp17\git_repos\landau\landau-web\ZtherApiIntegration\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\mm72\Desktop\landau sp17\git_repos\landau\landau-web\ZtherApiIntegration\bin\Microsoft.AI.Web.xml
+C:\Users\mm72\Desktop\landau sp17\git_repos\landau\landau-web\ZtherApiIntegration\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\mm72\Desktop\landau sp17\git_repos\landau\landau-web\ZtherApiIntegration\bin\Microsoft.ApplicationInsights.xml
+C:\Users\mm72\Desktop\landau sp17\git_repos\landau\landau-web\ZtherApiIntegration\bin\Microsoft.Azure.AppService.xml
+C:\Users\mm72\Desktop\landau sp17\git_repos\landau\landau-web\ZtherApiIntegration\bin\Microsoft.Rest.ClientRuntime.xml
+C:\Users\mm72\Desktop\landau sp17\git_repos\landau\landau-web\ZtherApiIntegration\bin\Microsoft.WindowsAzure.Mobile.xml
+C:\Users\mm72\Desktop\landau sp17\git_repos\landau\landau-web\ZtherApiIntegration\bin\Microsoft.WindowsAzure.Mobile.Ext.xml
+C:\Users\mm72\Desktop\landau sp17\git_repos\landau\landau-web\ZtherApiIntegration\bin\System.Net.Http.Extensions.xml
+C:\Users\mm72\Desktop\landau sp17\git_repos\landau\landau-web\ZtherApiIntegration\bin\System.Net.Http.Formatting.xml
+C:\Users\mm72\Desktop\landau sp17\git_repos\landau\landau-web\ZtherApiIntegration\bin\System.Net.Http.Primitives.xml
+C:\Users\mm72\Desktop\landau sp17\git_repos\landau\landau-web\ZtherApiIntegration\bin\System.Web.Helpers.xml
+C:\Users\mm72\Desktop\landau sp17\git_repos\landau\landau-web\ZtherApiIntegration\bin\System.Web.Mvc.xml
+C:\Users\mm72\Desktop\landau sp17\git_repos\landau\landau-web\ZtherApiIntegration\bin\System.Web.Optimization.xml
+C:\Users\mm72\Desktop\landau sp17\git_repos\landau\landau-web\ZtherApiIntegration\bin\System.Web.Razor.xml
+C:\Users\mm72\Desktop\landau sp17\git_repos\landau\landau-web\ZtherApiIntegration\bin\System.Web.WebPages.xml
+C:\Users\mm72\Desktop\landau sp17\git_repos\landau\landau-web\ZtherApiIntegration\bin\System.Web.WebPages.Deployment.xml
+C:\Users\mm72\Desktop\landau sp17\git_repos\landau\landau-web\ZtherApiIntegration\bin\System.Web.WebPages.Razor.xml
+C:\Users\mm72\Desktop\landau sp17\git_repos\landau\landau-web\ZtherApiIntegration\bin\Antlr3.Runtime.pdb
+C:\Users\mm72\Desktop\landau sp17\git_repos\landau\landau-web\ZtherApiIntegration\bin\Newtonsoft.Json.xml
+C:\Users\mm72\Desktop\landau sp17\git_repos\landau\landau-web\ZtherApiIntegration\obj\Debug\Landau.csproj.App.config
+C:\Users\mm72\Desktop\landau sp17\git_repos\landau\landau-web\ZtherApiIntegration\obj\Debug\Landau.csprojResolveAssemblyReference.cache
+C:\Users\mm72\Desktop\landau sp17\git_repos\landau\landau-web\ZtherApiIntegration\obj\Debug\ZtherApiIntegration.dll
+C:\Users\mm72\Desktop\landau sp17\git_repos\landau\landau-web\ZtherApiIntegration\obj\Debug\ZtherApiIntegration.pdb
+C:\Users\art\Documents\GitHub\landau-web\ZtherApiIntegration\bin\ApplicationInsights.config
+C:\Users\art\Documents\GitHub\landau-web\ZtherApiIntegration\bin\ZtherApiIntegration.dll.config
+C:\Users\art\Documents\GitHub\landau-web\ZtherApiIntegration\bin\ZtherApiIntegration.dll
+C:\Users\art\Documents\GitHub\landau-web\ZtherApiIntegration\bin\ZtherApiIntegration.pdb
+C:\Users\art\Documents\GitHub\landau-web\ZtherApiIntegration\bin\Antlr3.Runtime.dll
+C:\Users\art\Documents\GitHub\landau-web\ZtherApiIntegration\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\art\Documents\GitHub\landau-web\ZtherApiIntegration\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\art\Documents\GitHub\landau-web\ZtherApiIntegration\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\art\Documents\GitHub\landau-web\ZtherApiIntegration\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\art\Documents\GitHub\landau-web\ZtherApiIntegration\bin\Microsoft.AI.Web.dll
+C:\Users\art\Documents\GitHub\landau-web\ZtherApiIntegration\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\art\Documents\GitHub\landau-web\ZtherApiIntegration\bin\Microsoft.ApplicationInsights.dll
+C:\Users\art\Documents\GitHub\landau-web\ZtherApiIntegration\bin\Microsoft.Azure.AppService.dll
+C:\Users\art\Documents\GitHub\landau-web\ZtherApiIntegration\bin\Microsoft.Rest.ClientRuntime.dll
+C:\Users\art\Documents\GitHub\landau-web\ZtherApiIntegration\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\art\Documents\GitHub\landau-web\ZtherApiIntegration\bin\Microsoft.WindowsAzure.Mobile.dll
+C:\Users\art\Documents\GitHub\landau-web\ZtherApiIntegration\bin\Microsoft.WindowsAzure.Mobile.Ext.dll
+C:\Users\art\Documents\GitHub\landau-web\ZtherApiIntegration\bin\Newtonsoft.Json.dll
+C:\Users\art\Documents\GitHub\landau-web\ZtherApiIntegration\bin\Recaptcha.Web.dll
+C:\Users\art\Documents\GitHub\landau-web\ZtherApiIntegration\bin\System.Net.Http.Extensions.dll
+C:\Users\art\Documents\GitHub\landau-web\ZtherApiIntegration\bin\System.Net.Http.Formatting.dll
+C:\Users\art\Documents\GitHub\landau-web\ZtherApiIntegration\bin\System.Net.Http.Primitives.dll
+C:\Users\art\Documents\GitHub\landau-web\ZtherApiIntegration\bin\System.Web.Helpers.dll
+C:\Users\art\Documents\GitHub\landau-web\ZtherApiIntegration\bin\System.Web.Mvc.dll
+C:\Users\art\Documents\GitHub\landau-web\ZtherApiIntegration\bin\System.Web.Optimization.dll
+C:\Users\art\Documents\GitHub\landau-web\ZtherApiIntegration\bin\System.Web.Razor.dll
+C:\Users\art\Documents\GitHub\landau-web\ZtherApiIntegration\bin\System.Web.WebPages.Deployment.dll
+C:\Users\art\Documents\GitHub\landau-web\ZtherApiIntegration\bin\System.Web.WebPages.dll
+C:\Users\art\Documents\GitHub\landau-web\ZtherApiIntegration\bin\System.Web.WebPages.Razor.dll
+C:\Users\art\Documents\GitHub\landau-web\ZtherApiIntegration\bin\WebGrease.dll
+C:\Users\art\Documents\GitHub\landau-web\ZtherApiIntegration\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\art\Documents\GitHub\landau-web\ZtherApiIntegration\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\art\Documents\GitHub\landau-web\ZtherApiIntegration\bin\Microsoft.AI.Web.xml
+C:\Users\art\Documents\GitHub\landau-web\ZtherApiIntegration\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\art\Documents\GitHub\landau-web\ZtherApiIntegration\bin\Microsoft.ApplicationInsights.xml
+C:\Users\art\Documents\GitHub\landau-web\ZtherApiIntegration\bin\Microsoft.Azure.AppService.xml
+C:\Users\art\Documents\GitHub\landau-web\ZtherApiIntegration\bin\Microsoft.Rest.ClientRuntime.xml
+C:\Users\art\Documents\GitHub\landau-web\ZtherApiIntegration\bin\Microsoft.WindowsAzure.Mobile.xml
+C:\Users\art\Documents\GitHub\landau-web\ZtherApiIntegration\bin\Microsoft.WindowsAzure.Mobile.Ext.xml
+C:\Users\art\Documents\GitHub\landau-web\ZtherApiIntegration\bin\System.Net.Http.Extensions.xml
+C:\Users\art\Documents\GitHub\landau-web\ZtherApiIntegration\bin\System.Net.Http.Formatting.xml
+C:\Users\art\Documents\GitHub\landau-web\ZtherApiIntegration\bin\System.Net.Http.Primitives.xml
+C:\Users\art\Documents\GitHub\landau-web\ZtherApiIntegration\bin\System.Web.Helpers.xml
+C:\Users\art\Documents\GitHub\landau-web\ZtherApiIntegration\bin\System.Web.Mvc.xml
+C:\Users\art\Documents\GitHub\landau-web\ZtherApiIntegration\bin\System.Web.Optimization.xml
+C:\Users\art\Documents\GitHub\landau-web\ZtherApiIntegration\bin\System.Web.Razor.xml
+C:\Users\art\Documents\GitHub\landau-web\ZtherApiIntegration\bin\System.Web.WebPages.xml
+C:\Users\art\Documents\GitHub\landau-web\ZtherApiIntegration\bin\System.Web.WebPages.Deployment.xml
+C:\Users\art\Documents\GitHub\landau-web\ZtherApiIntegration\bin\System.Web.WebPages.Razor.xml
+C:\Users\art\Documents\GitHub\landau-web\ZtherApiIntegration\bin\Antlr3.Runtime.pdb
+C:\Users\art\Documents\GitHub\landau-web\ZtherApiIntegration\bin\Newtonsoft.Json.xml
+C:\Users\art\Documents\GitHub\landau-web\ZtherApiIntegration\obj\Debug\Landau.csproj.App.config
+C:\Users\art\Documents\GitHub\landau-web\ZtherApiIntegration\obj\Debug\Landau.csprojResolveAssemblyReference.cache
+C:\Users\art\Documents\GitHub\landau-web\ZtherApiIntegration\obj\Debug\ZtherApiIntegration.dll
+C:\Users\art\Documents\GitHub\landau-web\ZtherApiIntegration\obj\Debug\ZtherApiIntegration.pdb
+C:\Users\art\Desktop\Landau-new\landau-web\ZtherApiIntegration\bin\ApplicationInsights.config
+C:\Users\art\Desktop\Landau-new\landau-web\ZtherApiIntegration\bin\ZtherApiIntegration.dll.config
+C:\Users\art\Desktop\Landau-new\landau-web\ZtherApiIntegration\bin\ZtherApiIntegration.dll
+C:\Users\art\Desktop\Landau-new\landau-web\ZtherApiIntegration\bin\ZtherApiIntegration.pdb
+C:\Users\art\Desktop\Landau-new\landau-web\ZtherApiIntegration\bin\Antlr3.Runtime.dll
+C:\Users\art\Desktop\Landau-new\landau-web\ZtherApiIntegration\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\art\Desktop\Landau-new\landau-web\ZtherApiIntegration\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\art\Desktop\Landau-new\landau-web\ZtherApiIntegration\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\art\Desktop\Landau-new\landau-web\ZtherApiIntegration\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\art\Desktop\Landau-new\landau-web\ZtherApiIntegration\bin\Microsoft.AI.Web.dll
+C:\Users\art\Desktop\Landau-new\landau-web\ZtherApiIntegration\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\art\Desktop\Landau-new\landau-web\ZtherApiIntegration\bin\Microsoft.ApplicationInsights.dll
+C:\Users\art\Desktop\Landau-new\landau-web\ZtherApiIntegration\bin\Microsoft.Azure.AppService.dll
+C:\Users\art\Desktop\Landau-new\landau-web\ZtherApiIntegration\bin\Microsoft.Rest.ClientRuntime.dll
+C:\Users\art\Desktop\Landau-new\landau-web\ZtherApiIntegration\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\art\Desktop\Landau-new\landau-web\ZtherApiIntegration\bin\Microsoft.WindowsAzure.Mobile.dll
+C:\Users\art\Desktop\Landau-new\landau-web\ZtherApiIntegration\bin\Microsoft.WindowsAzure.Mobile.Ext.dll
+C:\Users\art\Desktop\Landau-new\landau-web\ZtherApiIntegration\bin\Newtonsoft.Json.dll
+C:\Users\art\Desktop\Landau-new\landau-web\ZtherApiIntegration\bin\Recaptcha.Web.dll
+C:\Users\art\Desktop\Landau-new\landau-web\ZtherApiIntegration\bin\System.Net.Http.Extensions.dll
+C:\Users\art\Desktop\Landau-new\landau-web\ZtherApiIntegration\bin\System.Net.Http.Formatting.dll
+C:\Users\art\Desktop\Landau-new\landau-web\ZtherApiIntegration\bin\System.Net.Http.Primitives.dll
+C:\Users\art\Desktop\Landau-new\landau-web\ZtherApiIntegration\bin\System.Web.Helpers.dll
+C:\Users\art\Desktop\Landau-new\landau-web\ZtherApiIntegration\bin\System.Web.Mvc.dll
+C:\Users\art\Desktop\Landau-new\landau-web\ZtherApiIntegration\bin\System.Web.Optimization.dll
+C:\Users\art\Desktop\Landau-new\landau-web\ZtherApiIntegration\bin\System.Web.Razor.dll
+C:\Users\art\Desktop\Landau-new\landau-web\ZtherApiIntegration\bin\System.Web.WebPages.Deployment.dll
+C:\Users\art\Desktop\Landau-new\landau-web\ZtherApiIntegration\bin\System.Web.WebPages.dll
+C:\Users\art\Desktop\Landau-new\landau-web\ZtherApiIntegration\bin\System.Web.WebPages.Razor.dll
+C:\Users\art\Desktop\Landau-new\landau-web\ZtherApiIntegration\bin\WebGrease.dll
+C:\Users\art\Desktop\Landau-new\landau-web\ZtherApiIntegration\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\art\Desktop\Landau-new\landau-web\ZtherApiIntegration\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\art\Desktop\Landau-new\landau-web\ZtherApiIntegration\bin\Microsoft.AI.Web.xml
+C:\Users\art\Desktop\Landau-new\landau-web\ZtherApiIntegration\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\art\Desktop\Landau-new\landau-web\ZtherApiIntegration\bin\Microsoft.ApplicationInsights.xml
+C:\Users\art\Desktop\Landau-new\landau-web\ZtherApiIntegration\bin\Microsoft.Azure.AppService.xml
+C:\Users\art\Desktop\Landau-new\landau-web\ZtherApiIntegration\bin\Microsoft.Rest.ClientRuntime.xml
+C:\Users\art\Desktop\Landau-new\landau-web\ZtherApiIntegration\bin\Microsoft.WindowsAzure.Mobile.xml
+C:\Users\art\Desktop\Landau-new\landau-web\ZtherApiIntegration\bin\Microsoft.WindowsAzure.Mobile.Ext.xml
+C:\Users\art\Desktop\Landau-new\landau-web\ZtherApiIntegration\bin\System.Net.Http.Extensions.xml
+C:\Users\art\Desktop\Landau-new\landau-web\ZtherApiIntegration\bin\System.Net.Http.Formatting.xml
+C:\Users\art\Desktop\Landau-new\landau-web\ZtherApiIntegration\bin\System.Net.Http.Primitives.xml
+C:\Users\art\Desktop\Landau-new\landau-web\ZtherApiIntegration\bin\System.Web.Helpers.xml
+C:\Users\art\Desktop\Landau-new\landau-web\ZtherApiIntegration\bin\System.Web.Mvc.xml
+C:\Users\art\Desktop\Landau-new\landau-web\ZtherApiIntegration\bin\System.Web.Optimization.xml
+C:\Users\art\Desktop\Landau-new\landau-web\ZtherApiIntegration\bin\System.Web.Razor.xml
+C:\Users\art\Desktop\Landau-new\landau-web\ZtherApiIntegration\bin\System.Web.WebPages.xml
+C:\Users\art\Desktop\Landau-new\landau-web\ZtherApiIntegration\bin\System.Web.WebPages.Deployment.xml
+C:\Users\art\Desktop\Landau-new\landau-web\ZtherApiIntegration\bin\System.Web.WebPages.Razor.xml
+C:\Users\art\Desktop\Landau-new\landau-web\ZtherApiIntegration\bin\Antlr3.Runtime.pdb
+C:\Users\art\Desktop\Landau-new\landau-web\ZtherApiIntegration\bin\Newtonsoft.Json.xml
+C:\Users\art\Desktop\Landau-new\landau-web\ZtherApiIntegration\obj\Debug\Landau.csproj.App.config
+C:\Users\art\Desktop\Landau-new\landau-web\ZtherApiIntegration\obj\Debug\Landau.csprojResolveAssemblyReference.cache
+C:\Users\art\Desktop\Landau-new\landau-web\ZtherApiIntegration\obj\Debug\ZtherApiIntegration.dll
+C:\Users\art\Desktop\Landau-new\landau-web\ZtherApiIntegration\obj\Debug\ZtherApiIntegration.pdb
+C:\Users\art\Desktop\landau-web\ZtherApiIntegration\bin\ApplicationInsights.config
+C:\Users\art\Desktop\landau-web\ZtherApiIntegration\bin\ZtherApiIntegration.dll.config
+C:\Users\art\Desktop\landau-web\ZtherApiIntegration\bin\ZtherApiIntegration.dll
+C:\Users\art\Desktop\landau-web\ZtherApiIntegration\bin\ZtherApiIntegration.pdb
+C:\Users\art\Desktop\landau-web\ZtherApiIntegration\bin\Antlr3.Runtime.dll
+C:\Users\art\Desktop\landau-web\ZtherApiIntegration\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\art\Desktop\landau-web\ZtherApiIntegration\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\art\Desktop\landau-web\ZtherApiIntegration\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\art\Desktop\landau-web\ZtherApiIntegration\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\art\Desktop\landau-web\ZtherApiIntegration\bin\Microsoft.AI.Web.dll
+C:\Users\art\Desktop\landau-web\ZtherApiIntegration\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\art\Desktop\landau-web\ZtherApiIntegration\bin\Microsoft.ApplicationInsights.dll
+C:\Users\art\Desktop\landau-web\ZtherApiIntegration\bin\Microsoft.Azure.AppService.dll
+C:\Users\art\Desktop\landau-web\ZtherApiIntegration\bin\Microsoft.Rest.ClientRuntime.dll
+C:\Users\art\Desktop\landau-web\ZtherApiIntegration\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\art\Desktop\landau-web\ZtherApiIntegration\bin\Microsoft.WindowsAzure.Mobile.dll
+C:\Users\art\Desktop\landau-web\ZtherApiIntegration\bin\Microsoft.WindowsAzure.Mobile.Ext.dll
+C:\Users\art\Desktop\landau-web\ZtherApiIntegration\bin\Newtonsoft.Json.dll
+C:\Users\art\Desktop\landau-web\ZtherApiIntegration\bin\Recaptcha.Web.dll
+C:\Users\art\Desktop\landau-web\ZtherApiIntegration\bin\System.Net.Http.Extensions.dll
+C:\Users\art\Desktop\landau-web\ZtherApiIntegration\bin\System.Net.Http.Formatting.dll
+C:\Users\art\Desktop\landau-web\ZtherApiIntegration\bin\System.Net.Http.Primitives.dll
+C:\Users\art\Desktop\landau-web\ZtherApiIntegration\bin\System.Web.Helpers.dll
+C:\Users\art\Desktop\landau-web\ZtherApiIntegration\bin\System.Web.Mvc.dll
+C:\Users\art\Desktop\landau-web\ZtherApiIntegration\bin\System.Web.Optimization.dll
+C:\Users\art\Desktop\landau-web\ZtherApiIntegration\bin\System.Web.Razor.dll
+C:\Users\art\Desktop\landau-web\ZtherApiIntegration\bin\System.Web.WebPages.Deployment.dll
+C:\Users\art\Desktop\landau-web\ZtherApiIntegration\bin\System.Web.WebPages.dll
+C:\Users\art\Desktop\landau-web\ZtherApiIntegration\bin\System.Web.WebPages.Razor.dll
+C:\Users\art\Desktop\landau-web\ZtherApiIntegration\bin\WebGrease.dll
+C:\Users\art\Desktop\landau-web\ZtherApiIntegration\bin\BVSeoSdkDotNet.pdb
+C:\Users\art\Desktop\landau-web\ZtherApiIntegration\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\art\Desktop\landau-web\ZtherApiIntegration\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\art\Desktop\landau-web\ZtherApiIntegration\bin\Microsoft.AI.Web.xml
+C:\Users\art\Desktop\landau-web\ZtherApiIntegration\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\art\Desktop\landau-web\ZtherApiIntegration\bin\Microsoft.ApplicationInsights.xml
+C:\Users\art\Desktop\landau-web\ZtherApiIntegration\bin\Microsoft.Azure.AppService.xml
+C:\Users\art\Desktop\landau-web\ZtherApiIntegration\bin\Microsoft.Rest.ClientRuntime.xml
+C:\Users\art\Desktop\landau-web\ZtherApiIntegration\bin\Microsoft.WindowsAzure.Mobile.xml
+C:\Users\art\Desktop\landau-web\ZtherApiIntegration\bin\Microsoft.WindowsAzure.Mobile.Ext.xml
+C:\Users\art\Desktop\landau-web\ZtherApiIntegration\bin\System.Net.Http.Extensions.xml
+C:\Users\art\Desktop\landau-web\ZtherApiIntegration\bin\System.Net.Http.Formatting.xml
+C:\Users\art\Desktop\landau-web\ZtherApiIntegration\bin\System.Net.Http.Primitives.xml
+C:\Users\art\Desktop\landau-web\ZtherApiIntegration\bin\System.Web.Helpers.xml
+C:\Users\art\Desktop\landau-web\ZtherApiIntegration\bin\System.Web.Mvc.xml
+C:\Users\art\Desktop\landau-web\ZtherApiIntegration\bin\System.Web.Optimization.xml
+C:\Users\art\Desktop\landau-web\ZtherApiIntegration\bin\System.Web.Razor.xml
+C:\Users\art\Desktop\landau-web\ZtherApiIntegration\bin\System.Web.WebPages.xml
+C:\Users\art\Desktop\landau-web\ZtherApiIntegration\bin\System.Web.WebPages.Deployment.xml
+C:\Users\art\Desktop\landau-web\ZtherApiIntegration\bin\System.Web.WebPages.Razor.xml
+C:\Users\art\Desktop\landau-web\ZtherApiIntegration\bin\Antlr3.Runtime.pdb
+C:\Users\art\Desktop\landau-web\ZtherApiIntegration\bin\Newtonsoft.Json.xml
+C:\Users\art\Desktop\landau-web\ZtherApiIntegration\obj\Debug\Landau.csproj.App.config
+C:\Users\art\Desktop\landau-web\ZtherApiIntegration\obj\Debug\Landau.csprojResolveAssemblyReference.cache
+C:\Users\art\Desktop\landau-web\ZtherApiIntegration\obj\Debug\ZtherApiIntegration.dll
+C:\Users\art\Desktop\landau-web\ZtherApiIntegration\obj\Debug\ZtherApiIntegration.pdb
+C:\Users\art\Desktop\fresh-landau\landau-web\ZtherApiIntegration\bin\ApplicationInsights.config
+C:\Users\art\Desktop\fresh-landau\landau-web\ZtherApiIntegration\bin\ZtherApiIntegration.dll.config
+C:\Users\art\Desktop\fresh-landau\landau-web\ZtherApiIntegration\bin\ZtherApiIntegration.dll
+C:\Users\art\Desktop\fresh-landau\landau-web\ZtherApiIntegration\bin\ZtherApiIntegration.pdb
+C:\Users\art\Desktop\fresh-landau\landau-web\ZtherApiIntegration\bin\Antlr3.Runtime.dll
+C:\Users\art\Desktop\fresh-landau\landau-web\ZtherApiIntegration\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\art\Desktop\fresh-landau\landau-web\ZtherApiIntegration\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\art\Desktop\fresh-landau\landau-web\ZtherApiIntegration\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\art\Desktop\fresh-landau\landau-web\ZtherApiIntegration\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\art\Desktop\fresh-landau\landau-web\ZtherApiIntegration\bin\Microsoft.AI.Web.dll
+C:\Users\art\Desktop\fresh-landau\landau-web\ZtherApiIntegration\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\art\Desktop\fresh-landau\landau-web\ZtherApiIntegration\bin\Microsoft.ApplicationInsights.dll
+C:\Users\art\Desktop\fresh-landau\landau-web\ZtherApiIntegration\bin\Microsoft.Azure.AppService.dll
+C:\Users\art\Desktop\fresh-landau\landau-web\ZtherApiIntegration\bin\Microsoft.Rest.ClientRuntime.dll
+C:\Users\art\Desktop\fresh-landau\landau-web\ZtherApiIntegration\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\art\Desktop\fresh-landau\landau-web\ZtherApiIntegration\bin\Microsoft.WindowsAzure.Mobile.dll
+C:\Users\art\Desktop\fresh-landau\landau-web\ZtherApiIntegration\bin\Microsoft.WindowsAzure.Mobile.Ext.dll
+C:\Users\art\Desktop\fresh-landau\landau-web\ZtherApiIntegration\bin\Newtonsoft.Json.dll
+C:\Users\art\Desktop\fresh-landau\landau-web\ZtherApiIntegration\bin\Recaptcha.Web.dll
+C:\Users\art\Desktop\fresh-landau\landau-web\ZtherApiIntegration\bin\System.Net.Http.Extensions.dll
+C:\Users\art\Desktop\fresh-landau\landau-web\ZtherApiIntegration\bin\System.Net.Http.Formatting.dll
+C:\Users\art\Desktop\fresh-landau\landau-web\ZtherApiIntegration\bin\System.Net.Http.Primitives.dll
+C:\Users\art\Desktop\fresh-landau\landau-web\ZtherApiIntegration\bin\System.Web.Helpers.dll
+C:\Users\art\Desktop\fresh-landau\landau-web\ZtherApiIntegration\bin\System.Web.Mvc.dll
+C:\Users\art\Desktop\fresh-landau\landau-web\ZtherApiIntegration\bin\System.Web.Optimization.dll
+C:\Users\art\Desktop\fresh-landau\landau-web\ZtherApiIntegration\bin\System.Web.Razor.dll
+C:\Users\art\Desktop\fresh-landau\landau-web\ZtherApiIntegration\bin\System.Web.WebPages.Deployment.dll
+C:\Users\art\Desktop\fresh-landau\landau-web\ZtherApiIntegration\bin\System.Web.WebPages.dll
+C:\Users\art\Desktop\fresh-landau\landau-web\ZtherApiIntegration\bin\System.Web.WebPages.Razor.dll
+C:\Users\art\Desktop\fresh-landau\landau-web\ZtherApiIntegration\bin\WebGrease.dll
+C:\Users\art\Desktop\fresh-landau\landau-web\ZtherApiIntegration\bin\BVSeoSdkDotNet.pdb
+C:\Users\art\Desktop\fresh-landau\landau-web\ZtherApiIntegration\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\art\Desktop\fresh-landau\landau-web\ZtherApiIntegration\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\art\Desktop\fresh-landau\landau-web\ZtherApiIntegration\bin\Microsoft.AI.Web.xml
+C:\Users\art\Desktop\fresh-landau\landau-web\ZtherApiIntegration\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\art\Desktop\fresh-landau\landau-web\ZtherApiIntegration\bin\Microsoft.ApplicationInsights.xml
+C:\Users\art\Desktop\fresh-landau\landau-web\ZtherApiIntegration\bin\Microsoft.Azure.AppService.xml
+C:\Users\art\Desktop\fresh-landau\landau-web\ZtherApiIntegration\bin\Microsoft.Rest.ClientRuntime.xml
+C:\Users\art\Desktop\fresh-landau\landau-web\ZtherApiIntegration\bin\Microsoft.WindowsAzure.Mobile.xml
+C:\Users\art\Desktop\fresh-landau\landau-web\ZtherApiIntegration\bin\Microsoft.WindowsAzure.Mobile.Ext.xml
+C:\Users\art\Desktop\fresh-landau\landau-web\ZtherApiIntegration\bin\System.Net.Http.Extensions.xml
+C:\Users\art\Desktop\fresh-landau\landau-web\ZtherApiIntegration\bin\System.Net.Http.Formatting.xml
+C:\Users\art\Desktop\fresh-landau\landau-web\ZtherApiIntegration\bin\System.Net.Http.Primitives.xml
+C:\Users\art\Desktop\fresh-landau\landau-web\ZtherApiIntegration\bin\System.Web.Helpers.xml
+C:\Users\art\Desktop\fresh-landau\landau-web\ZtherApiIntegration\bin\System.Web.Mvc.xml
+C:\Users\art\Desktop\fresh-landau\landau-web\ZtherApiIntegration\bin\System.Web.Optimization.xml
+C:\Users\art\Desktop\fresh-landau\landau-web\ZtherApiIntegration\bin\System.Web.Razor.xml
+C:\Users\art\Desktop\fresh-landau\landau-web\ZtherApiIntegration\bin\System.Web.WebPages.xml
+C:\Users\art\Desktop\fresh-landau\landau-web\ZtherApiIntegration\bin\System.Web.WebPages.Deployment.xml
+C:\Users\art\Desktop\fresh-landau\landau-web\ZtherApiIntegration\bin\System.Web.WebPages.Razor.xml
+C:\Users\art\Desktop\fresh-landau\landau-web\ZtherApiIntegration\bin\Antlr3.Runtime.pdb
+C:\Users\art\Desktop\fresh-landau\landau-web\ZtherApiIntegration\bin\Newtonsoft.Json.xml
+C:\Users\art\Desktop\fresh-landau\landau-web\ZtherApiIntegration\obj\Debug\Landau.csproj.App.config
+C:\Users\art\Desktop\fresh-landau\landau-web\ZtherApiIntegration\obj\Debug\Landau.csprojResolveAssemblyReference.cache
+C:\Users\art\Desktop\fresh-landau\landau-web\ZtherApiIntegration\obj\Debug\ZtherApiIntegration.dll
+C:\Users\art\Desktop\fresh-landau\landau-web\ZtherApiIntegration\obj\Debug\ZtherApiIntegration.pdb
+C:\Users\art\Desktop\fresh-landau\landau-web\ZtherApiIntegration\obj\Debug\Landau.csproj.CoreCompileInputs.cache
+C:\Projects\Github\Landau\landau-web\ZtherApiIntegration\bin\ApplicationInsights.config
+C:\Projects\Github\Landau\landau-web\ZtherApiIntegration\bin\ZtherApiIntegration.dll.config
+C:\Projects\Github\Landau\landau-web\ZtherApiIntegration\bin\ZtherApiIntegration.dll
+C:\Projects\Github\Landau\landau-web\ZtherApiIntegration\bin\ZtherApiIntegration.pdb
+C:\Projects\Github\Landau\landau-web\ZtherApiIntegration\bin\Antlr3.Runtime.dll
+C:\Projects\Github\Landau\landau-web\ZtherApiIntegration\bin\BVSeoSdkDotNet.dll
+C:\Projects\Github\Landau\landau-web\ZtherApiIntegration\bin\Commons.dll
+C:\Projects\Github\Landau\landau-web\ZtherApiIntegration\bin\log4net.dll
+C:\Projects\Github\Landau\landau-web\ZtherApiIntegration\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Projects\Github\Landau\landau-web\ZtherApiIntegration\bin\Microsoft.AI.DependencyCollector.dll
+C:\Projects\Github\Landau\landau-web\ZtherApiIntegration\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Projects\Github\Landau\landau-web\ZtherApiIntegration\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Projects\Github\Landau\landau-web\ZtherApiIntegration\bin\Microsoft.AI.Web.dll
+C:\Projects\Github\Landau\landau-web\ZtherApiIntegration\bin\Microsoft.AI.WindowsServer.dll
+C:\Projects\Github\Landau\landau-web\ZtherApiIntegration\bin\Microsoft.ApplicationInsights.dll
+C:\Projects\Github\Landau\landau-web\ZtherApiIntegration\bin\Microsoft.Azure.AppService.dll
+C:\Projects\Github\Landau\landau-web\ZtherApiIntegration\bin\Microsoft.Rest.ClientRuntime.dll
+C:\Projects\Github\Landau\landau-web\ZtherApiIntegration\bin\Microsoft.Web.Infrastructure.dll
+C:\Projects\Github\Landau\landau-web\ZtherApiIntegration\bin\Microsoft.WindowsAzure.Mobile.dll
+C:\Projects\Github\Landau\landau-web\ZtherApiIntegration\bin\Microsoft.WindowsAzure.Mobile.Ext.dll
+C:\Projects\Github\Landau\landau-web\ZtherApiIntegration\bin\Newtonsoft.Json.dll
+C:\Projects\Github\Landau\landau-web\ZtherApiIntegration\bin\NVelocity.dll
+C:\Projects\Github\Landau\landau-web\ZtherApiIntegration\bin\Recaptcha.Web.dll
+C:\Projects\Github\Landau\landau-web\ZtherApiIntegration\bin\System.Net.Http.Extensions.dll
+C:\Projects\Github\Landau\landau-web\ZtherApiIntegration\bin\System.Net.Http.Formatting.dll
+C:\Projects\Github\Landau\landau-web\ZtherApiIntegration\bin\System.Net.Http.Primitives.dll
+C:\Projects\Github\Landau\landau-web\ZtherApiIntegration\bin\System.Web.Helpers.dll
+C:\Projects\Github\Landau\landau-web\ZtherApiIntegration\bin\System.Web.Mvc.dll
+C:\Projects\Github\Landau\landau-web\ZtherApiIntegration\bin\System.Web.Optimization.dll
+C:\Projects\Github\Landau\landau-web\ZtherApiIntegration\bin\System.Web.Razor.dll
+C:\Projects\Github\Landau\landau-web\ZtherApiIntegration\bin\System.Web.WebPages.Deployment.dll
+C:\Projects\Github\Landau\landau-web\ZtherApiIntegration\bin\System.Web.WebPages.dll
+C:\Projects\Github\Landau\landau-web\ZtherApiIntegration\bin\System.Web.WebPages.Razor.dll
+C:\Projects\Github\Landau\landau-web\ZtherApiIntegration\bin\WebGrease.dll
+C:\Projects\Github\Landau\landau-web\ZtherApiIntegration\bin\BVSeoSdkDotNet.pdb
+C:\Projects\Github\Landau\landau-web\ZtherApiIntegration\bin\Microsoft.AI.DependencyCollector.xml
+C:\Projects\Github\Landau\landau-web\ZtherApiIntegration\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Projects\Github\Landau\landau-web\ZtherApiIntegration\bin\Microsoft.AI.Web.xml
+C:\Projects\Github\Landau\landau-web\ZtherApiIntegration\bin\Microsoft.AI.WindowsServer.xml
+C:\Projects\Github\Landau\landau-web\ZtherApiIntegration\bin\Microsoft.ApplicationInsights.xml
+C:\Projects\Github\Landau\landau-web\ZtherApiIntegration\bin\Microsoft.Azure.AppService.xml
+C:\Projects\Github\Landau\landau-web\ZtherApiIntegration\bin\Microsoft.Rest.ClientRuntime.xml
+C:\Projects\Github\Landau\landau-web\ZtherApiIntegration\bin\Microsoft.WindowsAzure.Mobile.xml
+C:\Projects\Github\Landau\landau-web\ZtherApiIntegration\bin\Microsoft.WindowsAzure.Mobile.Ext.xml
+C:\Projects\Github\Landau\landau-web\ZtherApiIntegration\bin\System.Net.Http.Extensions.xml
+C:\Projects\Github\Landau\landau-web\ZtherApiIntegration\bin\System.Net.Http.Formatting.xml
+C:\Projects\Github\Landau\landau-web\ZtherApiIntegration\bin\System.Net.Http.Primitives.xml
+C:\Projects\Github\Landau\landau-web\ZtherApiIntegration\bin\System.Web.Helpers.xml
+C:\Projects\Github\Landau\landau-web\ZtherApiIntegration\bin\System.Web.Mvc.xml
+C:\Projects\Github\Landau\landau-web\ZtherApiIntegration\bin\System.Web.Optimization.xml
+C:\Projects\Github\Landau\landau-web\ZtherApiIntegration\bin\System.Web.Razor.xml
+C:\Projects\Github\Landau\landau-web\ZtherApiIntegration\bin\System.Web.WebPages.xml
+C:\Projects\Github\Landau\landau-web\ZtherApiIntegration\bin\System.Web.WebPages.Deployment.xml
+C:\Projects\Github\Landau\landau-web\ZtherApiIntegration\bin\System.Web.WebPages.Razor.xml
+C:\Projects\Github\Landau\landau-web\ZtherApiIntegration\bin\Antlr3.Runtime.pdb
+C:\Projects\Github\Landau\landau-web\ZtherApiIntegration\bin\Newtonsoft.Json.xml
+C:\Projects\Github\Landau\landau-web\ZtherApiIntegration\obj\Debug\Landau.csproj.App.config
+C:\Projects\Github\Landau\landau-web\ZtherApiIntegration\obj\Debug\Landau.csproj.CoreCompileInputs.cache
+C:\Projects\Github\Landau\landau-web\ZtherApiIntegration\obj\Debug\ZtherApiIntegration.dll
+C:\Projects\Github\Landau\landau-web\ZtherApiIntegration\obj\Debug\ZtherApiIntegration.pdb
+C:\Projects\Github\Landau\landau-web\ZtherApiIntegration\obj\Debug\Landau.csproj.CopyComplete
+C:\Projects\Github\Landau\landau-web\ZtherApiIntegration\obj\Debug\Landau.csprojAssemblyReference.cache
+C:\Projects\GitHub\Landau\ZtherApiIntegration\obj\Debug\Landau.csproj.App.config
+C:\Projects\GitHub\Landau\ZtherApiIntegration\obj\Debug\Landau.csproj.CoreCompileInputs.cache
+C:\Projects\GitHub\Landau\ZtherApiIntegration\obj\Debug\ZtherApiIntegration.dll
+C:\Projects\GitHub\Landau\ZtherApiIntegration\obj\Debug\ZtherApiIntegration.pdb
+C:\Projects\GitHub\Landau\ZtherApiIntegration\bin\ApplicationInsights.config
+C:\Projects\GitHub\Landau\ZtherApiIntegration\bin\ZtherApiIntegration.dll.config
+C:\Projects\GitHub\Landau\ZtherApiIntegration\bin\ZtherApiIntegration.dll
+C:\Projects\GitHub\Landau\ZtherApiIntegration\bin\ZtherApiIntegration.pdb
+C:\Projects\GitHub\Landau\ZtherApiIntegration\bin\Antlr3.Runtime.dll
+C:\Projects\GitHub\Landau\ZtherApiIntegration\bin\BVSeoSdkDotNet.dll
+C:\Projects\GitHub\Landau\ZtherApiIntegration\bin\Commons.dll
+C:\Projects\GitHub\Landau\ZtherApiIntegration\bin\log4net.dll
+C:\Projects\GitHub\Landau\ZtherApiIntegration\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Projects\GitHub\Landau\ZtherApiIntegration\bin\Microsoft.AI.DependencyCollector.dll
+C:\Projects\GitHub\Landau\ZtherApiIntegration\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Projects\GitHub\Landau\ZtherApiIntegration\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Projects\GitHub\Landau\ZtherApiIntegration\bin\Microsoft.AI.Web.dll
+C:\Projects\GitHub\Landau\ZtherApiIntegration\bin\Microsoft.AI.WindowsServer.dll
+C:\Projects\GitHub\Landau\ZtherApiIntegration\bin\Microsoft.ApplicationInsights.dll
+C:\Projects\GitHub\Landau\ZtherApiIntegration\bin\Microsoft.Azure.AppService.dll
+C:\Projects\GitHub\Landau\ZtherApiIntegration\bin\Microsoft.Rest.ClientRuntime.dll
+C:\Projects\GitHub\Landau\ZtherApiIntegration\bin\Microsoft.Web.Infrastructure.dll
+C:\Projects\GitHub\Landau\ZtherApiIntegration\bin\Microsoft.WindowsAzure.Mobile.dll
+C:\Projects\GitHub\Landau\ZtherApiIntegration\bin\Microsoft.WindowsAzure.Mobile.Ext.dll
+C:\Projects\GitHub\Landau\ZtherApiIntegration\bin\Newtonsoft.Json.dll
+C:\Projects\GitHub\Landau\ZtherApiIntegration\bin\NVelocity.dll
+C:\Projects\GitHub\Landau\ZtherApiIntegration\bin\Recaptcha.Web.dll
+C:\Projects\GitHub\Landau\ZtherApiIntegration\bin\System.Net.Http.Extensions.dll
+C:\Projects\GitHub\Landau\ZtherApiIntegration\bin\System.Net.Http.Formatting.dll
+C:\Projects\GitHub\Landau\ZtherApiIntegration\bin\System.Net.Http.Primitives.dll
+C:\Projects\GitHub\Landau\ZtherApiIntegration\bin\System.Web.Helpers.dll
+C:\Projects\GitHub\Landau\ZtherApiIntegration\bin\System.Web.Mvc.dll
+C:\Projects\GitHub\Landau\ZtherApiIntegration\bin\System.Web.Optimization.dll
+C:\Projects\GitHub\Landau\ZtherApiIntegration\bin\System.Web.Razor.dll
+C:\Projects\GitHub\Landau\ZtherApiIntegration\bin\System.Web.WebPages.Deployment.dll
+C:\Projects\GitHub\Landau\ZtherApiIntegration\bin\System.Web.WebPages.dll
+C:\Projects\GitHub\Landau\ZtherApiIntegration\bin\System.Web.WebPages.Razor.dll
+C:\Projects\GitHub\Landau\ZtherApiIntegration\bin\WebGrease.dll
+C:\Projects\GitHub\Landau\ZtherApiIntegration\bin\BVSeoSdkDotNet.pdb
+C:\Projects\GitHub\Landau\ZtherApiIntegration\bin\Microsoft.AI.DependencyCollector.xml
+C:\Projects\GitHub\Landau\ZtherApiIntegration\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Projects\GitHub\Landau\ZtherApiIntegration\bin\Microsoft.AI.Web.xml
+C:\Projects\GitHub\Landau\ZtherApiIntegration\bin\Microsoft.AI.WindowsServer.xml
+C:\Projects\GitHub\Landau\ZtherApiIntegration\bin\Microsoft.ApplicationInsights.xml
+C:\Projects\GitHub\Landau\ZtherApiIntegration\bin\Microsoft.Azure.AppService.xml
+C:\Projects\GitHub\Landau\ZtherApiIntegration\bin\Microsoft.Rest.ClientRuntime.xml
+C:\Projects\GitHub\Landau\ZtherApiIntegration\bin\Microsoft.WindowsAzure.Mobile.xml
+C:\Projects\GitHub\Landau\ZtherApiIntegration\bin\Microsoft.WindowsAzure.Mobile.Ext.xml
+C:\Projects\GitHub\Landau\ZtherApiIntegration\bin\System.Net.Http.Extensions.xml
+C:\Projects\GitHub\Landau\ZtherApiIntegration\bin\System.Net.Http.Formatting.xml
+C:\Projects\GitHub\Landau\ZtherApiIntegration\bin\System.Net.Http.Primitives.xml
+C:\Projects\GitHub\Landau\ZtherApiIntegration\bin\System.Web.Helpers.xml
+C:\Projects\GitHub\Landau\ZtherApiIntegration\bin\System.Web.Mvc.xml
+C:\Projects\GitHub\Landau\ZtherApiIntegration\bin\System.Web.Optimization.xml
+C:\Projects\GitHub\Landau\ZtherApiIntegration\bin\System.Web.Razor.xml
+C:\Projects\GitHub\Landau\ZtherApiIntegration\bin\System.Web.WebPages.xml
+C:\Projects\GitHub\Landau\ZtherApiIntegration\bin\System.Web.WebPages.Deployment.xml
+C:\Projects\GitHub\Landau\ZtherApiIntegration\bin\System.Web.WebPages.Razor.xml
+C:\Projects\GitHub\Landau\ZtherApiIntegration\bin\Antlr3.Runtime.pdb
+C:\Projects\GitHub\Landau\ZtherApiIntegration\bin\Newtonsoft.Json.xml
+C:\Projects\GitHub\Landau\ZtherApiIntegration\obj\Debug\Landau.csproj.CopyComplete
+C:\Projects\GitHub\Landau\ZtherApiIntegration\obj\Debug\Landau.csprojAssemblyReference.cache
+C:\Users\sneha.kurapati\Desktop\SPEC's\New folder\ZtherApiIntegration\obj\Debug\Landau.csproj.App.config
+C:\Users\sneha.kurapati\Desktop\SPEC's\New folder\ZtherApiIntegration\obj\Debug\Landau.csprojAssemblyReference.cache
+C:\Users\sneha.kurapati\Desktop\SPEC's\New folder\ZtherApiIntegration\obj\Debug\Landau.csproj.CoreCompileInputs.cache
+C:\Users\sneha.kurapati\Desktop\SPEC's\New folder\ZtherApiIntegration\obj\Debug\ZtherApiIntegration.dll
+C:\Users\sneha.kurapati\Desktop\SPEC's\New folder\ZtherApiIntegration\obj\Debug\ZtherApiIntegration.pdb
+C:\Users\sneha.kurapati\Desktop\SPEC's\New folder\ZtherApiIntegration\bin\ApplicationInsights.config
+C:\Users\sneha.kurapati\Desktop\SPEC's\New folder\ZtherApiIntegration\bin\ZtherApiIntegration.dll.config
+C:\Users\sneha.kurapati\Desktop\SPEC's\New folder\ZtherApiIntegration\bin\ZtherApiIntegration.dll
+C:\Users\sneha.kurapati\Desktop\SPEC's\New folder\ZtherApiIntegration\bin\ZtherApiIntegration.pdb
+C:\Users\sneha.kurapati\Desktop\SPEC's\New folder\ZtherApiIntegration\bin\Antlr3.Runtime.dll
+C:\Users\sneha.kurapati\Desktop\SPEC's\New folder\ZtherApiIntegration\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\sneha.kurapati\Desktop\SPEC's\New folder\ZtherApiIntegration\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\sneha.kurapati\Desktop\SPEC's\New folder\ZtherApiIntegration\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\sneha.kurapati\Desktop\SPEC's\New folder\ZtherApiIntegration\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\sneha.kurapati\Desktop\SPEC's\New folder\ZtherApiIntegration\bin\Microsoft.AI.Web.dll
+C:\Users\sneha.kurapati\Desktop\SPEC's\New folder\ZtherApiIntegration\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\sneha.kurapati\Desktop\SPEC's\New folder\ZtherApiIntegration\bin\Microsoft.ApplicationInsights.dll
+C:\Users\sneha.kurapati\Desktop\SPEC's\New folder\ZtherApiIntegration\bin\Microsoft.Azure.AppService.dll
+C:\Users\sneha.kurapati\Desktop\SPEC's\New folder\ZtherApiIntegration\bin\Microsoft.Rest.ClientRuntime.dll
+C:\Users\sneha.kurapati\Desktop\SPEC's\New folder\ZtherApiIntegration\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\sneha.kurapati\Desktop\SPEC's\New folder\ZtherApiIntegration\bin\Microsoft.WindowsAzure.Mobile.dll
+C:\Users\sneha.kurapati\Desktop\SPEC's\New folder\ZtherApiIntegration\bin\Microsoft.WindowsAzure.Mobile.Ext.dll
+C:\Users\sneha.kurapati\Desktop\SPEC's\New folder\ZtherApiIntegration\bin\Newtonsoft.Json.dll
+C:\Users\sneha.kurapati\Desktop\SPEC's\New folder\ZtherApiIntegration\bin\Recaptcha.Web.dll
+C:\Users\sneha.kurapati\Desktop\SPEC's\New folder\ZtherApiIntegration\bin\System.Net.Http.Extensions.dll
+C:\Users\sneha.kurapati\Desktop\SPEC's\New folder\ZtherApiIntegration\bin\System.Net.Http.Formatting.dll
+C:\Users\sneha.kurapati\Desktop\SPEC's\New folder\ZtherApiIntegration\bin\System.Net.Http.Primitives.dll
+C:\Users\sneha.kurapati\Desktop\SPEC's\New folder\ZtherApiIntegration\bin\System.Web.Helpers.dll
+C:\Users\sneha.kurapati\Desktop\SPEC's\New folder\ZtherApiIntegration\bin\System.Web.Mvc.dll
+C:\Users\sneha.kurapati\Desktop\SPEC's\New folder\ZtherApiIntegration\bin\System.Web.Optimization.dll
+C:\Users\sneha.kurapati\Desktop\SPEC's\New folder\ZtherApiIntegration\bin\System.Web.Razor.dll
+C:\Users\sneha.kurapati\Desktop\SPEC's\New folder\ZtherApiIntegration\bin\System.Web.WebPages.Deployment.dll
+C:\Users\sneha.kurapati\Desktop\SPEC's\New folder\ZtherApiIntegration\bin\System.Web.WebPages.dll
+C:\Users\sneha.kurapati\Desktop\SPEC's\New folder\ZtherApiIntegration\bin\System.Web.WebPages.Razor.dll
+C:\Users\sneha.kurapati\Desktop\SPEC's\New folder\ZtherApiIntegration\bin\WebGrease.dll
+C:\Users\sneha.kurapati\Desktop\SPEC's\New folder\ZtherApiIntegration\bin\BVSeoSdkDotNet.pdb
+C:\Users\sneha.kurapati\Desktop\SPEC's\New folder\ZtherApiIntegration\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\sneha.kurapati\Desktop\SPEC's\New folder\ZtherApiIntegration\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\sneha.kurapati\Desktop\SPEC's\New folder\ZtherApiIntegration\bin\Microsoft.AI.Web.xml
+C:\Users\sneha.kurapati\Desktop\SPEC's\New folder\ZtherApiIntegration\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\sneha.kurapati\Desktop\SPEC's\New folder\ZtherApiIntegration\bin\Microsoft.ApplicationInsights.xml
+C:\Users\sneha.kurapati\Desktop\SPEC's\New folder\ZtherApiIntegration\bin\Microsoft.Azure.AppService.xml
+C:\Users\sneha.kurapati\Desktop\SPEC's\New folder\ZtherApiIntegration\bin\Microsoft.Rest.ClientRuntime.xml
+C:\Users\sneha.kurapati\Desktop\SPEC's\New folder\ZtherApiIntegration\bin\Microsoft.WindowsAzure.Mobile.xml
+C:\Users\sneha.kurapati\Desktop\SPEC's\New folder\ZtherApiIntegration\bin\Microsoft.WindowsAzure.Mobile.Ext.xml
+C:\Users\sneha.kurapati\Desktop\SPEC's\New folder\ZtherApiIntegration\bin\System.Net.Http.Extensions.xml
+C:\Users\sneha.kurapati\Desktop\SPEC's\New folder\ZtherApiIntegration\bin\System.Net.Http.Formatting.xml
+C:\Users\sneha.kurapati\Desktop\SPEC's\New folder\ZtherApiIntegration\bin\System.Net.Http.Primitives.xml
+C:\Users\sneha.kurapati\Desktop\SPEC's\New folder\ZtherApiIntegration\bin\System.Web.Helpers.xml
+C:\Users\sneha.kurapati\Desktop\SPEC's\New folder\ZtherApiIntegration\bin\System.Web.Mvc.xml
+C:\Users\sneha.kurapati\Desktop\SPEC's\New folder\ZtherApiIntegration\bin\System.Web.Optimization.xml
+C:\Users\sneha.kurapati\Desktop\SPEC's\New folder\ZtherApiIntegration\bin\System.Web.Razor.xml
+C:\Users\sneha.kurapati\Desktop\SPEC's\New folder\ZtherApiIntegration\bin\System.Web.WebPages.xml
+C:\Users\sneha.kurapati\Desktop\SPEC's\New folder\ZtherApiIntegration\bin\System.Web.WebPages.Deployment.xml
+C:\Users\sneha.kurapati\Desktop\SPEC's\New folder\ZtherApiIntegration\bin\System.Web.WebPages.Razor.xml
+C:\Users\sneha.kurapati\Desktop\SPEC's\New folder\ZtherApiIntegration\bin\Antlr3.Runtime.pdb
+C:\Users\sneha.kurapati\Desktop\SPEC's\New folder\ZtherApiIntegration\bin\Newtonsoft.Json.xml
+C:\Users\sneha.kurapati\Desktop\SPEC's\New folder\ZtherApiIntegration\obj\Debug\Landau.csproj.CopyComplete
+C:\Projects\GitHub\landau-web\ZtherApiIntegration\bin\ApplicationInsights.config
+C:\Projects\GitHub\landau-web\ZtherApiIntegration\bin\ZtherApiIntegration.dll.config
+C:\Projects\GitHub\landau-web\ZtherApiIntegration\bin\ZtherApiIntegration.dll
+C:\Projects\GitHub\landau-web\ZtherApiIntegration\bin\ZtherApiIntegration.pdb
+C:\Projects\GitHub\landau-web\ZtherApiIntegration\bin\Antlr3.Runtime.dll
+C:\Projects\GitHub\landau-web\ZtherApiIntegration\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Projects\GitHub\landau-web\ZtherApiIntegration\bin\Microsoft.AI.DependencyCollector.dll
+C:\Projects\GitHub\landau-web\ZtherApiIntegration\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Projects\GitHub\landau-web\ZtherApiIntegration\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Projects\GitHub\landau-web\ZtherApiIntegration\bin\Microsoft.AI.Web.dll
+C:\Projects\GitHub\landau-web\ZtherApiIntegration\bin\Microsoft.AI.WindowsServer.dll
+C:\Projects\GitHub\landau-web\ZtherApiIntegration\bin\Microsoft.ApplicationInsights.dll
+C:\Projects\GitHub\landau-web\ZtherApiIntegration\bin\Microsoft.Azure.AppService.dll
+C:\Projects\GitHub\landau-web\ZtherApiIntegration\bin\Microsoft.Rest.ClientRuntime.dll
+C:\Projects\GitHub\landau-web\ZtherApiIntegration\bin\Microsoft.Web.Infrastructure.dll
+C:\Projects\GitHub\landau-web\ZtherApiIntegration\bin\Microsoft.WindowsAzure.Mobile.dll
+C:\Projects\GitHub\landau-web\ZtherApiIntegration\bin\Microsoft.WindowsAzure.Mobile.Ext.dll
+C:\Projects\GitHub\landau-web\ZtherApiIntegration\bin\Recaptcha.Web.dll
+C:\Projects\GitHub\landau-web\ZtherApiIntegration\bin\System.Net.Http.Extensions.dll
+C:\Projects\GitHub\landau-web\ZtherApiIntegration\bin\System.Net.Http.Formatting.dll
+C:\Projects\GitHub\landau-web\ZtherApiIntegration\bin\System.Net.Http.Primitives.dll
+C:\Projects\GitHub\landau-web\ZtherApiIntegration\bin\System.Web.Helpers.dll
+C:\Projects\GitHub\landau-web\ZtherApiIntegration\bin\System.Web.Mvc.dll
+C:\Projects\GitHub\landau-web\ZtherApiIntegration\bin\System.Web.Optimization.dll
+C:\Projects\GitHub\landau-web\ZtherApiIntegration\bin\System.Web.Razor.dll
+C:\Projects\GitHub\landau-web\ZtherApiIntegration\bin\System.Web.WebPages.Deployment.dll
+C:\Projects\GitHub\landau-web\ZtherApiIntegration\bin\System.Web.WebPages.dll
+C:\Projects\GitHub\landau-web\ZtherApiIntegration\bin\System.Web.WebPages.Razor.dll
+C:\Projects\GitHub\landau-web\ZtherApiIntegration\bin\WebGrease.dll
+C:\Projects\GitHub\landau-web\ZtherApiIntegration\bin\Microsoft.AI.DependencyCollector.xml
+C:\Projects\GitHub\landau-web\ZtherApiIntegration\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Projects\GitHub\landau-web\ZtherApiIntegration\bin\Microsoft.AI.Web.xml
+C:\Projects\GitHub\landau-web\ZtherApiIntegration\bin\Microsoft.AI.WindowsServer.xml
+C:\Projects\GitHub\landau-web\ZtherApiIntegration\bin\Microsoft.ApplicationInsights.xml
+C:\Projects\GitHub\landau-web\ZtherApiIntegration\bin\Microsoft.Azure.AppService.xml
+C:\Projects\GitHub\landau-web\ZtherApiIntegration\bin\Microsoft.Rest.ClientRuntime.xml
+C:\Projects\GitHub\landau-web\ZtherApiIntegration\bin\Microsoft.WindowsAzure.Mobile.xml
+C:\Projects\GitHub\landau-web\ZtherApiIntegration\bin\Microsoft.WindowsAzure.Mobile.Ext.xml
+C:\Projects\GitHub\landau-web\ZtherApiIntegration\bin\System.Net.Http.Extensions.xml
+C:\Projects\GitHub\landau-web\ZtherApiIntegration\bin\System.Net.Http.Formatting.xml
+C:\Projects\GitHub\landau-web\ZtherApiIntegration\bin\System.Net.Http.Primitives.xml
+C:\Projects\GitHub\landau-web\ZtherApiIntegration\bin\System.Web.Helpers.xml
+C:\Projects\GitHub\landau-web\ZtherApiIntegration\bin\System.Web.Mvc.xml
+C:\Projects\GitHub\landau-web\ZtherApiIntegration\bin\System.Web.Optimization.xml
+C:\Projects\GitHub\landau-web\ZtherApiIntegration\bin\System.Web.Razor.xml
+C:\Projects\GitHub\landau-web\ZtherApiIntegration\bin\System.Web.WebPages.xml
+C:\Projects\GitHub\landau-web\ZtherApiIntegration\bin\System.Web.WebPages.Deployment.xml
+C:\Projects\GitHub\landau-web\ZtherApiIntegration\bin\System.Web.WebPages.Razor.xml
+C:\Projects\GitHub\landau-web\ZtherApiIntegration\bin\Antlr3.Runtime.pdb
+C:\Projects\GitHub\landau-web\ZtherApiIntegration\obj\Debug\Landau.csproj.App.config
+C:\Projects\GitHub\landau-web\ZtherApiIntegration\obj\Debug\Landau.csproj.CoreCompileInputs.cache
+C:\Projects\GitHub\landau-web\ZtherApiIntegration\obj\Debug\Landau.csproj.CopyComplete
+C:\Projects\GitHub\landau-web\ZtherApiIntegration\obj\Debug\ZtherApiIntegration.dll
+C:\Projects\GitHub\landau-web\ZtherApiIntegration\obj\Debug\ZtherApiIntegration.pdb
+C:\Projects\GitHub\landau-web\ZtherApiIntegration\bin\BVSeoSdkDotNet.dll
+C:\Projects\GitHub\landau-web\ZtherApiIntegration\bin\Commons.dll
+C:\Projects\GitHub\landau-web\ZtherApiIntegration\bin\log4net.dll
+C:\Projects\GitHub\landau-web\ZtherApiIntegration\bin\NVelocity.dll
+C:\Projects\GitHub\landau-web\ZtherApiIntegration\bin\BVSeoSdkDotNet.pdb
+C:\Projects\GitHub\landau-web\ZtherApiIntegration\obj\Debug\Landau.csprojAssemblyReference.cache
+>>>>>>> master

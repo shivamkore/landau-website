@@ -1,0 +1,49 @@
+﻿@using ZtherApiIntegration.Models.Detail
+@model DetailModel
+
+@{
+    var url = System.Configuration.ConfigurationManager.AppSettings["Widget-Endpoint"];
+    
+    if (Model.SelectedColor.SwatchType != null && Model.SelectedColor.SwatchType.Equals("Print", StringComparison.InvariantCultureIgnoreCase))
+    {
+        url = string.Concat(url, Model.ProductDetail.Code, Model.SelectedColor.ColorCode);
+    }
+    else
+    {
+        url = string.Concat(url, Model.ProductDetail.Code);
+    }
+}
+
+<div class="mobile_dropdown">
+    <div class="title">
+        <span class="text">Buy Now</span>
+        <span class="arrow">&#xe800;</span>
+    </div>
+</div>
+
+<div class="buy_now">
+    <a class="buy_now_button" href="#" data-toggle="modal" data-target="#myModal">
+        <img src="~/public/images/detail/buynow.png" class="img-responsive" alt="Buy Now" />
+    </a>
+    <p class="buy_now_text">
+        Once you click the 'Buy Now' button you will be routed to the retailer’s website to complete your transaction. Your Landau webpage will remain open for your convenience.
+    </p>
+    <img class="buy_now_image img-responsive" src="~/public/images/detail/retailers.png" alt="Retailers" />
+</div>
+
+<!-- Modal Dialog Box -->
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title" id="myModalLabel">BUY NOW</h4>
+            </div>
+            <div class="modal-body">
+                <div id="widget-container">
+                    <iframe src="@url" frameborder="0" scrolling="auto" allowtransparency="true"></iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

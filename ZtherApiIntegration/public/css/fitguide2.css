@@ -93,21 +93,21 @@ transition: font-weight .6s ease-in-out;
 	transition: font-weight .6s ease-in-out;
 }
 
-.smitten-row > div > div > img{
-	height: 220px ;
-	width: auto;
-	border: 1px solid black;
+.smitten-row > div > div > img, .smitten-row > div > div > a > img {
+    height: 220px;
+    width: auto;
+    border: 1px solid black;
 }
-.landau-row > div > div > img{
-	height: 220px;
-	width: auto ;
-	border: 1px solid black;
+.landau-row > div > div > img, .landau-row > div > div > a > img {
+    height: 220px;
+    width: auto;
+    border: 1px solid black;
 }
 
-.urbane-row > div > div > img{
-	height: 220px ;
-	width: auto;
-	border: 1px solid black;
+.urbane-row > div > div > img, .urbane-row > div > div > a > img {
+    height: 220px;
+    width: auto;
+    border: 1px solid black;
 }
 
 .types #active{
@@ -255,7 +255,7 @@ table tr{
 .urbane-row > div > .col-xs-6 > img{
 	height: auto !important;
 	width: 100% !important;
-	
+
 	border: 1px solid black;
 }
 
@@ -275,6 +275,9 @@ table tr{
 display: none;
 }
 #mobile{
+	display: block;
+}
+#mobile > #women-coat-chart.active{
 	display: block;
 }
 
@@ -360,7 +363,7 @@ td{
 }
 
 
-#women-chart, #men-chart, #unisex-chart{
+#women-chart, #women-coat-chart,#child-chart, #men-coat-chart, #men-chart, #unisex-chart{
 	margin-top: 20px;
 	margin-bottom: 80px;
 	display: none;
@@ -368,6 +371,14 @@ td{
 
 #unisex-chart{
 	display:block;
+}
+
+#women-coat-chart.active{
+	display: block;
+}
+
+#men-coat-chart.active{
+	display: block;
 }
 
 #women-chart.active{

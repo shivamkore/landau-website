@@ -1,0 +1,17 @@
+﻿@using ZtherApiIntegration.Models.WhereToBuy
+@model WhereToBuyModel
+
+@*Iterate rows*@
+<div class="retailers_row">
+
+    @for (int j = 0; j < Model.AllRetailList.Retailers.Count; j++)
+    {
+        var retail = Model.AllRetailList.Retailers[j];
+        <div class="retailers_row_box">
+            <a href="@retail.LandauSiteUrl">
+                <img src="@retail.imageUri" alt="uniform" />
+            </a>
+        </div>
+    }
+
+</div>

@@ -1,0 +1,15 @@
+﻿@using ZtherApiIntegration.Models.Detail
+@model List<ProductImageModel>
+
+
+<div class="zoomed_img_container">
+
+    <img class="x-icon" src="public/images/header/x-icon.svg">
+
+    @for (int i = 0; i < Model.Count; i++)
+    {
+        var aImage = Model[i];
+        <img class="zoom_img@(i==0 ? " active" : "")" zoom="@(i+1)" src="@aImage.ZoomImageUri" alt="" />
+    }    
+
+</div>

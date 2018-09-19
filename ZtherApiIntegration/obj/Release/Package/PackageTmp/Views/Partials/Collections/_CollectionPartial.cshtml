@@ -1,0 +1,18 @@
+﻿@using ZtherApiIntegration.Models.Collections
+@using ZtherApiIntegration.Common
+@model CollectionModel
+
+@for (int i = 0; i < Model.Products.Count && i < 4; i++)
+{
+    var aProduct = Model.Products[i];
+    <div class="category">
+        <a href="@UrlBuilder.BuildCanonicalProductDetailUrlWithColor(aProduct.Code, aProduct.Name, aProduct.ColorCode)">
+            <div class="view_details_cta"><div class="box">View Details</div></div>
+            <img class="img" srcset="@aProduct.Image" alt="@aProduct.Name" title="@aProduct.Name"/>
+            <div class="footer">
+                <h2 class="text">@aProduct.Name</h2>
+                <div class="number">@aProduct.Code</div>
+            </div>
+        </a>
+    </div>
+}
