@@ -16926,9 +16926,9 @@ textarea {
 }
 
 #promotions_page #promo1 {
-    position: relative; 
+    position: relative;
     background-color: #91cad7;
-    background-image: url(/public/images/promotions/promo1_desktop.jpg)
+    background-image: url(/public/images/promotions/Insider_Panel_desktop.jpg)
 }
 
 @media screen and (max-width:989px) {
@@ -16937,7 +16937,7 @@ textarea {
     }
 
     #promotions_page #promo1 {
-        background-image: url(/public/images/promotions/promo1_mobile.jpg)
+        background-image: url(/public/images/promotions/Insider_Panel_Mobile.jpg)
     }
 }
 
