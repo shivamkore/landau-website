@@ -54,6 +54,18 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="BVSeoSdkDotNet, Version=3.2.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\Referencess\BVSeoSdkDotNet.dll</HintPath>
+    </Reference>
+    <Reference Include="Commons, Version=1.0.5325.26748, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\Referencess\Commons.dll</HintPath>
+    </Reference>
+    <Reference Include="log4net, Version=1.2.13.0, Culture=neutral, PublicKeyToken=669e0ddf0bb1aa2a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\Referencess\log4net.dll</HintPath>
+    </Reference>
     <Reference Include="Microsoft.AI.Agent.Intercept, Version=1.2.1.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
       <HintPath>..\packages\Microsoft.ApplicationInsights.Agent.Intercept.1.2.1\lib\net45\Microsoft.AI.Agent.Intercept.dll</HintPath>
       <Private>True</Private>
@@ -95,7 +107,8 @@
     <Reference Include="Microsoft.WindowsAzure.Mobile.Ext">
       <HintPath>..\packages\WindowsAzure.MobileServices.2.0.0-beta\lib\net45\Microsoft.WindowsAzure.Mobile.Ext.dll</HintPath>
     </Reference>
-    <Reference Include="Newtonsoft.Json, Version=11.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+    <Reference Include="Newtonsoft.Json, Version=6.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
       <HintPath>..\packages\Newtonsoft.Json.11.0.2\lib\net45\Newtonsoft.Json.dll</HintPath>
     </Reference>
     <Reference Include="Recaptcha.Web, Version=2.1.0.0, Culture=neutral, PublicKeyToken=171a6ec5fa4b1644, processorArchitecture=MSIL">
@@ -167,11 +180,8 @@
       <Private>True</Private>
       <HintPath>..\packages\Antlr.3.4.1.9004\lib\Antlr3.Runtime.dll</HintPath>
     </Reference>
-    <Reference Include="BVSeoSdkDotNet">
-      <HintPath>BVSeoSdkDotNet.dll</HintPath>
-    </Reference>
     <Reference Include="NVelocity">
-      <HintPath>NVelocity.dll</HintPath>
+      <HintPath>..\..\..\Referencess\NVelocity.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
@@ -293,6 +303,7 @@
     <Compile Include="Controllers\PromotionsController.cs" />
     <Compile Include="Controllers\RetailPartnersController.cs" />
     <Compile Include="Controllers\RewardsController.cs" />
+    <Compile Include="Controllers\ScholarshipController.cs" />
     <Compile Include="Controllers\SearchController.cs" />
     <Compile Include="Controllers\SolidsController.cs" />
     <Compile Include="Controllers\PrintsController.cs" />
@@ -460,6 +471,10 @@
     <Content Include="public\images\collections\collections\allday_640.jpg" />
     <Content Include="public\images\collections\collections\allday_768.jpg" />
     <Content Include="public\images\collections\collections\allday_990.jpg" />
+    <Content Include="public\images\collections\collections\introducing_proflex.jpg" />
+    <Content Include="public\images\collections\collections\introducing_proflex_640.jpg" />
+    <Content Include="public\images\collections\collections\introducing_proflex_768.jpg" />
+    <Content Include="public\images\collections\collections\introducing_proflex_990.jpg" />
     <Content Include="public\images\collections\collections\prewashed.jpg" />
     <Content Include="public\images\collections\collections\prewashed_640.jpg" />
     <Content Include="public\images\collections\collections\prewashed_768.jpg" />
@@ -525,6 +540,7 @@
     <Content Include="public\images\fit-guide\video-banner.jpg" />
     <Content Include="public\images\header\banner3.jpg" />
     <Content Include="public\images\header\landau_logo2.png" />
+    <Content Include="public\images\header\Landau_New_Arrivals.jpg" />
     <Content Include="public\images\header\smitten_logo2.png" />
     <Content Include="public\images\header\urbane_logo2.png" />
     <Content Include="public\images\home\category\acd_bg_mobile_lg.jpg" />
@@ -538,25 +554,97 @@
     <Content Include="public\images\home\category\instagram.png" />
     <Content Include="public\images\home\category\instagram_logo.png" />
     <Content Include="public\images\home\category\logo_twitter.gif" />
+    <Content Include="public\images\home\category\newarrivals.jpg" />
     <Content Include="public\images\home\category\pinterest.png" />
     <Content Include="public\images\home\category\pinterest_logo.png" />
     <Content Include="public\images\home\category\twitter_logo.gif" />
     <Content Include="public\images\home\location_catalog\FA18_landau_catalog.png" />
     <Content Include="public\images\home\location_catalog\landau_catalog.png" />
+    <Content Include="public\images\home\location_catalog\SPR19_landau_catalog.png" />
+    <Content Include="public\images\home\slider\05-18\cta-amazing-mobile.jpg" />
+    <Content Include="public\images\home\slider\05-18\cta-amazing.jpg" />
     <Content Include="public\images\home\slider\05-18\cta-comfortable-mobile.png" />
     <Content Include="public\images\home\slider\05-18\CTA-comfortable.png" />
     <Content Include="public\images\home\slider\05-18\cta-favorites-mobile.png" />
     <Content Include="public\images\home\slider\05-18\cta-favorites.png" />
     <Content Include="public\images\home\slider\05-18\cta-fit-mobile.png" />
     <Content Include="public\images\home\slider\05-18\cta-fit.png" />
+    <Content Include="public\images\home\slider\05-18\cta-proflex-mobile.jpg" />
+    <Content Include="public\images\home\slider\05-18\cta-proflex.jpg" />
     <Content Include="public\images\home\slider\05-18\everyday-favorites-mobile.jpg" />
     <Content Include="public\images\home\slider\05-18\everyday-favorites.jpg" />
     <Content Include="public\images\home\slider\05-18\find-your-fit-mobile.jpg" />
+    <Content Include="public\images\home\slider\05-18\find-your-fit-mobileold10-22.jpg" />
     <Content Include="public\images\home\slider\05-18\find-your-fit.jpg" />
+    <Content Include="public\images\home\slider\05-18\find-your-fitold10-22.jpg" />
     <Content Include="public\images\home\slider\05-18\landau-playscreen-mobile.jpg" />
+    <Content Include="public\images\home\slider\05-18\landau-playscreen-mobileold-11-19.jpg" />
     <Content Include="public\images\home\slider\05-18\landau-playscreen.jpg" />
+    <Content Include="public\images\home\slider\05-18\landau-playscreenold11-19.jpg" />
     <Content Include="public\images\home\slider\05-18\oh-so-comfortable-mobile.jpg" />
+    <Content Include="public\images\home\slider\05-18\oh-so-comfortable-mobileold10-22.jpg" />
     <Content Include="public\images\home\slider\05-18\Oh-so-comfortable.jpg" />
+    <Content Include="public\images\home\slider\05-18\Oh-so-comfortableold1022.jpg" />
+    <Content Include="public\images\home\slider\05-18\proflex-banner-mobile.jpg" />
+    <Content Include="public\images\home\slider\05-18\proflex-banner.jpg" />
+    <Content Include="public\images\home\slider\05-18\saved-eyesight-mobile.jpg" />
+    <Content Include="public\images\home\slider\05-18\saved-eyesight.jpg" />
+    <Content Include="public\images\home\slider\all-day-cta.png" />
+    <Content Include="public\images\home\slider\all-day-mobile-cta.png" />
+    <Content Include="public\images\home\slider\all-day-mobile.jpg" />
+    <Content Include="public\images\home\slider\all-day.jpg" />
+    <Content Include="public\images\home\slider\desktop\Allday1270.jpg" />
+    <Content Include="public\images\home\slider\desktop\all_day.png" />
+    <Content Include="public\images\home\slider\desktop\lemon_1270.jpg" />
+    <Content Include="public\images\home\slider\desktop\lemon_1920.jpg" />
+    <Content Include="public\images\home\slider\desktop\rio_1270.jpg" />
+    <Content Include="public\images\home\slider\desktop\rio_1920.jpg" />
+    <Content Include="public\images\home\slider\desktop\scholarship.jpg" />
+    <Content Include="public\images\home\slider\desktop\scholarship_text.png" />
+    <Content Include="public\images\home\slider\desktop\shoreline_1270.jpg" />
+    <Content Include="public\images\home\slider\desktop\shoreline_1920.jpg" />
+    <Content Include="public\images\home\slider\desktop\shoreline_990.jpg" />
+    <Content Include="public\images\home\slider\desktop\slider2.jpg" />
+    <Content Include="public\images\home\slider\desktop\slider3.jpg" />
+    <Content Include="public\images\home\slider\desktop\socks_1270.jpg" />
+    <Content Include="public\images\home\slider\desktop\socks_1920.jpg" />
+    <Content Include="public\images\home\slider\desktop\socks_990.jpg" />
+    <Content Include="public\images\home\slider\for-men.jpg" />
+    <Content Include="public\images\home\slider\lynx-cta.png" />
+    <Content Include="public\images\home\slider\lynx.jpg" />
+    <Content Include="public\images\home\slider\lynx_mobile-old.jpg" />
+    <Content Include="public\images\home\slider\lynx_mobile.jpg" />
+    <Content Include="public\images\home\slider\men_cta-mobile.png" />
+    <Content Include="public\images\home\slider\men_cta.png" />
+    <Content Include="public\images\home\slider\men_mobile.jpg" />
+    <Content Include="public\images\home\slider\mobile-socks-cta.png" />
+    <Content Include="public\images\home\slider\mobile\allday990.jpg" />
+    <Content Include="public\images\home\slider\mobile\jacket_990.jpg" />
+    <Content Include="public\images\home\slider\mobile\lemon_990.jpg" />
+    <Content Include="public\images\home\slider\mobile\rio_990.jpg" />
+    <Content Include="public\images\home\slider\mobile\scholarship_mobile.jpg" />
+    <Content Include="public\images\home\slider\mobile\shoreline_990.jpg" />
+    <Content Include="public\images\home\slider\mobile\shoreline_new_990.jpg" />
+    <Content Include="public\images\home\slider\mobile\slide3.jpg" />
+    <Content Include="public\images\home\slider\mobile\slide4_new.jpg" />
+    <Content Include="public\images\home\slider\mobile\slider1_new.jpg" />
+    <Content Include="public\images\home\slider\mobile\slider2_new.jpg" />
+    <Content Include="public\images\home\slider\mobile\slider4_new.jpg" />
+    <Content Include="public\images\home\slider\mobile\slider4_scale.jpg" />
+    <Content Include="public\images\home\slider\playscreen_mobile.jpg" />
+    <Content Include="public\images\home\slider\pre-wash.jpg" />
+    <Content Include="public\images\home\slider\prewash_cta-mobile.png" />
+    <Content Include="public\images\home\slider\prewash_cta.png" />
+    <Content Include="public\images\home\slider\prewash_mobile.jpg" />
+    <Content Include="public\images\home\slider\shoe.jpg" />
+    <Content Include="public\images\home\slider\shoe_cta.png" />
+    <Content Include="public\images\home\slider\shoe_mobile.jpg" />
+    <Content Include="public\images\home\slider\socks-mobile_cta.png" />
+    <Content Include="public\images\home\slider\socks.jpg" />
+    <Content Include="public\images\home\slider\socks_mobile.jpg" />
+    <Content Include="public\images\home\slider\sock_cta-.png" />
+    <Content Include="public\images\home\slider\sock_cta.png" />
+    <Content Include="public\images\home\slider\video_banner.jpg" />
     <Content Include="public\images\loyalty\btn-one.png" />
     <Content Include="public\images\loyalty\btn-two.png" />
     <Content Include="public\images\loyalty\btn-three.png" />
@@ -569,10 +657,35 @@
     <Content Include="public\images\loyalty\landau-rewards.png" />
     <Content Include="public\images\loyalty\btn-login.png" />
     <Content Include="public\images\loyalty\btn-prize.png" />
+    <Content Include="public\images\promotions\Ambassador_Banner_1270x510.jpg" />
+    <Content Include="public\images\promotions\Ambassador_Banner_1920x768.jpg" />
+    <Content Include="public\images\promotions\Ambassador_Banner_640x760.jpg" />
+    <Content Include="public\images\promotions\Insider_Panel_desktop.jpg" />
+    <Content Include="public\images\promotions\Insider_Panel_Mobile.jpg" />
     <Content Include="public\images\promotions\Landau_Ambassador.jpg" />
     <Content Include="public\images\promotions\Landau_Ambassador_mobile.jpg" />
+    <Content Include="public\images\promotions\Landau_Ambassdor_Mobile_test.jpg" />
+    <Content Include="public\images\promotions\news_scholarship.jpg" />
+    <Content Include="public\images\promotions\news_scholarship_mobile.jpg" />
+    <Content Include="public\images\promotions\news_scholarship_tablet.jpg" />
     <Content Include="public\images\promotions\sales_flyer.jpg" />
     <Content Include="public\images\promotions\scholarship1_2018.jpg" />
+    <Content Include="public\images\promotions\scholarship\Contest_Closes.png" />
+    <Content Include="public\images\promotions\scholarship\Contest_Opens.png" />
+    <Content Include="public\images\promotions\scholarship\MLB Scholarship_640x768_Apply.jpg" />
+    <Content Include="public\images\promotions\scholarship\MLB_Scholarship_1270x510.jpg" />
+    <Content Include="public\images\promotions\scholarship\MLB_Scholarship_1270x510_Apply.jpg" />
+    <Content Include="public\images\promotions\scholarship\MLB_Scholarship_1920x768.jpg" />
+    <Content Include="public\images\promotions\scholarship\MLB_Scholarship_1920x768_Apply.jpg" />
+    <Content Include="public\images\promotions\scholarship\MLB_Scholarship_640x768.jpg" />
+    <Content Include="public\images\promotions\scholarship\news_scholarship_lg.jpg" />
+    <Content Include="public\images\promotions\scholarship\Scholarship_Banner.jpg" />
+    <Content Include="public\images\promotions\scholarship\Scholarship_Banner_Mobile.jpg" />
+    <Content Include="public\images\promotions\scholarship\Scholarship_Banner_Spring19.jpg" />
+    <Content Include="public\images\promotions\scholarship\scholarship_lg.jpg" />
+    <Content Include="public\images\promotions\scholarship\scholarship_md.jpg" />
+    <Content Include="public\images\promotions\scholarship\scholarship_sm.jpg" />
+    <Content Include="public\images\promotions\scholarship\Winner_PIcked.png" />
     <Content Include="public\images\promotions\scholarship_2018.jpg" />
     <Content Include="public\images\promotions\scholarship_2018_mobile.jpg" />
     <Content Include="public\images\promotions\scholarship_desktop.jpg" />
@@ -674,10 +787,6 @@
     <Content Include="public\images\catalog\products\womens_vneck_tunic.jpg" />
     <Content Include="public\images\catalog\right_arrow.svg" />
     <Content Include="public\images\catalog\x-icon.png" />
-    <Content Include="public\images\collections\collections\introducing_lynx.jpg" />
-    <Content Include="public\images\collections\collections\introducing_lynx_640.jpg" />
-    <Content Include="public\images\collections\collections\introducing_lynx_768.jpg" />
-    <Content Include="public\images\collections\collections\introducing_lynx_990.jpg" />
     <Content Include="public\images\collections\collections\landau_for_men.jpg" />
     <Content Include="public\images\collections\collections\landau_for_men_640.jpg" />
     <Content Include="public\images\collections\collections\landau_for_men_768.jpg" />
@@ -1251,6 +1360,7 @@
     <Content Include="Views\Shared\_Loyalty.cshtml" />
     <Content Include="Views\Shared\_Rewards.cshtml" />
     <Content Include="Views\Rewards\Index.cshtml" />
+    <Content Include="Views\Scholarship\Index.cshtml" />
     <None Include="Web.Release-Staging.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

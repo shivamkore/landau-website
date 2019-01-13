@@ -3371,7 +3371,7 @@ textarea {
 }
 
 #homepage .home_slider .flexslider ul.slides li.home-slider-3 .content .cta img {
-    width: 12vw
+    width: 23vw
 }
 
 @media screen and (max-width:1270px) {
@@ -3456,7 +3456,7 @@ textarea {
 
         #homepage .home_slider .flexslider ul.slides li.home-slider-3 .content .cta .cta-mobile img {
             display: block !important;
-            width: 25vw !important
+            width: 42vw !important
         }
 
         #homepage .home_slider .flexslider ul.slides li.home-slider-3 .content .cta {
@@ -3515,8 +3515,14 @@ textarea {
         height: inherit;
         top: 55%
     }
-}
 
+    #homepage .home_slider .flexslider ul.slides li.home-slider-7 .content img {
+        position: absolute;
+        bottom: 0;
+        left: -48.1vw;
+        float: left;
+    }
+}
 #homepage .home_slider .flexslider ul.slides li.home-slider-6 .content h2 {
     color: #425676;
     font-size: 20px;
@@ -4997,7 +5003,7 @@ textarea {
 #homepage .categories .new_arrivals .block .content {
     color: #1b356a;
     display: inline-block;
-    padding-right: 10%;
+    padding-right: 29%;
     padding-top: 5%;
     text-align: center;
     float: right
@@ -5331,7 +5337,7 @@ textarea {
                     }
 
     #homepage .location_catalog .catalog {
-        background-image: url(/public/images/home/location_catalog/FA18_landau_catalog.png);
+        background-image: url(/public/images/home/location_catalog/SPR19_landau_catalog.png);
         background-color: #f6f6f6;
         background-repeat: no-repeat;
         background-position: right -90px bottom -40px;
@@ -6618,7 +6624,7 @@ textarea {
             #homepage .categories .container .new_arrivals .block .content {
                 padding-top: 14%;
                 left: inherit !important;
-                right: -6.5vw !important;
+                right: 48vw !important;
                 width: 56% !important;
                 padding-left: 1%
             }
@@ -7832,7 +7838,7 @@ textarea {
         }
 
 #collections .collections_container .inner .block.block2 .overlay_img {
-    background-image: url(/public/images/collections/collections/introducing_lynx.jpg)
+    background-image: url(/public/images/collections/collections/introducing_proflex.jpg)
 }
 
 #collections .collections_container .inner .block.block2 .content {
@@ -8048,7 +8054,7 @@ textarea {
         display: table;
         margin-left: auto;
         margin-right: auto;
-        margin-top: 23px;
+        margin-top: 48px;
         font-family: Proxima N W01 Bold;
         padding: 13px 25px 13px 22px
     }
@@ -8133,7 +8139,7 @@ textarea {
             }
 
         #collections .collections_container .inner .block.block2 .overlay_img {
-            background-image: url(/public/images/collections/collections/introducing_lynx_990.jpg)
+            background-image: url(/public/images/collections/collections/introducing_proflex_990.jpg)
         }
 
         #collections .collections_container .inner .block.block2 .content {
@@ -8352,7 +8358,7 @@ textarea {
         }
 
             #collections .collections_container .inner .block.block2 .content {
-                background-image: url(/public/images/collections/collections/introducing_lynx_768.jpg);
+                background-image: url(/public/images/collections/collections/introducing_proflex_768.jpg);
                 padding-top: 145px;
                 padding-right: 271px
             }
@@ -8635,7 +8641,7 @@ textarea {
 
             #collections .collections_container .inner .block.block2 .content {
                 padding-top: 68.5%;
-                background-image: url(/public/images/collections/collections/introducing_lynx_640.jpg)
+                background-image: url(/public/images/collections/collections/introducing_proflex_640.jpg)
             }
 
                 #collections .collections_container .inner .block.block2 .content .top {
@@ -16795,12 +16801,12 @@ textarea {
         cursor: pointer
     }
 
-    #promotions_page .promo2 {
+    /*#promotions_page .promo2 {
         height: 768px;
         background-position: 10%;
         background-repeat: no-repeat;
         cursor: pointer
-    }
+    }*/
 
 @media screen and (max-width:989px) {
     #promotions_page .promo {
@@ -16809,11 +16815,11 @@ textarea {
         padding-top: 91.5%
     }
 
-    #promotions_page .promo2 {
+    /*#promotions_page .promo2 {
         height: inherit;
         background-size: cover;
         padding-top: 91.5%
-    }
+    }*/
 }
 
 #promotions_page .promo .content {
@@ -16920,10 +16926,10 @@ textarea {
     }
 }
 
-#promotions_page #promo2 {
+/*#promotions_page #promo2 {
     position: relative;
     background-image: url(~/public/images/promotions/Landau_Ambassador.jpg)
-}
+}*/
 
 #promotions_page #promo1 {
     position: relative;
@@ -16932,21 +16938,21 @@ textarea {
 }
 
 @media screen and (max-width:989px) {
-    #promotions_page #promo2 {
+    /*#promotions_page #promo2 {
         background-image: url(~/public/images/promotions/Landau_Ambassador_mobile.jpg)
-    }
+    }*/
 
     #promotions_page #promo1 {
         background-image: url(/public/images/promotions/Insider_Panel_Mobile.jpg)
     }
 }
 
-#promotions_page #promo2 .content {
+/*#promotions_page #promo2 .content {
     position: absolute;
     top: 500px;
     left: 100px;
     width: 411px
-}
+}*/
 
 #promotions_page #promo1 .content {
     top: 191px;
@@ -16961,10 +16967,10 @@ textarea {
         width: 40%
     }
 
-    #promotions_page #promo2 .content {
+    /*#promotions_page #promo2 .content {
         top: 100px;
         left: 600px;
-    }
+    }*/
 }
 
 @media screen and (max-width:767px) {
@@ -16974,25 +16980,25 @@ textarea {
         width: 47%
     }
 
-    #promotions_page #promo2 .content {
+    /*#promotions_page #promo2 .content {
         top: 60px;
         left: 400px;
-    }
+    }*/
 }
 
 @media screen and (max-width:560px) {
-    #promotions_page #promo2 .content {
+    /*#promotions_page #promo2 .content {
         top: 20px;
         left: 320px;
-    }
+    }*/
 }
 
 
 @media screen and (max-width:420px) {
-    #promotions_page #promo2 .content {
+    /*#promotions_page #promo2 .content {
         top: 10px;
         left: 220px;
-    }
+    }*/
 }
 
 #promotions_page #promo1 .content .fancy-text {
@@ -22459,3 +22465,142 @@ textarea {
                     letter-spacing: .2em
                 }
 }
+#scholarship-container {
+    margin: 0;
+    background-color: #000000;
+    font-family: Helvetica Neue Light, Helvetica Neue, Helvetica, Arial, sans-serif !important;
+    font-weight:700;
+}
+
+#scholarship div {
+    width: 100%;
+}
+
+#scholarship .mobile {
+    display: none;
+}
+
+#scholarship img {
+    width: 100%;
+    height: auto;
+}
+
+
+
+#scholarship-details {
+    padding-top: 25px;
+    color: rgb(255,255,255);
+    width: 1200px;
+    margin: 0 auto;
+}
+
+    #scholarship-details .header {
+        text-align: center;        
+    }
+    #scholarship-details .apply_now {
+        text-align: center;
+        padding-bottom: 20px;
+    }
+
+    #scholarship-details .conditions .left {
+        float: left;
+        width: 48%;
+    }
+
+    #scholarship-details .conditions .right {
+        float: right;
+        width: 48%;
+    }
+
+ul.markers li{
+    
+    list-style-type: square;
+}
+.row {
+    height: 275px;
+}
+
+.offers {
+    margin: 0 auto;
+    width: 730px;
+}
+
+    .offers .offer {
+        display: inline-block;
+        width: 200px;
+        margin: 20px;
+    }
+
+        .offers .offer .date img {
+            width: 100%;
+            height: auto;
+        }
+
+.offer .description {
+    text-align: center;
+}
+
+ul li {
+    margin-bottom: 6px;
+}
+
+.button {
+    background-color: #00539C;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    position:center;
+   
+   
+
+}
+
+
+@media only screen and (max-width:767px) {
+    #scholarship .desktop {
+        display: none;
+    }
+
+    #scholarship .mobile {
+        display: block;
+    }
+    ul li {
+        margin-bottom: 6px;
+    }
+    #scholarship-details {
+        padding-top: 15px;
+        width: 90%;
+    }
+
+    .offers {
+        width: 90%;
+        margin: 0px auto;
+    }
+
+        .offers .offer {
+            display: block;
+            margin: 0px auto;
+        }
+
+    #scholarship-details .conditions .left {
+        width: 90%;
+    }
+
+    #scholarship-details .conditions .right {
+        float: left;
+        width: 90%;
+    }
+}
+
+@media only screen and (min-width: 768px){
+    #collections .collections_container .inner .block {
+        height: 420px;
+    }
+}
+

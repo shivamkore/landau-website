@@ -95,6 +95,12 @@ namespace ZtherApiIntegration
             );
 
             routes.MapRoute(
+                          "Scholarship", // Route name
+                          "Scholarship", // URL with parameters
+                         new { controller = "Scholarship", action = "Index" } // Parameter defaults
+                      );
+
+             routes.MapRoute(
                 "GroupsCreate", // Route name
                 "GroupsCreate", // URL with parameters
                 new { controller = "Groups", action = "Create" } // Parameter defaults

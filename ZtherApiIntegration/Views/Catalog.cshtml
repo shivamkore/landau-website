@@ -4,7 +4,7 @@
 
 
 <div id="catalog_container">
-    @if(Model.ProductList.DisplaySlider)
+    @if(Model.ProductList.DisplaySlider && Model.ProductList.SliderText.Descriptions.Count > 0)
     {
         <div class="info_slider">
             <div class="flexslider">
