@@ -22540,7 +22540,7 @@ ul.markers li{
     text-align: center;
 }
 
-ul li {
+#scholarship-details ul li {
     margin-bottom: 6px;
 }
 
@@ -22570,12 +22570,16 @@ ul li {
     #scholarship .mobile {
         display: block;
     }
-    ul li {
+    #scholarship-details ul li {
         margin-bottom: 6px;
     }
     #scholarship-details {
         padding-top: 15px;
         width: 90%;
+    }
+
+    #scholarship-details .row{
+        margin-left: 0px;
     }
 
     .offers {
