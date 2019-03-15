@@ -139,9 +139,9 @@ namespace ZtherApiIntegration.API.Managers.Catalog
         {
             using (var client = new LandauPortalWebAPI())
             {
-                var prods = client.Catalogs.Search(filter.Brand, filter.SearchKey, filter.ViewAll ? 1: filter.PageNumber, filter.ViewAll ? int.MaxValue : PAGE_SIZE);
+                var prods = client.Catalogs.Search(filter.Brand, filter.SearchKey, filter.ViewAll ? 1 : filter.PageNumber, filter.ViewAll ? int.MaxValue : PAGE_SIZE);
                 var prdList = new ProductListModel();
-                prdList.Products = prods.Results.Select(p => new ProductModel() { Code = p.ProductCode, Image = p.ImageUri,  Name = p.ProductName }).ToList();
+                prdList.Products = prods.Results.Select(p => new ProductModel() { Code = p.ProductCode, Image = p.ImageUri, Name = p.ProductName }).ToList();
                 prdList.Pagination.CurrentPage = prods.Pagination.CurrentPage ?? 0;
                 prdList.Pagination.PageCount = prods.Pagination.TotalPages ?? 0;
                 prdList.Pagination.PageSize = prods.Pagination.PageSize ?? 0;
@@ -150,6 +150,22 @@ namespace ZtherApiIntegration.API.Managers.Catalog
                 var result = new ProductSearchResult() { Filter = filter, Result = prdList };
 
                 return prdList;
+            }
+
+        }
+        public static Product FindProduct(string code)
+        {
+            using (var client = new LandauPortalWebAPI())
+            {
+                try
+                {
+                    var result = client.Products.GetByProduct(code);
+                    return result;
+                }
+                catch(Exception)
+                {
+                    return null;
+                }
             }
         }
     }
