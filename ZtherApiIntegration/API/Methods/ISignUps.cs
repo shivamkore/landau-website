@@ -22,7 +22,18 @@ namespace ZtherApiIntegration.API
         /// Cancellation token.
         /// </param>
         Task<HttpOperationResponse<string>> CreateSignUpsWithOperationResponseAsync(string brand, SignUp model, CancellationToken cancellationToken = default(System.Threading.CancellationToken));
-        
+
+        /// <param name='brand'>
+        /// Required.
+        /// </param>
+        /// <param name='model'>
+        /// Required.
+        /// </param>
+        /// <param name='cancellationToken'>
+        /// Cancellation token.
+        /// </param>
+        Task<HttpOperationResponse<string>> CreateSignUpsInSalesforceResponseAsync(string brand, SignUp model, CancellationToken cancellationToken = default(System.Threading.CancellationToken));
+
         /// <param name='brand'>
         /// Required.
         /// </param>

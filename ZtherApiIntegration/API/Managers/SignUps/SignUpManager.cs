@@ -22,7 +22,8 @@ namespace ZtherApiIntegration.API.Managers.SignUps
 
                 try
                 {
-                    client.SignUps.CreateSignUps(model.Brand, signupModel);
+                    //client.SignUps.CreateSignUps(model.Brand, signupModel);
+                    client.SignUps.CreateSignUpsInSalesforce(model.Brand, signupModel);
                     return true;
                 }
                 catch (Exception e) {

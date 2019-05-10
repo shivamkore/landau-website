@@ -94,7 +94,7 @@
     position: relative; 
 }
 
-#detail_page .detail_top > .left .img_container .thumbnail_container .thumbnail_video:before {
+/*#detail_page .detail_top > .left .img_container .thumbnail_container .thumbnail_video:before {
     content: '';
     background-image: url("../images/detail/icons/play.png");
     height: 29px;
@@ -106,7 +106,7 @@
     top: 0;
     bottom: 0;
     margin: auto; 
-}
+}*/
 
 #detail_page .detail_top > .left .img_container .thumbnail_container .thumbnail_video img {
     width: 100%; 

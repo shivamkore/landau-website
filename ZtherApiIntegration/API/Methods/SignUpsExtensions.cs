@@ -30,7 +30,25 @@ namespace ZtherApiIntegration.API
             }
             , operations, CancellationToken.None, TaskCreationOptions.None, TaskScheduler.Default).Unwrap().GetAwaiter().GetResult();
         }
-        
+
+        /// <param name='operations'>
+        /// Reference to the ZtherApiIntegration.API.ISignUps.
+        /// </param>
+        /// <param name='brand'>
+        /// Required.
+        /// </param>
+        /// <param name='model'>
+        /// Required.
+        /// </param>
+        public static string CreateSignUpsInSalesforce(this ISignUps operations, string brand, SignUp model)
+        {
+            return Task.Factory.StartNew((object s) =>
+            {
+                return ((ISignUps)s).CreateSignUpsInSalesforceAsync(brand, model);
+            }
+            , operations, CancellationToken.None, TaskCreationOptions.None, TaskScheduler.Default).Unwrap().GetAwaiter().GetResult();
+        }
+
         /// <param name='operations'>
         /// Reference to the ZtherApiIntegration.API.ISignUps.
         /// </param>
@@ -48,7 +66,25 @@ namespace ZtherApiIntegration.API
             Microsoft.Rest.HttpOperationResponse<string> result = await operations.CreateSignUpsWithOperationResponseAsync(brand, model, cancellationToken).ConfigureAwait(false);
             return result.Body;
         }
-        
+
+        /// <param name='operations'>
+        /// Reference to the ZtherApiIntegration.API.ISignUps.
+        /// </param>
+        /// <param name='brand'>
+        /// Required.
+        /// </param>
+        /// <param name='model'>
+        /// Required.
+        /// </param>
+        /// <param name='cancellationToken'>
+        /// Cancellation token.
+        /// </param>
+        public static async Task<string> CreateSignUpsInSalesforceAsync(this ISignUps operations, string brand, SignUp model, CancellationToken cancellationToken = default(System.Threading.CancellationToken))
+        {
+            Microsoft.Rest.HttpOperationResponse<string> result = await operations.CreateSignUpsInSalesforceResponseAsync(brand, model, cancellationToken).ConfigureAwait(false);
+            return result.Body;
+        }
+
         /// <param name='operations'>
         /// Reference to the ZtherApiIntegration.API.ISignUps.
         /// </param>
