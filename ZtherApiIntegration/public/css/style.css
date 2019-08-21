@@ -4968,12 +4968,12 @@ textarea {
 }
 
     #homepage .categories .new_arrivals .overlay_img {
-        background-image: url(/public/images/home/category/newarrivals_bg.jpg)
+        background-image: url(/public/images/home/category/newarrivals_bg1.jpg)
     }
 
 @media screen and (max-width:1270px) {
     #homepage .categories .new_arrivals .overlay_img {
-        background-image: url(/public/images/home/category/newarrivals_bg_tablet.jpg)
+        background-image: url(/public/images/home/category/newarrivals_bg_tablet1.jpg)
     }
 }
 
@@ -4989,13 +4989,13 @@ textarea {
 
 @media screen and (max-width:989px) {
     #homepage .categories .new_arrivals .block {
-        background-image: url(/public/images/home/category/newarrivals_bg_mobile_lg.jpg)
+        background-image: url(/public/images/home/category/newarrivals_bg_mobile_lg1.jpg)
     }
 }
 
 @media screen and (max-width:767px) {
     #homepage .categories .new_arrivals .block {
-        background-image: url(/public/images/home/category/newarrivals_bg_mobile.jpg);
+        background-image: url(/public/images/home/category/newarrivals_bg_mobile1.jpg);
         background-size: cover
     }
 }
@@ -5337,7 +5337,7 @@ textarea {
                     }
 
     #homepage .location_catalog .catalog {
-        background-image: url(/public/images/home/location_catalog/SPR19_landau_catalog.png);
+        background-image: url(/public/images/home/location_catalog/FL9_landau_catalog.png);
         background-color: #f6f6f6;
         background-repeat: no-repeat;
         background-position: right -90px bottom -40px;
@@ -6144,7 +6144,7 @@ textarea {
         margin-left: 30px;
         height: 287px;
         width: 705px;
-        background-image: url(/public/images/home/category/newarrivals_bg_mobile_lg.jpg)
+        background-image: url(/public/images/home/category/newarrivals_bg_mobile_lg1.jpg)
     }
 
         #homepage .categories .new_arrivals .block .content {
@@ -6615,7 +6615,7 @@ textarea {
                     }
 
         #homepage .categories .container .new_arrivals .block {
-            background-image: url(/public/images/home/category/newarrivals_bg_mobile.jpg);
+            background-image: url(/public/images/home/category/newarrivals_bg_mobile1.jpg);
             margin-top: 19px;
             height: auto;
             padding-top: 96.5%

@@ -9,7 +9,7 @@
     <WebStackScaffolding_LayoutPageFile>
     </WebStackScaffolding_LayoutPageFile>
     <WebStackScaffolding_IsAsyncSelected>False</WebStackScaffolding_IsAsyncSelected>
-    <NameOfLastUsedPublishProfile>landau-staging - Web Deploy</NameOfLastUsedPublishProfile>
+    <NameOfLastUsedPublishProfile>landau - Web Deploy</NameOfLastUsedPublishProfile>
     <WebStackScaffolding_ViewDialogWidth>600</WebStackScaffolding_ViewDialogWidth>
     <UseIISExpress>true</UseIISExpress>
     <Use64BitIISExpress />
@@ -18,7 +18,7 @@
     <IISExpressWindowsAuthentication />
     <IISExpressUseClassicPipelineMode />
     <UseGlobalApplicationHostFile />
-    <LastActiveSolutionConfig>Release-Staging|Any CPU</LastActiveSolutionConfig>
+    <LastActiveSolutionConfig>Debug|Any CPU</LastActiveSolutionConfig>
     <ActiveDebugTarget />
   </PropertyGroup>
   <ProjectExtensions>

@@ -236,8 +236,8 @@ console.log(types);
             $('button.landau-temp').fadeOut();
             $('#women-chart').fadeIn();
 
-            $('#men-coat-chart').removeClass('active');
-            $('.urbane-row').fadeIn();
+            //$('#men-coat-chart').removeClass('active');
+            //$('.urbane-row').fadeIn();
             if(types == 'pants clothing'){
 
                 if(fit == 'classic style'){

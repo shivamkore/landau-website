@@ -90,9 +90,11 @@ namespace ZtherApiIntegration.Controllers
 
                 return BuildDetailView(model);
             }
-            catch
+            catch(Exception ex)
             {
+                Console.WriteLine(ex.ToString());
                 throw Utility.Exception404();
+               
             }
         }        
 
@@ -185,7 +187,8 @@ namespace ZtherApiIntegration.Controllers
                 model.ProductDetail.DefaultCategorySize = model.ColorsAndSizes.ProductCategorySizes.Count > 0 ? model.ColorsAndSizes.ProductCategorySizes[0] : null;
                 foreach (var aSizeCategory in model.ColorsAndSizes.AvailableColorsPerSizeCategory)
                 {
-                    var match = aSizeCategory.Value.Find(c => c.ColorCode == model.ProductDetail.DefaultColorCode);
+                    var match = aSizeCategory.Value.Find(c => c.ColorCode == model.ProductDetail.DefaultColorCode );
+                  
                     if (match != null)
                     {
                         model.ProductDetail.DefaultCategorySize = aSizeCategory.Key;

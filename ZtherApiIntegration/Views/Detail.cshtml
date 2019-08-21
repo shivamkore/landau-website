@@ -30,7 +30,8 @@
         </div>
 
         <div data-bv-show="reviews" data-bv-productId="@Model.ProductDetail.Code.ToUpper()">@Html.Raw(ViewBag.OutputReviews)</div>
-
+        @*Review Highlights*@
+        <div data-bv-show="review_highlights" data-bv-productId="@Model.ProductDetail.Code"></div>
     </div>
 
 </div>

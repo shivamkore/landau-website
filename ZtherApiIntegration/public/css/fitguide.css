@@ -21,7 +21,7 @@ body{
 	text-align: center;
 }
 #measure{
-	padding: 50px 0;
+	padding: 5px 0;
 }
 
 .types{
@@ -174,7 +174,7 @@ button.landau{
 	background-color: #205297 !important;
 	color: white;
 	padding: 10px 20px;
-	lette
+	/*lette*/
 }
 
 button.landau-temp{
@@ -232,7 +232,9 @@ table tr{
 	display: block;
 }
 .style{
-	font-size: 2vw !important;;
+	font-size: 2vw !important;
+    margin-top:175px;
+
 }
 @media only screen and (max-width: 800px) {
 
@@ -269,6 +271,7 @@ table tr{
 
 .style{
 	font-size: 5vw !important;
+    margin-top:0%;
 }
 
 #full-size{
@@ -292,6 +295,7 @@ display: none;
 	@media only screen and (max-width: 991px) {
 .style{
 	font-size: 3vw !important;
+    margin-top:0%;
 }
 	}
 
@@ -335,9 +339,10 @@ display: none;
 .landau_logo{
 	padding: 20px;
 }
-.style{
-	font-size: 5vw !important;
-}
+    .style {
+        font-size: 5vw !important;
+        margin-top: 0%;
+    }
 }
 
 
@@ -366,7 +371,7 @@ td{
 #women-chart, #women-coat-chart,#child-chart, #men-coat-chart, #men-chart, #unisex-chart{
 	margin-top: 20px;
 	margin-bottom: 80px;
-	display: none;
+	/*display: none;*/
 }
 
 #unisex-chart{
