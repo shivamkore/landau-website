@@ -38,6 +38,7 @@ C:\Users\srini.yarrabothula\source\repos\Landauteam\landau-web\ZtherApiIntegrati
 C:\Users\srini.yarrabothula\source\repos\Landauteam\landau-web\ZtherApiIntegration\bin\Microsoft.Rest.ClientRuntime.xml
 C:\Users\srini.yarrabothula\source\repos\Landauteam\landau-web\ZtherApiIntegration\bin\Microsoft.WindowsAzure.Mobile.xml
 C:\Users\srini.yarrabothula\source\repos\Landauteam\landau-web\ZtherApiIntegration\bin\Microsoft.WindowsAzure.Mobile.Ext.xml
+C:\Users\srini.yarrabothula\source\repos\Landauteam\landau-web\ZtherApiIntegration\bin\Newtonsoft.Json.xml
 C:\Users\srini.yarrabothula\source\repos\Landauteam\landau-web\ZtherApiIntegration\bin\System.Net.Http.Extensions.xml
 C:\Users\srini.yarrabothula\source\repos\Landauteam\landau-web\ZtherApiIntegration\bin\System.Net.Http.Primitives.xml
 C:\Users\srini.yarrabothula\source\repos\Landauteam\landau-web\ZtherApiIntegration\bin\System.Web.Helpers.xml
@@ -56,4 +57,3 @@ C:\Users\srini.yarrabothula\source\repos\Landauteam\landau-web\ZtherApiIntegrati
 C:\Users\srini.yarrabothula\source\repos\Landauteam\landau-web\ZtherApiIntegration\obj\Debug\Landau.csproj.CopyComplete
 C:\Users\srini.yarrabothula\source\repos\Landauteam\landau-web\ZtherApiIntegration\obj\Debug\ZtherApiIntegration.dll
 C:\Users\srini.yarrabothula\source\repos\Landauteam\landau-web\ZtherApiIntegration\obj\Debug\ZtherApiIntegration.pdb
-C:\Users\srini.yarrabothula\source\repos\Landauteam\landau-web\ZtherApiIntegration\bin\Newtonsoft.Json.xml
