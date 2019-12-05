@@ -15,7 +15,6 @@ C:\Users\srini.yarrabothula\source\repos\Landauteam\landau-web\ZtherApiIntegrati
 C:\Users\srini.yarrabothula\source\repos\Landauteam\landau-web\ZtherApiIntegration\bin\Microsoft.Web.Infrastructure.dll
 C:\Users\srini.yarrabothula\source\repos\Landauteam\landau-web\ZtherApiIntegration\bin\Microsoft.WindowsAzure.Mobile.dll
 C:\Users\srini.yarrabothula\source\repos\Landauteam\landau-web\ZtherApiIntegration\bin\Microsoft.WindowsAzure.Mobile.Ext.dll
-C:\Users\srini.yarrabothula\source\repos\Landauteam\landau-web\ZtherApiIntegration\bin\Newtonsoft.Json.dll
 C:\Users\srini.yarrabothula\source\repos\Landauteam\landau-web\ZtherApiIntegration\bin\Recaptcha.Web.dll
 C:\Users\srini.yarrabothula\source\repos\Landauteam\landau-web\ZtherApiIntegration\bin\System.Net.Http.Extensions.dll
 C:\Users\srini.yarrabothula\source\repos\Landauteam\landau-web\ZtherApiIntegration\bin\System.Net.Http.Formatting.dll
