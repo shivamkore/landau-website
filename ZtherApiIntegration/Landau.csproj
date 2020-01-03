@@ -731,6 +731,7 @@
     <Content Include="scripts\respond.matchmedia.addListener.js" />
     <Content Include="scripts\respond.matchmedia.addListener.min.js" />
     <Content Include="scripts\respond.min.js" />
+    <Content Include="System.Web.Http.dll" />
     <Content Include="_App_Offline.htm" />
     <Content Include="favicon.ico" />
     <Content Include="Global.asax" />
