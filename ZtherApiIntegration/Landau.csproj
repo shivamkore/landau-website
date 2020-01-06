@@ -583,6 +583,8 @@
     <Content Include="public\images\home\slider\05-18\find-your-fit-mobileold10-22.jpg" />
     <Content Include="public\images\home\slider\05-18\find-your-fit.jpg" />
     <Content Include="public\images\home\slider\05-18\find-your-fitold10-22.jpg" />
+    <Content Include="public\images\home\slider\05-18\Landau-Amaze-Schoalrship-Mobile.jpg" />
+    <Content Include="public\images\home\slider\05-18\Landau-Amaze-Scholarship-Desktop.jpg" />
     <Content Include="public\images\home\slider\05-18\landau-playscreen-mobile.jpg" />
     <Content Include="public\images\home\slider\05-18\landau-playscreen-mobileold-11-19.jpg" />
     <Content Include="public\images\home\slider\05-18\landau-playscreen.jpg" />
@@ -712,6 +714,8 @@
     <Content Include="scripts\bootstrap.js" />
     <Content Include="scripts\bootstrap.min.js" />
     <Content Include="public\catalog.pdf" />
+    <None Include="Properties\PublishProfiles\landau-staging - FTP.pubxml" />
+    <None Include="Properties\PublishProfiles\landau-staging - ReadOnly - FTP.pubxml" />
     <None Include="scripts\jquery-1.10.2-vsdoc.js" />
     <Content Include="scripts\jquery-1.10.2.js" />
     <Content Include="scripts\jquery-1.10.2.min.js" />
