@@ -577,6 +577,8 @@
     <Content Include="public\images\home\slider\05-18\cta-fit.png" />
     <Content Include="public\images\home\slider\05-18\cta-proflex-mobile.jpg" />
     <Content Include="public\images\home\slider\05-18\cta-proflex.jpg" />
+    <Content Include="public\images\home\slider\05-18\cta-scholarship-desktop.png" />
+    <Content Include="public\images\home\slider\05-18\cta-scholarship-mobile.png" />
     <Content Include="public\images\home\slider\05-18\everyday-favorites-mobile.jpg" />
     <Content Include="public\images\home\slider\05-18\everyday-favorites.jpg" />
     <Content Include="public\images\home\slider\05-18\find-your-fit-mobile.jpg" />
