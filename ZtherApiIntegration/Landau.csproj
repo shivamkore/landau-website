@@ -577,6 +577,7 @@
     <Content Include="public\images\home\slider\05-18\cta-fit.png" />
     <Content Include="public\images\home\slider\05-18\cta-proflex-mobile.jpg" />
     <Content Include="public\images\home\slider\05-18\cta-proflex.jpg" />
+    <Content Include="public\images\home\slider\05-18\cta-proflex.png" />
     <Content Include="public\images\home\slider\05-18\cta-scholarship-desktop.png" />
     <Content Include="public\images\home\slider\05-18\cta-scholarship-mobile.png" />
     <Content Include="public\images\home\slider\05-18\everyday-favorites-mobile.jpg" />
@@ -598,6 +599,8 @@
     <Content Include="public\images\home\slider\05-18\Oh-so-comfortableold1022.jpg" />
     <Content Include="public\images\home\slider\05-18\proflex-banner-mobile.jpg" />
     <Content Include="public\images\home\slider\05-18\proflex-banner.jpg" />
+    <Content Include="public\images\home\slider\05-18\Proflex-Women-Banner-Desktop.jpg" />
+    <Content Include="public\images\home\slider\05-18\Proflex-Women-Banner-Mobile.jpg" />
     <Content Include="public\images\home\slider\05-18\saved-eyesight-mobile.jpg" />
     <Content Include="public\images\home\slider\05-18\saved-eyesight.jpg" />
     <Content Include="public\images\home\slider\all-day-cta.png" />

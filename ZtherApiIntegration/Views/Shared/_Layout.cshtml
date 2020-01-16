@@ -7,6 +7,15 @@
     <meta name="description" content="@(ViewBag.Description != null ? ViewBag.Description : "")">
     <meta name="author" content="SitePoint">
 
+    <meta property="og:title" content="@(ViewBag.Title != null ? ViewBag.Title : "")">
+    <meta property="og:description" content="@(ViewBag.Description != null ? ViewBag.Description : "")">
+    <meta property="og:image" content="public/images/header/landau_logo2.png">
+    <meta property="og:url" content="@ViewBag.CanonicalUrl">
+    <meta name="twitter:card" content="summary_large_image">
+
+    <meta property="og:site_name" content="Landau Uniforms">
+    <meta name="twitter:image:alt" content="Alt text for image">
+
     @if (ViewBag.HasNoFollow != null && ViewBag.HasNoFollow)
     {
         <META NAME="ROBOTS" CONTENT="NOINDEX, NOFOLLOW">
