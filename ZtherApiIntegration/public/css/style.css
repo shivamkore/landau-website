@@ -3505,7 +3505,7 @@ textarea {
 }
 
 #homepage .home_slider .flexslider ul.slides li.home-slider-7 .content img {
-    width: 12vw;
+    width: 25vw;
 }
 
 @media screen and (max-width:767px) {
@@ -3737,7 +3737,7 @@ textarea {
 
         #homepage .home_slider .container .flexslider .content ul.slides li.home-slider-7 .content .cta-mobile img {
             
-            width: 25vw;
+            width: 40vw;
             display: block;
             position: relative
         }
