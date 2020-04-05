@@ -2,19 +2,17 @@
 @using System.Configuration
 
 <div id="homepage">
-    <div id="video_overlay"></div>
-    <div id="video_popup">
-        <!--  START NEW WISTIA CODE FOR VIDEO -->
-        <iframe src="https://fast.wistia.net/embed/iframe/xemecix4nj" id="wistia_video" allowtransparency="true" autoplay="true" frameborder="0" scrolling="no" class="wistia_embed" name="wistia_embed" allowfullscreen mozallowfullscreen webkitallowfullscreen oallowfullscreen msallowfullscreen width="100%" height="100%"></iframe>
-        <script src="https://fast.wistia.net/assets/external/E-v1.js" async></script>
-        <!--  START NEW WISTIA CODE FOR VIDEO -->
-    </div>
     <div class="home_slider">
         <div class="container">
             <div class="flexslider">
                 <div class="content">
                     <ul class="slides">
-                        <!-- begin Template SLiders Jay Murphy -->
+                     <!-- begin Template SLiders Jay Murphy -->
+                        <li>
+                            <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%;">
+                                <iframe id="player_1" src="https://player.vimeo.com/video/402206636?autoplay=1&loop=1&title=0&byline=0&portrait=0" style="position: absolute; top:0; left:0; width:100%; height:100%;" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+                            </div>
+                        </li>
                         <li class="home-slider-3">
                             <picture>
                                 <!--[if IE 9]><video style="display: none;"><![endif]-->
@@ -34,56 +32,6 @@
                                 </a>
                             </div>
                         </li>
-                        <li class="home-slider-0">
-                            <picture>
-                                <!--[if IE 9]><video style="display: none;"><![endif]-->
-                                <source srcset="public/images/home/slider/05-18/landau-playscreen-mobile.jpg" media="(max-width: 767px)" style="width:100%">
-                                <source srcset="public/images/home/slider/05-18/landau-playscreen-mobile.jpg" media="(max-width: 989px)" style="width:100%">
-                                <!--[if IE 9]></video><![endif]-->
-                                <img class="background" style="width:100%" srcset="public/images/home/slider/05-18/landau-playscreen.jpg" alt="New Hues for U to Celebrate the Season" draggable="false">
-                            </picture>
-                        </li>
-
-                        @*   <li class="home-slider-2">
-        <picture>
-        <!--[if IE 9]><video style="display: none;"><![endif]-->
-        <source srcset="public/images/home/slider/shoe_mobile.jpg" media="(max-width: 767px)" style="width:100%">
-        <source srcset="public/images/home/slider/shoe_mobile.jpg" media="(max-width: 989px)" style="width:100%">
-        <!--[if IE 9]></video><![endif]-->
-        <img class="background" style="width:100%" srcset="public/images/home/slider/all-day.jpg" alt="They Won't Stop Until You Do" draggable="false">
-        </picture>
-        <div class="content">
-        <a href="~/women/category/footwear" class="cta">
-        <div class="cta">
-        <img src="public/images/home/slider/all-day-cta.png" />
-        </div>
-        <div class="cta-mobile">
-        <img src="~/public/images/home/slider/shoe-mobile-cta.png" />
-        </div>
-        </a>
-        </div>
-        </li>*@
-
-                        @*<li class="home-slider-2">
-            <picture>
-                <!--[if IE 9]><video style="display: none;"><![endif]-->
-                <source srcset="public/images/home/slider/all-day-mobile.jpg" media="(max-width: 767px)" style="width:100%">
-                <source srcset="public/images/home/slider/all-day-mobile.jpg" media="(max-width: 989px)" style="width:100%">
-                <!--[if IE 9]></video><![endif]-->
-                <img class="background" style="width:100%" srcset="public/images/home/slider/all-day.jpg" alt="Make Your Move" draggable="false">
-            </picture>
-            <div class="content">
-                <a href="~/women/category/all-day" class="cta">
-                    <div class="cta">
-                        <img src="~/public/images/home/slider/all-day-cta.png" />
-                        <div class="cta-mobile">
-                            <img src="~/public/images/home/slider/all-day-mobile-cta.png" />
-                        </div>
-                    </div>
-                </a>
-            </div>
-        </li>*@
-
                         <li class="home-slider-7">
                             <picture>
                                 <!--[if IE 9]><video style="display: none;"><![endif]-->
@@ -101,66 +49,7 @@
                                 </a>
                             </div>
                         </li>
-
-
-
-                        @*<li class="home-slider-5">
-        <picture>
-        <!--[if IE 9]><video style="display: none;"><![endif]-->
-        <source srcset="public/images/home/slider/05-18/find-your-fit.jpg" media="(max-width: 767px)" style="width:100%">
-        <source srcset="public/images/home/slider/05-18/find-your-fit.jpg" media="(max-width: 989px)" style="width:100%">
-        <!--[if IE 9]></video><![endif]-->
-        <img class="background" style="width:100%" srcset="public/images/home/slider/05-18/find-your-fit.jpg" alt="These'll Knock You Off Your Feet" draggable="false">
-        </picture>
-        <div class="content">
-        <a href="~/women/category/new-arrivals" class="cta">
-        <div class="cta">
-        <img src="~/public/images/home/slider/05-18/cta-fit.png" />
-        <div class="cta-mobile">
-        <img src="~/public/images/home/slider/05-18/cta-fit-mobile.png" />
-        </div>
-        </div>
-        </a>
-        </div>
-        </li>*@
-
-                        @*<li class="home-slider-6">
-                                <picture>
-                                    <!--[if IE 9]><video style="display: none;"><![endif]-->
-                                    <source srcset="public/images/home/slider/05-18/find-your-fit-mobile.jpg" media="(max-width: 767px)" style="width:100%">
-                                    <source srcset="public/images/home/slider/05-18/find-your-fit-mobile.jpg" media="(max-width: 989px)" style="width:100%">
-                                    <!--[if IE 9]></video><![endif]-->
-                                    <img class="background" style="width:100%" srcset="public/images/home/slider/05-18/find-your-fit.jpg" alt="These'll Knock You Off Your Feet" draggable="false">
-                                </picture>
-                                <div class="content">
-                                    <a href="~/fit-guide" class="cta">
-                                        <img src="~/public/images/home/slider/05-18/cta-fit.png" />
-                                        <div class="cta-mobile">
-                                            <img src="~/public/images/home/slider/05-18/cta-fit.png" />
-                                        </div>
-                                    </a>
-                                </div>
-                            </li>
-                            <li class="home-slider-3">
-                                <picture>
-                                    <!--[if IE 9]><video style="display: none;"><![endif]-->
-                                    <source srcset="public/images/home/slider/05-18/saved-eyesight-mobile.jpg" media="(max-width: 767px)" style="width:100%">
-                                    <source srcset="public/images/home/slider/05-18/saved-eyesight-mobile.jpg" media="(max-width: 989px)" style="width:100%">
-                                    <!--[if IE 9]></video><![endif]-->
-                                    <img class="background" style="width:100%" srcset="public/images/home/slider/05-18/saved-eyesight.jpg" alt="Make Your Move" draggable="false">
-                                </picture>
-                                <div class="content">
-                                    <a href="/men/collection/proflex" class="cta">
-                                        <div class="cta">
-                                            <img src="~/public/images/home/slider/05-18/cta-amazing-mobile.jpg" />
-                                            <div class="cta-mobile">
-                                                <img src="~/public/images/home/slider/05-18/cta-amazing-mobile.jpg" />
-                                            </div>
-                                        </div>
-                                    </a>
-                                </div>
-                            </li>*@
-                            <!-- end Template SLiders Jay Murphy -->
+                        <!-- end Template SLiders Jay Murphy -->
                         </ul>
                     </div>
                 </div>
@@ -416,3 +305,13 @@
     </div>
 </div>
 
+<script src="~/public/js/flexslider/js/jquery.flexslider.js"></script>
+
+<!-- Syntax Highlighter -->
+<script type="text/javascript" src="~/public/js/flexslider/js/shCore.js"></script>
+<script type="text/javascript" src="~/public/js/flexslider/js/shBrushXml.js"></script>
+<script type="text/javascript" src="~/public/js/flexslider/js/shBrushJScript.js"></script>
+
+<!-- Optional FlexSlider Additions -->
+<script src="~/public/js/flexslider/js/froogaloop.js"></script>
+<script src="~/public/js/flexslider/js/jquery.fitvid.js"></script>

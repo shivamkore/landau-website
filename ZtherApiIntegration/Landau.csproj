@@ -748,8 +748,10 @@
     <Content Include="scripts\bootstrap.js" />
     <Content Include="scripts\bootstrap.min.js" />
     <Content Include="public\catalog.pdf" />
+    <None Include="Properties\PublishProfiles\landau-dev - FTP.pubxml" />
+    <None Include="Properties\PublishProfiles\landau-dev - ReadOnly - FTP.pubxml" />
+    <None Include="Properties\PublishProfiles\landau-dev - Web Deploy.pubxml" />
     <None Include="Properties\PublishProfiles\landau-staging - FTP.pubxml" />
-    <None Include="Properties\PublishProfiles\landau-staging - ReadOnly - FTP.pubxml" />
     <Content Include="public\js\flexslider\fonts\webfonts\geo-medium\eot\1110FC_0.eot" />
     <Content Include="public\js\flexslider\fonts\webfonts\geo-medium\ttf\1110FC_0.ttf" />
     <Content Include="public\js\flexslider\fonts\webfonts\geo-medium\woff\1110FC_0.woff" />
@@ -759,6 +761,7 @@
     <Content Include="public\js\flexslider\fonts\webfonts\geo-semibold\eot\style_169898.eot" />
     <Content Include="public\js\flexslider\fonts\webfonts\geo-semibold\ttf\style_169898.ttf" />
     <Content Include="public\js\flexslider\fonts\webfonts\geo-semibold\woff\style_169898.woff" />
+    <None Include="Properties\PublishProfiles\landau-staging - ReadOnly - FTP.pubxml" />
     <None Include="scripts\jquery-1.10.2-vsdoc.js" />
     <Content Include="scripts\jquery-1.10.2.js" />
     <Content Include="scripts\jquery-1.10.2.min.js" />
