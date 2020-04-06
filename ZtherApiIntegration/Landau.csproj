@@ -748,6 +748,11 @@
     <Content Include="scripts\bootstrap.js" />
     <Content Include="scripts\bootstrap.min.js" />
     <Content Include="public\catalog.pdf" />
+    <None Include="Properties\PublishProfiles\landau - FTP.pubxml" />
+    <None Include="Properties\PublishProfiles\landau - ReadOnly - FTP.pubxml" />
+    <None Include="Properties\PublishProfiles\landau-dev - FTP.pubxml" />
+    <None Include="Properties\PublishProfiles\landau-dev - ReadOnly - FTP.pubxml" />
+    <None Include="Properties\PublishProfiles\landau-dev - Web Deploy.pubxml" />
     <None Include="Properties\PublishProfiles\landau-staging - FTP.pubxml" />
     <None Include="Properties\PublishProfiles\landau-staging - ReadOnly - FTP.pubxml" />
     <Content Include="public\js\flexslider\fonts\webfonts\geo-medium\eot\1110FC_0.eot" />
