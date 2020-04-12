@@ -624,6 +624,8 @@
     <Content Include="public\images\home\slider\desktop\socks_1920.jpg" />
     <Content Include="public\images\home\slider\desktop\socks_990.jpg" />
     <Content Include="public\images\home\slider\for-men.jpg" />
+    <Content Include="public\images\home\slider\industrial-laundry-approved-desktop.jpg" />
+    <Content Include="public\images\home\slider\industrial-laundry-approved-mobile.jpg" />
     <Content Include="public\images\home\slider\landau-covid19-desktop.jpg" />
     <Content Include="public\images\home\slider\landau-covid19-mobile.jpg" />
     <Content Include="public\images\home\slider\lynx-cta.png" />
