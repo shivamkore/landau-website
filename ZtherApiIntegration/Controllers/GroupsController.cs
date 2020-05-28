@@ -16,6 +16,9 @@ namespace ZtherApiIntegration.Controllers
         [Route(UrlBuilder.GROUPS)]
         public ActionResult Index()
         {
+            // Redirecting to the new Landau Group site.
+            return RedirectPermanent("https://groups.landau.com");
+
             this.FillSeoInformation("Group Order");
 
             ViewBag.Scripts = new List<string>() { "form.js" };
