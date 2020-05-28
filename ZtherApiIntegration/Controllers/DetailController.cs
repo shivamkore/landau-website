@@ -49,45 +49,6 @@ namespace ZtherApiIntegration.Controllers
                 if (model.ProductDetail == null || !ProductUrlIsCorrect(model.ProductDetail))
                     throw Utility.Exception404();
 
-
-                #region BAZAAR VOICE
-                /** BAZAAR VOICE - BEGIN ***********************/
-
-                var bvseoKey = ConfigurationManager.AppSettings["bvseo-key"].ToString();
-                var bvseoRootFolder = ConfigurationManager.AppSettings["bvseo-root-folder"].ToString();
-                var bvseoStaging = ConfigurationManager.AppSettings["bvseo-staging"].ToString();
-
-                //Establish a new BVConfiguration. Properties within this configuration are typically set in bvconfig.properties.  
-                //addProperty can be used to override configurations set in bvconfig.properties.
-                BVConfiguration bvConfig = new BVSdkConfiguration();
-                bvConfig.addProperty(BVClientConfig.CLOUD_KEY, bvseoKey);
-                bvConfig.addProperty(BVClientConfig.BV_ROOT_FOLDER, bvseoRootFolder); //adjust this for each locale
-                bvConfig.addProperty(BVClientConfig.STAGING, bvseoStaging);
-
-                //Prepare pageURL and SubjectID/ProductID values.	
-                String subjectID = product.Trim().ToUpper();
-                String pageURL = Request.Url.ToString();
-
-                //Set BV Parameters that are specific to the page and content type.
-                BVParameters bvParam = new BVParameters();
-                bvParam.BaseURI = pageURL.Contains("?") ? pageURL.Substring(0, pageURL.IndexOf("?")) : pageURL;
-                bvParam.PageURI = Request.Url.ToString(); //this value is used to extract the page number from bv URL parameters
-                bvParam.ContentType = new BVContentType(BVContentType.REVIEWS);
-                bvParam.SubjectType = new BVSubjectType(BVSubjectType.PRODUCT);
-                bvParam.SubjectId = subjectID;
-
-
-                //Get content and place into strings, then output into the injection divs.
-                BVUIContent bvOutput = new BVManagedUIContent(bvConfig);
-                String sBvOutputSummary = bvOutput.getAggregateRating(bvParam);  //getAggregateRating delivers the AggregateRating section only
-                String sBvOutputReviews = bvOutput.getReviews(bvParam);  //getReviews delivers the review content with pagination only
-
-                ViewBag.OutputReviews = sBvOutputSummary + " " + sBvOutputReviews;
-                
-
-                /** BAZAAR VOICE - END ***********************/
-                #endregion
-
                 return BuildDetailView(model);
             }
             catch(Exception ex)
