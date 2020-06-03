@@ -157,3 +157,7 @@
     opacity: 1;
     transition-delay: 0s; 
 }
+
+.pr-star-rating {
+    padding: 10px 0;
+}

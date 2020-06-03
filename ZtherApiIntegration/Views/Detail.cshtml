@@ -29,6 +29,10 @@
 
         </div>
 
+        <!-- Power Reviews Detail Review & Question Display -->
+        <div id="pr-reviewdisplay"></div>
+        <div id="pr-questiondisplay"></div>
+
     </div>
 
 </div>
@@ -66,10 +70,29 @@
 
 <script src="public/js/logic/detail.js"></script>
 
+@* Power Reviews JS script. *@
+<script src="//ui.powerreviews.com/stable/4.0/ui.js"></script>
+
 <script type="text/javascript">
     setValues('@Model.ProductDetail.Code', '@Model.ProductDetail.DefaultColorCode', '@(Model.ColorsAndSizes.ProductCategorySizes.Count > 0 ? Model.ColorsAndSizes.ProductCategorySizes[0] : "")');
 </script>
 
 <script>
+
     fbq('track', 'ViewContent');
+
+    // Power Reviews script for rendering review review snippet, review display and question display.
+    POWERREVIEWS.display.render({
+        api_key: '@System.Configuration.ConfigurationManager.AppSettings["Power-Reviews-API-Key"]',
+        locale: 'en_US',
+        merchant_group_id: '@System.Configuration.ConfigurationManager.AppSettings["Power-Reviews-Merchant-Group-Id"]',
+        merchant_id: '@System.Configuration.ConfigurationManager.AppSettings["Power-Reviews-Merchant-Id"]',
+        page_id: '@Model.ProductDetail.Code',
+        components: {
+            ReviewSnippet: 'pr-reviewsnippet',
+            ReviewDisplay: 'pr-reviewdisplay',
+            QuestionDisplay: 'pr-questiondisplay'
+        }
+    });
+
 </script>

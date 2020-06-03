@@ -4,13 +4,13 @@
 
 
 <div id="catalog_container">
-    @if(Model.ProductList.DisplaySlider && Model.ProductList.SliderText.Descriptions.Count > 0)
+    @if (Model.ProductList.DisplaySlider && Model.ProductList.SliderText.Descriptions.Count > 0)
     {
         <div class="info_slider">
             <div class="flexslider">
                 <div class="content">
                     <ul class="slides">
-                        @if(Model.ProductList.SliderText.Descriptions.Count > 0)
+                        @if (Model.ProductList.SliderText.Descriptions.Count > 0)
                         {
                             <li>
                                 <div class="content">
@@ -19,7 +19,7 @@
                                 </div>
                             </li>
 
-                            for(var i= 1; i< Model.ProductList.SliderText.Descriptions.Count; i++)
+                            for (var i = 1; i < Model.ProductList.SliderText.Descriptions.Count; i++)
                             {
                                 <li>
                                     <div class="content">
@@ -36,11 +36,11 @@
 
         <div class="top_divider"></div>
     }
-    
+
 
     @Html.Partial("~/Views/Partials/Catalog/_NavLeftMainPartial.cshtml", Model.Selections)
 
-	<div id="catalog">
+    <div id="catalog">
         <div class="loading_mask" style="display:none">
             <img srcset="public/images/catalog/landau_preloader.gif" />
         </div>
@@ -57,11 +57,11 @@
                 </a>
                 @if (Model.Selections.Breadcrumb.Category != null)
                 {
-                <span>/</span>
-                <a href="@UrlBuilder.BuildCatalogUrl(Model.Selections.Breadcrumb)" itemprop="item">
-                    <span itemprop="name" class="name">@Utility.GetBreadcrumbCategory(Model.Selections.Breadcrumb.Category)</span>
-                    <meta itemprop="position" content="3" />
-                </a>
+                    <span>/</span>
+                    <a href="@UrlBuilder.BuildCatalogUrl(Model.Selections.Breadcrumb)" itemprop="item">
+                        <span itemprop="name" class="name">@Utility.GetBreadcrumbCategory(Model.Selections.Breadcrumb.Category)</span>
+                        <meta itemprop="position" content="3" />
+                    </a>
                 }
                 @if (Model.Selections.Breadcrumb.Collection != null)
                 {
@@ -79,46 +79,50 @@
                 @Html.Partial("~/Views/Partials/Catalog/_PaginationPartial.cshtml", Model.ProductList.Pagination)
             </div>
         </div>
-		<div class="main_row">
-			<div class="hero">
+        <div class="main_row">
+            <div class="hero">
                 <img class="background" srcset="@Model.ProductList.CatalogImage" alt="@(Model.Selections.Breadcrumb.Category != null ? Model.Selections.Breadcrumb.Category.Value : (Model.Selections.Breadcrumb.Collection != null ? Model.Selections.Breadcrumb.Collection.Value : ""))" />
-			</div>
-			<div class="filters mobile-filters">
-				<div class="filter_button_wrapper left">
-					<div class="filter_button reset_button disabled">Reset Filters</div>
-				</div>
-				<div class="filter_button_wrapper right">
-					<div class="filter_button">Show Filter</div>
-				</div>
-				<div class="mobile_right_filters">
-					<div class="count">Filter <span>130</span> Items</div>
-					<div class="exit_btn">
-						<img src="public/images/catalog/x-icon.png"/>
-					</div>
-					<ul>
+            </div>
+            <div class="filters mobile-filters">
+                <div class="filter_button_wrapper left">
+                    <div class="filter_button reset_button disabled">Reset Filters</div>
+                </div>
+                <div class="filter_button_wrapper right">
+                    <div class="filter_button">Show Filter</div>
+                </div>
+                <div class="mobile_right_filters">
+                    <div class="count">Filter <span>130</span> Items</div>
+                    <div class="exit_btn">
+                        <img src="public/images/catalog/x-icon.png" />
+                    </div>
+                    <ul>
                         @Html.Partial("~/Views/Partials/Catalog/_FiltersMobilePartial.cshtml", Model.Filters)
-					</ul>
-					<div class="bottom">
-						<div class="button_container">
-							<div class="clear_btn">Clear</div>
-						</div>
-						<div class="button_container">
-							<div class="apply_btn">Apply</div>
-						</div>
-					</div>
-				</div>
-			</div>
-			<div class="product_group" id="prodGroup">
+                    </ul>
+                    <div class="bottom">
+                        <div class="button_container">
+                            <div class="clear_btn">Clear</div>
+                        </div>
+                        <div class="button_container">
+                            <div class="apply_btn">Apply</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="product_group" id="prodGroup">
                 @Html.Partial("~/Views/Partials/Catalog/_ProductGroupPartial.cshtml")
-			</div>
-		</div>
+            </div>
+        </div>
         <div id="prodRows">
             @Html.Partial("~/Views/Partials/Catalog/_ProductRowsPartial.cshtml")
         </div>
-	</div>
+    </div>
 </div>
 
+@* Power Reviews JS script. *@
+<script src="//ui.powerreviews.com/stable/4.0/ui.js"></script>
+
 <script src="public/js/logic/catalog.js"></script>
+
 <script type="text/javascript">
     @{
         var selection = Model.Filters.FitTypes.Where(d => d.Selected).FirstOrDefault();

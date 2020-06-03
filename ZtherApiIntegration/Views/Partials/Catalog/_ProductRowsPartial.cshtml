@@ -3,7 +3,7 @@
 @model CatalogModel
 
 @for (int i = 4; i < Model.ProductList.Products.Count; i += 4)
-{    <div class="product_row">
+{<div class="product_row">
         <div class="mobile_row">
             @for (int j = i; j < i + 4 && j < Model.ProductList.Products.Count; j++)
             {
@@ -26,6 +26,7 @@
                         <div class="footer">
                             <div class="text">@aProd.Name</div>
                             <div class="number">@aProd.Code</div>
+                            <div id="@String.Concat("pr-star-rating-", j.ToString())" class="pr-star-rating"></div>
                         </div>
                     </a>
                 </div>
@@ -33,8 +34,8 @@
 
                 if (j == (i + 1) && (i + 3) <= Model.ProductList.Products.Count)
                 {
-                    @:</div>
-                    @:<div class="mobile_row">
+                @:</div>
+                @:<div class="mobile_row">
                 }
             }
         </div>
@@ -49,3 +50,42 @@
         @Html.Partial("~/Views/Partials/Catalog/_PaginationPartial.cshtml", Model.ProductList.Pagination)
     </div>
 </div>
+
+@* Power Review scripts for rendering category star review  rating. *@
+<script type="text/javascript">
+
+    $(function () {
+
+        var arrayOfCategorySnippet = [];
+
+        function GetCategoryItem(productCode, index) {
+            return {
+                locale: 'en_US',
+                merchant_group_id: '@System.Configuration.ConfigurationManager.AppSettings["Power-Reviews-Merchant-Group-Id"]',
+                page_id: productCode,
+                merchant_id: '@System.Configuration.ConfigurationManager.AppSettings["Power-Reviews-Merchant-Id"]',
+                api_key: '@System.Configuration.ConfigurationManager.AppSettings["Power-Reviews-API-Key"]',
+                components: {
+                    CategorySnippet: 'pr-star-rating-' + index
+                }
+            };
+        }
+
+        var rowsProductList = @Html.Raw(Newtonsoft.Json.JsonConvert.SerializeObject(Model.ProductList.Products));
+
+        if (rowsProductList.length > 0) {
+
+            var arrayOfCategorySnippet = [];
+
+            for (var x = 0; x < rowsProductList.length; x++) {
+
+                var code = rowsProductList[x].Code;
+
+                arrayOfCategorySnippet.push(GetCategoryItem(code, x));
+            }
+
+            POWERREVIEWS.display.render(arrayOfCategorySnippet);
+        }
+    });
+
+</script>

@@ -19,6 +19,9 @@
     <h1 class="title" itemprop="name">@Model.ProductDetail.Name</h1>
     <div class="sku">@Model.ProductDetail.Code</div>
 
+    <!--Power Reviews Star Rating -->
+    <div id="pr-reviewsnippet"></div>
+
     <!-- Section for Fit Display -->
     @if (Model.ProductDetail.FitRiseWaist.Trim().ToUpper() == "CLASSIC")
     {
