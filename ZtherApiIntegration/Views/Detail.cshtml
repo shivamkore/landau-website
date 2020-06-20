@@ -1,4 +1,6 @@
 ﻿@using ZtherApiIntegration.Models.Detail
+@using ZtherApiIntegration.Common
+
 @model DetailModel
 
 <!-- BazaarVoice schema.org Markup -->
@@ -83,11 +85,12 @@
 
     // Power Reviews script for rendering review review snippet, review display and question display.
     POWERREVIEWS.display.render({
-        api_key: '@System.Configuration.ConfigurationManager.AppSettings["Power-Reviews-API-Key"]',
-        locale: 'en_US',
-        merchant_group_id: '@System.Configuration.ConfigurationManager.AppSettings["Power-Reviews-Merchant-Group-Id"]',
-        merchant_id: '@System.Configuration.ConfigurationManager.AppSettings["Power-Reviews-Merchant-Id"]',
-        page_id: '@Model.ProductDetail.Code',
+        api_key: '@Model.PowerReview.API_Key',
+        locale: '@Model.PowerReview.Locale',
+        merchant_group_id: '@Model.PowerReview.Merchant_Group_Id',
+        merchant_id: '@Model.PowerReview.Merchant_Id',
+        page_id: '@Model.PowerReview.ProductCode',
+        review_wrapper_url: '@Model.PowerReview.Write_Review_URL',
         components: {
             ReviewSnippet: 'pr-reviewsnippet',
             ReviewDisplay: 'pr-reviewdisplay',

@@ -131,6 +131,9 @@ namespace ZtherApiIntegration.Controllers
             ViewBag.CanonicalUrl = UrlBuilder.BuildCanonicalProductDetailUrl(model.ProductDetail.Code, model.ProductDetail.Name);
             ViewBag.IsProductDetail = true;
 
+            // Building and assigning Power Review Model.
+            model.PowerReview = CommonService.GetPowerReviewModel(model.ProductDetail.Code);
+
             return View(PathFromView("Detail"), model);
         }
 

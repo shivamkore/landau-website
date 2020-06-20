@@ -60,11 +60,11 @@
 
         function GetCategoryItem(productCode, index) {
             return {
-                locale: 'en_US',
-                merchant_group_id: '@System.Configuration.ConfigurationManager.AppSettings["Power-Reviews-Merchant-Group-Id"]',
+                locale: '@Model.PowerReview.Locale',
+                merchant_group_id: '@Model.PowerReview.Merchant_Group_Id',
                 page_id: productCode,
-                merchant_id: '@System.Configuration.ConfigurationManager.AppSettings["Power-Reviews-Merchant-Id"]',
-                api_key: '@System.Configuration.ConfigurationManager.AppSettings["Power-Reviews-API-Key"]',
+                merchant_id: '@Model.PowerReview.Merchant_Id',
+                api_key: '@Model.PowerReview.API_Key',
                 components: {
                     CategorySnippet: 'pr-star-rating-' + index
                 }

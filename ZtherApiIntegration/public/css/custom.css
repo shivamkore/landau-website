@@ -161,3 +161,9 @@
 .pr-star-rating {
     padding: 10px 0;
 }
+
+.pr-wrapper {
+    max-width: 900px;
+    margin: auto;
+    padding: 30px;
+}

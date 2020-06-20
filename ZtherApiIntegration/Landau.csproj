@@ -270,6 +270,7 @@
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\ProductDetailSeoRoute.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="Common\CommonService.cs" />
     <Compile Include="Common\GoogleMap\AcceptFormat.cs" />
     <Compile Include="Common\GoogleMap\Entities\Address.cs" />
     <Compile Include="Common\GoogleMap\Entities\GeocodingEntity.cs" />
@@ -396,6 +397,7 @@
     <Compile Include="Models\Catalog\SliderTextModel.cs" />
     <Compile Include="Models\Detail\ProductVideoModel.cs" />
     <Compile Include="Models\Favorites\FavoritesEmailModel.cs" />
+    <Compile Include="Models\PowerReviewModel.cs" />
     <Compile Include="Models\SeoModel.cs" />
     <Compile Include="Models\StateModel.cs" />
     <Compile Include="Models\Detail\ColorsAndSizesModel.cs" />
@@ -1424,6 +1426,7 @@
     <Content Include="Views\Shared\_Rewards.cshtml" />
     <Content Include="Views\Rewards\Index.cshtml" />
     <Content Include="Views\Scholarship\Index.cshtml" />
+    <Content Include="Views\WriteReview.cshtml" />
     <None Include="Web.Release-Staging.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -1431,7 +1434,6 @@
   <ItemGroup>
     <Folder Include="App_Code\" />
     <Folder Include="App_Data\" />
-    <Folder Include="Views\Home\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="packages.config">

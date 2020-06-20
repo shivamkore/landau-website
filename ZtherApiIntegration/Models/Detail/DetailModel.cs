@@ -23,6 +23,8 @@ namespace ZtherApiIntegration.Models.Detail
 
         public BreadcrumbModel Breadcrumb { get; set; }
 
+        public PowerReviewModel PowerReview { get; set; }
+
         public string NextProductUrl { get; set; }
         public string PreviousProductUrl { get; set; }
 

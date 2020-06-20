@@ -1,0 +1,29 @@
+﻿@using ZtherApiIntegration.Models
+
+@model  PowerReviewModel
+
+
+<div class="pr-wrapper">
+
+    <div id="pr-write">
+        <script src='//ui.powerreviews.com/stable/4.0/ui.js'></script>
+
+        <script>
+          POWERREVIEWS.display.render({
+              api_key: '@Model.API_Key',
+              locale: '@Model.Locale',
+              merchant_group_id: '@Model.Merchant_Group_Id',
+              merchant_id: '@Model.Merchant_Id',
+              page_id: '@Model.ProductCode',
+              //page_id_variant: '<Variant>', //only required if specifying a Page ID variant
+              on_submit:function(config, data){
+                   window.scrollTo(0,0);
+      	        },
+              components: {
+                Write: 'pr-write'
+              }
+            });
+        </script>
+    </div>
+
+</div>
