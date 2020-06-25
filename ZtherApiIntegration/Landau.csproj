@@ -710,6 +710,10 @@
     <Content Include="public\images\promotions\scholarship_2018_mobile.jpg" />
     <Content Include="public\images\promotions\scholarship_desktop.jpg" />
     <Content Include="public\images\promotions\scholarship_mobile1.jpg" />
+    <Content Include="public\images\review\data_star_review_100.svg" />
+    <Content Include="public\images\review\data_star_review_25.svg" />
+    <Content Include="public\images\review\data_star_review_50.svg" />
+    <Content Include="public\images\review\data_star_review_75.svg" />
     <Content Include="public\images\videos\16-LAND-0145_SP17_FOB_Stripes_DVD.mpg" />
     <Content Include="public\images\videos\FOB Snippet play screens.jpg" />
     <Content Include="public\images\videos\FOB-Video-Playscreen_Desktop.jpg" />

@@ -26,7 +26,6 @@
                         <div class="footer">
                             <div class="text">@aProd.Name</div>
                             <div class="number">@aProd.Code</div>
-                            <div id="@String.Concat("pr-star-rating-", j.ToString())" class="pr-star-rating"></div>
                         </div>
                     </a>
                 </div>
@@ -50,42 +49,3 @@
         @Html.Partial("~/Views/Partials/Catalog/_PaginationPartial.cshtml", Model.ProductList.Pagination)
     </div>
 </div>
-
-@* Power Review scripts for rendering category star review  rating. *@
-<script type="text/javascript">
-
-    $(function () {
-
-        var arrayOfCategorySnippet = [];
-
-        function GetCategoryItem(productCode, index) {
-            return {
-                locale: '@Model.PowerReview.Locale',
-                merchant_group_id: '@Model.PowerReview.Merchant_Group_Id',
-                page_id: productCode,
-                merchant_id: '@Model.PowerReview.Merchant_Id',
-                api_key: '@Model.PowerReview.API_Key',
-                components: {
-                    CategorySnippet: 'pr-star-rating-' + index
-                }
-            };
-        }
-
-        var rowsProductList = @Html.Raw(Newtonsoft.Json.JsonConvert.SerializeObject(Model.ProductList.Products));
-
-        if (rowsProductList.length > 0) {
-
-            var arrayOfCategorySnippet = [];
-
-            for (var x = 0; x < rowsProductList.length; x++) {
-
-                var code = rowsProductList[x].Code;
-
-                arrayOfCategorySnippet.push(GetCategoryItem(code, x));
-            }
-
-            POWERREVIEWS.display.render(arrayOfCategorySnippet);
-        }
-    });
-
-</script>

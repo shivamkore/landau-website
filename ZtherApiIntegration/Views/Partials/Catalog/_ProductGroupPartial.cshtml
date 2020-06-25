@@ -13,7 +13,7 @@
                     <img class="product_img" srcset="@aProd.Image" alt="@aProd.Name" />
                     @if (aProd.IsNew)
                     {
-                    <div class="new_tag"></div>
+                        <div class="new_tag"></div>
                     }
                     else if (aProd.HasNewColors)
                     {
@@ -23,15 +23,14 @@
                 <div class="footer">
                     <div class="text">@aProd.Name</div>
                     <div class="number">@aProd.Code</div>
-                    <div id="@String.Concat("pr-star-rating-", i.ToString())" class="pr-star-rating"></div>
                 </div>
             </a>
         </div>
 
         if (i == 1 && Model.ProductList.Products.Count > 2)
         {
-            @:</div>
-            @:<div class="mobile_row">
+        @:</div>
+        @:<div class="mobile_row">
         }
     }
 </div>
