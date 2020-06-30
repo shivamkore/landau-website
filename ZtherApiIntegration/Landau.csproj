@@ -459,6 +459,10 @@
     <Content Include="public\css\loyalty.min.css">
       <DependentUpon>loyalty.css</DependentUpon>
     </Content>
+    <Content Include="public\css\pr_overrides.css" />
+    <Content Include="public\css\pr_overrides.min.css">
+      <DependentUpon>pr_overrides.css</DependentUpon>
+    </Content>
     <Content Include="public\css\rewards.css">
       <DependentUpon>rewards.less</DependentUpon>
     </Content>

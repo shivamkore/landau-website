@@ -3,7 +3,6 @@
 
 @model DetailModel
 
-<!-- BazaarVoice schema.org Markup -->
 <div itemscope itemtype="https://schema.org/Product">
 
     <div id="detail_page">
@@ -91,6 +90,7 @@
         merchant_id: '@Model.PowerReview.Merchant_Id',
         page_id: '@Model.PowerReview.ProductCode',
         review_wrapper_url: '@Model.PowerReview.Write_Review_URL',
+        style_sheet: '@Model.PowerReview.StyleSheet',
         components: {
             ReviewSnippet: 'pr-reviewsnippet',
             ReviewDisplay: 'pr-reviewdisplay',

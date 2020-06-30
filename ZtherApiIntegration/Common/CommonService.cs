@@ -22,6 +22,7 @@ namespace ZtherApiIntegration.Common
                 API_Key = ConfigurationManager.AppSettings["Power-Reviews-API-Key"],
                 Merchant_Id = ConfigurationManager.AppSettings["Power-Reviews-Merchant-Id"],
                 Merchant_Group_Id = ConfigurationManager.AppSettings["Power-Reviews-Merchant-Group-Id"],
+                StyleSheet = ConfigurationManager.AppSettings["Power-Reviews-StyleSheet"],
                 Write_Review_URL = writeReviewUrl
             };
         }

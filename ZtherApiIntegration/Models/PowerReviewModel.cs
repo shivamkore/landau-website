@@ -13,5 +13,6 @@ namespace ZtherApiIntegration.Models
         public string Merchant_Id { get; set; }
         public string Merchant_Group_Id { get; set; }
         public string Write_Review_URL { get; set; }
+        public string StyleSheet { get; set; }
     }
 }

@@ -157,32 +157,3 @@
     opacity: 1;
     transition-delay: 0s; 
 }
-
-.pr-star-rating {
-    padding: 10px 0;
-}
-
-.pr-wrapper {
-    max-width: 900px;
-    margin: auto;
-    padding: 30px;
-}
-
-.pr-ratings-histogram-barValue {
-    background: #00529c !important;
-}
-
-.p-w-r .pr-star-v4-25-filled {
-    background-image: url("/public/images/review/data_star_review_25.svg") !important;
-}
-
-.p-w-r .pr-star-v4-50-filled {
-    background-image: url("/public/images/review/data_star_review_50.svg") !important;
-}
-
-.p-w-r .pr-star-v4-75-filled {
-    background-image: url("/public/images/review/data_star_review_75.svg") !important;
-}
-.p-w-r .pr-star-v4-100-filled {
-    background-image: url("/public/images/review/data_star_review_100.svg") !important;
-}
