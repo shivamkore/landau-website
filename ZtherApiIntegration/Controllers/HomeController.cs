@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
+using ZtherApiIntegration.Common;
 using ZtherApiIntegration.Models.Catalog;
 
 namespace ZtherApiIntegration.Controllers
@@ -23,6 +24,15 @@ namespace ZtherApiIntegration.Controllers
         public ActionResult Index(string zipCode)
         {
             return Redirect(Common.UrlBuilder.BuildFullUrl(Common.UrlEnum.WHERE_TO_BUY) + "?filter=" + zipCode);
+        }
+
+        [HttpGet]
+        [Route("write-a-review")]
+        public ActionResult WriteReview(string pr_page_id)
+        {
+            var model = CommonService.GetPowerReviewModel(pr_page_id);
+
+            return View(PathFromView("WriteReview"), model);
         }
     }
 }

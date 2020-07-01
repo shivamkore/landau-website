@@ -270,6 +270,7 @@
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\ProductDetailSeoRoute.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="Common\CommonService.cs" />
     <Compile Include="Common\GoogleMap\AcceptFormat.cs" />
     <Compile Include="Common\GoogleMap\Entities\Address.cs" />
     <Compile Include="Common\GoogleMap\Entities\GeocodingEntity.cs" />
@@ -396,6 +397,7 @@
     <Compile Include="Models\Catalog\SliderTextModel.cs" />
     <Compile Include="Models\Detail\ProductVideoModel.cs" />
     <Compile Include="Models\Favorites\FavoritesEmailModel.cs" />
+    <Compile Include="Models\PowerReviewModel.cs" />
     <Compile Include="Models\SeoModel.cs" />
     <Compile Include="Models\StateModel.cs" />
     <Compile Include="Models\Detail\ColorsAndSizesModel.cs" />
@@ -456,6 +458,10 @@
     </Content>
     <Content Include="public\css\loyalty.min.css">
       <DependentUpon>loyalty.css</DependentUpon>
+    </Content>
+    <Content Include="public\css\pr_overrides.css" />
+    <Content Include="public\css\pr_overrides.min.css">
+      <DependentUpon>pr_overrides.css</DependentUpon>
     </Content>
     <Content Include="public\css\rewards.css">
       <DependentUpon>rewards.less</DependentUpon>
@@ -708,6 +714,10 @@
     <Content Include="public\images\promotions\scholarship_2018_mobile.jpg" />
     <Content Include="public\images\promotions\scholarship_desktop.jpg" />
     <Content Include="public\images\promotions\scholarship_mobile1.jpg" />
+    <Content Include="public\images\review\data_star_review_100.svg" />
+    <Content Include="public\images\review\data_star_review_25.svg" />
+    <Content Include="public\images\review\data_star_review_50.svg" />
+    <Content Include="public\images\review\data_star_review_75.svg" />
     <Content Include="public\images\videos\16-LAND-0145_SP17_FOB_Stripes_DVD.mpg" />
     <Content Include="public\images\videos\FOB Snippet play screens.jpg" />
     <Content Include="public\images\videos\FOB-Video-Playscreen_Desktop.jpg" />
@@ -766,6 +776,7 @@
     <Content Include="public\js\flexslider\fonts\webfonts\geo-semibold\eot\style_169898.eot" />
     <Content Include="public\js\flexslider\fonts\webfonts\geo-semibold\ttf\style_169898.ttf" />
     <Content Include="public\js\flexslider\fonts\webfonts\geo-semibold\woff\style_169898.woff" />
+    <None Include="Properties\PublishProfiles\landau-staging - ReadOnly - FTP1.pubxml" />
     <None Include="scripts\jquery-1.10.2-vsdoc.js" />
     <Content Include="scripts\jquery-1.10.2.js" />
     <Content Include="scripts\jquery-1.10.2.min.js" />
@@ -1423,6 +1434,7 @@
     <Content Include="Views\Shared\_Rewards.cshtml" />
     <Content Include="Views\Rewards\Index.cshtml" />
     <Content Include="Views\Scholarship\Index.cshtml" />
+    <Content Include="Views\WriteReview.cshtml" />
     <None Include="Web.Release-Staging.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -1430,7 +1442,6 @@
   <ItemGroup>
     <Folder Include="App_Code\" />
     <Folder Include="App_Data\" />
-    <Folder Include="Views\Home\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="packages.config">

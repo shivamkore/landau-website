@@ -1,7 +1,8 @@
 ﻿@using ZtherApiIntegration.Models.Detail
+@using ZtherApiIntegration.Common
+
 @model DetailModel
 
-<!-- BazaarVoice schema.org Markup -->
 <div itemscope itemtype="https://schema.org/Product">
 
     <div id="detail_page">
@@ -29,9 +30,10 @@
 
         </div>
 
-        <div data-bv-show="reviews" data-bv-productId="@Model.ProductDetail.Code.ToUpper()">@Html.Raw(ViewBag.OutputReviews)</div>
-        @*Review Highlights*@
-        <div data-bv-show="review_highlights" data-bv-productId="@Model.ProductDetail.Code"></div>
+        <!-- Power Reviews Detail Review & Question Display -->
+        <div id="pr-reviewdisplay"></div>
+        <div id="pr-questiondisplay"></div>
+
     </div>
 
 </div>
@@ -69,13 +71,31 @@
 
 <script src="public/js/logic/detail.js"></script>
 
+@* Power Reviews JS script. *@
+<script src="//ui.powerreviews.com/stable/4.0/ui.js"></script>
+
 <script type="text/javascript">
     setValues('@Model.ProductDetail.Code', '@Model.ProductDetail.DefaultColorCode', '@(Model.ColorsAndSizes.ProductCategorySizes.Count > 0 ? Model.ColorsAndSizes.ProductCategorySizes[0] : "")');
 </script>
 
 <script>
-    fbq('track', 'ViewContent');
-</script>
 
-<!-- load BazaarVoice Scripts -->
-<script type="text/javascript" src="@System.Configuration.ConfigurationManager.AppSettings["bv-js"].ToString()"></script>
+    fbq('track', 'ViewContent');
+
+    // Power Reviews script for rendering review review snippet, review display and question display.
+    POWERREVIEWS.display.render({
+        api_key: '@Model.PowerReview.API_Key',
+        locale: '@Model.PowerReview.Locale',
+        merchant_group_id: '@Model.PowerReview.Merchant_Group_Id',
+        merchant_id: '@Model.PowerReview.Merchant_Id',
+        page_id: '@Model.PowerReview.ProductCode',
+        review_wrapper_url: '@Model.PowerReview.Write_Review_URL',
+        style_sheet: '@Model.PowerReview.StyleSheet',
+        components: {
+            ReviewSnippet: 'pr-reviewsnippet',
+            ReviewDisplay: 'pr-reviewdisplay',
+            QuestionDisplay: 'pr-questiondisplay'
+        }
+    });
+
+</script>

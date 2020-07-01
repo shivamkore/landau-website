@@ -13,7 +13,7 @@
                     <img class="product_img" srcset="@aProd.Image" alt="@aProd.Name" />
                     @if (aProd.IsNew)
                     {
-                    <div class="new_tag"></div>
+                        <div class="new_tag"></div>
                     }
                     else if (aProd.HasNewColors)
                     {
@@ -29,8 +29,8 @@
 
         if (i == 1 && Model.ProductList.Products.Count > 2)
         {
-            @:</div>
-            @:<div class="mobile_row">
+        @:</div>
+        @:<div class="mobile_row">
         }
     }
 </div>

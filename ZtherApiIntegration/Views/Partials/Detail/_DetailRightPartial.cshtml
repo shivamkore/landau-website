@@ -19,9 +19,8 @@
     <h1 class="title" itemprop="name">@Model.ProductDetail.Name</h1>
     <div class="sku">@Model.ProductDetail.Code</div>
 
-    @*Summary Container goes above the fold near product name or image*@
-    <div data-bv-show="rating_summary" data-bv-productId="@Model.ProductDetail.Code"></div>
-   
+    <!--Power Reviews Star Rating -->
+    <div id="pr-reviewsnippet"></div>
 
     <!-- Section for Fit Display -->
     @if (Model.ProductDetail.FitRiseWaist.Trim().ToUpper() == "CLASSIC")

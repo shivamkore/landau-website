@@ -1,0 +1,219 @@
+﻿/**
+ * PowerReviews, Copyright 2020
+ * HEAD | 72afdf515 | 6/17/2020
+ */
+/*******************************************/
+/** POWER REVIEWS STYLE OVERRIDE TEMPLATE **/
+/*******************************************/
+
+/**
+ * The following high-level CSS selectors can be utilized
+ * to create a custom style theme for all PowerReviews 
+ * content.
+ *
+ * NOTE: If you wish to hide PowerReviews content,
+ * please contact your PowerReviews Client Success
+ * Representative.  
+ */
+
+.pr-wrapper {
+    max-width: 900px;
+    margin: auto;
+    padding: 30px;
+}
+
+#pr-review-display {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/**
+* TYPOGRAPHY
+* --------------------------------------------------
+* Global Color & Typography Definitions
+*/
+.p-w-r,
+.p-w-r span,
+.p-w-r p,
+.p-w-r h1,
+.p-w-r h2,
+.p-w-r h3,
+.p-w-r h4,
+.p-w-r h5,
+.p-w-r h6 {
+    font-family: Proxima N W01 Reg;
+}
+
+    .p-w-r a {
+        font-family: Proxima N W01 Reg;
+    }
+    
+    /**
+* FORM LABELS
+* --------------------------------------------------
+* .p-w-r .pr-control-label > span // Selector that targets all field labels.
+*/
+    .p-w-r .pr-control-label > span {
+    }
+
+    /**
+ * BUTTON GROUPS
+ * --------------------------------------------------
+ * .p-w-r .pr-btn // Selector that targets all buttons.
+ * .p-w-r .btn-toggle .pr-btn-default // Selector that targets all unselected toggle buttons.
+ * .p-w-r .btn-toggle .pr-btn-default.active // Selector that targets the selected toggle button.
+ * .p-w-r .pr-btn-add-tag-submit // Selector that targets the "Add" button that appears aside the custom tag text input field.
+ * .p-w-r .pr-btn-fileinput // Selector that targets the file input button.  
+ * .p-w-r .pr-btn-fileinput span // Selector that targets the file input button text.
+ * .p-w-r .pr-btn-delete // Selector that targets the image preview delete button.
+ */
+    .p-w-r .pr-btn {
+    }
+
+    .p-w-r .pr-btn-add-tag-submit {
+    }
+
+    .p-w-r .pr-btn-fileinput {
+    }
+
+        .p-w-r .pr-btn-fileinput span {
+        }
+
+    .p-w-r .pr-btn-delete {
+    }
+
+    /**
+* STARS
+* Rating Stars can be customized by overriding the 
+* background-image property of the 5 Star-related
+* CSS classes
+* --------------------------------------------------
+* .pr-star-v4-0-filled    // Custom star image - filled 0%
+* .pr-star-v4-25-filled   // Custom star image - filled 25%
+* .pr-star-v4-50-filled   // Custom star image - filled 50%
+* .pr-star-v4-75-filled   // Custom star image - filled 75%
+* .pr-star-v4-100-filled  // Custom star image - filled 100%
+*/
+    .pr-star-rating {
+        padding: 10px 0;
+    }
+
+    .p-w-r .pr-star-v4-0-filled {
+        /*background-image: url('./demo-star-0-filled.jpg');*/
+        height: 15px !important;
+        width: 15px !important;
+    }
+
+    .p-w-r .pr-star-v4-25-filled {
+        background-image: url("/public/images/review/data_star_review_25.svg") !important;
+        height: 15px !important;
+        width: 15px !important;
+    }
+
+    .p-w-r .pr-star-v4-50-filled {
+        background-image: url("/public/images/review/data_star_review_50.svg") !important;
+        height: 15px !important;
+        width: 15px !important;
+    }
+
+    .p-w-r .pr-star-v4-75-filled {
+        background-image: url("/public/images/review/data_star_review_75.svg") !important;
+        height: 15px !important;
+        width: 15px !important;
+    }
+
+    .p-w-r .pr-star-v4-100-filled {
+        background-image: url("/public/images/review/data_star_review_100.svg") !important;
+        height: 15px !important;
+        width: 15px !important;
+    }
+
+/**
+* BARS
+*/
+    .pr-ratings-histogram-barValue {
+        background: #00529c !important;
+    }
+
+    .pr-ratings-histogram-bar, .pr-ratings-histogram-barValue {
+        height: 18px !important;
+    }
+
+    /**
+* TEXT INPUTS
+* --------------------------------------------------
+* .p-w-r .pr-textinput  // Text Input Styles
+* .p-w-r .pr-textinput:focus // Focused Text Input Styles
+*/
+    .p-w-r .pr-textinput {
+    }
+
+        .p-w-r .pr-textinput:focus {
+        }
+
+    /**
+* TEXT AREAS
+* --------------------------------------------------
+* .p-w-r input[type="text"] // Text Area Styles
+* .p-w-r input[type="text"]:focus // Focused Text Area Styles
+*/
+    .p-w-r .pr-textarea {
+    }
+
+        .p-w-r .pr-textarea:focus {
+        }
+
+    /**
+* CHECKBOX/RADIO INPUT OPTION LABELS
+* --------------------------------------------------
+* .p-w-r .tag-label // Checkbox Radio Input Label Styles
+*/
+    .p-w-r .pr-tag-label {
+    }
+
+    /**
+* ERROR STATES
+* --------------------------------------------------
+* .p-w-r .pr-has-error .control-label span // Form Field Label Error State Styles
+* .p-w-r .pr-has-error .form-control // Text Input & Text Area Error State Styles
+* .p-w-r .pr-has-error input[type="text"]:focus // Focused Text Input & Text Area Error State Styles
+*/
+    .p-w-r .pr-has-error .pr-control-label span {
+    }
+
+    .p-w-r .pr-has-error .form-control {
+    }
+
+    .p-w-r .pr-has-error .pr-textinput:focus,
+    .p-w-r .pr-has-error .pr-textarea:focus {
+    }
+
+/**
+* MOBILE STYLES
+* --------------------------------------------------
+*/
+@media screen and (max-width: 767px) {
+    /**
+    * CHECKBOX/RADIO INPUT OPTION LABELS
+    * --------------------------------------------------
+    * .p-w-r .checkbox label, .p-w-r .radio label // Unselected Styles
+    * .p-w-r .checkbox label.checked, .p-w-r .radio label.checked // Selected Styles
+    */
+    .p-w-r .checkbox label,
+    .p-w-r .radio label {
+    }
+
+        .p-w-r .checkbox label.checked,
+        .p-w-r .radio label.checked {
+        }
+
+            .p-w-r .checkbox label.checked span,
+            .p-w-r .radio label.checked span {
+            }
+    /**
+    * TAG GROUP 'ADD ITEM' BUTTON
+    * --------------------------------------------------
+    */
+    .p-w-r .pr-btn-add-tag a {
+    }
+}

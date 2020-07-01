@@ -44,30 +44,6 @@ $(function () {
     
     addHandlerForSizes();
     
-    // BazaarVoice Event Registrations.
-    var productCode = $('div.sku').text();
-    
-    // BazaarVoice - register when user clicks the Buy Online.
-    $('#myModal').on('shown.bs.modal', function () {
-        BV.pixel.trackConversion({
-            "type": "button",
-            "label": "Buy Online",
-            "value": productCode
-        });
-    })
-
-    // BazaarVoice - register when user clicks the Buy In Store.
-    $('#buy_in_store').click(function () {
-        // BazaarVoice - load Conversion event and parameters
-        BV.pixel.trackConversion({
-            "type": "button",
-            "label": "Buy In Store",
-            "value": productCode
-        });
-
-        window.location.href = '/where-to-buy';
-    });
-
 });
 
 function refreshWidgetUrl(color, swatchType) {
