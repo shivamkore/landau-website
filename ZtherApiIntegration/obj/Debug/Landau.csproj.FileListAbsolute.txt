@@ -165,3 +165,4 @@ C:\Projects\Github\Landau-Web\ZtherApiIntegration\obj\Debug\Landau.csproj.CoreCo
 C:\Projects\Github\Landau-Web\ZtherApiIntegration\obj\Debug\Landau.csproj.CopyComplete
 C:\Projects\Github\Landau-Web\ZtherApiIntegration\obj\Debug\ZtherApiIntegration.dll
 C:\Projects\Github\Landau-Web\ZtherApiIntegration\obj\Debug\ZtherApiIntegration.pdb
+C:\Projects\Github\Landau-Web\ZtherApiIntegration\obj\Debug\Landau.csprojAssemblyReference.cache

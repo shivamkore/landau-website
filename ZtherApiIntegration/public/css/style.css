@@ -11754,7 +11754,8 @@ textarea {
 
                     #detail_page .detail_top > .left .img_container .thumbnail_container .thumbnail_img {
                         display: inline-block;
-                        margin: 0 9px
+                        margin: 0 9px;
+                        width: 10%;
                     }
 
                 #detail_page .detail_top > .left .img_container .zoom_hint_container {
@@ -11937,7 +11938,7 @@ textarea {
 
                     #detail_page .detail_top > .left .img_container .thumbnail_container .thumbnail_img {
                         margin: 0 5px;
-                        width: 20%
+                        width: 10%
                     }
 
                 #detail_page .detail_top > .left .img_container .zoom_hint_container {
