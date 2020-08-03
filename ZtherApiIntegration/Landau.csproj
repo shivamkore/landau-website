@@ -480,10 +480,10 @@
     <Content Include="public\images\collections\collections\introducing_proflex_640.jpg" />
     <Content Include="public\images\collections\collections\introducing_proflex_768.jpg" />
     <Content Include="public\images\collections\collections\introducing_proflex_990.jpg" />
-    <Content Include="public\images\collections\collections\prewashed.jpg" />
-    <Content Include="public\images\collections\collections\prewashed_640.jpg" />
-    <Content Include="public\images\collections\collections\prewashed_768.jpg" />
-    <Content Include="public\images\collections\collections\prewashed_990.jpg" />
+    <Content Include="public\images\collections\collections\women_proflex.jpg" />
+    <Content Include="public\images\collections\collections\women_proflex_640.jpg" />
+    <Content Include="public\images\collections\collections\women_proflex_768.jpg" />
+    <Content Include="public\images\collections\collections\women_proflex_990.jpg" />
     <Content Include="public\images\fit-guide\2012-large-1.jpeg" />
     <Content Include="public\images\fit-guide\2012-large-2.jpeg" />
     <Content Include="public\images\fit-guide\2012-large.jpeg" />
@@ -1553,7 +1553,9 @@
       <ErrorText>This project references NuGet package(s) that are missing on this computer. Enable NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
     </PropertyGroup>
     <Error Condition="!Exists('$(SolutionDir)\.nuget\NuGet.targets')" Text="$([System.String]::Format('$(ErrorText)', '$(SolutionDir)\.nuget\NuGet.targets'))" />
+    <Error Condition="!Exists('..\packages\BuildBundlerMinifier.3.2.449\build\BuildBundlerMinifier.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\BuildBundlerMinifier.3.2.449\build\BuildBundlerMinifier.targets'))" />
   </Target>
+  <Import Project="..\packages\BuildBundlerMinifier.3.2.449\build\BuildBundlerMinifier.targets" Condition="Exists('..\packages\BuildBundlerMinifier.3.2.449\build\BuildBundlerMinifier.targets')" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
        Other similar extension points exist, see Microsoft.Common.targets.
   <Target Name="BeforeBuild">

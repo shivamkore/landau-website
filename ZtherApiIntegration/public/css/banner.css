@@ -3,7 +3,8 @@
     display: inline-block;
     font-size: 17px;
     padding: 11px 0;
-    letter-spacing #homepage .home_slider .flexslider ul.slides li.home-slider-3 .content:.5px;
+    letter-spacing: 2px;
+    /*#homepage .home_slider .flexslider ul.slides li.home-slider-3 .content:.5px;*/ 
     font-family: Proxima N W01 Bold;
     text-transform: uppercase;
     padding: 11px 22px 11px 22px;
@@ -710,7 +711,7 @@
             top: 49%;
             left: 29%;
             width: 400px;
-            height: 300p
+            height: 300px
         }
 }
 

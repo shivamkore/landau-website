@@ -1616,6 +1616,7 @@ textarea {
 
 
 
+
 #collections .collections_container .inner .block.block6 .content .top {
     color: #000;
     position: absolute;
@@ -1623,6 +1624,7 @@ textarea {
     left: 275px;
     letter-spacing: .3em;
 }
+
 
 
 @media screen and (min-width:990px) and (max-width:1270px) {
@@ -1655,6 +1657,8 @@ textarea {
         font-size: 2.7em;
     }
 
+    
+
 
 
     #collections .collections_container .inner .block.block6 .content .top {
@@ -1666,6 +1670,7 @@ textarea {
         letter-spacing: .3em;
     }
 
+   
 
     #main_footer .container {
         padding: 0 43px
@@ -1773,6 +1778,7 @@ textarea {
         font-size: 4.2em;
     }
 
+   
 
 
     #collections .collections_container .inner .block.block6 .content .top {
@@ -1782,6 +1788,7 @@ textarea {
         left: 360px;
         font-size: 1.3em;
     }
+   
 
 
 
@@ -1887,6 +1894,7 @@ textarea {
         left: 40%;
         font-size: 8vw !important;
     }
+    
 
 
 
@@ -1898,6 +1906,7 @@ textarea {
         font-size: 2.9vw;
     }
 
+    
     #main_footer .container {
         padding: 0 24px
     }
@@ -7861,8 +7870,8 @@ textarea {
     }
 
     #collections .collections_container .inner .block.block2 .content .cta {
-        border-color: #9a9a9a;
-        color: #9a9a9a
+        border-color: #94d40b;
+        color: #94d40b
     }
 
         #collections .collections_container .inner .block.block2 .content .cta.cta-hover {
@@ -7870,6 +7879,9 @@ textarea {
             border-color: #fff !important;
             color: #9a9a9a !important
         }
+
+
+     
 
 #collections .collections_container .inner .block.block3 .overlay_img {
     background-image: url(/public/images/collections/collections/scrubzone.jpg)
@@ -7968,7 +7980,8 @@ textarea {
     }
 
 #collections .collections_container .inner .block.block6 .overlay_img {
-    background-image: url(/public/images/collections/collections/prewashed.jpg)
+    background-image: url(/public/images/collections/collections/women_proflex.jpg)
+    /* background-image: url(/public/images/collections/collections/prewashed.jpg) introducing_women_proflex.jpg*/
 }
 
 #collections .collections_container .inner .block.block6 .content .cta {
@@ -7981,8 +7994,8 @@ textarea {
 #collections .collections_container .inner .block.block6 .content .cta {
     /*border-color: #000;
     color: #000*/
-    border-color: #465776;
-    color: #465776;
+    border-color: #94d40b;
+    color: #94d40b;
 }
 
     #collections .collections_container .inner .block.block6 .content .cta.cta-hover {
@@ -7993,6 +8006,8 @@ textarea {
         border-color: #fff !important;
         color: #465776 !important;
     }
+
+
 
 #collections .collections_container .inner .block:nth-child(2n) {
     margin-right: 15px
@@ -8156,7 +8171,7 @@ textarea {
                 font-size: 4.5em;
                 line-height: .83em
             }
-
+        
         #collections .collections_container .inner .block.block3 .overlay_img {
             background-image: url(/public/images/collections/collections/scrubzone_990.jpg)
         }
@@ -8220,7 +8235,8 @@ textarea {
         }
 
         #collections .collections_container .inner .block.block6 .overlay_img {
-            background-image: url(/public/images/collections/collections/prewashed_990.jpg)
+            background-image: url(/public/images/collections/collections/women_proflex_990.jpg) 
+            /*background-image: url(/public/images/collections/collections/prewashed_990.jpg) introducing_women_proflex.jpg*/
         }
 
         #collections .collections_container .inner .block.block6 .content .cta {
@@ -8228,6 +8244,7 @@ textarea {
             margin-left: 100px;
             margin-right: 0;
         }
+      
 }
 
 @media only screen and (max-width:989px) {
@@ -8373,6 +8390,7 @@ textarea {
                     line-height: .9em
                 }
 
+        
         #collections .collections_container .inner .block.block3 .content {
             background-image: url(/public/images/collections/collections/scrubzone_768.jpg);
             padding-top: 78px;
@@ -8440,7 +8458,8 @@ textarea {
             }
 
         #collections .collections_container .inner .block.block6 .content {
-            background-image: url(/public/images/collections/collections/prewashed_768.jpg);
+            background-image: url(/public/images/collections/collections/women_proflex_768.jpg);
+            /*background-image: url(/public/images/collections/collections/prewashed_768.jpg); introducing_women_proflex_990.jpg*/
             padding-top: 142px
         }
 
@@ -8448,6 +8467,7 @@ textarea {
                 margin-top: 100px;
                 margin-left: 100px
             }
+      
 }
 
 @media only screen and (max-width:767px) {
@@ -8664,9 +8684,12 @@ textarea {
 
                 #collections .collections_container .inner .block.block2 .content .cta {
                     top: 63%;
-                    left: 16.2%;
+                    left: 65%;
                     margin-top: 0
                 }
+
+               
+
 
             #collections .collections_container .inner .block.block3 .content {
                 padding-top: 68.5%;
@@ -8766,7 +8789,8 @@ textarea {
 
 
             #collections .collections_container .inner .block.block6 .content {
-                background-image: url(/public/images/collections/collections/prewashed_640.jpg);
+                background-image: url(/public/images/collections/collections/women_proflex_640.jpg);
+                /* background-image: url(/public/images/collections/collections/prewashed_640.jpg); introducing_women_proflex*/
                 background-repeat: no-repeat;
                 padding-top: 68.5%
             }
@@ -8782,11 +8806,15 @@ textarea {
                 #collections .collections_container .inner .block.block6 .content .cta {
                     /*top: 54%;
                     left: 46%;*/
-                    top: 50%;
+                    top: 65%;
                     left: 8%;
                     margin-top: 0;
                     margin-left: 0
                 }
+
+           
+
+
 
             #collections .collections_container .inner .block:nth-child(n+4) {
                 margin-top: 6px

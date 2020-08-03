@@ -10,27 +10,31 @@
             <div class="inner">
                 <br /><br /><br />
                 <div class="title">Collections</div>
-                <a href="~/women/category/all-day">
-                    <div class="block5 block" @*style="height:420px;"*@>
+
+
+
+                <a href="@(UrlBuilder.BuildCollectionUrl("male","proflex"))">
+                    <div class="block2 block">
                         <div class="shadow"></div>
                         <div class="overlay_img"></div>
                         <div class="content">
-                            <div class="top">Comfort that lasts</div>
-                            <div class="title">All-day</div>
-                            <div class="cta">View More <span class="arrow">&#xe805;</span></div>
+                           
+                            <div class="top fit_text"><Br></div>
+                            <div class="title fit_text"><br></div>
+                            <div class="cta" style="margin-right: -180px;margin-left: auto;">Shop Now <span class="arrow" >&#xe805;</span></div>
                         </div>
                     </div>
                 </a>
-                <a href="~/women/category/pre-washed">
-                    <div class="block6 block" @*style="height:420px;"*@>
+                <a href="@(UrlBuilder.BuildCollectionUrl("women","proflex"))">
+                    <div class="block6 block">
                         <div class="shadow"></div>
                         <div class="overlay_img"></div>
                         <div class="content">
-                            @*<div class="top">Soft & sensational</div>
-        <div class="title">PRE-WASHED</div>
-        <div class="cta">Product Details <span class="arrow">&#xe805;</span></div>*@
-                            <div class="cta">Shop Now <span class="arrow">&#xe805;</span></div>
-                        </div>
+                            <div><br /><br /><br /></div>
+                            <div class="top fit_text"><Br></div>
+                            <div class="title fit_text"><br></div>
+                            <div class="cta" style="margin-right: 400px;margin-left: auto;">Shop Now <span class="arrow">&#xe805;</span></div>
+                        </div>-
                     </div>
                 </a>
                 <a href="@UrlBuilder.BuildCategoryUrl("male", UrlBuilder.CATALOG_TOPS)">
@@ -44,13 +48,13 @@
                         </div>
                     </div>
                 </a>
-                <a href="@(UrlBuilder.BuildCollectionUrl("women","proflex"))">
-                    <div class="block2 block">
+                <a href="@(UrlBuilder.BuildCollectionUrl("men","for-groups"))">
+                    <div class="block4 block" @*style="height: 620px;"*@>
                         <div class="shadow"></div>
                         <div class="overlay_img"></div>
                         <div class="content">
-                            <div class="top fit_text"><Br></div>
-                            <div class="title fit_text"><br></div>
+                            <div class="top fit_text">Landau</div>
+                            <div class="title fit_text">Groups</div>
                             <div class="cta">Shop Now <span class="arrow">&#xe805;</span></div>
                         </div>
                     </div>
@@ -78,14 +82,14 @@
                         </div>
                     </div>
                 </a>
-                <a href="@(UrlBuilder.BuildCollectionUrl("men","for-groups"))">
-                    <div class="block4 block" @*style="height: 620px;"*@>
+                <a href="~/women/category/all-day">
+                    <div class="block5 block" @*style="height:420px;"*@>
                         <div class="shadow"></div>
                         <div class="overlay_img"></div>
                         <div class="content">
-                            <div class="top fit_text">Landau</div>
-                            <div class="title fit_text">Groups</div>
-                            <div class="cta">Shop Now <span class="arrow">&#xe805;</span></div>
+                            <div class="top">Comfort that lasts</div>
+                            <div class="title">All-day</div>
+                            <div class="cta">View More <span class="arrow">&#xe805;</span></div>
                         </div>
                     </div>
                 </a>
