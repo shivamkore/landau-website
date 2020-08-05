@@ -762,6 +762,7 @@
     <Content Include="public\catalog.pdf" />
     <None Include="Properties\PublishProfiles\landau - FTP.pubxml" />
     <None Include="Properties\PublishProfiles\landau - ReadOnly - FTP.pubxml" />
+    <None Include="Properties\PublishProfiles\landau - ReadOnly - FTP1.pubxml" />
     <None Include="Properties\PublishProfiles\landau-dev - FTP.pubxml" />
     <None Include="Properties\PublishProfiles\landau-dev - ReadOnly - FTP.pubxml" />
     <None Include="Properties\PublishProfiles\landau-dev - Web Deploy.pubxml" />

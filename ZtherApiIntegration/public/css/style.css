@@ -1657,7 +1657,7 @@ textarea {
         font-size: 2.7em;
     }
 
-    
+
 
 
 
@@ -1670,7 +1670,7 @@ textarea {
         letter-spacing: .3em;
     }
 
-   
+
 
     #main_footer .container {
         padding: 0 43px
@@ -1778,7 +1778,7 @@ textarea {
         font-size: 4.2em;
     }
 
-   
+
 
 
     #collections .collections_container .inner .block.block6 .content .top {
@@ -1788,7 +1788,7 @@ textarea {
         left: 360px;
         font-size: 1.3em;
     }
-   
+
 
 
 
@@ -1894,7 +1894,7 @@ textarea {
         left: 40%;
         font-size: 8vw !important;
     }
-    
+
 
 
 
@@ -1906,7 +1906,7 @@ textarea {
         font-size: 2.9vw;
     }
 
-    
+
     #main_footer .container {
         padding: 0 24px
     }
@@ -2128,7 +2128,7 @@ textarea {
         opacity: .7
     }
 
-    #homepage #video_popup, #fitguide_page  #video_popup{
+    #homepage #video_popup, #fitguide_page #video_popup {
         display: none;
         width: 999px;
         height: 563px;
@@ -3532,6 +3532,7 @@ textarea {
         float: left;
     }
 }
+
 #homepage .home_slider .flexslider ul.slides li.home-slider-6 .content h2 {
     color: #425676;
     font-size: 20px;
@@ -3745,7 +3746,6 @@ textarea {
         }
 
         #homepage .home_slider .container .flexslider .content ul.slides li.home-slider-7 .content .cta-mobile img {
-            
             width: 40vw;
             display: block;
             position: relative
@@ -4870,7 +4870,6 @@ textarea {
 
 #homepage .categories .block5_6 .block6 {
     float: right;
-    
 }
 
 #homepage .categories .block6 h3 .detail {
@@ -7881,7 +7880,7 @@ textarea {
         }
 
 
-     
+
 
 #collections .collections_container .inner .block.block3 .overlay_img {
     background-image: url(/public/images/collections/collections/scrubzone.jpg)
@@ -8171,7 +8170,7 @@ textarea {
                 font-size: 4.5em;
                 line-height: .83em
             }
-        
+
         #collections .collections_container .inner .block.block3 .overlay_img {
             background-image: url(/public/images/collections/collections/scrubzone_990.jpg)
         }
@@ -8235,7 +8234,7 @@ textarea {
         }
 
         #collections .collections_container .inner .block.block6 .overlay_img {
-            background-image: url(/public/images/collections/collections/women_proflex_990.jpg) 
+            background-image: url(/public/images/collections/collections/women_proflex_990.jpg)
             /*background-image: url(/public/images/collections/collections/prewashed_990.jpg) introducing_women_proflex.jpg*/
         }
 
@@ -8244,7 +8243,6 @@ textarea {
             margin-left: 100px;
             margin-right: 0;
         }
-      
 }
 
 @media only screen and (max-width:989px) {
@@ -8390,7 +8388,7 @@ textarea {
                     line-height: .9em
                 }
 
-        
+
         #collections .collections_container .inner .block.block3 .content {
             background-image: url(/public/images/collections/collections/scrubzone_768.jpg);
             padding-top: 78px;
@@ -8467,7 +8465,6 @@ textarea {
                 margin-top: 100px;
                 margin-left: 100px
             }
-      
 }
 
 @media only screen and (max-width:767px) {
@@ -8688,7 +8685,7 @@ textarea {
                     margin-top: 0
                 }
 
-               
+
 
 
             #collections .collections_container .inner .block.block3 .content {
@@ -8812,7 +8809,7 @@ textarea {
                     margin-left: 0
                 }
 
-           
+
 
 
 
@@ -10907,6 +10904,7 @@ textarea {
             padding-right: 6px
         }
 
+    
     #detail_page .detail_top > .right > .title {
         font-family: Proxima N W01 Bold;
         font-size: 1.55em;
@@ -11151,8 +11149,8 @@ textarea {
 
         #detail_page .detail_top > .right .color_options_container .color_swatches {
             padding: 15px 5px 10px;
-            height: 54px;
-            overflow-y: hidden
+            height: 54px; 
+            overflow-y: visible /*changed from hidden to visible*/
         }
 
             #detail_page .detail_top > .right .color_options_container .color_swatches.opened {
@@ -11192,6 +11190,7 @@ textarea {
                     margin-top: 18px
                 }
 
+
                 #detail_page .detail_top > .right .color_options_container .color_swatches .swatch_container .select_circle {
                     opacity: 0;
                     position: absolute;
@@ -11225,17 +11224,24 @@ textarea {
             transition: opacity .25s ease-in-out
         }
 
-            #detail_page .detail_top > .right .color_options_container .more_colors.laptop, #detail_page .detail_top > .right .color_options_container .more_colors .less, #detail_page .detail_top > .right .color_options_container .more_colors.mobile, #detail_page .detail_top > .right .color_options_container .more_colors.tablet {
+             #detail_page .detail_top > .right .color_options_container .more_colors.laptop, #detail_page .detail_top > .right .color_options_container .more_colors .less, #detail_page .detail_top > .right .color_options_container .more_colors.mobile, #detail_page .detail_top > .right .color_options_container .more_colors.tablet {
                 display: none
             }
+           /* #detail_page .detail_top > .right .color_options_container .more_colors.laptop, #detail_page .detail_top > .right .color_options_container .more_colors.mobile, #detail_page .detail_top > .right .color_options_container .more_colors.tablet {
+                display: block;
+                visibility: visible
+            }*/
 
             #detail_page .detail_top > .right .color_options_container .more_colors:hover {
                 text-decoration: none;
                 opacity: .8
             }
 
-    #detail_page .detail_top > .right .sizes_container {
+   /* #detail_page .detail_top > .right .sizes_container {
         margin-top: 20px
+    }basu*/
+    #detail_page .detail_top > .right .sizes_container {
+        margin-top: 60px
     }
 
         #detail_page .detail_top > .right .sizes_container .title {
@@ -11247,6 +11253,10 @@ textarea {
             margin-top: 14px;
             font-size: 0
         }
+
+
+
+
 
             #detail_page .detail_top > .right .sizes_container .size_options_container .size_option {
                 font-size: 14px;
@@ -11832,6 +11842,8 @@ textarea {
                 padding: 0 5px 7px
             }
 
+
+
                 #detail_page .detail_top > .right .color_options_container .color_swatches .swatch_container {
                     margin-top: 13px
                 }
@@ -12003,6 +12015,8 @@ textarea {
                 font-size: 1.48em
             }
 
+
+
             #detail_page .detail_top > .right .sku {
                 font-size: 1.2em;
                 margin-top: 0
@@ -12107,8 +12121,12 @@ textarea {
                         display: block
                     }
 
-            #detail_page .detail_top > .right .sizes_container {
+             /*#detail_page .detail_top > .right .sizes_container {
                 margin-top: 19px
+            }*/
+
+            #detail_page .detail_top > .right .sizes_container {
+                margin-top: 200px
             }
 
                 #detail_page .detail_top > .right .sizes_container .title {
@@ -12118,6 +12136,7 @@ textarea {
                 #detail_page .detail_top > .right .sizes_container .size_options_container {
                     margin-top: 8px
                 }
+                
 
                     #detail_page .detail_top > .right .sizes_container .size_options_container .size_option {
                         height: 43px;
@@ -16830,7 +16849,7 @@ textarea {
         cursor: pointer
     }
 
-    /*#promotions_page .promo2 {
+/*#promotions_page .promo2 {
         height: 768px;
         background-position: 10%;
         background-repeat: no-repeat;
@@ -17067,10 +17086,10 @@ textarea {
     }
 }
 
-    #promotions_page #promo2 .content .cta-promo2 {
-        background-color: #00529C;
-        border-color: #00529C;
-    }
+#promotions_page #promo2 .content .cta-promo2 {
+    background-color: #00529C;
+    border-color: #00529C;
+}
 
     #promotions_page #promo2 .content .cta-promo2 .cta-text,
     #promotions_page #promo2 .content .cta-promo2 .cta-arrow {
@@ -22494,11 +22513,12 @@ textarea {
                     letter-spacing: .2em
                 }
 }
+
 #scholarship-container {
     margin: 0;
     background-color: #000000;
     font-family: Helvetica Neue Light, Helvetica Neue, Helvetica, Arial, sans-serif !important;
-    font-weight:700;
+    font-weight: 700;
 }
 
 #scholarship div {
@@ -22524,8 +22544,9 @@ textarea {
 }
 
     #scholarship-details .header {
-        text-align: center;        
+        text-align: center;
     }
+
     #scholarship-details .apply_now {
         text-align: center;
         padding-bottom: 20px;
@@ -22541,10 +22562,10 @@ textarea {
         width: 48%;
     }
 
-ul.markers li{
-    
+ul.markers li {
     list-style-type: square;
 }
+
 .row {
     height: 275px;
 }
@@ -22584,10 +22605,7 @@ ul.markers li{
     font-size: 48px;
     margin: 4px 2px;
     cursor: pointer;
-    position:center;
-   
-   
-
+    position: center;
 }
 
 
@@ -22599,17 +22617,19 @@ ul.markers li{
     #scholarship .mobile {
         display: block;
     }
+
     #scholarship-details ul li {
         margin-bottom: 6px;
     }
+
     #scholarship-details {
         padding-top: 15px;
         width: 90%;
     }
 
-    #scholarship-details .row{
-        margin-left: 0px;
-    }
+        #scholarship-details .row {
+            margin-left: 0px;
+        }
 
     .offers {
         width: 90%;
@@ -22631,9 +22651,8 @@ ul.markers li{
     }
 }
 
-@media only screen and (min-width: 768px){
+@media only screen and (min-width: 768px) {
     #collections .collections_container .inner .block {
         height: 420px;
     }
 }
-

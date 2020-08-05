@@ -161,13 +161,18 @@ $(function() {
         xDown = null;
     }
 
+    
+
     //More Colors Slider
-    $('.category_options_wrapper').on('click', '.more_colors', function(){
+    var currentTab1 = $('.category_options_wrapper .category_options_container.active');
+    $('.category_options_wrapper').trigger('click', '.more_colors', function () {
         $(this).children().toggle();
         $(this).siblings('.color_swatches').toggleClass('opened');
-        $('.category_options_wrapper').height(currentTab.height());
+        $('.category_options_wrapper').height(currentTab1.height());
+
     });
 
+   
     //Sizes selection
     $(".sizes_container").on('click', '.size_option', function() {
         if (!$(this).hasClass('selected')) {
