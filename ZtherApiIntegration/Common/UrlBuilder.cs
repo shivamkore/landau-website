@@ -15,7 +15,7 @@ namespace ZtherApiIntegration.Common
         WHERE_TO_BUY,
 
         [Description(UrlBuilder.WHERE_TO_BUY_INTL)]
-        WHERE_TO_BUY_INTL,
+        WHERE_TO_BUY_INTL,        
 
         [Description(UrlBuilder.SOLIDS)]
         SOLIDS,
@@ -80,6 +80,7 @@ namespace ZtherApiIntegration.Common
         public const string NEWS = "news";
         public const string WHERE_TO_BUY = "where-to-buy";
         public const string WHERE_TO_BUY_INTL = "where-to-buy-intl";
+       
         public const string SOLIDS = "solids";
         public const string PRINTS = "prints";
         public const string COLLECTIONS = "collections";
