@@ -32,7 +32,7 @@ $(function () {
 
         changeFavIcon(index < 0);
 
-        refreshWidgetUrl(color, swatchType);
+        //refreshWidgetUrl(color, swatchType);
         
         refreshImages($(this).data('color-code'));
     });
