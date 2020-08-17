@@ -25,6 +25,8 @@ namespace ZtherApiIntegration.Models.Detail
 
         public PowerReviewModel PowerReview { get; set; }
 
+        public VendorProductPageModel VendorProductPage { get; set; }
+
         public string NextProductUrl { get; set; }
         public string PreviousProductUrl { get; set; }
 

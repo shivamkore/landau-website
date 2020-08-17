@@ -1,14 +1,7 @@
 ﻿@using ZtherApiIntegration.Models.Detail
-@using ZtherApiIntegration.Common
+@using ZtherApiIntegration.Models;
 
 @model DetailModel
-
-@{ 
-    var api_endpoint = System.Configuration.ConfigurationManager.AppSettings["API-Endpoint"];
-    var brand_code = "LN";
-    var AllHeart_Id = 1;
-    var ScrubsAndBeyond_Id = 2;
-}
 
 <div>
 
@@ -46,7 +39,6 @@
 </div>
 
 <!-- Modal Dialog Box Start -->
-
 <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
     <div class="modal-dialog" role="document">
         <div class="modal-content">
@@ -58,24 +50,63 @@
                 <div id="widget-container">
                     <div id="et-widget">
                         <ul id="retailers">
-                            <li class="item Allheart.com" data-modelname=" 4161" data-ean="undefined" data-retailer="Allheart.com">
-                                <a target="_blank" href="@String.Format("{0}/brands/{1}/vendors/{2}/products/{3}", api_endpoint, brand_code, AllHeart_Id, Model.ProductDetail.Code)">
-                                    <img class="logo" src="https://where-to-buy.co/content/images/logos/allheart121x42.png" alt="Allheart.com">
-                                </a>
-                                <a class="btn btn-buynow" target="_blank" href="@String.Format("{0}/brands/{1}/vendors/{2}/products/{3}", api_endpoint, brand_code, AllHeart_Id, Model.ProductDetail.Code)">Buy Now</a>
-                            </li>
-                            <li class="item Scrubs and Beyond" data-modelname=" 4161" data-ean="undefined" data-retailer="Scrubs and Beyond">
-                                <a target="_blank" href="@String.Format("{0}/brands/{1}/vendors/{2}/products/{3}", api_endpoint, brand_code, ScrubsAndBeyond_Id, Model.ProductDetail.Code)">
-                                    <img class="logo" src="https://where-to-buy.co/content/images/logos/scrubsbeyond121x42.png" alt="Scrubs and Beyond">
-                                </a>
-                                <a class="btn btn-buynow" target="_blank" href="@String.Format("{0}/brands/{1}/vendors/{2}/products/{3}", api_endpoint, brand_code, ScrubsAndBeyond_Id, Model.ProductDetail.Code)">Buy Now</a>
-                            </li>
-                            <li class="item ScrubsOnCall.com" data-modelname=" 4161" data-ean="undefined" data-retailer="ScrubsOnCall.com">
-                                <a target="_blank" href="https://eagle-pos.com/scrubsOnCall/include/php/detail.php?item=@(Model.ProductDetail.Code)&vendor=LAN">
-                                    <img class="logo" src="https://where-to-buy.co/content/images/logos/scrubsoncall121x42.png" alt="ScrubsOnCall.com">
-                                </a>
-                                <a class="btn btn-buynow" target="_blank" href="https://eagle-pos.com/scrubsOnCall/include/php/detail.php?item=@(Model.ProductDetail.Code)&vendor=LAN">Buy Now</a>
-                            </li>
+                            <!-- AllHeart -->
+                            @if (Model.VendorProductPage.HasProductPage(Vendor.AllHeart))
+                            {
+                                <li class="item Allheart.com">
+                                    <a target="_blank" href="@Model.VendorProductPage.GetVendorProductPage(Vendor.AllHeart).ProductUrl">
+                                        <img class="logo" src="~/public/images/detail/vendors/logos/allheart.png" alt="Allheart.com">
+                                    </a>
+                                    <a class="btn btn-buynow" target="_blank" href="@Model.VendorProductPage.GetVendorProductPage(Vendor.AllHeart).ProductUrl">Buy Now</a>
+                                </li>
+                            }
+                            else
+                            {
+                                <li class="item Allheart.com">
+                                    <a target="_blank" href="#">
+                                        <img class="logo" src="~/public/images/detail/vendors/logos/allheart_grey.png" alt="Allheart.com">
+                                    </a>
+                                    <a class="btn btn-buynow" target="_blank" href="#" disabled>Buy Now</a>
+                                </li>
+                            }
+                            <!-- Scrubs&Beyond -->
+                            @if (Model.VendorProductPage.HasProductPage(Vendor.ScrubsAndBeyond))
+                            {
+                                <li class="item Scrubs and Beyond">
+                                    <a target="_blank" href="@Model.VendorProductPage.GetVendorProductPage(Vendor.ScrubsAndBeyond).ProductUrl">
+                                        <img class="logo" src="~/public/images/detail/vendors/logos/scrubsbeyond.png" alt="Scrubs and Beyond">
+                                    </a>
+                                    <a class="btn btn-buynow" target="_blank" href="@Model.VendorProductPage.GetVendorProductPage(Vendor.ScrubsAndBeyond).ProductUrl">Buy Now</a>
+                                </li>
+                            }
+                            else
+                            {
+                                <li class="item Scrubs and Beyond">
+                                    <a target="_blank" href="#">
+                                        <img class="logo" src="~/public/images/detail/vendors/logos/scrubsbeyond_grey.png" alt="Scrubs and Beyond">
+                                    </a>
+                                    <a class="btn btn-buynow" target="_blank" href="#" disabled>Buy Now</a>
+                                </li>
+                            }
+                            <!-- ScrubsOnCall -->
+                            @if (Model.VendorProductPage.HasProductPage(Vendor.ScrubsOnCall))
+                            {
+                                <li class="item ScrubsOnCall.com">
+                                    <a target="_blank" href="@Model.VendorProductPage.GetVendorProductPage(Vendor.ScrubsOnCall).ProductUrl">
+                                        <img class="logo" src="~/public/images/detail/vendors/logos/scrubsoncall.png" alt="ScrubsOnCall.com">
+                                    </a>
+                                    <a class="btn btn-buynow" target="_blank" href="@Model.VendorProductPage.GetVendorProductPage(Vendor.ScrubsOnCall).ProductUrl">Buy Now</a>
+                                </li>
+                            }
+                            else
+                            {
+                                <li class="item ScrubsOnCall.com">
+                                    <a target="_blank" href="#">
+                                        <img class="logo" src="~/public/images/detail/vendors/logos/scrubsoncall_grey.png" alt="ScrubsOnCall.com">
+                                    </a>
+                                    <a class="btn btn-buynow" target="_blank" href="#" disabled>Buy Now</a>
+                                </li>
+                            }
                         </ul>
                     </div>
                 </div>
