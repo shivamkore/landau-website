@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using ZtherApiIntegration.API.Managers.Review;
+using ZtherApiIntegration.API.Managers.Vendor;
 using ZtherApiIntegration.API.Managers.WhereToBuy;
 using ZtherApiIntegration.Models;
 using ZtherApiIntegration.Models.Detail;
@@ -24,6 +25,9 @@ namespace ZtherApiIntegration.API.Managers.Detail
                 model.ProductImages = GetProductImageModelByColor(code, model.ProductDetail.DefaultColorCode, client);
                 model.ProductVideos = GetProductVideoModel(code, client);
                 model.OnlineRetailers = OnlineRetailManager.GetAllBuyNow(brand, code);
+
+                var vendorManager = new VendorManager(brand, model.ProductDetail.Code);
+                model.VendorProductPage = vendorManager.VendorProductPageModel;
             }
 
             return model;
@@ -272,6 +276,6 @@ namespace ZtherApiIntegration.API.Managers.Detail
 
             return result;
         }
-
+        
     }
 }

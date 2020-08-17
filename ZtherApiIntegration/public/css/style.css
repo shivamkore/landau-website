@@ -22656,3 +22656,44 @@ ul.markers li {
         height: 420px;
     }
 }
+
+#et-widget {
+    max-width: 510px;
+    min-height: 270px;
+}
+
+#retailers {
+    list-style: none;
+    overflow: hidden;
+    margin: 0px;
+    padding: 20px 15px 0px 15px;
+    text-align: center;
+}
+
+    #retailers li.item {
+        width: 160px;
+        height: 160px;
+        margin: 0;
+        padding: 15px 19px;
+        float: left;
+    }
+
+    #retailers .logo {
+        display: block;
+        margin: 0 auto;
+    }
+
+    #retailers a img {
+        border: none;
+    }
+
+    #retailers .btn {
+        display: block;
+        margin: 18px auto 0 auto;
+        color: #fff;
+        text-decoration: none;
+        background: #666666;
+        padding: 7px 0px;
+        font-size: 12px;
+        text-transform: uppercase;
+    }
