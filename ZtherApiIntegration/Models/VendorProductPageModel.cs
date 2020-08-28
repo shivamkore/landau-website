@@ -9,7 +9,8 @@ namespace ZtherApiIntegration.Models
     {
         AllHeart = 1,
         ScrubsAndBeyond = 2,
-        ScrubsOnCall = 3
+        ScrubsOnCall = 3,
+        A1Scrubs = 4
     }
 
     public class VendorProductPageModel

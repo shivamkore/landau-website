@@ -165,7 +165,6 @@ C:\LandauProjects\landau-website\ZtherApiIntegration\obj\Debug\Landau.csproj.Cop
 C:\LandauProjects\landau-website\ZtherApiIntegration\obj\Debug\ZtherApiIntegration.dll
 C:\LandauProjects\landau-website\ZtherApiIntegration\obj\Debug\ZtherApiIntegration.pdb
 C:\LandauProjects\landau-website\ZtherApiIntegration\bin\System.Web.Http.dll
-C:\LandauProjects\landau-website\ZtherApiIntegration\obj\Debug\Landau.csprojAssemblyReference.cache
 C:\Projects\Github\Landau-Web\ZtherApiIntegration\bin\ApplicationInsights.config
 C:\Projects\Github\Landau-Web\ZtherApiIntegration\bin\ZtherApiIntegration.dll.config
 C:\Projects\Github\Landau-Web\ZtherApiIntegration\bin\ZtherApiIntegration.dll
@@ -221,3 +220,4 @@ C:\Projects\Github\Landau-Web\ZtherApiIntegration\obj\Debug\Landau.csproj.CoreCo
 C:\Projects\Github\Landau-Web\ZtherApiIntegration\obj\Debug\Landau.csproj.CopyComplete
 C:\Projects\Github\Landau-Web\ZtherApiIntegration\obj\Debug\ZtherApiIntegration.dll
 C:\Projects\Github\Landau-Web\ZtherApiIntegration\obj\Debug\ZtherApiIntegration.pdb
+C:\LandauProjects\landau-website\ZtherApiIntegration\obj\Debug\Landau.csprojAssemblyReference.cache

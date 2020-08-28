@@ -69,6 +69,24 @@
                                     <a class="btn btn-buynow" target="_blank" href="#" disabled>Buy Now</a>
                                 </li>
                             }
+                            @if (Model.VendorProductPage.HasProductPage(Vendor.A1Scrubs))
+                            {
+                                <li class="item A1Scrubs.com">
+                                    <a target="_blank" href="@Model.VendorProductPage.GetVendorProductPage(Vendor.A1Scrubs).ProductUrl">
+                                        <img class="logo" src="~/public/images/detail/vendors/logos/a1scrubs.png" alt="A1Scrubs.com">
+                                    </a>
+                                    <a class="btn btn-buynow" target="_blank" href="@Model.VendorProductPage.GetVendorProductPage(Vendor.A1Scrubs).ProductUrl">Buy Now</a>
+                                </li>
+                            }
+                            else
+                            {
+                                <li class="item A1Scrubs.com">
+                                    <a target="_blank" href="#">
+                                        <img class="logo" src="~/public/images/detail/vendors/logos/a1scrubs_grey.png" alt="A1Scrubs.com">
+                                    </a>
+                                    <a class="btn btn-buynow" target="_blank" href="#" disabled>Buy Now</a>
+                                </li>
+                            }
                             <!-- Scrubs&Beyond -->
                             @if (Model.VendorProductPage.HasProductPage(Vendor.ScrubsAndBeyond))
                             {
