@@ -580,6 +580,8 @@
     <Content Include="public\images\home\category\newarrivals_bg_tablet1.jpg" />
     <Content Include="public\images\home\category\pinterest.png" />
     <Content Include="public\images\home\category\pinterest_logo.png" />
+    <Content Include="public\images\home\category\protective_bg.jpg" />
+    <Content Include="public\images\home\category\protective_bg_tablet.jpg" />
     <Content Include="public\images\home\category\twitter_logo.gif" />
     <Content Include="public\images\home\location_catalog\FA18_landau_catalog.png" />
     <Content Include="public\images\home\location_catalog\FL9_landau_catalog.png" />
