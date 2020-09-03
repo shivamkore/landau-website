@@ -4820,14 +4820,14 @@ textarea {
 
 @media screen and (max-width:989px) {
     #homepage .categories .block5_6 .block5 {
-        background-image: url(/public/images/home/category/protective_bg.jpg);
+        background-image: url(/public/images/home/category/protective_bg_mobile_lg.jpg);
         width: 338px
     }
 }
 
 @media screen and (max-width:767px) {
     #homepage .categories .block5_6 .block5 {
-        background-image: url(/public/images/home/category/protective_bg_tablet.jpg)
+        background-image: url(/public/images/home/category/protective_bg_mobile.jpg)
     }
 }
 
