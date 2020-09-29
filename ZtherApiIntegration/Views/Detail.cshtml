@@ -69,6 +69,7 @@
                                     <a class="btn btn-buynow" target="_blank" href="#" disabled>Buy Now</a>
                                 </li>
                             }
+                            <!-- A1Scrubs -->
                             @if (Model.VendorProductPage.HasProductPage(Vendor.A1Scrubs))
                             {
                                 <li class="item A1Scrubs.com">
@@ -83,6 +84,25 @@
                                 <li class="item A1Scrubs.com">
                                     <a target="_blank" href="#">
                                         <img class="logo" src="~/public/images/detail/vendors/logos/a1scrubs_grey.png" alt="A1Scrubs.com">
+                                    </a>
+                                    <a class="btn btn-buynow" target="_blank" href="#" disabled>Buy Now</a>
+                                </li>
+                            }
+                            <!-- MedicalScrubsCollection -->
+                            @if (Model.VendorProductPage.HasProductPage(Vendor.MedicalScrubsCollection))
+                            {
+                                <li class="item MedicalScrubsCollection.com">
+                                    <a target="_blank" href="@Model.VendorProductPage.GetVendorProductPage(Vendor.MedicalScrubsCollection).ProductUrl">
+                                        <img class="logo" src="~/public/images/detail/vendors/logos/medicalscrubscollection.png" alt="MedicalScrubs.com">
+                                    </a>
+                                    <a class="btn btn-buynow" target="_blank" href="@Model.VendorProductPage.GetVendorProductPage(Vendor.MedicalScrubsCollection).ProductUrl">Buy Now</a>
+                                </li>
+                            }
+                            else
+                            {
+                                <li class="item MedicalScrubsCollection.com">
+                                    <a target="_blank" href="#">
+                                        <img class="logo" src="~/public/images/detail/vendors/logos/medicalscrubscollection_grey.png" alt="MedicalScrubsCollection.com">
                                     </a>
                                     <a class="btn btn-buynow" target="_blank" href="#" disabled>Buy Now</a>
                                 </li>

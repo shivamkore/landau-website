@@ -441,6 +441,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="BMHCC_Clinical_Apparel_Catalog_09.20.pdf" />
+    <Content Include="BMHCC_Non_Clinical_Apparel_Catalog_09.20.pdf" />
+    <Content Include="BMHCC_Order_Form_PhoneFaxEmailWeb_09.20.pdf" />
     <None Include="container.htm" />
     <Content Include="Content\bootstrap-theme.css" />
     <Content Include="Content\bootstrap-theme.min.css" />
@@ -483,6 +486,14 @@
     <Content Include="public\images\collections\collections\introducing_proflex_640.jpg" />
     <Content Include="public\images\collections\collections\introducing_proflex_768.jpg" />
     <Content Include="public\images\collections\collections\introducing_proflex_990.jpg" />
+    <Content Include="public\images\collections\collections\landau_essentials_for_men.jpg" />
+    <Content Include="public\images\collections\collections\landau_essentials_for_men_640.jpg" />
+    <Content Include="public\images\collections\collections\landau_essentials_for_men_768.jpg" />
+    <Content Include="public\images\collections\collections\landau_essentials_for_men_990.jpg" />
+    <Content Include="public\images\collections\collections\landau_essentials_for_women.jpg" />
+    <Content Include="public\images\collections\collections\landau_essentials_for_women_640.jpg" />
+    <Content Include="public\images\collections\collections\landau_essentials_for_women_768.jpg" />
+    <Content Include="public\images\collections\collections\landau_essentials_for_women_990.jpg" />
     <Content Include="public\images\collections\collections\women_proflex.jpg" />
     <Content Include="public\images\collections\collections\women_proflex_640.jpg" />
     <Content Include="public\images\collections\collections\women_proflex_768.jpg" />
@@ -492,10 +503,13 @@
     <Content Include="public\images\detail\vendors\logos\a1scrubs_grey.png" />
     <Content Include="public\images\detail\vendors\logos\allheart.png" />
     <Content Include="public\images\detail\vendors\logos\allheart_grey.png" />
+    <Content Include="public\images\detail\vendors\logos\medicalscrubscollection.png" />
+    <Content Include="public\images\detail\vendors\logos\medicalscrubscollection_grey.png" />
     <Content Include="public\images\detail\vendors\logos\scrubsbeyond.png" />
     <Content Include="public\images\detail\vendors\logos\scrubsbeyond_grey.png" />
     <Content Include="public\images\detail\vendors\logos\scrubsoncall.png" />
     <Content Include="public\images\detail\vendors\logos\scrubsoncall_grey.png" />
+    <Content Include="public\images\detail\vendors\medicalscrubscollection.png" />
     <Content Include="public\images\fit-guide\2012-large-1.jpeg" />
     <Content Include="public\images\fit-guide\2012-large-2.jpeg" />
     <Content Include="public\images\fit-guide\2012-large.jpeg" />
